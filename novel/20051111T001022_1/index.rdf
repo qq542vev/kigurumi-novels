@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:03:11+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:title xml:lang="ja">僕の天使「マミア」番外編</dcterms:title>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2005-11-11T00:10:22+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2005-11-11T23:22:07+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">2407</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#234">
+				<rdfs:label>234</rdfs:label>
+				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-11-11T00:10:22+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">僕の天使「マミア」番外編
+
+これは、マミアになった男性のお話です、彼の名は仮にアキオとしておきましょう、
+アキオは大学生です、そんなアキオがなぜマミアになったのか、アキオと亮は高校から
+の友達で、実はアキオは亮が好きだったのです。
+
+だけど、同姓の愛、ともにすごした学校生活ではとてもそんなに大げさにはできなかった
+のです、高校卒業して卒業式の日にアキオは思い切って亮に告白しました。
+
+亮「なんだよ、お前かよ、てっきり女の子かと思ったぜ、こんなかわいらしい手紙靴箱においとくなよ
+勘違いするじゃんか。」
+アキオ「きみならそう思うだろうってね、女の子のような手紙ならきっと来るんじゃないかって
+思ってだしたんだ。」
+亮「ったく、お前って前から女々しかったもんな、で、なんか用？」
+アキオ「僕さ、実は・・・実は前から、高校はいったときから、きみのこと気になってたんだ。」
+亮「は？マジでいってんの？」
+アキオ「うん、こんなことうそでいえるわけないでしょ、だからこれからも一緒にいたいんだ。」
+亮「って、おい、お前気は確かか？俺も男、お前も男じゃねえか？おかしくないか？」
+アキオ「世間からみれば確かに変かもしれない、でも、僕の気持ちはマジなんだ。」
+亮「おいおい、冗談は顔だけにしといてくれ、俺は男の男になるつもりは毛頭ないから
+大体、お前、大学いくんだろ？」
+アキオ「うん。」
+亮「俺は浪人つーか、プーだしさ。」
+アキオ「だから、どうだってゆうのさ、一緒に暮らそうよ。」
+亮「お前、バカじゃねーか、さっきもいっただろ、俺は男の男にはならないって。」
+アキオ「そうじゃないよ、２人で暮らせば少しは生活楽になるしさ、僕もバイトするから、ね？」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#235">
+				<rdfs:label>235</rdfs:label>
+				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-11-11T00:21:14+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">亮「いや、そうゆう問題じゃなくて、俺は一人でやりたいの、わかる？どうせ同姓するなら
+かわいい女の子とがいよ。」
+アキオ「女なんて信じないほうがいよ、亮くんは女の怖さをわかってないから、そう
+やすやすといえるんだ。」
+亮「じゃあなんだ、お前は女のなにがわかるってゆうんだ？」
+アキオ「僕のはわかる女のしたたかさと怖さってものが、うちの姉貴や妹みてたら
+わかるさ。」
+亮「そういや、お前ん家、お前以外女だもんな、しかもかなりの美人姉妹だしな。」
+アキオ「かわいい顔してやってることはひどいよ、だからわかるんだ。」
+亮「そりゃあ、お前の家だけだろ、女はみんなそうじゃねえ、お前ん家が異常なだけだ。」
+アキオ「だから、一緒にやってこうよ。」
+亮「いやだ、気持ち悪いことゆうなよ、じゃあな、俺もそんなに暇じゃねえんだ、悪く思うなよ。」
+
+そういって、亮は逃げるように、その場をさってしまった、あとの残ったアキオは泣いていた
+どうしても亮といたい、少しだけでいいから、それからしばらくしてアキオは亮の行動を悪い
+とは思いつつも調べた。
+彼には独特の趣味がある、美少女のフィギュア集めだ、いろんなコレクションをもって
+いるらしい、高校時代にも「あ〜一回でいいから等身大のかわいいフィギュアを抱きしめてみて〜」
+といってたのだ。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#236">
+				<rdfs:label>236</rdfs:label>
+				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-11-11T00:36:58+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">だとしたら、亮に接するチャンスはそこしかない、アキオはこの日のために
+貯金したお金と独自のネットワークであるところから、亮好みの美少女着ぐるみ
+を手にいれたのだ。
+
+着ぐるみではないため、アキオ以外にも関係者がいる、とあるビルの一室、アキオと
+もう一人の協力者、しかも、あおれは女性である。
+女「いい？あなたに与えられた時間は３日だけ、それをすぎちゃだめ、わかってる？」
+アキオ「はい、もうお金もなくなりましたし、この３日ですべてをだすつもりで
+やります。」
+女「そう、その息よ、しっかりがんばんなさいね、でも、最初からこのスーツに
+適応させるのは難しいわ、まずは、女性としても感覚を養うこおが先決よ、明日から
+あなたに以下のトレーニングをやってもらうわ、覚悟しなさい。」
+
+後半につづく</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#238">
+				<rdfs:label>238</rdfs:label>
+				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-11-11T16:04:12+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">着ぐるみではないため、アキオ以外にも関係者がいる、とあるビルの一室、アキオと
+もう一人の協力者、しかも、あおれは女性である。
+
+文章がおかしいので訂正します
+
+アキオ以外にも協力者がいる、とあるビルの一室、アキオともう一人の協力者
+しかも、それは女性である。
+
+ご迷惑おかけします。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#240">
+				<rdfs:label>240</rdfs:label>
+				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-11-11T23:22:07+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">訓練メニューを一通り終了したアキオ、一般的な着ぐるみなどの実地訓練なども
+あった、しかもそれらすべてを女の子キャラクターでの演技、実演、などもある
+訓練１週間目はそれらの項目、２週間目は体感器を装着しての実践を想定した訓練
+が続いた。
+
+女「さ、２週間の訓練の成果を見せてもらうわ、被験者は私、私の審査次第ですべて
+が決定するの、不合格もあるわ、ここまでやっといてってのもあるでしょうけど、私は
+公正に審査します、それが私の仕事です、では、さっそく着ぐるみに着替えて。」
+アキオ「はい、がんばります。」
+着ぐるみを着るためには全裸にならなければならない、さすがのアキオも女性の前で
+全裸になるのには少し躊躇している
+女「なにを、モタモタしているの？私がいるから？は、あんたの貧祖なものを拝んだ
+ところで私はなんとも思わないわ、いいから、さっさと着替えなさい。」
+アキオはそういわれて少し、ムっときたがここはこらえて全裸になる、そのまま
+着ぐるみに足を通そうとした。
+女「待って、あなたなにか忘れてないかしら？」
+アキオ「え？なにをですか？」
+女「体感器よ、胸、竿、アナ＠に体感器をつけるの、あなたは、この快感に耐えながら
+女の子を演じつづけなければいけないのよ。」
+アキオ「はぁ〜。」
+すると、どこからか人がでてきて、アキオの体に体感器を取り付け始めた、胸、
+竿、そして、後ろの穴、細い電気コードやらチューブが体中にとりつけれる、
+名が細い棒が自分の肛門に差し込まれた瞬間は一瞬冷たく硬いものが自分の体内に
+入り込んでいく感覚に襲われた。
+女「この体感器は遠隔操作で自由に操れるの、もちろん外部の刺激でもその快感
+を得ることは可能なの、さ、次はその子の皮を身に纏うのよ。」</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

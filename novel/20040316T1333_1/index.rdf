@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xslt+xml" href="../tohtml.xsl"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-12T09:03:02+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:title xml:lang="ja">Ｈな美貴ちゃん</dcterms:title>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:33+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:38+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">19732</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#759">
+				<rdfs:label>759</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:33+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">着ぐるみデビューから数年後の話・・・
+
+ここは都内某所のビルの一室。着ぐるみショーなどを行うアクションチームの事務所です。
+美貴は高校時代に親友のあやに紹介された着ぐるみのアルバイトを続けていて、
+今では主役クラスもこなすぐらいになっています。
+今日は新作アニメショーの着ぐるみが事務所に届く日ということなので、大学の帰りに寄って見にきました。
+事務所には、今年の春に高校生になったばかりの慎吾君がいました。
+慎吾君はチームに入ったばかりの新人でショーへの出演はまだありません。
+主な仕事といえば、先輩達の出るショーに付いて行って雑用をやるくらいです。
+見た目はまだ幼さの残るカワイイ男の子で、美貴を始めチーム内では慎吾とか慎吾君と呼ばれているようです。
+美貴はそんな慎吾君を可愛がっているようでした。
+
+事務所で漫画を読んでいた慎吾は、美貴が事務所に入ってきたことにびっくりしたようです。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#760">
+				<rdfs:label>760</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:34+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">慎　「あっ、美貴さん。おつかれさまです。」
+美　「あれー？慎吾君一人だけなの？」
+慎「はい、皆さん今日は忙しいらしくて・・・留守番していてくれって言われて僕だけなんですよ。
+18時半頃には戻るそうなんですけど・・・。」
+美　（ふーん、慎吾君と2人っきりなんだ・・・）
+美　「ねぇ、新しいブツ来てるんでしょ？どこにあるのかな？・・・あっ、これね？新しいブツは」
+慎　「そうです、これが美貴さんの担当する主役の子の着ぐるみ。」
+
+そう言いながら、美貴はダンボールの中から着ぐるみ一式を取り出した。
+
+美　「へぇー、カワイイ面ね。あたし今回主役なの？知らなかったよー」
+慎　「え？知らなかったんですか？可愛いくて、カッコよくて、スタイルバツグンで、ちょっとドジな子みたいですよ(笑)」
+美　「そうなんだ・・・がんばらなきゃね(笑)」
+慎　「どうせだからちょっと着てみたらどうですか？」
+美　「えっ、いいのかなぁ？・・・着てみようかなぁー。」
+慎　「い、いいんじゃないですか、あっちの部屋で着替えちゃえば。着替えたらこっちに出てきてくださいね。
+ぼ、僕も見てみたいです。」
+美　「もうーしょうがないなー。はいはい、わかりました、ちょっと待っててね。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#761">
+				<rdfs:label>761</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:36+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美貴はウインクをしながらズタ袋に入っている着ぐるみ一式を持って隣の部屋に行きます。
+この部屋はカギが掛かるので慎吾に覗かれる心配はありません。
+美貴はまず、髪の毛をゴムでひとつに束ね、その後着ていた洋服を脱ぐとＴシャツと下着姿になり、
+着ぐるみを着始めました。
+まずは、肌タイツです。全身一体型のタイツで背中のファスナーを下ろし、脚から着ます。
+両足を入れ終わったら、腰まで引き上げ、両腕を通します。両腕の裾の部分にゴムがあり、それを中指にはめます。
+肌タイツの頭の部分を被り、髪の毛が挟まらないように注意しながら背中のファスナーを閉めます。
+はみ出た前髪を面下の中に入れて第一段階終了です。
+全身肌色のタイツですから素っ裸にも見えるのでとても恥ずかしい姿です。
+次に衣装です。レオタードにスカートが付いたような作りのセーラー服タイプの衣装です。
+これも背中のファスナーを下ろして着ます。腰の部分の大きな花をあしらったリボンはホックで付けます。
+ブーツを履き、花のネックレスをつけます。次に面を被ります。
+先に手袋をすると面を固定するアゴ紐の部分のマジックテープが手袋について生地を痛めてしまうので手袋は最後です。
+面の覗き穴は１箇所です。慣れてしまえばそんなに視界は悪くはないようです。
+口の部分も開いていて中から布が張られていますがそんなに苦しくなさそうです。
+鏡を見ながら面を被り、位置を調整して、手袋をはめて完成です。
+全身を鏡に写してチェックを済ませ、部屋を出ます。
+
+美　（うしろの毛が面の中に入り込んじゃってるけど、あっちで慎吾君に直してもらおっと・・・・）</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#762">
+				<rdfs:label>762</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:38+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">慎吾はソワソワしながら美貴が出てくるのを待っていたようでした。
+
+ガチャ・・・
+
+慎吾の前に着替え終わった美貴が出てきました。
+
+※注意　会話の部分で『　　』の会話は面を被っている為のこもった声を表します。
+
+慎　「あっ、すっげー・・・あ、いや・・着れましたね。カ、カワイイじゃないですかー。」
+美　『ちょっとタイツが小さめなのかな、ピチピチなのよねー』
+慎　「そうですか？いや、い、いいんですよ。そのぐらいのほうが・・・皺とかあったら変じゃないっすか・・・。」
+美　『そう？それにこのスカートいやに短くない？これで殺陣とかやったらパンツ丸見えね(笑)』
+慎　「お父さん達とか、大きなお友達が喜んでしまうかもしれませんね。」
+美　『ねぇ、あたしこのアニメ知らないんだけど、なんていうの？それにポーズとかよくわからないんだよねぇ。』
+慎　「花の戦士キューティーローズって言うんですよ。ここにビデオがあるから一緒に見てみましょうよ。
+鏡もあるからちょっと練習してみたらどうですか。」
+美　『そうだね。ねぇ、その前にうしろの髪が面の中に入り込んじゃってるのよ、直して。』
+慎　「さ、触ってもいいんですか？・・・」
+美　『何言ってるの？早くしてよ(笑)』
+慎　「え？あ、は、はい。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#763">
+				<rdfs:label>763</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:40+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">慎吾はローズ（美貴）の後に回り、言われたとおり髪の毛を直しました。
+
+美　『でもさぁ、面被ったまま見るの？』
+慎　「そのほうがいいんじゃないですか？・・・見にくいですか？」
+美　『そう？別に見難くはないけど・・・。まぁ、いっか。』
+慎　「やったー。」
+
+慎吾がビデオをスタートさせた。
+ソファーに座ってビデオを見る2人。
+慎吾はモニターに映るアニメよりも隣に座っているローズ（美貴）のことが気になるようです。
+
+慎　「あ、あっ、これですね。決めのポーズ」
+美　『害虫なんてお仕置きよー　って言うところなのね、ふーん。』
+慎　「覚えられます？巻き戻しましょうか？」
+美　『うん、もう一度スローで見せて』
+
+ローズ（美貴）は立ち上がってビデオを見ながらポーズをしてみます。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#764">
+				<rdfs:label>764</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:42+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　『こうかなー？害虫なんておっ仕置きよー！』
+慎　「おー、すごいすごい！合ってますよ。カッコいいですね。さすが美貴さん。」
+美　『えへへ。そお？害虫なんてお仕置きよー　こうだね。』
+
+得意になって鏡に向かって何度もポーズをしてみせるローズ（美貴）を見ながら慎吾はこんな事を呟きました。
+
+慎　「美貴さんにだったらお仕置きされてみたいなぁ・・・（ボソ）」
+美　『えっ？今なんか言った？面被ってるから聞こえづらいんだけど・・・。』
+慎　「えっ、べつに・・・。」
+美　『はっきり言いなさいよーオトコでしょ(笑)　はっきりしない子は、おっ仕置きよー！』
+
+美貴に問い詰められた慎吾は正直に胸のうちを告白しました。
+
+慎　「えっ、あっ・・・。ぼ、ぼ、僕、美貴さんにだったらお仕置きされてもいいなぁなんて・・・。」
+美　『どういうこと？（あらー？この子私の事好きなのかしらー？）』
+慎　「えっと、あの・・・ぼ、僕、み、美貴さんのこと好きなんです。この事務所入ってからひ、一目惚れしっちゃったんです。」
+
+慎吾はソファーから立ち上がって顔を赤くしながらそう言いました。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#765">
+				<rdfs:label>765</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:43+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　『あら、これって告白？かわいいわね。嬉しいわ。私も慎吾君のこと好きよ、だって可愛いんだもん。』
+
+美貴は慎吾の手をとってそう言いました。
+
+慎　「ほ、ほんとですか？・・・うれしいな。」
+美　『ねぇ、慎吾君、誰も居ないし、いいことしようか。』
+
+美貴はそう言うと慎吾の手を取りソファーに座らせました。もちろんローズ（美貴）も一緒に座ります。
+
+慎　「えっ、なんですか？いいことって・・・。」
+美　『ふふふ、こういうことよ。』</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#802">
+				<rdfs:label>802</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-18T12:48+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ローズ（美貴）はいきなり両腕を慎吾の首に巻きつけ、慎吾に抱きつきソファーに倒れこみました。
+そして慎吾の耳元にふぅーっと息を吹きかけました。
+面の口の部分に張られた紗を通し、美貴の息がかかります。
+
+慎　「あっ、美貴さん・・・な、なにをするんですか？！」
+
+突然の事に驚き、ただされるままの慎吾ですが、なにやら下半身の方は元気になってきているようです。
+
+美　『美貴じゃないのよ。今の私はキューティーローズなんだからね。
+さっきお仕置きされたいって言ってたでしょ？今からお仕置きしてあげる。』
+慎　「あぁ、美貴さん・・・じゃない・・キューティーローズ・・・」
+美　『ねぇ慎吾君、私の胸、触ってもいいのよ。女の人のオッパイって触った事ある？』
+
+ローズ（美貴）はそう言いながら、左手で慎吾の手を取り、自分の胸に当て、右手で慎吾の股間を触りはじめた。
+
+慎　「あぁぁぁぁ・・・。」
+美　『あらー？こんなに大きくなっちゃって・・・。慎吾君って女の人とこういう事したことある？』
+慎　「な、何を・・・あ、ありませんよ・・・。」
+
+慎吾は顔を紅潮させていいました。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#827">
+				<rdfs:label>827</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-19T17:39+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　『いやーん、可愛いー。慎吾君って正直なのね。』
+
+ローズ（美貴）はそういってもう一度慎吾を抱きしめました。少し美貴の息も弾んでいるようです。
+
+慎　「だ、だって・・・。」
+美　『誰にでもこんなことするわけじゃないのよ。慎吾君がカワイイからなのよ。』
+慎　「あぁ、美貴さん・・・、じゃないキューティー・・・、ローズ・・・、大好きですぅ。ハァハァハァ・・・。」
+美　『ここも・・・ここも触ってもいいのよ・・・。』
+
+ローズ（美貴）は衣装のスカートをめくり、恥部に慎吾の手を運んだ。
+
+美　『ん・・・あふぅ・・・やさしくしてね・・・。』
+
+ひとしきりソファーの上で絡み合っていましたが、不意に美貴は慎吾を立たせました。
+慎吾はローズ（美貴）の後に立ち、左手で胸を、右手で美貴の大事なところを一心不乱に擦り、揉み続けます。
+ローズ（美貴）も後ろ手に慎吾の股間を撫で回しています。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#828">
+				<rdfs:label>828</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-19T17:40+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">慎　「ハァハァ・・・面被ったままで・・・ハァハァハァ・・苦しくないですか？・・・ハァハァ・・・。」
+美　『んー・・・キューティーローズは苦しくないのよ。気持ちいいけど・・・きつくしちゃだめよ・・・もっとやさしく・・・そう・・・。』
+慎　「は、はい・・・あの・・・面・・・本当に脱がないんですか？ハァハァ・・・。」
+美　『今はキューティーローズになって慎吾君を・・・お仕置き・・してるんだからいいのよ・・・
+そう・・お仕置きしなくちゃ・・・ん・・・。』
+
+ローズ（美貴）はそう言うと慎吾の手を振り解き、正面に向き直り洋服を脱がし始めた。
+慎吾は上半身全部を脱がされ、下半身はパンツ一枚にされてしまいました。
+ローズ（美貴）は怒張している慎吾の股間と、上気した慎吾を見上げながらこう言います。
+
+美　『あらあら、いけない子ねぇ。おパンツの中に何を隠してるの？ハァーハァー・・・見せて御覧なさい・・・』
+
+美貴もまだ経験がない慎吾の手荒い愛撫でも十分感じてしまったようで、呼吸が荒れています。
+慎　「あぁぁ、もうガマンできません・・・。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#829">
+				<rdfs:label>829</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-19T17:41+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">急に目標を失った慎吾はそう言いながら、ローズ（美貴）に抱きついてきました。
+ローズ（美貴）はそれを振りほどきながら
+
+美　『まだダメよ、言う事を聞きなさい！ハァーハァー・・・お楽しみはこれからなんだから・・・。ここに座って。』
+
+ローズ（美貴）は慎吾を椅子に座らせようと促し、慎吾もそれに従いました。
+
+美　『ちょっと目をつぶっててね。』
+慎　「は、はい」
+
+美貴は部屋の隅に置いてあった箱の中から以前他のショーで小道具として使ったおもちゃの手錠を取り出し、
+椅子に座っている慎吾の手に掛けた。
+背もたれの後ろで手錠をかけられた慎吾は動くことかできなくなった。
+
+慎　「な、なにをするんですか・・・」
+美　『ハァーとってもいいことよ・・・ハァー・・・お仕置きしてあげるからね。ウフフフフ』
+
+次に美貴はこれも以前小道具に使用したアイマスクを取り出し、慎吾の顔につけた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#835">
+				<rdfs:label>835</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:03+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">慎　「あ、あのー何にも見えないんですけど・・・。」
+美　『キューティーローズはちょっと休憩するからね。この姿は見せられないの。』
+
+ローズ（美貴）は笑いながら慎吾の視界が遮断されているのを確認すると、手袋を外し、面を取った。
+バリッとマジックテープを剥がす音の後、キューティーローズの面から上気した美貴の顔が出てきました。
+面は全部脱いだわけではなく、頭の上に置いたままでした。
+
+美　「ハァー。暑いー・・・。」
+慎　「あ、あのー・・・ぼ、僕、面を取った美貴さんの面下姿って好きなんですよ。
+お願いします、このアイマスク外してくださいよー。」
+美　「ダメよ。見せてあげない。想像していなさい。あらあら-？何もしてないのにオ○○チンは元気ねぇ」
+
+そう言いながら慎吾の股間を突っつきました。
+
+慎　「うっ・・・美貴さんの意地悪・・・」
+
+美貴はタオルで顔の汗を拭ったり、水を飲んだりして休憩しています。その間、慎吾はそのままにされていました。
+
+美　「さて、ひと休みしたし、続きを始めようかな？」
+
+そう言いながら慎吾に近づき、肩に手を乗せました。慎吾は一瞬ビクっと動き、無言のまま頷きました。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#836">
+				<rdfs:label>836</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:05+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　「今から面つけたら私喋らなくなるから。いいわよね？」
+
+美貴は面を被り、衣装の手袋をはめ、その手袋の上にもう一枚薄手の綿の手袋をはめて、
+キューティーローズに変身した。
+美貴は慎吾の後ろに回り、アイマスクを外し、イスに固定され動けないでいる慎吾の前に立ち、
+慎吾の顔にローズの面を近づけ、キスをした。
+その瞬間、慎吾は面の口の穴から美貴の吐き出した甘く官能的な息を感じた。
+
+慎　「うー・・・ん・・・。」
+
+美貴が休憩している間勢いを失いかけていた慎吾の股間が再び疼きはじめているようです。
+次にローズ（美貴）はハダカになっている慎吾の乳首のあたりを撫で始めた。
+手袋の生地の肌触りがとても気持ちよかったようです。
+
+慎　「あぁ・・・。」
+
+美貴も興奮しているようで、ハァーとかフゥーとかいう息遣いが面を通して慎吾の耳に入ってくる。
+
+慎　（苦しいのかなぁ・・・ち、違う・・・ハァハァ・・・美貴さんも興奮してるんだ、きっと。）</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#837">
+				<rdfs:label>837</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:06+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">上半身責めは段々と下に下がり、ローズ（美貴）は慎吾が座っている椅子の前にしゃがみ込み、
+股間のあたりを撫で始めた。
+そして、右手でパンツの中から大きくなった慎吾のオチ○○ンを取り出して擦り、左手で袋を揉み始めました。
+
+慎　「あー・・・ハァハァ・・・あぁぁぁぁ・・・、気持ちいいー・・・逝きそうですぅ・・・ハァハァ・・・」
+美　『・・・。』　ダメよ、まだ逝っちゃ　の仕草
+慎　「あぁ・・・ん・・・」
+
+慎吾が歓喜の声を上げている間もローズ（美貴）は手を休めません。
+
+慎　「も、もうガマンできないですぅー・・・ハァハァ・・・」
+美　『・・・。』　これならどう?　の仕草
+慎　「あ、あっ、止めないでください、お願いします。美・・・キューティー・・・、ローズ・・・。」
+美　『・・・。』　続けてほしいの？止めてほしいの？どっちなのよ　の仕草
+慎　「続けてください・・・お、お願いします・・・ハァハァ・・・止めないで下さい・・・。」
+美　『・・・。』　わかったわ。　の仕草
+
+ローズ（美貴）は再び手を動かせます。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#838">
+				<rdfs:label>838</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:07+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">慎　「あ、あのぉ・・・ハァハァ・・・み、美貴さん・・・お願いしますぅ・・・喋って下さいよぉー。美貴さんの声も萌えなんだからー。」
+美　『・・・。』　ダメよ　の仕草
+慎　「あぁ・・・あー、美・・・キューティーローズにこんなことされるなんてー・・・ハァハァ・・・」
+
+美貴も興奮してきたらしく、自分の片手で恥部を擦り始めました。
+
+美　『うっ・・・、あぁぁん、ハァハァ・・・ハァー・・・』
+
+面の中から微かに声が漏れています。ローズ（美貴）も時折体をビクッとさせ感じているようです。
+徐々に慎吾のオチ○○ンを扱う美貴の右手のスピードが速くなっているようです。
+同時に自分の股間を摩っている左手のスピードも速くなりました。
+
+慎　「あぁ・・・も、もうダメです。あぁぁぁぁぁ・・・ん・・・。」
+
+まだ、若く経験もない慎吾はローズ（美貴）のお仕置きに耐えられず、ついに逝ってしまいました。
+美貴が付けている綿の手袋にドクドクと白い液体を吐き出し、慎吾は頭を垂れました。
+衣装の手袋の上にもう１枚手袋をしていたので、衣装用の手袋は汚さずに済んだようです。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#839">
+				<rdfs:label>839</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:09+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">慎　「あぁぁ・・・あの・・・す、すっごく気持ちよかったです・・・・ハァハァこんなの初めてですぅ・・・。」
+
+今の慎吾には搾り出すような声でそう言うのが精一杯のようです。
+
+美　『・・・。』　もー、自分だけ・・・　の仕草
+慎　「た、耐えられませんでした。気持ちよすぎて・・・嬉しくって・・・ハァハァ・・・。」
+
+プイっと横を向いて怒った仕草をしたローズ（美貴）は立ち上がり、再び慎吾にアイマスクをつけました。
+
+慎　「あぁ・・・これまた付けるんですか？ねぇ、美貴さん・・・何か言ってくださいよぅ。」
+
+美貴は手袋を外し、面を取りました。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#840">
+				<rdfs:label>840</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　「ハァー、暑い・・・ハァー・・・自分だけ逝っちゃってぇー・・・許さないわよー。」
+慎　「え？だ、だって・・・すみません。美貴さんにこんな事してもらえるなんて思わなかったし・・・」
+美　「ずるいよ、慎吾君。自分だけ気持ちよくなっちゃってさー。あたしはどうすればいいのよー。」
+慎　「ごめんなさい・・・だって、美貴さん上手なんだもん・・・あ、えっと・・・なんかほんとキューティーローズと
+Ｈしているみたいな気分になっちゃって・・・（汗）」
+美　「上手？ウフフフフ・・・私もなんか自分じゃないみたいな気分だったのよ。すごく興奮しちゃった。」
+慎　「ぼ、僕も着ぐるみ着てみたいなぁ・・・。」
+美　「あれ？慎吾君まだ着た事ないの？どう？試してみる？」
+慎　「ほ、ほんとですかぁー？は、はい着させてください。でも、何着たらいいんですか？・・・。」
+美　「そうねぇ・・・。これ、キューティーローズ着てみる？」
+慎　「えっ、美貴さんが今着ているヤツですか。」
+美　「そうよ、イヤ？イヤなら他のにしましょう。どれがいいかな・・・。」
+慎　「いいです、キューティーローズで全然ＯＫです。・・・キューティーローズがいいです！」
+美　「そう？慎吾君、カワイイわね。」
+
+美貴はそう言うとアイマスクをした慎吾に軽くキスをしました。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#841">
+				<rdfs:label>841</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:13+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　「そのかわり約束してね。」
+慎　「え？な、何ですか？」
+美　「慎吾君はキューティーローズの衣装着て面付けたら絶対喋っちゃダメ。
+いい？キューティーローズになりきるの、いい？これはある意味練習なのよ、いい？」
+慎　「は、はい。がんばってみます・・・。あ、あの・・・もう・・・あの、美貴さんは着ないんですか？」
+美　「うーん、あたしはねぇどうしようかしら？着た方がいいの？」
+
+椅子に縛り付けられたままの慎吾は大きく頷きました。
+
+美　「そうねぇ・・・。うん。これにしよう。」
+
+美貴は部屋にあるダンボール箱を開け、中から　“宝石戦隊ジュエリーファイブ”のヒロインの
+ピンクサファイヤの衣装一式と面を取り出した。
+
+美　「ピンクサファイヤに変身してあげる。
+ねぇ、慎吾君だけ気持ちいい思いしてずるいから、2人で着ぐるんで第２ラウンドしようよ。」
+慎　「えぇ？・・・キュ、キュティーローズとピンクサファイヤがエッチな事するんですか？・・・
+うっ・・・なんだか想像しただけで・・・。」
+美　「もー、慎吾君ったら。じゃ、先に私が着替えるね。もう少しそのままで待っててね。」
+
+パンツ一枚で椅子に縛り付けられた慎吾はこれから起こるであろう事に大いに期待しながら待つ事にした。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#846">
+				<rdfs:label>846</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-21T18:06+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">プルルルルルル♪
+
+美貴が着替えようとした時、事務所の電話が鳴った。
+まだ美貴はキューティーローズの衣装を着たままだったが、そのまま受話器を取った。
+
+美　「はい、ＳＡＴ（ＳＩＴＡＲＡＢＡ　ＡＣＴＩＯＮ　ＴＥＡＭ）です。」
+愛　「あっ、美貴さん。愛子です。」
+
+愛子はこの事務所に入ってバイト歴１年の高校２年生１７歳。器械体操経験有りで学校では演劇部に所属していて、
+アクションショーからメルヘンショーまでなんでもこなす、チーム期待の女の子です。
+美貴とは戦隊ヒーローショーでダブルヒロインとして一緒に出演することが多く、美貴が妹のようにカワイがっています。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#847">
+				<rdfs:label>847</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-21T18:07+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　「あれ愛子ちゃん、どうしたの？」
+愛　「はい、暇なんですよー近くまで来たんで、誰かいるなら寄ろうかなぁと思ったんですけど・・・。」
+美　「えーっとね、今私と慎吾君だけなのよ。あとは、誰もいないの。」
+愛　「えぇー、フタリっきりなんですかぁーなんか怪しいなー(笑)」
+美　「な、何言ってるのよ、そんなんじゃないのよ。慎吾君に役になりきる為の練習させてるのよ。」
+愛　「ふーん。ますます怪しいなー(笑)」
+美　「あ、あのさー愛子ちゃんも手伝ってよ。面白いよ(笑)」
+愛　「面白そうですね、はーい、いいですよ。どうせ暇なんだし・・・。２０分ぐらいでつきますね。」
+美　「了解。じゃあ、待ってるね。バイバーイ。」
+
+電話を切った美貴はものすごい計画を思いついていた。
+
+慎　「電話ですか？誰だったんです？」
+
+向うの部屋から慎吾が聞いてきた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#848">
+				<rdfs:label>848</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-21T18:08+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　「愛子ちゃんが今から来るんだって。」
+慎　「えぇ・・・じゃあ・・・今日はもう何もできないんですね・・・。」
+美　「残念そうね。」
+慎　「あ、いやぁ、あの・・・別にそういう意味じゃなくて・・・。」
+美　「ふふふ、大丈夫よ。お姉さんたちフタリでいいことしてあ・げ・る。」
+慎　「えぇ！2人で？・・・・・。」
+美　「ちょっと待っててね。すぐに着替えるから。」
+
+美貴は急いでキューティーローズの着ぐるみを脱ぐと一旦私服に着替えた。
+
+部屋に戻り、慎吾のアイマスクと手錠を外した。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#849">
+				<rdfs:label>849</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-21T18:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　「痛かった？ごめんね・・・でも慎吾君がひとりで先に逝っちゃった罰だからね(笑)」
+慎　「そんなぁ・・・。」
+美　「あっちの部屋にローズの着ぐるみ一式が置いてあるからすぐに着替えて。
+愛子ちゃんが来るまでに着替えてなきゃね。」
+慎　「あ、あの・・・どうゆう順番でっていうか・・・どうやって着ればいいんですか？。」
+美　「そっか。まず、タイツを着て、衣装、ブーツ、ネックレス、手袋の順よ。背中のファスナー一人で閉められる？
+それともあたしが手取り足取り一緒に着替えさせた方がいいの？（笑）」」
+慎　「あ、大丈夫です。一人でやります・・・多分大丈夫だと思います・・・。」
+美　「あっそうそう。タイツ着る前にこれをつけてね。」
+
+美貴はブラジャーとダミーの乳とサポート性の強いガードルを慎吾に渡した。
+
+慎　「これは？」
+美　「ショーで女の子が足りないときに男の子が女役するときにつけるブラジャーとパッドとモッコリ防止用パンツよ。(笑)」
+慎　「えぇー？」
+美　「慎吾君はこれからキューティーローズになるのよ？ローズは女の子なんだから
+胸も無きゃおかしいでしょ？(笑)　さぁ、早く早く。」
+慎　「・・・は、はい。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#850">
+				<rdfs:label>850</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-21T18:12+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">慎吾はブラとパッドとガードルを受け取り、別室に行った。
+そこには、数分前まで美貴が着ていたキューティーローズの着ぐるみ一式が置いてあった。
+パンツ１枚の慎吾はまずブラジャーをつけ、パッドを中に入れ、ガードルを履いた。
+
+慎　（女の人ってこんな苦しいの毎日つけているんだ・・・。）
+
+慎吾は初めてつけるブラとガードルで興奮していた。
+若さ溢れる慎吾のオ○○○ンはすでに回復しており、臍の辺りを叩く程になっているようです。
+
+慎　（ヤ、ヤバイなぁ・・・こんなの見られたらまた美貴さんに苛められちゃう・・・。）
+
+次に肌タイを着る。さっきまで美貴が着ていたものなので微かに美貴の汗の匂いがした。
+タイツを広げてよく見てみると股間や脇の辺りに汗が染み込み色が変わっていた。
+慎吾はそれを着る前に思いっきり匂ってみた。
+
+慎　（あぁ・・・美貴さんの匂いだぁ・・・ハァハァ・・・。）</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#851">
+				<rdfs:label>851</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-21T18:13+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美貴の匂いを十二分に味わった慎吾は両足から順に着て、両腕を通し、背中のファスナーを途中まで閉めました。
+慎吾は身体が硬いのかそれとも興奮していたからなのか、頭まで上手く閉められなかったのでそのままにしておきました。
+ガードルを履いているとはいえ、タイツの股間のあたりは慎吾のオ○○○ンの形に膨らんでいた。
+美貴のぬくもりが微かに残るタイツを着た慎吾の下半身はすでに爆発寸前のようです。
+ゆっくりもしていられないのでまず衣装を着ました。
+24.5EEと書かれているブーツは慎吾にはキツイようで、指の先を丸めてブーツを履きました。
+その後に首飾りを首に巻き、手袋をつける。
+慎吾は鏡に自分の顔が映らないようにして全身を写してみた。
+鏡の中には首から上がないキューティーローズが写っていた。
+スカートに隠れてモッコリもわからない。やせ気味の慎吾は無理なく着れたようです。
+慎吾は美貴が待っている部屋に行く前に面の中を覗いてみました。
+
+慎　（あ、口紅の跡が付いてる・・・僕、後というか、もうすぐこれ被るんだよなぁ・・・。）
+
+ガチャ。
+
+キューティーローズの衣装に着替え、ローズの面を抱えた慎吾が美貴のいる部屋に戻ってきた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#856">
+				<rdfs:label>856</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-22T15:02+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　「あっ、いいじゃん、似合ってるよ(笑)」
+慎　「あ、あの・・・後のファスナー上手く閉められませんでした。」
+
+照れているのか慎吾は下を向いたままそう言いました。
+
+美　「やっぱり？閉めてあげるね。あ、リボンも片方外れてるじゃない（笑）」
+
+美貴はタイツのファスナーを閉め、リボンを止め、衣装のファスナーを閉めました。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#857">
+				<rdfs:label>857</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-22T15:03+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　「はい、出来たよ。」
+慎　「なんだか恥ずかしいです・・・。」
+美　「なに言ってるのよ。ショーのときはもっと大勢の前に出るんだからね。」
+慎　「そ、そうですけど・・・。」
+美　「さぁ、後は面を被ればＯＫね。その前に約束！」
+慎　「な、なんですか？」
+美　「面を被ったらどんなことがあっても喋っちゃダメよ。それと、これは役になりきる為の練習なんだから
+キューティーローズに、女の子になりきらなきゃダメなのよ。わかった？」
+慎　「は、はい・・・がんばります・・・。」
+美　「絶対だからね。よし、じゃあ愛子ちゃんがそろそろ着くころだから面を被せるよ。」
+慎　「は、はい、お願いします。」
+
+美貴は慎吾にキューティーローズの面を被せ、後髪を直しました。
+慎吾は面の中に残ってる美貴の匂いを目一杯吸い込み、先ほど確認した口紅の跡辺りに唇を突き出しました。
+
+慎　（うぅーーーん、ハァハァ・・・あぁ・・・美貴さんの匂い・・・ハァハァ・・・。）</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#858">
+				<rdfs:label>858</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-22T15:04+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　「何ハァハァ言ってるの？苦しいの？大丈夫？」
+慎　『あ、だ、大丈夫ですぅ・・・スーハァー・・・ちゃんと息ができるか確認を・・・。』
+美　「コラッ！喋っちゃダメでしょ。キューティーローズから男の人の声がしたらおかしいでしょ。
+チビッコの夢を壊しちゃうから絶対に喋っちゃダメ。あと、人前で面を取っちゃダメよ。絶対ダメだからね！」
+慎　『は、はい・・・ハァハァ。』
+美　「もう！（笑）ねぇ、前ちゃんと見える？正面に覗きがあるからね。ここから前見るんだよ。注意して。」
+
+美貴は面の覗き穴を指差し、面の奥にある慎吾の目を見ながらそう言いました。
+キューティーローズになった慎吾は
+
+慎　『・・・。』　はい　と言うように頷く。
+美　「そうそう、その調子（笑）」
+
+ガチャガチャ・・・
+
+愛子が事務所のドアを空けようとしましたが鍵が掛かっているようです。
+
+愛　「あれ？鍵が掛かってる？美貴さん達中で何やってるのかなー。美貴さんって意外とエッチだからなー（笑）」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#859">
+				<rdfs:label>859</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-22T15:06+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">愛子は呼び鈴を押しました。
+
+ピンポーン♪
+
+「あっ、愛子ちゃんが来た。じゃあ、慎吾君じゃなくって、キューティーローズお出迎えして。可愛くねー（笑）」
+
+キュティーローズになった慎吾は事務所の入口のカギを開けた。
+
+ガチャ
+
+愛　「わぁ、なに？ビックリしたー。美貴さんでしょ？驚かさないでくださいよー。」
+美　「なぁにー？愛子ちゃん？私はここにいるよー(笑)」
+
+奥の方で美貴が愛子に向かって手を振っていました。
+
+愛　「へっ？ってことはこのキューティーローズは・・・誰なんですか？」
+美　「さぁ？誰でもないよねー、キューティーローズはキューティーローズなんだもんねー(笑)」
+
+キューティーローズ（慎吾）は頭を掻きながら　うん　と頷く。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#860">
+				<rdfs:label>860</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-22T15:06+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">愛　「あっ、もしかして慎吾君？慎吾君でしょー？へえー、慎吾君カワイイじゃん。
+あ、さっき電話で美貴さんが言ってたのはこういうことなんですね？(笑)」
+美　「そう、練習だからね、厳しくしないと（笑）。愛子ちゃんも協力してね。」
+愛　「はーい。あれぇ？美貴さん、ローズはちゃんとオッパイもあるんですね(笑)」
+美　「そうよー、ローズは女の子だから当然よね。ねー、ローズ(笑)」
+
+キューティーローズ（慎吾）は頭を掻きながら　うんうん　と頷く。
+
+愛　「あはははは、可愛いー。」
+
+美貴と愛子に見つめられている慎吾は恥ずかしくなったのかモジモジしたまま立ち尽くしていた。
+美貴はニヤっと薄笑いを浮かべると、突然キューティーローズのスカートをめくり上げた。
+
+美　「あれぇ？なーに、これー？女の子がこんなんじゃマズイわよねぇ。ねぇ、愛子ちゃん。」
+
+キューティーローズ（慎吾）は慌てて股間に手を当ててモッコリを隠した。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#878">
+				<rdfs:label>878</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-24T13:20+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　「これはマズイよねぇ、愛子ちゃん。」
+愛　「いやぁだー、美貴さんなにしてるんですかー・・・そ、そうですよねぇー。マズイですよー、何か隠してるのかなー（笑）」
+
+愛子は顔を赤らめながらも、キューティーローズ（慎吾）の股間を凝視していました。
+ローズ（慎吾）は恥ずかしそうにモジモジとする。しかし、面の中ではそれどころではなかった。
+美貴の香りの残るキューティーローズの面を被り、女の子役をやらされ、二人の女性に凝視されているという状態。
+慎吾のオ○○○ンは暴発寸前だ。
+美貴が愛子の耳元で小声で囁きました。
+
+美　「ねぇ、愛子ちゃん。私たちもなにか着ぐるみ着て、ふたりで慎吾君をイジメてみない？」
+愛　「えー、美貴さんエッチー(笑)」
+美　「でも、面白そうじゃない(笑)」
+愛　「いいですよ。美貴さんは何着ます？」
+美　「私はねぇ、ピンクサファイヤにする。愛子ちゃんは？」
+愛　「どうしようかなぁ・・・・。あっ、私はキューティーチェリーにします。」
+美　「よし、決まり。キューティーローズ、ちょっといい子にしててね。私たちも着替えてくるから(笑)」
+愛　「脱いで休憩しちゃダメだからね、わかった？(笑)」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#879">
+				<rdfs:label>879</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-24T13:21+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ローズ（慎吾）は頷く事もできず、2人を見ながら立ち尽くしていた。
+
+慎　（着替える・・・って？ハァハァ・・・。）
+
+美貴と愛子はそれぞれのブツをもって別室に行き、着替えはじめた。フタリとも手馴れた感じで着ぐるんでいく。
+美貴は下着姿でまずは白い面下を被る。スカートの付いたワンピースのピンクサファイヤの衣装を着て
+背中のファスナーを愛子に上げてもらい、ファスナーの上にある留め金も止めてもらった。
+ブーツを履き、腰にベルトをつけ、手袋をはめる。
+愛子が着替えているキューティーチェリーは、基本的には慎吾の着ているキューティーローズと同じ作りのブツで、
+違うのはチェリーはローズのようにブーツではなくパンプスなので、肌タイツがつま先まで隠れるタイプというところぐらいだ。
+愛子はチェリーの面を手馴れた手つきで被り、視界を確保する為に位置を調整する。
+ピンクサファイヤの面は前後分割式になっていて、脇についている留め金を止めて被るので一人では被れない。
+愛子に被せてもらった。
+面の中は所々にスポンジのようなクッションが貼ってあり、面がグラグラしないようになっている。
+覗きは正面のゴーグルの部分に無数の小さな穴があいていて、キューティーローズの面よりは視界はいい。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#880">
+				<rdfs:label>880</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-24T13:22+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　『さぁ、愛子ちゃん。キューティーローズをイジメちゃいましょー（笑）』
+愛　『はい、美貴さん（笑）』
+
+フタリはローズ（慎吾）の待つ部屋に戻った。慎吾は落ち着かない様子で部屋に立っていた。
+フタリが戻ってきたことに気が付いたローズ（慎吾）は一層オドオドした様子です。
+
+美　『さぁ、キューティーローズ。楽しいことしましょうか。』
+愛　『私たちはベテランだから喋ってもいいんだからね(笑)』
+美　『そうよー、ローズは喋っちゃダメだからね(笑)』
+愛　『さぁ、はじめましょう。』
+
+フタリはローズ（慎吾）に近づいた。ローズ（慎吾）は先ほどより一層落ち着かない様子になっています。
+
+美　『ねぇ、さっきスカートの中に何か隠してたでしょ？』
+愛　『私たちに見せてご覧なさい。』
+
+ピンク（美貴）とチェリー（愛子）がローズ（慎吾）のスカートをめくり上げた。ローズ（慎吾）は恥ずかしそうに股間を手で隠す。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#881">
+				<rdfs:label>881</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-24T13:23+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　『あら、なーにこれは？』
+愛　『手をどかして見なさい。』
+
+ピンク（美貴）がローズ（慎吾）の手をどけた。くっきりと浮かびあがったローズ（慎吾）の股間。
+
+美　『あらあら、こんなになっちゃって。悪い子ねぇ。』
+
+ツン。
+
+ピンク（美貴）がローズ（慎吾）の股間を軽く突付いた。
+
+慎　『あうっ・・・』
+
+ローズ（慎吾）は突然の刺激に腰が引けた。
+
+愛　『あれぇー、なんか今声が聞こえたみたいだったけど・・・。』
+美　『あれあれー？おかしいなー、ローズは絶対に喋らないはずよだよねぇ（笑）』
+ローズ（慎吾）は声は出していないよーと言うような仕草でアピールした。
+
+美　『ちゃんとまっすぐ立ってみなさい。かわいらしくよ。』</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#882">
+				<rdfs:label>882</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-24T13:27+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">チェリー（愛子）はローズ（慎吾）の正面から顔を近づけ面越しにキスをした。
+さらに手を首の辺りにかけ、面と面下のあたりを摩る。
+ピンク（美貴）は後ろからローズ（慎吾）に抱きつき、胸を揉み始めた。
+
+慎　『うぅっ・・・ハァハァ・・・。』
+美　『あれー、なんかハアハア言ってる声が聞こえるよー（笑）』
+慎　『ハァハァ・・・うっ・・・。』
+愛　『あらぁ、キューティーローズどうしたの？感じちゃってるのかなぁ？（笑）』
+
+ローズ（慎吾）はすでに真っ直ぐに立っていられない状態のようです。
+ピンク（美貴）の手が胸から下がり、スカートの中に入っていきます。
+ピンク（美貴）の手がローズ（慎吾）のオ○○○ンに触れたとたん、ローズ（慎吾）は堪えきれずに声を上げてしまいました。
+
+慎　『あぁぁぁぁぁぁ・・・ハァハァ、ハァーー、ハァー・・・・』
+
+慎吾は本日２回目の絶頂を向かえてしまい、その場にしゃがみ込んでしまいました。
+
+美　『あらー？また先に自分だけ逝っちゃったの？』
+慎　『・・・・・。』</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#883">
+				<rdfs:label>883</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-24T13:28+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ローズ（慎吾）はガックリと座りこむと、大きく肩で息をしていた。
+喋ってはいけないと言われたからではなく、今までに体験した事のない快感と興奮で喋る事が出来ないようです。
+
+美　『あらあら、女の子なのにねぇー。』
+
+ピンクこと美貴は腕を組み、座り込むローズ（慎吾）を見下ろしながらそう言いました。
+
+愛　『ほんと、悪い子(笑)』
+
+チェリーこと愛子も美貴と同じように腕を組み、困った子という仕草をしながらそう言いました。
+肩で息をしながら俯いているローズ（慎吾）にピンク（美貴）は質問をしました。
+
+美　『苦しいの？』
+慎　『・・・。』　頷く
+
+しばらく動かなかったキューティーローズ（慎吾）ですが、ピンク（美貴）の質問にようやく顔を上げ頷きました。
+もちろん言葉は発していません。
+喋ってはいけないと釘を刺されているのですから。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#884">
+				<rdfs:label>884</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-24T13:29+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　『でも、気持ちよかったんでしょ？』
+慎　『・・・・・。』　頷く
+美　『面脱ぎたい？』
+慎　『・・・・・。』　首を大きく横に振る。
+美　『いやらしい子ねぇ(笑)』
+愛　『美貴さん、どうしましょうか？（笑）』
+美　『そうねぇー・・・。』</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#886">
+				<rdfs:label>886</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-25T10:41+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ピンク（美貴）は考えるポーズをとった後、座り込んだローズ（慎吾）に立ち上がるように指示した。
+慎吾のパンツの中は既に2度暴発しており、グチャグチャになっていた。
+ローズ（慎吾）は股間を気にしながら言われた通り、素直に立ち上がった。
+するとピンク（美貴）はローズ（慎吾）の背後に回りこみ、ファスナーを下ろしローズのセーラー衣装を脱がせ始めた。
+ローズ（慎吾）は抵抗する事もなく、すんなり衣装を脱がされてしまいました。
+衣装を脱がされたローズは手袋とブーツと首飾りだけ、全身タイツを着ていますが、パっと見た目裸という姿になった。
+恥ずかしそうにローズ（慎吾）は胸と股間を手で隠す。
+
+美　『あら、恥ずかしいの？』
+慎　『・・・・』　頷くローズ。
+愛　『胸があるのに股間も膨らんでるのね(笑)』
+美　『若いから元気なのね、もう、大きくなってるわ(笑)』
+愛　『さぁ、ここに座りなさい。』</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#887">
+				<rdfs:label>887</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-25T10:42+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ローズ（慎吾）はチェリー（愛子）に促され椅子に座った。
+ピンク（美貴）は先ほどの手錠を取り出し背もたれの後ろでローズ（慎吾）の両手にかけた。
+チェリー（愛子）はローズ（慎吾）の脚を椅子の脚に片方ずつ、足が開き気味になるように紐で縛りつけた。
+全身タイツを着てるとはいえ、裸の状態のローズ（慎吾）は椅子に縛り付けられ身動きが取れなくなった。
+
+美　『私たちはちょっと休憩するからね。待っててね。』
+
+ピンク（美貴）とチェリー（愛子）はローズ（慎吾）に背を向けるとお互いの面を取った。
+
+美　「フゥー、暑いね。愛子ちゃん。」
+愛　「美貴さん、すごいエッチなんだもん。」
+美　「私がエッチなんじゃないのよ、ピンクがエッチなのよ。」
+愛　「さすが美貴さん。なりきってるんですね。」
+美　「そうよ。愛子ちゃんだって十分エッチなチェリーになってるじゃないよー(笑)」
+愛　「そうなんですよねぇ、なんだか面被ってると素顔が見えないからなんか大胆になっちゃうんですよ・・・。」
+美　「そうなのよねぇ。なんか自分じゃないって感じなのかな。」
+愛　「なんか私・・・ムラムラしてきちゃたんですけど・・・。」
+美　「えぇ？このくらいで？愛子ちゃんダメねぇー。さぁてと、この後どうしようかなぁ・・・。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#888">
+				<rdfs:label>888</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-25T10:44+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そのころ椅子に縛りつけられたままのキューティーローズの慎吾はと言うと・・・
+
+慎　（あぁ、気持ちいいよー。２回も逝かされちゃったよ。もう、起たないかもしれない・・・）
+慎　（あれっ、あ、フタリとも面取って面下姿なんだ。見えるぞ・・・ハァハァ・・・。）
+慎　（あぁ、なんかまた元気が出てきちゃった。ヤバイなぁ、ハァハァ・・・ハァハァ・・・。）
+
+ぐったりとして椅子に縛り付けられている慎吾はフタリの女性が面を取って休憩している姿を
+面の視界の覗き穴からしっかりと見ていたようです。
+
+愛　「あっ、キューティーローズ！こっち見てたでしょ！？」
+
+モゾモゾ動いているローズ（慎吾）を察知した愛子が振り向きそう言った。
+
+慎　『・・・・』　首を振るローズ。
+美　「あー私たちの面取った姿見たなぁ！それでまた興奮してたんでしょー。」
+
+美貴も振り返りながらローズ（慎吾）に注意をした。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#889">
+				<rdfs:label>889</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-25T10:45+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">慎　『・・・・』　見ていない、と俯きながら大きく何度も首横に振る。
+愛　「またお仕置きしなくちゃいけないですね(笑)」
+美　「第３ラウンド開始ね。私たちも面被らないと。」
+愛　「美貴さん、私もなんかヘンな気分なんですけど・・・どうしたらいいんでしょう？・・・。」
+美　「うふふふふふ。」
+
+意味ありげな笑みを浮かべ、美貴は面を被り、愛子にも面を付けるように促す。二人は再びピンクとチェリーになった。
+チェリー（愛子）は縛り付けられているローズ（慎吾）の前に立ち、ローズ（慎吾）の首筋や胸などを触りはじめた。
+
+愛　『どう？ローズ、気持ちいい？』
+慎　『・・・』
+
+ローズ（慎吾）は頷くこともせず、チェリー（愛子）に弄ばれ、声を出さないように必死に耐えているようです。
+暫くの間、ピンク（美貴）はチェリー（愛子）とローズ（慎吾）の戯れを眺めていましたが、
+二人に気づかれないようにそっとチェリー（愛子）の背後に回りこんだ。
+するとピンク（美貴）はチェリー（愛子）の後ろから抱きつき、チェリー（愛子）の胸を揉みはじめました。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#890">
+				<rdfs:label>890</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-25T10:46+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">愛　『あぁ、うっ・・・・。』
+
+不意をつかれたチェリー（愛子）は思わず声を出してしまいました。
+
+愛　『あぁ、な、なにするんですか、美貴さん・・・。』
+美　『慎吾君ばかり気持ちいい思いしちゃ悔しいから私たちも楽しみましょうよ、ね、愛子ちゃん・・・』
+愛　『・・・は、はい。私も興奮してきちゃってるし・・・感じちゃってるところだから・・・』
+美　『あらあら、愛子ちゃんまで・・・悪い子達ねー』
+
+ピンク（美貴）の右手は胸から下に移動して、チェリー（愛子）のスカートの中へと入っていった。
+
+愛　『あぁ・・・ん、気持ちいいですぅ・・・。ほんとヘンな気分。ハァハァ・・・。』
+美　『あら・・・意外とオッパイ大きいのね、愛子ちゃん。羨ましいなー。』
+愛　『うっ、あぁ・・・ん。そ、そんなところ触られたら・・・ハァハァ・・・』
+
+チェリー（愛子）も負けじとピンク（美貴）の股間のあたりを後ろ手ですが、摩り始めました。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#899">
+				<rdfs:label>899</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-26T11:23+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　『あぁん。ハァハァ・・・』
+愛　『んんー・・・ハァハァ・・・』
+美　『ハァハァ・・・ハァ・・・』
+
+面を通してお互いの声が聞こえてきます。ローズ（慎吾）は目の前で繰り広げられている
+ピンク（美貴）とチェリー（愛子）のレズ・プレイを見て興奮状態なのですが
+両手、両足が固定されているのでどうすることもできません。
+チェリー（愛子）は体を反転させ、ピンク（美貴）と向き合うとお互いの胸と股間を触り合いました。
+ピンク（美貴）の的確な責めで、チェリー（愛子）はかなり興奮しています。
+
+愛　『あぁぁん、そこ・・・。気持ち・・・ハァハァ・・・苦しい・・・。美貴さぁ・・ん・・・面取っていいですかぁ・・・。』
+美　『だめよ、取っちゃ。私はチェリーと遊んでるのよ。あなたは、ピンクと遊んでるんだからね。』
+愛　『は、はい・・・。』
+
+ピンク（美貴）はキューティーチェリーの衣装を脱がし始めた。
+衣装を脱がされ手袋とパンプスの姿にされたチェリー（愛子）は、ますます興奮度が上昇したようです。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#900">
+				<rdfs:label>900</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-26T11:24+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">愛　『あぁ、美貴さんもう・・・ガマンできません。ハアハア・・・。』
+美　『あらあら、愛子ちゃんも若いわね。これぐらいのことで興奮しちゃって・・・。』
+愛　『そ、そんなこと言ったって・・・美貴さん・・・わ、私はまだ・・・ハァハァ・・・。』
+
+キューティーチェリーの着ぐるみを着て、先ほどまではかなり大胆にローズ（慎吾）を攻撃していた愛子ですが、
+実はまだ男性経験がなく、初めて味わう快感にすでにダウン寸前のようです。
+
+美　『ねぇ、愛子ちゃん、もっと気持ちよくなりたくない？』
+愛　『えっ、ハァハァ・・・。』
+美　『どう？愛子ちゃん、答えなさいよー。気持ちよくなりたいでしょ？』
+
+美貴に問いただされ、ただ頷く愛子。
+
+美　『そうそう、素直でいい子ね。じゃあ愛子ちゃん、そこに座っているローズに跨ってごらんなさい。』
+
+チェリー（愛子）はピンク（美貴）に言われるまま、戸惑いながら、キューティーローズ（慎吾）の股間に跨った。
+ローズ（慎吾）の股間の凸部分とチェリー（愛子）の股間の凹部分がぴったりと重なり合った。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#901">
+				<rdfs:label>901</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-26T11:25+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">慎　『ウッ、ウゥゥゥゥ・・・ハァハァ・・・。』
+愛　『あぁぁぁ・・・ん・・・ハァハァ・・・。』
+慎　『ハァハァ・・・。』
+愛　『う、んん・・・なにか当たって気持ちいい・・・ハァハァ・・・。』
+美　『何かに当たってる？何かわかるでしょ？ちゃんと言って御覧なさい。』
+
+ピンク（美貴）はキューティーチェリー（愛子）とキューティーローズ（慎吾）が重なっているのを見下すように問い詰めました。
+
+愛　『・・・。』
+美　『聞こえないわよ、さぁ愛子ちゃん何が何処に当たってるのか言って見なさい！』
+愛　『わ、私の・・・○○○と、か、慎吾君のオ○○○ンが・・・ハァハァ・・・当たってますぅ・・・。』
+
+ローズ（慎吾）はただ低くハアハア言ってるだけです。
+
+美　『どう？気持ちいい？』
+愛　『・・・気持ちいいです・・・・。』
+
+チェリー（愛子）は動けないローズ（慎吾）の首に腕を回し、強く抱きしめた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#902">
+				<rdfs:label>902</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-26T11:26+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">慎　『ウゥゥゥゥ・・・ハァハァ・・・ハァハァ・・・。』
+愛　『あぁぁぁん・・・。』
+
+面を通したお互いの声が部屋に響く。
+チェリー（愛子）は無意識のうちに腰を動かしているようです。
+されるがままのキューティーローズ（慎吾）。
+それをじっと眺めているピンク（美貴）。
+異様な光景が部屋の中で繰り広げられています。
+ローズとチェリーは外見は面を被ってタイツを着て抱き合っている女の子フタリですが中身は若い男女。
+面を被っていることで大胆になっている愛子はいっそう激しく腰を動かし自分の股間の気持ちいいポイントに
+ローズ（慎吾）の凸部を当てます。
+ローズ（慎吾）は手を出すことも自分から動くことも出来ず、されるがままです。
+すでに２回逝かされているのでどうにか耐えていられますが、もはやそれも限界に達してしまいそうです。
+
+愛　『もうダメ、気持いい、ハアハア。苦しい、ハァーハァー・・・。』
+慎　『ハァハァ。』</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#903">
+				<rdfs:label>903</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-26T11:27+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">愛子の声が荒々しくなってきて、かなり呼吸も苦しそうです。
+腰の動きがよりいっそう激しさを増し、愛子が苦しさの限界に達したらしく自分の面に手をかけ、
+面を少し持ち上げ、素顔を半分出して大きく息を吸った瞬間・・・
+
+愛　「あぁ、っーーーーー、・・・・・。」
+
+声とともに、腰がピクリピクリとなって動きが止まりました。限界を超えてしまったようです。
+慎吾も目の前で愛子の半分マスクオフを見せられ、今までの手だけの攻撃と違う快感を受け、
+愛子が逝った瞬間にほぼ同時に本日３回目を向かえましたようです。
+再び面をきちんと被ったチェリー（愛子）は肩で大きく息をしています。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#904">
+				<rdfs:label>904</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:27+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">愛　『気持ちよかったです・・・ハァーハァー・・・』
+美　『慎吾君も逝っちゃったようね(笑)』
+慎　『・・・。』
+愛　『美貴さんはしなくても、ハー・・・いいんですか・・・。』
+美　『私はいいのよ。心配しなくても・・・。』
+愛　『すごく気持ちがよかったですぅ・・・頭の中が真っ白になった感じ・・・ハァハァ・・・。』
+美　『あのね、愛子ちゃん、ほんとのＨはもーっと気持ちがいいわよ。』
+愛　『も、もっとなんですかぁ・・・ハァーハァー・・・。』
+美　『ローズも気持ちよかった？』
+慎　『・・・』　コクリと頷く慎吾。
+美　『さぁ、今日はこれで終わりにしましょうか。着替えて片付けないとね。』
+
+ピンク（美貴）はローズ（慎吾）の手錠と紐を外して、先に着替えるからここで待っているように指示した。
+ピンク（美貴）とチェリー（愛子）は隣の部屋に行き、着ぐるみを脱いだ。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#905">
+				<rdfs:label>905</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:28+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">愛　「はぁー、苦しかったですよ。ほんとに・・・。」
+美　「苦しいだけ？苦しいより気持ちいいほうが強かったんじゃなーい？(笑)」
+愛　「は、はい・・・。」
+美　「よかったじゃない(笑)」
+愛　「でも、美貴さん。よくガマンできましたね。」
+美　「私はあの程度では逝かないわよ(笑)」
+愛　「そうなんですか？・・・」
+
+フタリは私服姿に着替え、ローズ（慎吾）の待つ部屋に戻った。
+
+美　「さぁ、いいわよ。本日のレッスンはこれで終了。」
+愛　「美貴さんからお許しがでたよ。さぁ着替えてらっしゃい。」
+慎　『・・・・・。』
+
+ローズ（慎吾）は脱がされた衣装を持って隣の部屋に入っていった。
+部屋に入るなり、面を取り大きく息をしながら床に座り込んでしまった。
+
+慎　「フゥーーー。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#906">
+				<rdfs:label>906</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:29+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">目の前のテーブルにキューティーローズの面を置く。
+部屋にはさっきまでフタリが着ていたピンクサファイヤとキューティーチェリーの衣装一式が吊るしてあり、面が置かれていた。
+慎吾は立ち上がり、部屋のカギを閉めた。手袋をとり、ブーツを脱ぎ、後頭部の肌タイツのファスナーを下ろした。
+タイツを脱ぎ、パットの入ったブラも外す。サポートガードルを脱ぐとパンツの中はグチョグチョ状態だった。
+ローズの衣装とタイツをハンガーに掛け、吊るしておく。
+隣に吊るしてあるチェリーとピンクサファイヤの衣装に顔を近づける。フタリの汗の匂いがする。
+匂いを嗅ぐとほぼ同時にまたしてもパンツの中のムスコが動き出す。
+慎吾はパンツを脱いで全裸になり、テーブルの上に置いてある美貴が被っていたピンクサファイヤの面を手に取り被った。
+脇の留め金をパチンと止め、大きく息をする。
+
+慎　（あぁ、美貴さんの香りだぁ・・・ハァハァハァハァ。）
+
+慎吾のオ○○○ンは再び猛り狂っている。テーブルのうえに置かれた皮の手袋を取りはめた。
+手袋にも美貴の温もりが微かに残っていた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#907">
+				<rdfs:label>907</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:30+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">慎　（美貴さん・・・、美貴さん・・・、ハァハァハァハァ・・・。）
+
+慎吾は手袋をした手で自分のオチ○○ンの怒りを鎮めにかかった。
+面の中の美貴の臭いをかぎながら、自分で擦るのは今までとはまた違った興奮が味わえた。
+
+慎　（ウッ・・・。）
+
+あっという間に本日４回目。逝く瞬間にテッシュを手に取っていたので手袋や部屋を汚すことはなかった。
+手袋を外し、ムスコの白い液をふき取り、面を脱いだ。面をテーブルに元通りに置き、私服に着替えた。
+パンツはグチョグチョだがティシュでできる限り拭き取った。部屋に戻ると二人が待っていた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#908">
+				<rdfs:label>908</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:31+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　「遅かったじゃない。」
+愛　「なんかしてたんじゃないの？」
+慎　「そ、そんなことないですよー（汗）」
+愛　「ふーん、ならいいけどねぇ・・・。」
+美　「ふたりとも今日のことは絶対に内緒よ。バレたら大変なんだからね。」
+愛　「はい。」
+慎　「はい。もちろんです。」
+美　「じゃあ、帰ろうか。もう、誰も来ないし。」
+慎　「あ、あの・・・僕は18時半頃まで待ってないと・・・」
+美　「あらそうなの？」
+愛　「面白かったけど、なんか疲れたー。ショーより疲れちゃったかも・・・。」
+慎　「・・・。」
+愛　「それでは、お疲れさまでしたー。」
+美　「愛子ちゃん、お疲れー。」
+愛　「はーい、失礼しまーす。」
+
+愛子が事務所を出て行った後、美貴も事務所を出て行った。
+出て行く前に、美貴は慎吾に軽くキスをしていった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#909">
+				<rdfs:label>909</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:32+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美　「また、遊ぼうね。」
+慎　「・・・。」
+美　「カワイイわねー、じゃあねー。」
+
+その後18時半までに慎吾が本日5回目の処理をまた向うの部屋でしたとかしなかったとか・・・
+
+
+　　　おわり</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#910">
+				<rdfs:label>910</rdfs:label>
+				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:38+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">永らくのご愛読ありがとうございましたm(__)m
+今回で「Ｈな美貴ちゃん」の投稿を終了しました。
+このスレも残り少なくなりましたが、今後の作品の参考にしたいので
+皆様のご感想などを聞かせていただければと思っています。
+よろしくお願いします。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

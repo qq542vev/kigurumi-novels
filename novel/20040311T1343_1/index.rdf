@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:09:21+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:title xml:lang="ja">白猫</dcterms:title>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-03-11T13:43+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-03-16T11:10+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">12089</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#650">
+				<rdfs:label>650</rdfs:label>
+				<dcterms:creator foaf:nick="エフシイ" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T13:43+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">さわりだけ投稿します。
+校正の行き届かないところはご指導願います。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#651">
+				<rdfs:label>651</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T13:44+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">白猫
+
+先月の話、
+久しぶりに知人のカズから電話があって何でもイベントがあるから手伝って欲しいって
+それで思い出したのね、前に行った時の事・・・・
+彼女、コスプレが趣味でキャラが足りないから助けてなんて。その日家に行ったのね、そしたら
+何か超ミニのセーラー服にかつら、長手袋付けさせられてね。
+私アニメ見ないからコスプレのイベント会場に着いても何していいか解んなくて
+カズとコスプレ仲間は色々ポーズするけど私だけ棒立ち・・・
+
+彼女言葉少なになるし周りの雰囲気も悪くなって、
+私も申し訳ない気持ちもあったんだけど・・
+なんてことがあったせいで当分お呼びが掛からなかった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#652">
+				<rdfs:label>652</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T13:46+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そんなカズコからの頼みに驚いた。
+カズコはダサいからカズにしてといつも言うのでカズって呼ばされてるる
+「予定してた子が都合が悪くなって」「今度は何もポーズ取らなくて言いから」「台詞も無いし」
+「準備してた衣装があなたならサイズが合うなって思って」
+私も彼女の情熱は理解してるつもりだったし、
+前の時の借りを返すつもりで結構気軽に引き受けたの。
+そして当日、カズのマンションに行ってそのまま都内の会場へ、衣装の事を聞き辛かったので聞かなかった。
+彼女も「持ってるよ」そういって大きな布バックを指差して笑うだけ。
+ただ大きい荷物を二人で二個づつ持って電車に乗るのに少し勇気が必要だった。
+
+そして会場の更衣室に到着。早速今日の衣装を見せてもらう。
+彼女は首までの黒いタイツに着替えると、私にも白いタイツを差し出した。下着になってこれ着て
+椅子に座ってファスナーを開き足を入れ腕を通すとフードが着いてるフードを被ると素早くカズがファスナーを上げてくれた。レオタードかと思ったら指先、つま先まで包まれた。
+光る白色で首から上は赤色のフードは目の部分だけがくりぬかれる。「わたし変だよね！」思わず話し掛けた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#653">
+				<rdfs:label>653</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T13:48+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「大丈夫、このまま外に出るわけじゃないから」
+タイツ人間になった私は自分で体を触ってみた、艶があってツルツルだ。
+胸からお腹になでていくと何か感じた。
+意外と気持ち良いぞ。夢中になって撫でまわしてると
+カズがフードのファスナーを下ろしてスポーツドリンクを差し出した。
+「今のうちに飲んどいて、このフードじゃ飲みにくいでしょ」
+そのまましばらく二人で雑談してるとほかのコスプレの人が入って来た。
+みんな着替えるとそそくさと出て行った。
+そして、また二人だけになる
+「いいの？出て行かなくて？」
+「そろそろ始めようか。」
+バッグから白い塊を引きずり出した。
+座ってる私の足に白いふかふかを差し込む。
+そのまま立たせると腰まで白いものを引っ張り上げた。
+初めてこの衣装の事を話し始めた。
+「これね、手を付いて歩く着ぐるみなの、
+喋ったりポーズを覚えたりしなくていいから、立ってるだけで良いからね」
+カズは微笑みながら私の前にぶら下がっている巨大な猫の顔を見せて言う。
+そして私にフード被せファスナーを上げた。
+「じゃあ座って手を出して。」
+恐る恐る右手を出すとすっぽり肩まで白い衣装に収まった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#654">
+				<rdfs:label>654</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T13:51+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">自主校正
+二行目　　誤：カズって呼ばされてるる
+　　　　　正：カズって呼ばされてる。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#656">
+				<rdfs:label>656</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T13:57+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「中に棒があるから握って」
+言われるままに握ると左手を持って肩まで押し込まれた。
+左手も同じように棒を掴んだ。
+「あたま入りマース」
+何か違うと言おうとする前に目の前を白い袋が襲ってきた。
+あたまを外から揺さぶられた、真っ白だった目の前に僅かに視界が開けた。
+三角の窓があいている。少し赤く見える口元も呼吸がしやすくなった。
+「見えてる？」赤いレンズにカズが写った。
+「うん、見えるよ」返事をしたけど聞こえないみたいだ。
+「見えてる？」もっと大きい声で訊ねる。
+大きくうなずくと彼女は満足した顔で視界から消えると
+背中でファスナーを閉める音がした。
+その上から両手で背中を丁寧に押さえてた。
+気が付くと腕が前に伸びたまま、
+腕を下げようとすると顔が後ろに引っ張られた。
+「一応猫になったからね、肩は開かないからね。それと足もね。」
+「足も？」立ち上がってみたが腰が伸びなかった。
+「じゃあ手を付いて」言われるままに手を付く。
+腰のあたりを触っている。やがて腰の先にゆらゆら棒がついてる感じがした。
+「尻尾も付いたし！出来上がり！」
+「じゃあ歩いてみて」
+立ち上がって歩こうとするが無理みたい。
+手を突きながらゆっくり歩いてみると姿見が見えた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#657">
+				<rdfs:label>657</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T14:04+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;656
+巨大な猫が写っている。
+白い体に手足の先が黒色、赤い目に白いたてがみが背中までなびいている。
+斜めに向いてみた胸からお腹に掛けて抱き枕を抱えたように膨れている。
+お尻には細い尻尾がゆらゆら揺れている。
+本物みたいだ！顔を上げたり振ったりするが自由に動かせた。
+抱き枕から腕が生えてるから腕は外に開かない。
+そのまま寝そべってみた。
+膝を折ってひじを着くとライオンの置物みたいになった。
+そうやってる内にカズが優しく首輪を廻しリードを付ける。
+「いい？行くよ？」知らぬ間に彼女も残りの衣装を身に着けていた。
+私は大きく縦に顔を振った。
+興奮していた性か体が熱くなってきた。
+口元は横長に開いているがフードの赤い布が口に張り付いて唇が変な形に曲がった。
+上手く喋れない。自分の吐く息しか聞こえない。
+チョコチョコした足取りで彼女の横を歩いて部屋を出た。
+
+リードで誘導されるまま通路を歩いていくと雑踏が聞こえてくる、
+アニメの歌と人の声。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#669">
+				<rdfs:label>669</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:03+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;657
+会場のドアを抜けると一瞬置いてざわめきが聞こえた。
+何かな？と思って手を突き出したまま中腰に立ち上がると再び周りがざわめいた。
+みんなが見ている！
+いろんなかっこうした男女がポーズもキャラも忘れて私を見ていた。
+恥ずかしい！・・
+何人かの人が寄ってきた。
+カズにいろいろ聞いているみたいだ。
+どれぐらい掛かっただとか、どうやって誰が造ったとかね。
+首を突っ張らせながら横を向くとカズは私の横に立って、楽しそうに質問に答えていた。
+「中に誰が入ってるの？」
+「背中にまたがって！こっち見て！」誰かが明るく訊ねてくる。
+カズが明るく答える「彼氏だから大丈夫！」
+「え？」
+思わず振りむこうとした私の背中を叩いて耳元で
+「頼むね」優しくささやいた。
+ゆっくり私の背中に乗ってきた。
+重いぞ！カズ！</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#670">
+				<rdfs:label>670</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:15+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;669
+私は膝を伸ばし肘に力を入れて我慢した。
+カメラの音、掛け声、ざわめき・・・
+熱い汗がフードに染みてきた、
+大きく息を吹いて口の前の湿気を飛ばす。・・・・
+何分立っただろうもう限界。
+ゆっくり膝を曲げたらカズが足を着く。
+そのまま膝を着いて肘を曲げ伏せの姿勢を取った。
+抱き枕をかかえてうつ伏せになっている私に彼女が体を預けてきた。
+背中に乗せるよりマシか、熱いけど。
+しばらくへたばっていると「そろそろ移動するよ」
+そう言われてゆっくり起き上がる。
+「そか、立てないんだった」
+うちの猫みたいに腰を引いて手を前に出して伸びをした。
+再び歓声があがる。
+首を引っ張られながら前に進み始める。
+腰を曲げたままで両腕は松葉杖、肩に体重を預けながら歩くと
+少しは慣れたのか手足を動かす順番が解かってきた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#671">
+				<rdfs:label>671</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:17+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;670
+徐々に大股で足を動かしてやっとリードが緩んだ。
+「あれ？」
+股間に違和感！何か擦れてるみたい。
+だめだよこんな時に感じちゃあ　タイツと着ぐるみが磨れてるんだ！
+思わず腰を引いて止まると
+カズが振り向いて表情も変えずに引っ張った、
+しょうがなくついて歩く。
+歩くたびに布が当たる、汗が噴出す。
+立ち止まると
+曇った赤いレンズ越しに驚いて見つめる顔、顔。
+中にはそばまで来てレンズを覗かれる。
+思わず目を伏せたが不思議そうな顔で去っていった。
+外からは見えないんだ。
+色んな声が遠くで聞こえる。
+「チャックどこよー」
+幾つもの手が背中を撫でたり叩いている。
+詰め物に覆われた胸にまで触ってくる。
+「うそー！この人,縫い込まれてるんじゃない？」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#672">
+				<rdfs:label>672</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:19+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;671
+「え！！ファスナーを上げた筈だ、このままなんてやだ！」
+尻尾を引っ張られた、
+これは腰に繋がっているので内側まで感じてしまう、
+思わず呻いて腰を落とす。
+口に手を入れて噛まれた振りする奴もいる、
+腹が立つので噛み付こうとしたが口のタイツが邪魔。
+タイツ越しに舌をいっぱい伸ばして
+猫の口に侵入した指を舐めてやったらすぐ引っ込めた。
+レンズに派手な衣装の女の子が映る、
+恐ろしいものでも見たように
+私の口から引き抜いた手の平と私を見ながら下がって行く。
+私は思わず「ガァーー」獣の言葉を叫んだ。
+外側にどう聞こえたか解からないが手を突っ込んだ奴は振り向きながら走り去った。
+「こっちは大変なんだよ！」
+暑いし腕は痛くなってくるし何か感じて濡れて来るし、歩くしかないか。
+歩く要領は解ったけど手足を交互に歩くと腰と肩を左右に振りながら歩くようになる。
+手足が外に開かないこの着ぐるみのせいだ。歩くと腰に快感が追いついてくる。
+私はカズを引っ張っては歩き始めた、あー！嫌だ、濡れてきたぞー！　
+立ち止まると触られる。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#673">
+				<rdfs:label>673</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:21+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;672
+しばらく歩くとカズは私が態度を変えたのに気が付き
+人気の少ないブースの裏に誘導した。
+「大丈夫？」耳元で尋ねたチョッと心配そうだ。
+大声で答えたが返事がない、
+ゆっくり体を動かしてカズの正面を向き、杖を握ったままの私の拳で口を叩いて見せた。
+「解かった！」そんな顔してカズが口元に耳を押し当ててきた。
+「もう脱がして」そう言ったつもりが口にタイツが張り付いて上手く発音できない。
+声を大きくしながら何度か繰り返すとやっと通じたようだ。
+「いいけどあなた今脱いだらタイツ一枚よ？靴も無いし、写真撮られてもいい？」
+私は前足でバツを作って返事しようたしたがバランスがとれずにうつぶせになった。
+「何やってんのよ」カズが大声で笑った。
+猫の顔で見上げる私、情けない。
+「脱いでいいの？」
+四足で立ち上がって私はゆっくり頭を横に振った。
+「じゃあ更衣室に戻るよ」
+私の口元で言った。その後口に耳を当てて返事を待つので
+「シュグチガクデョー（すぐ近くでしょ？）」
+ヤッパリだめだ、と思ったら通じてた。
+「反対側だからね、ここが折り返し地点だよ。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#674">
+				<rdfs:label>674</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:24+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;673
+
+ハァー参った。この着ぐるみのお股の調子が悪いなんて言えないし・・でも熱い。
+しょうがないね。私はとぼとぼ歩き始める。カズが追いついて横を歩く。
+ブースの物陰から出ると周りの人が振り向く。
+再び取り囲まれそうになるが私は気にせず歩く。
+みんなぼんやり見えてたレンズの曇りが水滴になって流れ落ちた。
+猫の顔を縦に振ると少しは周りが見えてくる。
+早歩きになると大きく腰を左右に振ってしまう。
+急げば急ぐほど腰が摺れて感じてしまう。
+私はそのたびに私しか聞こえない嗚咽を漏らす。
+それもタイツで引っ張られた唇と鼻で「うぉ」とか「あぁ！」とか
+発音まで変になってまるで獣。
+感じなくても自分の呼吸が散歩後の犬みたいだ。
+犬のほうが舌が出せるだけ羨ましく思えた。
+「聞こえないならいいや！」
+それ以上に息が苦しくなって立ち止まった。
+だいぶ近づいたかな？
+そして再びお約束のように人に囲まれて、
+カズが背中に乗った。
+やっぱり重いぞカズ！</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#675">
+				<rdfs:label>675</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:26+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;674
+重いカズは笑顔でポーズを取っている。カメラ付き携帯の音も聞こえた。
+そしてカズが降りてポーズを取り終わると
+私が首を縦に振って私は再び歩きはじめる。
+横からはしゃいだ声が飛び込んできた
+「私も乗っていいですか？」
+「はぁ？」
+　カズも私を見て困った顔をする。
+その目からは「乗せてあげなさい光線」が発射されそうだった。
+私は激しく猫の顔を横に振り
+「ガァーアーー」思いっきりの大声で同時に手足をばたばたさせて体で拒否した。
+曇ったレンズの向こうに中学生ぐらいの女の子が悲しそうに覗いている。
+カズがホローする
+「ごめんね、彼ね機嫌悪いみたい？」っておい！
+女の子は私の横に立つと恐る恐る私の背中のたてがみををなでた。
+それに合わせてゆっくり首を縦に振って機嫌よさそうにすると
+その子の笑顔が戻ったようだ。
+そのまま笑顔でわき腹をさすり、私の顎をさすって来た。
+って猫かよ！</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#676">
+				<rdfs:label>676</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:28+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;675
+お嬢ちゃんがさすっている猫の中には
+口呼吸の汗まみれで
+股間がぬれぬれぐじゅぐじゅの
+変てこな顔の無いタイツ被った
+お姉ちゃんが入ってんだよ！
+夢を壊すつもり無いけどね。そう思ったら体が熱くなって萌えてきた。
+「だめだめ、更衣室に帰るんだ！」
+ご機嫌でさすり続けるその子を尻目に
+肩を下げて伸びをして見せた。
+頭を左右に振ると何も無かったように。歩き始める。
+「もう、いいわね」
+カズの問いかけに女の子は笑顔でうなずいた。
+それと同時に廻りから拍手が起こった。
+カズが驚いて照れくさそうに手を振ってポーズを決めたが
+私がいないのに気が付いて私の首のリードを追いかけた。
+今度は笑いが起こった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#677">
+				<rdfs:label>677</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:30+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;676
+私は振り向いてカズが追いついたのを確認しようとした。
+カズの後ろにカメラを持った男達が群れになってついてきている。
+あれがカメコと呼ばれる奴ね。前にカズが囲まれて怖かったって言ってた。
+逃げるしかない！
+立って走ろうとしたが、やっぱり腰が伸ばせない、おまけにハイヒールだ。
+私は膝を曲げたまま手を突き出してもがいていた。
+そのまま倒れるところで手を付いた、
+そして立ち幅跳びのようにして飛んだ。
+私はカエル飛びのようにして走った。
+多分見てる人は猫の全力疾走に見えるだろう。
+カズもすぐ横を走ってるようだ。
+通路の扉が見えた。制服の警備員がそばに立っている。
+会場に入るときは気が付かなかったらしい。
+警備員が見えるとカズは走るのを止めた。
+私は腰を振り振り感じるのを我慢しながら歩くしかなかった。
+私たちの後ろに一瞥をすると笑顔でドアを開けてくれた。
+カズが笑顔で礼を言ったので私も猫の顔の中で笑顔を作って頭を縦に振った。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#678">
+				<rdfs:label>678</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:32+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;677
+自分の荒れた呼吸しか聞こえない。
+レンズも曇ってほとんど見えなくなった。
+腰も尻尾が揺れるたびに刺激される。
+カズに引っ張られるままに通路を歩いた。更衣室に入った様だ。
+この服を着た場所より奥に引っ張られた。
+「ほんとは奥に個室があったんだよ」
+「早い者勝ちだったからさっきは間に合わなかったけど、今ならすいてると思ってね」
+私が寝そべって猫の体の中でゼイゼイ言ってると荷物を持ってカズが帰ってきた。
+「出してあげるからね、じゃあ起きて」
+私は起き上がろうとした。引き伸ばされた手が邪魔で体を起こせない。
+もがいていると見かねてカズが私のお腹を抱いて持ち上げた。
+やっと立ち上がって背中が開くのを待った。
+「あれファスナー壊れてる！」
+私は思わず言葉にならない泣き声を上げて立ち上がり
+動かない腕を背中に廻そうともがいた。
+「いやだよ！このままなんて！何とかしてよ！」
+と叫んだつもりだった。
+中腰の私の両手の先に付いてる猫足を掴んでカズが笑った。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#680">
+				<rdfs:label>680</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T13:40+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;678
+「元気出た？そのまま床に座って」
+そう言われてお座りすると
+カズは笑いながら私の背中をごそごそし始めた。
+私の猫の体を開きながらカズが言うには
+以前会場でいたずらされて知らないうちに
+ファスナーに接着剤つけられてたらしい。
+で、泣く泣く自作の衣装を切り裂いて帰ったとのこと。
+その対策としてファスナーが見えないように
+背中にもう一枚たてがみを貼り付けているらしい。
+両脇をいじった後背中を引っ張られる感じがして
+バリバリと音が聞こえたと同時に背中が少しスッとした。
+そしてファスナーが下ろされマスクの紐が解かれる。
+カズは手早かった、そのままタイツのフードのファスナーも下ろしてくれた。
+猫の頭を抜き取ろうともがいたが延長した猫足のままで一人では無理だった。
+カズが私の前に廻り、棒の猫足を掴むと
+「手の力を抜いてゆっくり体を起こして」
+言われるままにするとやっと猫の顔から脱出できた。
+自由になった手でフードを下ろす。上半身は、ほぼ私に戻った。
+まだ息が荒い。思い出した、
+私の股間は濡れ濡れのままだ、やばいぞ！カズにばれませんように。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#681">
+				<rdfs:label>681</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T13:42+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;680
+「下も脱ぐでしょ。？」
+「あ、このままでいいよぉ」
+「そおお？」
+汗かいてるからかえって冷えるみたい。
+私は背中を曲げて頭と前足の垂れ下がったぐんにゃりした猫の体を抱えて
+歩きそばの椅子に座った。
+「あ、尻尾、尻尾！」
+そう言われたと同時に座ってしまった。
+造り物の尻尾がお尻にひかれて忘れた刺激が帰ってきた。
+「ううっっ」思わず声を上げてしまった。
+気まずいと思いながらカズを見た。
+「大丈夫？どっか当たった？外すね」心配がありがたかった。
+素早く後ろに回って尻尾を取り外すと心配そうに色々触って見ている。
+あ、衣装が心配だったんだ。
+まあ彼女らしいか。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#682">
+				<rdfs:label>682</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T13:44+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;681
+それから彼女が買ってきた飲み物で一息つくと、
+何か言いたそうな顔が見えてきた。
+「えーとまだ飲むでしょ買ってくるね」
+「これ以上の隠し事は止めてね。」私が先にくぎを刺した。
+カズは卑屈に微笑みながら間をおくと
+「それがね・・・撮影されてる時に誘われたの、ダンスパーティー。
+それもね、あなたは知らないけど憧れの有名なコスプレーヤーなのよ。」
+「へー良かったじゃない。」
+「それでね、この後いっしょに来て欲しいの。」
+「へ？これで？」私は胸から下がった猫の頭を指した。
+「そう、」
+「私と私が作ったあなたに感動したって言うのよ。彼も是非一緒にって」
+「思い出した！何で私がオス猫なのよ！」
+「ナンパよけのつもりで言っちゃった、
+私、純粋なコスプレーヤーだからね。ごめんね。」
+発想が純粋じゃないんだよ！
+女の子が入ってるからいじめないでなんて言えよ！</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#683">
+				<rdfs:label>683</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T13:48+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;682
+「あ、会場に更衣室は無いんだって、
+だから外にワゴン車が迎えが来てコスのまま移動出来るって言ってた。」
+
+今は部屋が涼しいし、汗ついてるからタイツも目立たないけど私の股間は濡れたままだ。
+ただ恥ずかしいだけなんだけど今後の事も考えて彼女だけには知られたくない。
+猫の頭と前足が垂れ下がった抱き枕を大事に抱いたまま椅子から動けなかった。
+「私、これ着て行くわ、立って歩くのも面倒だし。」
+「車で着ればいいのに」
+「だめよ、こんなかっこで写真でも撮られたら、ネットに出回るんでしょ？」
+「うーん、そうね。・・・・・・」
+「でも何か嬉しいな、私の着ぐるみ気に入ってくれたみたいで！」
+「えっ！そう言う訳じゃないけど・・・・」
+ヤバイ！話題を変えなきゃ。
+「ところで、いつ頃ここを出たらいいの？」
+「もう三十分ぐらいかな？　何でもそのカリスマの人がね
+　あ、タクミって言う人なんだけど、
+親しい人だけで早めに会場抜け出してパーティーするんだって」
+「誰でもは呼んで貰えないのよ、結構凄い事なのよ。」
+私は少し寒気がしたのでタイツの体をタオル拭くことにした。
+三十分後には私は再び猫だ。長い一日になるんだろうな。
+
+　　前編を終了します。続きます。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#705">
+				<rdfs:label>705</rdfs:label>
+				<dcterms:creator foaf:nick="エフシイ" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T13:20+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">白猫　続きです。
+
+私は先月の今ごろ
+あのコスプレの会場更衣室にいた。
+全身タイツを着て白い猫の着ぐるみに足を通し胴体を抱きしめたままだ。
+となりでカズが手首を見ながら
+「そろそろ準備しようか？」
+「ハイハイ」私はあきらめ気味に答えた。
+これから何時間か猫になるからだ。
+さっきカズが写してもらったポラロイドを見せてくれた。
+初めて猫の私を見て少し気が抜けた。
+「こんな姿にされてたんだ！」
+私はもう少し猫そっくりと思って歩き回ってた。
+足が細長く胴が短く尻尾が勝手な方向に曲がってる。
+首が無い、肩からすぐ頭が付いてる。
+膝との廻りは詰め物で強調されて猫の足のようにも見えるが、
+尻尾の下から太ももに掛けて詰め物が何も無かった。
+横から見るとヒップラインが丸見えだ。
+これじゃ罰ゲーム受けてる人みたいだ。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#706">
+				<rdfs:label>706</rdfs:label>
+				<dcterms:creator foaf:nick="エフシイ" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T13:21+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;705
+こんなカッコで歩いて吼えてダッシュした全てが恥ずかしく思えた。
+そんな事を考えていてもカズはテキパキと私の後ろフードを広げ私の顔に貼り付けた。
+汗で濡れたレオタードみたいな布がぴったり張り付く。
+カズは後ろ頭のファスナーを閉めると、
+目を残して顔も髪も無くなった赤い頭の私に優しく
+「さあ、早く手を出して！」
+初めて着た時と同じように右、左と腕を突っ込み中の棒を握る。
+握った手から手のひらに染みた汗が滲むのが解る。
+猫の頭を被せてきた、
+「待って！」
+カズが手を止めて私を覗き込んだ。
+「後ろを縛るでしょう、唇つぶれて喋れないよ」
+「じゃあ、縛らずに着てみようか？」
+
+私は素直に猫の頭を被るとファスナーが閉められた。
+椅子を離れて手を付くと
+「これなら楽！」大声で叫んだ。
+「頭動かして。」
+あ、聞こえてるんだ。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#707">
+				<rdfs:label>707</rdfs:label>
+				<dcterms:creator foaf:nick="エフシイ" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T13:22+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;706
+聞こえる言葉が喋れると嬉しくなった。
+首を左右に振ると猫の頭と顔に張り付いたタイツのマスクが別々に動く
+目の前を赤いレンズが送れてついて来る。
+我慢して縦に首を振ると今度はタイツのマスクがずれてきた
+少しづつ後ろに引っ張られてくりかれた目の部分が額に張り付きながら移動していった。
+
+がむしゃらに首を振るが目の前はタイツの赤い布しか見えない。
+「見えない！」
+思わずつぶやきながら首を振っていると猫の頭を両側を押さえつけられた。
+首を振るのを止めると背中のファスナーが開いた。
+頭を出すと、カズは両手を持って私を椅子に戻した。
+「やっぱり無理でしょ。」
+その声を聞きながら腕を抜いた。
+「そうみたい。」
+表情の無い私の顔を引っ張りながら覗き穴の場所を合わせる。
+濡れたタイツの指でマスクの生地がつかめない。
+顔に両手のひらを当てもぞもぞしてるとマスクのファスナーを開けてくれた。
+顔の布が手前にずり落ちた。
+「一応理詰めに作ってあるのよね。」少しすまなそうに彼女が言った。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#708">
+				<rdfs:label>708</rdfs:label>
+				<dcterms:creator foaf:nick="エフシイ" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T13:23+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;707
+ふー・・私はため息をつきながら
+顔に付いた髪を後ろに撫で付け首元にあるマスクを持って
+自分の顔に貼り付け目の位置を合わせた。
+静かにカズがファスナーを閉じる。
+胸の先に垂れ下がった猫の手に腕を差し込んだ。
+カズが猫の顔を両手で開きながら私に被せた。
+そして顔を引っ張られ、顔がつぶれていくあの感じ。
+多分、高くはない私の鼻が平らになって
+唇も押さえつけられてタラコのようになったんだろうな。
+頭を締め終わったカズに手を付くように言われ
+体を前に倒して前に習えの腕を床につける。
+背中でカズが作業を続けた。
+背中のファスナーが閉められ、
+マジックテープの付いたタテガミが貼り付けられて、
+脇の金具を引っ掛け　背中を丁寧に手のひらで押さえた。
+首輪を巻き付けて尻尾を取り付ける、</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#709">
+				<rdfs:label>709</rdfs:label>
+				<dcterms:creator foaf:nick="エフシイ" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T13:24+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「よし！出来た！」
+相変わらず仕上げは明るいカズ。
+そして再び私は変な猫になった。
+着ぐるみに染みた汗がタイツ越しに伝わってきて気持ち悪い。
+股間も濡れたままのタイツ地が着ぐるみの生地に押されて引っ付いてきた。
+荷物をまとめ終わると私の猫の耳元で
+「行くよ？」と訊ねて猫の口元に耳を向ける。
+さっきの休憩中に打ち合わせしたとおりだ。
+何か言いたい事があるときは左手で床を三回叩く。
+それを見たカズが私の口元に耳を寄せる約束だ。
+「イィーオー」（いいよ）やっぱり通じないか。
+「声も聞こえないけど誰かわからないから良いよね。」
+微妙にだが同意して首を縦に振った。
+とりあえず股間のことがカズにばれなかったのは安心だ。
+それに何言っても聞こえないしね。
+私がゆっくり歩き出すとカズも両手に荷物を抱えてリードを持ってよろよろ歩いた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#714">
+				<rdfs:label>714</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-14T13:47+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">カズのリードと一緒に私は会場の入り口へ向かう。
+ゆっくり歩くが体もすぐ温もって再び汗がにじみ出て来た。
+一歩づつ歩く都度に私の股間でタイツ生地がしわを寄せて暴れる。
+私の腰もそれに応えて体液が滲み出てゆく。
+玄関ホールに出ると歓声が上がり私に視線が集まった。
+立ち止まると囲まれる、触られる、乗られる。もう気にしない。
+皆さんが見てるのは変てこな猫なんですよ。
+決してのっぺらぼうのタイツ着込んで
+愛液を滴らせながら這い回る私じゃあないんですよ！
+そんな事考えながら腰を振り、
+肩をいからせて周りを威嚇するように顔を振りながら歩き続ける。
+出入り口を抜けると西日が飛び込んできた。
+猫のレンズが曇っているのでぼんやりとした視界とリードに導かれて歩く。
+冬なのに日光に当たると余計に熱く感じる。
+「あの車かな？」
+箱型のワゴン車？に極彩色の衣装を着た人が乗り込んでいる。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#715">
+				<rdfs:label>715</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-14T13:49+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;714
+車までもう少しだ。
+そばまで来ると私服の男性が嬉しそうな顔でしゃがんで両手を伸ばして迎えてくれた。
+カズの荷物を軽々と座席の後ろの荷台に載せるとカズに
+「お嬢ちゃんは助手席ね、もう満員だから
+　猫ちゃんは一番後ろでしゃがんでてもらおうかな？」
+確かに今の私は脱げない着ぐるみの猫だけど・・荷物扱いかよ！
+そう思って彼を睨んでいると私の両手を持ち上げて車の後ろへ誘導した。
+「こうすれば歩きやすいだろ、」
+中腰ながら彼に体重を預けると腰を振らずに真っ直ぐ歩ける。
+「（すみません！、助かります！）」
+と大声で言いながら猫の顔を縦に振ってお礼を言った。
+聞こえてないと思ったら嬉しそうに
+「気にしなくていいから。」と答える。
+　そのまま車の後ろの跳ね上げドアの前まで来ると
+荷室のふちに私の手を下ろし中の荷物を手際良く寄せて場所を作った。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#716">
+				<rdfs:label>716</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-14T13:52+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;715
+「手をいっぱい前に伸ばして。」
+言われるままに荷室の奥に手を持って行くと後ろから
+「じゃあ押すよ？」
+何の事かと思うより先に私は膝のあたりを抱えられて押された。
+そのまま膝を曲げられ、車内でおすわりの格好になる。
+横になったら立てないんだ。
+注意しながら体を少しづつ動かして猫の前足が伸ばせるように位置を決めた。
+彼は私の背中を軽く叩くと
+「良くここまで頑張ったね。」とねぎらってくれた、
+私は振り向きながら片手を上げて聞こえてる合図をすると、ドアが閉まった。
+外も見えず車内の視線の低い位置で見回すと誰かのカバンしか見えなかった。
+ふと前の席の見ると髪も顔も着飾った子と巫女さん風の子が不思議そうに見ている。
+「じゃあ出発します」
+明るい彼の声が運転席から伝わってきた。
+その後カズの心配そうな声</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#717">
+				<rdfs:label>717</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-14T13:56+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;716
+「彼、大丈夫ですか？」
+「まだオス猫かよ！」
+そう思って前を見ると座席の女の子がさっきと違う目で私を見た。
+「大丈夫ですよ。」
+運転手の彼の声と同時に少し揺れて車は走り出す。
+前の席の女の子はまだ見てる。
+私は彼女たちを見ながら半身を起こして思いっきり大声を出して吼えた。
+「ひっ！」
+女の子は頭を引っ込める。
+私は寝そべると目を合わさないように
+顔を前足に突っ込むようにしてじっとしていた。
+私はコスプレを理解する包容力のある彼氏じゃありません！
+そう思っていても彼女たちの話し声が聞こえる。
+「いいよね、あんな彼氏がいたら」
+「どんな人が入ってるのかな？」
+「縫いぐるみみたいだね。」
+「イケメンならいいのにな」
+「私もあんなすごい着ぐるみ着てみたいな。」
+「頼んでみたら？」
+色々勝手に妄想なさってます。
+おとなしく聞いていると
+思わずのっぺらのタイツ姿を彼女たちに見せたくなる。
+それにしても熱い。
+股間の刺激は納まってるけど体中私の汗を吸ったタイツが張り付いたままだ。
+そのうち車の揺れが止まり後ろのドアが開いた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#726">
+				<rdfs:label>726</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-15T12:08+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ダンスの会場に着いたようだ。
+前の席の女の子が怖々小さく手を振って降りていった。
+「じゃあ降りるよ」
+運転手の彼が話し掛けてきた。
+「後ろ向きにね、膝と肘使ってホフク後進。」
+私はずるずる後ろに動いてみる、
+後ろが見えないので不安もあるが彼もカズも居てくれるはずだ。
+「左足が降りるよ、ハイ、右足。」
+ゆっくりハイヒールを地面に着けた。
+私は背を伸ばし荷台に肘を付いた猫になった。
+「何くつろいでるの？　行くわよ。」
+カズが私の左に立ち両手を掴んで持ち上げ車から引き離した。
+地面に手を着くと私は振り返る。
+「（荷物は？私の服は？）」
+思い出した私は通じない言葉で言ってみた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#727">
+				<rdfs:label>727</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-15T12:09+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;726
+ドアを閉めた運転手の彼がこちらに向かってあの笑顔で
+「みんなの荷物は車に預かっとくから安心して！
+車しまってくるからね！」
+手を振りながら車に消えた。
+
+あの人何かおかしいな？
+私知らないはずだけどな？
+私のこと知ってるのかな？
+今の私は
+変てこなオス猫の姿で奇声をあげるカズの彼氏！？？
+
+カズが振り向いたまま棒立ちの私のそばに寄ってきて、
+「これ、入場用のIDだからね。」
+私の猫の顔に名札を見せた。
+名前の所に猫のイラストと番号が書いてある。
+カズの胸にも同じ名札が付いる。
+ビニール製の名刺を入れるあれだ、猫じゃないときに見た事ある。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#728">
+				<rdfs:label>728</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-15T12:12+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;727
+
+「動かないで！」
+私の腕を触っている、名札をつけてるんだ。
+「見える？」
+頭を右に振ると赤いレンズの隅っこに名札が見えた。
+肩の下ぐらいに着けたようだ。
+「さっきの運転手さんが車で配ったんだよ。」
+「でもね、あなたの分取り付け位置まで私に言ってた。」
+カズも私と同じ疑問を持ったかも知れない。
+でも彼女は考え込むそぶりも見せずに
+私のリードを拾うと歩き出した。
+目の前のダンスパ−ティーの方が大事なんだ。
+でも猫の私はやる事は無い、
+はなやかな空間で汗と愛液だらけのタイツ着て喋れない猫の体に
+閉じ込められたまま時間を過すんだろうな。
+カズの前でも
+脱げない状態になっちゃってるからしょうがないけどね。
+
+ロビーにあまり人がいなかったのは良かった。
+「うそー、始まってるのかな？」
+カズは私を置いて駆け出しそうだ。
+先に言っていいですか？なんて目で私を見る。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#729">
+				<rdfs:label>729</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-15T12:14+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;728
+置いてかれたら大変だ。一人じゃ何にも出来ないんだ！
+私も股間が変になるのも構わず
+肩と腰を金魚運動みたいにしてついて行く。
+「おーい！」
+運転手の彼が追い付いて来た。
+少し息を切らせながらカズに
+「先に入って良いよ、ネコちゃんは僕が一緒にいるから。」
+「えー！いいですか？」
+
+え？私は？
+
+カズは迷わずリードを彼に渡すと
+「お願いします！」
+
+て、おい！私は？
+
+「帰るときは僕とネコちゃんを探してね」
+リードを受け取りながら彼が返事した。
+
+それで？　私は？
+
+カズは一礼すると重そうなドアに向かって走り出す。
+ドアを開くと重低音が飛び出しカズを掴んで消えた。
+ドアが閉まった。
+あのドアは私一人では開かないかも知れない。
+リードを持った彼が私を見下ろして微笑んでいた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#754">
+				<rdfs:label>754</rdfs:label>
+				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T11:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;753
+はい、
+衣装屋は休載致します。
+
+後がつかえてるのを引っ張るつもりは無いですよＷ
+スレに隙間が出来たら投稿しますね。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

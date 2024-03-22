@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:05:57+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">コスプレの絆</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-10-18T07:55+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-11-23T21:30+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">1286</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#603">
+				<rdfs:label>603</rdfs:label>
+				<dcterms:creator foaf:nick="GrayGhost" dcterms:identifier="TbVvpI0o"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-10-18T07:55+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">しかし穂乃香は、着ぐるみでイベントに出ることを厭わなかった。
+
+
+　コス暦そのものは８年と健司より２年長かった穂乃香も
+健司の着ぐるみへの「転向」に戸惑いを隠せなかった。
+「どうして美少女着ぐるみなのか？」
+　激しく健司を問い詰める事もしばしばだった。
+「普通のコスと一緒だよ」健司は事も無げに答えた。
+
+穂乃香は健司が着ぐるみを始めたことに理解を示そうとした。
+穂乃香がそれをなかなか納得できなかったのには理由があった。
+健司が私に何の相談もなしに３年前に着ぐるみを発注していたからだ。
+「後ろめたくないことなら、なぜ私に一言も言ってくれなかったの？」
+
+健司とすれば事前に私に言えば発注を反対されると思ったのだろうか・・・
+２年前　私は「転向」を突然打ち明けられた、ただそれも自発的にではなく
+健司の部屋に遊びに行った時に大きなダンボールを私が偶然開けてしまったからだ。
+
+健司が旧東ドイツ国境警備隊の制服でワンフェスに来た時も、
+穂乃香はそれを冗談として軽く受け止めた。
+
+なにしろ二人の仲は長かったのだから。初めて会ったときは、そう
+FF７の集合写真、９８年の冬コミだっただろうか
+
+それほどの仲なのだろうか・・・　　そんな事も言ってくれないような・・・
+
+穂乃香はふとそう思い出しながら、背中のファスナーを上げた。
+睡眠とビタミンの足りた自分の肌には自身があったが
+着ぐるみではこの肌タイとやらがお約束らしいから仕方がない。　
+それに全身が包まれるこの感覚も嫌いではなかった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#649">
+				<rdfs:label>649</rdfs:label>
+				<dcterms:creator foaf:nick="GlayGhost" dcterms:identifier="TbVvpI0o"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-11-23T21:30+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">穂乃香はふとそう思い出しながら、背中のファスナーを上げた。
+睡眠とビタミンの足りた自分の肌には自身があったが
+着ぐるみではこの肌タイとやらがお約束らしいから仕方がない。　
+それに全身が包まれるこの感覚も嫌いではなかった。 
+
+少し離れたところで自称着ぐるみ造型師の彼女が
+日曜朝の人気アニメに登場するヒロインのマスクをおもむろに
+バッグから取り出していた。
+穂乃香は少しの親近感を抱いた。　
+それもこの更衣室に着ぐるみレイヤーが他に居ないせいだ。
+『CN　穂乃香』は、コス暦が長いせいもあり知り合いも多かったが
+更衣室で話かけてくる女性はほとんど居なかった
+この更衣室でも知った顔は居たが奇異な視線を投げかけてくるだけで
+それだけの話だ。
+肌タイの次は衣装だ。　バッグの中に皺が寄らないように
+丁寧に入れた水色のコスチュームをとりだす。
+穂乃香は昔からコスに着替えるこの時間が好きだった。
+徐々に日常の頚木が取り払われ
+非日常の空間に引き込まれる感じがたまらないのだ。
+
+マスクをつけてない状態は少し滑稽だ。
+手鏡を見て穂乃香は吹き出しそうになった。
+肌タイに切り取られた顔に澄んだ瞳が浮かんでいる。
+　
+バッグからひときわ大きな塊を取り出す　保護包装をめくり両手で抱える
+
+お澄ましした顔と穂乃香の笑顔が正対する。
+ずっと眺めていても楽しい　それくらい出来が良かった。
+これも健司の先輩のコネという奴だろう　感謝しなければならないのかもしれない
+
+『荒川　渚』健司のやるキャラのクラスメイトだ
+穂乃香は　渚の頬に軽くキスした。
+そしてマスクを裏側に向ける。　穂乃香はその内装の暗がりに
+これから向かう非日常の現実が深く横たわっているのを感じた。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

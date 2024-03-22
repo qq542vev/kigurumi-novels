@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:05:38+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">汗まみれのギャラクシアン</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-04-12T08:21+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-04-27T08:00+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">11144</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#31">
+				<rdfs:label>31</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-12T08:21+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">私の名前は鷹司麻耶（たかつかさまや）、歳は秘密、仕事は派遣会社のアルバイト
+　　そんな私の着ぐるみにのお仕事のお話です。
+　　
+　　　春の陽気がさしてきてとっても暖かくなってきたこのごろなんだけど仕事もないから
+　　　部屋でブラブラしていたら突然、携帯電話に会社から仕事の依頼の話が飛んできた。
+
+　　超戦士ギャラクシアンとゆうヒーローの握手会と写真撮影会の仕事だ、なんで女の私が
+　　男のキャラクターの着ぐるみを着らなければならないのか、私は以前に劇団やなんかで　
+　　役者もやってて、着ぐるみのバイトもしたことあるからだ。
+
+　　しかも、私は普通の女の子よりでかい、身長も１７０ＣＭはある、学生のころはバスケ
+　　で鍛えた足腰がまだ生きているのだ。
+
+　　電話「もしもし、鷹司さん、こんどの日曜なんだけど仕事できる？」
+　　麻耶「え、別にいいですけど、何の仕事ですか？」
+
+　　電話「鷹司さんの高身長をいかしたお仕事です。」
+　　麻耶「それはいわない約束ですよ、私だってけっこう気にしてるんですから。」
+　　電話「キャラクターの仕事です。」
+　　麻耶「キャラクターって着ぐるみとかですか？」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#32">
+				<rdfs:label>32</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-12T08:22+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">電話「そうです、超戦士ギャラクシアンに入って、子供と写真撮影なんかをします。」
+　　麻耶「超戦士ギャラクシアンって、あの男の子むけの特撮ヒーローのですか？なんで私が。」
+　　電話「あいにく、この時期、男は引越しとかでいなくて、鷹司さんなら、経験者だし、背も高いし。」
+　　麻耶「それはなしっていいませんでした・？」
+
+　　電話「ごめんごめん、でも、お願いできないかな？」
+　　麻耶「うーん、あんまり気がのらないけど、今、お金ないし、やります。」
+　　電話「そう、じゃあ、あとで詳細をメールで送るから、がんばってね。」
+
+　　それを言い残すと電話は切れてしまった、麻耶も内心かなりドキドキしていた、着ぐるみ経験は
+　　あるけど、ヒーローは初めてなのだ、しかも男のヒーローなんて。
+
+　　ＰＣを立ち上げて、メールを確認すると、会社からの仕事の依頼の詳細が添付されたメールが
+　　届いていた、場所はショッピングセンターでギャラクシアンの玩具の推奨販売のキャンペーン
+　　でのイベント、当日は介添えとＭＣが現地で集合しいくとのこと。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#33">
+				<rdfs:label>33</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-12T08:23+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　日曜日
+　　麻耶は、着ぐるみに最低限必要だと思われる、Ｔシャツやスパッツ、着替えをもって朝早く
+　　部屋をでた、現地までは電車を乗り継いで１時間くらいの町の駅前ショッピングセンター
+　　だ、現地の駅で介添えの人間がまっていた。
+
+　　麻耶「おはようございます、鷹司麻耶です、今日はよろしくお願いします。」
+　　日向「おはようございます、私は日向早苗、今日のＭＣです、こっちが介添えの中田くん」
+　　中田「中田です、へー、本当に女の人がやるんだ。」
+
+　　麻耶「女じゃだめかしら？」
+　　中田「いや、別にそうゆう意味じゃないんだけど。」
+　　麻耶「着ぐるみに男も女もないと思いますけど。」
+　　日向「中田くん失礼よ、すみません、ちょっとひねくれてて。」
+　　麻耶「いえ、かまいませんよ、では今日はお願いします、中田さん。」
+
+　　中田「あ、こちらこそ、僕、中田俊ていいます。」
+　　日向「じゃ、いきましょ、開店前には先方のマネージャーと打ち合わせしないといけないから。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#34">
+				<rdfs:label>34</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-12T08:24+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ＡＭ：０９：３０　ショッピングセンター
+
+　　入り口で入店のための手続きをとり、ひとまず事務所にむかうことにした、その前に女は化粧室に
+　　いく、日向と麻耶
+
+　　日向「ごめんなさいね、あの子ふだんはいい子なんだけど。」
+　　麻耶「お気になさらずに、私もああゆう子ともいろいろあるんで、気にしてないです。」
+　　日向「そうですか、私も実際、鷹司さんにお会いするまでちょっと半信半疑だったんです。」
+
+　　麻耶「私もこの仕事最初はどうしようかなって思ってて、結局、お金なかったし、引き受けたんです。」
+　　日向「そうなんですか、でも大変でしょ、女の人で着ぐるみは？」
+　　麻耶「さっきも言いましたが男も女も関係なと思います。」
+　　
+　　日向「そうですか、でも、今日のはかなりハードだと思いますよ。」
+　　麻耶「平気ですよ、着ぐるみ初めてじゃないんで。」
+　　日向「今日は３ステあるですが、大丈夫ですか、だいたい１ステ３０分から４０分くらいなんですが。」
+　　麻耶「ま、そんくらいならなんとかなるんじゃないんですか。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#59">
+				<rdfs:label>59</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-13T17:23+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">その日の麻耶はなんとなく腹の具合がよくなかった、でも時間がなかったので１回目は
+　　軽くながしたが、すっきりしないまま打ち合わせに入った。
+
+　　マネージャー「おはようございます、では、本日のイベントの時間ですが、１回目が
+　　１１時、２回目が１４時、３回目が１６時でお願いします。」
+
+　　３人「よろしくお願いします。」
+
+　　マネージャー「私はここのマネージャーの加藤です、えっと、ＭＣの日向さん、付き添い補助の
+　　中田さん、で、ギャラクシアンの鷹司さんですね。」
+
+　　加藤は中田の肩をたたいている、どうやらギャラクシアン役の鷹司を中田だと思いこんでいる
+　　のであろう。
+
+　　加藤「がんばってね、鷹司さん。」
+　　中田「あの、僕は中田です。」
+　　加藤「え？」
+
+　　麻耶「私が鷹司です。」
+　　加藤「え？女の子なの？」
+　　麻耶「女じゃだめですか？」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#60">
+				<rdfs:label>60</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-13T17:24+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">加藤「だめじゃないけど、驚いたなまさかギャラクシアンの中身が女の子だなんて。」
+　　麻耶「失礼じゃないですか？私じゃ役不足だとでもいいたいのですか？」
+
+　　加藤「いや、そんなんじゃないんだけど、ごめんなさい、じゃ、着ぐるみはあっちの倉庫
+　　の中のダンボールに入れてありますから。」
+
+　　といって加藤はそそくさとその場を離れていってしまった、３人で倉庫にむかう、パルテナ
+　　と呼ばれる商品運搬用の鉄の荷車に大きなダンボールがおいてあった。
+
+　　麻耶「なんで男の人って、私が女だからって着ぐるみには向かないって思ってるふしがあるの
+　　かしら。」
+　　日向「まあ仕方ないよ。」
+　　麻耶「仕方ないですましておけないんだけど。」
+　　
+　　中田「どうします？今から着ておきます？」
+　　麻耶「そうね、さっそくやろうかしら。」、
+
+　　いきなり、上着を抜き、ジーパンを抜く、いきなりの麻耶の行為に拍子抜けする中田
+　　事前にトイレで着替えを済ませていたのだ。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#61">
+				<rdfs:label>61</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-13T17:25+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">
+　　麻耶「なに、驚いてるの？ひょっとしてなにか期待してた？」
+　　中田「そ、そんなことないけど。」
+　　麻耶「口ではそういっても、下半身は嘘はつけないみたいね、かわいい。」
+
+　　あわてて、後ろをむく中田、日向も手で顔をおおいつつも指の間から覗いていた
+　　
+　　日向「やだ、もう中田くんたら。」
+　　麻耶「そうゆう、日向さんもちゃっかり見てるし。」
+
+　　白いＴシャツに青いハーフパンツのスパッツ、白い靴下になっていた、ダンボール
+　　を開けてギャラクシアンのスーツをだす。
+
+　　日向「わーすごーい、実際に生で見るとすごい。」
+　　中田「そっち向いてもいいですか？」
+　　麻耶「いいわよ。」
+
+　　全身一体型の着ぐるみで、手袋とブーツは別になっている、ファスナーを開くと
+　　合成ゴムの臭いと、なにか解明できない臭いが漂ってくる。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#62">
+				<rdfs:label>62</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-17T06:08+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">麻耶「うわ、なにこの臭い。」
+　　日向「結構臭うわね、ゴムの臭いがきついわね。」
+　　麻耶「私、これ着るの、やだー。」
+
+　　日向「仕事なんだからがまんがまん。」
+
+　　足から順にスーツに入れていく、腰までいれてストップする
+
+　　日向「どうしたの？」
+　　麻耶「そうだ、胸あったらやばくない？」
+　　中田「そうだよ、ギャラクシアンは男だぜ、胸あったらやばいでしょ。」
+
+　　日向「麻耶さん、背も高いしスマートだし、胸もあるからね、どうしようか？」
+　　麻耶「サラシでも巻いて胸を潰すしかないね。」
+　　中田「じゃあ、このタオルったら？」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#63">
+				<rdfs:label>63</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-17T06:09+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">といって中田が少し長めのタオルを麻耶にさしだす、それをとって胸にサラサラ
+　　巻きつける。
+
+　　日向「でも、大丈夫？」
+　　麻耶「なにが？」
+　　日向「途中で倒れたりしない？」
+　
+　　麻耶「大丈夫、そんなことないと思うけど、まあ、もし、私がだめでも中田くんが
+　　私の代わりにでればいいし。」
+　　
+　　中田「え？」
+　　麻耶「まあ、そんなことはありえないけど、一応、準備しといて。」
+　　中田「は、はい。」
+
+　　中田は少し部屋を離れて、ちいさくガッツポーズをする、ここで、少し中田の脳裏に
+　　悪魔が微笑んだ。
+
+　　中田「ちょっと、イタズラしてみるか。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#64">
+				<rdfs:label>64</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-17T06:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">１０時５５分
+
+　　　１回目の出演が近づいてきた、麻耶は肩まで、スーツを着ていた、時間をみて
+　　　頭までいっきにはめる、ファスナーは中田にしめてもらう。
+
+　　　麻耶「そろそろ、時間ね、中田くん、マスク被るから手伝って。」
+　　　中田「あ、はい。」
+
+　　　中田は正直かなり興奮していた、マスクとスーツの間から見えるマヤのうなじ
+　　　がやけに色っぽい、髪の毛はまとめて後ろでまとめている、タオルで頭を覆って
+　　　いる。
+　　　
+　　　麻耶はここからマスク内での会話になります、基本的に独り言になります
+
+　　　麻耶（うわ、すごく見えにくいし、ゴム臭い）
+　　　日向「あ、着がえたんだ、スゴーイ。」
+　　　
+　　　素で感動している、しかし、それ以上に興奮しているのは中田のほうだった、
+　　　このヒーローの中身が麻耶で、スタイルのいい女の人であるとゆう事実に
+　　　下半身の竿がもう元気になっていた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#65">
+				<rdfs:label>65</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-17T06:11+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja"> １１時　本番
+
+　　　日向「はーい、おはようございまーす、なんと今日はここにテレビで大活躍の
+　　　超戦士ギャラクシアンがきてくれてます。」
+
+　　　スタッフ専用通路に待機しているギャラクシアン（麻耶）と中田、最初は日向の
+　　　挨拶があってよばれたれたらでていくことになっている。
+
+　　　中田「がんばってくださいね、苦しくなったらいつでも言ってください。」
+
+　　　ギャラクシアンは大丈夫といわんばかりにとび出していった、最初は握手でそれから
+　　　撮影会の手順だ、中田はポラロイドカメラで写真撮影する役だった。
+　　　休日とゆこともあり、大変な人数がいた、ギャラクシアンのスーツ内では、まるで蒸し風呂
+　　　のようになっていた。
+
+　　　麻耶（ハアー・・ハアー、さっすがにこれだけ並ぶときついわね）
+
+　　　マスクの中は額からしたたり落ちる汗がマスク内の湿度をあげている、頭に巻いているタオル
+　　　も汗をすいつくしているようで、湿って重くなっている。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#66">
+				<rdfs:label>66</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-17T06:12+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">３０分が経過したところで、あきらかにギャラクシアンに疲れの色がみえはじめている、
+　　　日向が中田にいいよってきた。
+
+　　　日向「ねえ、そろそろ中の麻耶ちゃんやばくない？」
+　　　中田「そうですかね、まだいけるんじゃないんですか？」
+　　　日向「そう、かなり、疲れてるようにみえるけど。」
+
+　　　中田の策略は、極限までやらせておいて、体力的に限界を麻耶自身に痛感させておいて
+　　　交代を麻耶自身で宣告させることである。
+
+　　　額の汗をぬぐうこともでいない麻耶、覗き穴から、ポタポタと汗が流れ落ちていく
+　　　
+　　　子供「あー、ギャラクシアン泣いてる。」
+
+　　　ギャラクシアンの目の下のわずかな覗き穴からでた麻耶の汗がまるでギャラクシアンの涙の
+　　　ように流れていたのだ。
+
+　　　日向「そろそろ、やばいから、この辺でしめるね。」
+　　　
+　　　日向「はーい、今回はこれで終わりでーす、次は２時にまたやってきます、みんなまた
+　　　きてねー。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#74">
+				<rdfs:label>74</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-21T13:07+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　１１時４５分　（スタッフ専用控え室）
+
+　　　中田が後ろのファスナーをさげる、マスクの開封口を麻耶みずからもって、マスクとる
+　　　汗をすった頭のタオルをとると、地面におちる、水分を含んだ布が地面に落ちたときに
+　　　発するどくとくの効果音だった。
+
+　　　日向「お疲れ様、どうだった？」
+　　　麻耶「もう、やばいよ、見てよこの汗。」
+
+　　　日向「顔、汗でテカテカー。」
+　　　麻耶「やめてよー。」
+　　　中田「大変でしたね、かわりましょうか？」
+　　　
+　　　麻耶「おあいにくさま、私はまだ、大丈夫、さ、ちょっとはずしてほしいんだけど、ちょっと着替えるから。」
+　　　中田「はいはい。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#75">
+				<rdfs:label>75</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-21T13:08+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">麻耶はああいっているが実際かなり疲労がでているのは明らかだった、Ｙシャツが
+　　　彼女の汗で透けていた、ブラジャーのシルエットが見えている、疲れているのか
+　　　椅子に座ったままうつむいている。
+
+　　　中田（ハアハア、麻耶さんの体温が感じる、あの着ぐるみいいな）
+
+　　　麻耶（う、ちょっとお腹いたくなった、トイレ間に合わないかしら）
+　　　日向「どうしたの、顔色悪いよ。」
+　　　麻耶「ちょっとね、お手洗いにいきたいななんて。」
+
+　　　日向「具合わるそうね、一緒にいってあげる、中田くん一回スーツ脱がすから手伝って。」
+　　　中田「はい。」
+
+　　　麻耶をギャラクシアンからだして、麻耶と日向はトイレにむかう、麻耶は最近便秘ぎみなのだ
+　　　お腹をさすっている。
+
+　　　中田「ふ、もしかして麻耶さん・・そおか、でも今なら誰もいないし。」
+
+　　　麻耶と日向がトイレにいっている隙に中身を失って抜け殻のようになっているギャラクシアン
+　　　のところにいく。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#76">
+				<rdfs:label>76</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-21T13:09+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">中田「ハアハア、わー麻耶さんの綺麗な臭いだ。」
+
+　　　本当はその場で着てしまいたいが、二人がいつ戻ってくるかわからないし、このスーツは
+　　　一人では着れないのだ。
+
+　　　トイレ
+　　　日向「どう、出た？」
+　　　麻耶「もう、恥ずかしいじゃない、そんなこと言わないで。」
+　　　日向「あ、ごめんごめん。」
+
+　　　麻耶「中田くん今ごろきっと、着ぐみに夢中ね。」
+　　　日向「え？どうゆうこと？」
+　　　麻耶「あの子きっとかなり着ぐるみ好きよ、私たちがいない間になんかしてるわ」
+
+　　　日向「えー、そうなの、そうは見えないけど。」
+　　　麻耶「彼の態度をみればわかるわ、それと彼の息子も騒いでたし。」
+　　　日向「えー、麻耶さんてそんなとこ見てたんだ、以外とアレ？」
+　　　麻耶「そんなんじゃないけど、でも彼みたいな子私、好きだな、あとでかわいがってあげようかな。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#77">
+				<rdfs:label>77</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-21T13:11+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">トイレでそんなことを話されていることも露しらず、中田は麻耶の体温が残っているスーツにもう
+　　　夢中だった、そこに加藤マネージャーがやってくる。
+　　　
+　　　加藤「いいかな、でも女の子がやるなんてね、本当はきみがやりたいんじゃないのかな？」
+　　　中田「やりたいです。」
+　　　加藤「わかるよ、今日は３ステある、３ステはもたないだろ、そうだ、きみに協力してやろう。」
+　　　
+　　　中田「協力？」
+　　　加藤「ああ、少し空調の温度をあげてやる、熱責めだな、そうすれば。。」
+　　　中田「なるほど、ありがとうございます。」
+
+　　　加藤「私も着ぐるみが好きでね、すこし分け前をもらおうかな。」
+　　　中田「分け前？」
+　　　加藤「おおーすばらしいなこのスーツ、このゴムの臭いがすきなんだ、少し女のにおいが気になるな。」
+
+　　　中田「加藤さん女嫌いなんですか？」
+　　　加藤「ああ、俺は男が好きだ、さっきもみててむしずがはしった、やっぱり男じゃないとな。」
+　　　中田「は・・はあ・」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#78">
+				<rdfs:label>78</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-21T13:12+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja"> そこでマネージャーの加藤と変な同盟を組んだ中田だった、中田自身は着ぐるみに固執していて
+　　　麻耶の脱ぎたての着ぐるみに興奮をかくせなかった。
+　　しばらく一人で考えこんでいた、そこにトイレを済ませた麻耶と日向が帰ってきた
+
+　　麻耶「ただいま、おとなしくしてたかしら。」
+　　中田「僕は獣ですか？」
+　　日向「はは、そうかも。」
+
+　　そして日向は腕時計に目をやる、２ステ目の開始３０分前になっていた
+
+　　日向「ゆっくりしてらんないわんね、あと３０分よ、お化粧しないと。」
+　　麻耶「じゃ、私もそろそろ着ることにするわ、中田くん手伝って。」
+　　中田「あ・・はい」
+
+　　麻耶はギャラクシアンのスーツを首もとまで着る、中田も介添えして手伝うが、麻耶の着替えに
+　　異常に竿が反応する、背中のＴシャツからすけてみえるブラのあとが中田の興奮を増す要因に
+　　なったのだ。
+　　すこし、湿った、スーツに脚から入り、腹部まで着るとひんやりした感触が麻耶を襲う、ゾク
+　　っとするような感覚におもわず声をあげてしまう。
+　　
+　　麻耶「あ・・あん。」
+　　中田「どうしたんです？」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#79">
+				<rdfs:label>79</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-24T16:22+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　麻耶「な、なんでもないわ、ありがと。」
+　　日向「なんかさっきの声ちょっと、セクシーね。」
+　　麻耶「なんでもないんだから。」
+
+　　否定はしてみるものの、麻耶の顔は赤くなあっていた、不覚にも一番聞かれてはこまる声を聞かれて
+　　しまったのだから。
+　　マスクは被らず、首まででとめておいた、しかし、朝からの妙な腹痛に麻耶は悩まされていた、しかも
+　　しめって温度のひくいスーツがお腹にはりついていてお腹をひやす結果になっていた
+
+　　麻耶（う、これは、かなりやばいわね）
+　　
+　　そうこうしているうちに２ステ目の開始時間がせまってくる、舞台には大勢の観客が待っている、ステージ
+　　に音楽が流れ、客の興奮もたかまる
+　　
+　　中田「さ、２ステ目です、たぶんここが正念場です、これをのりきれば楽になるでしょう。」
+　　麻耶「そうね、じゃ、全部上げてくれるかしら。」
+　　中田「はい。」
+　
+　　麻耶は顔をマスクにうずめる、そして、中田がたった一つの出入り口の開封口をしめていく、後ろからさし
+　　こんでいた光がきえる。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#86">
+				<rdfs:label>86</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-26T09:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　中田（ふふ、さ、地獄のステージのはじまりだ、光も音もほとんどない、密閉された空間で、熱に責められ
+　　るんだ、でようにもでられず、苦しむんだ、おお、考えただけで、ぞくぞくするな）
+
+　　加藤「さ、２回目もよろしくおねがいしますよ。」
+　　中田「加藤さん、例の件は？」
+
+　　加藤「ばっちりだよ、じりじりとあげといたから、そうそう、この事は私と中田くんとの秘密ね。」
+　　中田「わかってますって。」
+　　加藤「それと、お楽しみもとっとかないとね。」
+　　中田「お、お楽しみ？」
+　　加藤「おわってから話すから、今は・・」
+
+　　日向が元気よくステージにとびでていく、ＭＣさんってのはいつもハイテンションな人間だ、きっと僕
+　　にはむいてないって実感する中田、さて２ステ目、体調がすぐれないままギャラクシアンにとじこめられた
+　　麻耶、視界も空気もにごっている、ここで、加藤が上げた室温が麻耶を地獄の熱攻めに追いやる。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#87">
+				<rdfs:label>87</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-26T09:11+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja"> 室温がじりじりとあがる、朝からこみあげてくる波のような腹痛と熱による２重苦
+　　をしいられる麻耶、後半は意識も吹き飛びそうになるなか必死になっていた。
+
+　　麻耶（ハア・・・ハアー、もうだめ、逝きそう）
+
+　　中田（だいぶ苦しめられてるみたいだな、でるにでられない状況は見ててもおもしろいな）
+
+　　スーツの中で灼熱の温度と必死に格闘している麻耶を想像するだけでも中田の竿は暴走を
+　　やめることがなかった。
+　　すると、突然ギャラクシアンが膝を突いてしまった、日向もこれに気がつてかけよりそっと
+　　耳元でささやく
+
+　　日向「大丈夫？かなりヤバイんじゃない。」
+　　
+　　するとギャラクシアンは大丈夫とゆうポーズをとって立ち上がる、だが中はそうではない
+　　
+　　中田「ふん、なかなかがんばってるじゃないか、でもまあそろそろだろうな。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#88">
+				<rdfs:label>88</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-26T09:31+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ときどき意地悪でイタズラ好きな子供がどこにでもいるものだ、興味本位でなぐったりけったり
+　　する、だがこれがその子なりの愛情表現なのだ、だが、これが中田も予想だにしていなかった
+　　事件に発展することになる。
+
+　　２ステ目もなんとか終わりに近づいてきた、少し回復してきた麻耶も少し落ち着いていた、
+　　日向もそれをみて仕事をつづけていた。
+
+　　さっきのいたずら好きの子供がまたやってきた、小学生の頃に一時的にブームになることがある、膝カックン
+　　や浣腸をこの子供はしっていたのだ。
+　　すっかり気をぬいていたギャラクシアンに不意をついた子供のアレがきまる。
+
+　　子供「ギャラクシアン覚悟。」
+
+　　気がつくのがおそかった３人ともみてなかった、もちろん中田も予想していなかったのだ、子供が不意をついて
+　　あれをだす、子供の両手で結成された独特のあのかまえがギャラクシアンの後部の穴に直撃したのだ。
+　　中の麻耶もそれにはびっくりした、ちょっと薄手のスーツをとうして、麻耶の後部の穴に指の先端がめりこんでしまった
+
+　　おもわず身体をのけぞらして反応してしまうギャラクシアン、麻耶もなんか不思議な感覚にとらわれていた、子供のほう
+　　は突き指をして泣いてしまった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#89">
+				<rdfs:label>89</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-26T09:32+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">日向も中田も一瞬なにがおこったのかわからなかった、気がついたら、ギャラクシアンは膝をついていて
+　　横で子供が泣いていた。
+
+　　日向「な、中田くんなにしてるの、早く子供を・」
+　　中田「は、はい。」
+
+　　中田はいそいで子供を医務室につれていった、その間に日向はショーを無理やりきりあげた、もどってきた
+　　中田にだかれて、控え室にかえる、急いで、ファスナをおろし、ギャラクシアンの中から麻耶の身体を抜き取る
+　　もう動くこともできないほどぐったりした麻耶がそこにあった。
+
+　　日向「大丈夫？なにがあったの？」
+　　しかし、状況が状況だけに話すにはなせない
+　　麻耶「ちょっとね、もうだめ、休ませて。」
+
+　　日向「ま、汗びっしょりじゃない、今着替えさせてあげるから、ほら、中田くんはあっちむいてて。」
+　　中田「はいはい。」
+
+　　服を着がえて、準備されたブルーシートに横になる麻耶、さっきのことが頭の中を交錯する
+
+　　麻耶（ふー、子供にあんなことされるなんて、でもちょっと感じちゃった自分がはずかしい）</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#90">
+				<rdfs:label>90</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-26T09:34+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">日向「大丈夫なの？次まで時間ないし、中田くんに中身替わってもらいなよ。」
+　中田の意をついた言葉が日向の口をとうしてでてくる
+
+　　中田（やった、ナイス日向さん）
+
+　麻耶「うーん、どうしようかなー。」
+　中田（なに、迷ってるんだよ、ここはもう交代しか手はないだろ）
+　
+　そこに加藤がはいってくる。
+　加藤「さっきはとんだハプニングがあったようですが、大丈夫ですか？」
+　麻耶「ええ、ちょっとみえてなくて、でも大丈夫です。」
+　加藤「でも、見たところかなり疲れてるんじゃないか？顔色わるいよ。」
+　麻耶「え、まあなんとかなり・・う。」
+
+　腹痛と熱の二重の攻めでもうフラフラになっていたのだ、椅子からおちる寸前で中田が
+　だきあげる。
+　中田「大丈夫じゃないじゃないですか、後は僕にまかせて麻耶さんは休んでください。」
+　麻耶「でも、それじゃ中田くんに悪いわ。」
+　中田「なにいってるんですか、僕なんかのことより今は自分のことを心配してください。」
+　日向「そうよ、中田くんの優しいのね、ここからは私と中田くんとでやるから、麻耶は休んでて。」
+　麻耶「ありがと、お言葉にあまえてそうさせてもらうわ。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#91">
+				<rdfs:label>91</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-26T09:35+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">日向「どうしよ、麻耶もみてあげないといけないんだけど、時間ないし、中田くん準備はいい？・」
+　中田「ええ、僕はいつでもいいです。」
+　日向「じゃあ、中田くんはいそいでギャラクシアンに着替えて。」
+　中田「はい、でも一人じゃ着られないでしょ。」
+　加藤「あ、じゃあ、日向さんは麻耶さんにつきそってあげてください、中田くんの着替えは私が手伝います。」
+
+　日向「そうですか、ありがとうございます。」
+
+　すると麻耶も少し気をとりもどしたのか
+　麻耶「本当にすみません、ご迷惑をおかけして、中田くん私の後なんかでわるいけどお願いね。」
+　中田「なに言ってるんですか、たとえ今日かぎりでも僕らはチームですから助けあうのは当然ですよ。」
+
+　中田は自分のくさいセリフをはいているのがもうたまらない、真実は全然ちがうことを思っているのに
+　口からでるのは熱い友情論ばかりだ。
+
+　加藤「さ、もう時間がないですよ、控え室にもどりましょう。」
+　医務室をでる中田と加藤
+　加藤「ふ、どうやらうまく事がはこびましたね、あとは・・・。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#92">
+				<rdfs:label>92</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-26T09:36+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">中田「熱で麻耶さんがいかれるのもいいけど、あの子供の奇抜な行動にも驚きましたよ。」
+　加藤「ははは、確かに、精神的にもまいる攻撃でしたね。」
+　中田「これで、心おきなくギャラクシアンになれる。」
+
+　控え室にもどり、中田は用意していたＴシャツとスパッツに着替える
+　加藤「だは、ギャラクシアンを着せますよ。」
+
+　足からスーツにいれていき、腰をいれて腕をとうす、もう熱は排出されていて、内部には麻耶の汗がポツポツと
+　しずくになってのこっていた、首まできると、麻耶の汗がＴシャツについて、中田の身体を異常な速度で冷却していく
+　ブーツは別で、ブーツに足を入れると、「グシュ」っとゆうなんかの液体に足をしずめる音がする、ブーツの底にも
+　麻耶の汗が薄いみずたまりになって残っていた、中田は靴下をはいたままブーツに足を入れたため靴下が汗を吸収して
+　しみ重くなっていた、そういえば麻耶は素足でブーツを履いていたような気がする。
+　ブローブを手にはめると、なまあたたかい熱としめった感触が中田を襲う。
+
+　中田（うわ、スーツもブーツもグローブも汗だくじゃないか、ま、いっかこれ全部麻耶さんのだし）
+　一方それをみていた、加藤は女が嫌いだ、男と着ぐるみが好きで男が首だけだして、スーツから顔
+　をだしている姿に興奮する人間なのだ、加藤の竿も暴走中だった
+
+　加藤（おおーすばらしいー、これだ、僕が求めていたのはこの画なんだ）
+　中田「あの？加藤「さん、もしもし、聴いてますか？」
+　完全に加藤は別の世界で自己陶酔している</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#93">
+				<rdfs:label>93</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-26T10:01+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">３ステ目１３：４５（スタッフ控え室）
+医務室から日向が帰ってくる
+中田「どうですか？麻耶さんの具合は？」
+日向「うん、さっき落ち着いて寝たわ。」
+中田「そうですか。」
+
+加藤「それはよかった、もう次のステージが始まりますよ。」
+日向「あー、いけない本当だ、じゃあ私一回でて、アナウンスしてくるから。」
+中田「はい、僕ももう準備できてるので。」
+加藤「私は写真撮影のほうをやらせていただきます。」
+日向「お願いします。」
+
+日向はそのままステージにでる
+加藤「さ、中田くんはやくマスクを被ってください。」
+中田「あ・はい。」
+マスクに顔をうずめると、麻耶の臭いがうっすら残っている、麻耶がさっきまで同じ
+空間に顔を収めていた空間に今自分がいるこに幸せを感じていた、自然に竿も反応する</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#94">
+				<rdfs:label>94</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-26T10:13+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">３ステ終了後（スタッフ控え室）
+Ｇ（中田）が控え室にかえってくると、麻耶が椅子に座っていた
+麻耶「お疲れ中田くん。」
+Ｇ「なんで麻耶さんが・・」
+そんな声きこえるわけがないが、麻耶には中田がなんていっているのかはなんとなく
+わかっていた。
+麻耶「さ、暑いでしょ、スーツ脱がすの手伝ってあげるから。」
+中田は背後を向いた、麻耶がファスナを下げる、さなぎをわるようにギャラクシアンの
+中から中田の身体がでてくる。
+中田「ふー、暑かった、でも麻耶さんもう大丈夫なんですか？」
+麻耶「平気よ、あれくらいではのんともないわ、それよりありがと。」
+日向「麻耶には悪いけど、やっぱ男が中身だと違うわね、麻耶がやってるのと中田くんが
+やってるの両方みたけど、同じキャラなのに雰囲気が全然ちがうもん。」
+中田「そうなんですか。」
+日向「そうそう、私が中身の人間が違うこと知ってるからそう思うのかもしれないけど
+麻耶のは芯が細いんだけど、中田くんは男ならではのがっしりした感じだったし。」
+麻耶「そう・・」
+日向「別に麻耶が役不足ってわけじゃないんだけどね、私はそう感じたわ。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#95">
+				<rdfs:label>95</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-26T10:31+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">妙な空気が漂いだす
+中田「そうですよ、今回はいろいろ条件が悪かっただけで、麻耶さんがダメなわけじゃないです。」
+麻耶「でも・・私。」
+日向「そうよ、麻耶はなんにも悪くないんだから。」
+今にも泣きそうな麻耶に中田は麻耶も強がっていてもやっぱり女子なんだと実感する
+そこに加藤がわってはいる
+加藤「お疲れ様でした、いろいろありましたが無事終わってよかった、こっちも関連商品の売り上げ
+が伸びてます、ありがとうございます。」
+３人ともすっかり着替えて帰宅の準備をする
+加藤「着ぐるみは、こっちで会社の方へ配送しておきますので。」
+中田「はい、お願いします。」
+日向「じゃ、帰ろうか。じゃあ、マネージャーさんハンコお願いします。」
+警備室を通過するためにはマネージャーのハンコがいるのだ
+加藤「あ、中田くんは少し残ってくれないかな。」
+中田「は、はあ。」
+日向「じゃあね、私たちは直帰だから麻耶とかえるわ、また一緒に仕事できるといいね。」
+中田「はい、またそうなえればいいいですね。」
+麻耶「じゃあね、またね。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#106">
+				<rdfs:label>106</rdfs:label>
+				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="c3IN/zsQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-27T08:00+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">最終話
+日向と麻耶はそのまま帰ってしまった、残されたのはマネージャーの加藤と中田だけだった
+加藤「さて、中田くん、わかってるね？」
+中田「え？なにがです？」
+加藤「いったでしょ、せっかく彼女からあなたにギャラクシアンを交代させたんだ
+その、代償をもらいたいと。」
+中田「で、僕にどうしろと？」
+加藤「もう一回、ギャラクシアンになりなさい。」
+中田「な？なんでですか？」
+加藤「もう、店には私ときみしかいないんだよ、言っただろ私は男が好きなんだと
+きみはこれから、私のしもべだ。」
+中田「そんなのいやだ。」
+加藤「そんなこといっていいのかね、私の鶴の一言できみの報酬がきえてなくなるんだよ。」
+中田「なんて汚いやつ、そんなの・・・」
+加藤「だが、ここで素直に私にしたがってれば、いい思いもできるぞ。」
+中田「く・・・わ、わかりました。」
+そして中田と加藤の熱い夜がふけていった　　　　　　　終わり</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

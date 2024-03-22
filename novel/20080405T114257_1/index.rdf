@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:01:32+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">携帯選びの奇妙な出会い</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-04-05T11:42:57+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-04-05T11:42:57+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">218</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#748">
+				<rdfs:label>748</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-04-05T11:42:57+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">携帯を買いに携帯ショップへ行った。
+するとキャンペーンらしく着ぐるみがいた。
+「暑くて大変なんだろうな」
+そんな事を思いつつ携帯を選んでいた。
+
+突然大きい音がした。
+まわりを見ると着ぐるみが倒れていた。
+１人で起き上がれないようでバタバタ動いていた。
+僕は声をかけてみる。
+「大丈夫ですか？」
+「すいません、店の裏にあるテントまでつれってください」
+と小声で話してきた。
+「いいですよ。立てますか？」
+「はい」
+
+僕は着ぐるみを店の裏側にあるテントに連れて行った。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-11T21:53:23+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">震えるメイドの秘密</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2010-12-19T00:15:12+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2010-12-19T00:15:12+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">933</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#676">
+				<rdfs:label>676</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-12-19T00:15:12+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">だつたらいつその事、舊字舊假名遣ひで書いてみました。
+
+
+お世辭にも素敵とは言ひ難い部屋の片隅に、それはそれは素敵なメイドさんが立つてゐる。
+よく見ると、このメイドさんのお顔はFRPで出來てゐて、メイド服の肩とロンググローブの間に
+ちよつと見える二の腕は肌色のタイツに覆はれてゐるやうだ。
+
+普通、使用人と言ふものは御主人樣の見てゐない所でも、しつかり身を正す物だが、
+彼女はぷるぷると震へてゐる。彼女のスカートをめくつてみれば、恐ろしくも恍惚に身もだえしさうな
+光景を見ることが出來るだらう。純白の下着に包まれた彼女の股間から伸びる、太い柱。肌タイツ越し
+だが、その脈打つ様さへもはつきり分かる。そんな快感の棒にまとはりついて振動してゐる小さな卵が
+２個。震へてゐる卵はテープで留めてあるだけなので、簡單に引きはがせさうだけど、メイドさんは
+ひたすら耐へてゐる。それでも時折、ビクンと背筋が伸びるから、そろそろ危ないのかもしれない。
+
+不意に部屋のドアが開き、御主人樣が入つて來た。
+御主人樣は吊り目のブロンドで、そのお顔はやはりFRPで出來てゐるらしい。
+可愛らしいけれども、一方でキツさうな見た目をしてゐる。セーラー服を着てゐて、
+兩足は*?いタイツで覆はれてゐる。兩腕は、きめ細かな肌色のタイツである。
+御主人樣は本當の女性なので、聲を出せる（と、中の人は言ひ張つてゐるので、
+メイドさんの中の彼もしぶしぶ認めた）。
+御主人樣は「私が歸つて來たら、何をするのでしたつけ」と、メイドをたしなめた。
+
+御主人樣に言はれたメイドは慌てて近寄らうとしたけれど、まさにその時、限界を超えてしまつた。
+白いガーターストツキングに包まれた足を、はしたなくも大きく開き、腰も大げさなくらい
+ビクビク痙攣してゐる。それほど廣くない部屋の中で、栗の花に似た卑猥な香りが漂ひ始めた。
+
+「この駄メイド！　また我慢出來なかつたのね！」
+御主人樣はお怒りのやうだ。仰向けのまま肩で大きく息をしてゐるメイドさんの兩足をむんずとつかんで、
+そのまま柔かくなつた股間の柱の邊りを*?タイツに覆はれた足で蹈み始めた。
+「これは罰よ。また漏らしたら、もつと酷いお仕置きだから！」
+しかしながら、メイドさんの股間では、快感の棒がまた元氣を取り戻しつつあつた。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

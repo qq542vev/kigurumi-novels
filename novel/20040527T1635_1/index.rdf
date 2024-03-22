@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:05:43+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">ショーの余韻</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-05-27T16:35+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-05-27T16:38+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">2323</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#308">
+				<rdfs:label>308</rdfs:label>
+				<dcterms:creator foaf:nick="沙織" dcterms:identifier="62WBq/OQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-27T16:35+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">皆さん初めまして。私の名前は沙織（さおり♀）と言います。
+世の中には着ぐるみフェチという人が存在するのですね？
+実は、私もその内の１人です。しかし、私は元々着ぐるみフェチではありませんでした。
+どうして私が着ぐるみフェチになったのか？......そのいきさつを書きます。
+
+私が一番最初に着ぐるみを着たのは、高校生の時のキャラクターショーのアルバイトでした。
+友達のみゆきがこのアルバイトをしていて「人数が足りないから。」と言われたのがきっかけでした。
+子供が大好きな私は気軽に引き受けました。この時の私は、着ぐるみには全く関心がありませんでした。
+
+休みの日に入念に演技の練習を重ね、初めてのショーの日になりました。夏の暑い日のことです。
+私の役はテレビでもおなじみの美少女戦士の内のオレンジ色のキャラクターです。
+楽屋で初めてみる衣装に、少し胸が踊りましました。
+といっても、それは着ぐるみを着ることよりも、かわいい衣装に喜びをおぼえたからです。
+まずはTシャツとスパッツ姿になり、その上に肌色のタイツを着ます。
+下半身は足先まであるタイツを履きます。上半身は長袖のレオタードにフードが付いているようなタイツを着ます。
+そして、その上に美少女戦士の衣装を着てチョカーなどの小物をつけ、靴を履きます。
+さらにマスクを被り顎ひもをとめ、最後に手袋をはめたら準備OKです。
+楽屋に立て掛けた細長い鏡に映る私は、まさに美少女戦士に変身していました。
+何だか嬉しい気分になり、私は暑さも忘れて鏡の前でポーズをとっていました。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#309">
+				<rdfs:label>309</rdfs:label>
+				<dcterms:creator foaf:nick="沙織" dcterms:identifier="62WBq/OQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-27T16:36+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「そろそろ時間だよ。」私をこの世界に呼び入れた友達のみゆきが言いました。
+みゆきはこのアルバイトではMCをしています。分かりやすく言うと、子供達の案内係のお姉さんといったところです。
+彼女の明るい性格と笑顔の良さが、高校生ながらMCに抜てきされた理由みたいです。
+私達ショー出演者は舞台の裏に集まり、向き合ってジェスチャーとマスク越しのこもった声で最終確認をしました。
+
+そして、いよいよショーが始まりました。
+途中、汗が目に入り、さらには狭い視界のために、ほとんど前が見えない状態で悪戦苦闘をしいられました。
+初めてのショーでの緊張と暑さのせいで、脇の下も嫌な汗をかき始めました。
+しばらくすると、身体中が汗でぐちょぐちょになってきました。
+ショーが進むにつれ、動けば動く程汗が出て呼吸も苦しくなってきました。
+その内、頭がボーっとしてきました。
+
+　ハァハァ （；´Д｀）.。ｏＯ（あぁ...まずい。このままでは倒れちゃう...。）
+
+そう思っていると、ショーが終盤にさしかかり、丁度いいタイミングで舞台裏に引き上げることができました。
+舞台裏に戻った私は、その場に倒れこみました。しかし、意識はまだ残っています。
+
+「沙織ちゃん大丈夫？」周りのスタッフが私を抱え上げました。
+「あ...はい...。大丈夫です...。」マスクを脱がされた私は答えました。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#310">
+				<rdfs:label>310</rdfs:label>
+				<dcterms:creator foaf:nick="沙織" dcterms:identifier="62WBq/OQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-27T16:37+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">舞台からは子供達に話しかけるみゆきの声が聞こえてきます。
+「このあと美少女戦士達との握手会がありま〜す。まだ帰らないでね〜。」
+
+周囲に心配されながらも私は水分補給をし、マスクを被り、５分後には再び子供達の前に出ていました。
+元々子供と触れ合いたいのが目的でこのアルバイトを初めた私にとって、これ以上の喜びはありません。
+マスクの顔と同様に中の私の顔も笑っていたに違いありません。
+私は暑さと疲れを忘れて子供達と握手を続けることに夢中になっていました。
+小さい子供相手のため、中腰になったり、しゃがんだりして握手を続けます。
+しかし、時間が経つにつれ、再び頭がボーっとしてきました。
+
+　ハァハァ （；´Д｀）.。ｏＯ（あぁ...そろそろ限界かなぁ...。）
+
+そう思っていたのもつかの間、意識が遠のいていくのが分かるようになりました。
+
+　ハァハァ （；´Д｀）.。ｏＯ（あぁ...なんだか気持ちいいわぁ...。）
+
+この頃になっていくと、子供と握手をしている感覚もなくなってきました。
+単にその場にしゃがみ込んで子供に対して手を差し出しているだけという感じです。
+その差し出した手に子供が手を添えるという感じで握手は続けられていきました。
+握手を始めて15分くらい経ったでしょうか？私の身体が今までに体験をしたことのない感覚に襲われました。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#311">
+				<rdfs:label>311</rdfs:label>
+				<dcterms:creator foaf:nick="沙織" dcterms:identifier="62WBq/OQ"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-27T16:38+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　ハァハァ （；´Д｀）.。ｏＯ（な、何なのぉ...？.........この感覚は.........。あぁぁぁ!!!......いくぅぅ!!!.........。）
+
+私の身体中から汗が吹き出てきたのが分かりました。
+そして、股間からも、おびただしい量の液体が噴出されたのがわかりました。
+　
+　ハァハァ （；´Д｀）.。ｏＯ（あぁ...これってもしかして............。）
+
+その場でしばらく余韻にふけっていた私でしたが、みゆきの声で我を取り戻しました。
+「握手会は以上でおしまいで〜す。セーラー戦士達はお帰りの時間で〜す。」
+
+そんなこんなで私の初めてのショーが終わりました。
+「沙織、ショーはどうだった？」楽屋でみゆきが話しかけてきました。
+「う、うん。気持ちよかっ...。あ...、た、楽しかったよ...；」
+「本当？それなら良かった。暑い中よく頑張ったね。」
+「う、うん。私子供好きだから...；」
+
+それ以来、私は着ぐるみにのめり込むようになりました。完全なる着ぐるみフェチになってしまいました。
+子供と接するのも楽しいのですが、既に子供よりも着ぐるみを着ていることの方への喜びが大きくなっていました。
+着ぐるみを着ると興奮して感じちゃうんです。
+みゆきには内緒ですが、今では自分で着ぐるみを所有するまでになっています。
+もちろん１人○ッチにはかかせない存在です。　　　　　　　　　　　　　　　　（おしまい）</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

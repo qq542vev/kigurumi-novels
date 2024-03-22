@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:03:59+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">闇夜の誤算</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-05-31T11:09:27+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-05-31T11:09:27+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">954</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#874">
+				<rdfs:label>874</rdfs:label>
+				<dcterms:creator foaf:nick="へなちょこ小説家"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-05-31T11:09:27+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ありがちな落ちだけど、俺ならこう書くな
+
+深夜、イベントで使った着ぐるみは倉庫に保管されて乾燥させている、昼間イベントを
+側で見ていたアルバイトのＮ君、誰もいなくなったことを確認してこっそり倉庫に入る
+と、内部から鍵を閉めた。
+着ぐるみは、背中のファスナが開けられて扇風機で内部に風を通し乾燥させているよう
+だイベントが終了して５時間ほど経過していたが、内部には彼女たちの汗しみがまだ残って
+いた、警備員もいるので照明はつけることはできない、手持ちのライトで着ぐるみを
+照らす。
+最後にこれを着用していたのは、先輩の田中さんだとゆうことはわかっている、田中さん
+の前は佐藤とゆう女性だとゆうこともわかった。
+つまり、この着ぐるみはまぎれもなく過去２回までは女性が着用していたとゆうことになる
+こんな想像をしているだけで彼の息子は激しく反応していた、しかし、彼は会社に黙って
+残りこんなことをしているとゆう後ろめたさもある、見つかったらくびは必至だ。
+暗く狭い倉庫、いつやってくるかもわからない警備員、そんな状況で彼は最後の仕事に取り掛かる
+、彼の目的はただ一つ、この着ぐるみを自らの身に纏うことだ。
+とりあえず、トランクス以外は衣服をすべて脱ぎ、干してあった、肌色タイツに足を通す、まだ若干湿りが
+残っているので、なかなか足が通らない、やっとの思いで足を通し、足着ぐるみのファスナの開口部から
+内部に侵入する、この中にはつい５時間前まで美人の田中先輩が入っていたのだ、じばしの時間その想像で
+息子も元気になっていた。
+しかし、最後に決定的なミスがあることに彼はようやく気がついた、そう、ファスナは一人では閉められない
+とゆうことだ、ファスナを閉めないと完全にこの空間に入ったとはいえない、後悔の念にかられていると
+部屋の外から靴音が聞こえる、警備員が部屋に近づいてきているのだ、Ｎ君は焦った、ファスナが開いている
+以上着ぐるみのなりすますこともできない、とりあえず着ぐるみからでようとしたが、内部にタイツがひっかかり
+出るに出れなくなっていた、もがいていると手が機材にあたり大きな音をたてて崩れ落ちた。
+「誰かいるのか？」と警備員が部屋にはいると半身着ぐるみに入ったＮ君を発見した、翌日Ｎ君は店長と田中さん
+に謝罪して、お店も辞めました。
+
+誤字脱字は勘弁してけろ</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

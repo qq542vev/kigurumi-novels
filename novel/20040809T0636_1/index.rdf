@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:05:50+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:title xml:lang="ja">４匹の小熊</dcterms:title>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-08-09T06:36+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-08-09T06:36+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">340</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#446">
+				<rdfs:label>446</rdfs:label>
+				<dcterms:creator foaf:nick="四熊って？"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-08-09T06:36+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">４匹の小熊
+
+昔々あるところに４匹の小熊がいました。
+
+４匹の小熊たちは森の中の小さな木の家に仲良く暮らしていましたが、
+大きくなったので自分で家を造ることにしました。
+
+１番年上の小熊は白木の素地を活かした素敵な家を造りました。
+２番目の小熊は質感に拘ってラテックスで家を造りました。
+３番目の小熊は経済的にと樹脂粘土で家を造りました。
+４番目の小熊は流行のFRPで家を造りました。
+
+４匹の小熊たちはちょっと独特な拘りがあって相譲らぬ部分もありましたが、
+独り暮らしをはじめても仲が良く末永く幸せに暮らしたので、
+いつしか森の動物達は親しみを込めて彼らのことを森の四熊さんと
+呼ぶようになりました。
+
+でも、ひょっとしたら、４匹の小熊たちにしてみるとちょっと迷惑な話だった
+のかもしれませんね。
+
+めでたしめでたし。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

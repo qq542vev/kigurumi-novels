@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:04:03+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:title xml:lang="ja">TENSI</dcterms:title>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:22:37+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:45:08+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">4576</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#915">
+				<rdfs:label>915</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:22:37+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「TENSI」
+
+物語や伝説に詠われる天使が、人々の前に姿を見せなくなってから、どれほどの時が過ぎただろうか。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#916">
+				<rdfs:label>916</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:24:26+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">人類は荒野にまかれた種、
+それはやがて育ち、都市を作り、都市と都市の間にハイウェイが走り・・・
+ハイウェイというのは馬車道のことだったけど、今はガソリンで走る自動車の道だ。だから、
+鉄道は、起源で言えば自動車より新しい。
+電話の起源は・・・糸電話だろうか。機械式の電話交換機ってすごいよね。
+機械といえば、計算機も最初は歯車で動いて、微分積分もこなしていた。
+僕たちは、そういうことをインターネットで知ることが出来る。まるで全能を持つ者のように、だけど、
+楽園を忘れることは出来なかった。
+
+機械仕掛けの神、って知ってるかい？
+彼女は小首を傾げる。なんだよ、顎に指なんか当てて。かわいいじゃないか。
+・・・それは、機械で神を象った中世の劇場の舞台装置のことだ。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#917">
+				<rdfs:label>917</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:25:43+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">いきあたりばったりの物語が混迷を極めて、いよいよ救いが無くなる。審判の時が訪れる。
+そこで轟音を奏でて、白煙を巻き上げ、観衆の度肝を抜く神様の降臨というわけだ。
+きっとキュニョーも、ベルも、チューリングも、神様が欲しかったんだよ。
+
+さぁ、おいで。
+天使は人々の前に、姿を見せなくなった。僕には天使が見える。
+膝の上の天使さんには・・・Photoshopで描かれた服飾のデザイン画が見えているはずだ。
+
+画面を指す指は少し迷ってから、その中の一つをタッチする。
+Poserというのは、好きなポーズをとらせることができるCGのフィギュアを提供するソフトウェアで、
+そのまま素材として加工して使うことが出来るのだが、天使さんが指したのは、そのままのもの。
+「それはダメ。裸が一番美しいなら、誰も服を着る必要がないだろ？」
+悪い子をいましめるように、アクリルファイバーの髪を掻き回す手を逃れて、僕の膝を立つ。
+僕の膝には、彼女のふともものマテリアルな感触が残る。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#918">
+				<rdfs:label>918</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:26:51+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">彼女は、指を横に振った。違うよというみたいに。
+白いスーツのジャケットを脱いだ。白熱灯の輝く光の下で。
+ネックレスの十字架が揺れる。あのスーツも、僕のデザインのもので、
+この前アパレルメーカーの奴に「お水系だね」なんて評されたやつだ。
+評価はともかく、言い得ている。対等の立場を裸の付き合いと言うように、
+服装とは、階級やそのひとの立場を表すためのものだ。だから、
+人間をその人以上にも、その人以下にもする。
+
+ブラウスのボタンに彼女の指が掛かる。うまくはずせないかな？
+その下には、9号のスーツにぴったりと合う、少し矯正されたプラスティックの肢体がある。
+
+それなら、人間と天使はどっちが立場が上かって、
+この天使さんの中のコと話したことがあったな。確かこんな感じだった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#919">
+				<rdfs:label>919</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:27:53+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「・・・王様は王権神授だから偉いわけだし、裁判は神の権威をもって裁かれる。
+　人間どうしはお互いに相互不可侵の人権、っていうのがあるから。」
+「人間と天使だったら、天使のほうがえらい？」
+「はは、残念。言葉通り、御使いは神様の使用人。そして人間は、地上の支配者に任命されてる」
+
+人権という考え方が有力だったころ、人間が権力を及ぼしていいのは人間以外のものだけ、
+という考え方が主流だった。ルソーやヴォルテール、ジャコバンもそう思っていた筈だ。
+だから、刑罰を受ける囚人たちは鞭で打たれたり車裂きにされたりする前に、
+まず動物や悪魔のマスクを被せられ、それは自ら外せないように錠で固定された。
+ファッショナブルじゃないか。
+
+「そういうのはイヤだな。」
+「他人事かよ。そのソニア・リキエルの服だって、どこかのデザイナーが君を定義してるってこと。」
+「む〜・・・・。自前なんですよ？この服高かったのに。」
+「罰金みたいなもんだ。でもファッショナブルじゃないか。よく見せて。」
+高いだけあってマテリアル感はある。デザインはシンプル。着て似合うかは才能がいる。
+本当に似合っていると思ったのに、彼女は身をすくめた。
+
+「うれしくないです。どうせなら、天使がいい。」
+「えっ？」
+「みんな、そうなりたいんじゃないですか？」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#920">
+				<rdfs:label>920</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:29:11+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">それは啓示だった。何かが見えた気がした。
+ジャコバンは悪魔に脅えていたのかもしれない。かの革命は人間を高めるあまり、
+人間以外の者をおとしめてしまったのではなかったか。
+
+神授の王権を持つ者をさえ人間以下と見なしたがゆえに、王政は潰えた。
+後に残ったのは、仕える王のいない使用人の群れか、使用人のいない王の群れか。
+
+だとしたら現代の文明は、機械仕掛けの神は、その過失を埋め合わせるために、
+人間以外の存在を祝福し、高めるだろう。
+例えばコンサート会場の真ん中で歌うポップミュージックのアイドルとか、
+ステーションに教会のイコンのように掲げられたアニメ絵の少女も、人間以外のものだ。
+滅びることの無い、数多くの。魂の無い肉体か、肉体の無い魂か。
+人々はそれを愛している。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#921">
+				<rdfs:label>921</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:31:01+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">僕には天使が見える。
+Poserから抜け出してきたような、ブラとパンツの天使。手を広げて・・・
+やっぱり、裸が一番美しいんだよ、と言いたいんだろうか？
+中のコはボディラインも肌もろくに自信が無いらしく、見せたがらないんだけど、
+それはいいんだろう。天使だから。人間じゃないからな。
+
+それとも、ただ暇を持て余していたのかもしれない。僕の気を引きたかったのかも。
+人が天使を見なくなってから、何世紀もたつんだから・・・僕は立ち上がった。
+右手で腰を抱き寄せ、顎を持ち上げて、冗談のようにキスする。
+柔らかい感触。よく出来てる。
+あのアパレル会社の資材部もやるもんだな。
+
+彼女は、脱いだ時の感覚が気持ちいいと言った。
+仕立ての良い服は、さながらにその人の肌のようなものだ。
+そういう服を脱ぐと、剥き出しの肌は鋭敏になっているから、外界からの刺激が増大する。
+知覚の増大は、快感だ。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#922">
+				<rdfs:label>922</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:32:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">お尻に手を這わせると、彼女はびくっと震えて、もじもじっと膝を合わせた。
+そのまま、撫で回して唇をねぶり続ける。感じ方は人間と違うだろうな。うれしいんだろうか？
+僕には他人の感触なんてわからない。心もだ。誰にだってそうだ。
+テクノロジーは、知覚の拡大をもたらしてくれる。
+地球の裏側のことも、遠くの星のことも、遺伝子の構造も脳波の乱れも、僕らは知ることができる。
+今や、誰もが博士や予言者や哲学者であり、彼らと同じフィードバックの増大された視点を持つ。
+そこでは人は分かり合えるという無知がもたらす幻想が消える。
+人は人に対しては、コミュニケーションを期待しなくなる。
+
+哲学者が大体ホモやレズなのは、異性の体を理解できない不安だっていうけど、
+同性だからって同じように感じてるとも限らない。
+神は死んだ、なんていわなきゃ良かったんだ。
+ジーザスは最初から、見返りを求めない無償の愛を説いたのに。
+語りえぬことについては沈黙しなければならない？体で語れることもあるだろう。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#923">
+				<rdfs:label>923</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:34:01+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">彼女の背中のジッパーに指が当たると、かすかに呼気を指に感じる。
+脊柱のように、穴あきのチューブが背中に通っているのだ。
+指でなぞると濡れているのがわかる。天使さんはそれが嫌なのか、僕の腕に触れる。
+さて、どうしよう？僕にはわからない。本当に嫌なのか、愛撫を続けて欲しいのか。
+
+彼女は抱きついて、柔らかい、ちょっと大きめの胸を密着させてくれている。
+そのまま抱き合いながら、僕はブラのホックを外す・・・ベルトをまさぐられている。これは・・・
+彼女は、どんな服も上手に着こなしてみせるけど、こんなことをしたのは最初だ。
+説明は無いし、口も開かない。そういう風に作られている。いいのか？
+天上なるものを所有するには、ペナルティがある。
+
+天使と交わった人々は、裁きを受けた。洪水で跡形も無く地上から消された。
+神授の王権を受けたものは、断頭台の露と消えた。
+聖杯を所有したものは、世界を認識する能力を得る換わりに、
+世界の痛みを知り、苦しみを分けあう定めを受けるという。
+僕には他人の感触なんてわからない。
+
+わかるはずのないことを知りたいと思うのは罪だろうか。
+その時天使は地上を去るのだろうか。ノアを残して。
+
+「・・・俺が好きなのか？」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#924">
+				<rdfs:label>924</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:35:14+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">思わずに出た、馬鹿な質問だ。誰が誰を？天使さんは頷いた。そうだよ、知らなかったの？
+澄んだプラスチックの瞳が、斜めに見上げている、
+僕は、耐え切れなくて目を逸らす。その視野にベットの白いシーツが見える。
+いや、待ってくれ。そこから先は準備がいるだろ？
+懺悔とか、礼拝とか、コンドームとかさ。
+ベットにもつれ込んだ。
+外に出すとして、ティッシュペーパーはあるよな？
+この期に及んで、我ながら情けない。
+
+いずれこういうことになると分かってた筈じゃないか、人類は、
+そういう方向に向かっているんだから。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#925">
+				<rdfs:label>925</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:36:38+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">パンツを引きおろして、背中からぐるっと回っているはずのジッパーをたしかめる。
+先端にジッパーの耳がついていた、と思う。これにも名前があるんだがそれはもうどうでもよくない？
+それは柔らかいシリコンプラスチックの肌に埋もれて、染み出す液体に濡れていて、
+つまもうとすると彼女は感じているのか、腰をきゅっと引いた。魚のように跳ねた。簡単にはいかない。
+
+動くのを押さえつけようとして、脚を片方担ぐ形になっているのに気が付く。
+シーツをぎゅっとつかんで、天使さんの胸が呼吸で上下している。
+その中で、きっと赤い心臓が鳴っている。
+皮膚の下では汗と液体でベタベタになっているかもしれない。彼女とするなら、
+このまま全部脱がせるほうがいいんだろうか、と、ふと思うが、
+過去の経験から言って、全部脱いでやったこともなかったなと思いながら、ジップのタンをつまみ上げた。
+天使さんは優しげな笑顔のまま、一瞬手でかばうようなしぐさをして、
+そして僕はマテリアルじゃない熱い感触に触れて、
+
+火の雨が降り、バベルは崩れ去って、洪水の波頭がかすめた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#926">
+				<rdfs:label>926</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:38:31+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">・・・一応ちゃんと外に出しはしたものの。
+ことが終わったあとは、何もかもが整理の付かないことのように感じる。
+彼女は、微熱を帯びたままのプラスティックの体を自分でさわりながら、快感の余韻を楽しんでいる。
+下が開いたままでそんなことをしているのが、少しみっともなく見えたので、
+僕はティッシュの束でそれを拭いて、天使さんのジップを閉めることにする。
+スライダーの音。彼女は僕を見る。不満げにジップを引っかきながら。
+
+「出してほしかった？」
+・・・間があって、こくっと頷く。今脱ぐと気持ちがいいんだろうけど、自分で脱ぐ気もないらしい。
+僕はあわせる顔が無いし、もう少しこのままが良かった。
+彼女の髪を手ぐしで直して、キスをした。
+
+僕には天使が見える。機械仕掛けの神に祝福され、
+文明の果てのベットの片隅に腰かけた天使。
+だけど、天使はもう、いないかも。
+
+すべてが・・・
+この世界には本当は人間しかいないのかもしれないけど。
+
+ふと耳に、鳴り続けていたネットラジオの音楽が聞こえる。
+エアコンの低いうなりに重なって。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#927">
+				<rdfs:label>927</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-06-30T20:45:08+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　&lt;了&gt;
+
+パクリだ何だといわれるまえに、資料として以下を示します。
+
+鷲田清一「モードの迷宮」「悲鳴を上げる身体」
+バタイユ「呪われた部分」「エロティシズムの歴史」
+ジョーゼフ・キャンベル「神話の力」
+池澤夏樹「やがてヒトに与えられた時が満ちて」
+勿論、「聖書」も。
+
+宇多丸師匠のアイドル論とか宮台さんのオタク論も多少踏まえてるかもしれない。
+もちろん、着ぐるみ関係のサイトも見ています。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

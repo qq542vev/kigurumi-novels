@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:07+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:title xml:lang="ja">派遣着ぐるみ</dcterms:title>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:04:10+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:21:39+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">4607</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#306">
+				<rdfs:label>306</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:04:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">派遣着ぐるみ
+
+
+さなえの今回の仕事はここののヘルプである。なにをするのかというと着ぐるみに入って、接客するというもの。
+さなえ「ここね、今日の私の現場は。」
+ぎぃ〜〜裏の勝手口が中に入る
+さなえ「すみませ〜〜ん。ヘルプできた者なんですけど・・・。」
+すると奥から男がでてきた
+男「とりあえず、ドア閉めて。」
+さなえ「あ、はい、すみません。」
+男「んじゃ、履歴書見せて。」
+さなえ「はい。」
+さなえはかばんから履歴書をだして男に渡す、それをしばらく眺めて
+男「じゃあ、今日１日だけだけど、仕事内容よかったらまたヘルプお願いするよ、奥の部屋にきて。」
+さなえ「はい。」
+男に案内されるままに狭い通路を奥に進んでいく、建物の中は電気もろくについておらず薄暗い
+男「暗いから気をつけて。」
+さなえ「はい。」
+しばらくして、ドアを開ける
+男「さ、入って。」
+さなえ「はい。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#307">
+				<rdfs:label>307</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:05:22+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">中には数台のパソコンやテレビモニターが備えつけてあった、そこには客室の様子が写っていた
+さなえ「こ、これは・・・。」
+男「驚いたかい？」
+さなえ「はい・・・でも・・・これって・・・。」
+男「うん、言わなくてもいいよね。」
+さなえ「・・・。」
+男「１日だからね、でも給料はいいよ。」
+さなえ「こんな・・・。」
+男「ん？どうした？」
+さなえ「これ、私がやるんですか？」
+男「そうだよ。」
+さなえ「・・・できません。」
+男「面白いことをいうね。」
+さなえ「だって、これ・・・。」
+男「ああ、でもきみの仕事はこういうこともあるはずだよ、これから先ね。」
+さなえ「でも・・・。」
+男「まあ、拒否するのもわかるけど、そうしたらどうなるかな・・・。」
+さなえ「どういうこと？」
+男「さあ・・・、どうする？」
+さなえ「く・・・わ、わかりました。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#308">
+				<rdfs:label>308</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:06:25+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">男「従業員控え室に案内するから。」
+さなえ「は、はい。」
+管理室をあとにして、また薄暗い通路を男についていく
+男「さ、ここだよ、呼び出しがあるまでここで待機してて、他の人と話すもよし。」
+さなえ「はい。」
+男「では。」
+そういって男はドアを閉める
+控え室には、数人の男女が座っている、化粧台、洗面台、トイレ、テレビなど家具などはそろっている。
+とりあえず、隅っこの椅子に座って様子をみることにした。
+１時間・・・２時間・・・、その間に部屋から人が出入りする。
+すると、一人の女性がこっちにやってくる
+女「新人さん？」
+さなえ「え？あ・・・はい、ヘルプで今日だけ。」
+女「へ〜、ここかなりじゃないとヘルプなんて呼ばないんだけどね。」
+さなえ「そうなんですか。」
+女「あんたここでなにするかわかってる？」
+さなえ「え？まあ・・・。」
+女「どんな事情があるかしらないけど、中途半端じゃだめよ、今日だけでもかなりよ。」
+さなえ「あ・・・・はい。」
+女「本当にわかってるのかしら・・。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#309">
+				<rdfs:label>309</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:07:47+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">さなえ「どうして、男性もいるんですか？」
+女「あ？ああ男もやるからよ。」
+さなえ「え？でもあれって・・・。」
+女「ちょっと割引価格のは男もやるのよ。」
+さなえ「そ、そうなんですか。」
+女「ちょっと驚きでしょ。」
+さなえ「え、ええ。」
+女「こっから部屋の様子はわかんないけどね。」
+さなえ「・・・。」
+女「不安なの？」
+さなえ「はい。」
+女「まあ、あたいも最初はそうだったわ。」
+さなえ「そ、そうなんですか。」
+女「こんなことするなんてまともじゃないことくらいわかるでしょ？」
+さなえ「あ・・・はい・・・そうですね。」
+女「まあ、体験だけどあっちはそんなこと知らないし、私らは金もらってやってるプロだから、そこんとこ忘れちゃだめよ。」
+さなえ「は、はい。」
+女「にしても、かわいい顔、お面で隠すにはもったいないわね。」
+さなえ「え？あぅ・・・。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#310">
+				<rdfs:label>310</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:08:58+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">女は場もわきまえずさなえにキスをした、回りの人間はそんなことが行われえているのにまるで興味のないように携帯電話や本に視線を集中させている。
+さなえ「んん・・・。」
+ちゅぱ・・・唾液が糸を引いてさなえと女の唇が離れる
+さなえ「な、いきなりなにするんですか・・・。」
+女「これがここの挨拶よ。」
+さなえ「うう。」
+女「まあ、けっこうきついからだめそうだったらすぐチェンジできるからさ、無理するなよ新人。」
+さなえ「う・・・あ、はい。」
+バタン、別のドアからかわいい女の子の着ぐるみがふらふらになって入ってくる
+女「あらあら、そこに座って脱がすから。」
+着ぐるみは椅子にようかい腰をかける、かなり衰弱しているようだ。
+さなえも興味本位でその現場に近寄ってみる。
+女「ちょうどいい、あんたも見てな。」
+さなえ「あ、はい。」
+女は彼女の背中に手をあててごそごそなにかを探しているようだ。
+女「あった、いくよ。」
+なにをしたかわからないが、着ぐるみの背中が割れて中から全身タイツの人間がでてきた。
+着ぐるみを腰のところまで脱がして、さらに内臓の人間を覆っているタイツを脱がす。
+するとなんと、男性がでてきたではないか。
+さなえ「だ、男性？。」
+女「そうだよ、さっきいったろ。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#311">
+				<rdfs:label>311</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:10:21+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">女「今日はもうこの娘はシフトないだろ、ほらさっさと着替える。」
+さなえは内心かなりどきどきしていた、まさか本当に中から男性があらわれると思っていなかったからだ。
+女「おや、どうしたんだい？」
+さなえ「え、ちょっと。」
+女「こんなの日常茶飯事だよ。」
+さなえ「そ、そうなんですか？」
+女「次きたら、あんたが中に入るんだよ、わかってるの？」
+さなえ「え？あたしですか？」
+女「そのためにきたんだろ。」
+さなえ「え、まあそうなんですけど・・・。」
+女「はは〜ん、前任者がどんな人なのか心配なんだろ？」
+さなえ「そ、そんなことは・・。」
+女「大丈夫、今日やってるのはあと全員、女だから。」
+さなえ「そ、そうですか。」
+いきなりの出来事で混乱してしまうさなえを無視するかのように次がくる
+女「新人、あんたの出番だよ。」
+さなえ「え？いきなりですか。」
+女「そうだよ、とにかく先にこの子ひっぺがさないとだめだから。」
+さなえ「は、はい。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#312">
+				<rdfs:label>312</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:11:41+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">髪の長い女の子の着ぐるみが控え室に帰ってくる、ひどく疲れているようだ。
+女「さ、ここに座って背中だしな。」
+着ぐるみはうなずいて背中をむけて座る。
+さっきと同じようにジッパーをあけて中身を着ぐるみからひきずりだす。
+女「さ、交代だよ、新人さんがんばりな。」
+さなえ「は、はい。」
+女「ん？なに服きてんだい、裸になりな。」
+さなえ「えええ、そ、そんな。」
+女「当たり前じゃないか、ほら見てみな。」
+女が指さした方向にはさっき帰ってきたばかりの人が全身タイツをぬいでいる、下着などは一切つけておらず全裸である。
+さなえ「え？だ、男性は？」
+女「ああ、そこの更衣室で着替えな、タイツは彼女からもらいなよ。」
+さなえ「え？使いまわしですか？」
+女「そうだよ、あんた新人のくせにいきなりそんなのあるわけないでしょ。」
+さなえ「え・・・ま、まあ、そうなんでしょうけど・・・。」
+女「なに、グズグズしてんだい、時間ないんだよ、さっさと着替える。」
+さなえ「は、はい。」
+前任者からタイツを受け取るとカーテンの中にかくれて服を全部脱ぎ、タイツに足を通す前任者の汗もありなかなか肌を通ってくれない。
+なんとか、顔までかぶることができたが、前任者の香水のにおいと汗が混じって頭が割れそうにいたい。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#313">
+				<rdfs:label>313</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:13:42+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">女「着替えたら、こっちきて。」
+さなえ「は、はい。」
+女「あ、あとわかってると思うけど、着たら絶対に声はだしちゃだめ。」
+うんうんとうなづく
+女「それでＯＫ。」
+そのまま女の子の着ぐるみに体をいれる、足からとおして、腰、腕といれていき、最後に頭をかぶる化粧台にはかわいいお人形さんがいる。
+さなえ（これが・・・私・・・うそ・・・かわいい）
+しげしげ眺めているところに女の声がする
+女「なに、感動してんだい、かわいいだろ。」
+うなづくさなえ
+女「衣装を着るよ、これだ。」
+ぴちぴちのドレスをもってきた、普段の自分じゃまず着る機会などない高そうなドレスだ。
+サテンの手袋や宝石をつけてもらう。
+女「いいかい、あんたの役は花嫁さんだから、その姿のまま結婚するんだよ。」
+さなえ（そ、そんな）
+女「いわゆるお色直しの時間なんだよ、クライアントは着ぐるみと本気で結婚しようとしているんだから、あんたは新婦役なんだ、クライアントも人生かけてやってるんだからそそうのないように。」
+スタッフ「そろそろ時間ですので新婦は式場までお願いします。」
+女「さ、がんばりな。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#314">
+				<rdfs:label>314</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:16:40+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ほとんどなにも聞かされないまま式場にでてしまう。親族であろう人間たちがじろじろこっちを見ている、そりゃそうだ、生の人間ではないのだから。
+すると、年配の男性がこっちにくる。
+男「新婦の父役で派遣されました小林といいます、一緒に手をつないでバージンロードを歩き、新郎に受け渡しまでやりますので、よろしくお願いします。」
+小さくうなずく
+スタッフ「入場です。」
+男「さ、腕を組んでください。」
+いわれるがままに父親役の男性にエスコートされながら式場のバージンロードをゆっくり歩く。
+視線の先には白いタキシードを着た男性が待っている。
+着ぐるみとはいえ本当の彼氏でもない人と擬似的に結婚式を挙げている自分が信じられない。
+そのまま新郎にバトンタッチされる、二人で手をつないで神父さんのとこにいく。
+誓いの言葉と指輪を交わして、いよいよキスというところまでくる。
+顔にかかっていたベールをうえにあげて新郎が耳元でささやく
+新郎「きみ、さっきまでの子じゃないね、いいんだなにも心配いらない僕にまかせて。」
+そのまま軽くキスをする。
+式は順調に終わり、ようやくおお仕事も終わったかのように見えた。
+新郎「ようやく式も終わったね、父さん、母さん、悪いけど二人きりになりたいんだ。」
+そういうと新郎の両親は部屋をでていった。
+新郎「今日はありがとう、仕事とはいえつらい役だったね。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#315">
+				<rdfs:label>315</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:18:22+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">首を横に振る。
+新郎「いいよ、無理しなくても、とりあえず着替えてね。」
+といって、新郎はどこかに電話すると、しばらくして部屋のドアをたたく音がする
+スタッフ「新婦をお迎えに参りました。」
+新郎「入って。」
+スタッフは部屋に入ってくる
+新郎「じゃあ、お願いします。」
+新郎は部屋をでていった。
+スタッフ「ここで脱いでください。」
+スタッフはすばやくドレスや靴、宝石をはずしていく、ジッパーをあけ中身のさなえが新婦から開放される。
+タイツをぬいで、顔だす。
+さなえ「え？ここでですか？」
+スタッフ「そうですよ、あなたの着替えはここにもってきましたから、あそこのシャワーを浴びてすぐに着替えてください。」
+さなえ「あ、はい。」
+言われるがままに、さなえは部屋のシャワーを借りて汗を流す。もってきてもらった自分の服に着替えてでてくる。」
+さなえ「あの、私はどうすれば？」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#316">
+				<rdfs:label>316</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:19:44+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">スタッフ「はい、今日のぶんのギャラです、それとアンダーのタイツは会社の備品ですので返してください。」
+さなえ「あ、はい。」
+たたんだタイツをスタッフに返す。
+スタッフ「お疲れ様でした、あとは私たちがやっておきますのでこのままお帰りください、あとくれぐれも新郎には会わないように。」
+さなえ「え？あ、はい。」
+スタッフ「そこの非常連絡通路を行けばあうことはないので。」
+さなえ「はい、お疲れ様でした。」
+
+
+その後のその着ぐるみは新郎の男性の所有物ということが判明しただけでその後どうなったかはわかっていない・・・。
+
+終わり</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#317">
+				<rdfs:label>317</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:21:39+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">雑な文章ですみません、もっときれいにまとめられればよかったのですが・・・。
+
+読んでいただいてありがとうございます。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

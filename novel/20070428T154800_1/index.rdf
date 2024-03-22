@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:03:50+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">深夜の公園での出会い</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-04-28T15:48:00+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-05-05T22:23:04+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">598</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#803">
+				<rdfs:label>803</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-04-28T15:48:00+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">なんとなく眠れなくて、ちょっと外を散歩することにした。今の季節じゃ夜はまだ寒いから、パジャマの上からコートを羽織ってすぐ近くの公園まで行くことにしよう。
+
+いつも見慣れている公園も、深夜になるとやや不気味な雰囲気すら感じる。小学生が野球をできるぐらいのグラウンドと、ブランコや滑り台など、定番の遊具は揃っている公園。今はトイレの明かり以外、特に見えるものはない。
+
+深夜のブランコに腰掛けて、こぐわけでもなく、何も考えないようにぼーっとしていた。誰もいない公園で、自分ひとりのためとしては広く感じるこの空間は、なんともいえない安堵感を与えてくれる。
+
+ちょっとミスをしたくらいで、何で今日はこんなに落ち込んでいるんだろう。最近はただ毎日が繰り返しで、でも傷つくことも少なくて、そんな平凡な毎日のはずなのに。
+
+疲れた果てていた僕は、ブランコに座ったまま眠り落ちそうになっていた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#809">
+				<rdfs:label>809</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-05-05T22:23:04+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ふと目を覚ました。なにか気配を感じる。嫌な感じはしない。たしかにあたたかくて、なんていうか、心地よい気持ちにしてくれるもの。
+
+僕はうつむいたままで、視界にははっきりしない自分の足先だけ。なにかの影が見えるわけでもないし、音も聞こえない。でも確かに感じる。僕を包み込むようなこの感覚はなんなのだろう。
+
+確かにここにある、僕をつつみこむこの両手。ハグしてくれるこのあたたかい手は・・・、確かにあの時の、忘れられない懐かしい思い出の中にあった。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

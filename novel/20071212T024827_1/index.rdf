@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:01:26+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">再燃する着ぐるみ熱</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-12-12T02:48:27+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-12-12T03:18:31+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">1023</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#385">
+				<rdfs:label>385</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-12T02:48:27+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">これは、俺の妄想の話です。
+
+俺の名前は太郎。どこにでもいる
+ただの「着ぐるみが大好き」な24歳♂だ。
+小さい頃から着ぐるみ（中身♀）が大好きで、キャラショーがあれば
+現場に行き、覗きを直視したり、抱きついて感触を確かめたり
+後ろから面の中を覗いてみたりしていた。
+大人になるにつれ、恥ずかしさから着ぐるみとはいつしか疎遠になっていった・・・。
+
+就職して自分の時間もとれる様になり、論文専用だったpcを買い換えて
+ふとあるワードを検索したことから、不意に着ぐるみ熱が再燃した。
+リメイクされた美少女5人組をインターネットで見てしまったのだ。
+
+ああ、学生の頃に、着ぐるみ◎roronで(*´д｀*)ハァハァしたなぁ（苦笑
+そっから、おれの不治の病が発症してしまった・・・。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#386">
+				<rdfs:label>386</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-12T02:57:05+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">それから、1年間は画像を漁る日々。
+internet @rchiveに自分が調べたあらゆるアドレスで調べたり
+思いつく全てのワードは検索した。
+
+そんなある日、隣町に白と黒のきゃわいい女の子2人組みが夏祭りにやってきた。
+誰も見てはいないだろうが、疲れたからコレでも見るか。
+というような様子を、必死に演技して心の中でwktkした。
+
+時がたち、撤収まで待った。ショーなんかには興味はない。中身に興味があるのだ。
+「！」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#387">
+				<rdfs:label>387</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-12T03:05:49+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">壁の模様を基準に、肩の位置で白黒の判別していたので
+どちらがどっちなのかはすぐ分かった。
+黒は小さくて、かわいい。、しかも高校生ぐらい？？？
+白は、白は・・・・。動きとか、かわいかったよ。
+そういうアクションしてるのかと思うと、それはソレで萌えるし。
+
+予想外だったのは敵の◎×ン☆ーだ。コレは今晩ゴチソウになります。
+
+もちろん、分かっているのだが
+撤収作業してる彼女たちにあえて聞いてみた。
+「着ぐるみって大変なんですか?」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#388">
+				<rdfs:label>388</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-12T03:18:31+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「なんのことですか＾＾；？」黒はこう答えた。
+「え？さっき、着てた人じゃないんですか？」と、惚けて返す。
+「違いますよー、でも見ててくれたんですね、ありがとうございますっ！」
+「早くしないと、遅くなるよ！」と白。序列があるらしい。
+
+このままはぐらかされるより、引き出したほうが楽しめるかな？とさらに質問。
+「ボクも子供の頃から、着ぐるみの仕事したいと思ってたんですよ」
+どういうリアクションで返すかな？と心の中でニヤニヤしていると
+「お？君、興味あるかね？じゃあ、明日面接来ないか?」
+後ろで作業していた男に、肩を掴まれた。
+オカズの◎×ン☆ーや、黒が「いいですねー」と輪を作る。
+
+あ、ヤバイ展開になった・・・。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

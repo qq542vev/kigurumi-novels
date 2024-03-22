@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:46+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:title xml:lang="ja">人形遊び</dcterms:title>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:25:29+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:19:59+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">22867</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#726">
+				<rdfs:label>726</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:25:29+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">傑作堂さんのあとであれだけど……我煩悩をぶちまけてみる！
+
+「人形遊び」
+
+
+登場人物紹介
+
+主人公：眞田真紀（さなだまき）
+大学３年、教育学部、専攻は国語。
+４年生は就活があるので引退し、今年度から女子のバトミントン部の主将となる。
+成績優秀、運動神経抜群でみんなから慕われるタイプ。
+おっとりした優しいお姉ちゃん系。練習中はちょっと活発な子になる。
+胸までまっすぐ伸びた黒髪、モデル体型の和風美人。
+少し臆病。すぐ驚く。
+「ピーチdeジュース」という子供に人気がある桃のジュースが大好き。
+
+磯崎美優（いそざきみゆ）
+大学２年、教育学部、専攻は国語。バトミントン部の真紀の後輩。
+誰にでもなついてくる妹系。ちょっと喜怒哀楽が激しい。
+真紀を姉のように慕っている。
+ツーテール、茶髪。真紀より背は低いが胸は大きい。
+「あっ！○○」と言う癖がある。
+
+
+あらすじ
+
+美優が真紀に「今度の休みに一緒に買い物に行きませんか？」と約束をし、
+真紀を自分の部屋に招いたことからはじまった。
+長袖だと少し汗ばむくらいの日の出来事である……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#727">
+				<rdfs:label>727</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:30:49+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　ピンポーン♪
+　私は美優の部屋のインターホンを鳴らす。
+「は〜い！」
+　美優の元気な声がドア越しから聞こえ、ダッダッダッと足音が近づいてきた。
+「おはよう美優。」
+「あ、先輩、おはようございます♪ささっ、入ってください！」
+　美優は私が靴を脱ぐのと同時に私の手をとって部屋に連れ込む。
+　そして私はいつものように部屋の隅にバッグを置きクッションに座る。
+
+　美優の部屋はいつ来てもすっきりしていて、テーブルにクッション、テレビ、ベット、タンス、大きな鏡ぐらいしかない。
+　壁も白に統一されていてることもあり広々としている。
+　でも、今日は大きなダンボール箱が部屋の隅に置いてある。何が入ってるんだろう？
+　私がダンボール箱を発見したことに気づいたのか、コップにペットボトルの麦茶を入れていた美優が声をかけてきた。
+
+「これですか？実は、今日はこれの為に先輩に来てもらったんです！」
+「え！？お買い物は……」
+「あ…すみません……先輩に来てもらうために私…嘘つきました……」
+　
+　そんな……久しぶりに美優とお買い物ができると思ったのに……
+
+　今日は工学部で行事があり、部員がほとんどいないので、バトミントン部の工学部以外の部員は休みとなった。
+　バトミントン部は平日はもちろんのこと、土日も練習がある。
+　教育学部である私と美優にとって久々の休日であった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#728">
+				<rdfs:label>728</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:32:03+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　私が落ち込んでいるのを察したのか、悲しそうな顔で、
+「本当にごめんなさい……」
+　と美優は頭を下げる。
+　私はこの顔に非常に弱い。
+　しょうがないから箱の中に何が入っているかを聞くと、美優は急に元気になり、
+　重そうにダンボール箱を私の隣に運び、それをそ〜と置く。
+　元気になった美優を見て安心すると、美優が思いもよらぬことを口にする。
+
+「単刀直入に言います！先輩に…お人形さんになってもらいたいんです！」
+　美優は隣の部屋にも聞こえるぐらい大声で叫んだ。
+　
+　え！？どういうこと？
+　
+　困惑している私の前に、美優は立ち上げてあったノートパソコンを持ってきて色々な画像を私に見せ始めた。
+　パソコンの画像は、アニメで出てきそうな女の子のマスク（？）と鮮やかな色のウィッグをかぶり、
+　肌色の全身タイツの上に制服やメイドさんとかの衣装を着た人達の写真だった。
+
+「先輩にはこれの中身に……着ぐるみを着てほしいんです！」
+　いきなり持ちかけられた話に頭が混乱してる……
+　
+　お人形？着ぐるみ？私が中身？なんで私が？
+　
+　そんな言葉が頭の中をかけめぐっている最中に、
+「着てくれませんか！着ぐるみ！」
+　と目を大きく見開きクリクリ輝かせて、私の口から「うん」や「いいよ」等々の言葉が出てくるのを期待している。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#729">
+				<rdfs:label>729</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:36:07+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「ちょっ、ちょっと待って！」
+　このペースだと承諾しちゃいそう……まず、一つ一つ聞いてみよう。
+「べ、別に、私じゃなくても…」
+「だめです！」
+「自分で着てみたらいいんじゃ…」
+「私は見て楽しむ派なんです！」
+「そうだ！ネット！インターネットで探せば沢山見れると思…」
+「ネットだと中身が男ばっかりなんです！かわいくないんです！」
+　
+　私の答えに間髪いれずに返答する美優。美優の熱弁はまだ続く、
+「中身が女性でもどんな人が入ってるかわからないし、やっぱり中身が大事なんです！だから先輩に着ぐるみを着てほしいんです！」
+
+　私には美優の言っていることがよく分からない。
+　男の人が女の子の着ぐるみを着ているのは違和感を感じる……
+　でも、女の人ならどんな子でも体系が合ってればいいんじゃないかな、と思う。
+　だって、マスクをかぶれば中の人の顔なんて見えなくなっちゃうし……
+
+　そのことを美優に聞くと、
+「先輩みたいに綺麗で、かわいい人にかわいい着ぐるみを演じてほしいんです！だからお願いします！」
+　美優は頭まで下げて私に着ぐるみを着るようにお願いする。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#730">
+				<rdfs:label>730</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:41:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　かわいいだなんて…同性に言われても嬉しい……
+　でも……「いいよ」とは素直に言えない……
+　仮に「この服を着てください！」と言われて、コスプレとかするんだったら承諾できたかもしれない。
+　だけど、着ぐるみは違う。全身をタイツで覆われて、マスクで顔を隠されて……閉じ込められちゃうような……
+　自分が自分でなくなる感覚が私を不安にさせて、着ぐるみを着るということを拒絶している。
+　考えるだけで心臓がバクバクなるし、体がビクビク震え、膝の上に置いてある手から変な汗が出てきた。
+　
+　美優には悪いけど……ここははっきり言わなきゃ！
+
+「ごめんね……私には…できないよ……」
+
+　がっかりする美優。頭の中で何度も美優に謝る……私の為に用意してくれたのに……
+　でも、嫌なことは嫌と言わなきゃいけないと思った。私は美優に頭を下げた。
+　
+　次に頭を上げると、美優の顔がさっきの落胆していた顔から意を決したような顔に変わっていた。
+「本当はこんな真似したくなかったけど……奥の手を使います。」
+　美優は普段出さないような凄みのある声で私を威圧する。
+　怖さと不安で私の心臓が止まったような気がした……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#731">
+				<rdfs:label>731</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:44:11+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　でも奥の手ってなんだろう……危ないこと？
+
+　美優はそんなことする子じゃないから乱暴なことをするとは考えられない。
+「先輩の秘密をみんなにばらします！」
+
+　秘密！？
+
+　びっくりしたけど唖然としてしまった。
+　美優に隠しごとをしたことはないと思う。
+　美優が知ってる私の秘密って……とりあえず聞いてみよう。
+
+「秘密って？」
+
+　私の顔をじっと見ながら美優が口を開く。
+「みんなが帰った後に先輩が部室でしてることです……」
+
+　……あっ！！！
+
+　体から火が出そうになった。
+　私の赤くなった顔を見て美優は、
+「そうです……部室の鏡の前ですっぽんぽんで…」
+「それ以上言わないで！！」
+　堪らず大声をだしてしまった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#732">
+				<rdfs:label>732</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:51:06+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　私はバトミントン部の女子の部室の鍵の管理を任されているから、いつも最後まで部室に残っている。
+　部室は広くて大きな鏡があるから、毎日みんなが帰ってからその鏡を使って素振りやフォームチェックをするのが私の日課になっていた。
+　それにひきかえ、自分の部屋が小さいし鏡もないからそれができない……だから部室はいい練習上でもあった。
+　最初は練習着を着てやっていたけど……誰も見てないことをいいことにどんどん服を脱いでって……
+　最近は下着さえ脱いで……裸でやってる……そのほうが体の動きがちゃんと見えるからというのもあるけど……
+　ちょっと普段の練習じゃ味わえない解放感があるから、という気持ちのほうが大きいかも……
+　どうやら、それを美優に見られていたらしい。
+
+　そんなことをばらされたらバトミントン部は辞めさせられるし、みんなから変態扱いされちゃう……
+　最悪退学なんてことも……そんなのイヤ！
+
+「お願いだからみんなに言わないで！！」
+「じゃあ着ぐるみ着てくれます♪」
+　急に美優は元気になり、満面の笑みで私を見る。
+
+　今日着ぐるみを着るか、それともずっと変態扱いされるか、選択の余地なんて無かった……
+
+「私が……私が着ぐるみを着れば…秘密をばらさないって約束してくれるなら……」
+「着てくれるんですね！約束します！絶対言いません！やった〜♪」
+　美優は私が着ぐるみを着るといったので飛び跳ねていた。
+
+　逆に、私は着ぐるみを着ることが決まり、さっき芽生えた感覚が……
+　着ぐるみという檻に閉じ込められ、自分が自分でなくなるという感覚が胸のなかで急激に成長し、
+　私のすぐ隣にあるダンボール箱を見るたびに、心臓の音が大きくなり、体中から変な汗をかきながらビクビクと震えていた。
+
+　
+　部屋の時計の針が10時をさした。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#734">
+				<rdfs:label>734</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:56:07+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">真紀ちゃん着ぐるみ承諾編　完　です。
+
+とりあえず今日はここまでです。
+一人で盛り上がっちゃってすみません。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#742">
+				<rdfs:label>742</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T10:28:33+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「フン、フフン、フフ〜ン♪｝
+　美優は小物入れからカッターを取り出すと、鼻歌を歌いながらダンボール箱のガムテープを切っていく。
+　箱の中は発砲スチロールや、つぶすとプチプチ鳴るビニールがぎっしり詰まっている。
+　美優が箱の中のものを一つ、また一つと出すたびに美優自身のテンションはあがっていく……
+　私の脈も美優のテンションともに早くなってる……気温はそこまで高くないのに額がプツプツ汗をかき始めた。
+
+　だめだ、少し落ち着かなきゃ。
+　
+　気持ちを落ち着かせようと胸を撫で下ろしていると、美優の大きな声が耳に入ってきた。
+「先輩、先輩！見てください！これが今から先輩が着る着ぐるみですよ♪名づけて着ぐるみセット！」
+　
+　いつの間にか私の隣に着ぐるみセット（？）がずらりとならんでた。
+
+　肌色の全身タイツ、メイドカフェのメイドさんが着ているような紺色の長袖のメイド服、
+　白いニーソックス、ピンク色のリボンがついたベルト、茶色いウィッグ、
+　そして……私の顔を隠してしまうヘルメットみたいな形のプラスチック製のマスク……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#743">
+				<rdfs:label>743</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T10:39:51+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　これ、全部着るの？
+
+　着ぐるみセットを直視したまま動けない……
+　また心臓がバクバクなってる……
+
+「先輩、顔赤いですよ？大丈夫ですか？」
+「きゃっ！」
+　いきなり美優の顔が目の前に現れたのでかなり驚いた。座ってたのに後ろにのけぞって尻もちをついてしまう。
+　どうやら、ボーとしていたり、落ち着きがなかった私を心配してくれていたようだ。
+
+「だ、大丈夫。ちょっとボーとしてただけだから。」
+　と答えると、美優はまた元気になった。
+「そうですか、よかった！じゃあ早速着てもらいましょ〜♪まずは服を脱いじゃってください！」
+「え！いきなり……」　
+　美優のテンションがまた始めた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#744">
+				<rdfs:label>744</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T10:47:52+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「あ！」
+　美優が何かを思い出したように、はっとした顔をした
+「その前にお化粧おとしちゃってください、着ぐるみが汚れちゃうんで。
+　洗顔フォームとかタオルとかは洗面所にあるんで適当に使ってください♪」
+　
+　私よりも着ぐるみを心配したように感じたので少し、ムッとした顔をしたが美優は全然気づいてない。
+　しかたないから私は洗面所にいき、クレンジングと洗顔フォームを借りてメイクをおとす。
+　顔が熱くなってたから冷たい水が気持ちいい……
+
+　……しっかりしなきゃ！
+
+　濡れたほぺったをパンパン！と手ではたき、顔を拭いて美優のもとに向かう。
+
+　私が帰ってきたのを見ると私の手をとり着ぐるみセットの前に立たせる。
+　そして私の顔を覗き込んで微笑んだ。
+「すっぴんでもやっぱり先輩かわいいです♪」
+「え！？ありがと……」
+　不意の誉められたからさっき冷やした顔がまた熱くなってきちゃった……
+　
+　美優のテンションがさっきよりも上がっている。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#745">
+				<rdfs:label>745</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T10:54:30+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「じゃあ、今度こそ服を脱いじゃってくださ〜い♪」
+
+　同性だけど、見られながら脱ぐのは抵抗がある。
+　ソックス、半袖のTシャツ、ベルトをはずしてデニムを脱ぎ、美優の前で下着姿になった。
+
+「先輩今日は白ですね！すごく似合ってます！先輩っぽくてかわいいです！」
+「え！？」
+　
+　部室ではスポーツ用の地味なブラとスパッツをつけていたから、
+　私が白の下着を着ている姿を見るのは初めてらしく、美優はすごく喜んでいる。　
+「あんまり見ないで…恥ずかしいよぉ……」
+　私は顔を赤らめた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#746">
+				<rdfs:label>746</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:03:53+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「下着もですよ、先輩♪」
+「え！下着も？」
+　理由を尋ねると、美優は肌色の全身タイツを指さしながら、
+「このあとあれを着てもらうんですけど、ショーツを履いたままだとおしっこが出来ないんです。
+　肌タイの下にブラをつけてるとワイヤーが肌タイを傷つけちゃうし、締め付けられて苦しくなっちゃうらしいんです。」
+
+　説明されても実感がわかない……もしかして…着ぐるみを着たままおしっこしなきゃいけないの？
+　
+　それは逆に考えれば、私にずっと着ぐるみを着せ続けることが出来ることも意味していた。
+
+「ささっ！どんどん脱いじゃってください！」
+
+　部室で見られたとはいえ、こんなに直視されながら裸になるのはかなり恥ずかしい……
+　また顔を赤らめながらも一気にブラとショーツを脱いだ。
+　そして、自然と右手は胸を、左手は股を隠していた……
+
+　美優が肌タイ（肌色の全身タイツの略語らしい）を持ってきて私に手渡す。
+「次はこれを着ちゃってください♪」
+　相変わらず美優はハイテンションだ。私がどんな思いで着ぐるみを着ようとしているのかも知らないで……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#747">
+				<rdfs:label>747</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:06:43+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　肌タイは頭のてっぺんから腰までジッパーを下して開き、その大きな口に体を足、手、頭の順に入れて着ていくらしい。
+　顔の部分はポッカリ穴が開いてるから、着るともじもじクン状態になることが想像できた。
+　私は髪をゴムで後ろにまとめ、団子状にする。
+　練習のときはいつもそうだから手慣れた手つきで髪をまとめた。
+　
+　ついに着ぐるみに入れられちゃう……
+
+　心臓の音がまた大きくなる。右足、左足とタイツを履くようにして履き、肌タイを腰までグイッと引っ張り上げた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#748">
+				<rdfs:label>748</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:17:29+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　あれ、この股のジッパーはなんだろう？
+
+　ジッパーを見ている私の前に美優が座り込み、股のジッパーに手をかけた。
+「これがさっき言ったおしっこするためのやつです！ほら♪」
+「きゃっ！」
+　いきなり美優に股のジッパー開けられ、こんな近くで最も見られたくないところを見られてしまった！
+　恥ずかしさで体中が真っ赤になる。
+　思わず後ずさりし、両手で股をかくす。
+
+「もう！あんまりからかわないで！」
+　急いで股のジッパーを閉め、美優を大声で叱ってしまった……
+
+「ごめんなさい……そんなつもりじゃ……」
+　さっきまでハイテンションだった美優が急に泣きだしそうな顔になる…悪気は無かったようだ……
+　強く言いすぎちゃった……
+
+「ごめんね、いきなりだったからつい大声だしちゃったの……もう怒らないからこれ着るの手伝って、ねっ。」
+「ぐすっ、ぐすっ、ホント？」
+「うん！」
+　美優の目からこぼれそうな涙を手でぬぐってあげた。
+　美優は頷き、肌タイを着るのを手伝ってくれた。
+　右手、左手、頭と肌タイを着ていき美優にジッパーを上げてもらう。
+　これで私は顔以外は肌色のタイツで覆われてしまった……
+　まだ着て間もないのに肌タイがうっすらと汗ばみ始める……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#749">
+				<rdfs:label>749</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:22:13+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「先輩……ちょっと抱きついてもいいですか？」
+「え？」
+　美優は私の脇の間に手を差し込むとその手を背中に回し、顔を私の胸に押しつけてきた。
+　そして、私をギュッと力強く抱き締め始めた。
+
+「ちょっと、美優……苦し……」
+「先輩……柔らかくて、あったかくて、きもちいい……縫ぐるみみたい……」
+
+　ゾクッ！
+
+　はうっ！…なにこれ……
+
+　「縫ぐるみ」と言われた瞬間、全身を何かが駆け巡った。
+
+  なにも…考えられない……
+　体が…熱い……力が…入らない……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#750">
+				<rdfs:label>750</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:26:43+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「せ、先輩！大丈夫ですか！」
+　腰砕けになった私の体を美優が支える。
+
+「はっ！」
+　美優の声を聞き、我に返った私はよろよろしながら体制を立て直す。
+　そしてゆっくりと美優の手を解き、大きく深呼吸する。
+「フーー、大丈夫…ちょっと立ちくらんじゃっただけ……」
+「ほんとに大丈夫ですか？さっきから先輩、顔が真っ赤です……」
+　美優がまた泣きだしそう。本気で心配させちゃったようだ……
+
+「ごめんね、ちょっと体が熱くなっちゃの。」
+　そう言いながら美優の両肩に手を置いて美優を落ち着かせる。
+　美優を落ち着かせることで私自信も落ち着いてきた。
+
+「そうだ！エアコンつけてもらえる？これ着てると結構暑いの。」
+「あっごめんなさい！私ったら全然気がつかなくって！今つけますから！」
+　私が立ち直ったのを見て安心した美優は急いでテレビの上にあるエアコンのリモコンに駆け寄り、冷房のスイッチを押した。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#751">
+				<rdfs:label>751</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:33:44+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　バタバタと忙しく動く美優を見ながら私はさっきの感覚を思い出していた。
+
+　立ちくらみなんかじゃない……じゃあさっきのはなんだったんだろう？
+
+　毎日ハードな運動をしてるから体力には自信がある。この程度の暑さなんかじゃ倒れない。
+　暑さとは違う……全身をぬるまったいお湯でとかされてしまうような…甘く心地よい感じだった……
+
+　そんなことを考えていたら、顔にカビ臭い風が吹いてきた。
+　美優はあわてて部屋の窓を開けている。　　
+「すみません、最近使ってなかったから臭くて……あっ、それと何度ぐらいにします？冷房の温度。」
+　窓を開け終え、美優はリモコンを持ちながら尋ねてきた。
+「じゃあ、２０度ぐらいにしてもらえる？」
+「わかりました！」
+
+　しばらくすると部屋からカビ臭さが消え、美優は部屋の窓を全部閉めた。
+　部屋の温度が急に下っていく。
+　美優はタンスから長袖のシャツ取り出すと、着ていた半袖のTシャツを脱いでそれに着替えた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#752">
+				<rdfs:label>752</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:37:02+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　そうだ、美優は半袖に短いデニムだから２０度じゃ寒いよね…全然気が回らなかった……
+　
+「２３度ぐらいにしよ。２０度じゃ寒いでしょ？」
+「え？全然寒くないですよ！大丈夫です！
+　それに、このあと先輩にはメイド服を着てもらわなくちゃいけないから冷房キンキンにしないと先輩が倒れちゃいます。」
+
+　そっか、まだこの上にあれを着なくちゃいけないんだ。
+　でも……やっぱり美優が風邪ひいちゃう……
+　ここは先輩の私が我慢しないと！
+
+「私は大丈夫！暑いの得意だから！」
+　ちょっと強がってみる。
+「そっ、そうですか？じゃあ、お言葉に甘えて。」
+　美優は、はにかみながらエアコンの設定温度を上げた。やっぱり寒かったんだ。
+
+　美優はニコッと私に微笑み、さっき私が脱いだ服をたたみはじめた。
+　それを部屋の隅にある私のバッグの隣におき、私のもとに戻ってきた。
+　手には私のショーツとブラを持っている。それを私に手渡した。
+
+「なんで下着を？」
+　美優はニーソックスを拾いながら、
+「裸のまま服を着る人なんていませんから下着はつけてください♪それとニーソもお願いします♪」
+　と答えた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#753">
+				<rdfs:label>753</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:41:12+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　私は違和感を感じながらも肌タイの上から自分の下着を身につけ、美優が用意した膝上まである白のニーソックスを履く。
+　ニーソックスには膝上のゴムのところに白いフリルと小さな飾りのリボンがついている。
+　人が履いていたらかわいいと思えるけど……自分が身につけるとなると恥ずかしい……
+
+「次はこれです♪ちょっとバンザイしてもらってていいですか？」
+「う、うん……」
+　美優はお母さんが子供に服を着せるようにして、メイド服を上からガバッと被せるようにして私に着せた。
+ 
+  メイド服は生地が少し暑く、長袖なので着たらすぐに肌タイが蒸れてきた。　
+　色は紺色、肩には膨らみがある。まるでエプロンドレスのようだ。
+　スカートはボリュームがあり、丈は膝上ぐらいで白いフリルがついる。
+　腰には白い帯が巻かれ、背中で大きなリボン状に結ばれている。
+
+「ふふっ！先輩かわいいですよ♪」
+　美優はニコニコしながら私の首にピンク色のリボンがついたベルトを巻いた。ちょっと息がしづらい……
+「首のベルト少し緩めてもいい？ちょっときついの……」
+「あっすみません！これぐらいですか？」
+　あわててベルトを緩める美優。少し楽になったけど首に何か巻かれているとやっぱり息苦しい。
+　
+　あとはマスクをかぶれば私は着ぐるみに閉じ込められてしまう……
+　私が私じゃなくなっちゃう……
+
+　私はその場に座り込んだ。
+　胸がはち切れそうなぐらい心臓がバクバクなっている。
+　そんな私には見もくれず、美優はマスクとウィッグを手に取る。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#754">
+				<rdfs:label>754</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:44:25+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　美優はマスクにウィッグを被せ、自分の膝に置いて私に見せた。
+「これが先輩の顔になります♪」
+
+　大きな目は瞳が茶色く、目じりが少したれている。
+　口は小さく微笑んでいて、ほほがほのかにピンク色に染まっている。
+　ウイッグは茶髪のツーテール、かぶったら肩に触れるぐらいの長さだと思う。
+　明るく穏やかそうな女の子の顔。ちょっとかぶるには小さすぎる気がする。
+
+　あれっ、ちょっと美優に似てるかも……
+
+「あっ、先輩気づきました？これ私をもとにして造ってもらったんです♪でも私なんかよりずっとかわいいです♪」
+「造ってもらったの？じゃあこれも？」
+　私は自分が着ているメイド服を指さす。
+「もちろんです♪」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#755">
+				<rdfs:label>755</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:46:47+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　いま気づいたら私に着せようとしている着ぐるみは、かなりの額になるんじゃないかと思った。
+　聞きづらいけど…ちょっと聞いてみよう。
+「これ…全部でいくらしたの……」
+「え？」
+「着ぐるみ…」
+　
+
+「えっと…１５万ぐらいだったと思います。」
+「じゅ！１５万！」
+
+　え！そんなに！
+
+　美優がさらりと口にした額は私の想像を遥かに超えていた。
+「そんなにするの！」
+　嫌々着ようとしているのがものすごく悪い気がする……
+
+「そんな高価なもの、私が着ちゃっていいの…」
+「あっ気にしないでください、私が勝手に買ったものですし。それに先輩にこそ着てもらいたいんです！」
+
+　私の為に……涙が出そう……
+　……よし！美優の為にも着ぐるみを着てあげよう！
+
+　私は勢いよく立ち上がり、
+「着るわ！マスクをかぶせて！」
+　と意を決して美優に言った。
+「え！でもまだマスクの説明が…」
+「あとで聞くから！」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#756">
+				<rdfs:label>756</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:49:07+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　私は試合前のように気合が入っていた。いい緊張感を保っている……
+
+　美優はそんな私を見て、あわててマスクからウィッグを外し、
+　ヘルメット状のマスクを頭頂部の蝶番を支点にして前後に割り、私の頭の上にもってくる。
+
+「じゃあかぶせますよ？いいですか？」
+「うん！」
+「口開いてください。はい、あ〜ん。」
+「え？あ〜〜ん、ふぎゅ！」
+
+　口に何か入ってきた！鼻にも！息が…息が出来ないよ！
+
+　すでにパニック状態になっている私に気づかず、美優は私の頭を前後に割れたマスクでサンドイッチみたいにはさみ、
+　マスクの両脇の隙間にコの字型のクリップをカチッとはめて隙間を閉じ、ウィッグをかぶせた。
+　
+　顔がつぶれちゃう…きついよ！何も見えないよ！くっ…苦しい……
+
+「ひふぅ…ふぎゅぅ……」（美優…助けて……｝
+
+　私はマスクの中のスポンジで顔を押しつぶされるのにくわえて、視界の悪さ、呼吸のしづらさから更にパニックに陥ってゆく。
+　心臓がオーバーヒートしている。全身からドバッと汗が出た。
+　天井を見上げ、声にならない声で美優に助けを求めながら、膝から崩れ、その場にへたりこんでしまった……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#757">
+				<rdfs:label>757</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:50:17+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　……い！先輩！私に合わせて鼻で息してください！
+
+　遠くから美優の声が聞こえる……
+
+　吸ってーー！吐いてーー！吸ってーー！吐いてーー！……
+
+　美優の掛け声に合わせて鼻で大きく息をする……鼻でなら息できる……
+　頭がだんだんはっきりしてきた……
+
+「先輩！しっかりしてください！先輩！先輩ってば！」
+　美優は座り込み、大声で私に呼びかけている。
+
+　息ができることがわかった私は、手を自分の胸に当て気持ちを落ち着かせる……
+　顔を美優に向けて首を縦にふって美優の声に答えた。
+
+「ほんとに大丈夫ですか！？」
+「んん！」
+「よかった〜。」
+　私が急に崩れたから私以上に混乱したんだろう……美優はぐったりしながらその場に寝転んだ。
+　
+　また心配させちゃった…しっかりしなきゃ！
+　そういえば口の中に何か入ってるから声が出せないよぉ……
+　鼻も何か筒みたいなのを入れられたからジンジンするし……
+
+　そのことを美優に伝えるためマスクの口元を指さした。
+　それに気づいた美優はムクリと起き上がる。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#758">
+				<rdfs:label>758</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:53:00+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「説明してなかったからびっくりさせちゃいましたよね。すみませんでした……」
+　美優は申し訳なさそうに頭を下げ、マスクの説明をし始めた。
+
+「このマスク、中の人が声を出せなくなるように猿轡がついてるんです。
+　でも、小さい穴があるからストローとかを使えばマスクしながら水とか飲めます。」
+
+　猿轡？そんなの聞いてないよ！
+　あっ、でも説明聞かずに「マスクつけて！」っていったの私だ！……ちゃんと聞いとけばよかった……
+
+「苦しいと思いますけど、鼻に入れたチューブで呼吸してください。
+　それと、瞳がサングラスになってるんで見えると思いますけど、
+　色つきだし小さいから気を付けてください。」
+
+　たしかに視界が悪い。それに汗で曇ってきたから周りの状況がほとんどわかんない……
+
+「顔側のマスクの中はほとんどウレタンっていうスポンジ状のもので埋めてあります。
+　直接肌とプラスチックがあたると顔が傷だらけになっちゃうんで……
+　ちょっと小さすぎかなって思ってましたけど、先輩の顔ちっちゃいからぴったりですね！いい感じです♪」
+
+　隙間がないからかなりきついよぉ……スポンジが汗を吸ってべちゃべちゃして気持ち悪い……　　
+
+「これでだいたい説明は終わりです！あっ、それと何か言いたいときは体で表現してくださいね♪」
+
+　色々とかなり辛いけど、私はとりあえず頷いた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#759">
+				<rdfs:label>759</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:54:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「先輩！着ぐるんだ自分の格好見たいですよね！こっち来てください！」
+　そういって美優は急いで私の手をとって強引に私を鏡の前に立たせた。
+　そこに映っているのは私ではなく、メイド服を着たアニメ顔のかわいらしい女の子だった……
+
+　うそ！この子誰？……これ……私！？
+
+　私は手を口元に動かしてみると、鏡の中の女の子も口元に手を動かした。
+　手を下すと、それと同時に女の子も手を下す……
+
+　ドックン！ドックン！ドックン！
+
+「どうです先輩？着ぐるみを着てみた気分は？」
+　美優の声が右の耳から入って左の耳から抜けていく……
+
+　私は……私はどこいっちゃったの？</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#760">
+				<rdfs:label>760</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:56:08+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「そうだ！着ぐるみに名前つけましょう！
+　先輩の名前は眞田真紀（さなだまき）だから…サキちゃん！サキちゃんにしましょう！
+　それでいいですか、せんぱ…じゃなかった……いい！サキちゃん♪」
+
+　ゾクゾクッ！
+
+　あぅ！…さっきのかんじだ……
+　体がとけちゃいそう……なんか…きもちいい……
+　
+　全身を覆われ、美優に「サキちゃん」と呼ばれてしまい、「真紀」という自分を完全に消されてしまった……
+　そんな私の体を、美優に「縫ぐるみ」と言われときの…甘い…あの感覚が駆け巡っていった……
+
+　……はっ、だめだめ！また倒れちゃう…しっかりしなきゃ！
+
+　首を大きく横にふり、私の新たな顔となったサキのほほを手でパンパンとはたく。
+「え？サキちゃんじゃ嫌ですか？」
+「んっ！」
+　
+　ちっ、違うの！そうゆう意味じゃないの！
+
+　私はもう一度首を大きく横にふる。
+「じゃあサキちゃんでいいですね！よろしくね、サキちゃん♪あっ、それとサキちゃんは私の妹だからね♪」
+  美優は後ろから私の両肩にポンッと手を置き、ニコッと微笑みかけた。
+
+　その名前で呼ばれると、またきそう……
+　
+　私は「あの感覚」に耐えながらも、「サキ」として頷いた。
+
+　このときの私は気づいていなかった……「あの感覚」が私の…秘所を濡らしていることを……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#761">
+				<rdfs:label>761</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:58:54+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　エアコンが効いてても着ぐるみに閉じ込められてるから体がほってってかなり暑い……
+　ボーっとしながら立っていたらマスクの中で、口元からツーっと何かが垂れそうになる。
+　これって……唾！
+
+「むぅ！ズズー！」
+　あわてて息を吸い、手で拭こうとしたけどサキの顔がそれを邪魔する。
+　口が開きっぱなしだから自然と垂れてきちゃう……気をつけなきゃ……
+
+　マスクの中で悪戦苦闘している私を見ながら、美優は尋ねてきた。
+「どうかしたの？サキちゃんはお人形さんなんだから喋っちゃだめだよ♪」
+　サキの唇に手を当てる美優。
+　そういえば美優の口調がサキになってからちょっと変わった。サキは美優の妹だから？
+　なんか同級生と話してるときの口調になってる……
+
+　もう先輩として見られてない……完全にサキとして扱われてる……
+　あっ！またくる……だめ！…耐えなきゃ……
+
+　体をビクビク震わせながらも、私はコクっと小さく頷いた。
+「ふふ♪サキちゃんかわいい！」
+　美優はあのときのように顔を私の胸に沈め、私の脇を通して手を背中に回し、優しく私を抱き始めた。
+「やっぱり柔らかくて、きもちいい……これがやりたかったの……」
+　
+　私がサキになっても甘えん坊なところは変わんないね……ちょっと安心した……
+　
+　私は美優の頭を撫でてあげた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#762">
+				<rdfs:label>762</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T12:00:54+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　それから５分以上は経った。
+　美優は未だに私を抱きしめている。
+　体がほってっているうえ、抱きしめられてるから肌タイがかなり湿ってきた……
+
+　美優…暑いよぉ……
+
+　疲れから美優を撫でている手が止まる。
+
+「……あれ？あっ、ごめんね！立ったまんまじゃ疲れちゃうよね！座って座って♪」
+　私を抱きしめていた手を解くと、美優は私をその場に座らせた。
+
+「ふぅ〜〜。ふはへは〜〜。」（ふぅ〜〜。つかれた〜〜。）
+　座らせてもらえたから思わず声を出ちゃった！
+　私はあわててサキの口元に手をやる。
+
+「そうそう！声出しちゃだめだよ！」
+　美優は腕を組みながら、うんうんと頷く。
+　
+　なんか想像してたよりも疲れる…体力には自信があるのに……
+　それに……さっきから体がほてって…変な感じだし……
+
+「あっそうだ！サキちゃん！女の子座りして♪」
+　私はうな垂れながらも頷き、女の子座りの格好をした。
+　そしたら美優はコロンと寝転がり私の太ももに頭をあずけてきた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#763">
+				<rdfs:label>763</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T12:03:01+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「頭なでなでして……」
+　
+　もう…甘えんぼさんなんだから……
+
+　さっきみたいに美優の頭を撫でてあげる。
+「これもやってみたかったの……気持ちいい……」
+　そういうと美優は目を閉じ、ものの一分としないうちに穏やかに呼吸をし始めた……
+
+　……？うそっ？もう寝ちゃったの？
+
+　驚いたことに、こんな短時間で美優は私の膝枕で眠ってしまった……
+　
+　美優の寝顔…かわいい……ちょっといたずらしちゃお♪
+
+　美優のほっぺをツンツンと指でつついてみるけど、全然起きない。
+　今度はほっぺたをプ二プ二とつまんでみた。すると……
+
+「むぐぅ…へんぱい……これ…着てくらはい……」
+　と寝言の様につぶやいた。
+　夢の中でも私に着ぐるみを着せようとしてる……こっちの私はもう着ちゃったのに……
+
+　そんなことして遊んでたら外で急にサイレンが鳴りだした。
+　色々しているうちに１２時になったらしい。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#764">
+				<rdfs:label>764</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T12:05:17+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">真紀ちゃん、着ぐるみ着用！サキになる編　完　です。
+
+続きはできたら午後ということで……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#765">
+				<rdfs:label>765</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T13:59:31+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　美優がいきなりガバッと起き上がった。
+「お昼…お昼にしよう！」
+　美優は台所に直行していった。驚くべき切り替えの早さだ。
+　そして冷蔵庫からウィダインゼリーを１つ取り出すと、すぐにこっちに戻ってきた。
+　
+「今日はこれでいいや！」
+　立ったままウィダインゼリーを飲む美優。その早さはまさに１０秒チャージだった。
+
+　え？私のお昼は？
+
+　美優に気づいてもらえるように何回も自分を指さす。
+「サキちゃんはお人形さんでしょ？何も食べないの♪」
+　少しいじわる気に美優は言った。
+
+　そんな…ひどい……
+　人形なんかじゃ…ないのに……　
+
+　目から涙があふれてきた……
+　涙を手で拭こうとしてもマスクで遮られる…
+　何も食べさせてもらえないし……涙を拭くことさえできない……　
+　そんな自分がすごく惨めに感じて美優の前だというのに私は肌タイの手でマスクの顔を覆いながら本気で泣いてしまった……
+
+「ひっく、ひっく、ふぅぅ……」
+　泣きじゃくっている私に気づいた美優は、あわてて私の前に座り込んだ。
+「うそうそっ！ちゃんと先輩の分も用意してありますから泣かないでくださいよ！」
+「ひっく、ふぐぅ……ほんほ？」
+「はい！今持ってきますからね！」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#767">
+				<rdfs:label>767</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T14:03:53+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　美優は再び台所に直行する。
+　そしてコップと細長いチューブを片手で持って、急いで冷蔵庫の中から１リットルの紙パックジュースを取り出し戻ってきた。
+「ほら！これ、せんぱ…じゃなくて、サキちゃんの好きなジュースだよ！だから泣かないで♪」
+
+　目がぼやけててよく見えないよぉ……あっ！ピーチdeジュースだ！
+
+　美優はコップをテーブルに置き、ピーチdeジュースを注いぎコップにチューブをさした。
+「あっ、飲む前におはながたれてるから鼻かもうね♪はいっ、チーン！」　
+　美優はティッシュを私のマスクの鼻にあててくれたので、私はおもいっきり鼻から息を出した。
+　ティッシュが私の鼻水でグチョグチョになっちゃた……
+　
+　鼻が通り、桃の甘い香りがただよってくる……
+　美優は私のマスクの口にある小さな穴にチューブをググッと差し込んだ。
+「はいっ！これで飲めるからゆっくり吸ってね♪」
+
+　ゴクッ、ゴクッ……冷たくておいしい！
+　
+　エアコンがついてるけど、１時間以上着ぐるみを着ている私は変な緊張と暑さで喉がカラカラだった。
+　マスクの猿轡のせいでかなり飲みづらかったけどゴキュゴキュ喉を鳴らしながら、
+　私はコップに入っていたピーチdeジュースをあっという間に飲み干した。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#768">
+				<rdfs:label>768</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T14:06:47+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「もう飲んじゃったの！？もっと欲しい？」
+　大きく頷く。やっぱりピーチdeジュースはすごくおいしい！
+「ふふ！かわいい♪」
+
+　美優がコップに注ぐのと同時に、私はピーチdeジュース飲んでいく。
+　１リットルもあったのにすぐになくなっちゃった……お腹がタプタプする。
+　でも私は着ぐるみを着る前よりも元気になっていた。
+
+　ジュースを飲み干した私を見て美優はニコッと笑い、マスクからチューブを抜くと、
+　チューブとコップを台所に置きに行った。
+
+
+真紀ちゃん、ピーチdeジュースガブ飲み編　完　です。
+
+相変わらず一人で盛り上がっててすみません。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#769">
+				<rdfs:label>769</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T14:42:54+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　美優は台所から戻ってくると小物入れから何かを取り出し、それを背中に隠す……なんだろう？
+「どお？元気出た？」
+　再び大きく頷く。できればもっと飲みたかったけど……
+「じゃあ撮影会しよっか！」
+
+　……撮影会？
+
+　私が首をかしげると、美優が背中に隠していたものを見せてきた。デジカメだ！
+
+「これよりサキちゃんの撮影会をはじめま〜す♪ほら、立って立って！」
+　手を引っ張られ立たされると、美優はいきなり私をデジカメで撮り始めた。
+「次は手を後ろにやってうつむいてみて♪そお、そお！かわいい♪」
+　言われたとおりにポーズをとる。
+　美優はニコニコしながらシャッターをきる。
+
+　そのあとも、お女の子座りとかモデルさんがやるようなポーズで写真を撮られ続ける……
+　ちょっと休ませてほしい……
+　それに人形扱いされていると感じて……さっきからまた体が変な感じになってる……
+
+　こんな格好したことないから…恥ずかしいよぉ……
+　それに…さっきから心臓がバクバクして……あのかんじが…ずっとしてる……
+
+　そんな私に気づくはずもなく、美優ははしゃぎながら着ぐるみ姿の私を撮り続ける……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#770">
+				<rdfs:label>770</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T14:46:08+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「そうだ！先輩のケータイにも取ってあげよ！サキちゃんの写真♪」
+　美優は勝手に私のバックからケータイを取り出した。
+
+　そんなことしなくてもいいよ！
+　　
+　美優からケータイをとり上げようとするけど、なかなか返してくれない。
+「これは先輩のケータイなんだからサキちゃんには関係ないでしょ！」
+
+　確かにそういうことになるけど……サキの中には私が入ってるんだよ？
+　うぅぅ！……またきた……なんなの…このかんじ……
+　
+「ちょっとだけだから、お願いサキちゃん♪」
+　美優は手を合わせて私にお願いする。
+　私はしぶしぶ頷き、十枚ぐらい私のケータイで写真を撮らせてあげた。
+
+「これぐらいで十分かな？じゃあまたデジカメでとりま〜す♪」
+　美優はケータイを私のバックに入れると、カメラをデジカメを持ち替えて撮影会を再開した。
+
+　まだ撮るの……もう疲れてきちゃったよぉ……
+　でもあんなに楽しそうだし……もうちょっと頑張ってあげよう。
+
+　その後も色々のポーズで写真を撮られ続けた……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#771">
+				<rdfs:label>771</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T14:50:58+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">すみません。修正です。
+
+&gt;カメラをデジカメを持ち替えて撮影会を再開した。
+
+&gt;デジカメに持ち替えて撮影会を再開した。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#772">
+				<rdfs:label>772</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T14:53:08+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「すっごくいいよ、サキちゃん♪そうだ！四つん這いになってみて！早く早く♪」
+
+　えっ！？それはちょっと…恥ずかしい……　
+　それに疲れてきたし……暑いし……グチョグチョするし……
+　悪いけど…もうできない……
+
+　私は自然とイヤイヤをしてしまった。
+「え…だめ……そんなぁ……」
+　美優は構えていたデジカメを下し、残念そうに顔を下に向けた……
+
+　そんな顔しないで！やってあげるから！
+
+　私はあわてて両手を振る。
+「じゃあやってくれるの？」
+　私は拳を握り締め、がんばるぞ！のポーズをして首を大きく縦にふる。
+　着ぐるみを着てからちょっと動きが大胆になってる気がする……
+
+「ほんと！やった〜♪」
+　美優がまた元気になり、ピョンピョン飛び跳ねている。
+
+　やっぱり美優にはいつも元気でいてもらいたい……
+　相変わらず弱いなぁ……私……
+　……えっ！？もう三時なの！
+　これ終わったらもう着ぐるみ脱がしてもらおっと。
+
+　そんなことを考えながら四つん這いになる。
+　そのとき私はあることに気がついた……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#773">
+				<rdfs:label>773</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T14:56:30+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">真紀ちゃん、サキで撮影会編　完　です。
+
+このあとは……「煩悩炸裂編」です！</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#775">
+				<rdfs:label>775</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T16:40:04+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　そういえば……おしっこ…したいかも……
+
+　お昼に１リットルもピーチdeジュースを飲んじゃったんだから当たり前だった。
+　一回気になりはじめたらすごくトイレに行きたくなってきちゃった……
+
+「サキちゃんかわいいよ♪今度は右手を口に添えてみて！そうそう」
+　おしっこを我慢しながらも、私はポーズを撮り続ける……
+　でももう限界に…近くなってきてる……
+　　
+　おしっこぉ……おしっこしたいよぉ……
+　早くお開きにしてよぉ……
+
+　太ももをすり合わせ、モジモジしている私に美優が気づいた。
+「サキちゃんもしかして…おトイレ行きたいの？」
+　マスクの中で顔を真っ赤にしながら、小さく頷いた。
+
+「ごめんね気づかなくって…じゃあ一緒にいこ♪」
+　そう言いながら美優は手を引っ張り私を立たせた。
+　
+　一緒に？……イヤ！一人でできるよ！
+　
+　私は大きく首を横に振った。
+「一人じゃしづらいからおしっこまみれになっちゃうよ？それでもいいの？」
+
+　それもイヤ……美優に見られるのも嫌だけど……
+　でももう一回見られちゃったし……しょうがない…手伝ってもらおう……
+
+　私は渋々頷いた。
+「ふふ♪カメラ置いてくるからちょっと待っててね♪」
+　美優はデジカメを小物入れにしまいにいった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#776">
+				<rdfs:label>776</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T16:43:58+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　ちょっとあそこが濡れてる気がする……汗だよね……
+　おしっこ……漏れてないよね……
+
+　美優に背中を向けてから、恐る恐るスカートを上げショーツの中に手をいれる……
+
+　……え？うそ！？……濡れてる……なんかぬるぬるしてる！
+
+　私はあの感覚のことを思い出した……
+
+　もしかして私……こんな状況で……感じちゃったの？
+　全身タイツの上にメイド服まで着て……顔に猿轡付きのマスクまでかぶらされて……
+　着ぐるみの中に閉じ込められてグチョグチョになりながら……「サキちゃん」なんて呼ばれて……
+　そんなことされて……感じちゃってたの……
+　うそ！こんなのうそ！絶対そんなことない！
+
+　否定しても、頭で考えれば考えるほど体はほてり痙攣し、脳はとろけ、あそこから蜜が噴き出ててくるのが自分でもわかった……
+　涙が大量にあふれだしてきた……
+
+　こんなの……うそだよぉ……
+　こんな…こんなことで感じちゃうなんて……
+　私……変態じゃない……
+
+「お待たせ！おトイレいこ♪」　
+「ふっ！」
+　急に声をかけらたからその場で飛び跳ねてしまった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#777">
+				<rdfs:label>777</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T16:47:30+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「どうかしたの？さっ、いこ！」
+「ひは……へっはいひは！！」（イヤ……絶対イヤ！！）
+　
+　こんなこと……美優に知られたくない！絶対イヤ！
+　
+　激しくイヤイヤをする。
+「もう！喋っちゃだめでしょ！早くいこ！漏らしちゃうよ！」
+「やら！！」（やだ！！）　
+「いいかげんにしなさい！！！」
+「ひっ！」
+　ものすごい剣幕で怒られた……
+　美優のこんな怖い顔見たことない……思わず立ちすくんでしまった……
+
+「いい子だから一緒におトイレいこ！ね！」
+「ふぅ……」
+　恐怖から頷いてしまい、美優と一緒にトイレに入った……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#778">
+				<rdfs:label>778</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T16:50:24+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「はい！じゃあスカートもって座って♪」
+　
+　やだ……やっぱり見られたいないよぉ……
+
+　小さく首を横にふった。
+「しょうがないなぁ……」
+　美優が私のスカートをめくり上げた！
+「ふぅっ！」
+「あっ！やっぱり漏らしてる！もっと早く言わなくちゃだめでしょ！」
+　美優はショーツのシミをおしっこだと思っているらしい……
+　片手でスカートを上げながらもう片方の手でショーツに手をかけた……
+
+　もう…だめ……
+
+　美優はショーツを下におろす…ショーツのシミが糸を引いた……
+「えっ！？……先輩……」
+「ぐすっ、ぐすっ、みらひへ……」（ぐすっ、ぐすっ、見ないで……）
+　涙がまたあふれだしてきた……　
+
+　イヤ…見ないで……
+　こんな…こんなのイヤ……
+　着ぐるみ着て……濡らしちゃうとこ見られるなんて……
+　裸で素振りしてるのなんかよりも……変態だよぉ……　
+
+　すすり泣きながら立ちつくす私……そんな私を美優は茫然と見ていた……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#779">
+				<rdfs:label>779</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T16:53:02+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　美優は、はっ！と気づいたように私の愛汁がついたショーツと肌タイをトイレットペーパーで拭くと、
+　ショーツを一気に脱がし、それを美優のデニムのポケットに入れてしまった。
+
+「サキちゃん！スカートもって！おしっこまだしてないでしょ♪」
+「ひっく、ひっく……ふぅ……」
+　言われたとおりにスカートを持ち、便座に座る……
+　すると美優は股のジッパーを開け、肌タイが閉じないように手で広げた。
+「はい！出していいよ♪し〜し〜ぽんぽんぽん……」
+
+　美優の掛け声とともに溜まってたおしっこが勢いよく噴き出す…かなりの量……
+　
+　こんなとこまで見られて……もうやだ……
+
+　私は着ぐるみの中で…ただひたすら自分が消えてしまうように祈ることしかできなかった……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#780">
+				<rdfs:label>780</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T16:58:36+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">煩悩炸裂編（俺的な意味で）　第一部
+真紀ちゃん、お漏らし編　完　です。
+
+
+
+このあとは　煩悩炸裂編　第二部
+真紀ちゃん、○○○○編です！</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#783">
+				<rdfs:label>783</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:36:59+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　おしっこをし終わると、美優は私のあそこをトイレットペーパーで拭く。
+　そして股のジッパーを閉じて私の手を引っ張りながら一緒にトイレを出た。
+　
+　私はショックで立ち直れず、ただひたすら泣きつくしていた……
+
+　美優は洗面所で手を洗い終わると、泣きじゃくり立ちつくしている私を後ろからギュッと抱きしめた……
+
+「ふぐぅ……ふぅ！ふぅ！」
+　抵抗する私……そんな私を美優はもっと強く抱きしめ、私の耳元で優しくささやいた……
+「落ち着いて聞いて……着ぐるみを着るとね……誰でも感じちゃうものなの……
+　別にサキちゃんが変ってことじゃないの……自然なことなの……」
+「ふぅ…ふぅ…ふぅ……ほんほ……」
+「ほんとだよ……だからもう泣かないで……」
+「ふぅぅ……」
+
+　こんなことで感じちゃうの……私だけじゃないんだ……よかった……
+　……もう疲れた……体中…顔もグチョグチョで…気持ち悪い……
+　もう脱ぎたいよぉ……
+
+　落ち着いた私を見て美優は手を離す。
+　そしてとんでもないことを口にした。
+「でもメイドさんがお漏らしなんてしちゃダメでしょ！お仕置きが必要ね！」
+「……ふぇ？……ほひほひ？」（……え？……お仕置き？）
+
+　美優は着ぐるみセットが入っていたダンボール箱から黒い塊とチェーン付きのベルトを取り出し床に並べた。
+　そしてその黒い塊を手に取ってこっちにやってくる。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#784">
+				<rdfs:label>784</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:40:05+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　茫然と美優が手に持っている物を見つめる……
+　
+　これ…よくＳＭとかで使ってそうな……
+　……まさか！！
+
+　気づいたときにはもう遅かった。
+　美優は私の後ろに回って後ろ手にし、膝カックンをして私をうつ伏せに転ばせた。
+　そして私の背中にまたがり、両手に手首でつながってるミトン状の黒革の手袋をかぶせ、手袋の手首のベルトを強く引き絞った！
+「ふぅ！ふぅぅ！！」
+「こら！暴れないの！次はこれね♪」
+　抵抗するけど手の自由が奪われ、背中に美優が乗ってるから何もできない……
+　美優はそんな私に見えるように新たな拘束具を目の前にチラつかせた……
+　それは内側に二つの張り型がついた黒い革製のパンツだった！
+
+　それって……やだ！そんなの履きたくないよぉ！！
+　
+　激しく抵抗する私を美優は体重をグッとかけて押さえつける。
+　そしてうつ伏せのままの私のスカートを捲り上げ、股のジッパーを開けて、私にその禍々しいパンツを履かせ始めた！
+「ひは！やらよほ！！」（イヤ！やだよお！！）
+　美優は無言でパンツを上げ続ける……ついに二つの張り型が私の二つの穴に近づいてきた！
+「いい？一気にいくよ？」
+「やら！やめへ！！」（やだ！やめて！）
+「せ〜の！」
+
+　ズル！！
+　
+「ふぎゅぅうう！！」
+　
+　すでに湿っていた私のあそこは、いとも簡単に張り型を飲みこんでしまった……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#785">
+				<rdfs:label>785</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:42:50+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　あぅぅ！！……
+　もう……やめてよぉ……こんなのやだよぉ！
+　お願い……脱がせてよぉ……
+
+「ふぅ…ふぅ…ふぅぅ！ふぅぅ！！」
+
+　私は激しく首を横にふる。　
+　でも美優は張り型がしっかり食い込むようにパンツをピシッと上まであげ、腰に付いたベルトをギュッと絞った！
+「ひっ！ふぅうう！！」
+
+　そして私を起き上がらせ、女の子座りの格好で座らせた。
+　座ると張り型が床で押されて更に奥に食い込んでくる！
+「ふぐぅ！！」
+
+　美優は更に私の右足の足首と太ももにベルトを巻く……その二つのベルトは短いチェーンで繋がっている。
+　左足にも同じものを取り付けられ私はもう立てなくなった……
+
+　美優は二つのリモコンを箱から取り出す。
+「よし！出来た♪じゃあお仕置き開始♪」
+　そしてリモコンのスイッチを入れ、つまみを上げると二つの張り型が振動し始めた！
+
+「ふぎゅぅう！！」
+
+　はぅっ！……やだ……だめ！いっちゃう！
+　こんな格好で……いきたくないよぉ……
+　美優……もう…もうやめてよぉ！
+
+　体は正直であそこから蜜を噴き出している……
+　私は全身をつかってイヤイヤをしたけど意味もなく、逆に体をよじったせいで二本のバイブで更に刺激を与えることとなった……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#786">
+				<rdfs:label>786</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:45:21+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「はふっ！ひや！ほうやめへ！」（はぅっ！イヤ！もうやめて！）
+「だ〜め♪ＭＡＸまで我慢してね♪」
+「ふぅぅ……」
+
+　体も顔も変な汗でグチョグチョだ……マスクの中は涙とよだれが混じってもっと気持ち悪い……
+
+「もう上げちゃお！ＭＡＸ！」
+　美優はつまみを一気に上まであげた！
+「ふっ！ふぎゅぅぅうう！！！」
+
+　しっ、刺激が…強すぎ！！……やだ…美優の前なのに！
+　もう……らめっ！いっちゃう！らめーーー！！！！
+
+　ドバッ！
+　
+　体を痙攣させながら、私の秘所は大量の蜜を噴き出した……
+　美優が見ているというにもかかわらず……私は今まで感じたことないほどの波にのまれ……激しくいってしまった……
+　バイブはＭＡＸのまま振動し続けている……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#787">
+				<rdfs:label>787</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:47:54+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「はい！お仕置きおしまい！今マスク外してあげるからね〜♪」
+　気絶した私はそのあとも体をビクビクと震わせ、いき続けている……
+　美優の声なんて聞こえてなかった……
+
+「あれ？……クリップが…取れない！」
+　美優がマスクを固定したクリップをガリガリ爪でひっかいている。
+「どっどうしよう！……あっ、そうだ！」
+　美優はあわてて玄関に向かい、部屋を出ていってしまった……
+
+　玄関のドアが閉まった音に気づき、私は目を覚ました。
+　気がつくとマスクの中だったので混乱した。
+　周りを見回してみる……そこに美優の姿はない……
+
+「ひふぅ……ふぎゅぅぅうう！！！」（美優ぅ……ふぎゅうう！！！）
+　非情にもバイブはＭＡＸのままだった！
+
+　はぅ！くぅぅ……美優…どこいっちゃたの……早く…止めて……
+　また……またいっちゃいそうだよぉ……あぅぅぅ！
+
+　無駄だとわかっていていても体をよじる……また刺激が加わる……
+　そんな私の目に、鏡に映った着ぐるみ姿の私が飛び込んできた……
+　サキはかわいらしくほほ笑んでいる……
+
+　あぅぅ！……中の私はこんなに……グチョグチョで……苦しんでるのに……
+　すごく……被虐的で……悲しい……また涙が……うぅぅっ！……
+　こんな……こんな状況で……はぅぅ！……感じちゃうなんて……私…やっぱり変態だよぉ……
+　あっ！らめっ！！……またいっちゃっ！……アァァァァァァ！！！
+
+　私はまた快楽の波にのまれ、あそこから蜜をドバッと噴き出しながらいってしまった……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#788">
+				<rdfs:label>788</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:50:52+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　またマスクの中で目覚める……美優はそこにはいない……
+「ひっく、ひっく……ひふぅ……はふへへ……」（ひっく、ひっく……美優ぅ……助けて……）
+　
+　居もしない美優に助けを求めるが返事は返ってこない……
+　バイブはいまだに振動し続け、その存在を嫌というほど私の体に刻む……
+
+　ひっく、ひっく……酷い…酷すぎる……あぅっ！……
+　なんか…前と……後ろのがお腹の中で……くぅぅ！……ぶつかって……お腹…痛いよぉ……
+　暑いし……苦しいし……体も……あぁん！……顔も……ベタベタする……
+  こんな……はぅっ！……こんなの拷問だよぉ……
+　早く……脱がしてよぉ……
+
+　うぅぅぅ！……もし…このまま…美優が帰ってこなかったら…ぐすっ…そしたら……ずっとこのまま！？
+　
+　一回そんな不安が頭をよぎると、それが頭から離れない……
+　私は自分が今置かれている状況と、「ずっとこのままだったら……」という恐怖から全身から冷汗が一気にふきだし、また震えはじめた……
+
+　ひっく、ひっく……美優ぅ……あぅぅ！……早く……早く帰ってきて……
+　はぅぅ！……苦しいよぉ……怖いよぉ……ぐすっ……
+　独りに……ひっく……しないで……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#789">
+				<rdfs:label>789</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:53:11+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　バタンッ！ドタドタドタ！
+
+　美優が帰ってきた！手には何かを持っている。
+「ペンチ借りてきました！今外しますから！」
+「ひっく、ひっく……ふぅぅ！ふぅぅ！」
+　私は泣きながらバイブを切ってくれるように、腰を大きく動かす。
+
+　早くこれ切って！！っあぅぅぅ！
+
+　その動きで刺激されて、また感じちゃう……
+　
+「えっ？なに？……あっ！」
+　美優はつまみがＭＡＸまで上がり、バイブがいれっぱなしだったことに気がつき、あわててスイッチを切った。
+「ごめんなさい！私あせっちゃってて！」
+　美優がペンチでマスクを固定していたクリップを外し、私からマスクを外した。
+　私の口から溜まっていた唾がドバッと床に垂れ落ち、口と猿轡が唾の糸で繋がっていた……
+
+「かはっ……はぁ…はぁ…はぁ……ひろい……ぐすっ……ひろすぎうよ！
+　こんら……ひっく……こんらことするらんて！！
+　ひっく……すっごい…くるひかった……こわかったんらから！……ひっく…ひっく……うぅぅぅぅ」
+
+　何時間も口を開けっ放しにされていた私は舌が回らなかった……
+　そして苦境から解放され、安心したから再び涙があふれでてきた……鼻から鼻水まで垂らして……
+　私の顔は汗や涙、鼻水にくわえ、唾でベチョベチョになっていた……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#790">
+				<rdfs:label>790</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:54:59+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　そんな私の頭を美優は肌タイの顔の穴から出し、
+　グチャグチャな体液まみれの私の顔を、自分の胸に押しつけ、私の頭をギュッと抱き始めた……
+
+「ムゥーー！ムゥゥーー！！」
+　激しく首を振っても美優は私の頭を離さない……　
+
+「ごめんなさい……こんなに酷いことするつもりじゃなかったの……
+　着ぐるみを着た先輩が……サキちゃんがあまりにかわいかったから……ちょっといじめちゃくなっちゃたの……
+　本当にごめんなさい……」
+　
+　美優が優しくささやきかける。
+　美優の優しい声でだんだん気持ちが落ち着いてきた……そして私は美優の体の温もりを感じてきた……　
+　
+　美優のおっぱい……柔らかい……きもちいい……
+
+　美優は、私が美優を抱いてあげたときのように、私の頭を優しく撫でてくれた……
+
+　……すごく……きもちいい……あったかい……
+　抱かれるのって……こんなきもちいいんだ……
+
+「ふっ！」
+　落ち着きを取り戻した私は、恥ずかしくなって美優の胸から顔を離した。
+　美優のシャツが私のせいでグチョグチョになっちゃった……
+「あっ…ごめんね……私のせいでシャツが……」
+「こんなの大丈夫ですよ！それより着ぐるみ脱いじゃいましょう♪」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#791">
+				<rdfs:label>791</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:59:39+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">煩悩炸裂編　第二部
+真紀ちゃん、お仕置きand快楽地獄放置編　完　です。
+
+このあとは
+真紀ちゃん、着ぐるみ脱ぎ脱ぎ編
+真紀×美優、ほのぼの編
+真紀ちゃん、帰路を辿る編　　　　です</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#792">
+				<rdfs:label>792</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:01:22+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　足のベルト、手袋を外し私を立たせる。
+　そして美優は腰のベルトを緩め、革のパンツに手をかけた。
+「下しますよ？いいですか？」
+「うん……」
+
+　ズルリ！……ポタッポタッポタッ……
+
+「あぅぅ……」
+　パンツを下すと私の膣とお尻の穴に溜まっていた蜜がドバッとあふれでてきた……
+　部屋中に私の愛汁の匂いが広がる……
+
+　すごい匂い……恥ずかしい……
+
+　そんなことお構いなしに美優はパンツを下し、私の汗で湿ったメイド服、ニーソックス、ブラを脱がせてゆく……
+　首のリボン付きのベルトを取ると、肌タイのジッパーを下げ、肌タイを脱がせて私を裸にした。
+　足元にある着ぐるみセットの塊と、私の汗まみれの体がさらに美優の部屋に私の匂いを充満させた……
+　
+　久しぶりに外気に肌が触れた……冷房が利いててちょっと寒いけど、裸で素振りするより解放感があるかも……
+　団子状にした髪を解きながら、いまは塊となっている着ぐるみセットを見る……
+
+　ちょっと寂しい気もするな……また…着れるかな……
+　……なっ！なに考えてるの私ったら！
+
+　着ぐるみを着て感じてしまったことを思い出し、またあそこが濡れちゃった……
+　赤面している私を見て、美優はエアコンのスイッチを切りながらニコッと笑う。
+「お風呂入りましょっか！一緒に♪」
+「え？……うん！」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#793">
+				<rdfs:label>793</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:02:28+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　美優も服を脱ぎ裸になる。美優の胸は私よりも大きかった。
+
+　私より背は低いのに……ちょっと悔しい……
+
+　お風呂にはすでにお湯が溜まっていた。用意してくれてたみたいだ。
+　二人で入るにはちょっと小さいぐらいの広さだった。
+「先輩♪体洗わせてください♪｝
+「はっ、恥ずかしいよぉ……」
+「いいから、いいから♪」
+　
+　髪はもちろん、指の先まで全身を洗ってもらう……人に洗ってもらうのってこんなに気持ちいいんだ……
+
+　一緒に湯ぶねにつかってお風呂をでた。
+　渡されたタオルで体を拭いていたらあることを思い出した。
+
+「あっ！下着！」
+　ブラは汗まみれだし……しみだらけのショーツは美優のデニムのポケットの中だし……どうしよう……
+「ふふ♪心配いりませんよ♪」
+　
+　美優はニコニコしながらあのダンボール箱の中から紙袋を取り出すと、それを私に手渡した。
+「これは？」
+「プレゼントです！開けてみてください♪」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#794">
+				<rdfs:label>794</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:03:44+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　袋を開けると……新品の白のブラとショーツが入ってる！これ結構高いやつだ！
+「これ高かったでしょ…もらっていいの……」
+「サキちゃんになってもらったお礼です。もらってください！」
+
+　この子…私の為にいくら使ったの……だめ…また泣いちゃう……
+
+「せっ、先輩！どうしたんですか！？泣かないで下さいよ！」
+「ぐすっ、ぐすっ…ごめんね…………ちょっと目に汗が入っちゃたの♪」
+　私は涙を拭い、笑顔で答えた。
+
+　美優に貰った下着は私の体にぴったりだった。肌触りもきもちいい。
+
+「いいかんじです♪やっぱり先輩は白が一番です♪」
+「ふふっ、ありがと♪」
+　私は着てきた服に着替える。お腹がぐ〜っとなった。
+　
+　もう５時かぁ……ジュースしか飲んでないからおなか減っちゃった……
+
+　すでに着替え終わっている美優はそれに気づいたらしい。
+「お夕飯食べてきます？」
+「平気、平気！大丈夫だから！」
+「そうですか？」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#795">
+				<rdfs:label>795</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:06:36+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　これ以上お世話になっちゃうと悪いし、今日はもう帰ろう……あっ！
+
+「下着持って帰んないと！」
+「もう洗濯機で洗ってますよ♪ちゃんとネットに入れましたから心配しないでください♪
+　明日の部活のときにもってきます。それでいいですか？」
+「え？うん…ありがとね……なにからなにまで……」
+「無理言ったのは私のほうですから。今日は本当にありがとうございました！」
+　美優は深々と頭を下げた。
+　美優の頭をあわてて上げさせ、バックを持って私は玄関に向かった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#797">
+				<rdfs:label>797</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:09:13+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「ほんとにいいんですか？お夕飯？」
+「うん、今度はお買物一緒にいこうね♪じゃあね♪」
+
+　私は玄関のドアノブに手をかけた。そのとき、
+「また……着てくれませんか……」
+　
+　ゾクゾク！……じわっ……
+
+「え？……」
+　その言葉に体がピクッと小さく震えた……そして美優のほうを見る……
+「サキちゃん♪」
+　そこには美優が満面の笑顔で待ち受けていた。
+
+「…月に、月に一回ぐらいなら……」
+「ほんとですか！ヤッター♪」
+　美優は他の階の人にも聞こえるぐらいの大声を出しながらピョンピョンと飛び跳ねていた。
+　あわてて美優の口を塞ぐ。
+「ちょっと！声大きいよぉ！」
+「あっごめんなさい！」
+
+　私は美優の部屋を出で自分の住んでるアパートに向かった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#798">
+				<rdfs:label>798</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:11:53+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　５時だというのにまだ外は明るい。でも日は落ちてきたから涼しくて気持ちいい……
+
+　月に一回ぐらいだなんて……何で言っちゃたんだろう……
+
+　でも体は正直だった。美優からもらった新品のショーツがもう濡れている……
+　そのことに気づいた私は赤面し、周りを見回した。
+　誰もいないことを確認してホッと一息つき胸を撫で下ろす。
+
+　バックからケータイを取り出し、美優に撮ってもらった着ぐるみを着た私の……サキの写真を見る……
+
+　ドックン！ドックン！ドックン！
+
+　私……もしかして……着ぐるみ着るの……好きなのかも……
+
+　ゾクゾク！
+
+　はぅっ！……だめ……また感じちゃう……
+　最初はあんなに嫌がってたのに……それなのに…感じちゃうなんて……
+　でも…もういいの！……美優にも見られちゃったもん！
+
+　自分に素直になれた気がして心のもやもやが一気に晴れていった。
+
+　ケータイをバックに入れながら無意識に呟く……
+「また…着れるんだ……はぅっ！」
+　あっ、声出しちゃった！だっ誰もいないよね！？
+　私はまた赤面し、周りに誰もいないことを確認すると、足早に自分のアパートへと帰っていくのであった。
+
+　＜おしまい＞</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#799">
+				<rdfs:label>799</rdfs:label>
+				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:19:59+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「人形遊び」　完　です。
+
+思ってたより妄想が爆発して長くなっちゃいました。
+読み返したら、俺のフェチ（女の子座り、女の子同士の抱き合い、拘束、声が出せない女の子等々）だらけですね……
+もうちょっとレズ入れたかったんですけど、これ以上いれるとあれなんでやめました。
+
+最後まで読んで頂いた方々に、深くお礼申しあげます。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

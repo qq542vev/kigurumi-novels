@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:01:15+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">アルバイトヒロインの熱中症</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-08-16T19:06:39+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-08-16T19:06:39+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">411</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#61">
+				<rdfs:label>61</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-16T19:06:39+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">キャラショーのバイトで青い髪の子をやってるんだけど、すごい暑さで
+失神しちゃった。今年の猛暑って殺人級だよね。
+なんとか気力でショーは乗り切ったんだけど、握手会でダウンしちゃった。
+
+目の前の子がビックリして泣き出しちゃって...。アタシは大丈夫ってポーズを
+取ろうとしたけど、もう駄目。身体が全然言うこと聞かないの。
+担架に乗せてもらって運ばれたんだけど、凄く恥ずかしかった。
+着ぐるみ着てる間はアタシは無敵の(笑）ヒロインなのに。
+
+スタッフが「マスク外そうか？」って小声で聞いてきたけど、ぶっちゃけあり得ない！
+私はただのアルバイトなんだけど、子どもたちの前では頼りになるアクアなんだもん。
+
+控え室でマスク外してもらって、ポカリ飲みながら休憩したら何とか復活したけど....。
+明日も朝から現場入ってるし、他の子もイッパイイッパイだし。
+せっかくもらった役なんだもん。最後まで頑張らないと。
+
+ちょっと早いけど、今日はもう寝ます。おやすみなさい。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

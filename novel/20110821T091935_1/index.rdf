@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-11T21:53:33+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">７月の汗</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2011-08-21T09:19:35+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2011-08-21T10:02:31+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">3039</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#906">
+				<rdfs:label>906</rdfs:label>
+				<dcterms:creator foaf:nick="お初にお目にかかります"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-08-21T09:19:35+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">７月の末は、ジメジメとした梅雨が終わり、「夏だねー」とか言ってるとすぐにやってくるうんざりするほどの猛暑に苦しめられる季節だ。
+昼は炎天下の車内は、冷房をかけずにいられない地獄のような暑さなる。
+夜は寝る際は掛け布団などかけていられない寝苦しさに苛まれ、扇風機や冷房に手が伸びてしまう。
+日本の夏はとても暑い。古来より日本の家屋敷は木材の広い造りの部屋が多く、これは、風通しを良くして少しでも厳しい夏の暑さをしのぐためだと言われている。
+日本人は夏に弱い。そして、そんなうんざりする夏の暑さをやり過ごすために海水浴、BBQ、花火、祭りとイベントが多く催されているのだ。
+遊園地のテーマパーク、デパートや商店街、観光地やイベント大会等は、休暇を過ごす客を引き込む商戦合戦を始め、夏の暑さとともに人々の活気が爆発する。
+小さな観光イベント会社を経営して５年目、家族連れをバスで運んで、３泊２日で観光地と旅館を巡る旅を提供することも安定してきた。
+顧客の満足度も上昇でリピータも多く、売り上げ業績も小さい会社ながら良く、社員の給料も十分に払えている。
+そして、経営５年目を記念して当社のイメージキャラクターであるライオンの「あっちゃん」の着ぐるみを制作し、客引きや誘引をすることにした。
+夏が来た。稼ぎ時であり、売り上げ業績が最も好調となる季節だ。
+オリジナルの着ぐるみも完成し、上々の仕上がりで出番を待っている。
+アルバイトの募集をかけて、人材も確保できた。
+着ぐるみのサイズはピッタリだった。少し窮屈な気がしたが、初めてのアルバイトだったので我慢した。
+観光イベント会社の記念すべき第１号着ぐるみの最初の中の人ということで期待され、「やってやるぞ」という気持ちなった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#907">
+				<rdfs:label>907</rdfs:label>
+				<dcterms:creator foaf:nick="お初にお目にかかります"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-08-21T09:22:51+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">バスの前で出迎え、複数の家族連れがバスに乗り込む、バスが目的地についたら現場まで誘引する。
+そんな難しいことはなかった。家族と子どもの楽しそうな声が聞こえ姿が見える。
+一緒に写真を撮られたり、声をかけられて手を振ったりした。
+目的地に到着して「どうだ？」家族連れを降ろして誘引して見送った後、バスの中で着ぐるみの頭を取って、休憩しているとマネージャーが声を掛けてきた。
+「暑いですけど、楽しいです」と答えると、「水飲んでゆっくり休め、お昼間まで休憩で、時間になったら着ぐるみ着てバスの前ね」
+「わかりました」と答えると、マネージャーはバスを降りていった。
+窓から外を見ていると、この炎天下を汚い着ぐるみがアスファルトの上を歩いていた。
+「あれ絶対暑いよ」なんて一人で小言を言っていると、マネージャーがバスに戻ってきた。
+ちょっと早いけど写真撮りたい家族連れが多いから外に出てくれということだった。
+外に出ると、異常な暑さだった。遊園地にいない着ぐるみが勝手に入っていいの？なんてこと考える余裕もないほどに暑かった。
+マネージャーに手を引かれながら公園を走らされたが、家族連れの前ではポーズを決めた。
+結局そのまま時間となり、バスまで誘引して最後の目的の旅館へたどり着いた。
+今日の仕事も終わり、旅館の宿泊代と食事代も会社から出た。
+大浴場を満喫して、設置してあるマッサジチェアで疲れをとった。
+服も下着も自分の汗で想像以上に濡れてしまったので、売店で次の日着る服と下着を買った。
+「疲れたけど、楽しかったな」なんて思いながら部屋に入って寝ころんでテレビを付けても、ろくな番組が放送していなく、冷房をつけて布団に入るとぐっすり眠れた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#908">
+				<rdfs:label>908</rdfs:label>
+				<dcterms:creator foaf:nick="お初にお目にかかります"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-08-21T09:27:20+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「着ぐるみ第１号の結果はどうだ？」そう尋ねると、「予想以上に好評」と返ってきた。
+マネージャーの報告を見るがきり、成功したのだろうと思った。
+マネージャーは続けて「一日使用しただけですが、結構汗かくみたいで一着じゃちょっと厳しいですね」
+着ぐるみの中を嗅ぐと、新品だったころとは違う汗の匂いが充満していた。
+「そうだな、わかったもう一着準備しよう」そう言うと、マネージャーは嬉しそうに笑った。
+「多少、汗かくだろうと思って、準備はしていたのだが」そう言って、着ぐるみ足の裏を見せた。
+「着ぐるみ内側は、吸水性と流水性のある素材で、中は汗をかいてもすぐに皮下熱が下げられる」そう言うと、
+マネージャーは失敗しましたねっという表情で「全然ダメでしたよ、なにしろ外は猛暑ですから」と返した。
+「ここにボトルがあって、かいた汗が溜まるようになっている」そう言って着ぐるみの足からボトル取り出した。
+マネージャーは呆然として黙ってしまった。
+「いろいろ考えた結果、かいた汗を捨てて皮下熱で体温を下げ続けることができるコストの低い暑くない着ぐるみが出来た」そういうと、
+「画期的じゃないですか！」とマネージャーは返答した。
+「これはまだ他の会社に知られていない技術で、特許申請中だから絶対に外部に情報を漏らすな」そういうと、
+マネージャーは「わかりました」返答した。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#909">
+				<rdfs:label>909</rdfs:label>
+				<dcterms:creator foaf:nick="お初にお目にかかります"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-08-21T09:30:34+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">今日も一日ご苦労様でした！今日で最後になります！大変お世話になりました！
+そういって着ぐるみ第一号の最初の中の人は帰っていた。
+俺はマネージャーの権利を最大権に利用して、彼女に休ませては着ぐるみから溜まった汗を抜き取り、ボトルを嵌めた。
+だんだん着ぐるみを着る暑さにも慣れたという彼女を笑顔で向かえた。
+彼女の汗を捨てるのはもったいなく感じて、家に持ち帰って嗅いでみたり、味を確かめたりした。
+悪天候でイベントが中止になると、彼女を早く帰えらせて、彼女のさっきまで着ていた着ぐるみに入ったりした。
+いつのまにか彼女の匂いを覚えてしまって、近くを通ると、「あ、同じ匂いだ」とわかったりした。
+ボトルが空の状態から炎天下の仕事を続けさせて、ボトルが一杯になるまで仕事をさせた。
+ボトルの汗の状態から彼女の健康状態を把握するマネージャーとしての仕事が楽しかった。
+中の人は長期で働くことを前提としているし、着ぐるみの内側は人が変わると貼りかえるので、汗が混ざる心配がない。
+それに、現在、二体になった着ぐるみで、一度に２人分の汗が回収できるようになり、嗅ぎくらべや色の違いを楽しむこともできるようになった。
+ボトルを回収して、ボトルに名前を書き込み、それを家に持ち帰ってから匂いで名前を当てるクイズをしたりした。大
+量に汗を集めて、ろ過をして綺麗に水にして飲んだりしたのも興奮した。
+彼女に着ぐるみを着せるのも俺で、炎天下で働かせるのも俺で、汗を集めるのも俺。
+この子の汗はどんな匂いがするのだろう、どんな味がするのだろうそんなことを考えながら好みの子を選んだ。そ
+して遂には、家に研究所までつくってしまい汗の成分を詳しく調べたり、DNA鑑定をして、遺伝子情報まで割り出したりした。
+取り出した汗から彼女の知らない彼女のことがわかるのだ。
+着ぐるみを着て汗をいっぱいかいて謝ったり、恥ずかしがる彼女も仕事に慣れると汗をたくさんかいて本人も知らない間にボトルを一杯にする。
+「ありがとうございました」と感謝して去ってゆく。彼女たちは去っていっても彼女その匂いと情報は保管されているのだった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#910">
+				<rdfs:label>910</rdfs:label>
+				<dcterms:creator foaf:nick="お初にお目にかかります"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-08-21T09:39:02+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">変態マネージャーの話でした。
+主語がないんで、読みにくいかもしれません。
+補足すると、&gt;&gt;906の「人材確保」までが社長で、「着ぐるみのサイズはピッタリ」から女の子です
+&gt;&gt;907は全体的に女の子
+&gt;&gt;908は全体的に社長
+&gt;&gt;909は全体的にマネージャー
+落ちがありませんが、この後、マネージャーは死ぬべきだと思います。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#911">
+				<rdfs:label>911</rdfs:label>
+				<dcterms:creator foaf:nick="お初にお目にかかります"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-08-21T10:02:31+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">読み返すと　ひどい　誤字が多い・・・二泊3日です・・・泣</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

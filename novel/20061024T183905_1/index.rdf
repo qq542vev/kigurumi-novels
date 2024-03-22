@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:03:37+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">怪獣の一日</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2006-10-24T18:39:05+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2006-10-31T23:30:38+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">2925</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#633">
+				<rdfs:label>633</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-10-24T18:39:05+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「愛、電話よー。」
+「はーい。」
+電話に出ると親友の絵梨香だった。
+「愛、事務所の田中さんから急にバイト頼まれたけど
+私用事があってできないの。愛バイトお願いできない？」
+「いつ？」
+「明日、集合は事務所に７時。」
+「いいよ。」
+「良かった。じゃあ田中さんに連絡するね。」
+「うん。」
+
+次の日事務所に行くと田中さんがいた。
+「愛ちゃん、ごめんね。急にバイトお願いして。」
+「私暇ですから大丈夫ですよ。」
+「じゃあ、行こうか。」
+「はい。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#634">
+				<rdfs:label>634</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-10-24T19:01:21+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「今日の着ぐるみどんなのなんですか？」
+「怪獣だよ。」
+「なんか重そう、大丈夫かな。」
+
+しばらくして現場に着いた。
+遊園地だった。
+話を聞くと遊園地内をヒーローや怪獣がパレードするイベントみたい。
+だけど怪獣のひとりが出れなくなり、
+しかも身長規定が小さい着ぐるみだったので女の子じゃないと無理。
+だから私より小柄の絵梨香に電話したんだ。
+
+控え室に行くと男性用と女性用と部屋が分かれていた。
+「僕は外で待っているよ。」
+「はい。」
+私は女性用の控え室に入った。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#635">
+				<rdfs:label>635</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-10-24T20:22:11+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「伊藤さんですね。」
+「はい。」
+「担当の加藤です。今日はヒーローと怪獣のパレードをします。
+ヒーローは男性５人怪獣は女性３人です。
+あと、あなたの着ぐるみはこれです。」
+「わかりました。よろしくお願いします。」
+着ぐるみを見ると手と足が短い小さい怪獣だった。
+
+「こんにちは。」
+「こんにちは。」
+控え室にいた２人の女の子が挨拶してくれた。
+「小久保真理です。」
+「斉藤唯です。」
+「伊藤愛です。」
+「愛ちゃんは何歳なの。」
+「１６歳だよ。」
+「私と唯ちゃんは１７歳。ひとつ違いだね。」
+「真理ちゃんと唯ちゃんは着ぐるみのバイトはじめてどれぐらい？」
+「１年ぐらいかな。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#640">
+				<rdfs:label>640</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-10-30T23:18:12+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「そろそろ時間です。皆さん着ぐるみに着替えてください。」
+加藤さんがそう言うとみんなＴシャツにスパッツ姿になり、
+手伝ってもらって着ぐるみを着る。
+怪獣の着ぐるみは暑くて重い。それに動きにくい。
+「今日のパレードは４回やってもらいます。
+気温が高いので水分はちゃんととってください。」
+
+外に出るとヒーローの人たちが待っていた。
+「お待たせしました。よろしくお願いします。」
+加藤さんはそう言うと私たちにヒーローの後ろについて行くよう支持した。
+私たちはヒーローの後について行く。
+外に出ると熱かったが一生懸命に仕事をこなした。
+
+控え室に戻ると誰もいなかった。
+誰もいないので着ぐるみを脱げない。
+「加藤さんどこ行ったんだろう。」
+今日のスタッフさんは加藤さん以外みんな男性。
+という事は加藤さんがいないとここでは脱げない。
+待ってても加藤さんは帰って来ない。
+「どうしよう、真理ちゃん、唯ちゃん。」
+「暑くても脱げないし、どうしよう。」
+「ちょっと待ってて事務所の人に脱がしてもらってくるから。」
+「ごめんね、愛ちゃん。」
+
+控え室を出て田中さん探す。
+田中さんの姿が見当たらない。
+どうしよう。
+他に人もいないので頼めない。
+仕方がないので男性の控え室に行きノックする。
+ノックしても返事がない。
+どうしよう。
+疲れてきちゃったので女性の控え室に戻る。
+「誰もいなかった。どうしよう。」
+１時間ぐらい着ぐるみを着てるので限界に近かった。
+「しょうがないから寝転がっていようよ。」
+私たちは寝転がった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#641">
+				<rdfs:label>641</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-10-31T11:36:12+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">気がつくと私は着ぐるみを脱いで横になっていた。
+どうやら気絶してたらい。
+加藤さんは私たちが倒れていたので急いで着ぐるみを脱がしたらしい。
+「ごめんなさいね。打ち合わせしてたら話が長引いちゃって。」
+「気にしないでください。」
+真理ちゃんと唯ちゃんも横になってる。
+汗びっしょりだ。私も汗をかいているので着替える事にした。
+「真理ちゃん、唯ちゃん着替えないと風邪ひいちゃうよ。」
+「そうだね着替えるよ。」
+２人とも着替えた。
+時計を見るとお昼に近かった。
+「私はお昼食べますけど、皆さんは好きなとき食べてください。」
+人数分お弁当とお茶がおいてあった。
+「お弁当食べる？」
+「食べよっか。」
+私たちはお弁当を食べた。
+話をしたりして休んでいると２回目の時間なった。
+
+２回目３回目ともトラブルなく無事に終わった。
+着ぐるみを脱がしてもらって唯ちゃんを見ると顔色が悪い。
+「大丈夫？」
+「お腹が痛い。４回目大丈夫かな。」
+加藤さんに事情を説明する。
+「斉藤さん大丈夫ですか。もし無理なら代わりますよ。」
+「え、加藤さん着ぐるみ着たことあるんですか。」
+「着たことありますよ。」
+「唯ちゃんどうする？」
+「加藤さんお願いします。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#642">
+				<rdfs:label>642</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-10-31T21:21:50+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">加藤さんが唯ちゃんの代わりに着ぐるみを着る事になった。
+唯ちゃんは私服に着替えた。
+「加藤さんはＴシャツとか持ってます？」
+「持ってないですよ。女性用の控え室だから下着姿になっても
+問題ないですからね。」
+
+もうすぐ４回目の時間だ。
+加藤さんはスーツを脱ぎ下着姿になる。
+「加藤さんスタイルいいですね。」
+「ありがとう。」
+加藤さんは微笑んだ。
+唯ちゃんに手伝ってもらって着ぐるみを着る。
+「加藤さんごめんなさい。」
+「斉藤さん気にしないで。」
+唯ちゃんに見送られヒーローの人について行く。
+最後のパレードだ。
+
+外に出ると夕方になっていたので少し涼しかった。
+でも４回もパレードをしてると疲れが出てきた。
+人がまばらなとき小声で加藤さんに聞いてみた。
+「加藤さん大丈夫ですか？」
+「大丈夫。やっぱり怪獣は大変ね。」
+子供がいたずらしてくる。
+可愛いけどちょっと大変。
+パレードも無事に終わり控え室に戻ると唯ちゃんが動揺していた。
+「大変です。加藤さんの服と靴がないんです。」
+「どういうこと、斉藤さん。」
+「私とスタッフさんは休憩しようと思ってジュース買いに行ったんです。
+控え室に戻ると加藤さんの服と靴がなくなったんです。
+すぐスタッフさんに言っていろいろ調べたら、
+男子トイレに人が進入した後があったんです。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#643">
+				<rdfs:label>643</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-10-31T23:30:38+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「盗まれたみたいですね。」
+「伊藤さんと小久保さん着替えて。暑いでしょう。」
+着ぐるみを脱がしてもらって私服に着替える。
+「スタッフの人に相談してきます。」
+
+私たちは帰る用意していた。
+「加藤さんどうするんだろう。」
+加藤さんが戻って来た。
+「誰か申し訳ないけど一緒に来てくれませんか。」
+「私いきます。」
+唯ちゃんが言った。
+唯ちゃんは加藤さんとついて行った。
+しばらくして加藤さん達が戻って来た。
+唯ちゃんは箱を持っている。
+スタッフさんと相談したらレースクイーンの衣装ならある。
+それ以外だとあと着ぐるみぐらいしかないということで、
+レースクイーンの衣装を借りる事にしたみたいだった。
+箱の中を見ると白の水着みたいのに白のミニスカート、
+あと白のロングブーツが入っていた。
+
+加藤さんが着ぐるみを脱ぐのを手伝う。
+下着姿の加藤さんにタオルを貸す。
+「どうぞ。」
+「ありがとう。」
+加藤さんはレースクイーンの衣装を着てブーツを履いた。
+「スタイルいいし、似合ってますよ。」
+「ありがとう。でもはずかしいですよ。」
+「皆さんいろいろありましたが今日はこれで終わりです。
+お疲れ様でした。」
+「お疲れ様でした。」
+「真理ちゃん、唯ちゃんじゃあね。」
+「愛ちゃん、バイバイ。」
+
+廊下に田中さんがいた。
+「愛ちゃん、お疲れ様。」
+「今日はいろいろあったけど楽しかったな。
+でも田中さんと着ぐるみ着れないのは寂しかったけど。」
+「じゃあ遊園地で遊んでいく？」
+「うん。」　　　　　　　　　　（おわり）</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

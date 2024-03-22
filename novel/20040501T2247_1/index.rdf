@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:05:41+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">大胆アイドルくるみちゃん</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-05-01T22:47+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-05-11T23:39+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">7274</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#200">
+				<rdfs:label>200</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T22:47+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">月17日　　13：00
+
+「これは〜・・・ここだな。」
+
+　ここは最近出来たばかりの遊園地。
+今日は人の入りも大変良く至る所で
+自販機が売り切れのランプを灯す。
+
+パンダ・ドリンクに務めている”速水　ケンタ”は
+在庫を切らした自販機の商品補充に勤しんでいた。
+
+　オレは就職して以来この遊園地には毎週のように
+来ていた。
+
+　ここに働いている人でかなりオレの事を知っている人が多い。
+あ・・・向こうで売店のおばちゃんが手を振ってる。
+いつのまにか有名にでもなったのだろーか・・・？？
+
+休憩所に到着し、品切れの商品のリストを確認して少し経った時、
+ふと後ろを振り返るとココの遊園地のマスコットが立っていた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#201">
+				<rdfs:label>201</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T23:35+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">しかし普通の遊園地にあるようなマスコットではない
+ネコやクマのような動物型ではなく
+アニメなどに出てきそうな”美少女”とでも言うのであろう。
+
+聞く所によると園長の意向だとか大きなお友達にも受けるようにしたとか・・・。
+まぁ・・・どちらにせよ佐伯園長が一枚噛んでいるようである。
+おかげでオレもその恩恵に預かっていることは自覚している。
+
+それにも増してその容姿が普通ではない。
+お子様方には少し刺激の強そうな格好なのである。
+見ているコッチが目をそらしてしまうようなミニスカートで
+俗に言う”メイド服”に似たような衣装だった。
+ただ本物を見たことは無いので’似たような’になってしまう。
+
+あまりジロジロ見るわけにもいかないのでチラチラと見つつ作業を続けた。
+
+すると彼女がオレの肩を叩いた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#202">
+				<rdfs:label>202</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-02T22:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「っ！？はい？オレに用ですか？」
+こくっ。
+彼女はうなずいた
+とっさの事で声が上ずってしまった。
+
+「どうしましたか？」
+「・・・・・・。」
+（そうか〜こういう着ぐるみって喋らないもんな〜）
+すると彼女は奥に置いてあったまだ箱詰めされたままの
+新製品のお茶を指差した
+
+「あ〜・・・”マナ茶”が欲しいんですね。」
+こくこくっ！
+すると彼女は元気に二回頷いた。
+（へぇ〜。この時間帯は休み時間ってわけか）</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#204">
+				<rdfs:label>204</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-03T00:25+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「それじゃあ・・・はい。１５０円になりま〜す！」
+彼女は小銭を手渡し、元気にお辞儀をして去っていった
+「お買い上げありがとうございま〜す！！」
+（なんかカンジ良かったな〜・・・
+とは言っても中の人の表情はわからないけど。）
+
+少しドキドキしているのが自分でもわかった。
+単に着ぐるみ好きだからではなくそれ以上に何か感じる物があった。
+
+・・・・・・しばらくして・・・・・・
+詰めの作業も終わり、
+本部に終了の確認を取ろうと思い事務所に戻る途中
+先ほどの”美少女”がついてきていた</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#205">
+				<rdfs:label>205</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-03T00:26+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「あぁっと・・・さっきはどーも・・・」
+オレは動揺しているのがわかった
+なにか胸を締め付けられている感じがしてならなかった
+
+遠巻きにいた彼女が近づいてきてオレの手を取った
+オレは極力に平静を装った。
+でも肝心な所は元気になってる。
+やっぱ男なんだよなぁ・・・。
+しかし彼女はオレに寄り添ってきたばかりでなく抱きついてきた。
+少し彼女が”くすっ”と笑い声を漏らしているのがわかった。
+
+「えっ！？あっ？？ちょ・・・ちょっと・・・。」
+オレはとっさの事で身動きが取れなかった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#206">
+				<rdfs:label>206</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-03T00:27+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そのとき遠くの方で声が掛かった。
+「おぉ〜いっ！！くるみちゃぁ〜ん！！そろそろ上がるよ〜！！」
+お世話になっている佐伯園長が出てきた。
+
+佐伯　孝敏　この遊園地の創設者であり園長
+割腹のいい姿でいかにも園長といった風貌。
+しかし一度暴走すると手がつけられないらしい。
+
+「おぉ〜速水くんぢゃないかっ！！仕事の調子はどうかね？」
+「あ・・・あははっ・・・ぼちぼちです」
+「あれっ・・・くるみちゃんと一緒だったのかね？」
+「えっ！？あぁ〜・・・あははは・・・。」
+（”くるみ”って言うのかぁ〜可愛いなぁ〜って違う違う！）
+ふとヨコを見ると先ほどまでいたくるみちゃんとやらはすでに消えていた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#215">
+				<rdfs:label>215</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-07T00:36+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「何か考え事でもしておったのかね？くるみちゃん可愛いだろう！」
+「えっ！？そっ・・・そうですねぇ〜！あの衣装とかは園長先生がお選びに？」
+「そうだが？男心をくすぐるじゃろう！」
+「お・・・男心ですかぁ・・・でっ・・・ではっ！！次もあるんでこの辺で失礼します!」
+「そうか！！今度会うときまでに感想を考えてくれよ！」
+「はっ・・・はいぃ・・・」
+
+いそいそとデリバリーバンに乗り込みその場を去った。
+落ち着け・・・オレ。
+
+17：30
+
+「フゥー・・・今日も終ったぁ〜！！」
+「おぅ！ケンタか。お疲れさん」
+「あっ！先輩お疲れです！」
+事務所に戻ると、鷹田先輩が居た。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#216">
+				<rdfs:label>216</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-07T00:40+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">
+鷹田　啓一郎　オレの４年先輩でかなり熱い性格
+オレが新米だったころからお世話になっている兄貴的存在。
+
+「ケンタっ！！今日は飲みに行かねぇか？」
+「ううっ・・・。もぅ今月キツいんですからぁ・・・。」
+「いいじゃねぇか！！たまぁ〜〜〜・・・・・にはオゴるからよっ！！」
+「なんなんですかっ！！その妙な間はっ！！」
+「気にすんな！！ホラ行くぞ！」
+
+・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+
+
+先輩との楽しい（！？）飲み会も終わり、
+玄関まであと少しのところでオレは立ち止まった。
+
+・・・・・・自室のドアの隙間から明かりが漏れていた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#222">
+				<rdfs:label>222</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-07T23:31+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「えぇ・・・マジかよ・・・なんで明かりなんか付いてるんだ？」
+
+恐る恐る部屋を覗いてみるといい香りがオレの鼻をくすぐった。
+「あうぅ〜なんか美味そうな匂いがっ・・・。」
+
+久しぶりにまともな食事の香りに誘われて
+無用心に部屋に踏み入ってみると
+そこには昼間に出会った”くるみ”が立っていた
+「っ！？なっ・・・なんでっ！？」
+
+彼女おもむろに携帯電話を取り出し
+画面を自分の顔に極端に近づけ
+うつむきながら一生懸命になにかを打ち始めた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#223">
+				<rdfs:label>223</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-07T23:35+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　”勝手におジャマしてしまってゴメンなさい！！
+どうしても速水さんの事が気になってしまったので・・・”
+「えっ・・・あ・・・あぁ〜・・・」
+
+どうもこういうツーショットはオレには不慣れなようである。
+特に元からかなり興味のあった美少女着ぐるみがオレの部屋に居るならなおさらだ。
+
+　”ご迷惑ですよね・・・。本当にゴメンなさい”
+「い・・・いやぁ・・・その・・・急だったからさぁ・・・」
+
+かなりドギマギしているオレ。
+
+「って考えてみたらどうしてオレの家がわかったの？」
+
+するとくるみは画面が見づらいのかまた近づけ
+肌タイと呼ばれる生地に覆われた手で文字を紡ぎだした。
+そのおぼつかない動作がまたオレの胸を苦しめる。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#224">
+				<rdfs:label>224</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-07T23:37+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">”それは速水さんの会社の制服の方が午前中に来ていらしたので
+聞いてみたら・・・”
+
+ははぁん・・・さては・・・。
+オレの脳裏にすぐに浮かんだのは一人の人物である。
+
+”私は速水さんに会うだけでよかったですから・・・
+失礼しました。”
+「えっ？今から帰るの！？何かあっても大変だから今日は泊まっていきなよ」
+
+まさかオレの家に着ぐるみが来るとは思っていなかった・・・。
+下心なんか！！・・・あったかもしれないなぁ・・・。
+
+彼女はちょっと迷った仕草をしたが
+元気に頷いたのであった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#225">
+				<rdfs:label>225</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-07T23:49+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「せっかく美味そうな料理作ってくれたんだから食べないと失礼になるなぁ」
+食卓に上がっていたのはパッと見あまり風貌はよろしくないのだが・・・。
+「もしかしてコレって面を付けたまま支度してくれたの？」
+
+するとまたおぼつかない手つきで文字を打ち出した。
+
+”面ってなんですか？私は私ですよ？ｗ”
+「あうっ！？ゴメンっ！！そうだったね」
+”いえいえ、お気になさらないでください”
+「それじゃあ・・・この鶏肉から・・・」
+”！！。それは鶏肉じゃないんですけど・・・”
+「！？」
+
+ちなみに見た目よりは美味しかったと書いておこう・・・。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#226">
+				<rdfs:label>226</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-07T23:53+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「えぇっと・・・その・・・オレさぁ、明日も仕事あるから寝ようと思うんだけど・・・
+その・・・着替えとかはぁ・・・どうする？」
+
+ちょっと大胆になってるなぁ・・・こんな事は普通の女性になんて絶対言えない。
+
+彼女は一つ”うんっ”と頷くとそそくさとオレには見覚えの無いカバンをあさった。
+そしてオレの方を向き直して”恥ずかしい”という仕草をした。
+
+（ヤバ・・・すんごい可愛いし・・・（大汗
+「わっ・・・わかったからっ！！押さない押さない！！」
+結局押し出されてしまったオレであった。
+
+（ちょっと待てよ、なんでカバンなんて持ってきたんだ？
+まさか・・・オレが”泊まりなよ！！”って言うのを見越してか！？
+すごい大胆というか・・・くるみちゃんって・・・）</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#227">
+				<rdfs:label>227</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-08T00:00+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そうこうしてるとパジャマ姿のくるみが呼び出しにきた。
+（うっ！？なんてことだ・・・もう完全に転がされてるな）
+オレは頭を抱えてうずくまった。
+【くすくすっ・・・】
+（オレのコトからかってるなぁ〜っ！！）
+
+オレという人間はアルコールが入ると眠ってしまうのか
+気付くと既にいつも起きる時刻だった。
+もう少し起きて居たかったような・・・。
+だって普段は確実にあり得ない光景が広がっていたのに・・・。
+
+全て今日に限って酒の席に呼んだ鷹田先輩のせいにしよう・・・。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#230">
+				<rdfs:label>230</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-08T00:39+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　6：30
+
+洗面所・・・。
+「ううっ！？頭痛ぇぇ・・・気持ち悪ぅぅ・・・」
+アルコールにはめっきり弱いオレであった・・・。
+
+ノドが渇いて仕方がなかったので台所に移動した。
+「あれっ！？なんか紙が置いてある・・・？？」
+
+ダイニング・テーブルに手紙が置いてあった。
+「んっと・・・何々？
+”速見さん！おはようございます！
+昨日は大変お世話になりました！！
+急に押しかけてしまって申し訳ありませんでした。
+でもまた押しかけてしまうかもしれないです（ｗ
+それではお仕事ガンバってくださいね！！
+　　　　　　　　　　　　　　　　　　　　　　くるみ”
+「あうっ・・・行っちゃったんだ・・・
+ってうなだれてるほど時間余ってない！！
+とにかくっ！！仕事には行かなきゃなっ！！」
+自分に言い聞かせるように家を飛び出た。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#231">
+				<rdfs:label>231</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-08T00:55+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">同日　8：00
+
+（んーっ・・・せっかく家に来てくれたのに一日だけか・・・
+まだ居て欲しかったような・・・でも居たら気ぃ使うからな・・・）
+
+考え事を頭に張り巡らせているとまた営業に出る時間となった。
+
+「とっ・・・とりあえずいってきます〜」
+「おぅ！ボケーっとしてっと事故るぞ！」
+「はいぃ〜・・・」
+相変わらず不吉な鷹田先輩の言葉を流しつつ・・・。
+
+今日のスケジュールは開店間近のスーパーに商品の陳列をする事と
+例の遊園地への自販機点検である。
+
+オレはその遊園地へは休日か商品に余裕がある時に駆り出される。
+会社からはそう遠くは無いのでたいていの日には出向いているが・・・
+もう一つの目当てもあるけど今ココでは触れないでおこう。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#232">
+				<rdfs:label>232</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-09T23:05+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">午前は同期の　”岩瀬　キョウヘイ”　が遊園地の自販機点検をしている。
+リアクションが大きくてちょっかいを出すと面白い。
+飽きずに友人をやってくれてる優しき人。
+
+「おっ！パンダのデリバンが止まってる。ということはまだキョウヘイは油売ってるな？」
+オレはいそいそと商品をリスト通りにカーゴに載せ向かった。
+
+「くおらぁっ〜〜〜キョウヘイ！！サボってんなっ！！」
+「どわぁぁっ！ケンタっ！？もう来たのかっ？」
+「もう午後だぞ？長い昼飯でも食ってたのか？」
+「あいかわらず冗談キツいヤツだなぁ・・・」
+「そぉか？まぁ・・・鷹田先輩には負けるけどなぁ」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#233">
+				<rdfs:label>233</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-09T23:07+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そうやって他愛も無い会話をしているとくるみがやってきた。
+しかしこの前とは違い少し距離を取っているようだ。
+やはり他の人が居ると気まずいのであろうか。
+コッチを振り返りながら愛想良く子供たちと遊んでいる。
+
+「はぁ〜・・・心が和むなぁ・・・」
+「ん？なんかあったのか？そういや春も近いからな」
+
+オレは少しづつ話の対象をずらそうと行動した・・・はいいのだが
+キョウヘイは逆に熱を持ち出して語りだした。
+
+「はぁ？春は感じるほど和まないって！！お前知らねぇの！？この遊園地のアイドルをっ！？」
+「えっ・・・だってオレさぁカノジョいねーから遊園地とか調べないし
+そのアイドルって歌でも歌うんか？」
+「カノジョ居ねぇって・・・ユミちゃんと付き合ってたろーが・・・。」
+「あ・・・。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#234">
+				<rdfs:label>234</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-09T23:08+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">実は・・・オレは今の今まで”お付き合い”という物ををあまり経験した事が無いのだ。
+唯一したのがちょっと前、オレが高校生だった時
+互いの進路が違いすぎて住む場所を余儀なく変更されてしまった。
+まぁ・・・オレにはもったいない位の美人だったから
+オレと付き合ってること自体おかしな話だったのかもしれない・・・。
+
+”柏木　ユミ”　久しぶりに思い出した。
+
+「っておいっ！！ケンタ！！聞いてるのかっ！？」
+「あ・・・あぁ？ゴメン。回想してた・・・。」
+「だからさぁ・・・自分がお世話になってる相手さんの情報ぐらい覚えとけって。
+だいいち生で着ぐ・・・」
+「んっ？どうした？？」
+「あいやっ！？特にはねぇーんだけどよ・・・」
+
+そのときキョウヘイの頬をつたう一筋の汗を見逃すオレでは無かった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#235">
+				<rdfs:label>235</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-09T23:09+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「って。あぁぁぁっ！？」
+「ヤバっ！？もうこんな時間だしっ！！」
+「ケンタ！！早く自販機チェックしてこぉ〜い！！」
+「うるせ〜！！お前だって次のに移動しろ！！」
+
+そしてオレとキョウヘイはかなり長い昼休み（サボりとも言うかも知れない・・・）を終え
+自販機の補充に向かった。
+
+しかし既にそこには先ほどまで居たくるみの姿は無かった。
+「あぁ〜・・・居なくなっちゃったか・・・ま。仕方ないか
+なんだかんだ言ってキョウヘイ曰くココのアイドルらしいからなぁ」
+
+とにかくそんなこんなで今日のスケジュールはこなした。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#236">
+				<rdfs:label>236</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-09T23:15+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">同日　18：50　　帰宅途中の車内
+
+
+（良く考えてみると・・・アイドルの着ぐるみが家に来たって・・・
+かなり問題にならないか・・・？？）
+
+会社を出てからすぐの大通りに出ると今日の車の量はそれほど多くは無かった。
+
+「あぁッ・・・また信号かよ・・・捕まりすぎだってぇの・・・。」
+大きくため息をついてシートに寄りかかってフロントガラス越しに
+渡っていく人の姿を何と無く眺めていた。
+オレはある一転に釘付けになった・・・。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#244">
+				<rdfs:label>244</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-10T23:06+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">えぇと・・言い訳しますｗ
+何でもかんでも　○○が言った　と振っていくと
+ごちゃごちゃになって読みづらいかと思いました。
+
+以前にここでは無いですが（カテゴリーも違いますが）読ませていただいた時に
+いちいち振ってもらうとしつこい感じを受けたからです。
+判らなかったらもう一度よく読んでから文句をつけてくださいねｗ
+それとも・・・
+これからイヤというほど丁寧に一個づつ全ての動作に
+誰がどうしたと付けて欲しいのですか？ｗ
+
+落ち着いて読んでいただければ幸いですね。
+「落ち着いて読んでもワカラネ」という人にクギを刺しておきます。
+それは私の日本語の未熟さです。
+ご自分のメモ帳にでもこのカス小説を貼り付けて
+直してお読みください。
+
+では。まだまだ出しますよｗ</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#246">
+				<rdfs:label>246</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-10T23:19+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">（えぇっ！？・・・ユミじゃねぇか・・・？そんな小説みたいな話が・・・
+声・・・掛けてみるかな・・・）
+
+柏木　ユミ　ずっと前にオレと付き合っていた俗に言う元カノである。
+しっかり者のようだが少し天然が入っている。
+本当にオレにはもったいないくらいの美人っぷりは今でも健在である。
+
+「ユミっ！！久しぶりだなっ！！」
+きょろきょろ・・・。
+「だぁぁ！！ユミっ！！こっちこっち！！」
+「あっ！！ケンタくんじゃない！久しぶりねっ！！」
+「これから帰りか？送っていくけど」
+「ありがとっ！足代が浮いたわ」
+っ・・・なんかむなしくなってきた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#247">
+				<rdfs:label>247</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-10T23:29+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">天然ボケの方も健在だったようである・・・。
+
+「あのさ・・・久しぶりに会ったんだからさ・・・メシでもどぉ？」
+「うんっ！！いいよ〜。なに食べに行こうか？」
+
+その時、背筋を冷たい汗がつたった。
+
+「どうしたの？急に青ざめちゃって・・・具合よくないの？？」
+「んっ！？いやぁ・・・はっはっは」
+
+懐の寂しい時期にばったり会うとは・・・タイミングが悪い。
+万年だろ！！と誰かに突っ込まれても気にしない気にしない・・・
+
+「とっ・・・とにかく移動しようか！！」
+「そ〜だねぇ〜！」
+
+”確かここら辺にヨースケの店があったよな・・・安くしてもらおうかな”</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#249">
+				<rdfs:label>249</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-11T23:33+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">同日　19：20　　
+
+しばらくして例の店に到着した。
+
+秋山　ヨースケ・・・オレの昔からの悪友で今では店を持つほどの腕前になっている。
+例の店と言うのは多国籍料理の店で最近雑誌にも載ったらしい。
+
+「いらっしゃいっ！ってケンタじゃねぇか〜しばらくだったなぁ！」
+「オッス。元気にやってっか？」
+「ぼちぼちだな。あれっ！？ユミちゃんじゃないかぁ〜
+お前ら・・・より戻したのかっ！？」
+「ちっ・・・違うって！！通りがかった所をオレが呼んだんだよ」
+「ま・・・いいさ。で、何か注文は？」
+
+オレはよく分からない貝のような物を頼んだ。
+ユミはエビの入ったスープのような物に済ましていた。
+先ほどから’〜のような’と連呼しているが
+あまり外国の素材には詳しくないので悪しからず・・・。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#250">
+				<rdfs:label>250</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-11T23:38+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">食べるだけでは寂しいのですこし話しをした。
+
+「いつのまにかコッチに来てたのか。教えてくれても良かったのによぉ・・・」
+
+さりげなく言ってみる。
+
+「うっ・・・そっ・・・それはケンタくんの連絡先判らなかったんだもん」
+「あぁ〜・・・教えてなかったか・・・んじゃあ再開を祝してアドレス交換だなっ！」
+「あははははっ。何それぇ〜！！」
+
+オレは簡潔に住所を書いて渡した。
+
+「遊びに来る時は連絡よこして。掃除しなきゃいけないから」
+「なんか嫌な予感・・・でも連絡するから！！」
+「お・・おぅ・・・って嫌な予感ってなんだよ・・・。」
+「だって前に行った時ヒドかったもんっ！！」
+「あぁっ！！もう何も言うなっ！！」
+
+思わずユミの口を塞いでしまう・・・</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#251">
+				<rdfs:label>251</rdfs:label>
+				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-11T23:39+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">
+「もむっ！！もももむもむもむっ！！」
+「はっ・・・！！ゴメンゴメン・・・」
+「ったく！苦しいでしょっ！」
+
+こうしてユミとの食事はあっという間に過ぎていった。
+
+同日　21：00
+
+「それじゃぁ・・・私そろそろ帰るね〜」
+「えぇ？もうか・・・短いなぁ！！」
+「ケンタくんと違って明日も朝早いんですぅぅ！！」
+「オレだって早いって！送っていこうか？オレ酒飲んで無いし」
+「ん〜っ・・・近いから遠慮しておくね！！」
+
+内心ちょっと残念だったりする・・・。
+その後オレはユミと最寄の駅まで一緒に行きそこで別れた。
+
+充実した時した時間を過ごしたのが一日に二回も起きるなんて
+まったく珍しい事もある。
+
+しかしオレはまだ翌日に起こるトラブルを知る由も無かった・・・。
+まぁ・・・当たり前か・・・。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

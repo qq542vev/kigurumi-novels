@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:01:29+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">あなたの素顔を知りたくて</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-12-23T17:09:10+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-01-13T23:39:35+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">2495</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#475">
+				<rdfs:label>475</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-23T17:09:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「え〜ん、え〜ん」
+と泣いている3歳の男の子がいた。
+
+その近くには天使キャラの着ぐるみがいた。
+そう、その着ぐるみが怖くて泣き出していたのだ。
+着ぐるみ恐怖症と呼ばれるものだが、
+天使キャラの着ぐるみはその子をあやしても、何をやっても泣きやまず、
+困り果て、その子の対応に戸惑っていた。
+そして「しょうがない！」と英断を下し、仕方なく着ぐるみの頭を外した。
+中から出てきたのは10〜20代の美人女性であり笑顔を見せた。
+するとその子は泣きやみ、笑顔を見せた。
+「よかった。」っとほっとした着ぐるみ演技者。
+このあとこの男の子は、
+他の着ぐるみ(中も別の人)にも泣いて、頭を取らせたという。
+
+天使キャラの着ぐるみがその子と離れ、
+しばらく歩くと別の5歳の男の子が現れ、ジロジロ嗅ぎ回る様に見ていた。
+実はこの天使キャラの着ぐるみは、
+中の人含めてスタイル抜群だったわけだが、覗き穴を見つけ、覗いてきた。
+
+男の子が「こんにちは」と挨拶してきた。
+中の女性は「こんにちは」と笑顔で言葉を返す。
+
+男の子「かわいい。」
+中の女性「ありがとう♪　ひょっとして中の顔を見たかったのかな？」
+男の子「うん。」(笑顔）
+中の女性「じゃあ、頭取ってあ・げ・る。」
+
+天使キャラの着ぐるみはまた頭を取った。
+
+男の子「かわいい〜。うつくしい、いい〜。中の人もいい」
+中の女性「ありがとう♪　お姉さん嬉しい♪」
+
+そこへ
+男の子の母親「バカ！　やめなさい！」
+男の子「え〜〜〜〜〜。」
+中の女性「いいのよ。」
+
+母親が止めて、
+男の子と美人女性が入っている天使キャラの着ぐるみは別れた。
+
+男の子「凄い可愛かったよ。」
+
+しかし、ここでなんと、
+男の子が天使キャラの着ぐるみと出会ってから
+頭取って中の女性が話し終わるまで
+ビデオ丸写しで撮ってしまって、
+素顔がしっかりに映っている映像がホームビデオに残ってしまったのだ。
+
+こうして男の子二人は着ぐるみの中の人にはまってしまったのだった。
+ホームビデオに残ってしまった男の子は、
+その後その映像をおかずとして見ていった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#516">
+				<rdfs:label>516</rdfs:label>
+				<dcterms:creator foaf:nick="486のつづき"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-01-01T17:36:15+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">あれから20年が経った。
+当時3歳の男の子だった人と当時5歳だった人は小学校で知り合い、
+以後それぞれ暇になれば着ぐるみショーを見に行く様になっていた。
+当時5歳だった人は25歳になり、その人の名前は健太。
+
+この日は都合上、その健太のみで着ぐるみショーを見ることになった。
+着ぐるみの動きはどれも美しく・かわいく・綺麗でいい動きしている。
+特にピンク色の髪の女の子の着ぐるみが良かった。
+他に黄色・緑・ブルーの髪の女の子の着ぐるみもいて、
+全体的に楽しく進んでいって普通に終わった。
+
+ここまでは普通だったのだが、問題はここから。
+
+定番の握手会が行われ、ピンクと握手したときだった
+中から「ありがとうございます。」と言う可愛い女の声が聞こえた。
+「おい、しゃべっているよ。しかもいい声。」と健太。
+声優さんの声と違うが健太好みのいい声であった。
+しかも健太みたいな大人単独だけでなく子供から親まで全員に話していた。
+子供が「ピンクいいね。」と多数言ったことから好評なようだ。
+
+健太は早速中の顔見てみたいと思ったが、
+お昼正午で飯買えるところから離れていたため、
+一度この場所から離れざる終えなかった。
+
+健太が飯食っている間、
+ショー会場の方から誰も来なかったので、
+あっちは飯用意していたのだろう。
+もどって2回目のショーと足を運んだ。
+
+そして2回目のショーが終わり、
+握手会に入ったとき、とんでもないサプライズがあった。
+
+なんと着ぐるみたちの手が全員素手だったのだ。
+-----------------------------------------------------------------
+３６９さん、486とこの話見てどうですか？
+この話まだ続きます。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#564">
+				<rdfs:label>564</rdfs:label>
+				<dcterms:creator foaf:nick="516のつづき(訂正)"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-01-13T22:54:16+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">健太は着ぐるみたちの手が全員素手になって大喜び、
+と言うのも
+
+１．最近素手でやる着ぐるみ出演がメッキリ減ってしまった事
+２．素手が見えたことで興奮していること
+３．そして何より健太が手フェチ趣味も掛け持ちしていたことだ
+
+しかしもう一人いたオタは、
+「そりゃあねえだろう〜！」とあきれかえって撤退してしまった。
+おそらく完璧主義で素肌露出を嫌う一派だろうと思われる。
+
+健太は中の人は絶対いてそれがいないと成立しない派だから、
+着ぐるみの一つや二つ素ボロが出てきたらそれで嬉しい方だが、
+彼の場合は中の人はいない派なので、
+一つや二つ素ボロが出てきた時点で終了となる。
+
+そして健太は、握手会に参加し、素肌同士の握手の気持ちよさを味わい。
+ここでもピンクが凄いいい手でまたしゃべっていた事。
+そしてピンクと緑の素手の甲にはそれぞれの色の点がつけられていた。
+これが次のステップへの鍵となる。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#565">
+				<rdfs:label>565</rdfs:label>
+				<dcterms:creator foaf:nick="564"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-01-13T23:22:44+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">握手会が終わり、素顔が見てみたいと楽屋口へと回った健太。
+そこに次々と現れた可愛く美人な女性たち
+一人目にアタックしてみた。もちろんビデオカメラを回しながら…。
+
+健太「さっき、着てた人じゃないんですか？」
+一人目「違いますけど。」
+
+あっさり否定されてしまった。
+
+二人目は手の甲に緑の点があった。
+「あっ、緑だ！」と思い、彼女のしゃべりを見ながら聞いてみた。
+
+健太「さっき、緑着てた人じゃないんですか？」
+二人目「違いますけど。」
+
+また否定されてしまった。しかも手と緑の点が一致していたのに…。
+そして次の女の子へと向かっていった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#566">
+				<rdfs:label>566</rdfs:label>
+				<dcterms:creator foaf:nick="564"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-01-13T23:39:35+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">三人目は何やっているのか全くわからなかった。
+ヒントとなるようなものはなかった訳だから。
+
+健太「さっき、着てた人じゃないんですか？」
+三人目「そうですけど。」
+
+「お！」
+
+初めて肯定する人がいた。さらに話を進める。
+
+健太「では何やっているんですか？」
+三人目「黄色やってました。」
+健太「おお〜！」
+
+健太は思わず再握手した。
+
+そして注目の四人目
+この四人の中でも一番好みで可愛いかったが、
+今しゃべっている声が握手会で話していた声と一緒で、
+手の甲にはピンクの点がある。
+どう考えてもピンクとしか思えない様な状態。
+これで否定しても証拠がそろいすぎていて否定しようがない状態。
+聞いてみた。
+
+健太「もしかしてピンクですか？」
+四人目「そうだよ。見ててくれたんですね、ありがとうございますっ！」
+
+健太はほっとした。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:02+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">舞台袖にて</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:14:19+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:36:05+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">4688</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#257">
+				<rdfs:label>257</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:14:19+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">
+「お疲れ〜。」
+「はふ〜〜、お疲れ様でした〜。」
+そんな会話をかわしているのはとあるスタジオの一角にある更衣室での会話である。
+なにをしているのかというと、新作企業ＣＭの撮影で動物の着ぐるみが出演して製品を宣伝するという企画なのだ。
+
+今回使われたのは皇帝ペンギンの着ぐるみで、ＣＭ中ではＣＧ加工されて小さくなったり大きくなったりする。
+着ぐるみは全部で３体用意された、たった１５秒間のＣＭでも何時間も撮影する場合も少なくないので着ぐるみ演者も体力勝負である。
+
+表からは見えにくい隠しのマジックテープをはずして、さらに中にもファスナーがある、アシスタントがすばやくマジックテープをはずしてファスナーを降ろす、ベリベリという音とのあとに、着ぐるみの中から頭にバンダナを巻いた女性たちがでてくる。
+
+彼女たちが今回のＣＭのペンギンの内臓を勤めている、新人タレント学校の研修生たちである。
+名前は、みか、あや、さなえ、３人は同期の新人でいつも仲のがよく、普段の姿は着ぐるみに入っているとは考えつかない普通の女性である。
+
+みか「あつ〜、今回、ガチで長かったね。」
+あや「うん、何回も撮り直したし。」
+さなえ「２人はいいよ、私なんかアクション多かったし。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#258">
+				<rdfs:label>258</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:17:20+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">少し身長のあるさなえは今回、親子ペンギンのお父さん役で、みかは母親ペンギン、あやは子供ペンギンの役だった。
+みか「私たちは見てるだけだったけど、さなえは動きっぱだしね。」
+さなえ「うん、もっと体力つけないと。」
+３人の着替えも無事終わると、更衣室のドアをノックする音が聞こえた
+Ｄ「お疲れ様、なかなかよかったよ。ＣＭは編集して来月からテレビ放送されると思うから楽しみにしててね。」
+あや「お疲れ様でした。」
+Ｄ「これは今日の分のギャラだよ。」
+みか「ありがとうございます、お疲れ様でした。」
+さなえ「ありがとうございます、次もがんばります。」
+あや「ありがとうございます。」
+Ｄ「とくに父親ペンギンよかったわ〜、アクションがきれてたよ。誰がやってたんだっけ？」
+みか「さなえちゃんですよ。」
+さなえ「私です。」
+Ｄ「女性なのにがんばってるね。」
+さなえ「失礼ですけど、それは差別的発言です、女性は関係ないと思います。」
+Ｄ「おお〜そうだね、撤回するよ、ごめん。」
+そして３人は帰路につく、帰りの電車の中で３人は今日のことを話していた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#259">
+				<rdfs:label>259</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:18:46+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">みか「さなえもディレクター相手によくあんなこと言うわね。」
+さなえ「だって、女性だからどうだって差別じゃない、そういう発言は私許せないわ。」
+あや「さなえはそういうとこ曲げないよね。」
+さなえ「女性だからってなめられたくないだけよ。」
+みか「まあね、私たちだって体はってやってるんだし。」
+あや「そうね・・・。」
+みか「明日からまたレッスンね〜。」
+さなえ「うん、私はこれからジムだよ。」
+あや「え〜、まだやるの？」
+さなえ「当たり前よ、私、普通の女性より身長も高いしスポーツ好きだし。」
+みか「まあ、体こわさない程度にしなよ。」
+さなえ「うん、わかってるよ。」
+みか「そういえば、２人とも次の仕事決まってる？」
+あや「う〜ん、いまのとこはショーの手伝いくらいかな。」
+さなえ「私もそんなとこ。」
+みか「そっか。」
+さなえ「ん？そういうみかは？」
+みか「私はまだ・・・。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#260">
+				<rdfs:label>260</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:20:11+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">あや「私のとこで空きあるか聞いてみるよ。」
+みか「え？悪いよ。」
+あや「いいよ、私たちは仲間でしょ。」
+さなえ「うん、そうだよ。３人でプロデビューするって誓ったでしょ。」
+あや「そうよ、困ったときはお互い様、助けあわないと。」
+みか「ありがとう、２人は永遠の親友よ。」
+
+土曜日
+
+みかの携帯にあやから連絡が入る。
+みか「もしもし、あや、どうしたのこんな朝早くから・・・。」
+あや「おはよう、みか、明日なんか予定ある？」
+みか「別にないよ、どうしたの？」
+あや「明日、私の現場にこない？」
+みか「ん？なんかあるの？」
+あや「うん、急にキャストほしいっていってきてるからさ。」
+みか「ええ、いいの？」
+あや「いいよ、明日、朝５時に私の家にきてね。」
+みか「早いわね、わかったいくわ。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#261">
+				<rdfs:label>261</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:21:34+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">電話をきるみかは小さくガッツポーズをとる。
+みか「よし。」
+
+日曜日
+
+あやの部屋にみかがくる。
+みか「おはよ〜〜。」
+あや「おはよう、さ、時間ないから一緒にきて。」
+みか「うん。」
+二人の今日の仕事はキャラクターショーのキャストである、あやはピンク役のようである。
+みか「私はなにすればいいの？」
+あや「私の交代要員なんだけど、出番ないかもしれないんだけど。」
+みか「うん、わかった。見るだけでも勉強にはなるし。」
+あや「うん、今から軽くリハするから客席で見てて。」
+みか「うん。」
+お客さんがまだ入っていない時間帯にショーの立ち回りのリハーサルが行われる。
+レンジャー５人と怪人、悪ボス、戦闘員の組み合わせでアテレコのようだ。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#262">
+				<rdfs:label>262</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:23:08+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">劇中では音楽であまり聞こえないが、キャストは面の中からでも声をだしてアクションをしている、視界が制限される舞台において声をたよりに立ち回らないといけないためだ。
+ピンクが敵に捕まって、それを他のレンジャーが救出するシナリオで、あやも必死に演技をこなしているようだ。
+ピンクは応援と敵の一瞬の隙をついて脱出する、５人で名乗ってポーズ、その後２人、２人、１人の場面から５人で悪ボスと怪人を倒すようだ。
+真剣なリハーサルが終了してから、お客さんが会場に入ってくる。
+あや「ふ〜、おつかれ〜。」
+みか「おつかれ〜、あやがんばってね。」
+あや「うん、ありがとう。」
+みか「かっこいいだろうな〜。」
+キャストリーダー「そろそろ着替えて用意してください。」
+あや「はい。」
+あや「じゃあ、ちょっとやってくるね。」
+みか「うん。」
+あや「みかは、邪魔にならないとこで見てて。」
+みか「うん。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#263">
+				<rdfs:label>263</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:24:19+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">１０分ほどして、ピンクのレンジャーがみかのとこにやってくる
+みか「おお〜、かわいい。」
+ポーズなどをとってくつろいでいるとリーダーの声がする。
+キャストリーダー「おーい、なにやってんだ、本番はじまるぞ。」
+ピンクはみかに手をふって舞台の袖に待機する。
+ＭＣの登場とともに、ショーがはじまった、みかは舞台裏で待っていた、舞台は見ることはできないが
+たまにとおりすがるキャストやあやの行く末をみていた。
+３０分あまりステージが終了して、レンジャーが裏にかえってくる、しかしピンクの姿がないことにみかが気づく、心配そうにみていると他のレンジャーに肩をかつがれてでてくるピンクの姿があった。
+急いで、マスクをはずして横に寝かせる。
+みか「どうしたんですか？あや大丈夫なんですか？」
+キャストリーダー「いや、ちょっと足を捻挫したみたいなんだ・・・まいったな・・・これから握手会なのに・・・。」
+あや「す、すみません・・・私は大丈夫ですから・・・くぅ・・。」
+キャストリーダー「大丈夫じゃないだろ、見せてみろ。」
+ブーツをはずすと、くるぶしのあたりが紫にはれているのがわかる。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#264">
+				<rdfs:label>264</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:25:37+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">キャストリーダー「無理はするな。」
+ＭＣ「そろそろ、レンジャー出撃準備お願いします。」
+キャストリーダー「わかった。」
+キャストリーダーはしばらく考えこんで、すぐに答えをだした。
+キャストリーダー「君？みかさんだったね？こういう事態になったんだ、すまないが君がピンクに入ってかわりに握手会にでてくれ。」
+みか「え？でも・・・。」
+あや「ごめん、みか、お願い。」
+みか「あや・・・。」
+キャストリーダー「頼む、これ以上、お客さんを待たせてはだめだ。」
+あや「みか、お願い。」
+みか「わかった。」
+キャストリーダー「じゃあ、俺はここからでていくなるべくはやく着替えてくれ。」
+キャストリーダーはそのまま部屋をでていく
+あや「じゃあ、スーツはみかにあずける、お願い。」
+すばやくファスナをさげて足に負担がかからないようにスーツをあやから脱がせる。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#265">
+				<rdfs:label>265</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:26:45+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">みかも、Ｔシャツスパッツに着替えて、さっきまであやが着ていたピンクのスーツを着る、まだあやの体温がスーツに残っている。
+下面は汗がまだ残っている、そのままかぶって、膝をまげて低くしたところであやがファスナをあげる。
+ブーツと手袋、ベルトをつけて、最後はマスクをかぶる鼻をつく匂いがするが仕方ない。
+あや「準備ＯＫよ、がんばってね。」
+みかはうなづいて楽屋のドアをあけて外にでる。
+握手会は３０分程度続いて、ようやく開放されたレンジャーが楽屋に戻ってくる。
+あや「お疲れ様、本当にすみません。」
+キャストリーダー「気にするな、こういうことはよくあることだ。」
+ピンクもマスクをはずしてあやの元によってくる。
+あや「みか、ありがとう。」
+みか「ううん、いいよ。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#267">
+				<rdfs:label>267</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:29:27+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">キャストリーダー「すまないが、２ステもでてくれ。」
+みか「え？でも私・・・。」
+あや「さっきリハーサルのステージ見てたし、みかならできるよ。」
+みか「でも・・・。」
+キャストリーダー「きみはあやちゃんのサポで来たんだろ？だったらやるしかないんじゃないか？」
+みか「は、はい。」
+キャストリーダー「昼休みにもう一回軽く立ち回り復習して修正するから頼むよ、待ってる子供たちをがっかりさせたくない。」
+みか「はい、私、がんばります。」
+昼休みは、動きの再確認とできる立ち回りに修正された動きを覚える、あっという間に２ステの時間がせまってくる。
+キャストリーダー「うん、そろそろだみんなもフォローしてくれるからきっと大丈夫。」
+周りのキャストも首をたてにふったり親指をたてたりしている。
+みか「はい、よろしくお願いします。」
+あや「さ、時間ないわ、ピンクに変身よ。」
+みか「うん。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#269">
+				<rdfs:label>269</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:31:48+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">１０分ほどでレンジャーに着替えられる、マスクだけをもった下面すがたのみかが立っている、すでに緊張は限界を超えようとしていた。
+あや「力ぬいて、怪我しちゃうよ。」
+みか「うん、ありがと。」
+ＭＣ「レンジャー準備してください。」
+みか「行ってきます。」
+マスクをかぶって舞台袖に待機する。
+３０分後、無事ステージを終了したみかが一旦楽屋にもどってくる。
+あや「お帰り。」
+マスクをはずして、あやに近寄る。
+みか「あやの応援もあってなんとかやれたよ、ありがと。」
+あや「ううん、まだ気を抜かないまだ握手会があるでしょ。」
+みか「うん。」
+キャストリーダー「よし、レンジャー出撃。」
+みかは再びマスクをかぶると勢いよくステージに向かっていった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#270">
+				<rdfs:label>270</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:33:05+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ステージも無事すべて終了して、楽屋にもどってくるレンジャー
+みか「ただいま。」
+あや「お疲れ様。」
+みか「あや、足のほうはどう？」
+あや「うん、アイシングも適切だったからはれもだいぶ落ち着いたけどまだ動かすと痛い。」
+みか「無理はだめだよ。」
+キャストリーダー「よくがんばったね、よかったよ。」
+みか「ありがとうございます。」
+キャストリーダー「さ、すぐにスーツを脱いで、帰る準備だ、みかさんはスーツなどをみんなから回収してたたんで元の箱にもどしてくれ、俺たちは什器を片付けるから。」
+みか「はい。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#271">
+				<rdfs:label>271</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:34:36+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">帰りの車内、あやの側にずっとついているみか
+あや「本当に今日はありがとう、みかが来てくれなかったらやばかった。」
+みか「あやの役にたててよかった。」
+キャストリーダー「いや、本当にありがとう。」
+みか「いえ、たいしたことできなかったですけど。」
+あや「そんなことないよ、みか初めてでもがんばってたし。」
+キャストリーダー「うん、今度練習に参加してみない？」
+みか「え？でも私たちは・・・。」
+キャストリーダー「役者の勉強してるんだろ？この仕事は結構役者が通る道なんだよ経験してても損はないはず。」
+みか「はい。」
+あや「私も足が治ったらいくから。」
+みか「あや・・・わかった。」
+
+続く</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#272">
+				<rdfs:label>272</rdfs:label>
+				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:36:05+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ベターな展開ですが書いてみました。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

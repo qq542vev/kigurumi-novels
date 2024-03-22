@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:09:05+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">ラブひな危機一髪! 景太郎、ピンチヒッターになる!?</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-01-28T19:25+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-01-29T19:55+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">1096</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#243">
+				<rdfs:label>243</rdfs:label>
+				<dcterms:creator foaf:nick="ヴァリオン"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-28T19:25+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　神奈川県・日向市・ひなた町温泉街　ＡＭ１０：３０
+旅館・ひなた荘付近の駐車場では、ひなたフェスティバルというイベントが行われていた。
+イベント最大の見所は「ラブひな」の着ぐるみミニショーと握手会が開かれているのだ。
+そこに、浦島景太郎と成瀬川なる、前原しのぶ達は「ラブひな」の着ぐるみミニショーを見に来ていた。
+浦島景太郎「なあ、成瀬川、こんなイベント見に来るのはいいけど・・・・・・」
+成瀬川なる「景太郎が行きたいと思って、ついて来てあげたの。」
+前原しのぶ「あっ、もうすぐ握手会が始まるよ。」
+握手会が始まった。ファンは一人一人、着ぐるみの成瀬川なるや前原しのぶ、青山素子等に握手をして、１回目の着ぐるみミニショーは幕を閉じた。
+ＡＭ１１：５０　舞台裏の控え室にて・・・・・・・
+着ぐるみを脱いだ女性キャスト達は、昼食で一休みしようとした時に、
+成瀬川なる役の女性が、かなりの疲労で倒れた。
+浦島景太郎がトイレから戻ろうとした時に、偶然控え室出入り口のドアが少し開いていた。
+青山素子役の女性「大変、早くベッドで横にして休ませないと。」
+前原しのぶ役の女性「代役が全くいないの、あと２時間ぐらいで２回目のショーが始まるけど、こんな時にどうすればいいのでしょう。」
+偶然控え室出入り口のドアを、こっそりと除いていた浦島景太郎が・・・
+紺野みつね役の女性「私、代役を探してくる」とその時。
+浦島景太郎「どうも〜、お邪魔して悪かった、かな・・・・・・・」笑う表情を見せた景太郎は・・・・・・
+カオラ・スゥ役の女性「いた、あの男に成瀬川なるの代役を任せよう。」
+浦島景太郎「ま、マジっすか？」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#273">
+				<rdfs:label>273</rdfs:label>
+				<dcterms:creator foaf:nick="ヴァリオン"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-29T19:55+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">登場人物の設定と解説を書きます。
+
+［解説］本作品はアニメ「ラブひな」をベースにしています。
+
+浦島景太郎　性別・男　本作品の主人公
+成瀬川なる　性別・女　優柔なヒロイン
+前原しのぶ　性別・女　小柄な少女
+青山素子　性別・女　剣豪少女
+紺野みつね　性別・女　関西弁をしゃべる女性
+カオラ・スゥ　性別・女　外国人の少女
+
+ここからは俺が作ったオリジナルキャラクターです。
+
+女性Ａ　性別・女　「ラブひな」着ぐるみミニショー・成瀬川なる役
+女性Ｂ　性別・女　「ラブひな」着ぐるみミニショー・前原しのぶ役
+女性Ｃ　性別・女　「ラブひな」着ぐるみミニショー・青山素子役
+女性Ｄ　性別・女　「ラブひな」着ぐるみミニショー・紺野みつね役
+女性Ｅ　性別・女　「ラブひな」着ぐるみミニショー・カオラ・スゥ役
+女性アナウンサー　性別・女　「ラブひな」着ぐるみミニショーのアナウンス
+女性振付師　性別・女　「ラブひな」着ぐるみミニショー振り付けの先生。
+
+解説　もし、なる達に瓜二つの着ぐるみがあったら、と言うコンセプトで考えました。
+
+こうゆう感じでいいですか？</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

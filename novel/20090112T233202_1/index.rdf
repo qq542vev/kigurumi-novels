@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:24+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">救急救命</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2009-01-12T23:32:02+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2009-01-12T23:41:56+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">2329</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#513">
+				<rdfs:label>513</rdfs:label>
+				<dcterms:creator foaf:nick="９９９命士"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-12T23:32:02+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">なぁなぁ、聞いてくれよ。もう半年も前の話だから話すんだけど…。
+
+去年の夏の話。遊園地でコスプレイベントをやってるって言うから
+興味半分で見に行ったわけよ。そしたらクソ暑いのに着ぐるみで
+歩き回ってる馬鹿がダンゴになっててさ。回りも迷惑そうにしてるの。
+
+そのうち、その着ぐるみ軍団の一人がバッタリと倒れたんだよ。
+引率とか言ってる奴らは仲間内でワイワイ騒いでるだけだし、
+カメラマンは「記念に〜」「記録で〜」とか言いながら写真撮るだけ。
+
+そのほかの着ぐるみも申し訳程度にパタパタ扇いでるんだけど、誰も
+具体的な行動を起こそうとしないのな。
+
+
+自分は１分くらい様子を見てたんだけど、倒れこんだ着ぐるみは動く
+気配もなくて…。そのとき、春に受けた救急救命の講座を思い出した
+んだよ。
+
+『心臓が止まってたら、１分ごとに生存確率が１０％下がる』
+つまり、１０分放置したら御陀仏ってわけだ。
+
+コスプレイベントで着ぐるみレイヤーが死んだりしたら、イベントが
+消えるかもしれないし、少なくとも着ぐるみ参加禁止になるのは
+間違いない。
+
+周りの烏合の衆に任しておいても埒が明かないので、オレは現場に
+走り寄ったんだ。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#514">
+				<rdfs:label>514</rdfs:label>
+				<dcterms:creator foaf:nick="９９９命士"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-12T23:33:04+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">こういうときは、とりあえず意識の有無を確認しなきゃならない。
+無理やりマスクを脱がしたら中身はオッサンだった。とりあえず反応なし。
+邪魔なニセおっぱいの上から鎖骨を叩きながら呼びかけてみた。
+
+「おい、大丈夫か？しっかりしろ！」
+
+でも反応がない。
+本当は名前を呼んだ方が効果があるんで、周囲の取り巻きに名前を
+聞いてみたんだが、全然要領を得ない。お前ら本当に友達か？？
+
+とにかくやれることからって思い直して呼吸の有無を確認。
+覆面タイプの面下とゴテゴテした衣装で判りにくいけれど、自発呼吸を
+してない雰囲気。こりゃヤバイんじゃないか？？
+
+ともかく、近くにいる奴にAEDと救急車の手配を頼んだんだが・・・。
+「写真撮らなきゃならないから、他の人に頼んでください」なんて
+言いやがる。　一瞬呆気に取られたね。
+
+仕方ないので遠巻きに見てるレイヤーさんに頼み直したらアッサリ
+引き受けてくれた。やれやれ。
+
+そこからはこっちも体力勝負。仰向けに寝かしたまま仰け反らせる
+ようにして気道確保。両手を重ねて腕を伸ばした状態で患者の胸を
+３０回押す。人工呼吸はしない。
+
+人工呼吸をしないのは、相手がオッサンだから…ではなくて。
+万一相手が感染症を持っていたときの用心。自分の身を危険に
+晒してまで助ける必要はないから。（って当時の指導員に言われたんだよ。）</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#515">
+				<rdfs:label>515</rdfs:label>
+				<dcterms:creator foaf:nick="９９９命士"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-12T23:34:06+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">３０回ごとに様子を確認しながら慣れない心臓マッサージをヒィヒィ
+やっていたんだが、誰も交代してくれないんだよな。ホント頭に来る。
+周りでケータイで写真撮ってる馬鹿もいて、気分は最悪。
+
+それでも下手に死なれたら寝覚めが悪いし、途中で辞めたら周りの奴は
+「あいつが途中で手を止めたから死んだんだ」とか言うのは明白。
+これはもう、貧乏くじを引いたとしか言いようがない。
+
+そんなところにＡＥＤ到着。
+肌に密着させないと機能しないので、引きちぎるように衣装を脱がせて…。
+冗談だろ？全身、タイツでファスナーが見当たらない。
+（ファスナーが背中側にあったって知ったのは後の話。）
+
+仕方なくタイツを破ろうとしたんだが、結構丈夫で破れない。
+ウンウン頑張ってると、これまたレイヤーの子が裁縫用具からハサミを
+出してくれた。ハサミでタイツとギュウギュウに締め付けた下着をカット。
+
+やっと準備ができたんでＡＥＤをセットして…。
+
+ところで、ＡＥＤって最初に脈とかを計るんだけど、このとき第三者が
+患者に触れていると誤差で測定が遅れるんだよな。（遅れる＝患者の死）
+
+今まで右往左往していた「着ぐるみのお友達」が、何を思ったか
+急に手を伸ばしてくるんだよ。もうアホとしか言えない。
+辛うじてその手を押しとどめてＡＥＤのアナウンスを聞くと・・・。
+
+『微細動はありません。そのまま胸部圧迫を続けてください。』だそうだ。
+
+ＡＥＤを持って駆けつけた遊園地の係員さんと一緒に心臓マッサージを
+続けたらやっと息を吹き返した。ヤレヤレだよ。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#516">
+				<rdfs:label>516</rdfs:label>
+				<dcterms:creator foaf:nick="９９９命士"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-12T23:35:18+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">それから半年。倒れた着ぐるみの中の人から連絡があった。
+別にお礼を言われたくてやったわけじゃなかったんだけどな。
+でも逢って話がしたいって言うから、昨日逢って来たんだけれど…。
+
+「壊れたマスクと衣装、タイツの弁償をしろ」って言ってきやがった。
+周りにいた奴が「ＡＥＤを使う必要なんてなかった」って言ったらしい。
+
+そりゃ電気ショックは使わなかったけど、電撃を使うかどうかを
+判断するためにはＡＥＤのパッドを当ててみないと判らないんだよ。
+
+ちょっとウンザリしながらＡＥＤについて説明したんだけど
+全然理解できないらしい。
+「よくわからないけど、裁判所に少額訴訟を請求する」って言う。
+
+少額訴訟はねぇ。被告（ってオレ？）が出ないと原告（着ぐるみ池沼）の
+訴えが認められちゃう可能性もあるんだよね。もう最悪だ。
+
+今度、有給休暇を使って裁判所に行って来るよ。
+
+
+次から、着ぐるみが死に掛けてても助けない。
+喪前ら、もうイベントに来るなよ。迷惑だからさ。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#517">
+				<rdfs:label>517</rdfs:label>
+				<dcterms:creator foaf:nick="９９９命士"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-12T23:41:56+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">この物語はフィクションであり実在の人物・団体とは一切関係ありません。
+もし、貴方がご存じの人物・団体と酷似しているとしてもそれは全くの偶然です。
+
+でもＡＥＤと救急救命に関する情報はフィクションではありません。
+http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
+あたりを見て、もしもの時は貴方の大切な友人を救ってあげてください。
+
+そして…もし命が助けられたときは、マスクや衣装・タイツが破損しても、
+小額訴訟とかしないでくださいね。くれぐれもお願いします。ors</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

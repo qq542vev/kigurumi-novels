@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:01:12+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">年下彼への告白</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-07-17T18:02:14+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-07-18T17:55:56+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">1519</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#4">
+				<rdfs:label>4</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-07-17T18:02:14+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">私は佐々木真希。二十歳。
+遊園地で着ぐるみを着てます。
+私が着ているのは遊園地のマスコットキャラクター。
+動物をモチーフにしていて可愛いです。
+「健二君着ぐるみ脱がして」
+「はい」
+着ぐるみの補助をしてくれる健二君はひとつ年下の１９歳。
+可愛くて弟にしたい。
+私は健二君に水をもらい飲んだ。
+「健二君着ぐるみ着てみない？」
+「え」
+「お姉さんの後に着るのはやだ？」
+「そんなことないです」
+「じゃあ着てみる？」
+「はい」
+健二君は顔を赤くして答えた。可愛い。
+「じゃあお姉さんの着ているＴシャツとスパッツ貸してあげる」
+「でも」
+「着にしないで。それとも私の着るのヤダ？」
+「そんなことないです」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#10">
+				<rdfs:label>10</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-07-18T09:25:02+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">私はＴシャツとスパッツを脱ぎ、下着姿になった。
+健二君は後ろを向いている。
+「お姉さんは気にしないからこっち向いて」
+私はＴシャツとスパッツを手渡した。
+健二君は服を脱ぎためらいながら着た。
+「真希さん、服着てください」
+「じゃあ健二君の服貸して」
+僕はトレーナーとジーパンを真希さんに手渡した。
+真希さんは僕の服を着た。
+真希さんに着ぐるみを着るのを手伝ってもらう。
+「健二君人前でしゃべったりしちゃダメだよ」
+「わかりました」
+頭を被せてもらい、園内に誘導してもらう。
+３０分ぐらいして控え室に戻ってくると、
+「健二君私のこと好き？」
+「え？」
+「私のこと好きかどうか聞いたの。
+答えてくれないと着ぐるみ脱がさないよ」
+「そんなー。しゃべりにくいから頭だけ取ってください」
+「ダメ」
+「暑いんですよ。頭だけ取ってください」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#11">
+				<rdfs:label>11</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-07-18T13:24:54+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「じゃあ答えて」
+どうしよう真希さんのこと好きだけど、恥ずかしいし。でも暑いし。
+「答えないの？じゃあイタズラしちゃお。
+あ、健二君しゃべっちゃダメだからね」
+真希さんは僕の股間を触ってきた。
+「健二君、感じちゃってるのかな。何に感じちゃってるの。
+着ぐるみ？それとも私？」
+キレイなお姉さんが着ていたＴシャツとスパッツ着て、
+キレイなお姉さんが着ていた着ぐるみを着て
+しかも真希さんいいニオイだし、感じちゃうよ。
+「健二君可愛いな」
+真希さんは僕に抱きついてきた。
+「健二君お姉さんの胸触って」
+真希さんは僕の手を胸に持っていき、胸をもませた。
+興奮して勃起し、白い液体がでてきた。
+どうしよう真希さんのスパッツ汚しちゃった。
+「健二君私のこと嫌いなの？」
+僕は首を横に振った。
+「じゃあ好きなの？」
+僕はうなずいた。
+「本当？うれしい。ごめんねイジワルして」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#13">
+				<rdfs:label>13</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-07-18T16:39:56+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">真希さんは着ぐるみの頭を取ってくれた。
+「暑かったでしょう」
+そう言って僕にキスをした。興奮して股間が膨らんでいく。
+「水飲ましてあげるね」
+真希さんに水を飲ましてもらった。
+「真希さんのこと前から好きだったんですけど、なかなか言えなくて」
+「そうなんだ」
+「あの着ぐるみ脱がしてもらえないですか」
+「あ、ごめんね」
+着ぐるみを脱がしてもらった。
+「健二君股間が膨らんでるよ」
+僕は手で隠した。
+「そんなに恥ずかしがらないで」
+「ごめんなさい。スパッツ汚しちゃいました」
+「何で汚したのかな。正直に言ったら許してあげる」
+「それは・・」
+「どうしたの」
+「精子で汚しました」
+「また精子を出させてあげる」
+そういうと戦隊物の着ぐるみを２つ持ってきた。
+「じゃあこの着ぐるみ着て」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#15">
+				<rdfs:label>15</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-07-18T17:55:56+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">健二君は着ぐるみを着た。
+戦隊物の着ぐるみなので股間が膨らんでるのがわかる。
+私も服を脱ぎ着ぐるみを着る。
+膨らんでいる健二君の股間をしごき精子を出した。
+「気持ちいいでしょ？」
+健二君はうなずいた。
+「楽しい事しようね」
+私たちは着ぐるみを着て激しく交わった。
+
+少し疲れたので面を外した。
+「健二君も疲れちゃった？」
+うなずいたので健二君の面も外した。
+「楽しかったでしょ？」
+「はい」
+「まだ続ける？」
+「お願いします」
+「健二君大好き」
+私はキスをした。　　　　　　　
+　　　　　　　　　　　　　　　　　　　　　　　　おわり</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

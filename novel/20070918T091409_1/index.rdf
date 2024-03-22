@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:01:20+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">意外な代役</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-09-18T09:14:09+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-09-23T16:36:03+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">1919</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#190">
+				<rdfs:label>190</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-18T09:14:09+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">僕は着ぐるみが好きだった。
+しかも中の人が女の人の着ぐるみが。
+ある日遊園地でキャラクターショーがあったので行ってみた。
+休日だったのにお客さんがすくなかった。
+「人気がないのかな」
+女の子のキャラがメインのキャラクターショーだったのでわくわく
+していた。
+ショーを楽しんで、握手会もあったので握手もしてきた。
+「みんな、仕草が可愛かったな」
+僕はそう思い満足してステージを後にした。
+
+レストランで食事をし、キャラクターショー昼からもあるので、
+見に行った。
+少し時間が早かったのでステージの周りを見ていた。
+するとステージ裏に行けたので行ってみると、控え室があった。
+本当はいけないと思いつつ控え室の中に入った。
+中には誰もいなくて、着ぐるみがおいてあった。
+少し着ぐるみを眺めていると、人が戻ってきた。
+「やばい」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#196">
+				<rdfs:label>196</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-19T09:57:42+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ドアが開き人が入って来た。
+
+「あなた何してるの？いけないことしようとしてたでしょう」
+「ごめんなさい」
+「ゆるしてあげないってウソよ。心配しないで。でもお願いがあるの」
+「何ですか？」
+「着ぐるみを着てショーに出て欲しいのよ。
+女の子１人体調悪くなっちゃって。ね、お願い」
+「いいですけど、僕でいいんですか？着ぐるみ着たことないですよ」
+「いいのよ。緊急事態だし。それにあなた小柄だし」
+「そうですか。どうすればいいですか？」
+「次のショーまでそんなに時間ないから、さっそく着ぐるみ着てね。
+じゃあ、下着姿になって」
+
+僕は服を脱いだ。女の人の前で下着姿になるのは恥ずかしい。
+
+「じゃあ、胸からつけるわよ」
+そういって僕にダミーの胸とブラジャーをつけた。
+「下はこれを履いてね」
+「これなんですか？」
+「ガードルよ。おちんちんがもっこりしないように男の人が
+女の子の役をするときに履くの」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#197">
+				<rdfs:label>197</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-19T16:41:40+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ガードルを履いた。苦しい。
+
+「あの、すいません。何て呼べばいいですか？」
+「あ、名前言ってなかったわね。私は田中愛よ。
+好きなように呼んでくれればいいわ。あなたの名前は？」
+「僕は木下徹です」
+「じゃあ徹君、この着ぐるみ着て。少し臭うけど我慢してね」
+「はい」
+
+僕は着ぐるみを着る。少し臭うし、暑い。体にピッタリしてるせいか
+苦しい。でも前着ていたのが女の子というと少し興奮する。
+
+「じゃあブーツ履いてね」
+ブーツを履く。少しキツイけど履けた。
+
+「着ぐるみ着たら、人前で絶対しゃべらないでね。あとマスクも
+取っちゃだめだよ」
+「わかりました」
+「徹くんがやる役も女の子のキャラだから、その事を忘れないでね」
+「はい」
+「じゃあ、練習するよ」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#198">
+				<rdfs:label>198</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-19T22:33:54+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">愛さんがショーの段取りを教えてくれた。
+
+「暑いでしょう。水どうぞ」
+「ありがとう。愛さん」
+
+すると他のメンバーの人が戻って来た。
+「愛さんこの人誰ですか？」
+「代役をお願いした徹君。ショーを見に来てたお客さん」
+「木下徹です。よろしくお願いします」
+
+体調の悪そうな人がいた。
+「徹君、ごめんなさい。私の代わりをやってもらって」
+「気にしなくていいですよ」
+「舞ちゃんは休んでて」
+「すいません。愛さん。徹君」
+
+可愛い子が着ていたんだな。と思うとやっぱりうれしい。
+みんなが着替えだしたので部屋を出ようとすると、
+「出なくていいよ。徹君」
+と、言われたが、みんなが着替えるまで下を向いていた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#209">
+				<rdfs:label>209</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-23T14:33:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「徹くん、照れてる可愛い。でもおちんちん大きいままだと
+ショーできないよ」
+僕はいつの間にか股間が膨らんでいた。
+「すいません」
+「あやまらくて大丈夫よ。でも、あなたの着ぐるみスカート
+着いてないからまずいわね。そうだ、私の着ぐるみスカート着いてるから
+役代わりましょう」
+
+そう言われて、僕と愛さんは着ぐるみを脱いだ。
+愛さんは履いていたスパッツも脱いで、
+「徹君、おちんちん元気ね。私のスパッツも履いて」
+愛さんは下着姿なので目のやりばに困った。
+僕はスパッツを履き、愛さんが着ていた着ぐるみを着る。
+
+「じゃあみんあ準備出来たわね。ショーがんばるわよ」
+「はい」
+
+ショーは無事に終わった。
+
+「みんなお疲れ様。徹君悪いけど着ぐるみ着たまま外でまってて」
+僕は控え室の外で待っていた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#210">
+				<rdfs:label>210</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-23T14:51:48+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">しばらくすると愛さん以外の女の人が着替えて出てきた。
+「徹君、愛さんが入っていいよっだって。私たちは帰るからじゃあね」
+「さようなら」
+僕は控え室に入った。愛さんも着ぐるみ着たままだった。
+「徹君お待たせ。じゃあＨしよ」
+「え、愛さん何言ってるんですか？」
+「徹くんが着ぐるみ着た女の子が好きなんでしょ？しかもおちんちん
+大きくなってたし」
+「そうですけど」
+「じゃあ、いいじゃん。それとも中身が私だといや？」
+「愛さん美人だし、スタイルもいいし僕にはもったいないです」
+「ありがと、じゃあ初めていい」
+「お願いします」
+
+愛さんはマスクをしたままキスをした。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#216">
+				<rdfs:label>216</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-23T16:36:03+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">２１０を書いたものです。
+終わりましたので次ぎ方どうぞ。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

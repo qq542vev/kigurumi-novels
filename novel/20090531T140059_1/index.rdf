@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:48+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:title xml:lang="ja">(・(ェ)・)クマ！</dcterms:title>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:00:59+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2009-05-31T17:09:09+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">14069</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#812">
+				<rdfs:label>812</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:00:59+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">今回は真紀×美優ではないです。
+今回も着るまでがかなり長いです……
+それと展開がかぶってるかも……
+
+
+「(・(ェ)・)クマ！」
+
+
+主人公：早瀬恭子（はやせ　きょうこ）
+大学２年　法学部。
+何でもバリバリこなしてしまうしっかり者。外見は大人の女性だけど性格は子供っぽい。結構寂しがり屋。
+黒のポニーテール。クラスの憧れの女子タイプ。
+縫ぐるみが大好き。このことは家族と凛ぐらいしか知らない。
+大学に入ってからは独り暮らしになったので、今は部屋に縫ぐるみが無い。
+ちなみに真紀（人形遊び参照）の様にピーチdeジュースが好き。
+
+
+牧野凛（まきの　りん）
+大学２年　法学部。
+恭子とは中学校の頃からの付き合いで大の仲良し。
+ショートヘア。生まれつきくせっ毛＆茶髪。
+恭子よりも大人。名前と違って凛とはしてない。ちょっと抜けてる優しい子。
+朝に強い子でもある。
+恭子の子供っぽいところが好き。
+同じ法学部の上野と付き合っている。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#813">
+				<rdfs:label>813</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:02:02+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">超脇役：上野直幸（うえの　なおゆき）
+大学２年　法学部。４月に凛に告白し付き合い始めた。
+名前通りまっすぐな人。まじめで優しい学生タイプ。インテリ眼鏡装備。
+友達からは「チョク」と呼ばれている。
+
+お座りdaクマ
+文字通りお座りの格好をしているクマの縫ぐるみ（テディベア）。目が大きく鼻が少し尖っている。
+小学生ぐらいの大きさで縫ぐるみにしてはかなり大きい。
+抱くとふわふわしていていることから抱き枕として利用している人も多いとか。
+子供に絶大な人気がありアニメ化も考えられている。
+
+
+あらすじ　
+
+縫ぐるみ好きな恭子は「お座りdaクマ」を通販で一週間前に注文した。
+そのお座りdaクマが恭子の部屋に届く。しかしそのクマにはちょっと変わったところがある。その変ったところとは……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#814">
+				<rdfs:label>814</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:03:32+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　ピンポーン♪
+「こんばんわ！宅配便でーす！」
+「はーい！」
+
+　木曜の午後６時！時間ぴったりだ！
+
+　私は事前に用意していた銀行の封筒とハンコを持って玄関に直行し、ドアを開けた。
+　ドアを開けるとガタイがよくて、いかにも体育会系な若い宅配業者さんが大きなダンボール箱を持って立っていた。
+「ご利用ありがとうございます！○×運送です！お荷物をお届けに参りました！」
+「ご苦労様です。ここに置いて頂けますか？」
+「失礼します！」
+　業者さんが私の足元にそのダンボール箱を置く。
+
+「料金は代金引換ですので、税込みで３１２９０円になります！これが領収書です！それとここにハンコをお願いします！」
+　私は領収書をもらうと封筒からお金を取り出し、それを業者さんに渡してハンコを押した。
+「３万と１２９０円……ピッタリですね！またのご利用をお待ちしております！それでは！」
+　そういうと帽子を取り、深々と私に頭を下げて去って行った。
+
+「お疲れさまでした。」
+　
+　何かきっちりしてて感じのいい人だったな……ちょっとああゆうタイプ…好きかも……　
+
+　そんなことを考えながらダンボール箱を急いでリビングまで運び、机の引き出しからカッターを取り出した。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#815">
+				<rdfs:label>815</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:04:34+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　遂にきた！この日をどれほど待ちわびたことだろう！
+
+　私はカッターでガムテープを切り、箱を勢いよく開け、つぶすとプチプチ鳴るビニールに包まれた物体を一気に取り出した！
+「会いたかったよクマ♪」
+　私は座った私と同じぐらいの大きさの「お座りdaクマ」を正面から力強く抱きしめた。
+「……はっ！」
+　誰かにこんなとこを見られてるんじゃないかと心配して周りを見回す。もちろん誰もいない……
+
+　ほっ……そうだよね、ここ私の部屋だもん。
+　カーテンも閉めてあるし…もう一回抱いちゃお♪
+
+　誰にも見られてないことを確認し、もう一度クマをギュッと抱きしめた……
+
+　……ふわふわ……やわらかい……
+
+　そんなことをしてたら時計の針が７時を指していた！
+「うそ！もうこんな時間！……お夕飯食べよ。」
+
+　私はちゃちゃっとご飯を作ってお風呂に入り、お風呂上がりのピーチdeジュースを１パック飲んで今日は早めにベットに入った。
+　もちろんクマを抱き枕にして……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#816">
+				<rdfs:label>816</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:06:18+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　夜中の３時……私は尿意で目が覚めた。
+
+　うぅぅ…やっぱり１パック全部はきつかったかも……おしっこ……
+
+　用をすませ、再びクマとともにベットに潜りこむ。今度は後ろからクマを抱きしめた……
+　そして私はあることに気がついた。
+
+　……あれ？……クマの背中が…割れる？……わけないよね……明日は早いし……寝ちゃお……
+
+　眠気に耐えられず、私はクマを抱きながらすぐに眠りに付いた……
+
+
+　金曜日、朝の７時半。目覚まし時計の音とともに目を覚ました。
+　そして夜中のことが夢か現実かを確かめるべく、ベットから落ちていたクマの背中を調べた……
+
+　……！！やっぱり割れる！
+
+　なんとクマの背中の尻尾の上から首までの縫い目のところがマジックテープでくっ付いてて割れるようになってる！
+「なっ！なにこれ！？」
+　朝だというのに思わず大声を出した。
+　私は背中のマジックテープをはがそうとするがこれが結構かたい。
+　何とかマジックテープをはがして中を調べると、クマの中は頭を含めて体、両手、両足の部分が空洞だった……
+
+　なんでクマの中が空いてるの？……そもそもなんで背中が割れるの？……
+　……あっ！もう８時だ！学校行かなきゃ！
+
+　これ以上考えてたら学校に遅れちゃう！私は買っておいたパンで朝食を軽くすませた。
+　そして歯磨きしてちょっとお化粧して着替えてから玄関のドアを開けて学校に向かった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#817">
+				<rdfs:label>817</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:08:18+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">恭子、このクマちょっと変！の巻き　完　です。
+
+まだまだ着ないです。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#818">
+				<rdfs:label>818</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:09:48+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　今日は授業が朝から晩までみっちり入ってたから夕飯は凛と一緒にファミレスですませることにした。
+　私の頭は一日中、授業中もクマのことでいっぱいだった。もちろん今もそう……
+
+「恭子、恭子……ねえ聞いてる？」
+「……えっ！なに？……ごめん…聞いてなかった……」
+　凛はドリンクバーのメロンソーダをチューチュー吸いながら私に話しかけていた。
+「何か今日ずっとボ〜っとしてるよ。なにかあったの？」
+「別になにもないよ！で、話って？」
+「今日の授業でレポートの宿題でたでしょ？私ちょっとわかんないとこあるから明日恭子ん家いってもいい？」
+
+　レポート？……！
+
+「あっ！宿題だったんだっけ！」
+　クマのことで頭がいっぱいだったからすっかり宿題のことを忘れていた！
+　
+「ほんとに大丈夫……いつもなら恭子が私に言うようなことだよ？何か心配ごとでもあるの？」
+　凛はいつもは見せないような心配そうな顔で私を見る……心配させちゃったらしい……
+「そんなのナイナイ！大丈夫だから！心配させちゃってごめん！」
+「ならいんだけど……」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#819">
+				<rdfs:label>819</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:11:13+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　何か変な空気にしちゃったなぁ……そうだ！
+
+「昨日ね！クマが！お座りdaクマが届いたのよ！」
+「オスワリダクマ？……あのでっかい熊の縫ぐるみ？」
+「そおそお！すっごく、かわいくてフワフワしてるの♪」
+　
+　私がクマの魅力を夢中になって話していると、次第に凛はクスクスと笑い始めた。
+「ふふ♪変わってないね。縫ぐるみのことになると子供っぽくなるとこ♪」
+「もう！そんな言い方しなくてもいいでしょ！」
+　私は怒った顔をした。でも凛の笑った顔が見れてよかった……
+　
+　ご飯を食べ終わり、ファミレスから出ても私の熱は下がってなかった。
+「そうだ！明日クマを抱いてみてよ！すっごくやらかいんだから！」
+「それは遠慮しとく♪じゃあ明日よろしくね。バイバイ！」
+「うん！じゃあね！」
+　そういって私たちはそれぞれのアパートへ帰って行った。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#820">
+				<rdfs:label>820</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:12:13+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　玄関のドアを開けて部屋の電気を点けると、ベットの横にかわいらしくクマが座っていた。
+　
+「相変わらずかわいんだから♪」
+　今日の疲れが一気にふっとんだ気がした。
+　私はバックをクッションの上に放り投げ、すかさずクマをギュッ抱きしめた。
+
+　やわらかい……やっぱり縫ぐるみがあると……落ち着く……こっちきてからずっと…ずっと独りだったんだもん……
+　
+　クマをさらに強く抱きしめる……私の目からは涙が流れていた……
+
+　……でも……なんでクマの中には隙間があるんだろう……何か入れるため？
+
+　私は手で涙を拭き、クマが入ってたダンボール箱を調べた。
+　すると箱の奥のほうにハガキぐらいの紙が入ってる……なんだろう？
+　
+　ハガキには私が買ったお座りdaクマとクマの関連商品が書いてあった。
+　
+　……あれ？このハガキ…めくれる……
+
+　「ＯＰＥＮ」と書かれたところからめくれるようになってる……
+　私はペリぺリっとハガキをめくってみた……中には驚くべきことが書かれていた！</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#821">
+				<rdfs:label>821</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:13:18+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　君も今日から「お座りdaクマ」……？
+「……え！なにそれ！！」
+　私はハガキに書かれてることが信じられなかった！
+　どうやら私が買ったクマは当たりだったらしく、クマの中に人が入れるらしい！
+
+　わっ！私がクマになれるの！？
+
+　ちょっと戸惑いがあるもけど、うれしくなって胸をドキドキさせていた。
+
+　でも一番下に書いてある文章を読んだら、私は一気に突き落とされた……
+「身長１１０から１３０センチのお子様のみ…か……」
+　お座りdaクマは子供に人気があるテディベアだから当たり前だった。１６５センチの私が入れるはずがない……
+　私はハガキを放り投げた。
+
+　なんだ……クマになれないんだ……
+　一瞬でもいいから子供に戻れたらなぁ……子供？
+
+「そうだ！」
+　私の頭に１つのアイディアが浮かんだ！
+
+　膝と肘を曲げれば……そうすれば入れるかもしれない！
+
+　試しに正座して、手のひらを肩にのせ、肘を曲げてクマの横に座ってみる……足も腕の長さもピッタリ！
+「ヤッター！！」
+　私は子供のようにその場に飛び跳ねて大喜びした。
+　そんな自分に気づき、恥かしくなって顔を赤くした……
+
+　こんなことで喜んで……ほんと子供なんだから……
+
+　私は気持ちを落ち着かせるためにお風呂に入ることにした。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#822">
+				<rdfs:label>822</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:14:31+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　お風呂に入ってたらある疑問が浮かんできた。
+
+　そういえば頭もクマの中に入れるんだから……息とかしづらいんじゃないの？
+　それに……なにも見えなくなっちゃうんじゃ……
+
+　一度考えたら気になってしかたがなくなった。
+　私は急いでお風呂からあがって体と頭をタオルでササッと拭き、下着をつけてからクマの後ろに座る。
+　そしてかたいマジックテープをビリビリとはがしてクマの背中を開け、クマの背中に頭を入れた……
+　
+　緊張する……抜けなくなったらどうしよう……ちょっと……怖い……
+　ダメダメ！これがクマになるための第一歩なんだから！
+　こうゆうのは思い切りが大事よね！一気にいこう！……いっせ〜の〜せっ！
+
+　私は目をつぶって一気にクマの頭の中に自分の頭を入れた！
+　ズボッ！という音とともに頭全体が覆われ、首が少し絞められた気がした。
+『ふぅ！』
+　恐る恐る目を開けてみる……クマの目はサングラスみたいになっててそこから外が見れる。
+　鼻の周りは少し空間があるし、クマの鼻から外の空気が入ってくる。
+　でも口に穴がない……布で口を塞がれてる感じがする……鼻でしか息はできないみたい……
+
+　あんまり周りが見えないなぁ……それにちょっとくるしいかも……３０分位が限界かな？
+　頭を布でくるまれてるみたい……首もキツイ……子供用だからしょうがないか……
+
+　とりあえず息もできるし外も見えるから、私はクマから頭を抜いた。
+　少ししかかぶってないのに体中から少し汗が出ていた……
+
+　この調子じゃ１０分位かも……
+　でもお風呂から上がったばっかりだし……これぐらいでるよね……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#823">
+				<rdfs:label>823</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:15:40+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　私はタオルで汗を拭き、パジャマに着かえながらクマにいつ入るかを考えていた……
+
+　いつ入ろっかな……今日…入っちゃおっかな……
+
+　時計を見る……もう１０時を過ぎていた。
+　私は明日凛と一緒にやるレポートのために教科書を開いた。　
+
+　今日はもう無理よね……勉強しとかなくちゃいけないし……
+　明日は……凛が朝から来るけど……午前中からちゃんとやれば午後は空くかも？
+　じゃあ凛が帰った後に入ろ！うん、そうしよう！
+
+　私は独りで勝手に納得し、レポートに取り組んだ……
+
+　レポートの半分ぐらいは終わった。時計を見ると１時になってる。
+
+　もう１時か……寝ちゃおっかな……
+　
+　今日ももちろんクマと一緒にベットに入った。
+　クマが来てから寝るのが一つの楽しみになりつつある……
+　しかも明日は私がクマになれる！そう考えるだけで胸はときめき、遠足の前日の子供のようにワクワクしていた。
+
+　これで今日もクマと一緒に寝れる♪
+　それに明日は……私がクマに……ふふ♪　
+
+「明日もよろしくね……クマ……」
+　私はそう呟きながらクマを抱きしめ、目を閉じた……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#824">
+				<rdfs:label>824</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:16:46+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">恭子、クマになることを決める！の巻き　完　です。
+
+まだ着ないです。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#825">
+				<rdfs:label>825</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:18:28+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　ピピピピッ！ピピピピッ！
+
+　土曜日、朝の９時。
+　目覚ましの音とともに目を覚ます。
+　
+　……眠い……
+
+　興奮してたから、あんまり眠れなかった……
+　今日もクマはベットから落ちてる……
+
+　寝相悪いのかな……私……
+
+　私はクマをベットの上に座らせ、朝ごはんを食べた。
+　そして着かえて、軽く部屋を整理整頓した。
+　そんなことをしてたら１０時になっていた。
+　
+　……そろそろくるかも……　
+
+　ピンポ〜ン♪
+「おはよう恭子。起きてる〜？」
+　予想通りのタイミングで凛はやってきた。
+「はーい！今開けるからね！」
+　私は玄関にいき、ドアの鍵を開けた。そこには凛がコンビニの袋をもって立っていた。
+「レポート教えてもらいにきたよ〜♪それとこれ授業料！」
+　持っていた袋を私に手渡す……中にはピーチdeジュースが入っていた！しかも２本も！
+「いいの！貰っちゃって！」
+「いいの、いいの。」
+　凛はニコニコしながら言った。
+「ありがと♪」
+　凛を部屋に入れ、私は貰ったピーチdeジュースを冷蔵庫に入れた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#826">
+				<rdfs:label>826</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:19:31+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「相変わらずかたづいてるね〜。恭子の部屋。」
+　凛はクッションに座って私の部屋を見回しながらそう言った。
+　そしてベットの上のクマに気づいた。
+
+「これが、えっと……お座りでくま？」
+「お座りdaクマ！」
+
+　微妙に間違えてたから思わず叫んじゃった……お大人げない……
+
+「ごめんごめん。確かにかわいいけど……それにしても……でっかいね……」
+　凛は見上げるようにクマを眺めた。
+「かわいいでしょ♪ちょっと抱いてみてよ！すっごい気持ちいいんだから♪」
+　この気持ちよさを実感してもらいたい！
+　そう思って私はクマをベットから凛の目の前に持ってきた。
+「私はいいよ。お化粧してるから汚しちゃうと悪いし……」
+「えっ？そお？」
+「ふふふ♪」
+　凛は急に笑い出した。なにが可笑しいんだろ……
+
+「やっぱり縫ぐるみのこととになると子供になっちゃうんだね♪」
+「またからかって！」
+「あっ！じゃあ、そろそろレポート教えてもらおっかな〜？」
+「もお！調子いんだから……」
+　
+　こうして私たちはレポートに取りかかった……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#827">
+				<rdfs:label>827</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:20:42+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">『終わった〜』
+　同時にそういうと、二人でその場に仰向けに寝転んだ。
+　二人で集中してやったから、まだ３時をちょっと過ぎたぐらいだった。
+
+「３時か……おやつ食べる？」
+　私は横になりながら凛に尋ねた。
+　すると凛はムクッと起き上がり、テーブルの上の勉強道具を自分のバックに入れ始めた。
+「お昼ご馳走になっちゃったし……今日はもう帰るよ。ほんと助かったわ。ありがと♪」
+　そういって凛は玄関に向かった。私も凛を追うように玄関へと足を運ぶ。
+
+「今日はほんとにありがとね！」
+「私の方こそ凛と一緒にやったから早く終わらせられたよ！ありがと♪」
+　私たちはお互いの顔を見つめ合い、クスクスと笑い始めた。
+
+「そうだ！明日お買い物行かない？久しぶりに！」
+　最近レポートとかあって忙しかったから凛としばらくお買い物にいってなかったから誘ってみた。
+　そしたら凛は急に申し訳なさそうに下を向いた……
+「ごめん……明日デートの約束があって……」
+　
+　そっか……上野君と付き合ってるんだっけ……よし！ここは応援してあげないと！
+
+「頑張ってね！明日のデート！」
+「えっ？……うん！……ほんとにごめんね……来週いこうね！じゃあね！」
+「うん♪バイバイ……」　
+
+　凛が階段を降りていくのを見てから私はドアを閉めた……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#828">
+				<rdfs:label>828</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:21:46+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">恭子、凛とレポート！の巻き　完　です。
+
+あとちょっとで着ます。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#829">
+				<rdfs:label>829</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T15:56:57+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　とぼとぼと部屋に戻る……そこには私の気持ちなんて何も知らないクマが座っていた……
+　私はそんなクマを力いっぱい抱きしめた……
+
+　上野君は優しいし……まじめだし……凛にピッタリだと思う……
+　……でも…でも……ずっと仲よしだったから……親友だから……急に…遠くにいっちゃっう気がして……すごく…寂しい……
+　私が応援してあげなきゃいけないのに……それなのに……素直に喜べないよ……
+
+「私……最低だ……うぅぅ……」
+　涙が急に溢れだしてきた……
+　私はクマの胸に頭をうずめて声をひそめて泣いた……
+
+
+　それから３０分は経ったと思う……私はクマの抱き心地のよさからだんだん気持ちが落ち着いてきた。
+
+　……いつまでも泣いてちゃダメだ！彼氏がいても凛とは友達だもん！
+　凛も頑張ってるんだし！私も頑張ろう！
+
+　気持ちを切り替え、私は今すぐクマの中に入ることを決めた！</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#830">
+				<rdfs:label>830</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T15:58:16+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　私は服を脱いで下着姿になり、クマと一緒にベットの上に座った。
+　そしてクマの背中の縫い目に手をかけ、マジックテープをバリバリはがす……相変わらずかたい……
+
+「ふぅ〜開いた〜」
+　なんとか首から尻尾まであるマジックテープを全部開けた。
+
+　あとは……私が入るだけ……
+
+　心臓がバクバクなってる……
+　そんな自分を無視して、膝を曲げながらクマの中に右足を入れた。
+　やっぱり子供用だからかなりきつい……クマの綿で足が締めつけられる……
+
+　きつい……ほんとに入れるかなぁ……
+
+　苦労して右足を全部クマの中に入れ、左足も同じようにして入れた。
+　そして正座してクマの尻尾をグイッと引き上げ、お尻もクマの中に入れた。かなり引き絞められる……
+　これで私の下半身はクマになった……
+　体がうっすらと汗をかきはじめる……
+
+　お尻も…きつい……でもあとちょっとだし！頑張んなきゃ！</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#831">
+				<rdfs:label>831</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T15:59:29+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　手のひらを肩に乗せて両手の肘を曲げる。
+　クマの手の穴のところに肘をちょっとだけ入れた。
+　そして自分の頭を背中の穴に入れるはじめる……
+　
+　あとは……頭を一気に入れて……背中を突っ張れば……腕も入る……
+　これで私も……クマに……
+
+　そう考えた瞬間、胸の期待が不安に変わってきた……
+
+　もし……クマから出られなくなったら……
+　そしたら……どおしよ……
+
+　体から冷や汗がドバッと出てる……不安で心臓が破裂しそう……
+　でもここまできて後にはひきたくなかった。
+
+　背中は開いてるんだし……大丈夫！
+　もし閉まっちゃってもマジックテープだし！すぐに開けられるもん！
+　
+　不安を振り払らい、目をつぶって一気に私の頭をクマの頭の中に入れ、背中を反って両手もクマの手の中に入れた！</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#832">
+				<rdfs:label>832</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:00:47+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　ズボッ！！
+
+『んん！！』
+
+　全身が締めつけられる！かなりきつい！
+　頭だけ入れたときなんかより首が締まる！頭もきつい！
+　全身を覆われてすごく暑い！
+　それに息のしづらさ、視界の悪さで私はパニックになっていた！
+
+　きっ！きつい！きついよ！
+　暑い……苦しい！……首が……息が……もお……だめ……
+　
+　気を失いかけたそのとき、私はあることを思い出した。
+
+　……そうだ！鼻！鼻でなら息できるんだ！
+
+　私は鼻で大きく息を吸って、大きく吐き出した。
+　だんだん気持ちが落ち着いてきた……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#833">
+				<rdfs:label>833</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:02:08+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　ふぅ〜、危なかった〜……
+　……やっぱりきつい……
+　けど私！クマになれたんだ！ヤッタ〜♪
+
+　私は嬉しくて飛び上がろうとしたら、おもいっきり後ろに倒れそうになった！
+『わぁ！！』
+　手を付こうとしても手が伸ばせない！
+　私はそのまま頭をベットに打ちつけ、仰向けになった……
+
+『いててて……』
+
+　……動きにくいなぁ…これ……手足曲げっぱなしだもん……
+
+　そのまま仰向けになってたら、なぜか気持ちよくなってきた……
+
+　なんか……体を…頭まで包まれるのって……きもちいかも……
+　ちょっと苦しいけど……全身を抱かれてるみたいで……すごく……いい……
+
+　私は未知の感覚にのまれて、そのまま眠りについた……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#834">
+				<rdfs:label>834</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:04:35+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">恭子、クマになる！の巻き　完　です。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#835">
+				<rdfs:label>835</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:06:22+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　苦しい……暑い……
+
+　私は暑さと息苦しさで目を覚ました。
+
+『……あれ？なにこれ！』
+
+　……そうだ……私…クマになってたんだっけ……
+
+　一瞬混乱したけど、すぐにクマの中だとわかった。
+　私はベットの目覚まし時計を見ようとして首を横に回すけど、クマの頭が全然動いてくれない……
+　しょうがないから体ごとコロンと横に回転させて時計を見る……もう４時だ……
+
+　もう３０分近く入ってたんだ……
+　体中汗まみれだし……疲れた……
+　もうちょっと入ってたいけど……そろそろ出よっと……
+
+　また体を仰向けにして起き上がろうとする。
+『……？あれっ？』
+　起き上がれない！
+　今度は反動をつけて起き上がろうとする……なんとか起き上がれた。
+『ハァ…ハァ…ハァ……』
+
+　ちょっと…運動不足かも……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#836">
+				<rdfs:label>836</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:08:04+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　クマの頭から私の頭を抜こうとするけど、汗でくっついててなかなか抜けない……
+『ハァ…ハァ…ハァ……どおして……』
+　だんだん不安になってきた……
+　少し強引に首を引っ込めようとしたら前にコロンと転がりそうになる。
+　しかし、そこにベットは無い！
+『え！？きゃあ！！』
+　
+　ドスン！
+
+　私はベットから勢いよく落ちた！しかも手が使えないから顔を床に打ちつけた！
+『いつつつ……』
+　痛みからうつ伏せになったまま動けない……
+　ベットは低いし、顔がクマに包まれててもかなり痛い……
+
+　もう…いや……早く脱ぎたい……
+
+　体を回転させて仰向けになり、また反動をつけて起き上がる。
+　そして私はあることに気がついた……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#837">
+				<rdfs:label>837</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:11:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　……もしかして……テープが閉じちゃってるかも……
+
+　背中もクマで覆われていることに気づく……予想通りにマジックテープは閉じていた……
+　私は完全にクマの中に閉じ込められちゃった……
+　また不安から胸がドキドキし始める……
+
+　どうしよ！どうしよ！
+　……そおだ！まだ出れないって決まったわけじゃないし！テープさえはがれれば……
+
+　何とか気持ちを落ち着かせようと、体をねじったり、お尻を振ってみたり、うずくまってみたりしてテープをはがそうとする。
+　テープはバリッともベリッともいわない……
+　
+　うそ……うそよ…こんなの……
+
+　また頭を抜こうとする……抜けない……
+　手を抜こうとしても、汗ではりついちゃってて全然抜けない……
+　お尻を後ろに引っ込めても、ただ後ろに下がるだけ……
+　目から涙が出てきた……
+
+　ひっく…ひっく……どうしよ……どうしよ……脱げないよぉ……
+　だれか……ひっく……だれか助けて……
+
+　クマとなった私しかいない部屋で、泣きながらだれかが助けてくれるのを待つしかなかった……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#838">
+				<rdfs:label>838</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:12:17+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">恭子、クマに閉じ込められる！の巻き　完</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#839">
+				<rdfs:label>839</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:15:41+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　こんなところで泣いてても、だれも助けには来てくれない……
+　
+　ぐすっ…ぐすっ……いつまでも……泣いてちゃだめ！
+　こうなったのも私のせいだし！自分から動かなきゃ！
+　
+　私は肘と膝をついて四つん這いになり、玄関を目指すことにした。
+　クマのままだと床しか見えない……自分の部屋なのに自分がどこにいるかさえわからない……
+　私は記憶を頼りに四つん這いで歩き始めた。
+
+　さっきベットから落ちたんだから……まっすぐ行ってつきあたりを右に行けば……たぶん玄関だ……
+　外に出れれば……だれか助けてくれるはず！
+
+　そんな期待を胸に、トコトコと歩き続ける……そしたらある場所の異変に気づいてしまった……
+
+　ハァ…ハァ…ハァ……
+　あれ？……なんか……歩くと…あそこが……擦られちゃう……
+
+　四つん這いになって歩くとクマの股の部分が私のあそこに食い込んでくる……
+　それであそこが擦られ、刺激されてこんな状況なのに体が感じちゃう……
+　でもこの格好じゃなきゃ歩けない……
+
+　あぅっ！……こんなときに……感じちゃだめ！
+　……でも……歩くと……擦られて……はぅぅ！……だめ！
+
+　体は正直で、歩けば歩くほど刺激され、あそこが濡れはじめた……
+　私は感じるたびに歩くのを止め……耐えながら歩くしかなかった……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#840">
+				<rdfs:label>840</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:17:09+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　こんなんじゃ……歩けないよぉ……
+
+　体がほってっているせいで余計に汗が出るし疲れる……でも進むしかない！
+
+　ハァ…ハァ…ハァ……んん！……やだ……ショーツが……グチョグチョ……気持ち悪い……
+　まだ……全然歩いてないのに……
+
+　私はあそこに気がいきすぎて周りが全然見えていなかった……
+
+　ゴン！
+
+『いたっ！』　　
+　頭に何かがぶつかってきた！たぶんテーブルの角かなんかだ！
+　私はその場にうつ伏せに倒れ、また顔を床に打ちつけた！
+『ふぐぅ！！……ハァ…ハァ…ハァ……ぐすっ……いたい……いたいよぉ……』
+　痛みにくわえ、疲れ、暑さ、息苦しさ……そして逃げることのできない快楽に襲われ……また涙が出てくる……
+
+　ぐすっ…ぐすっ……いたいよぉ……暑いよぉ……もう…いや……
+　でも……泣いちゃだめ！玄関にいかなくちゃ！
+
+　私は苦しみに耐えながらも四つん這いになってまっすぐ歩き続けた……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#841">
+				<rdfs:label>841</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:19:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　ハァ…ハァ…ハァ……あぅぅ！……
+　もお……どうにかして！これ！
+　
+　私は股の刺激を無視してがむしゃらに歩いてみた。
+　そしたらまた頭になにか当たった……壁だ！つきあたりにきたようだ！
+
+　あとは右に曲がれば……玄関だ！……頑張らなくちゃ！
+
+　私は体の向きを変えて玄関があるであろう場所へと向かう。　　
+　
+　膝と肘が……ズキズキする……体も汗で……グチョグチョで……気持ち悪い……
+　それに……あそこが……うぅぅ！……刺激されちゃう……
+　でも……玄関に行けばなんとかなる！頑張れ！私！
+
+　自分を勇気づけながら歩き続けた……ショーツは私の愛汁でメチャクチャだった……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#842">
+				<rdfs:label>842</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:27:45+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　ハァ…ハァ……まだ……着かないの……
+　けっこう……歩いたのに……あぁん！……
+　……ぐすっ……つかれたよぉ……ぐすっ……いたいよぉ……
+
+　心が折れかけてきてる……その時だった！　
+
+　ズルッ！
+
+『きゃあ！！』
+　なにかの段差で肘を踏み外した！
+　私はまたうつ伏せにベタン！と倒れこんだ！
+
+　いたたた……この段差……もしかして……玄関だ！
+
+　私はやっとの思いで玄関に辿りついた！
+　頑張って起き上がると、クマの目を通して玄関のドアを見ることが出来た！
+
+　やった！……あとは……ドアを…開けられれば……
+
+　膝立ちになってドアに寄りかかり、肘を上げてドアノブにクマの手をかけようとする……
+　もう少しのところで届かない……
+『あと……ちょっと……』
+　体をおもいっきり伸ばし、プルプル震わせながら肘でドアノブを回そうとする。
+『ハァ…ハァ……お願い……回って……きゃあ！！』
+　私はバランスを崩し後ろにコロンと転がってしまった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#843">
+				<rdfs:label>843</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:30:02+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">『ハァ…ハァ…ハァ……もう一回！！』
+　私はまた膝立ちになって肘でドアノブを回そうとしたけど、なかなか回せない……
+　そして同じように後ろに転がって仰向けになった。
+　
+　そのあとも何回も挑戦したけど結果は同じ……残ったのは体の痛みと虚しさだけだった……
+　希望を断たれた私はまた泣きだしてしまった……
+
+　ぐすっ…ぐすっ…もう…だめ……そこらじゅう…いたい……
+　きついよぉ……ぐすっ……暑いよぉ……
+　だれか……だれか助けて……
+
+『凛……ぐすっ……助けて……』
+　私は無意識に凛の名前を呼んでいた……
+
+　凛……そうだ！凛に電話すれば助けてくれるかも！
+　でも……どうやってかければ……
+　クマは手が丸いからボタンが押せないし……あっ！鼻なら押せるかも！
+
+　クマの鼻はちょっと尖っている。それに私のケータイはワンプッシュで開くしボタンも大きい！
+　体を起こしてテーブルのある方を向く……ケータイはテーブルの上にある！
+
+　でもあそこまで歩かなくちゃならない……そしたらまた……感じちゃう……
+　……だめだめ！これしか助けてもらう方法はないの！頑張んなくちゃ！
+
+　私は最後の期待を胸にあざだらけの体に鞭を打ってテーブルの方に四つん這いで歩いて行った。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#844">
+				<rdfs:label>844</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:31:20+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">恭子、感じちゃうけど玄関へ！and最後の希望へ向かって！の巻き　完　です。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#845">
+				<rdfs:label>845</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:37:37+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　また四つん這いで歩く……そしてクマが股に食い込んで……あそこが擦られる……
+
+　あぅぅ！……あと……ちょっと……止まっちゃダメ！
+
+　感じているのを無視して歩き続けた……それがいけなかった……
+
+　ハァ…ハァ…ハァ……頑張れ！……私！
+　はぅっ！……もう……すこし……うぅぅ！……だめ！
+　たぶん……あと……十歩ぐらい……あぁん！……なんだから……止まっちゃ……
+　んん！……あっ！……やだ！……こんなカッコで…いきたく！…あっ！ああああああああ！！
+
+　ドバッ！！…………
+
+　あとちょっとのところで止められ続けた私のあそこは、
+　今までいじめられた分を取り返すように大量の蜜をふきだした……
+　私はビクビクと痙攣し、その場に崩れた……
+　こんな状況でいってしまった自分がすごくいやになった……涙が止まらない……
+
+　ひっく…ひっく……クマの中で……いっちゃうなんて……最低よ……
+　こんな……ひっく……こんなはずじゃ……ひっく……なかったのに……
+
+　私はクマに入ったことをいまになって後悔した……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#846">
+				<rdfs:label>846</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:38:52+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">恭子、クマの中でいっちゃうなんて……の巻き　完　です。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#847">
+				<rdfs:label>847</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:41:55+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　暫くうつ伏せになってたら、目的を思い出してきた……
+
+　凛に……電話しなきゃ……
+
+　私は開き直っていた。そしてまた四つん這いになり、体が感じてもそれを無視してテーブルまで歩いた。
+　もう体中汗まみれ……あそこはもうベチョベチョ……
+
+　頭に何かぶつかった……テーブルまできたようだ。
+　私は起き上がってテーブルの上のケータイをクマの手ではじいて床に落とした。
+　そしたらケータイがパカッと開き、ボタンが押せる状態で床に落ちた。
+
+　ハァ…ハァ…ハァ……よかった……これで……凛に電話できれば……
+
+　私はまた四つん這いになる。
+　そしてわずかに残っている体力を振り絞り、体をビクビクさせながらクマの鼻で十字キーを押す。
+　着信履歴の一番上にある凛の名前を選んで発信ボタンを押した。
+『お願い……でて……』</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#848">
+				<rdfs:label>848</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:43:11+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　ブー！ブー！ブー！
+
+　近くの何かが振動し始めた！まさか……
+
+　あの子……ケータイ忘れて……うそ……でしょ……
+
+　最後の希望さえ断たれた私は、その場に崩れ落ち大声を出して泣いた……
+　非情にも私のケータイから留守番サービスの音声が流れる……
+「ただいま留守にしております。発信音の後にお名前とご用件をお話ください……ピー！……」
+『ひっく…ひっく…ふぅぅ……凛の……凛のバカー！！……』
+
+　ひっく…ひっく……疲れた……動けない……
+
+　体力はもう残ってない……泣き疲れた私はそのまま眠ってしまった……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#849">
+				<rdfs:label>849</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:44:52+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　私は目を覚ました……もちろんクマの中に閉じ込められたままで……
+
+　……もう……ほんとに……だめ……
+　私……このまま……死んじゃうんだ……
+　そんなの……ひっく……やだよぉ……こんな……こんなカッコで……ひっく……死にたくないよぉ……
+
+　このままだったら私は死んじゃう……そんな考えが頭から離れない……
+　体はクマに覆われ、汗でグチョグチョ……そこらじゅうあざだらけ……
+　しかも……クマの中でいっちゃうなんて……また涙が溢れだす……
+
+　クマになんか……ひっく……ならなきゃよかった……
+
+　しかも自分から入って脱げなくなったなんて……自分がものすごく愚かで惨めに感じた……
+　今更後悔しても遅すぎた……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#850">
+				<rdfs:label>850</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:46:00+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">恭子、最後の希望断たれる！の巻き　完　です。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#851">
+				<rdfs:label>851</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:49:04+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　ピンポ〜ン♪
+
+　！！
+
+　突然インターホンが鳴ったから体がビクッてなった。
+　ドア越しからは私の慣れ親しんだ声が聞こえてきた。
+「恭子〜いるの〜……あれっ？鍵開いてる……入っちゃうよ〜」
+　ガチャッとドアの開く音がし、次にドアを閉めた音が聞こえた。
+
+　凛だ！
+
+『凛！ここだよぉ！助けてぇ！』
+　私は痛みに耐えながらも体を仰向けにしてジタバタしながら大声で凛を呼んだ。
+
+　凛の足音がだんだん大きくなってくる。
+「え？どこにいるの……ひっ！……縫ぐるみが……勝手に……」
+　クマになった私を見て、凛は腰を抜かし尻もちをついた。
+『早く脱がしてよぉ！』
+「え！恭子が入ってるの！どうして！」
+『お願い！脱がしてぇ！』
+「ちょっ、ちょっと待っててね！」
+
+　凛は持っていたバックを放り投げ、私を起き上がらせた。
+「どこが開くの？これ？」
+『背中！背中のマジックテープ！』
+「？……あっこれね！ちょっとこれ……かたい……」
+　凛はマジックテープを苦労しながらも開け始めた。
+　私の背中に新鮮な空気が触れた……</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#852">
+				<rdfs:label>852</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:51:02+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「待っててね！今出してあげるから！」
+　そういうと凛はクマの中に手を突っ込み、私の脇を抱えて一気に私を引っ張りだした。
+　クマの中から汗まみれになった下着姿の私が出てきた。
+　私は苦境から解放され、安堵からまた目から涙が溢れだしてきた……
+
+「ひっく…ひっく……こわかったよぉ……くるしかったよぉ……
+　このまま……ひっく……死んじゃうかと……思った……うわぁぁぁん！！」
+
+　私は体中汗まみれなことを忘れて凛に抱きつき、おもいっきり泣いた……
+　凛は一瞬慌てたけど、私を優しく抱きしめてくれた……
+「もう大丈夫……私がついてるから……だからもう泣かないで……」
+「ひっく…ひっく…ひっく……」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#853">
+				<rdfs:label>853</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:54:03+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">　落ち着きを取りもどした私はクマになってからどれだけ大変な思いをしたかを凛に話した。
+「助けてくれて……ありがとね……」
+「困った時はお互いさまでしょ♪」
+　凛は優しくほほ笑みかける……
+　そういえば私のせいで凛のシャツがビチョビチョになっちゃった……
+「ほんとに……ほんとにありがと。それと凛のシャツ……汚れちゃったから私のシャツ着て。」
+　タンスから長袖のシャツを引っ張りだし、凛にそれを渡した。
+　私はあそこが濡れてるのがばれないように凛に背中を向けて新しい下着に着かえた。
+　さすがにちょっと恥ずかしかったけど……
+　そして体を拭いて午前中に着てた服を身に付けた。
+
+　凛は私のシャツに着替えながらこういった。
+「ありがと♪じゃあ着させてもらっちゃうね♪あっ、それといくらかわいいからってもう一人でクマになっちゃだめだよ！」
+「うん……もうクマにはならないよ……」
+　二人で顔を見合わせて大声で笑った。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#854">
+				<rdfs:label>854</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:56:43+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「あっそうだ！」
+
+　凛はなにかを思い出したらしい。
+「明日お買い物行かない！一緒に♪」
+「え？明日上野君とデートでしょ？」
+「さっき帰りにちょうど会ってね、約束ことわっちゃったの。」
+「えっ！？なんで！」
+　私のびっくりした顔を見ながら凛はまた笑った。
+「なんかね……久しぶりに恭子と一日中遊びたいって思ったの。それだけ♪」
+　
+　凛は優しい……私を気遣ってくれたんだ……
+
+「……あれ？どうしたの！？泣かないでよぉ！」
+「へっ？」
+　私の目から自然と涙が流れていた……
+「ごめん……なんでもないよ♪明日楽しみだね♪」
+　私は涙を拭いて凛に笑った顔をみせた。
+「うん♪」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#855">
+				<rdfs:label>855</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:59:42+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「あっ！」
+
+　凛がまた何かを思い出したらしい……今度はなんだろう？
+　
+「また忘れるとこだった！私ケータイ忘れちゃって……」
+　そういうと凛は周りを見回して凛のケータイを拾い上げた。
+「あった、あった！」
+
+　ケータイ……！！
+
+「あれ？留守電はいってる……しかも……恭子から？」
+　留守電を聞こうとしてる！まずい！
+「聞かないで！」
+「なんで？」　
+『ひっく…ひっく…ふぅぅ……凛の……凛のバカー！！……』
+　凛は勢いよくケータイを閉じて怒りだした！
+「ちょっとこれなに！」
+「ごめん……そのとき……大変だったから……」
+　そしたら凛は急に笑顔になった。
+「うそ♪怒ってないよ♪」
+　凛はクスクスと笑い出した。私もつられて一緒に笑った。
+
+　凛は私の部屋に泊っていった。その日、夜中まで私の部屋から二人の笑い声が絶えることはなかった。
+　そんな私たちをクマは優しそうな顔をして見守っていた……
+
+　　　　＜おしまい＞</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#856">
+				<rdfs:label>856</rdfs:label>
+				<dcterms:creator foaf:nick="(・(ェ)・)" dcterms:identifier="zEHLoba/D2"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T17:09:09+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「(・(ェ)・)クマ！」　完　です。
+
+また長くなっちゃいました……
+それにまた、我フェティッシュ（泣いちゃう女の子、感じちゃう女の子、縫ぐるみが大好きな女の子等々）だらけになっちゃいました……
+最初は非エロで書いてみたんですけど、エロに改造しちゃいました……申し訳ないです……
+
+
+最後まで読んで頂いた方々に、再び深くお礼申しあげます！</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

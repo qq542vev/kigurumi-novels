@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:03:52+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">暑さと孤独の中で</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-05-12T12:13:10+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-05-12T18:42:22+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">316</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#813">
+				<rdfs:label>813</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-05-12T12:13:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「暑いよ、暑いよ」
+私は遊園地で着ぐるみの仕事をしていた。
+でもなぜかスタッフさんにいじめられて
+着ぐるみを着たまま部屋に閉じ込められた。
+本当に暑い。部屋の窓は締め切ってるし、エアコンもついてない。
+蒸し風呂状態だった。
+どうしよう、炎天下で着ぐるみを着ていたので限界に近いし。
+このままだと本当に倒れちゃう。
+しかも着ぐるみは自分で頭も取れないタイプだった。
+「暑いよ。暑いよ。助けて」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#814">
+				<rdfs:label>814</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-05-12T18:42:22+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">どのくらい経ったのだろうか。
+私は着ぐるみを着たまま寝てしまった。
+ふと気が付くとスタッフさんが目の前にいた。
+そして、いつの間にか着ぐるみの頭が取られていた。
+「今日の仕事はおしまいだよ」
+スタッフさんの言葉に我に返った私だった。
+何事もなく家路につきました。
+
+　　　　　　　　　　　　　　　　　おしまい。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

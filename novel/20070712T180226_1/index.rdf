@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:04:05+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:title xml:lang="ja">ときめき</dcterms:title>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-07-12T18:02:26+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-07-12T18:02:26+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">294</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#963">
+				<rdfs:label>963</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-07-12T18:02:26+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">タイトル「ときめき」
+幼稚園のトキ、やさしくて綺麗な保母さんが担任A先生だった。
+ある日、全生徒が集められて交通安全教室が開かれた。
+見渡すといつもクラスのそばにいてくれるA先生がいない？
+「朝はいたのに？」
+と思ってるうちに教室が始まった。
+婦警さんと着ぐるみの犬のオマワリさん、ランドセル背負ったピンクのウサギ
+が劇をして交通ルールを説明してくれる教室だった。
+教室が終わり、隣の着ぐるみが入っていった部屋が気になった。
+好奇心旺盛な頃、もちろん仲間と一緒に覗いてみた。
+そしたら！！ピンクのウサギの中からA先生が出てきた。
+すごい衝撃が走った。
+今、思えば、着ぐるみ大好きになった始まりはこの時からだった。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

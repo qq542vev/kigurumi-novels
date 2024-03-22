@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:01:24+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">密かな届け物</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-12-11T01:49:43+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-12-11T01:49:43+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">453</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#381">
+				<rdfs:label>381</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-11T01:49:43+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ついに念願のブツが届いた。
+
+2ヶ月前にわくわくしながら注文した量産型着ぐるみ。
+今日は1日。ついに届くということで、親にばれたら困るから平日にも関わらず学校を休んでしまった。
+大学生だから少しぐらいサボっても大丈夫だけどね。
+
+黒猫の宅配屋さんにはハンコをあげてさっさと帰っていただいた。
+そしてダンボールを自分の部屋までそっと持って行く。
+部屋は今日のため念入りに掃除しておいた。
+あんまり張り切って掃除したもんだから親に怪しまれたりしたが、掃除したところで着ぐるみがばれるわけじゃない。
+
+塵1つ落ちていない部屋の真ん中に、ダンボールをゆっくりと置く。
+大きさのわりに軽いダンボール。空ではないかと思ってしまうほどである。
+それでも俺にはとても重い箱。
+ガムテープで厳重に閉じられた箱。
+シ○マのマークがついてるかもしれない箱。
+
+待ちきれない目の前の気持ちながら、はさみで丁寧に開けていく。
+中身を傷付けないように。
+大事に大事に。
+でも早く君に会いたい。
+
+あいた
+
+蓋を開けると、ビニールの奥の微笑がｋｔｋｒ
+ついに、ついにこの時が
+
+(続かない)</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:01:17+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">消えた友人、現れたメイド</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-08-24T21:34:01+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-08-26T00:47:24+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">2013</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#81">
+				<rdfs:label>81</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-24T21:34:01+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">お盆を過ぎてもまだまだ熱い８月のとある日。
+俺は友人のハヤトに呼ばれて、家に遊びに行った。
+
+「おじゃまします。」
+「おっ、来たね。いつもの部屋ね」
+「おう」
+
+ハヤトの部屋は広い割には家具が少なくて、１５人ぐらい呼べそうだ。
+ベットと机とテレビ以外の大きな家具はない。
+しばらくすると、ハヤトが大きなダンボールを持ってやってきた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#82">
+				<rdfs:label>82</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-24T22:35:09+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そのダンボールの中には大量のみかんが入っていた。
+
+ハ「やっぱりこたつにはみかんだよね。」
+俺「こたつなんてないじゃん！」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#83">
+				<rdfs:label>83</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-24T22:48:56+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">と当たり前のツッコミをして、あらためて
+「で、本当はなんなんだ？」
+「実はね、前から言っていた。例のモノ！」
+「例のモノって・・・本当に買ったのか！」
+「うん、当たり前じゃん！３か月分の給料使っちゃったけどね^_^;」
+
+ハヤトはダンボール箱をベットの上に置いて、続けて言った。
+「ちょっと、部屋の外で待ってて。娘を呼んでみるからｗ」
+「げっ、本気か！じゃあ遠慮なく外で待たせてもらうよ。ちなみに期待はしてないからな！」
+「ハハ、お手柔らかにね」
+
+そういって、俺は扉を閉じた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#84">
+				<rdfs:label>84</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-24T23:19:37+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">携帯でmixiの日記の更新とかをしながら、１０分ほど待っていた。
+そこに、扉を叩く音が聞こえた。
+「もう入っていいのか？」
+すると、扉の下から紙切れが出てきて、こう書かれていた。
+「３０秒数えてから入って」
+「まったく、いくぞ。１、２、・・・・・・２９、３０。よし」
+
+俺は静かに扉を開けた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#85">
+				<rdfs:label>85</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-24T23:34:59+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">部屋の中は何故か照明が消されていた。
+「おいおい、一体何がしたいんだよ。えっとスイッチは・・・これか」
+再び明るくなった部屋の中にはハヤトの姿はなかった。
+ダンボール箱は机の上に移動していた。
+「あれ、どこにいった？おーいハヤっ・・・・ん？」
+
+さっきまでは綺麗にたたまれていたはずの布団が人の形に盛り上がっていた。
+俺はおそるおそる、その掛け布団をどけていった。
+
+「・・・・まじかよ・・・」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#86">
+				<rdfs:label>86</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-24T23:44:35+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そこには、ハヤトは居なかった。
+その代わりに大きな赤い瞳をもったストレートの黒髪の女の子がいた。
+
+すると、掛け布団を持っていた俺の手にぬくもりを感じた。
+彼女はむくっと上体を起こすと、俺の手を触ったまま掛け布団をどけた。
+感触は布ようなのに、ヒトのようなぬくもりを不思議に感じた。
+ベットから出て、部屋の中央にあるテーブルの所に座った。
+俺も手を引っ張られて、向かい合わせに座らされた。
+
+「・・・・意外と・・・すごいじゃん。」
+言葉にうまく表現できなかった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#87">
+				<rdfs:label>87</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-25T00:25:50+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">その子は机の上にある小さなホワイトボードをもってきて
+「はじめまして、私の名前は遙（はるか）。よろしくね。」
+と書いてきた。
+「あっこちらこそ、よろしく。」
+
+遙はうなずいた。
+「ねぇ、私の服どう？似合ってるか自身ないんだよね。」
+というと、その場でくるくる回り始めた。
+チェックのミニスカートに長袖のワイシャツ姿だった。
+これ本当にハヤトが入ってのか？スタイル良すぎ！とか思いながら。
+「あ〜なかなか似合ってるんじゃない？安心した。」
+
+「なんで、私じゃなくてあなたが安心したの？」
+遙が不思議〜って動きをしながら俺に聞いてきた。
+「いや、ハヤトの・・いやお前のご主人様の事だからもっとすごいのかと・・・」
+
+すると、遙はダンボール箱の所に行きあるものを取り出した。
+「こうゆうのとか？」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#93">
+				<rdfs:label>93</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-26T00:27:24+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">その手に持っていたのは、まさしくメイド服であった。
+「やっぱりな。どこで買ってきてもらったの？」
+「ご主人様の従姉妹のレイヤーさんに作っていただきました」
+
+そのメイド服はロングスカートのタイプのでシンプルなデザインだった。
+すると遙がおねだりすようなポーズで
+「お願いあります、私のご主人様役をしてくれませんか？」
+大きな目がまるで上目使いしているように思えた。
+「えっ、だって遙にはハヤトがいるだろ〜」
+「それが・・・・私がこの部屋にいる時はいつもどこかへ出かけてしまうの」
+おいおい、そこまで設定するかよと思いながら
+「仕方ないな。まぁハヤトには悪いが奉仕してもらうか」
+
+遙はその言葉を聞いた途端に、そばで嬉しそうにお辞儀した。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#94">
+				<rdfs:label>94</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-26T00:40:32+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">すると遙はおもむろに立ち上がり、服を脱ぎ始めた。
+俺は慌てて
+「ちょ・・・俺外で待ってるから！」
+といいながら一目散に部屋から飛び出した。
+そして、扉を閉めて背中をつけてその場に座りこんだ。
+
+ハヤ・・いや遙はまだ自分の存在になれていなかったからなのか。
+それともわざと・・・
+いろいろ考えてはみたものの、ただ忘れていたんだなと思った。
+それよりも部屋を飛び出した俺はどうなんだ。
+彼女の事をいやハヤトの事を男だと一瞬でも忘れたのは・・・
+すると、俺はある約束を思い出した。
+あれは俺たちが大学生になる前、高校最後の夏休みの事だった・・・</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#95">
+				<rdfs:label>95</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-26T00:47:24+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">はじめまして81から書き始めた者です。
+
+誤字、脱字ありすぎですね〜あと91さんの言う通り82は別のヒトのアドリブです。
+せっかくなので、なんとか&#32363;げてはみました。
+
+一応一区切りという事で、次の作家さんどうぞ〜
+私は・・・ただこのスレの活性化のために書いただけですので。では</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

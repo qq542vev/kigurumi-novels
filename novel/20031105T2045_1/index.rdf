@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:08:53+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">鏡の向こうの誘惑</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2003-11-05T20:45+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2003-11-08T06:23+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">3050</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#5">
+				<rdfs:label>5</rdfs:label>
+				<dcterms:creator foaf:nick="小説屋　１" dcterms:identifier="v4QHxgNM"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-05T20:45+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">僕はキャラクターショーのアルバイトをしています。
+何故この仕事をしているかって？それは着ぐるみフェチだから。
+
+僕は幼い頃から着ぐるみを見ると、何故かムラムラとしてくることがありました。
+「この感覚は一体何なんだろう？」と思いながら幼少期を過ごしました。
+中学生にもなると、着ぐるみを見た瞬間に股間の棒が固くなったのに気が付きました。
+動物、戦隊もの、女性キャラ....全ての着ぐるみに僕の股間は反応していました。
+しかし、高校生にもなると女性キャラにしか反応しなくなりました。
+これはおそらく、『女性キャラ＝中に女性が入っている』という勝手な妄想意識があったからだと思います。
+
+そんな僕も大人になり、より近くで着ぐるみを見たい！という衝動にかられました。
+「それなら着ぐるみのアルバイトをすればいいんだ！」
+そうと決めたら話は速かったのです。運良くアルバイトも決まりました。
+僕の入った事務所はメルヘンショーを中心にやっている事務所でした。
+もちろん、その辺は前もって調査したことは言うまでもありません。
+それは女性キャラの着ぐるみを真近で見るのが目的だからです。
+ヒーローものよりもヒロインものが見れる確率が高いからです。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#6">
+				<rdfs:label>6</rdfs:label>
+				<dcterms:creator foaf:nick="小説屋　２" dcterms:identifier="v4QHxgNM"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-05T20:45+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">僕の配役が決まりました。何と！それが若い女の子役なのです。
+セリフが少なく動きも少ない、そして僕の身長が159cmしかない、というのが理由でした。
+「見るだけでなく、自分が女性キャラの着ぐるみの中に入るなんて....」
+マスクの小さな穴から覗いた僕が、楽屋にある大きな鏡に映っています。
+僕はかわいい女の子に変身していました。
+当たり前のことなのですが、自分が思った通りに女の子は動くのです。
+これは想像以上に興奮しました。今まで感じた興奮の比ではありません。
+「か、かわいい....」
+僕は鏡の前で夢中でポーズをとりまくっていました。
+どうやったらもっとかわいく見えるかを試していました。
+
+この日より、僕は『見る着ぐるみフェチから着る着ぐるみフェチ』へと変わっていきました。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#9">
+				<rdfs:label>9</rdfs:label>
+				<dcterms:creator foaf:nick="小説屋　２ （v4QHxgNM）"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-07T21:15+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「おい、何してんだ！」
+背後からのドスの効いた声に僕はビクッと、しました。
+振り返ると、今回のチームリーダーがニヤニヤと嫌な笑み
+を浮かべて楽屋の入り口に立っています。
+「この道１０ウン年のベテラン」を事あるごとにひけらかす
+とてもイヤな奴です。
+迂闊でした・・・、自分の姿に見とれるあまり、人が楽屋に
+近づく気配に気付かなかったのです。
+「お前、○○（僕の名前です）だろ？ブツ着た自分の姿見て
+興奮してたのかよ？」
+彼のトレードマークでもある嫌な笑みを浮かべたまま、僕の
+股間を握りました。
+「うっ・・・」
+恥ずかしい事に僕は勃起していました。
+「やっぱりな、この変態野郎！」「お前もアレだ、でっかい
+三脚を持ち込んでショウの一部始終を撮ってる気味の悪いヲタ
+共と同類だったワケだ！」
+「おーい、みんな来いよ！○○がブツ着て勃起してるぜ！」
+「なになに？」「どうしたの？」などと言いながらチームの皆が
+楽屋に入ってきました。
+チームメンバーの大半はキャラクターの構成上から女性です。
+「お、みんな来たな、○○がよ、ブツ着て勃起して、鏡の前で
+悶えてたんだよ」
+言うと同時にリーダーはキャラのスカートを捲り上げました。
+僕には見えませんがおそらくそこにはパンティーと肌色タイツで
+覆われ勃起した僕の男根が皆に晒されたのです。
+「きゃー！」「○○君って、そうゆう人だったの！」「サイテー！」
+およそ考えられる限りの罵詈雑言を僕は浴びせられました。
+
+ショウの終了後、僕はアルバイトをやめました。
+もう、僕は生きてはいけません・・・・。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#11">
+				<rdfs:label>11</rdfs:label>
+				<dcterms:creator foaf:nick="別の小説屋"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-08T06:02+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そんなこんなで、僕は着ぐるみフェチであること封印して、
+しばらくは着ぐるみとは無縁の生活を送っていました。
+もう、二度と着ぐるみに縁のある生活はしないであろう……。
+
+そんなある日のこと。友達の女の子が僕に声をかけてきました。
+「ねぇねぇ、○○君、今度の金曜日と土曜日暇？」
+特に予定も無かった僕は何の疑いもなくＯＫしました。
+そして金曜日。待ちあわせ場所である公園に行ってみてびっくり。なんと、土曜日に自分の家の傍の駅前で行われるというキャラクターショーのリハーサルだったのです。
+「急に都合が悪くなっちゃった子がいて。○○君身長低いから、女の子のキャラでも大丈夫かな、と思って。」
+自分が誘われるとは、何と言う偶然！！
+しかし、その偶然を疑問に思うよりも先に、自分がこのキャラクターに変身した姿を思い浮かべて不覚にも勃ってしまったのでした。
+もちろんリハーサルには本番の衣装を着るわけではないですから、勃起はばれませんでしたけれど、リハーサルの最中はもう、我ここにあらずの状態でした。
+
+次の日の衣装は既に届いているということを聞いた僕は、明日の朝は早いからという理由をこじつけて、事務所に宿泊することにしました。
+もちろん、夜中に隙あらば衣装を着用してやろうと企んでいたのは言うまでもありません。
+ただ、以前の事務所でそのような「隙」はあまりないということは知っていたので、半ば諦め気味だったのですが……
+
+ところが、予想に反して、衣装は簡単にみつかった上に、衣装を入れている箱の鍵ははずれていました。
+（なんて無用心な……）
+とは思いつつも、自分の欲望は抑えることはできません。
+衣装箱の中から肌色のタイツをはじめとする一式を引きずり出すと、僕は着ていた服を全て脱ぎ、（１度やってみたかったのです！！）その衣装に着替えました。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#12">
+				<rdfs:label>12</rdfs:label>
+				<dcterms:creator foaf:nick="別の小説屋　２"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-08T06:13+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">都合よく大きな鏡がその部屋にあったので
+全身を映しだします。
+そこには僕ではない、女の子の可愛い姿が……。
+僕は、以前の失敗を忘れ、無我夢中で自分を可愛く見せるポーズをとっています。もちろん、股間の棒は既に固くなっています。
+しかも、パンツまで脱いでいるのでタイツのすれぐあいがダイレクトに伝わってきます。
+僕ははっとして股間をおさえました。すると、鏡の中の女の子もスカートの上から股間をおさえます。
+それを見た僕はますます興奮して今度はスカートの中に手を突っ込みます。
+もちろん、鏡の中の女の子も僕とまったく同じポーズをとります。
+僕は夢中になって棒をしごきはじめました。
+
+どれくらい経ったことでしょう。
+「……何してるの？」
+後ろから声がかかりました。僕に声をかけてくれた女の子の声です。
+僕はぎくっとしました。そして、同時にあの悪夢が蘇ります。
+「いや……ちょっと、明日の演技に自信がなくてさ、一人で練習してたんだ。」
+苦しい言い訳です。
+「うそ。あなた、自分で自分のモノこすってたじゃない。」
+後ろから足音が迫ります。思わず、僕はこの場から逃げたくなってしまいました。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#13">
+				<rdfs:label>13</rdfs:label>
+				<dcterms:creator foaf:nick="別の小説屋　３"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-08T06:23+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">しかし。鏡の中に映ったのは僕の知っている女の子ではありませんでした。
+アニメの中では、僕の着ているキャラクターのライバル的存在であるこちらも女の子のキャラクターです。
+「私、実は知ってたんだ、あなたが前のバイト、クビになったってこと。」
+鏡に映ったその女の子は僕のスカートの中にそっと手をいれてきます。
+「あなたを誘ったのも意図的だし、きっとあなただったら夜中にこっそり着ぐるみを着に来ると思っていた。」
+そう言って、女の子は僕の棒に手をかけます。
+「私は、あなたの前にいた事務所の人みたいなこと言わないわ。……夜が明けるまで大分時間がある……それまで、私の相手をしてもらうわよ。」
+そう言うと、女の子は強く僕の棒をしごき始めました。
+
+……
+
+こうして、僕は今でも着ぐるみのバイトを続けています。
+もちろん、ショーの前日は事務所に宿泊しますよ。彼女と一緒にね。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>

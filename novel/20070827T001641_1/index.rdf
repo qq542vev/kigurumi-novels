@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+]>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:schema="https://schema.org/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:01:18+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="main"/>
+	</foaf:Document>
+
+	<foaf:Document rdf:nodeID="main">
+		<dcterms:alternative xml:lang="ja">豹変</dcterms:alternative>
+		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-08-27T00:16:41+09:00</dcterms:dateSubmitted>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-08-31T00:42:13+09:00</dcterms:modified>
+		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="&xsd;positiveInteger">7340</rdf:value>
+		</dcterms:extent>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#102">
+				<rdfs:label>102</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-27T00:16:41+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">お盆を過ぎてもまだまだ熱い８月のとある日。
+僕は友人のタツヤを家に呼ぶ事にした。
+
+「おじゃまします。」
+「おっ、来たね。いつもの部屋ね」
+「おう」
+
+よし、いよいよ作戦実行だ。
+俺は物置になっている屋根裏部屋に荷物を取りに行った。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#103">
+				<rdfs:label>103</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-27T00:21:09+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">部屋に戻るとタツヤはいつもの場所に座っていた。
+案の定、このダンボール箱の事を見ている。
+
+「やっぱりこたつにはみかんだよね。」
+「こたつなんてないじゃん！」
+
+自分でも下手なボケをしたなと反省しつつ、ベットに向かった。
+「で、本当はなんなんだ？」
+「実はね、前から言っていた。例のモノ！」
+「例のモノって・・・本当に買ったのか！」
+「うん、当たり前じゃん！３か月分の給料使っちゃったけどね^_^;」
+
+ホントに高かったんだぞ〜(;_:)</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#104">
+				<rdfs:label>104</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-27T00:24:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">俺はダンボール箱をベットにおいて、タツヤの方を見た。
+よし、作戦開始！
+「ちょっと、部屋の外で待ってて。娘を呼んでみるからｗ」
+「げっ、本気か！じゃあ遠慮なく外で待たせてもらうよ。ちなみに期待はしてないからな！」
+「ハハ、お手柔らかにね」
+
+そう言いながら、タツヤは部屋の外に出て行った。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#105">
+				<rdfs:label>105</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-27T00:34:58+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">実は自分も着るのは２回目だった。
+一応ある程度の着方はチャットなどで先輩に聞いていたので方法はわかる。
+しかし、着こなすとなると話は別だ。
+
+「えっとまずは補正からか・・・」
+まずは腰にコルセットをつけて、はぅ〜苦しい〜でもこれでよし。
+そして股の部分はサポータをつけた。まぁキツイ水着みたいなやつだ。
+次に胸のパッドをつける。なんかコンニャクみたいだなコレ。
+
+「よしとりあえず、体づくりはＯＫかな？」
+クローゼットの中にある姿見で全身を確認をした。
+まぁ２回目にしては上出来のように思えた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#106">
+				<rdfs:label>106</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-27T00:43:31+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">次に肌タイツに取り掛かった。
+一応その筋では名の知れた人が作ったものなので、すごく質がよかった。
+やべ〜すりすりしてるだけで気持ちいい。いや、いま作戦行動中だ。
+
+足の方から順に入れていく。そして後は背中のファスナーを下ろすだけ。
+「あっこれどうしよう。」
+ファスナーの持ち手を延長するための紐がついたままだった。
+「う〜ん。よし脱ぐ時は手伝ってもらおうっと！」
+その紐を解きダンボール箱のなかにしまった。
+
+「体のラインはもう遙だ・・・くぁ〜やべ。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#107">
+				<rdfs:label>107</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-27T00:49:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そして衣装を決める事にした。一応いろいろ用意はしてみた。
+「やっぱ最初は普段着でしょ、いきなりじゃさすがにヤバいよねｗ」
+
+まずワイシャツを着始めた。肌タイツの指ではなかなかボタンが留まらない。
+なんとか留めて、スカートを穿いた。
+
+「よし、ここまでは順調だな。緊張してきた〜」
+
+そしていよいよ、面をつけることにした。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#108">
+				<rdfs:label>108</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-27T01:00:13+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">中を覗きこみ、覗き穴の部分を確認して一気に被った。
+
+「あれ、覗き穴は・・・・・あった。よし、視界良好！でもないかｗ」
+くぐもった声が自分の耳に返ってきた。
+再び姿見の前に立って、自分の姿を確認した。
+
+「こっ・・これが僕？」
+つまらないネタを挟みながらも、視線はもう彼女を見ていた。
+赤くて大きな瞳、長い黒髪。
+
+そこに遙がいた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#109">
+				<rdfs:label>109</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-27T01:07:04+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">普通は娘は声を出さないというか、出せない。しかし、それは人がいる場合である。
+俺は思い切って声を出した・・・
+
+「・・・わた・・・私の名前は、遙。」
+
+くぅ〜可愛い。他人からみたら、きっとそうでもないだろう。
+しかし、俺の頭の変換機は完全に理想の声となって認識された。
+
+そして、遙は準備しておいたメモを持って扉に向かった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#110">
+				<rdfs:label>110</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-27T09:56:48+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">扉を叩いてタツヤを呼んだ。
+「もう入っていいのか？」
+そして、扉の下の隙間からメモを外へ出した。
+
+次に私はベットに向かい、掛け布団被った。
+部屋の中はクーラー効いていたが、今は掛け布団の中・・・
+「（やべぇ〜・・・・息が苦しい。それに暑いな・・・」
+息を落ち着かせながら、じっと布団の中でタツヤを待った。
+
+「・・・・・・２９、３０。よし」
+
+タツヤは扉を開けて、部屋に入ってきた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#111">
+				<rdfs:label>111</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-27T10:05:45+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ドキドキしながらタツヤに見つけてもらうの待った。
+部屋の照明がついた。すると
+
+「あれ、どこにいった？おーいハヤっ・・・・ん？」
+
+どうやら気がついたらしい、よーし頑張るぞ。
+そして布団に手がかかった、徐々にずれているのが、なんとなくわかった。
+視界がはっきりした時、タツヤの目が一瞬大きくなるのが見えた。
+
+「・・・・まじかよ・・・」
+
+私はここで、タツヤの手をとり自ら掛け布団をどけた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#112">
+				<rdfs:label>112</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-27T10:12:40+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そして、ベットから立ちタツヤの手を握ったまま、テーブルに向かった。
+肌タイツ越しに感じたヒトの温もりが不思議だった。
+
+タツヤをその場に座らせると、机にホワイトボードを取りに行った。
+少し丸みを帯びるように、可愛く書いてみた。
+
+「はじめまして、私の名前は遙（はるか）。よろしくね。」
+それをタツヤに見せると
+「あっこちらこそ、よろしく。」
+おっ照れてるねｗ第一印象はいいみたいだ。
+
+私は嬉しくて、しっかりと頷いた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#113">
+				<rdfs:label>113</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-27T10:29:50+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">次の行動を開始しする前に、ちょっと遊んでみた。
+私は再び、言葉を書いてタツヤに見せた。
+
+「ねぇ、私の服どう？似合ってるか自信ないんだよね。」
+ホワイトボードを置き、その場で回ってみせた。
+「あ〜なかなか似合ってるんじゃない？安心した。」
+
+安心した？どういう意味？よくわからなかったので
+「なんで、私じゃなくてあなたが安心したの？」
+と聞いてみた。もちろん、可愛く首をかしげながら。
+
+「いや、ハヤトの・・いやお前のご主人様の事だからもっとすごいのかと・・・」
+なるほど、そこまで俺の事を理解しているなら話は早い。
+
+私はダンボール箱の所に向かい、特製メイド服を取り出した。
+「こうゆうのとか？」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#114">
+				<rdfs:label>114</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-27T10:43:04+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「やっぱりな。どこで買ってきてもらったの？」
+「ご主人様の従姉妹のレイヤーさんに作っていただきました」
+
+従姉妹の雫（しずく）姉さんは、ベテランのレイヤーさんだ。
+ちなみに、最初に着た時もそばにいてくれた。
+
+そして作戦を続けた。手を組んで
+「お願いがあります、私のご主人様役をしてくれませんか？」
+よーし、我ながらすごいポーズしてるな。素じゃ絶対できないｗ
+
+「えっ、だって遙にはハヤトがいるだろ〜」
+「それが・・・・私がこの部屋にいる時はいつもどこかへ出かけてしまうの」
+なかなかしぶといので、徐々に近づいて行った。すると
+
+「仕方ないな。まぁハヤトには悪いが奉仕してもらうか」
+照れてる、照れてる。よーし作戦第一段階成功！</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#123">
+				<rdfs:label>123</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-29T07:11:34+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">私はメイド服に着替え始めようとして、
+ワイシャツのボタンを外し始めたときに
+
+「ちょ・・・俺外で待ってるから！」
+と言ってタツヤが部屋から出て行ってしまった。
+
+「あっ、そっか。いまは遙だから・・・・気をつけないと」
+一応、女の子としてみられている事ちょっと意外だった。
+
+てきぱきと着替えを続けながら、俺はふとある約束を思い出した。
+あれは俺たちが大学生になる前、高校最後の夏休みの事だった・・・</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#124">
+				<rdfs:label>124</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@回想"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-29T07:22:24+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">タツヤとハヤトがまだ高校３年の時の話。
+
+彼らは、高校は別々だが小中と学校が同じで仲が良かった。
+その上アニメや漫画、ゲームと趣味もあっていた。
+
+ハヤトの夢は、作家になる事。
+タツヤの夢は、声優になる事。
+
+二人は、こんな約束をした。
+
+「ハヤトが書いた小説がアニメ化する時は、絶対俺が主役をやるからな！」
+「もちろん、まぁ小説が売れればの話だけどね」
+「大丈夫だよ、きっと。」
+
+そして、もう一つ約束をした。それはある口論が原因だった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#125">
+				<rdfs:label>125</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@回想"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-29T07:40:20+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">それはあるイベントの帰り、ファミレスに寄ったときの事。
+
+「今日のイベントはコスプレ多かったね・・・、タツヤはコスプレとかしないの？」
+「俺？しないしない。面倒じゃん、金掛かるし。ハヤトしたのか？」
+「まぁ一応ね、従姉妹の話とか聞いてると面白そうだし。」
+「あ〜しず姉さんの事か。じゃあさぁ、やるとしたらキャラは？」
+「う〜ん。自分にあった男キャラって案外いないよね・・・」
+「いないって・・・・まさか女装する気か！」
+
+タツヤは大きな声で叫んだため、周りが少しざわついた。
+するとハヤトが小声で
+「するわけないじゃん。ほら、周りに迷惑だよ。」
+「わ・・悪かった。じゃあ何をするの？」
+
+ハヤトは一回息を落ち着かせて、真面目に
+「着ぐるみをしたいと思ってる・・・・」
+「キグルミ？って、くまとかうさぎとか？」
+「違うよ。美少女着ぐるみ、肌タイツにマスクをつけるの・・・。」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#128">
+				<rdfs:label>128</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@回想"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-29T17:24:04+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">タツヤは呆れた様子で
+
+「あんなの・・・どこがいいんだよ。フツーのコスプレでいいじゃん」
+「なんかすごく可愛いじゃん。２．５次元みたいで、萌えるんだよね」
+「俺は絶対萌えないな。どんなに出来が良くても！」
+「そんなのわからないよ。タツヤだって、少しは・・」
+「絶対ない！」
+「じゃあ俺が萌えさせてやるよ、いつか。」
+「おう、やれるもんならやって見ろ！」
+
+これがもう一つの約束だった・・・・そして</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#130">
+				<rdfs:label>130</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-29T17:53:14+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">まず、タイトに作られている黒いワンピースを着始めた。
+背中のファスナーを閉めるのだが、ちょっと胸が苦しく。
+「胸があると、やっぱりキツイな〜。ていうかサイズぴったり・・・」
+
+次にエプロンだ。白いレースが可愛さを演出していた。
+そして最後にに大きなリボンを鏡を見ながら胸につける事にした。
+
+「お〜すごい。こんなに可愛いとは・・・タツヤが羨ましい。」
+鏡に映る遙の動き一つ一つが、魅力的だった。
+机の上に置いてあるもヘッドドレスを確認しながら、装着した。
+
+準備はすべて整った。遙は扉の方へ向かった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#134">
+				<rdfs:label>134</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-29T18:23:27+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">遙は手にホワイトボードを持って、扉を開けた。
+
+「お帰りなさいませ、タツヤ様」
+部屋に入りながら、タツヤはちょっと偉そうに
+「ただいま。メイド服、いつも通り似合っているな。」
+まるで、昔の華族のような喋り方だった。
+
+タツヤもちゃんとご主人様を演じている事がすごく嬉しかったが、
+少しぎこちないのが面白かった。
+私は、お辞儀をして扉を閉めた。
+
+タツヤは席に着くと、さっき違って元の口調で
+「ねぇ、やっぱ普通でいい？なんか変な感じがするんだよね。」
+と笑いながら言った。私は普通の方が良かったので、こう言った。
+
+「もちろん、タツヤ様は楽になさって結構ですよ。」
+「ありがとう、遙。で、次はどうしようか？」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#137">
+				<rdfs:label>137</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-29T22:58:31+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">しばらく沈黙が続いた。するとタツヤが
+「ゲームでもするか、パワプロとかできる？」
+「はい、大丈夫です。弱いですけど・・・」
+私は返事をすぐにホワイトボードに書いた。
+
+そして二人でゲームを始めた。
+ゲームをするときは、普通でも会話が多いわけでない。
+その上、遙は喋れないので会話なかった。
+私は狭い視界の中で、なんとかゲームをしていたので画面に集中していた。
+この時、俺はタツヤの熱い視線に気付く事はなかった。
+
+ゲームが終了し、時計は９時を指していた。
+（もう、４時間も着てる。着るだけなら、１日中着ていられそうだな）
+俺は心の中でそんな事を考えていた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#138">
+				<rdfs:label>138</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-29T23:38:02+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">しかし、さすがに遙で居続けるのもタツヤに悪いと思ったので、こう書いた。
+
+「タツヤ様、今日は本当にありがとうございました。
+　私、こんなに人に尽くせたのは初めてです。
+　まぁ〜いっしょにゲームをしたくらいですが・・・
+　そろそろ、ご主人様をお呼びしますね。」
+
+そう書いて、立ち上がった時。タツヤが手を握ってきた。
+「まだ・・・居て欲しい。」
+私は慌てて、こう書いた。
+「まだって、何かやり残した事がありましたか？」
+「・・・・だめだ。抑えられない！」
+私は意味がわからなかった。
+意味を聞こうとしてホワイトボードを取ろうした、その瞬間
+
+いきなりタツヤが私を床に押し倒した。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#139">
+				<rdfs:label>139</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-29T23:50:24+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">俺は思わず、言葉を発してしまった。
+「えっ、どうしたの？」
+「着ぐるみは喋っちゃいけないんだろう？」
+私はその言葉を聞いて、彼に従うしかなかった。
+
+「俺、最初は興味すらなかった。でも、遙！お前を見ていくうちに・・・
+　お前の事が・・・好きになった！」
+タツヤは私の頭の横に手をつきながら、私に語りかけた。
+（えっ、タツヤどうしたの？好きになった？私を）
+私は予想外の展開に、動きを止めてしまった。
+タツヤは話を続けた。
+
+「俺じゃ不満か、遙。俺は本気だぞ・・・・本当に・・・・」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#140">
+				<rdfs:label>140</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-30T00:06:23+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">私はなんとかホワイトボードを取って、こう書いた。
+
+「タツヤ様。私とタツヤ様は決して交われないですよ。
+　そして、ハヤト様もそれを望んでいないわ。
+　私は現実には着ぐるみなんですよ・・・」
+
+それをタツヤに渡すと、彼はすっと立ち上がり机の方を向いた。
+私はやっと冷静になってくれたと思い再び扉の方へ向かった。
+
+
+しかし、次の瞬間。両手を後ろに強く引っ張られた。
+私が振り向く間もなく、タツヤは私の両手首を縛ってしまった。
+
+何で縛られたかは、わからないが解けないのは分かった。
+さすがに俺は声を出そうとしたが、今度はうつ伏せに倒されてしまった。
+幸い、面は置いてあったクッションのお陰で無事だった。
+
+すると、面を少しずらされるのがわかった。
+そして、その隙間からテープのようなもので口を塞がれてしまった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#141">
+				<rdfs:label>141</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-30T00:19:06+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「むぅ〜う〜。う〜〜〜う」
+「ごめんな、もう限界なんだ・・・・」
+
+私はここでやっと気付いた。タツヤが本気なんだと・・・
+抵抗しようにも手も声も封じられてしまったいた。
+
+するとタツヤが私をベットに連れて行き、縁に座らせてくれた。
+「もう暴れないよな、遙。」
+私は首をぶんぶんと横に振って立ち上がって逃げようとした。
+しかしその瞬間再び、強い力でベットに押し倒された。
+そして、左足に何かをを結ばれてしまった。
+「これで、もう逃げられないよ。大人しくしてくれよ。」
+
+どうやら、結ばれた物の先にはベットの足が結ばれているようだった。
+もう、逃げる事はできない。俺は自覚した・・・</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#142">
+				<rdfs:label>142</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-30T00:38:55+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">タツヤは私をベットに寝かせて
+「・・・遙。」
+と一言いうと、私の体を抱きしめた。
+俺はいままで、彼女ができた事はない。だから、こうゆうのは初体験だった。
+もちろん、男ともあるわけがなかった。
+しかし、私は自然とタツヤに体を委ねていた。
+
+（私・・・・実はこうなる事を望んでいたのかな・・・いや、でも
+　今、すごく気持ちいい。）
+
+遙とタツヤはそのまましばらく、抱擁を続けた。
+実際はタツヤが抱き枕のように、遙を抱いていた。
+そして、しばらくするとタツヤの手が私の下の方を触り始めた。
+
+もちろん、そこには男のモノがあって、大きくなっているのを私は自覚した。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#151">
+				<rdfs:label>151</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-30T23:37:35+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">タツヤは服の上から指でそこを撫で続けた。
+私は気持ち良かったが、恥ずかしかったので膝を閉じた。
+一旦、指の動きが止まり
+
+「感じてるんだね。いいよ、遠慮しないで。」
+するとタツヤはいきなり、私のスカートの中にもぐってしまった。
+もぐり終えると、再びその場所をさすり始めた。
+
+さっきよりも刺激が強くなった。
+その刺激を抑えようと膝を閉じようとしたが、タツヤが居るので無理だった。
+私は自らも腰を振って、少しでも多く感じようとした。
+
+「むぅ〜むぅ。むっ！う〜〜〜〜〜〜〜〜」</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#152">
+				<rdfs:label>152</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-30T23:51:03+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">とうとう我慢できず、肌タイツにほんのりと染みができた。
+タツヤも気付いたようで、スカートから出るとこう聞いてきた。
+「イッたみたいだね。気持ち良かった？」
+
+私は大きく頷いた。
+興奮したためか、すごく息苦しくて肩で息をしているのがわかった。
+すると、タツヤが私の体の拘束を解いてくれた。
+
+「ありがとう、遙。すごく可愛かったよ。
+　もうこれ以上は・・・・ホントにありがとう」
+タツヤは微笑みながら、そう静かに言った。
+「もう、戻っていいよ・・・・ごめん、遙・・・」
+
+その言葉を聞いて私はベットから出て机の方に向かった。
+そこには、ハヤトの着ていた洋服があった。
+（もう、戻ろう。）
+
+しかし、メイド服に手をかけた時、遙は動きを止めた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#153">
+				<rdfs:label>153</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-31T00:06:46+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">（私だけがいい思いをしていいのかな・・・・いや
+　タツヤに、恩返ししなきゃ）
+
+タツヤは壁の方を向いて、静かにしていた。
+私はメイド服を脱いで、さっきまで着ていたワイシャツを着た。
+そしてホワイトボードに言葉を書き、それをタツヤの前に置いた。
+
+「私だけはいや、タツヤも・・・」
+
+タツヤはびっくりして、こっちの方を向いた。
+そこには、ワイシャツ一枚の遙がちょこんと女の子座りをしていた。
+
+「どうして？ひどい事したのに・・・」
+私はすかさず、こう書いた。
+「私、すごく気持ち良かった。最初はいけない事だと思ったけど
+　でもタツヤが本気なら、私も本気で答えたい・・・」
+
+私はタツヤに近づいていった。
+そして私はタツヤの後ろにまわり込み、タツヤのモノを指でなぞった。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#154">
+				<rdfs:label>154</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-31T00:16:00+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「うっ・・・遙、いきなり・・・・むぅ」
+
+感じてるのを確認して、私はタツヤのモノ服から取り出した。
+肌タイツ越しでも、脈を打ってるのが感じられた。
+そして、上下に優しくしごきを始めた。
+
+「くぅ・・もっもう、イク！！遙っ！」
+私はだんだんと激しく動かし、手に暖かい何かを感じて動きを止めた。
+小さな覗き穴から、自分の手に液体がついているのを確認した。
+テーブルの上にあるティッシュで、それをふき取り、タツヤに付いているのも拭いてあげた。
+
+「・・遙・・・ありがとう。」
+するとタツヤは、疲れたのかそのままベットで寝てしまった。
+
+私とタツヤの夜は終わった。時計は２時を指していた。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#155">
+				<rdfs:label>155</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-31T00:24:39+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">翌日、辺りが明るくなりタツヤは目を覚ました。
+どうやら、そのまま寝てしまったらしい、はぁ〜
+ハヤトの姿を探すと、床の上でクッションを枕代わりに寝ていた。
+
+「ハヤト・・・」
+
+ベットから出て、外の空気を吸おうと窓を開けた。
+２階からの景色はなかなか良く、清々しい朝の空気が部屋に少し入ってきた。
+そして窓枠に肘をのせ部屋の方を向いたとき、机の上のホワイトボードが見えた。
+何か書いてあった。
+
+タツヤは机に手を伸ばし、手に取り見た。</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#156">
+				<rdfs:label>156</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-31T00:31:52+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「タツヤさん、おはようございます。気分はいかがですか？
+　夜あった事は、本当にびっくりしました。
+　でも私も内心、そうなる事を望んでいたのかもしれません。
+　これからもよろしくお願いします。遙
+　ＰＳ
+　今度はハヤト様にもご奉仕したいです（笑）」
+
+それを読み終え、タツヤはこうつぶやいた。
+「俺も、娘。欲しくなった・・・・」
+
+
+それはとある８月の夜の事でした。　　end</sioc:content>
+			</sioc:Post>
+			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#157">
+				<rdfs:label>157</rdfs:label>
+				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
+				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-08-31T00:42:13+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">&gt;&gt;102から書いた者です。いかかがでしたが？
+
+なんか、話の流れがおかしいかもしれませんね。
+自分は着ぐるみのまま拘束とか好きです、特に口を塞ぐのが(笑)
+まぁどうゆうの物が好まれるのか、よくわかりませんが
+ここまで書けたのは皆さんの批評のお陰です。ホントにいい指摘がいろいろ・・・・
+こんな私ですが、ネタが浮かんだらまた書いてみたいなぁと思っています。
+一度でも読んでくれた人、遙を着たいと一度でも思った人、本当にありがとうございました。
+では次の人、ファイトです。</sioc:content>
+			</sioc:Post>
+		</dcterms:hasPart>
+	</foaf:Document>
+</rdf:RDF>
