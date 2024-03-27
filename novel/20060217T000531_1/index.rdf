@@ -25,7 +25,7 @@
 			<rdf:value rdf:datatype="&xsd;positiveInteger">2498</rdf:value>
 		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="345">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#345">
 				<rdfs:label>345</rdfs:label>
 				<dcterms:creator foaf:nick="" dcterms:identifier="C60ZnIY/xA"/>
 				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-17T00:05:31+09:00</sioc:delivered_at>
@@ -49,7 +49,7 @@
 　その二日間の昂揚は決定的であった。
 　見られているとか、変身願望とかそう言う類の感情も含まれていたのかも知れないが、昂揚の主たる根源は、中に入っていると言うことである。</sioc:content>
 			</sioc:Post>
-			<sioc:Post rdf:about="346">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#346">
 				<rdfs:label>346</rdfs:label>
 				<dcterms:creator foaf:nick="" dcterms:identifier="C60ZnIY/xA"/>
 				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-17T00:06:57+09:00</sioc:delivered_at>
@@ -74,7 +74,7 @@
 
 sage忘れましたorz</sioc:content>
 			</sioc:Post>
-			<sioc:Post rdf:about="347">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#347">
 				<rdfs:label>347</rdfs:label>
 				<dcterms:creator foaf:nick="" dcterms:identifier="C60ZnIY/xA"/>
 				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-17T00:07:43+09:00</sioc:delivered_at>
@@ -94,7 +94,7 @@ sage忘れましたorz</sioc:content>
 
 　日中は主に二人の女性と、一人の男性がサポートに付くが、話を聞いている限り、中の人の存在は全く喪失しており、それこそキャラクターがゲームの外に出てきたと思いこんでいるのに近い感情を持っているのが分かる。</sioc:content>
 			</sioc:Post>
-			<sioc:Post rdf:about="348">
+			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#348">
 				<rdfs:label>348</rdfs:label>
 				<dcterms:creator foaf:nick="" dcterms:identifier="C60ZnIY/xA"/>
 				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-17T00:09:06+09:00</sioc:delivered_at>
