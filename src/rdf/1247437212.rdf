@@ -15981,14 +15981,14 @@ GJ！
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">891</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;892">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">892</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;893">
@@ -16332,14 +16332,14 @@ GJ！
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">919</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;920">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">920</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;921">
@@ -16460,49 +16460,49 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">932</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;933">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">933</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;934">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">934</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;935">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">935</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;936">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">936</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;937">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">937</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;938">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">938</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;939">
@@ -16574,35 +16574,35 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">944</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;945">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">945</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;946">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">946</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;947">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">947</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;948">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">948</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
+		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
 		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;949">
