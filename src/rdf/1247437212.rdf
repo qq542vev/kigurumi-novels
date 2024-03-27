@@ -16328,13 +16328,6 @@ GJ！
 今日の朝思いついて15分で書いたものなので、誤字も多いし、
 つまらないものかいてすいません</sioc:content>
 	</types:BoardPost>
-	<types:BoardPost rdf:about="&post;918">
-		<rdfs:label rdf:datatype="&xsd;positiveInteger">918</rdfs:label>
-		<dcterms:creator rdf:parseType="Resource">
-		</dcterms:creator>
-		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja"/>
-	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;919">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">919</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
