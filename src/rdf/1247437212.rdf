@@ -15982,14 +15982,12 @@ GJ！
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;892">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">892</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;893">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">893</rdfs:label>
@@ -16333,14 +16331,12 @@ GJ！
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;920">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">920</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;921">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">921</rdfs:label>
@@ -16461,49 +16457,42 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;933">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">933</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;934">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">934</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;935">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">935</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;936">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">936</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;937">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">937</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;938">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">938</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;939">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">939</rdfs:label>
@@ -16575,35 +16564,30 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;945">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">945</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;946">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">946</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;947">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">947</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;948">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">948</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;949">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">949</rdfs:label>

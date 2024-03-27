@@ -4680,7 +4680,6 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;238">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">238</rdfs:label>
@@ -6162,7 +6161,6 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;291">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">291</rdfs:label>
@@ -6580,7 +6578,6 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;308">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">308</rdfs:label>
@@ -6687,7 +6684,6 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;319">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">319</rdfs:label>
@@ -6702,7 +6698,6 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;321">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">321</rdfs:label>
@@ -7431,7 +7426,6 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;345">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">345</rdfs:label>
@@ -7636,7 +7630,6 @@ sage忘れましたorz</sioc:content>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;357">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">357</rdfs:label>
@@ -9833,7 +9826,6 @@ sageとくともっと(・∀・)イイ!!</sioc:content>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;469">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">469</rdfs:label>
@@ -10337,7 +10329,6 @@ sageとくともっと(・∀・)イイ!!</sioc:content>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;482">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">482</rdfs:label>
@@ -10410,7 +10401,6 @@ B言語でおｋ</sioc:content>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;491">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">491</rdfs:label>
@@ -12120,7 +12110,6 @@ pass：to-aru
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;591">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">591</rdfs:label>
@@ -14253,7 +14242,6 @@ GJ！
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;734">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">734</rdfs:label>
@@ -14555,7 +14543,6 @@ GJ！
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;753">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">753</rdfs:label>
@@ -15724,7 +15711,6 @@ pass:hajime
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;852">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">852</rdfs:label>
@@ -16290,7 +16276,6 @@ Macに対応していないらしい。＿|‾|○</sioc:content>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;894">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">894</rdfs:label>
@@ -16329,7 +16314,6 @@ Macに対応していないらしい。＿|‾|○</sioc:content>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;899">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">899</rdfs:label>
@@ -16460,7 +16444,6 @@ Macに対応していないらしい。＿|‾|○</sioc:content>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
-		<sioc:content xml:lang="ja"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;915">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">915</rdfs:label>
