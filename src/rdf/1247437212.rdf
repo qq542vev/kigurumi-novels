@@ -6723,7 +6723,6 @@ OLさん。22歳。独り暮らし。
 	<types:BoardPost rdf:about="&post;331">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">331</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-11T15:48:31+09:00</sioc:delivered_at>
@@ -15981,7 +15980,6 @@ GJ！
 	<types:BoardPost rdf:about="&post;891">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">891</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -15989,7 +15987,6 @@ GJ！
 	<types:BoardPost rdf:about="&post;892">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">892</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16334,7 +16331,6 @@ GJ！
 	<types:BoardPost rdf:about="&post;918">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">918</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16342,7 +16338,6 @@ GJ！
 	<types:BoardPost rdf:about="&post;919">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">919</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16350,7 +16345,6 @@ GJ！
 	<types:BoardPost rdf:about="&post;920">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">920</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16472,7 +16466,6 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 	<types:BoardPost rdf:about="&post;932">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">932</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16480,7 +16473,6 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 	<types:BoardPost rdf:about="&post;933">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">933</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16488,7 +16480,6 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 	<types:BoardPost rdf:about="&post;934">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">934</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16496,7 +16487,6 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 	<types:BoardPost rdf:about="&post;935">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">935</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16504,7 +16494,6 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 	<types:BoardPost rdf:about="&post;936">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">936</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16512,7 +16501,6 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 	<types:BoardPost rdf:about="&post;937">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">937</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16520,7 +16508,6 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 	<types:BoardPost rdf:about="&post;938">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">938</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16593,7 +16580,6 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 	<types:BoardPost rdf:about="&post;944">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">944</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16601,7 +16587,6 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 	<types:BoardPost rdf:about="&post;945">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">945</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16609,7 +16594,6 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 	<types:BoardPost rdf:about="&post;946">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">946</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16617,7 +16601,6 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 	<types:BoardPost rdf:about="&post;947">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">947</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16625,7 +16608,6 @@ KKKKK5さんの文章とつながっているように見えて読む側が戸�
 	<types:BoardPost rdf:about="&post;948">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">948</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>

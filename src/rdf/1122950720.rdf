@@ -2634,7 +2634,6 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 	<types:BoardPost rdf:about="&post;110">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">110</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">NVo5.dEVHs</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T04:12:50+09:00</sioc:delivered_at>
@@ -4679,7 +4678,6 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 	<types:BoardPost rdf:about="&post;237">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">237</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -6162,7 +6160,6 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 	<types:BoardPost rdf:about="&post;290">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">290</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -6581,7 +6578,6 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 	<types:BoardPost rdf:about="&post;307">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">307</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -6689,7 +6685,6 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 	<types:BoardPost rdf:about="&post;318">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">318</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -6705,7 +6700,6 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 	<types:BoardPost rdf:about="&post;320">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">320</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7435,7 +7429,6 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 	<types:BoardPost rdf:about="&post;344">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">344</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7443,7 +7436,6 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 	<types:BoardPost rdf:about="&post;345">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">345</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">C60ZnIY/xA</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-17T00:05:31+09:00</sioc:delivered_at>
@@ -7470,7 +7462,6 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 	<types:BoardPost rdf:about="&post;346">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">346</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">C60ZnIY/xA</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-17T00:06:57+09:00</sioc:delivered_at>
@@ -7498,7 +7489,6 @@ sage忘れましたorz</sioc:content>
 	<types:BoardPost rdf:about="&post;347">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">347</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">C60ZnIY/xA</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-17T00:07:43+09:00</sioc:delivered_at>
@@ -7521,7 +7511,6 @@ sage忘れましたorz</sioc:content>
 	<types:BoardPost rdf:about="&post;348">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">348</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">C60ZnIY/xA</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-17T00:09:06+09:00</sioc:delivered_at>
@@ -7645,7 +7634,6 @@ sage忘れましたorz</sioc:content>
 	<types:BoardPost rdf:about="&post;356">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">356</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7653,7 +7641,6 @@ sage忘れましたorz</sioc:content>
 	<types:BoardPost rdf:about="&post;357">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">357</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">C60ZnIY/xA</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-18T00:28:53+09:00</sioc:delivered_at>
@@ -7826,7 +7813,6 @@ sage忘れましたorz</sioc:content>
 	<types:BoardPost rdf:about="&post;373">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">373</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-03-09T01:44:50+09:00</sioc:delivered_at>
@@ -7861,7 +7847,6 @@ sage忘れましたorz</sioc:content>
 	<types:BoardPost rdf:about="&post;374">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">374</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-03-09T01:45:54+09:00</sioc:delivered_at>
@@ -7898,7 +7883,6 @@ sage忘れましたorz</sioc:content>
 	<types:BoardPost rdf:about="&post;375">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">375</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-03-09T01:47:23+09:00</sioc:delivered_at>
@@ -7936,7 +7920,6 @@ sage忘れましたorz</sioc:content>
 	<types:BoardPost rdf:about="&post;376">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">376</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-03-09T01:48:03+09:00</sioc:delivered_at>
@@ -7973,7 +7956,6 @@ sage忘れましたorz</sioc:content>
 	<types:BoardPost rdf:about="&post;377">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">377</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-03-09T01:49:39+09:00</sioc:delivered_at>
@@ -8006,7 +7988,6 @@ sage忘れましたorz</sioc:content>
 	<types:BoardPost rdf:about="&post;378">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">378</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-03-09T01:50:33+09:00</sioc:delivered_at>
@@ -9850,7 +9831,6 @@ sageとくともっと(・∀・)イイ!!</sioc:content>
 	<types:BoardPost rdf:about="&post;468">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">468</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -10355,7 +10335,6 @@ sageとくともっと(・∀・)イイ!!</sioc:content>
 	<types:BoardPost rdf:about="&post;481">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">481</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -10429,7 +10408,6 @@ B言語でおｋ</sioc:content>
 	<types:BoardPost rdf:about="&post;490">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">490</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -11136,7 +11114,6 @@ B言語でおｋ</sioc:content>
 	<types:BoardPost rdf:about="&post;532">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">532</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-08-21T02:30:15+09:00</sioc:delivered_at>
@@ -11172,7 +11149,6 @@ B言語でおｋ</sioc:content>
 	<types:BoardPost rdf:about="&post;533">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">533</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-08-21T02:31:30+09:00</sioc:delivered_at>
@@ -11207,7 +11183,6 @@ B言語でおｋ</sioc:content>
 	<types:BoardPost rdf:about="&post;534">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">534</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-08-21T02:33:16+09:00</sioc:delivered_at>
@@ -11240,7 +11215,6 @@ B言語でおｋ</sioc:content>
 	<types:BoardPost rdf:about="&post;535">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">535</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-08-21T02:34:38+09:00</sioc:delivered_at>
@@ -11568,7 +11542,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;567">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">567</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-18T01:16:03+09:00</sioc:delivered_at>
@@ -11619,7 +11592,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;573">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">573</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:06:09+09:00</sioc:delivered_at>
@@ -11657,7 +11629,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;574">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">574</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:07:52+09:00</sioc:delivered_at>
@@ -11693,7 +11664,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;575">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">575</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:09:04+09:00</sioc:delivered_at>
@@ -11729,7 +11699,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;576">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">576</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:10:18+09:00</sioc:delivered_at>
@@ -11765,7 +11734,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;577">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">577</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:11:28+09:00</sioc:delivered_at>
@@ -11802,7 +11770,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;578">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">578</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:12:35+09:00</sioc:delivered_at>
@@ -11839,7 +11806,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;579">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">579</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:13:36+09:00</sioc:delivered_at>
@@ -11876,7 +11842,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;580">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">580</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:14:45+09:00</sioc:delivered_at>
@@ -11913,7 +11878,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;581">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">581</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:15:45+09:00</sioc:delivered_at>
@@ -11950,7 +11914,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;582">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">582</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:16:51+09:00</sioc:delivered_at>
@@ -11988,7 +11951,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;583">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">583</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:19:15+09:00</sioc:delivered_at>
@@ -12024,7 +11986,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;584">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">584</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:20:27+09:00</sioc:delivered_at>
@@ -12060,7 +12021,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;585">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">585</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:21:49+09:00</sioc:delivered_at>
@@ -12097,7 +12057,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;586">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">586</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">TUrTQC5dZk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:24:00+09:00</sioc:delivered_at>
@@ -12159,7 +12118,6 @@ pass：to-aru
 	<types:BoardPost rdf:about="&post;590">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">590</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -14293,7 +14251,6 @@ GJ！
 	<types:BoardPost rdf:about="&post;733">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">733</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -14596,7 +14553,6 @@ GJ！
 	<types:BoardPost rdf:about="&post;752">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">752</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -15766,7 +15722,6 @@ pass:hajime
 	<types:BoardPost rdf:about="&post;851">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">851</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16333,7 +16288,6 @@ Macに対応していないらしい。＿|‾|○</sioc:content>
 	<types:BoardPost rdf:about="&post;893">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">893</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16373,7 +16327,6 @@ Macに対応していないらしい。＿|‾|○</sioc:content>
 	<types:BoardPost rdf:about="&post;898">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">898</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -16505,7 +16458,6 @@ Macに対応していないらしい。＿|‾|○</sioc:content>
 	<types:BoardPost rdf:about="&post;914">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">914</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>

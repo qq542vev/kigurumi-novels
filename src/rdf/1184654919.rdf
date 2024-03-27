@@ -2901,7 +2901,6 @@ Aさんと鏡の前に向かいお互いソッと（スーツを破損しては�
 	<types:BoardPost rdf:about="&post;247">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">247</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">9ghP7k6ang</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-30T22:35:20+09:00</sioc:delivered_at>
@@ -3016,7 +3015,6 @@ Aさんと鏡の前に向かいお互いソッと（スーツを破損しては�
 	<types:BoardPost rdf:about="&post;257">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">257</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">9ghP7k6ang</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-10-01T21:56:07+09:00</sioc:delivered_at>
@@ -3052,7 +3050,6 @@ Aさんと鏡の前に向かいお互いソッと（スーツを破損しては�
 	<types:BoardPost rdf:about="&post;259">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">259</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">9ghP7k6ang</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-10-01T22:07:19+09:00</sioc:delivered_at>
@@ -3111,7 +3108,6 @@ Aさんと鏡の前に向かいお互いソッと（スーツを破損しては�
 	<types:BoardPost rdf:about="&post;265">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">265</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">9ghP7k6ang</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-10-03T01:50:24+09:00</sioc:delivered_at>
@@ -3947,7 +3943,6 @@ Aさんと鏡の前に向かいお互いソッと（スーツを破損しては�
 	<types:BoardPost rdf:about="&post;337">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">337</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -3989,7 +3984,6 @@ Aさんと鏡の前に向かいお互いソッと（スーツを破損しては�
 	<types:BoardPost rdf:about="&post;342">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">342</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7532,7 +7526,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;655">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">655</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7540,7 +7533,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;656">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">656</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7548,7 +7540,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;657">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">657</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7556,7 +7547,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;658">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">658</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7575,7 +7565,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;660">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">660</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7593,7 +7582,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;662">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">662</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7601,7 +7589,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;663">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">663</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7609,7 +7596,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;664">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">664</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7617,7 +7603,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;665">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">665</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7625,7 +7610,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;666">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">666</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7633,7 +7617,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;667">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">667</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7641,7 +7624,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;668">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">668</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7649,7 +7631,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;669">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">669</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7657,7 +7638,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;670">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">670</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7665,7 +7645,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;671">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">671</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7682,7 +7661,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;673">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">673</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7690,7 +7668,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;674">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">674</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7698,7 +7675,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;675">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">675</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7706,7 +7682,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;676">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">676</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7714,7 +7689,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;677">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">677</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7722,7 +7696,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;678">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">678</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7730,7 +7703,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;679">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">679</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7738,7 +7710,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;680">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">680</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7746,7 +7717,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;681">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">681</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7754,7 +7724,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;682">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">682</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7762,7 +7731,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;683">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">683</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7770,7 +7738,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;684">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">684</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7778,7 +7745,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;685">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">685</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7786,7 +7752,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;686">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">686</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7794,7 +7759,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;687">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">687</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7802,7 +7766,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;688">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">688</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7810,7 +7773,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;689">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">689</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7818,7 +7780,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;690">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">690</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7826,7 +7787,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;691">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">691</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7834,7 +7794,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;692">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">692</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7842,7 +7801,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;693">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">693</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7850,7 +7808,6 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 	<types:BoardPost rdf:about="&post;694">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">694</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7867,7 +7824,6 @@ GJ!!</sioc:content>
 	<types:BoardPost rdf:about="&post;696">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">696</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7875,7 +7831,6 @@ GJ!!</sioc:content>
 	<types:BoardPost rdf:about="&post;697">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">697</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7883,7 +7838,6 @@ GJ!!</sioc:content>
 	<types:BoardPost rdf:about="&post;698">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">698</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7891,7 +7845,6 @@ GJ!!</sioc:content>
 	<types:BoardPost rdf:about="&post;699">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">699</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7899,7 +7852,6 @@ GJ!!</sioc:content>
 	<types:BoardPost rdf:about="&post;700">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">700</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7938,7 +7890,6 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1193321924/907-922
 	<types:BoardPost rdf:about="&post;704">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">704</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7946,7 +7897,6 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1193321924/907-922
 	<types:BoardPost rdf:about="&post;705">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">705</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -7996,7 +7946,6 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1193321924/907-922
 	<types:BoardPost rdf:about="&post;710">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">710</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -8004,7 +7953,6 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1193321924/907-922
 	<types:BoardPost rdf:about="&post;711">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">711</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -8263,7 +8211,6 @@ GJ!!</sioc:content>
 	<types:BoardPost rdf:about="&post;741">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">741</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -8271,7 +8218,6 @@ GJ!!</sioc:content>
 	<types:BoardPost rdf:about="&post;742">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">742</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja"/>
@@ -8663,7 +8609,6 @@ pass=888
 	<types:BoardPost rdf:about="&post;767">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">767</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">sAEsqgy2Kg</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-04-15T19:52:43+09:00</sioc:delivered_at>

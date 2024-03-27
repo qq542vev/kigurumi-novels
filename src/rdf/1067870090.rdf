@@ -6247,7 +6247,6 @@ www.ska.cx
 	<types:BoardPost rdf:about="&post;367">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">367</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">EmLo3PJk</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-05T15:46+09:00</sioc:delivered_at>
@@ -15938,7 +15937,6 @@ ageるのが目的？</sioc:content>
 	<types:BoardPost rdf:about="&post;949">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">949</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string"/>
 			<dcterms:identifier rdf:datatype="&xsd;string">YbIXgmeY</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-01T09:27+09:00</sioc:delivered_at>
