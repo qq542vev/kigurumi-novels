@@ -4876,6 +4876,7 @@ GJ!!だよ。</sioc:content>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;328">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">328</rdfs:label>
@@ -9140,6 +9141,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;615">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">615</rdfs:label>
@@ -9155,6 +9157,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;617">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">617</rdfs:label>
@@ -9247,12 +9250,14 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;623">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">623</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;624">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">624</rdfs:label>
@@ -9723,12 +9728,14 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;648">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">648</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;649">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">649</rdfs:label>
@@ -10150,6 +10157,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;673">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">673</rdfs:label>
@@ -10165,18 +10173,21 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;675">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">675</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;676">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">676</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
 		</dcterms:creator>
 		<schema:creativeWorkStatus xml:lang="en">Deleted</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
 	<types:BoardPost rdf:about="&post;677">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">677</rdfs:label>
