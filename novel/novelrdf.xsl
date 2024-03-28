@@ -30,6 +30,8 @@
 	<xsl:variable name="posts" select="($t1 | $t2 | $t3 | $t4 | $t5 | $t6)/rdf:RDF/*[@rdf:about]"/>
 
 	<xsl:template match="foaf:Document[@rdf:nodeID='main']">
+			<xsl:variable name="first-item" select="$posts[@rdf:about=current()/dcterms:hasPart/*[1]/@rdf:about]"/>
+			<xsl:variable name="last-item" select="$posts[@rdf:about=current()/dcterms:hasPart/*[last()]/@rdf:about]"/>
 		<xsl:variable name="content">
 			<xsl:for-each select="dcterms:hasPart/*/@rdf:about">
 				<xsl:value-of select="$posts[@rdf:about=current()]/sioc:content"/>
@@ -39,17 +41,16 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@* | dcterms:title | dcterms:alternative | schema:creativeWorkStatus | dcterms:hasPart"/>
 
-			<dcterms:dateSubmitted rdf:datatype="W3CDTF">
-				<xsl:apply-templates select="$posts[@rdf:about=current()/dcterms:hasPart/*[1]/@rdf:about]/sioc:delivered_at/@*"/>
-				<xsl:apply-templates select="$posts[@rdf:about=current()/dcterms:hasPart/*[1]/@rdf:about]/sioc:delivered_at/*"/>
+			<dcterms:dateSubmitted>
+				<xsl:apply-templates select="$first-item/sioc:delivered_at/@* | $first-item/sioc:delivered_at/node()"/>
 			</dcterms:dateSubmitted>
 
-			<dcterms:modified rdf:datatype="W3CDTF">
-				<xsl:value-of select="$posts[@rdf:about=current()/dcterms:hasPart/*[last()]/@rdf:about]/sioc:delivered_at"/>
-			</dcterms:modified>
+			<sioc:last_activity_date>
+				<xsl:apply-templates select="$last-item/sioc:delivered_at/@* | $last-item/sioc:delivered_at/node()"/>
+			</sioc:last_activity_date>
 			
-			<dcterms:extent rdf:parsetype="resource">
-				<rdf:value rdf:datatype="{$xsd}positiveinteger">
+			<dcterms:extent rdf:parsetype="Resource">
+				<rdf:value rdf:datatype="{$xsd}nonNegativeInteger">
 					<xsl:value-of select="string-length(translate($content, '&#x9;&#xA;&#xD; 　', ''))"/>
 				</rdf:value>
 			</dcterms:extent>
