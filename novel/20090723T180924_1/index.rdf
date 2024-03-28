@@ -20,7 +20,7 @@
 		<dcterms:title xml:lang="ja">人形遊びＥＸ２</dcterms:title>
 		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2009-07-23T18:09:24+09:00</dcterms:dateSubmitted>
 		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2009-07-25T11:48:19+09:00</dcterms:modified>
-		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="&xsd;positiveInteger">22355</rdf:value>
 		</dcterms:extent>

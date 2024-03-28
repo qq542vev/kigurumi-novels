@@ -20,7 +20,7 @@
 		<dcterms:alternative xml:lang="ja">セーブポイントの向こうに</dcterms:alternative>
 		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-12-30T03:59+09:00</dcterms:dateSubmitted>
 		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-12-30T04:03+09:00</dcterms:modified>
-		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="&xsd;positiveInteger">387</rdf:value>
 		</dcterms:extent>

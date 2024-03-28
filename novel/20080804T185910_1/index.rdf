@@ -20,7 +20,7 @@
 		<dcterms:alternative xml:lang="ja">目覚めと自己愛</dcterms:alternative>
 		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-08-04T18:59:10+09:00</dcterms:dateSubmitted>
 		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-08-06T14:48:31+09:00</dcterms:modified>
-		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="&xsd;positiveInteger">2883</rdf:value>
 		</dcterms:extent>

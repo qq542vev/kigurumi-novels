@@ -20,7 +20,7 @@
 		<dcterms:alternative xml:lang="ja">キュアアクアとキュアピーチ</dcterms:alternative>
 		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:17:18+09:00</dcterms:dateSubmitted>
 		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:43:15+09:00</dcterms:modified>
-		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="&xsd;positiveInteger">22168</rdf:value>
 		</dcterms:extent>

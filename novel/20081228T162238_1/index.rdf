@@ -20,7 +20,7 @@
 		<dcterms:alternative xml:lang="ja">馬の着ぐるみの誘い</dcterms:alternative>
 		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-12-28T16:22:38+09:00</dcterms:dateSubmitted>
 		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-12-28T17:47:17+09:00</dcterms:modified>
-		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="&xsd;positiveInteger">282</rdf:value>
 		</dcterms:extent>

@@ -20,7 +20,7 @@
 		<dcterms:alternative xml:lang="ja">謎めいた贈り物</dcterms:alternative>
 		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-12-29T20:10+09:00</dcterms:dateSubmitted>
 		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-12-29T20:10+09:00</dcterms:modified>
-		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="&xsd;positiveInteger">608</rdf:value>
 		</dcterms:extent>

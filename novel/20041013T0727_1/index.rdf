@@ -20,7 +20,7 @@
 		<dcterms:alternative xml:lang="ja">仮面の裏側</dcterms:alternative>
 		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-10-13T07:27+09:00</dcterms:dateSubmitted>
 		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-10-14T04:31+09:00</dcterms:modified>
-		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="&xsd;positiveInteger">3265</rdf:value>
 		</dcterms:extent>

@@ -20,7 +20,7 @@
 		<dcterms:title xml:lang="ja">Dollersシリーズ５　“兄妹考証”</dcterms:title>
 		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:03:41+09:00</dcterms:dateSubmitted>
 		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:21:34+09:00</dcterms:modified>
-		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="&xsd;positiveInteger">10715</rdf:value>
 		</dcterms:extent>

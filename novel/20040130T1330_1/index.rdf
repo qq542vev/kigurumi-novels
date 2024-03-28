@@ -20,7 +20,7 @@
 		<dcterms:alternative xml:lang="ja">愛と正義の美少女戦士ヴィーナスＶ</dcterms:alternative>
 		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-01-30T13:30+09:00</dcterms:dateSubmitted>
 		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-02-10T20:43+09:00</dcterms:modified>
-		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="&xsd;positiveInteger">28066</rdf:value>
 		</dcterms:extent>

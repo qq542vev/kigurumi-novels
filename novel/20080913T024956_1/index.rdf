@@ -20,7 +20,7 @@
 		<dcterms:title xml:lang="ja">キャラショーの悪夢</dcterms:title>
 		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-09-13T02:49:56+09:00</dcterms:dateSubmitted>
 		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-09-13T14:17:51+09:00</dcterms:modified>
-		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="&xsd;positiveInteger">6105</rdf:value>
 		</dcterms:extent>

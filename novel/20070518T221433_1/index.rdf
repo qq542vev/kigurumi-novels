@@ -20,7 +20,7 @@
 		<dcterms:alternative xml:lang="ja">秘密の撮影</dcterms:alternative>
 		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-05-18T22:14:33+09:00</dcterms:dateSubmitted>
 		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-05-18T22:19:45+09:00</dcterms:modified>
-		<schema:creativeWorkStatus>Incomplete</schema:creativeWorkStatus>
+		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="&xsd;positiveInteger">3594</rdf:value>
 		</dcterms:extent>

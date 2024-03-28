@@ -20,7 +20,7 @@
 		<dcterms:title xml:lang="ja">ヒーロー</dcterms:title>
 		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2009-05-17T18:47:58+09:00</dcterms:dateSubmitted>
 		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2009-05-19T21:58:13+09:00</dcterms:modified>
-		<schema:creativeWorkStatus>Complete</schema:creativeWorkStatus>
+		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="&xsd;positiveInteger">11795</rdf:value>
 		</dcterms:extent>
