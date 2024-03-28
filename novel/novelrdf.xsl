@@ -54,6 +54,10 @@
 					<xsl:value-of select="string-length(translate($content, '&#x9;&#xA;&#xD; 　', ''))"/>
 				</rdf:value>
 			</dcterms:extent>
+
+			<sioc:num_items rdf:datatype="{$xsd}nonNegativeInteger">
+				<xsl:value-of select="count(dcterms:hasPart/*[@rdf:about])"/>
+			</sioc:num_items>
 		</xsl:copy>
 	</xsl:template>
 
