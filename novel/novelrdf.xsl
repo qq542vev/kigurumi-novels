@@ -41,9 +41,9 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@* | dcterms:title | dcterms:alternative | schema:creativeWorkStatus | dcterms:hasPart"/>
 
-			<dcterms:dateSubmitted>
+			<dcterms:created>
 				<xsl:apply-templates select="$first-item/sioc:delivered_at/@* | $first-item/sioc:delivered_at/node()"/>
-			</dcterms:dateSubmitted>
+			</dcterms:created>
 
 			<sioc:last_activity_date>
 				<xsl:apply-templates select="$last-item/sioc:delivered_at/@* | $last-item/sioc:delivered_at/node()"/>
