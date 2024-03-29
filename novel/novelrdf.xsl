@@ -37,7 +37,8 @@
 			</xsl:for-each>
 		</xsl:variable>
 
-		<xsl:copy>
+		<!--<xsl:copy>-->
+		<sioc:Container>
 			<xsl:apply-templates select="@* | dcterms:title | dcterms:alternative | schema:creativeWorkStatus | dcterms:hasPart"/>
 
 			<dcterms:created>
@@ -57,7 +58,8 @@
 			<sioc:num_items rdf:datatype="{$xsd}nonNegativeInteger">
 				<xsl:value-of select="count(dcterms:hasPart/*[@rdf:about])"/>
 			</sioc:num_items>
-		</xsl:copy>
+		</sioc:Container>
+		<!--</xsl:copy>-->
 	</xsl:template>
 
 	<xsl:template match="dcterms:hasPart[@rdf:parseType='Collection']/*[@rdf:about]">
