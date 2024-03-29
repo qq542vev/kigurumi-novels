@@ -52,12 +52,12 @@
 	</xsl:template>
 
 	<xsl:template match="url">
-		<xsl:apply-templates select="document(.)//foaf:Document[@rdf:nodeID='main']">
+		<xsl:apply-templates select="document(.)//sioc:Container[@rdf:nodeID='main']">
 			<xsl:with-param name="url" select="substring-before(., 'index.rdf')"/>
 		</xsl:apply-templates>
 	</xsl:template>
 
-	<xsl:template match="foaf:Document[@rdf:nodeID='main']">
+	<xsl:template match="sioc:Container[@rdf:nodeID='main']">
 		<xsl:param name="url" select="."/>
 
 		<tr>
@@ -74,14 +74,14 @@
 					</xsl:choose>
 				</a>
 			</td>
-			<td>
+			<td class="{translate(schema:creativeWorkStatus, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')}">
 				<xsl:apply-templates select="schema:creativeWorkStatus"/>
 			</td>
 			<td>
 				<xsl:apply-templates select="dcterms:extent[@rdf:parseType='Resource']/rdf:value"/>
 			</td>
 			<td>
-				<xsl:apply-templates select="dcterms:dateSubmitted"/>
+				<xsl:apply-templates select="dcterms:created"/>
 			</td>
 		</tr>
 	</xsl:template>
@@ -97,7 +97,7 @@
 		<xsl:value-of select="format-number(., '#,###')"/>
 	</xsl:template>
 
-	<xsl:template match="dcterms:dateSubmitted">
+	<xsl:template match="dcterms:created">
 		<xsl:variable name="year" select="substring(., 1, 4)"/>
 		<xsl:variable name="month" select="substring(., 6, 2)"/>
 		<xsl:variable name="day" select="substring(., 9, 2)"/>
