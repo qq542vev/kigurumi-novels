@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:52:44+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-08T23:52:44+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">隠されたアイデンティティ</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-06-28T11:58:41+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-06-29T22:08:33+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">973</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#56">
-				<rdfs:label>56</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-06-28T11:58:41+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#56">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">56</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-06-28T11:58:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">僕は昔から着ぐるみが好きでよく妄想していた。
 あるとき遊園地がキャラクターを募集していたので応募した。
 
@@ -52,11 +36,14 @@
 同封のお金でジャージとお洒落な服と靴を買ってください。
 
 「じゃあ、買い物行くか」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#59">
-				<rdfs:label>59</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-06-29T12:54:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#59">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">59</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-06-29T12:54:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">いろいろと買い物をした。
 明日仕事なので早めに寝る事にした。
 
@@ -74,11 +61,14 @@
 玄関に行って靴を履く。
 靴は夏でも履いて大丈夫なブーツ。
 「忘れ物ないし、出かけよう」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#71">
-				<rdfs:label>71</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-06-29T22:08:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#71">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">71</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-06-29T22:08:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">会社に着くと受付で担当の人を呼んでもらった。
 「斉藤愛さんですね」
 「はい、そうです。よろしくお願いします」
@@ -102,7 +92,14 @@
 殴られたり蹴られたりしても怒らない。
 「じゃあ、よろしく頼むよ」
 担当の人と別れ会社に戻った。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-06-28T11:58:41+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-06-29T22:08:33+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">973</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">3</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

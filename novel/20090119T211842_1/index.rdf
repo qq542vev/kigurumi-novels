@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:26+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-08T23:53:26+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">哀しき着ぐるみ</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2009-01-19T21:18:42+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2009-01-19T21:21:38+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">184</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#563">
-				<rdfs:label>563</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-19T21:18:42+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#563">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">563</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-19T21:18:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　ああを着ぐるみよ、君を泣く、
 　君脱ぎたまふことなかれ、
 　子等に愛されし君なれば
@@ -38,11 +22,14 @@
 　裸で踊れとをしへしや、
 　慰みものと生きろよとて
 　手間をかけかけを作りしや。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#564">
-				<rdfs:label>564</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-19T21:21:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#564">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">564</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-19T21:21:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　貝塚の街のあきびとの
 　笑いをほこるあるじにて
 　親の名を継ぐ君なれば、
@@ -51,7 +38,14 @@
 　ほろびずとても何事ぞ、
 　君は知らじな、芸人の
 　家のおきてに無かりけり。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-19T21:18:42+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-19T21:21:38+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">184</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">2</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

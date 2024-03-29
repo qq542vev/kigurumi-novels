@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-11T21:52:53+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-11T21:52:53+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">人形遊びＥＸ２</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2009-07-23T18:09:24+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2009-07-25T11:48:19+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">22355</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#11">
-				<rdfs:label>11</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T18:09:24+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#11">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">11</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T18:09:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">人形遊び番外編（人形遊びＥＸ）の続編です。
 番外編の続編ってややこしいですね……申し訳ないです。
 それと、またこりずに俺の妄想が暴走してます。
@@ -53,11 +38,15 @@
 性格、容姿等は「人形遊び２」と同じですが、４年前と比べると性格が大人になりました。
 中学校の国語の先生で、バドミントン部の副顧問をしている。
 バドミントン部が今年はイイ線までいっているため夏休みも練習練習の毎日で忙しい。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#12">
-				<rdfs:label>12</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T18:11:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#12">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">12</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T18:11:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">上凪勇美（かみなぎ　いさみ）
 性格、容姿等は「人形遊び番外編」と同じです。
 だいぶ左の小指が治ってきたが、一応包帯を巻いている。
@@ -70,11 +59,15 @@
 性格は「人形遊び番外編」と同じですが、髪が肩ぐらいの長さになりました。
 実は胸が結構大きかったりする。
 真紀を通じて上凪と最近よく遊ぶようになった。上凪とは「勇美ちゃん」「香織さん」と呼び合っている。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#13">
-				<rdfs:label>13</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T18:14:56+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#13">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">13</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T18:14:56+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「８月の８日あいてるんだけど、美優はあいてる？」
 『ちょっと待ってくださいね！えっと……あっ！すみません……ちょっと無理そうです……』
 「そっか……じゃあ、あいてる日があったら一緒に遊ぼ♪最近暑いから体に気をつけてね♪」
@@ -98,11 +91,15 @@
 　寂しさを紛らわせようとして私はいつものように机の前の椅子に座り、パソコンのディスプレイをつけて、あるフォルダを開く……
 　フォルダの中には私が……着ぐるみを着たときの写真がいっぱい入ってる……
 　美優に撮ってもらったサキの写真……それに教頭先生に撮ってもらった交通安全教室のときのアリスちゃんの写真……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#14">
-				<rdfs:label>14</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T18:17:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#14">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">14</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T18:17:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　……んっ……あっ……んく……
 
 　体がその時のことを思い出して……胸がドキドキする……
@@ -127,11 +124,15 @@
 　昔はそこまでこんなこと思わなかった……
 　でも私と美優が先生になってからは、お互い都合が合わなくて着たいときに着ぐるみが着れない……
 　その不安にも似た気持ちと、この前アリスちゃんになった時の気持ちが頭の中でぐるぐる回って今の状態になってるんだと思う……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#15">
-				<rdfs:label>15</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T18:19:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#15">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">15</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T18:19:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　……だめだめ！明日はプール当番なんだからもう寝なくちゃ！
 
 　時計を見るともう１２時を過ぎていた。
@@ -154,11 +155,15 @@
 　
 　着たいなら……自分で買っちゃお♪
 　なんで今まで気づかなかったんだろ……私ったら……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#16">
-				<rdfs:label>16</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T18:22:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#16">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">16</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T18:22:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　そしてネットを開いて検索ワードを入れる。
 
 　着ぐるみ、制作、マスクっと……
@@ -179,11 +184,15 @@
 　私は画面にくぎづけになった……そこには私と同じ名前を持つ「マキ」という女の子のマスクが映し出されていた……
 　でも私と顔が全然違う……私はみんなからよく子供っぽいって言われる……
 　マキは全く正反対だった……目がキリッとしてて大人っぽい女性って感じだった……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#17">
-				<rdfs:label>17</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T18:24:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#17">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">17</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T18:24:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　これ被ったら……私は「マキ」になっちゃうんだ……あぅぅ！……
 　なんか……同じ名前だから余計に……ドキドキしてきちゃった……
 
@@ -203,11 +212,15 @@
 
 　私は購入のページを開き、敢えて髪を黒髪のロングで瞳は黒……私と同じ特徴を持つマキのマスクを買い物カゴにいれた。
 　そして肌タイも買い物カゴにいれる……どんどん現実味がでてきて脈が速くなってくる……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#18">
-				<rdfs:label>18</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T18:27:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#18">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">18</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T18:27:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　合計で１０万８千円……結構かかる……
 　だけど貯金もあるし、これ位ならだいじょぶだと思う。
 　そして住所とかカード払いの設定をして、あとは購入ボタンを押すだけとなった。
@@ -232,11 +245,15 @@
 
 　着ぐるみを買って毎日マキの中でおぼれるか……それとも買わないでサキになれる日まで悶々と過ごすか……
 　どっちもおかしくなっちゃいそうで……私には選択できなかった……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#19">
-				<rdfs:label>19</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T18:30:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#19">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">19</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T18:30:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　自分に押しつぶされた私は、ついに泣きだしてしまった……
 
 　ひっく…ひっく……どっちに……すればいいの……ひっく……わかんないよぉ……
@@ -264,20 +281,28 @@
 　それで……どうすればいいか……きけば……
 
 「すーー……すーー……」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#20">
-				<rdfs:label>20</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T18:34:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#20">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">20</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T18:34:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">真紀ちゃん　着ぐるみ買いたい……でも……編　　完　　です。
 
 今回も着るまでが長いです……申し訳ないです。
 それと「勇美ちゃん」＝「上凪さん」です。わかりにくくしちゃってすみません。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#21">
-				<rdfs:label>21</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T19:49:56+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#21">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">21</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T19:49:56+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　………ん〜〜……暑いよぉ……
 
 　私は暑さとともに目を覚ました。昨日はあのまま寝ちゃってたみたい……
@@ -297,11 +322,15 @@
 
 　私はあわててトイレに駆け込み用をすませると、パジャマと下着を脱いで紺色の競泳用水着を着て、そのうえにＴシャツと短パンを身につけた。
 　そして冷蔵庫からウイダーインゼリーを取り出してそれをくわえながらバックを持って、いそいで部屋を飛び出した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#22">
-				<rdfs:label>22</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T19:53:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#22">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">22</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T19:53:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「はぁ…はぁ…はぁ……間に合った……」
 
 　なんとか時間ぎりぎりに学校のプールに着いた。
@@ -327,11 +356,15 @@
 「うん！」
 　かおりんもＴシャツと短パンを水着の上に着てバックから水泳キャップを取り出した。
 　私もキャップを取り出し、髪をゴムでまとめて二人で着替え室を出た。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#23">
-				<rdfs:label>23</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T19:57:14+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#23">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">23</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T19:57:14+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　今日は前半が５、６年生、後半は１年生がプールの日だった。
 　前半は高学年の子たちだから笛を吹いたりするだけだけど、
 　後半は１年生だから浅いほうのプールに私たちも一緒に入って泳ぎ方とかを教えてあげる……
@@ -352,11 +385,15 @@
 「そ、そうなの？」
 「うん♪」
 　私はちょっとだけ指を開いてかおりんを見た……もう下着はちゃんと着たみたい……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#24">
-				<rdfs:label>24</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T19:59:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#24">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">24</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T19:59:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　そしてかおりんが下着姿で私に近寄ってくる……なんかニヤニヤしてる……
 「私の見せたんだから、まきちゃんのも見せて♪」
 　かおりんはそういって私のＴシャツに手をかけた！
@@ -380,11 +417,15 @@
 　そう思って自分の胸を見る……
 　私は背ばっかり伸びて高校の頃と比べてもそこまで胸が大きくなってない……
 　すこしショボンとしながらバックの中の下着を探す……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#25">
-				<rdfs:label>25</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:01:46+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#25">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">25</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:01:46+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　……あれ？……どこいれたっけ……
 
 　バックの中を隅々まで探す……下着がない！
@@ -402,11 +443,15 @@
 　「着ぐるみ」って言いそうになったから、あわてて口を塞いだ！
 　体に巻いてたタオルがパサッと下に落ちる。
 　私は着ぐるみを買うか買わないかを勇美ちゃんに相談しようとしてたのを忘れちゃってた……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#26">
-				<rdfs:label>26</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:04:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#26">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">26</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:04:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　ゆっくり振り向くとかおりんが心配そうな顔で私を見ていた……
 
 「……えっと……下着忘れちゃって……」
@@ -420,17 +465,25 @@
 　みんなと一緒だったからすっかり忘れちゃった……
 
 　私は体をササッと拭いて、水着の上に着てきたＴシャツと短パンを着て、先に着替え室を出た。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#27">
-				<rdfs:label>27</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:06:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#27">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">27</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:06:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">真紀ちゃん　もお！かおりんったら！編　　完　　です。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#28">
-				<rdfs:label>28</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:12:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#28">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">28</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:12:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　学校を後にし、私はアパートへと向かった。　
 　独りになると、また着ぐるみのことで頭が一杯になってきちゃう……
 
@@ -456,11 +509,15 @@
 「……ほっ……」
 　ひとまず安心してケータイを閉じた。
 　そしてバックにケータイを戻し、部屋を片付けてお茶の準備を始めた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#29">
-				<rdfs:label>29</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:14:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#29">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">29</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:14:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　それからちょうど十分後、勇美ちゃんが私の部屋にきてくれた。
 　勇美ちゃんはバックを床に置き、腰をおろすとすぐに私に聞いてくれた。
 「あの……相談というのは……」
@@ -473,11 +530,15 @@
 「え！……」
 　勇美ちゃんはびっくりしてた……
 　いきなりこんなこと言われて驚かない人はいない……私の秘密を知ってる勇美ちゃんだってそうだと思う……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#30">
-				<rdfs:label>30</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:18:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#30">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">30</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:18:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　私は膝の上の拳をギュッと握りしめ、勇美ちゃんに悩みを打ち明けた……
 
 「この前アリスちゃんになってから……ちょっと変なの……
@@ -498,11 +559,15 @@
 　ひっく………もうどおすればいいか……ひっく……自分じゃ……わかんないの……」
 
 　私は勇美ちゃんの前だというのに、その場に泣き崩れてしまった……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#31">
-				<rdfs:label>31</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:20:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#31">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">31</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:20:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「……真紀さん……顔上げてください」
 「ひっく…ひっく…ひっく……」
 　顔を上げると、勇美ちゃんが優しく微笑み、私の涙を手でぬぐってくれた……
@@ -523,11 +588,15 @@
 「はい♪今は指が治ってないんで着れないんですけど……」
 　私は２回も驚かされた！
 　一番驚いたのは勇美ちゃんが着ぐるみを持ってることだった！</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#32">
-				<rdfs:label>32</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:22:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#32">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">32</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:22:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「私サークルとかに入ってなかったから大学生の時にバイトで毎週着ぐるみが着れたんです。
 　そのころはよかったんですけど……公務員試験が近くなってくると、そうもしてられなくなっちゃって……
 　それで思いきって貯めておいたバイト代で着ぐるみ一式買っちゃいました！」
@@ -546,11 +615,15 @@
 「例えば……土曜日にしましょう。そしたら土曜日に全部マーク付けて毎週着ぐるみを着ます！」
 「え！毎週！」
 「はい♪買ったばかりの頃は毎週でも間隔が短いぐらいです……でも一ヶ月間我慢すれば大体慣れてきます！」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#33">
-				<rdfs:label>33</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:24:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#33">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">33</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:24:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　驚きの連続だった……
 　今まで不定期に、予定がない日だけ美優に着せてもらってたからかもしれない……こんなこと思いつかなかった……
 　
@@ -568,11 +641,15 @@
 　
 　そう……これじゃあ着ぐるみがないと生きていけないのと同じだった……
 　あんなに一生懸命説明してくれたのに……こんなこと今更言えない……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#34">
-				<rdfs:label>34</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:29:59+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#34">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">34</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:29:59+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　私が俯いていると勇美ちゃんが優しくこう言ってくれた……
 
 「真紀さん……無理して着ぐるみを自分から離そうとすると……いつか壊れちゃいますよ」
@@ -596,17 +673,25 @@
 　その日は勇美ちゃんの目の前でマキの着ぐるみを注文して、そのあとかおりんを誘って三人で外食した。
 
 　着ぐるみが届くまでの間は、ホームセンターで大きな鏡を買ったり、着ぐるみの手入れの仕方を勇美ちゃんから教わったりした。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#35">
-				<rdfs:label>35</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:31:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#35">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">35</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:31:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">真紀ちゃん　勇美ちゃんの着ぐるみ相談室編　　完　　です。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#36">
-				<rdfs:label>36</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:36:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#36">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">36</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:36:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　そして注文してから２週間後……８月７日金曜日、午後６時すぎ……私の部屋に着ぐるみが届いた。
 
 　宅配業者さんから受け取ったダンボール箱をテーブルの上に運ぶ……
@@ -634,11 +719,15 @@
 
 　よく見たら左の目じりの下に泣きぼくろがついてた。
 　私も同じ所にほくろがある……私が泣き虫なのはこのほくろのせいだと密かに思っている……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#37">
-				<rdfs:label>37</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:39:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#37">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">37</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:39:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　私はマスクを膝の上に置き、大きく息を吐いた……
 
 　ついに……買っちゃったんだ……
@@ -657,18 +746,26 @@
 　私は胸に手をあて深呼吸し、もやもやした気持ちを沈めていった……
 　そしてマキをダンボール箱の中に戻し、箱を部屋の隅に置いてサキと出会う前の……あの時の私を思い出してその日を過ごした。
 　でもやっぱり心配だから一応ショーツにナプキンをつけて寝た……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#38">
-				<rdfs:label>38</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:41:14+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#38">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">38</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:41:14+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">真紀ちゃん　明日は……マキになる！編　　完　　です。
 次の章から着ぐるみを着ます。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#39">
-				<rdfs:label>39</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:46:57+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#39">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">39</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:46:57+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　……ピピピピ！ピピピピ！
 
 　……ん〜……もう朝に……なっちゃったの……
@@ -698,11 +795,15 @@
 　よし！頑張るぞ！
 　
 　ピーチdeジュースのおかげで元気が出た。私は着ぐるみを着るための準備をテキパキとこなしていった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#40">
-				<rdfs:label>40</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T20:53:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#40">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">40</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T20:53:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　それから数分後……私は最後の確認をしていた。
 
 　お風呂も入れたし！エアコンもつけたし！服も用意したし！それから……ラジオペンチもあるし！ＯＫ♪
@@ -730,11 +831,15 @@
 　んくぅ！……
 
 　肌タイであそこが優しく擦られて……あそこがちゅくん！ってなった……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#41">
-				<rdfs:label>41</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T21:11:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#41">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">41</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T21:11:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　次に両手を通して首にぶら下がってるフードを被る……
 　私の肌は顔と背中以外肌タイで覆われてる……どんどん呼吸が速くなる……
 
@@ -756,11 +861,15 @@
 　……こんなに……濡らしちゃった……おしっこ漏らしちゃってるみたい……
 
 　まだマスクをつけてないのに……あそこがビッチョリになってた……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#42">
-				<rdfs:label>42</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T21:17:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#42">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">42</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T21:17:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　肌タイを着た私の体が……すごく柔らかそうに見える……
 　ちょっと肌タイの手で体をさすってみる………やっぱり柔らかい……
 　それに、よくわかんないけど……タイツでこすれあう感じが……すごくきもちいい……
@@ -777,11 +886,15 @@
 
 　鏡を見たらあそこがさっきよりも濡れちゃってた……
 　私は顔を真っ赤にしながらティッシュで濡れた所を拭いて、テーブルの上のマスクを手に取った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#43">
-				<rdfs:label>43</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T21:21:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#43">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">43</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T21:21:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　マスクを手に取ったらさらに胸がドキドキしてきた……
 　床にペタンとお尻をつく……
 　頭に血が昇っちゃってぽーっとする……あのまま立ってたら倒れちゃってたかもしれない……
@@ -804,11 +917,15 @@
 　……でも……やっぱり………着たい……
 
 　私はマキで頭をサンドイッチし、すばやく両脇をコの字パーツで固定して黒髪のウィッグを被った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#44">
-				<rdfs:label>44</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T21:22:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#44">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">44</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T21:22:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">『あぅぅ！！』
 
 　やっぱり……顔が潰れちゃう……首も……きついよぉ……
@@ -829,11 +946,15 @@
 　
 　ぷはっ！！……息が……吸えない……
 　どうにか……しないと……死んじゃう……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#45">
-				<rdfs:label>45</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T21:24:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#45">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">45</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T21:24:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　意識が朦朧としてきた……
 　そんな中、私は出来るかぎり顔からマスクが離れるように、手でマスクを前に引っ張った。
 　そしてゆっくり息を吸ってみた……すると目のあたりがスースーする……なぜかマスクの中に外の空気が入ってきた。
@@ -848,11 +969,15 @@
 　このまま……死んじゃうのかと……思った……
 
 　私は怖くてちょっと涙が出てた……でも泣いててもしょうがないと思ってとりあえず起き上がった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#46">
-				<rdfs:label>46</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T21:26:52+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#46">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">46</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T21:26:52+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　しばらくそのまま座ってたら気持ちが落ち着いてきた……
 　
 　マキは瞳がサングラスになっててそこから外が見える。
@@ -875,11 +1000,15 @@
 　あぅぅ！……んくっ！……
 　
 　さっきまであんなに落ち着いてたのに……胸がキュンってなって……あそこから愛液がじわじわと染み出てきた……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#47">
-				<rdfs:label>47</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T21:29:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#47">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">47</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T21:29:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　これが……今の私……マキなんだ……ふぅっ！……
 　やだ……すごくエッチっぽい……恥かしい……
 　あぁん！……どうしよ……立って……らんない……
@@ -896,11 +1025,15 @@
 　……もう服着ちゃおっと……
 
 　私は着ぐるみを着る前に用意しておいた服を着ることにした。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#48">
-				<rdfs:label>48</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T21:31:52+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#48">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">48</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T21:31:52+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　まずは……これにしよ……
 
 　私はプール当番の時にいつも着てる紺色の競泳用水着を手に取り、早速着始めた。
@@ -922,11 +1055,15 @@
 
 　いつの間にか自分の体に見とれてたことに気づいて急に恥かしくなってきた……
 　マスクの中で顔を赤くしながら肌タイの手で目を隠そうとした……もちろんそこにはマキの顔がある……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#49">
-				<rdfs:label>49</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T21:33:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#49">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">49</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T21:33:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　そっか……今……マキなんだ……
 　……ちょっと恥かしいけど……やってみよ……
 
@@ -951,11 +1088,15 @@
 　……うん……これっぽい……ふふ♪
 
 　ちょっとそれっぽくて私は嬉しくなった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#50">
-				<rdfs:label>50</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T21:37:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#50">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">50</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T21:37:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　そのあとも色々ポーズをとってみる……着ぐるみを着てるとやっぱり大胆になっちゃう……
 　なんかモデルさんがするようなポーズがマキには合うみたい……
 　
@@ -977,20 +1118,28 @@
 　なにかいい方法ないかなぁ……
 
 　そんなこと考えてたら外で１２時のサイレンが鳴った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#51">
-				<rdfs:label>51</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-23T21:40:57+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#51">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">51</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T21:40:57+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">真紀ちゃん　着ぐるみ着用！マキになる！＆着ぐるみ満喫、午前編　　完　　です。
 
 相変わらず一人で盛り上がっちゃってすみません。
 それと続きは出来たら明日ってことで……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#54">
-				<rdfs:label>54</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:06:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#54">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">54</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:06:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　私はひとまずお昼を食べることにした。
 　ラジオペンチで固定パーツを外してマスクを取り、肌タイの顔の穴から頭をだした……顔にエアコンの涼しい風が吹きつける……
 　そして大きく息を吸う……久しぶりに新鮮な空気を吸えた……
@@ -1018,11 +1167,15 @@
 　説明書を開いてみる……文字ばっかりでよくわかんない……
 
 　……１つずつ押してみよう！</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#55">
-				<rdfs:label>55</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:08:14+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#55">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">55</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:08:14+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　それから十分後……
 
 　なんで撮れないの……ぐすっ……全部押したのに……
@@ -1054,19 +1207,27 @@
 　やった♪これで一人で写真撮れる♪
 
 　私はそんなことで子供のようにウキウキしてた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#56">
-				<rdfs:label>56</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:09:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#56">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">56</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:09:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">真紀ちゃん　ひとりで撮れるもん！編　　完　です。
 
 すみません。３０行超えちゃいました……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#57">
-				<rdfs:label>57</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:13:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#57">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">57</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:13:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　私は肌タイのフードを被ってから床に置いてあるマスクで頭覆い隠し、横の隙間をパーツで閉じて再びマキになった。
 　相変わらずキツイ……それに頭をマスクでサンドイッチしたときに中のスポンジから汗がグチュッて染み出してきた……
 
@@ -1094,11 +1255,15 @@
 
 　……もうこんなに……グチョグチョ……
 　ここもちゃんと拭いとけばよかった……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#58">
-				<rdfs:label>58</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:14:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#58">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">58</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:14:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　あまりにも気持ち悪かったから自然とふとももを擦り合わせてた……
 　その動きで……あそこが刺激されちゃう……
 
@@ -1119,11 +1284,15 @@
 　私はリモコンを探した……どこにもない……
 　でも手の中に四角く固いものがあるのを思い出した。
 　ゆっくりと手を開く……濡れたティッシュとリモコンがあった……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#59">
-				<rdfs:label>59</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:16:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#59">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">59</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:16:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　……撮れちゃったの……今の写真……
 
 　リモコンを握ったままあそこを拭いてたからそのときボタンを押しちゃったみたい……
@@ -1139,11 +1308,15 @@
 　女の子座りのまま両手を膝の上に置き、なるべくリモコンが手で隠れるようにボタンを押す……シャッターがきられた。
 　そしてまた画面を確認する……今度はちゃんと撮れてた。
 　でも……マキのイメージと違う気がする……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#60">
-				<rdfs:label>60</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:19:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#60">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">60</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:19:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　ちょっと違う………もっと大人っぽい感じに……そうだ！
 
 　私はテーブルの上にダンボール箱を置き、その上にカメラを乗せた。
@@ -1170,11 +1343,15 @@
 　私しかいない部屋に、カメラのシャッター音と……私のちょっとエッチになってる声が響いてる……
 　
 　気持ちもポーズも……どんどんエッチになってきちゃって……どんどん体が熱くなって……あそこがどんどん濡れてきちゃう……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#61">
-				<rdfs:label>61</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:22:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#61">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">61</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:22:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　……あっ！……これはちょっと……恥かしすぎるよ……
 　でも……別に……いいよね……今の私は……マキなんだから……
 　……それに今日は……エッチになっても……いいんだもん……
@@ -1197,11 +1374,15 @@
 　脳がとけちゃいそう……あそこが急に濡れてきた……
 　着ぐるみを着て……ただ写真を撮ってただけなのに……いっちゃった……
 　私は腰が抜けてそのままうつ伏せになった……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#62">
-				<rdfs:label>62</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:25:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#62">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">62</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:25:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　はぁ…はぁ…はぁ……んんっ……美優と……一緒のときは……ここまで……なんないのに……
 　やっぱり……独りだと……んくっ……いっぱい……感じちゃう……
 　あぅん…………疲れちゃった……今日はもお……おしまいに……しよ……
@@ -1219,19 +1400,27 @@
 
 　私はマスクを外さずに座ったまま水着を脱ぎだした。
 　それがいけなかった……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#63">
-				<rdfs:label>63</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:27:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#63">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">63</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:27:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">真紀ちゃん　独りでエッチな撮影会……編　　完　　です。
 
 次は……もっとエロエロです！</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#64">
-				<rdfs:label>64</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:33:01+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#64">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">64</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:33:01+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　水着の肩ひもをずらし、両腕を抜いてひもを持ちながら腰まで水着を下そうとした……そのときだった！
 
 『ふわっ！…………え？……』
@@ -1259,11 +1448,15 @@
 
 　私は立ちあがって水着を一気に脱いだ。
 　でも鏡の中のマキを見たら急に胸がパンパンになっちゃった……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#65">
-				<rdfs:label>65</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:37:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#65">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">65</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:37:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　マキはすごくいやらしかった………水着を着てたところが汗染みだらけで……首周りも結構湿ってて……私の肌が透けちゃってる……
 　それに……おっぱいも透けちゃってて……肌タイの上からでも……乳首が立ってるのがわかる……
 　そしてなによりも……つまむと滴るぐらいに……ビッショリになるまであそこを濡らしてる……
@@ -1292,11 +1485,15 @@
 　バタン！……びくびく……びくびく……
 
 　私は仰向けに倒れ込み……体を小刻みに痙攣させて……股から蜜を噴き出し続けながら気を失った……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#66">
-				<rdfs:label>66</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:40:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#66">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">66</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:40:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　……くる……しい……
 
 　私は息苦しさで目を覚ました……もちろんマキの中で……
@@ -1325,17 +1522,25 @@
 　……お風呂はいろ……
 
 　私は肌タイとマスクを床に置いたままお風呂へと向かった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#67">
-				<rdfs:label>67</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:43:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#67">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">67</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:43:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">真紀ちゃん　着ぐるみを着て……やっちゃうなんて……編　　完　　です。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#68">
-				<rdfs:label>68</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:44:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#68">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">68</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:44:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　ピンポ〜ン♪
 
 「きゃっ！！」
@@ -1361,11 +1566,15 @@
 　このカッコじゃ恥かしいから、さっき着てた水着を床から拾ってそれを身につけた。
 　でもここはプールじゃないし、あそこが私の愛液でビッチョリだから……すごく恥かしい……
 　水着姿の私を美優は不思議そうに見てる……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#69">
-				<rdfs:label>69</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:46:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#69">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">69</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:46:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　そっか……鍵閉めるの忘れちゃった……
 　でも……どうして美優が……
 　
@@ -1386,11 +1595,15 @@
 「え！！」
 「ごめんなさい……」
 「……」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#70">
-				<rdfs:label>70</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:49:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#70">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">70</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:49:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　美優は急に真剣な顔になって靴を玄関に脱ぎ捨て、私の横を通り過ぎてマキのマスクを拾った。　
 「……さっきまで……着てたんですか？」
 「うん……」　
@@ -1408,11 +1621,15 @@
 
 　お風呂から出ると、美優は座わりながらマキのマスクの中をティッシュで拭いてくれてた。
 　私はタオルで体を拭いて、とりあえず下着とＴシャツ、短パンをタンスから出してそれを身につけた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#71">
-				<rdfs:label>71</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:52:55+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#71">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">71</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:52:55+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　私は美優の前に正座して着ぐるみを買った理由を話すことにした……
 「最近美優に会えなかったから……着ぐるみ着れなかったから……私……すごく着ぐるみ着たくなっちゃって……それで買っちゃったの……
 　サキがあるのに……勝手なことしちゃって……ほんとにごめんなさい…………怒ってる……よね……」
@@ -1441,11 +1658,15 @@
 「うん」
 「私がサキちゃん買った頃には、このマスク無かったんですけど……」
 　そう言いながら美優はマキの顔を見てる……なんだか私を見られてるみたいですごく恥かしい……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#72">
-				<rdfs:label>72</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-24T20:57:01+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#72">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">72</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-24T20:57:01+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「……あっ！いいこと思いつきました！」
 　美優がマキをテーブルの上に置いて、私に満面の笑みを向けてた……でもいいことって……なんだろ？
 　私がポカンとした顔をしていると美優が私にこんなことを聞いてきた。
@@ -1475,11 +1696,15 @@
 『指きりゲンマン、嘘ついたら針千本飲〜ます！ 指切った♪ 』
 
 　＜おしまい＞</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#75">
-				<rdfs:label>75</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊びEX２" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-25T11:48:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#75">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">75</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊びEX２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-25T11:48:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「人形遊びＥＸ２」　完　　です。
 
 ご感想いただき有難うございます。
@@ -1490,7 +1715,14 @@
 それが出来たらまた書かせてください。その際もよろしくお願いします。
 
 そして読んで頂いた方々に深くお礼申しあげます。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-23T18:09:24+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-07-25T11:48:19+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">22355</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">61</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

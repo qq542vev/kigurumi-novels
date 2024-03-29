@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:09:09+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:09:09+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">七色戦隊セブンレンジャー</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-01-30T21:25+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-01-31T21:17+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">2163</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#303">
-				<rdfs:label>303</rdfs:label>
-				<dcterms:creator foaf:nick="ヴァリオン"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-30T21:25+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#303">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">303</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヴァリオン</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-30T21:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「七色戦隊セブンレンジャー」登場人物設定
 
 浦嶋龍太郎（うらしま・りゅうたろう）男　姿が浦島景太郎にそっくりさん、本作品の主人公
@@ -54,11 +38,14 @@
 と、ゆうふうで、いかがでしょうか。
 
 ちなみに、浦嶋龍太郎達は「ラブひな」メインキャラのそっくりさんという形でいいですか。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#316">
-				<rdfs:label>316</rdfs:label>
-				<dcterms:creator foaf:nick="ヴァリオン"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-31T19:01+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#316">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">316</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヴァリオン</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-31T19:01+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">神奈川県・日向市・みなた町温泉街　ＡＭ１０：３０
 旅館・みなた荘付近の駐車場では、みなたフェスティバルというイベントが行われていた。
 イベント最大の見所は「七色戦隊セブンレンジャー」の着ぐるみショー＆握手会が開かれているのだ。
@@ -79,11 +66,14 @@
 氷上裕子「いた、あの男と女にセブンパープルとセブンピンクの代役を任せよう。」
 浦島龍太郎「ま、マジっすか？」 
 鳴瀬川ある「う、うそ〜！」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#320">
-				<rdfs:label>320</rdfs:label>
-				<dcterms:creator foaf:nick="ヴァリオン"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-31T21:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#320">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">320</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヴァリオン</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-31T21:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「七色戦隊セブンレンジャー」ショー舞台裏　ＰＭ１２：２０
 江上美津子「あなた達しかいないの、だからお願い」
 龍太郎とあるに頼みを聞いたら「俺、やります。」「あ、あたしも！」と、素直にＯＫをしてくれた。
@@ -104,7 +94,14 @@
 青山友子「龍太郎とあるは、いつまでトイレにいってるのか。」
 コオラ・スゥ「リュータロー、遅いな。」
 紺野きつね「まあ、いずれはひょっこり帰ってくるとおもうんや。」</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-30T21:25+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-31T21:17+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">2163</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">3</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

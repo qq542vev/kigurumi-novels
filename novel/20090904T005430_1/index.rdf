@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-11T21:52:59+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-11T21:52:59+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">ドール・スーツ</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2009-09-04T00:54:30+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2009-09-05T23:32:16+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">7589</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#204">
-				<rdfs:label>204</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-04T00:54:30+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#204">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">204</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-04T00:54:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">久しぶりに書いてみたので、載せてみます。
 
 ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
@@ -50,11 +34,14 @@
 何が入っているんだろう…？
 中には一枚の紙、白の全身タイツと、レオタードと白タイツが入っていた。
 紙には</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#205">
-				<rdfs:label>205</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-04T00:55:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#205">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">205</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-04T00:55:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">＜注意書き＞
 当社のドール・スーツのご着用の皆様へ
 当社のスーツは長時間着用が原則となっておりますので、十分な汗対策が必須となっております。レオタードやタイツなどで体を覆ったのちに全身タイツを着用し、最終的にスーツを着用していただくことをお勧めします。
@@ -69,11 +56,14 @@
 タイツの上にタイツを履くのはなかなか面倒くさい。なるべくたるまないように注意しながら履いていく。
 これ二枚がさねにしたら絶対蒸れる！なんで着ちゃったんだろ…履かなきゃよかったかな…。
 タイツを頑張って腰まで上げ、腕の部分を着終わったところで、佐々木さんが戻ってきた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#206">
-				<rdfs:label>206</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-04T00:56:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#206">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">206</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-04T00:56:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">佐々木「待たせてごめんよ?これが今日の君の衣装だよ…正確には、この上に衣装を着てもらうんだけどね」
 そうやってロボットのようなマネキンを指差す。
 人形のように整えられた顔、自由には動けそうにない関節、それに、顔には穴がまるで見当たらない…？
@@ -90,11 +80,14 @@
 プラスチックでできているのは、中の人の動きを制限することで人形やロボットに見えやすくするためなんだ。
 だから一度着るとちょっと大変かもしれないけど、頑張ってね。んじゃ、タイツの顔の部分をかぶせるよ。」
 これで私は体中をくまなく覆われてしまった。なんだか間抜け。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#207">
-				<rdfs:label>207</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-04T00:57:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#207">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">207</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-04T00:57:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">【完全な密封】
 
 佐々木「タイツも着終わったし、さっそくこのスーツのほうも着てもらうことにしよう。くるぶしはあまり曲がらないから立ってるのも難しいと思うから、椅子に座って。」
@@ -109,11 +102,14 @@
 私は言われるがままに腕を伸ばし、腕のパーツがはめられるのを待った。
 腕の部分は三分割。二の腕、真ん中、手先といった具合。関節はあまり曲がらない。直角が精一杯だから細かい作業とかは難しそう…。
 全部のパーツをはめ終わったところで、佐々木さんが言った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#208">
-				<rdfs:label>208</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-04T00:58:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#208">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">208</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-04T00:58:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">佐々木「んじゃ、次は顔だよ。このマスクは特別だから説明するね。
 まず呼吸。口の部分にチューブが入っていて、そこから頭の穴で呼吸する。しゃべれなくなるから気をつけてね。
 それから目。目はサングラスのようになっている。ちゃんと曇り止めの機能もあるんだよ。」
@@ -128,11 +124,14 @@
 もう自分の意志も伝えられない、まるで生き人形。
 呼吸はチューブを通してしかできない。私の息の音が頭の中ににこだまする。。。。
 ちょっと暑い…自分の呼吸の音を聞いてるだけで苦しくなってくる…</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#209">
-				<rdfs:label>209</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-04T01:00:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#209">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">209</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-04T01:00:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">佐々木「大丈夫かな？息はできる？」
 私「ンン」
 口が使えないから、うめき声みたいな返事しかできなかった。
@@ -155,11 +154,14 @@
 腕とか腰とかが胸のパーツに固定されているから、
 自分ではろくに動けないうえに、鍵までかけられて……。
 でも、こういうの、悪くないかも…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#210">
-				<rdfs:label>210</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-04T01:01:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#210">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">210</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-04T01:01:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">【脱げない衣装】
 
 佐々木「よし、これで立派な人形だ！しばらくこの姿のままだから、頑張って。さて、次は衣装だよ。
@@ -173,11 +175,14 @@
 はぁ…はぁ…はぁ…
 呼吸はチューブを通してしかできないし、体中汗まみれ。
 脚のほうが、二枚のタイツで蒸れて、ちょっと汗をかいてるし…でも脱げないや…</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#211">
-				<rdfs:label>211</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-04T01:02:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#211">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">211</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-04T01:02:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そんなことを考えているうちに佐々木さんが衣装を運んできた。
 定番の水着、メイド服はもちろん、半そでセーラー服やチャイナドレスもある。
 すごい、本当に全部プラスチックだ…。窮屈そう…
@@ -199,11 +204,14 @@
 「はぁ…これは持ってくるのも一苦労だなぁ。パーツに分かれてないからかさばるんだよね。」
 メイド服は、半そでミニスカートのメイド服本体のほかに、黒ニーソのパーツがあった。
 黒ニーソもパーツになってる…これじゃあ膝が曲がらないよ…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#212">
-				<rdfs:label>212</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-04T01:03:59+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#212">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">212</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-04T01:03:59+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">佐々木さんも心配している。
 「どうする？これ着ちゃうと歩けなくなるよ？まぁこの衣装はテストできなくなっちゃうけど…」
 そうだ、今回はあくまでテストなんだった…佐々木さんも困った顔をしている。
@@ -221,11 +229,14 @@
 袖に腕を通して、背中の部分を閉じてもらう。
 
 カチャリ、カチャリ</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#213">
-				<rdfs:label>213</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-04T01:05:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#213">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">213</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-04T01:05:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">金具が閉じられて、私はメイド人形になった。
 ビキニと違って体が挟まれている分、すごく窮屈に感じる…。歩けないし。
 ただでさえチューブで呼吸してるのに、さらに息苦しい気分。
@@ -246,22 +257,28 @@
 タイツとレオタードを着て、さらに全身タイツ着てるから、蒸れ方が半端じゃない。
 視界だってサングラスを通してからしか見えない。
 せめて脱がせてから次の衣装探しに行ってほしかった…</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#214">
-				<rdfs:label>214</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-04T01:07:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#214">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">214</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-04T01:07:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">鏡の前にいると、本当に自分が入っているのかわからなくなってくる。
 まさかこの中に、視界を奪われて、呼吸もろくにできない、
 自分で衣装も脱げない女の子が入っているなんて誰も思わないだろう。
 それくらい、リサは可愛かった。
 こんなに蒸し暑いのに…でもかわいい…あぁ…
 はぁ…はぁ…でも、蒸し暑くて苦しい…はやく衣装持ってきて…</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#220">
-				<rdfs:label>220</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-05T23:13:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#220">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">220</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-05T23:13:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">【二重のマスク】
 
 ガチャッ
@@ -282,11 +299,14 @@
 
 「次が最後の衣装だから、早く装着しちゃおう！
 でもこれ衣装じゃなくて人形だよな…あ、説明書が付いてる。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#221">
-				<rdfs:label>221</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-05T23:14:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#221">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">221</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-05T23:14:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">佐々木さんが説明書を読み上げてくれた。
 「えーと、なになに？“このドール・スーツ?兇魯ぅ戰鵐藩僂任呂覆?、ドール・スーツを趣味で装着される方のためのものです。
 通常のドール・スーツの上に、このドール・スーツ?兇鯀?着いたしますと、関節が隠れるため、より人形らしくなります”」
@@ -300,11 +320,14 @@
 ひざはまっすぐなままだしるし、肘も少ししか曲げられない。胴体と首はつながっているから、もちろん首も動かない…
 私…生きたままお人形にされちゃう！
 呼吸もできず、体の自由も奪われ、誰かがいないと何にもできないなんて…</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#222">
-				<rdfs:label>222</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-05T23:18:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#222">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">222</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-05T23:18:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「うーん、テストじゃなければ着ないんだろうけど、今日は試着も兼ねてるから、リサちゃんに頑張ってもらおう！
 んじゃ、そこに座ってもらえる？」
 私が言われるがままに椅子に座ると、佐々木さんは運んできた人形の足を外して持ってきた。
@@ -319,11 +342,14 @@
 タイツ２枚とプラスチック２層の体のなかで、私は苦しんでいた。
 ハァ……私は…リサなんだから…ただのお人形さんなんだから…がんばらなきゃ…でも…
 私は苦しさに耐えながら、自分に言い聞かせた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#223">
-				<rdfs:label>223</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-05T23:20:56+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#223">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">223</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-05T23:20:56+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">佐々木さんがからだのパーツを持ってきた。
 リサみたいに腰と胸には分かれていなくて、首から股の下まで一気に覆われるタイプだ。
 プラスチック製のハイネックレオタードみたい。
@@ -340,11 +366,14 @@
 
 胴体のパーツを装着し終えて、次はいよいよマスクだ。
 「いよいよリサちゃんを完璧なお人形にしちゃうよ。テストだしすこしの間だから、頑張ってね。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#224">
-				<rdfs:label>224</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-05T23:21:57+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#224">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">224</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-05T23:21:57+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">佐々木さんはリサより一回り大きなマスクを持ってきて見せてくれた。
 プラスチックでできた髪は黒くて、目も切れ長で凛々しい感じ。
 リサはちょっとかわいい感じだったけど、これはデパートのマネキンみたいだ。
@@ -360,11 +389,14 @@
 「じゃ、リサちゃん、頑張ってね」
 
 カチッ</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#225">
-				<rdfs:label>225</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-05T23:25:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#225">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">225</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-05T23:25:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">鏡を見ると、そこにはスタイルの良い大人の女性の人形が椅子に座っていた。
 肘、肩と脚のつけ根しか関節がないから、本当に人形みたいだ…
 多分私が入ってるなんて誰も思わないんだろうな…しかも脱いでもまたマスクだし。
@@ -388,15 +420,25 @@
 …う…ん…これで衣装があれば完ぺきなんだけどな…裸なのがちょっと恥ずかしい…
 佐々木さんも目のやり場に困っている様子。
 「うーん、人形だと思えばいいのかもしれないけど…やっぱり裸は変だなぁ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#226">
-				<rdfs:label>226</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-09-05T23:32:16+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#226">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">226</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-05T23:32:16+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">すいません、また最後まで行きませんでした…
 読んでくださった方、本当にありがとうございます。
 なんとか一週間以内には完結させたいと考えておりますので、よろしくお願いいたします。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-04T00:54:30+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-09-05T23:32:16+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">7589</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">18</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

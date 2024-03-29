@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:03:07+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:03:07+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">僕の天使「マミア」</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2005-10-20T21:55:13+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2005-10-20T22:01:33+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">3787</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#201">
-				<rdfs:label>201</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-10-20T21:55:13+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#201">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">201</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-10-20T21:55:13+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">それは、いけない恋のはじまりでした、彼女に一目ぼれしてしまったんです、かわいくそして華奢な彼女、でも、彼女は
 　普通の人間ではありません、着ぐるみなのです、いわゆる美少女とゆう種類らしいですけど、着ぐるみが好きなんです、
 　だけど、着ぐるみってやっぱり現実は中に人が入っているんですよね。
@@ -66,11 +50,14 @@
 　「あ、僕？僕は三上亮てゆうんだ、マミアちゃんか、かわいいね、くるしくないの？」すると「亮さん、私は人形ですよ、苦しく
 　なんかないです、おかしなこといわないでください。」「そんなこといったって、きみは着ぐるみだろ、って事は中に人がいる
 　んじゃないの？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#202">
-				<rdfs:label>202</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-10-20T21:56:18+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#202">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">202</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-10-20T21:56:18+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「私はマミア、着ぐるみじゃないの、お人形なの、私はあなたの身の回りの世話をするためにここにきたの、中に人なんていません
 　から。」プロ根性で自分はあくまでも人形といいはるマミア「わかったよ、苦しくなったら、脱いでもいいからね、そんときは
 　あっちむいてるから・」
@@ -107,11 +94,14 @@
 　「でもね、私はいつまでもはいられないの、３日しかお人形でいられないの、それをすぎちゃうと、私はまた、もとの動かない
 　お人形になっちゃうの、だから、３日だけ、あなたのそばにいさせてください。」「３日？短いね、わかった、きみから離れない
 　よ、一緒だよ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#203">
-				<rdfs:label>203</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-10-20T21:57:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#203">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">203</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-10-20T21:57:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「最後の夜に、私のはじめてをもらってください、お約束してください。」「え・・いいの？僕なんかで？」「はい、この世
 　にうまれて女として生きられるのも３日、男性につくしてみたい、私は人形であったときからの願いだったんです、どうか、お願いします
 　。」と訴えかける
@@ -150,15 +140,25 @@
 　そして、そのままマミアの中に息子を差し込んだ、かわらないはずの顔が快感をもとめている女の子の顔にみえる、内部では大変なのことに
 　なっている、激しい振動が内部の人間を刺激する、中で何度もいってしまった、そして、朝、気がつくと、マミアの姿は消えていた、昨日の
 　夜のんだワインに眠り薬がはいっていたのだろう。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#204">
-				<rdfs:label>204</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-10-20T22:01:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#204">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">204</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-10-20T22:01:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">短編ですが、また書いてみました、続きは・・・あんまり期待しないでください
 気まぐれなんで、また、かけるようなら書きますので。
 みなさまの、ご意見、ご感想なども待ってます！</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-10-20T21:55:13+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-10-20T22:01:33+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">3787</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">4</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

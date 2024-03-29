@@ -1,43 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:39+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-08T23:53:39+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">Machinery</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:01:30+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:36:13+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">10067</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#649">
-				<rdfs:label>649</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:01:30+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#649">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">649</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:01:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">21世紀はロボットの時代になるらしい。だが、人間はどこへ行くのだろう。
 
 　「 Machinery 」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#650">
-				<rdfs:label>650</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:02:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#650">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">650</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:02:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　「先程の説明は、何一つ為し得なかったことだ。聞いていて呆れたよ・・・真実を知れば、ここにお越しのプレスの方々も、会場にお越しの皆様も、おたくのスポンサーも失笑を禁じえないだろう。
 　それだけじゃない、人格の蹂躙、人間性の否定だ。あんたは裁かれるだろう。
 　
@@ -53,19 +40,25 @@
 　「君が何をすべきか、分かっているな？
 　------正義などないかもしれない。虚偽が真実ではなく、真実が虚偽であるかもしれない。
 　どちらにせよ、我々は君を待っていたのだ・・・・宜しければ丁寧に扱ってくれたまえ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#651">
-				<rdfs:label>651</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:04:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#651">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">651</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:04:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　そこは、ROBOT EXPOの会場、一般公開に先駆けてのプレス公開日。会場は企業ごとのブースに区切られ、マニピュレータやリフトやロボットアームは元より、懸架や揚重用の強化外骨格、OCRのような活字認識技術、指紋や顔や手の毛細血管や虹彩での個人認証、音声合成、対話型で処理を行うインターフェイス、恐竜型や動物型の愛玩ロボット、ラジコン競技用の玩具、音楽を流しながら踊るラグビーボール、あるいは人工臓器などなど、各社バリエーション豊富なそれらのものが展示されている。
 　「21世紀はロボットの時代になります」という、床に散らばったパンフレットに最初に書かれたマニフェストの通り、これらは、今後もっとも伸びていく産業である。
 　そして、そのパンフレットの表紙に描かれているのは、人型のロボットだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#652">
-				<rdfs:label>652</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:05:29+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#652">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">652</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:05:29+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　「人の形をしている必要は、必ずしもない。当然ですが。」
 　EXPOを数週後に控えた、山陰の研究室では、そのロボットの開発が進められていた。
 　「へー。何かの目的の為じゃないんですね。んじゃ何で？」
@@ -81,11 +74,14 @@
 　「・・・イメージは出来るけど、」「はい、それです！その、イメージが予想出来る、ということが、人間に二足歩行が出来てロボットに出来ない理由です。」
 　「そうは言うが、」と、技師は言う。「暗黙知やゲシュタルトなんて昔からある理論じゃないか。」
 　「いえ、『イメージと予想』が本質です。暗黙知は過去に構築されたもの、ライブラリに過ぎません。ええと・・・」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#653">
-				<rdfs:label>653</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:07:57+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#653">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">653</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:07:57+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　その日、窓の外からは、この電器工場の従業員たちの生き生きとした声が聞こえ、躍動する影が見えた。
 　研究所の隣には、スカッシュや3ON3のためのコートがある。逆に言えば、フルサイズのテニスやバスケットボールほどのコート面積が無いということでもある。
 　「人間か。人間とは何だろう。」教授が呟いた。
@@ -102,21 +98,27 @@
 　静かな研究室に、機械の軋む音と排気音が広がる。
 　くっ、と首を曲げる所、体のバランスを保つために上体をのけぞらせながら手を差し上げ、動かす所、
 　静止と急な動作は、爬虫類を思わせる。もしくは鳥・・・鳥類は温血のトカゲでウロコが変化したものが羽だ、という、よく知られた話があるが、この少女にも小さなメカニカルな羽がある。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#654">
-				<rdfs:label>654</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:09:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#654">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">654</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:09:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　「何だって秋葉系でやってみようって話になったのか。これでせんとくんなら全然アリだろうに。不気味さが売りにもなるだろうに。」
 　「マスコットキャラクターは存在感として軽いからでは？」教授に助手が言う。「う〜ん・・・安易で分かりやすいものを求めるのが大衆であり市場主義ですが、その結果生み出される社会的な機械には魂がない。奈良、平安遷都、この上なく分かりやすい。
 　先生の言葉で言うと秋葉系ですが、それもそういう危機を抱えていて・・・アニメのキャラクターにも作品の中での愛と死がある。それが魅力を形作る。しかし、萌え産業の消費者にはそんなものに興味を抱く必要が無い。だから安易なメイド、記号化された顔と髪型。磨り潰されたキャラクターグッズ。」
 　
 　そうした美少女は、今彼らの前に居る。エプロンドレスで羽があり甘いクリームソーダのような色と目と肌、血のかわりに電気が流れ、肉の代わりに-----アクチンとミオシンの化学反応で動くのが肉と腱だが、これはペルチェ素子のわずかな温度変化で揮発油を暖め冷やすことで駆動するスターリングエンジンと、瞼や唇を動かすコンプレッサーの空気で動いている。それはモーターと歯車の駆動とは違った、人間らしい柔らかな動きを実現する筈だった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#655">
-				<rdfs:label>655</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:10:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#655">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">655</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:10:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　EXPO会場での、二人の人物の対峙。居合わせた報道記者は携帯をまさぐって、iコンシェルに録音の指示を出す。金髪ツインテールのアヴァターは、不貞腐れたように操作の開始を告げる。
 　
 　電話の鳴る音、時計は午後の1時過ぎを指し、外のグランドからは従業員達の声まもう聴こえない。
@@ -137,11 +139,14 @@
 　その間、彼女は研究室の様子をちらちらと盗み見る。ロボットのまわりに乱雑に置かれた電源装置、ケーブル、銀色のシリンダー。汚れた白衣の技師たちはファイルやノートPCを持ってテーブルに集まり始める。重い足取り、と彼女は判断する。これはスムーズには行かないようだ。会議の時間はきっと長い。
 　彼女は教授のほうに声をかける。「外出てていいですか？ここは電波がわるくて・・・」
 教授は話の途中で彼女に答える。構わんよ。最近の子は携帯が好きだな。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#656">
-				<rdfs:label>656</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:12:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#656">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">656</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:12:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　スカッシュのハーフコートのそばのベンチに座る。もう、ここに人影は無い。夏も過ぎて、涼しくなったと思う。
 　携帯でぷちぷちとメールを打つ。
 　＞ちこくした。副都心線パネェ。アナウンスが途中でだまるとかないわ。あ、とか言ってるの。
@@ -153,11 +158,14 @@
 
 　『何点か確認したいことがある。一度研究室に戻ってほしい。』
 　『あーはい、今戻ります。』</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#657">
-				<rdfs:label>657</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:13:16+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#657">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">657</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:13:16+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　彼女はプロダクションを通して、ロボットの製作に協力する立場にある。努力義務と守秘義務を負っている。そして、山陰電器の産学協業体のラボが彼女に求めているのは、モーションデータを提供すること。そういった事柄の確認が教授から求められた。彼女は同意した。
 　教授はロボットのフレームから取り外された、衣装も無い裸の、言うなれば皮の部分を指し示す。
 　「-------それを・・・ベネティアの外装のことだが、被ってみてほしいわけだ。」
@@ -174,11 +182,14 @@
 　人間なら？
 　「下までやっぱり脱いだほうがいいんですか？」
 　御陵はパーテションの向こうに声をかける。ああ、と返事がある。なんとなく辺りを見渡してから、スカートを脱いで、ブラウスといっしょにパーティションにかける。ストッキングを脱ぐ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#658">
-				<rdfs:label>658</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:14:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#658">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">658</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:14:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　背中のジッパーを程々に下げて、足から着てみようとする。くるぶしの部分が通らない・・・そのうち肌が汗ばんできて、きゅぽっと音を立てて入る。脱げないかもしれない。
 　手を通す。細管があるからか、軽く水圧のような感触。体を体の部分にはめ込む。
 　「胸と言うかというか体がぴったり来ないんですが？」声をかける。「まぁ冷却水が充当されるだろう。」という返事。
@@ -195,32 +206,41 @@
 　イヤフォンの延長コードの先には、パソコンがつながり、それのマイクが音声を拾うようだ。イヤフォンをつけて、頭を頭部にはめ込む。視界はピンホールの視界で、室内が暗く見える。
 　口をくわえる。首の後ろのジップが下ろされると、首が絞まる感じがする。首までがマスクの部分で、継ぎ目はエプロンドレスの首輪状の襟で隠れる形だ。顔は、上向きで固定される。背中の開いていた部分が閉じられる。
 　『聴こえますか？聴こえたら手を上げて下さい。』手を上げる。『水とエアを回します。呼吸を機械に任せてください。人工呼吸をされるような感じになります。いいですか・・・』</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#659">
-				<rdfs:label>659</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:15:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#659">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">659</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:15:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　突然、空気が強い力で肺から吸い出され、一瞬胸が詰まる。慌てて空気を吸おうとすると、空気が押し込まれる。体が咳き込もうとするが、出来ない。マスクを外そうとする指が首の後ろや顎を掻きむしるが、手がかりが無い。手足が何人かの手で抑え付けられる。
 　『はい落ち着いて！』と耳元で声。『吐いて！』声は続く。『吸って！・・・いいですよ、吐いて！』
 　軽いパニックで真っ白くなった頭が、機械が力尽くで呼吸を奪ったのを理解する。
 　水圧が体にかかっている。さっきまでは椅子の感触が感じられていたのに、今はそれも無い。手足を押さえていた手が取り除けられる。耳元で、
 　『君は、機械になった。』教授の声がした。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#660">
-				<rdfs:label>660</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:17:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#660">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">660</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:17:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　夜、地下鉄のプラットホームで、背中合わせの二人が話す。
 　『副都心線のその後の進捗状況は？』
 　『進んでいません。もしくは、状況が変わりました。つまり・・・彼らは、
 　終点まで乗るつもりがもう無いかもしれません。』
 　『自発的に降りてしまった？』
 　『恐らく。それと・・・いえ、これは次の報告に。』</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#661">
-				<rdfs:label>661</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:18:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#661">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">661</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:18:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　イヤフォンからの声。それはラボのPCの一台につながれ、マイクの音を拾っている。
 　今日は技師さんがつきっきりになるようだ。教授の姿は無い。
 　『簡単な練習をしよう。今からこのイヤフォンにクリック音を流す。音の鳴った方を向いてくれ。』
@@ -251,11 +271,14 @@
 　助手：「ななななにゆうてはるんですか。そんなわけあらしまへんわ」
 　------とか、彼女はその情景に台詞を付けてみる。
 　あの助手さんは後先考えずにそんなことが出来るようなタイプじゃないだろうけど。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#662">
-				<rdfs:label>662</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:20:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#662">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">662</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:20:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　廊下に出る。突き当たりには姿見があり、そこにベネティアこと自分が映っている。
 　こういう生物だ、種族だ、と言えばそれで通じる存在感。そこへ向かって歩きながら、うつむき加減だった姿勢と歩き方を修正する。
 　・・・その鏡の右手がトイレだ。スタッフさんは個室の前で待っている。習慣的に携帯のことを思い浮かべるが、今は当然身に付けていない。
@@ -271,11 +294,14 @@
 　
 　メールのメッセージ。コミュニケーションの断絶を感じる。
 　器械の中の孤独と、耳元のマイクの声。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#663">
-				<rdfs:label>663</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:21:49+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#663">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">663</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:21:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　『ハードウェア制御の限界値を読み取りたいので、今日は定時までそのまま着ていて。』
 　＞まじで＠＠
 　『じっとしていられると正規のデータにならないから、負荷をかけてみますか・・・音楽でも聴いてウマウマでも踊っててください。』
@@ -289,11 +315,14 @@
 　ステージイベントでは、彼女-----ベネティアが自然に障害物を避けて歩いたり、階段を上ったり降りたり、キャッチボールをしたり、そして愛くるしく踊る姿を-------多くの来場者が見ていた。
 　それが目の前にいる。背中を向けて、ギチギチと噛み合ったジッパー。その中には、生身の人間が居る。
 　彼の知っている情報では、確かにその筈だ。それを暴けば山陰電気のロボット開発にダメージを与え、四星の市場占有の足掛かりとすることができる。彼はそのレイヤードに示すとおり四星のエージェントであり、退く事は出来ない。ジッパーに指をかける。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#664">
-				<rdfs:label>664</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:23:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#664">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">664</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:23:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　ステンレスのデスクが、キャスター付きの椅子にその片方を乗せて傾けられ、その鋭角の頂点にベネティアが居る。腕は後ろ手にビニールテープで拘束され、背中から伸びたケーブルは天井の照明器具に引っ掛けられている。
 　簡易的な三角木馬だ。
 　ベネティアの足は机の角を挟み、体が二つに裂かれるイメージを予想し、それ故に身動ぎながら太腿に力を入れて体を支えている。
@@ -302,11 +331,14 @@
 　彼女のステータスはパソコンのモニタに表示されて、それを助手がコーヒーを飲みながら眺めている。
 　
 　そして、四星のエージェントはジッパーを開いて、その肌を押し広げた。器械の熱、オゾンの匂い。意外にも隙間が多く密度の無いプラスティックのフレームと金属のシリンダー。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#665">
-				<rdfs:label>665</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:26:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#665">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">665</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:26:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　「分かっていたのだ。」教授が彼に告げる。
 　「あのタレントさんが産業スパイの類だと言う事も、そして君がここに来るであろう事も。だが、君が何者かは分からなかった。その主体がね。一体何者が我々の成果を盗もうというのか、ということが。
 　だから、我々は罠を仕掛けたのだ。」
@@ -324,24 +356,37 @@
 　-------さて、君をどうしよう？』
 　ベネティアは優しい笑顔のまま、腰をくねらせて・・・木馬の鋭角の上で足掻いている。ジッパーが机の角に擦れて、ガリガリと音を立てる。
 　電話が鳴るが、彼女には聴こえない。助手は電話を取る。ややあって、</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#666">
-				<rdfs:label>666</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:29:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#666">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">666</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:29:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　『黒幕が割れました。あなたは誰にとっても用済みだが・・・教授は、あなたを使ってもう少し研究をしたいようですね。
 　同意しますか？・・・ああ、そうだった。』
 　彼女の耳に、頷く、の操作音が鳴る。ベネティアは頷いた。-------機械として。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#667">
-				<rdfs:label>667</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:36:13+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#667">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">667</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:36:13+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">fin.
 
 いささか乱調すぎるな・・・
 面白そうな所だけ摘んで頂ければ幸いです。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:01:30+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-04-22T13:36:13+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">10067</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">19</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

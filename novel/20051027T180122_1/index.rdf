@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:03:09+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:03:09+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">学園祭の裏側</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2005-10-27T18:01:22+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2005-10-27T18:02:27+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">1333</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#223">
-				<rdfs:label>223</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-10-27T18:01:22+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#223">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">223</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-10-27T18:01:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">隣町の女子高の学園祭にいけることになった、姉がそこの学校のＯＢで女子高の学園祭ってゆうのはなかなか入れないの
 　だが、なけなしのお小遣いを奮発して姉にお願いしたのだ、なぜ、そこまで、この女子高の学園祭に行きたいかとゆうと、
 　この女子高にはマスコットが存在するのだ。
@@ -55,11 +39,14 @@
 　あのかわいい、着ぐるみの中には外見のかわいさとは別な世界、俺なんかが入ることをゆるされないであろう、未知の
 　領域、暑さと呼吸に苦しむ女の子が入って、元気いっぱいにお客と握手をしている、中身の想像などすると、俺の息子
 　は暴走する。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#224">
-				<rdfs:label>224</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-10-27T18:02:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#224">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">224</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-10-27T18:02:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ステージ終了後
 
 　俺はいけないとわかっていたがどうしても中身の女の子の顔がみたい、あんな暑くて狭い空間に閉じ込められている
@@ -82,7 +69,14 @@
 　いた子だ、暗い中でもなぜか雅な雰囲気がでてきた。
 
 　続く</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-10-27T18:01:22+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-10-27T18:02:27+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">1333</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">2</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

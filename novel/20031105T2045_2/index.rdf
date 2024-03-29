@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-17T01:58:33+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-17T01:58:33+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">秘密のステージ</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2003-11-05T20:45+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2003-11-08T20:37+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">1773</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#5">
-				<rdfs:label>5</rdfs:label>
-				<dcterms:creator foaf:nick="小説屋　１" dcterms:identifier="v4QHxgNM"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-05T20:45+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#5">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">5</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">小説屋　１</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">v4QHxgNM</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-11-05T20:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">僕はキャラクターショーのアルバイトをしています。
 何故この仕事をしているかって？それは着ぐるみフェチだから。
 
@@ -47,11 +32,15 @@
 もちろん、その辺は前もって調査したことは言うまでもありません。
 それは女性キャラの着ぐるみを真近で見るのが目的だからです。
 ヒーローものよりもヒロインものが見れる確率が高いからです。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#6">
-				<rdfs:label>6</rdfs:label>
-				<dcterms:creator foaf:nick="小説屋　２" dcterms:identifier="v4QHxgNM"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-05T20:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#6">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">6</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">小説屋　２</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">v4QHxgNM</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-11-05T20:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">僕の配役が決まりました。何と！それが若い女の子役なのです。
 セリフが少なく動きも少ない、そして僕の身長が159cmしかない、というのが理由でした。
 「見るだけでなく、自分が女性キャラの着ぐるみの中に入るなんて....」
@@ -64,11 +53,15 @@
 どうやったらもっとかわいく見えるかを試していました。
 
 この日より、僕は『見る着ぐるみフェチから着る着ぐるみフェチ』へと変わっていきました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#17">
-				<rdfs:label>17</rdfs:label>
-				<dcterms:creator foaf:nick="小説屋　３" dcterms:identifier="v4QHxgNM"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-08T20:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#17">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">17</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">小説屋　３</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">v4QHxgNM</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-11-08T20:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">さて、本番になりました。
 しかし、僕の股間の棒は固くなったままでした。
 「スカートがついていて良かった....」
@@ -87,11 +80,15 @@
 「か、かわいい....」
 僕の棒はますます元気になりました。しかもヒロインと密着しています。
 僕はどさくさにまぎれてヒロインをギュっと抱き締めました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#18">
-				<rdfs:label>18</rdfs:label>
-				<dcterms:creator foaf:nick="小説屋　４" dcterms:identifier="v4QHxgNM"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-08T20:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#18">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">18</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">小説屋　４</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">v4QHxgNM</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-11-08T20:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「あ....あ....いくぅぅ....」
 触れてもいないのに、元気になった股間の棒が爆発して白い液体を排出しました。
 「あ、や....ば....い.....。でも....きもちぃ....」
@@ -108,7 +105,14 @@
 「あぁ....着ぐるみでやりたい....」
 やがて、僕の本能がそれを止めることができなくなりました。
 理性を失った僕はそれを実行することに決めました。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-11-05T20:45+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-11-08T20:37+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">1773</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">4</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

@@ -1,41 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:16+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-08T23:53:16+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">エナメルに包まれた人形</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-12-08T22:24:15+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-12-08T22:39:13+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">6480</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#394">
-				<rdfs:label>394</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="oDpAfMeajc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-08T22:24:15+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#394">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">394</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oDpAfMeajc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-12-08T22:24:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">数レス借りて、書いてみたものを試しに投下させていただきます。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#395">
-				<rdfs:label>395</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="oDpAfMeajc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-08T22:25:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#395">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">395</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oDpAfMeajc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-12-08T22:25:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">-------------------------------------------
 
 部屋にチャイムが鳴り響く。彼女が来たようだ。
@@ -54,11 +41,14 @@
 股間部には膣内を覆う筒状のカバーも取り付けており、着用したままで性交をすることも可能。
 材料にも造形にも徹底的に拘り作り上げたそれは、見ようによってはとてもいやらしい。
 もはや、それはプレイスーツと言っても良い代物であった。元々そういう目的で作ったというのもあるのだが。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#396">
-				<rdfs:label>396</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="oDpAfMeajc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-08T22:26:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#396">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">396</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oDpAfMeajc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-12-08T22:26:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">彼女は一糸纏わぬ姿になるとパウダーを振りかけ、ファスナーが開いたスーツの背中から足を差し込んだ。
 少し恥ずかしそうな顔をしながらも、積極的に身につけていく。
 彼女の体型ぴったりに作ってあるので、着るだけでも一苦労だ。ましてはこのスーツは裏地までエナメルで作ってたりする。
@@ -73,11 +63,14 @@
 両手がぴっちりと包まれた後、乳房にもスーツを被せていく。フィットさせている間、彼女はずっと切なそうな顔になっていた。
 その後は、顔の部分を被せる。面下とも呼ばれる開いた部分をずれが無い様に位置調節した後、
 セミロングの髪の毛を背中の裂け目からはみ出ない様にスーツの中にしまい込んでいった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#397">
-				<rdfs:label>397</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="oDpAfMeajc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-08T22:28:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#397">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">397</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oDpAfMeajc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-12-08T22:28:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そうして、頭まですっぽり覆われた彼女の背中についたファスナーを、末端まで引き上げる。
 鏡を持ってきて、その姿を彼女自身にも見えるようにした。
 つやつやのエナメルで出来た皮膚は彼女の全身を隙間無く包み込んでおり、露出しているのは顔の部分のみになっていた。
@@ -99,11 +92,14 @@
 しかし、ただのプレイスーツでもない。
 そして、ただの着ぐるみでもない。
 全身が覆われているのに、全裸である矛盾を抱えたのが、今の彼女。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#398">
-				<rdfs:label>398</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="oDpAfMeajc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-08T22:30:00+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#398">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">398</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oDpAfMeajc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-12-08T22:30:00+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">今回の目的は、そんな彼女とえっちをすることであった。
 元々、彼女は全裸での行いより、何かを着ての行いを好む傾向で、自分自身もそれは同じだった。
 キャラクターコスプレから、美少女着ぐるみ。所謂ボンデージ的な衣装でのプレイまで、ある程度は今までやってきた。
@@ -120,11 +116,14 @@
 
 考えが纏まってきて、思い切って彼女に相談してみると、聞いた彼女はそれを想像してみて面白そうだと言ってくれた。
 そうして今回のための準備が始まり、現在に至るのだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#399">
-				<rdfs:label>399</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="oDpAfMeajc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-08T22:31:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#399">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">399</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oDpAfMeajc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-12-08T22:31:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">人形という名の拘束衣に封じ込められた彼女は、鏡に写った自分の姿に見とれている感じだった。
 それは、やわらかく笑みを浮かべながら惜しげもなく肢体を晒している。その微笑の中に本当の表情を隠しながら。
 少しして、色んなポーズを取りながら今の姿を楽しみだした。予想以上に気に入っているようだ。
@@ -144,11 +143,14 @@
 暫くの間、棒全体を両手で撫でるようにしてもらい、その感覚を味わっていたが、やがてそれは激しくなっていった。
 用意していたローションを新たに追加し、愛撫は更に強くなる。
 スーツに包まれた両手全体を使っての愛撫によって噴出した液体は、いつもより勢いがあるような気がする。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#400">
-				<rdfs:label>400</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="oDpAfMeajc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-08T22:32:46+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#400">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">400</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oDpAfMeajc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-12-08T22:32:46+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">股間から放たれたそれは、彼女の上半身にも降りかかっていた。光沢に彩られた乳房の上にも白いトッピングがかかる。
 くすっ、と息遣いをした彼女の顔は変わらないが、苦笑している感じなのはよくわかった。
 ふと彼女は、まだ股間に残ってたものと胸についたものを手にすくい、やわらかくなったものを再び愛撫し始めた。
@@ -165,11 +167,14 @@
 降りかかったクリームを豊かな膨らみの全体に伸ばしながら、ときたま突起も弄び、その柔らかさと樹脂の感触を楽しんでいた。
 彼女の表情は変わらないが、微かな息遣いと動きからその感情は容易に予想がつく。
 中の表情だけでなく、外の表情が変わるのさえ幻視できそうだった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#401">
-				<rdfs:label>401</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="oDpAfMeajc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-08T22:34:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#401">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">401</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oDpAfMeajc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-12-08T22:34:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そうして再び火山が活性化してきた頃、彼女は下のほうを向いて、そのつややかな指を股間に向ける。
 言いたいことがよくわかった。早速その割れ目の中に、ローションを注ぎこむ。そして、指を中に入れた。
 するっと入った指を、くにゅくにゅと動かす度、彼女はエナメルで覆われた全身をくねらせる。
@@ -189,11 +194,14 @@
 だんだんと聞こえてくる呼吸音が、荒くなってきている。大分息苦しくなっているようだ。
 もう少し、矛盾に満ちた人形の姿を見ていたい気持ちはあるが、彼女の身体も大切だ。
 繋がったままで、彼女の頭に手を伸ばす。首を振って少し嫌がる素振りを見せたが、そのままゆっくりとそれを持ち上げる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#402">
-				<rdfs:label>402</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="oDpAfMeajc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-08T22:36:00+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#402">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">402</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oDpAfMeajc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-12-08T22:36:00+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">マスクを外し、スーツの面下から露出した彼女の顔は汗だくで真っ赤になっていた。
 湯気が立ち、虚ろな面持ちで、深く、しかし早めのテンポで深呼吸している。
 ただでさえ熱いスーツの素材が通気性皆無のストレッチエナメルである上に、こんなことをしているのだ。
@@ -218,11 +226,14 @@
 絶頂に達し身をゆだね、反り返るように樹脂で覆われた全身を硬直させる彼女を見て、こちらのものも限界を迎える。
 進行をカバーに阻まれ、どくどくと割れ目から噴出してくる白濁した液体。
 それを樹脂の皮膚越しにかすかに感じて彼女は尚も身を震わせていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#403">
-				<rdfs:label>403</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="oDpAfMeajc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-08T22:37:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#403">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">403</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oDpAfMeajc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-12-08T22:37:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">彼女は呼吸が落ち着きを取り戻し始めたがその顔は汗でびしょ濡れ、尚更赤くなってる感じだ。
 意識も半分くらい飛んでそうな感じである。もうそろそろ脱がせたほうがいいかもしれない。
 だけどそう言うと、彼女は少し不満そうな顔で「着たままでもっと居たかった」と返してきた。
@@ -245,11 +256,14 @@
 彼女が帰ったら、早速スーツの汚れを落とそうと思っていた。すごく難しそうではあるのだが。
 
 -------------------------------------------</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#404">
-				<rdfs:label>404</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="oDpAfMeajc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-08T22:39:13+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#404">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">404</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oDpAfMeajc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-12-08T22:39:13+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">以上、前々から頭の中に浮かべてたモノを文章にしてみました。
 どこの影響をどう受けたのか、丸解かりかもしれませんね・・・
 
@@ -263,7 +277,14 @@
 あと、今回の文を読んでもし連想して他の誰かを思い浮かべたとしても、そういった方々への批判等は遠慮して頂きたいのです。
 そういった方々にインスピレーションを受けたのは間違いないのですが、これを書いたのはあくまで僕自身ですので。
 ちょっとしたお願いです。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-12-08T22:24:15+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-12-08T22:39:13+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">6480</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">11</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

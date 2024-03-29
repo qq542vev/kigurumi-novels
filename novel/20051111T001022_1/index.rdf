@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:03:11+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:03:11+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">僕の天使「マミア」番外編</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2005-11-11T00:10:22+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2005-11-11T23:22:07+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">2407</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#234">
-				<rdfs:label>234</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-11-11T00:10:22+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#234">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">234</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-11-11T00:10:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">僕の天使「マミア」番外編
 
 これは、マミアになった男性のお話です、彼の名は仮にアキオとしておきましょう、
@@ -56,11 +40,14 @@
 アキオ「だから、どうだってゆうのさ、一緒に暮らそうよ。」
 亮「お前、バカじゃねーか、さっきもいっただろ、俺は男の男にはならないって。」
 アキオ「そうじゃないよ、２人で暮らせば少しは生活楽になるしさ、僕もバイトするから、ね？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#235">
-				<rdfs:label>235</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-11-11T00:21:14+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#235">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">235</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-11-11T00:21:14+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">亮「いや、そうゆう問題じゃなくて、俺は一人でやりたいの、わかる？どうせ同姓するなら
 かわいい女の子とがいよ。」
 アキオ「女なんて信じないほうがいよ、亮くんは女の怖さをわかってないから、そう
@@ -80,11 +67,14 @@
 彼には独特の趣味がある、美少女のフィギュア集めだ、いろんなコレクションをもって
 いるらしい、高校時代にも「あ〜一回でいいから等身大のかわいいフィギュアを抱きしめてみて〜」
 といってたのだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#236">
-				<rdfs:label>236</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-11-11T00:36:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#236">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">236</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-11-11T00:36:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">だとしたら、亮に接するチャンスはそこしかない、アキオはこの日のために
 貯金したお金と独自のネットワークであるところから、亮好みの美少女着ぐるみ
 を手にいれたのだ。
@@ -99,11 +89,14 @@
 あなたに以下のトレーニングをやってもらうわ、覚悟しなさい。」
 
 後半につづく</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#238">
-				<rdfs:label>238</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-11-11T16:04:12+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#238">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">238</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-11-11T16:04:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">着ぐるみではないため、アキオ以外にも関係者がいる、とあるビルの一室、アキオと
 もう一人の協力者、しかも、あおれは女性である。
 
@@ -113,11 +106,14 @@
 しかも、それは女性である。
 
 ご迷惑おかけします。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#240">
-				<rdfs:label>240</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-11-11T23:22:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#240">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">240</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-11-11T23:22:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">訓練メニューを一通り終了したアキオ、一般的な着ぐるみなどの実地訓練なども
 あった、しかもそれらすべてを女の子キャラクターでの演技、実演、などもある
 訓練１週間目はそれらの項目、２週間目は体感器を装着しての実践を想定した訓練
@@ -144,7 +140,14 @@
 入り込んでいく感覚に襲われた。
 女「この体感器は遠隔操作で自由に操れるの、もちろん外部の刺激でもその快感
 を得ることは可能なの、さ、次はその子の皮を身に纏うのよ。」</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-11-11T00:10:22+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-11-11T23:22:07+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">2407</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">5</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

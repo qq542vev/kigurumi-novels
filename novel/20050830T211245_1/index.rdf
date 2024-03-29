@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:03:03+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:03:03+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">灯乃町イベント奇譚</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:12:45+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2005-09-03T16:10:10+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">40094</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#19">
-				<rdfs:label>19</rdfs:label>
-				<dcterms:creator foaf:nick="00/00 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:12:45+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#19">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">19</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">00/00 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:12:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">以前、マスコットの話を書いた者です。
 ＲＯＭ人に戻るとか言っといて、のこのこ出てくるのは恐縮ですが
 もう一本書けたので、またお付き合い下さい。
@@ -46,11 +31,15 @@
 ※　気を付けたつもりですが、丸パクリになってる文章がありましたら
 　　それは、本当にごめんなさい。
 （長くなり過ぎて、自分でも訳が判らなくなってます…スミマセン…）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#20">
-				<rdfs:label>20</rdfs:label>
-				<dcterms:creator foaf:nick="01/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:13:52+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#20">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">20</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">01/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:13:52+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 灯乃町イベント奇譚
 
@@ -74,11 +63,15 @@
 ボードに書かれた《平成〇〇年度・灯乃地域活性会議》の文字を睨み付けている。
 
 新年早そう、灯乃商工会議所・観光部会の面々が集まるのには訳があった…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#21">
-				<rdfs:label>21</rdfs:label>
-				<dcterms:creator foaf:nick="02/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:14:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#21">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">21</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">02/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:14:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「ＵＦＯ・ツチノコと来たから…今度はカッパか？」
 １人のオヤジが地域活性のアイデアを提案する…が、別に酒が入っている訳ではない。
@@ -101,11 +94,15 @@
 ひなびた温泉宿が並び、民話の世界が活きる情緒豊かな田舎も今や昔…。
 今では、立ち並ぶ廃ホテルと、寂れた温泉街と、使い道のないバブルの箱モノが
 ジェットストリームに景観をぶち壊すダメダメ観光地に落ちぶれていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#22">
-				<rdfs:label>22</rdfs:label>
-				<dcterms:creator foaf:nick="03/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:15:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#22">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">22</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">03/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:15:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「…灯乃町は宇宙人に狙われている…」
 カッパ派とザリガニ派に分かれ議論が紛糾する中、
@@ -121,11 +118,15 @@
 頭を掻き毟りながら、ペン先をボードに何度も叩き付け力説する山田。
 「「「「　あ〜…っ　」」」」
 だが、議長の予想に反して会員の反応は、イマイチだった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#23">
-				<rdfs:label>23</rdfs:label>
-				<dcterms:creator foaf:nick="04/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:16:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#23">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">23</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">04/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:16:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「何だお前等、そのシラケタ反応は？」
 「あの…今時、ヘルメットをペンキで塗りたくったような手作りヒーローなんて珍しくもないなぁ〜と…」
@@ -144,11 +145,15 @@
 
 皆まで聞かず山田が身を乗り出し、鈴木を指差す。
 こうして（他の面々は話が跳び過ぎて、ついて行けないまま）地域活性プロジェクトはスタートした。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#24">
-				<rdfs:label>24</rdfs:label>
-				<dcterms:creator foaf:nick="05/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:16:56+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#24">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">24</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">05/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:16:56+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 とある片田舎で、そんな会議が行われてから約半年後。
 都心にある築１５年のアパートに巣くう山科真由美（やましな・まゆみ２５歳♀）は腐っていた。
@@ -169,11 +174,15 @@
 イメチェンのつもりで髪を染めたら、安っぽいお水にしか見えないのが腹立たしい。
 役者なのにバイトをしないと食って行けないのもムカツク。
 そして何より、うっかり引き受けてしまったキャラクターショーに気が滅入った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#25">
-				<rdfs:label>25</rdfs:label>
-				<dcterms:creator foaf:nick="06/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:17:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#25">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">25</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">06/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:17:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 【　−　その名は　ゆぅまぁズ　−　】
 
@@ -200,11 +209,15 @@
 映画のスタントからドラマの殺陣指導まで幅広くこなす、アクション一筋ウン十年の超ベテラン。
 特にヒーローショーでのマイクパフォーマンスはマニアの間で定評があり
 庵西目的で足を運ぶファンがいる程だった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#26">
-				<rdfs:label>26</rdfs:label>
-				<dcterms:creator foaf:nick="07/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:18:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#26">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">26</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">07/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:18:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「まぁローカルヒーローの変り種みたいなモンだと思うが、どちらかというとメルヘン系だな」
 そう言いながら、筒状になっているポスターを広げボードに張り付けて行く。
@@ -224,11 +237,15 @@
 その時、真由美は庵西の言葉など耳に入っておらず、《灯乃》というキーワードと
 アニメ画の端にある《キャラクターデザイン・ＭＡＮＡＭＩ》という文字に
 目が釘付けになり、頭の中が真っ白になっていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#27">
-				<rdfs:label>27</rdfs:label>
-				<dcterms:creator foaf:nick="08/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:19:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#27">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">27</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">08/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:19:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 再び、今現在の湿気ったアパート…。
 
@@ -250,11 +267,15 @@
 肝心のチャンスとやらは、一行に訪れる気配が無い。
 思えば上京して間も無い頃
 キャッチに捕まり３０万の美容器具を買わされたのがケチの付き始めだった…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#28">
-				<rdfs:label>28</rdfs:label>
-				<dcterms:creator foaf:nick="09/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:20:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#28">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">28</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">09/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:20:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「あーーーっいやだいやだ！行きたくなぁーーーーいっ！」
 年甲斐もなく手足をジタバタさせ、一人寂しい駄々をこねる。
@@ -274,11 +295,15 @@
 全身で訴えているようなものだ…。
 
 それは己のプライドに掛けて、有ってはならない敗北だった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#29">
-				<rdfs:label>29</rdfs:label>
-				<dcterms:creator foaf:nick="10/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:21:16+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#29">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">29</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">10/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:21:16+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 ４時間３０分前の稽古部屋…。
 
@@ -300,11 +325,15 @@
 
 それに降りる事によって被（こうむ）る経済的な損失は、今後の生活を確実に脅かすだろう…。
 ビンボー役者にとって、今回のギャランティが眩しく見えるのも、また事実なのだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#30">
-				<rdfs:label>30</rdfs:label>
-				<dcterms:creator foaf:nick="11/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:22:01+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#30">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">30</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">11/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:22:01+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 【　−　羞恥心　と　首長竜　−　】
 
@@ -327,11 +356,15 @@
 夏向きなデザインと言えなくもないが、季節によって恥かしさが変化するとは、とーてい思えない。
 思えば子供の頃からマンガばっかり画いて、お洒落には気を使わない妹だった。
 姉としての指導不足が実を結び、トンデモ衣装となって真由美の前に立ちはだかる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#31">
-				<rdfs:label>31</rdfs:label>
-				<dcterms:creator foaf:nick="12/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:22:52+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#31">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">31</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">12/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:22:52+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 その他のパーツに目を向けると
 アクアマリンの瞳は、虹彩の部分だけでもタマゴくらいある。
@@ -347,11 +380,15 @@
 真由美も戦隊モノや菓子パンショーの経験ならあるが
 コレほどのブツは一度も、お目にかかった事がない。
 このパンチの効いた着ぐるみは、迷う心をフリーズさせるのに十分なインパクトを放っていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#32">
-				<rdfs:label>32</rdfs:label>
-				<dcterms:creator foaf:nick="13/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:23:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#32">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">32</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">13/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:23:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「うわっ…小物多い…っ。」
 「ちょ…これ身体のライン目立っちゃうじゃない！」
@@ -376,11 +413,15 @@
 ブー垂れるメンバーに苛立ち、庵西の怒鳴り声が稽古部屋に響き渡る。
 庵西にとって口の悪さも愛情表現の一つなのだが、メンバーは思うのだ。
 不器用過ぎだと。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#33">
-				<rdfs:label>33</rdfs:label>
-				<dcterms:creator foaf:nick="14/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:24:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#33">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">33</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">14/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:24:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 ４時間前の稽古部屋…。
 
@@ -404,11 +445,15 @@
 ＨＰはキャラクターの説明と読み切り漫画、壁紙プレゼントに掲示ばン…とっ…ありきたりだな。
 しかし、人気漫画家を起用したのが功を奏して、カルト的な人気を呼んでいるそうだ。
 ついでに言っておくと、ココにいる敵役（かたき）は、クライアントのオリジナル案だからＨＰには居ないぞ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#34">
-				<rdfs:label>34</rdfs:label>
-				<dcterms:creator foaf:nick="15/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:25:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#34">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">34</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">15/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:25:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 設定資料を確認しながら、皆に説明する庵西。
 補足しておくとＨＰには、地元作曲家に依頼して作ってもらったイメージソング
@@ -427,11 +472,15 @@
 
 みんな、つい敬語になってしまうのは、体育会系特有の上下関係が活きている証拠であり
 庵西のことを、尊敬と信頼と畏怖すべき先輩として崇めている証拠でもある。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#35">
-				<rdfs:label>35</rdfs:label>
-				<dcterms:creator foaf:nick="16/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:26:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#35">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">35</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">16/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:26:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「いやライブとテープのハイブリッド（まぜこぜ）だ。そのテープはこれからウチで作る」
 
@@ -451,11 +500,15 @@
 
 後日、悪役の名前が宇宙ザリガニ・エイリアン太郎・エイリアン次郎に改名され
 プラズマＵＦＯでやって来た悪の教授が追加された…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#36">
-				<rdfs:label>36</rdfs:label>
-				<dcterms:creator foaf:nick="17/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:26:57+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#36">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">36</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">17/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:26:57+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 【　−　魂を　焦す塾　−　】
 
@@ -473,11 +526,15 @@
 
 これまでの経験と人脈のおかげで、驚くほど低予算で出来たテープだが
 声優全員が仕事内容とギャランティの、かけ離れっぷりに涙した事を付け加えておく。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#37">
-				<rdfs:label>37</rdfs:label>
-				<dcterms:creator foaf:nick="18/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:27:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#37">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">37</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">18/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:27:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「そんな汚ねぇ側転見せんなっ！！ピシっと脚伸ばせ！！ピシっと！！」
 「立ち位置ズレてんだろーが！、何年やって来てんだっ！！」
@@ -502,11 +559,15 @@
 
 なんてポエミーな人など、現実主義のゆぅまぁチームに居る筈もなく、
 皆、かつかつの生活を潤すギャラを夢見て、稽古の日々は続くのだった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#38">
-				<rdfs:label>38</rdfs:label>
-				<dcterms:creator foaf:nick="19/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:28:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#38">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">38</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">19/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:28:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「おいネス子、ネス子ォ！…やましなぁ！」
 『は、はいっ！』
@@ -528,11 +589,15 @@
 結局、真由美は何の打開策も見出せないまま、時間だけが過ぎていった。
 と言うか連日の厳しい稽古が、イイ感じに現実逃避になってしまい
 心地良い汗が、快眠の毎日をお約束するという、恐ろしい罠に嵌っていのだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#39">
-				<rdfs:label>39</rdfs:label>
-				<dcterms:creator foaf:nick="20/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:29:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#39">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">39</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">20/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:29:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「本当か？なんか元気無いように見えるぞ」
 『大丈夫ですっ！精神も健全そのものですっ！』
@@ -550,11 +615,15 @@
 『…はんでそれほぉ』
 
 そんな台詞を無意識の内に漏らしていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#40">
-				<rdfs:label>40</rdfs:label>
-				<dcterms:creator foaf:nick="21/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:30:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#40">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">40</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">21/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:30:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「なんだ？ホントにそうなのか！？クライアントの打ち合わせでお前の妹の事聞いたぞ。
 似たような名前だったから試しに聞いたら、そんな名前の姉貴がいるって。
@@ -574,11 +643,15 @@
 　　　　　　　　　　　　・
 　　　　　　　　　　　　・
 　　　　　　　　　　　　・</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#41">
-				<rdfs:label>41</rdfs:label>
-				<dcterms:creator foaf:nick="22/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:31:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#41">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">41</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">22/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:31:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 結局、灯乃出身でＭＡＮＡＭＩは妹の山科真奈美であることがメンバーにもバレ
 母親との喧嘩で実家に７年も帰ってない事を告白させられる真由美。
@@ -600,11 +673,15 @@
 アニメ顔の女の子が、狂気を含んだ叫び声を上げカッパエイリアンに襲いかかった。
 ネス子の左手とネッシーの口が協力してエイリアン太郎の首をシメつける。
 それは、純粋な殺意から来る情け容赦の無い首締めだった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#42">
-				<rdfs:label>42</rdfs:label>
-				<dcterms:creator foaf:nick="23/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:31:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#42">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">42</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">23/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:31:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 突然の殺戮シーンに、川原ポゴ子とザリガニ海老原がなす術もなくヒレとハサミをばたつかせ
 茶山エイリアンと沼越ツッチーが２人仲良くパニくる中、
@@ -629,11 +706,15 @@
 「帰り辛いなら、帰り易くすればいい。そうだろ？」
 庵西が笑う…。
 落ち込んでいた理由（わけ）を、単純解釈したまま…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#43">
-				<rdfs:label>43</rdfs:label>
-				<dcterms:creator foaf:nick="24/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:32:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#43">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">43</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">24/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:32:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 後日、更新されたＨＰに灯乃祭で行われる《ゆぅまぅズ４ぬいぐるみショー》のお知らせが載り
 《繰演　江井國ねす子（ゆぅネス子）　☆山科真由美☆　》
@@ -655,11 +736,15 @@
 
 その母から怨嗟のこもった愚痴を、延々と聞かされた妹が
 姉に会う為に帰省したくなるのも、自然な流れなのかもしれない。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#44">
-				<rdfs:label>44</rdfs:label>
-				<dcterms:creator foaf:nick="25/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:33:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#44">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">44</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">25/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:33:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 本番間近の焦魂塾稽古部屋…。
 
@@ -682,11 +767,15 @@
 入ったばかりで、事情を知らないツッチーがカブラに聞く。
 中の沼越が、このメンバーに入れられたのは１４９ｃｍという理想的な身長だったからで
 その点を考慮して、アクションは一番楽なモノになっていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#45">
-				<rdfs:label>45</rdfs:label>
-				<dcterms:creator foaf:nick="26/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:34:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#45">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">45</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">26/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:34:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 『ここに来る前は、他のトコでエキストラばっかやった後、友達がいる小劇団に入ったみたい。
 でもそこ、客入りが全然なくて結局バイトとエキストラの生活に戻ったって、飲んだ時愚痴ってたよ。
@@ -707,11 +796,15 @@
 理想しか見てないから、現実と折り合い付かなくて…ったく、いい歳して…
 今度よぉ〜く見てなさい、演技が急にギコチナクなる瞬間（とき）あるから。
 あれは素に戻っちゃって「私なんでこんな事してんの」って、ジレンマ中に違いないわ』</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#46">
-				<rdfs:label>46</rdfs:label>
-				<dcterms:creator foaf:nick="27/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:35:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#46">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">46</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">27/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:35:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 庵西以上の恐るべき洞察力で池田は、真由美の心情をズバリ言い当てた。
 そして元気の無い本当の理由（わけ）も、薄々気付いており
@@ -734,11 +827,15 @@
 
 これが通常業務のブレインさんだったら、怪しげな３人組を見て
 ナニかを察知出来たかもしれない…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#47">
-				<rdfs:label>47</rdfs:label>
-				<dcterms:creator foaf:nick="28/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:36:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#47">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">47</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">28/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:36:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 【　−　し　ょ　く　−　】
 
@@ -758,11 +855,15 @@
 それは灯乃の町にも言える事で、どこでボタンを掛け違えたのか
 土産物屋には《ＵＦＯ餅・ツチノコサブレー》に続く新名物《ネッシー饅頭》が姿を現し
 定食屋の黒板には、《ゐぐあ乃丼》や《めが呂丼》などの新メニューが書き加えられた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#48">
-				<rdfs:label>48</rdfs:label>
-				<dcterms:creator foaf:nick="29/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:36:57+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#48">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">48</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">29/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:36:57+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 勿論、グッズ販売だけで《イベントです。お祭りです。楽しいです》と言い張るには、無理があるので
 参加型のイベントも幾つか用意されている。
@@ -783,11 +884,15 @@
 抱き枕の数も限りがあるので、初日から熱いレースが繰り広げられている。
 目的の健全性は、この際置いといて
 嫌なメロス達は、今日も灯乃の町を駆け巡るのであった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#49">
-				<rdfs:label>49</rdfs:label>
-				<dcterms:creator foaf:nick="30/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:37:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#49">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">49</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">30/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:37:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 町から少し離れた山際の廃校跡、午前１０時０２分…。
 
@@ -807,11 +912,15 @@
 
 元校庭の中央には一段高い場所から、新参者を見据えるヤグラが建っていた。
 ここは校舎が消える以前から、住民に親しまれている盆踊り会場でもあるのだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#50">
-				<rdfs:label>50</rdfs:label>
-				<dcterms:creator foaf:nick="31/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:38:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#50">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">50</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">31/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:38:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 ここまで来たのだから、舞台の裏手にも目を向けて見よう。
 そこには、チビッ子の夢を鉄壁のシートで守る秘密基地、更衣テントが隠れている筈だ。
@@ -833,11 +942,15 @@
 ちなみに修羅場経験のない沼越は、そんな池田を見て本気で驚いていた。
 
 まぁ、素人に毛が生えた程度の沼越から見れば、タコ部屋サウナに見えるかもしれない。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#51">
-				<rdfs:label>51</rdfs:label>
-				<dcterms:creator foaf:nick="32/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-30T21:39:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#51">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">51</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">32/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:39:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 女子更衣テント内、午後１時４２分…。
 
@@ -860,11 +973,15 @@
 何故、真由美が自閉モードに突入したかと言うと、それは昨日の夕方の事で…。
 
 【　−　続　く　−　】</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#56">
-				<rdfs:label>56</rdfs:label>
-				<dcterms:creator foaf:nick="33/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:01:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#56">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">56</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">33/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:01:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 【　−　第一種接近遭遇　−　】
 
@@ -887,11 +1004,15 @@
 他にも泊まり客が居るなど、気にしてはイケナイ。
 「僻地な上に、人目に付くぢゃん！」
 なんて大それたツッコミは、田舎の商工会にディ○ニー並の管理体勢を要求する様なものだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#57">
-				<rdfs:label>57</rdfs:label>
-				<dcterms:creator foaf:nick="34/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:02:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#57">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">57</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">34/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:02:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 そんな、あさざ荘に渋滞遅れのショーチームが到着したのは
 予定を３時間以上オーバーした５時２８分。
@@ -912,11 +1033,15 @@
 「おぉ〜小さい割に、結構キレイに刷れてンな。町に行けば、もっと大きい奴もあるから、もし良…」
 庵西がチラシを見て固まっている真由美の背後で
 他人事のように話しかけた刹那…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#58">
-				<rdfs:label>58</rdfs:label>
-				<dcterms:creator foaf:nick="35/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:03:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#58">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">58</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">35/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:03:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「∑おま゛えか！？♯おま゛えか゛やったのかっ！！このクソクソくくぁｗせｄｒｆｔｇｙふｊこ！！」
 上下関係など彼方に吹き飛び、真由美は目の前に居るただただムカツク物体に襲いかかった。
@@ -932,11 +1057,15 @@
 ＭＣ（司会）で呼ばれた上尾（かみお　２０歳♀）は、本気で怯え、
 エイリアンズと音響の下谷（しもや　２４歳♂）が、慌てて止めに入ろうとしたその時、
 トウモロコシを手に背後から急接近する年配の女性がいた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#59">
-				<rdfs:label>59</rdfs:label>
-				<dcterms:creator foaf:nick="36/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:04:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#59">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">59</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">36/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:04:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 女性は手にしたモロコシを大きく振りかぶり、その安っぽい茶髪に叩き付けた。
 真由美以外の全員が呆気に取られる中、スローモーションの様にコーンが弾け飛ぶ。
@@ -957,11 +1086,15 @@
 「ちょ…ま、待って下さい。お母さん！３時間は違います！」
 流石にやばいと思った池田が、身体を張って止めに入り、他の面々も後に続く…が、
 時既に遅く、モロコシの洗礼を受けまくった馬鹿ムスメは床の上でボロ雑巾化していた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#60">
-				<rdfs:label>60</rdfs:label>
-				<dcterms:creator foaf:nick="37/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:05:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#60">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">60</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">37/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:05:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 　　　　　　　　　　　　・
 　　　　　　　　　　　　・
@@ -981,11 +1114,15 @@
 
 一見グロッキー状態の真由美だが、心の中では理不尽という名の神をシバく事に夢中だ。
 ただ、神様の姿形が庵西と良く似ているのは、何かの偶然だろう…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#61">
-				<rdfs:label>61</rdfs:label>
-				<dcterms:creator foaf:nick="38/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:06:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#61">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">61</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:06:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「お母さんも真由美さんの晴れ舞台を観に来て下さい。
 事前に連絡を貰えれば、中央最前列の席を用意しておきますよ」
@@ -1006,11 +1143,15 @@
 心の中でシバかれていた理不尽の神様が、反撃の右ストレートを叩き込んだ。
 気力の尽き果てた真由美は、その一撃であえなくダウンし
 仰向けのまま微動だにせず、出ていく母親を見ようともしない…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#62">
-				<rdfs:label>62</rdfs:label>
-				<dcterms:creator foaf:nick="39/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:07:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#62">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">62</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">39/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:07:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 だが、次の瞬間、
 「…まゆみっ！顔を上げなさいっ！！」
@@ -1035,11 +1176,15 @@
 背後から肩を叩かれ、庵西が綺麗に〆た。
 
 やっぱり、コイツをコロそうと思う真由美だった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#63">
-				<rdfs:label>63</rdfs:label>
-				<dcterms:creator foaf:nick="40/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:08:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#63">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">63</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">40/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:08:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 【　−　ウェルカム　グリーティング　−　】
 
@@ -1064,11 +1209,15 @@
 
 中の川原も意識するのか、時々恥かしそうにヒレで隠すが
 両ヒレを重ねて、恥かしそうに身を屈めるポゴ子の姿が、反ってオタ目を惹いていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#64">
-				<rdfs:label>64</rdfs:label>
-				<dcterms:creator foaf:nick="41/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:08:57+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#64">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">64</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">41/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:08:57+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 ポゴ子から離れること数メートル。
 池田演じるカブラは、胸まである赤いストレート髪をなびかせながら
@@ -1091,11 +1240,15 @@
 
 後日、カブラフリークと化した彼等に、思わぬ出費が襲いかかる…のだが、
 やられた時点で、それはもう運命だろう。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#65">
-				<rdfs:label>65</rdfs:label>
-				<dcterms:creator foaf:nick="42/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:10:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#65">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">65</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">42/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:10:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 一方、沼越の入っているツッチーは、家族連れを中心にかけ回っていた。
 白に近い、内はねショートの銀髪にションボリ(´・ω・`)顔のツチノコベレー帽を乗せ
@@ -1119,11 +1272,15 @@
 だが、野郎共がその事を指摘したりすると、足元の狂った蹴りと
 手元の狂った拳が、確実に鳩尾を捉えるという
 恐ろしい殺陣になってしまうのでチーム内では禁忌になっていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#66">
-				<rdfs:label>66</rdfs:label>
-				<dcterms:creator foaf:nick="43/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:10:56+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#66">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">66</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">43/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:10:56+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 【　−　灯乃町　危機一髪！！　−　】
 
@@ -1138,11 +1295,15 @@
 
 そんなカオス会場の視線が、ステージ上に現れた１人の女の子？に集中し、
 夢舞台は、いよいよ開演の時を迎える…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#67">
-				<rdfs:label>67</rdfs:label>
-				<dcterms:creator foaf:nick="44/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:11:54+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#67">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">67</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">44/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:11:54+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「みんなぁーーーっ。こーーーんにーーーちぃわぁーーーっ！」
 舞台に現れた上尾が、セミも落とせそうなアニメ声を放出し、ショーの幕が切って落とされた。
@@ -1158,11 +1319,15 @@
 御神輿や花火には、食い付かなかったダメな人達が反応する。
 上尾の言う《良い子》に、その方々が入っているかは、別として
 最前列の子供たちは、間違い無いく喜んでいた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#68">
-				<rdfs:label>68</rdfs:label>
-				<dcterms:creator foaf:nick="45/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:13:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#68">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">68</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">45/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:13:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「おネェさん達が、わるーーーーい宇宙人から灯乃の町を守る為、
 日夜大活躍してるのは、みんな知ってるよね？
@@ -1183,11 +1348,15 @@
 顔に稲妻マークをペイントしたノリノリの庵西が、マイクを手に高らかに宣言する。
 それに従う２人のエイリアンは、黒トレーナーの上に何故か《祭》の文字が目立つ
 法被（はっぴ）をはおっていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#69">
-				<rdfs:label>69</rdfs:label>
-				<dcterms:creator foaf:nick="46/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:14:14+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#69">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">69</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">46/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:14:14+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「ふふふ、チビッ子諸君コンニチ…って、何だこの童貞墓場はっ！？
 アニオタしかおらんではないか！」
@@ -1203,11 +1372,15 @@
 
 エイリアン達がクチバシに指を立て、静かにする様ジェスチャー。
 よく見ると皿の下に、捻りハチマキまでしている。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#70">
-				<rdfs:label>70</rdfs:label>
-				<dcterms:creator foaf:nick="47/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:15:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#70">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">70</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">47/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:15:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「まず…来年の春より、ゆぅまぁズ４のアニメ放送が決定しました。はい拍手！」
 エイリアン達がウンウン頷きながら、拍手をする。
@@ -1228,11 +1401,15 @@
 『そこまでよ！』
 
 教授の台詞をさえぎる大音量の（ちょっと素人っぽい）声が会場中に響き渡った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#71">
-				<rdfs:label>71</rdfs:label>
-				<dcterms:creator foaf:nick="48/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:16:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#71">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">71</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">48/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:16:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「ぬぅ…何者だ！！」
 
@@ -1249,11 +1426,15 @@
 ＭＣ上尾の逃げていった舞台袖から、颯爽と飛び出す４体の着ぐるみ。
 ちょっとタイミングがずれてポーズと台詞が合わなかったのは
 昨日の遅れで、舞台稽古が出来なかったからだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#72">
-				<rdfs:label>72</rdfs:label>
-				<dcterms:creator foaf:nick="49/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:17:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#72">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">72</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">49/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:17:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 カブ『みんな目を覚ませっ！この宇宙人が言ってる事は全部出鱈目だぜっ！』
 ゆぅカブラが爪を横になぎ払い、力説する。
@@ -1273,11 +1454,15 @@
 　　　そんな人生を舐めきった侵略態度許せない！
 　　　死ぬ寸前にネタばらしされるくらい許せないわっ！』　　
 ゆぅネス子がネッシー口をパクパクさせながら、教授をネッシー差す？</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#73">
-				<rdfs:label>73</rdfs:label>
-				<dcterms:creator foaf:nick="50/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:18:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#73">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">73</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">50/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:18:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「ぬぅぅぅっ！いまいましい、ゆぅまぁ共め！普段は影だけで２時間番組を持たせる癖に…。
 あっ！あれだな？投資０だったら、自分達も凹むから邪魔するのだな？
@@ -1297,11 +1482,15 @@
 カブラが太郎。ポゴ子とツッチーが次郎。
 そしてネス子は、教授…というより庵西に猛然と襲いかかった。
 こうして、本当の意味での舞台の幕が切って落された。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#74">
-				<rdfs:label>74</rdfs:label>
-				<dcterms:creator foaf:nick="51/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:19:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#74">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">74</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">51/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:19:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 【　−　ゆーまープリンセス　ｖｓ　ワるきょージュ　−　】
 
@@ -1318,11 +1507,15 @@
 そんな恐ろしい事をまるでダンスの様にこなすキャラクター達。
 まさに魅せる動きだ。
 特に中央で戦う、ネス子対教授は殺陣とは思えない凄まじい戦い方をしていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#75">
-				<rdfs:label>75</rdfs:label>
-				<dcterms:creator foaf:nick="52/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:20:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#75">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">75</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">52/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:20:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 山科真由美とて、救い様のないバカではない。
 ここまでされれば、今までの自分を振りかえる事ぐらいはする。
@@ -1345,11 +1538,15 @@
 凄まじい論点のズレっぷりだが、本人は至って真面目だ。
 
 やっぱり、バカなのかもしれない…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#76">
-				<rdfs:label>76</rdfs:label>
-				<dcterms:creator foaf:nick="53/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:21:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#76">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">76</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">53/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:21:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 メロディックにハードな蹴りが、教授の身体を何度もかすめる。
 キメるつもりでやっているのに、庵西は５０間近とは思えない超人的な身のこなしで
@@ -1376,11 +1573,15 @@
 『♯こんぬ゛っくそやし゛ゃあああああああああああ！！』
 怒髪が面を突き破りそうな叫び声が上がり、
 パワーとスピードが１．５倍になったネス子のラッシュが炸裂した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#77">
-				<rdfs:label>77</rdfs:label>
-				<dcterms:creator foaf:nick="54/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:22:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#77">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">77</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">54/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:22:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 ネス子の滅茶苦茶な攻撃を腕でブロックし、耐える教授。
 その振動をマイクが拾い耳触りなノイズがスピーカーから漏れ出る。
@@ -1400,11 +1601,15 @@
 『∑チッ！！』
 一方、真由美は完璧に捕らえたと思った必殺の蹴りをかわされ、素の舌打ちをする。
 お尻では、ネッシー尻尾が何時壊れてもおかしくないくらいブンブン揺れ狂っていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#78">
-				<rdfs:label>78</rdfs:label>
-				<dcterms:creator foaf:nick="55/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:23:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#78">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">78</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">55/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:23:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 《《《　∑ガゴッガゴッガッ！！　》》》
 
@@ -1418,11 +1623,15 @@
 「ハァハァ…クッ！…。３対４では分が悪い…。
 こうなったら、用心棒の先生にお願いするしかあるまい…。
 先生っ！サ゛リカ゛ニせんせーっ！」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#79">
-				<rdfs:label>79</rdfs:label>
-				<dcterms:creator foaf:nick="56/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:24:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#79">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">79</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">56/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:24:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 （∑て゛え゛えええええええええっ！？）
 
@@ -1446,11 +1655,15 @@
 『ザリガニィィィィーーーーーーッ！！』
 再び、スピーカーから威嚇音が響き渡る。
 その声に反応してネス子の身体がピクリと動き、ザリガニを獲物と認識した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#80">
-				<rdfs:label>80</rdfs:label>
-				<dcterms:creator foaf:nick="57/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:25:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#80">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">80</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">57/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:25:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 （もう、面倒だからコイツでいいや…）
 海老原にとって、はた迷惑な妥協をする真由美。
@@ -1470,11 +1683,15 @@
 
 こうして、初日のお披露目舞台は、
 宇宙ザリガニがゆぅまぁズの必殺技を食らう為だけ、に出て来るという展開で幕を閉じた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#81">
-				<rdfs:label>81</rdfs:label>
-				<dcterms:creator foaf:nick="58/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:26:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#81">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">81</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">58/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:26:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「まったく、２人共いい歳をした大人なんですから、まじめにやって下さい！」
 「……ごめんなさい」
@@ -1489,11 +1706,15 @@
 場合によっては、２人を残して引き揚げるというメッセージも告げてある。
 こうなっては流石の庵西も従うしかなく、
 ５０間近の男が２３の小娘に説教されるという珍しい光景が繰り広げられていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#82">
-				<rdfs:label>82</rdfs:label>
-				<dcterms:creator foaf:nick="59/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-31T22:27:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#82">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">82</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">59/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-31T22:27:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「それから、マユミ！あんたもすぐムキになったりしないっ！」
 「…はい」
@@ -1512,11 +1733,15 @@
 殺風景なテント内を飾り立てていた。
 
 【　−　続　く　−　】</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#90">
-				<rdfs:label>90</rdfs:label>
-				<dcterms:creator foaf:nick="60/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:20:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#90">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">90</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">60/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:20:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">【　−　カラオケと　サウナと　三者面談　−　】
 
 
@@ -1538,11 +1763,15 @@
 ちなみにグッズの売上はゆぅまぁズチームも貢献しており、ショー終了後には
 日替わり色紙と４種類のキャラクター団扇にサインを書き
 あこ〇な値段で売りさばく姿が見受けられた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#91">
-				<rdfs:label>91</rdfs:label>
-				<dcterms:creator foaf:nick="61/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:21:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#91">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">91</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">61/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:21:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 ８月　第二日曜日　イベント最終日。
 
@@ -1567,11 +1796,15 @@
 　　　　　　　　　　　　・
 　　　　　　　　　　　　・
 　　　　　　　　　　　　・</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#92">
-				<rdfs:label>92</rdfs:label>
-				<dcterms:creator foaf:nick="62/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:22:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#92">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">92</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">62/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:22:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「ふふふ、会場にいるチビッ子諸君！宇宙に来たまへ。
 これからは宇宙の時代！
@@ -1600,11 +1833,15 @@
 　　　　　　　　　　　　・
 　　　　　　　　　　　　・
 　　　　　　　　　　　　・</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#93">
-				<rdfs:label>93</rdfs:label>
-				<dcterms:creator foaf:nick="63/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:23:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#93">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">93</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">63/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:23:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 連日の公演は、初日のハプニング以外順調に経過し、真由美の方も
 次の日から、ごく普通の殺陣に戻っていた。
@@ -1620,11 +1857,15 @@
 
 そんな満身創痍の着ぐるみに身を包み、ようやくたどり着いた最終日。
 前半戦を終了したゆぅまぁズに思わぬ試練が立ち塞がる…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#94">
-				<rdfs:label>94</rdfs:label>
-				<dcterms:creator foaf:nick="64/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:23:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#94">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">94</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">64/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:23:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「あぢぃ〜〜〜〜…っ」
 テントの中では、アンダーマスクを首までズリ降ろした真由美がパイプ椅子の上で溶けていた。
@@ -1646,11 +1887,15 @@
 ただ、カラオケ大会の司会のおっちゃんが、例年にない立派な舞台（例年は、広めの朝礼台）
 に舞い上がった所為か、「飛び入り大歓迎！！」などと
 余計な事を口走しりやがったので、予定時間を過ぎても終わらない事に苛立っていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#95">
-				<rdfs:label>95</rdfs:label>
-				<dcterms:creator foaf:nick="65/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:24:13+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#95">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">95</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">65/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:24:13+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「…いっその事わたし達も飛び入って、このまま午後パートをチャラにしちゃおうか？」
 こんな台詞を平気で吐いちゃうくらいの反省はしている。
@@ -1667,11 +1912,15 @@
 沼越の言葉の意味が最初、判らなかった真由美だが
 自分の顔が入ったポスターが町中に貼られている事を思い出し、
 「今の無し！やっぱりパス！」と、己の提案を却下した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#96">
-				<rdfs:label>96</rdfs:label>
-				<dcterms:creator foaf:nick="66/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:24:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#96">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">96</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">66/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:24:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「なんだよ？そんな事も忘れてたのか？」
 保冷剤をオシボリに包みながら池田が呆れる。
@@ -1694,11 +1943,15 @@
 そして真由美をからかう楽しさを、覚え始めている川原に対して溜息を付く池田。
 そんな事どーでもいい沼越は、別のクーラーボックスから、
 ソーダ味のアイスキャンディを抜き取り一人頬張っていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#97">
-				<rdfs:label>97</rdfs:label>
-				<dcterms:creator foaf:nick="67/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:25:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#97">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">97</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">67/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:25:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「ちょっと、いいか？」
 いきなりテントの入り口から庵西の声が響き、慌てまくるゆぅまぁチーム。
@@ -1719,11 +1972,15 @@
 
 意味が判らない、ゆぅまぁズ。
 いくら熱狂的なキャラショーファンと言えど普通、テントの中まで連れて来たりしない。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#98">
-				<rdfs:label>98</rdfs:label>
-				<dcterms:creator foaf:nick="68/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:26:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#98">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">98</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">68/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:26:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 だが、庵西に続いて…
 「…おじゃまします」
@@ -1745,11 +2002,15 @@
 　　　　　　　　　　　　・
 　　　　　　　　　　　　・
 　　　　　　　　　　　　・</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#99">
-				<rdfs:label>99</rdfs:label>
-				<dcterms:creator foaf:nick="69/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:26:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#99">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">99</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">69/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:26:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「いえね。真由美さんは、ウチのチームには欠かす事の出来ない戦力なんですよ。
 彼女しか出来ないアクションもあって、ホントに貴重な人材で感謝感謝の毎日です。うはははは」
@@ -1771,11 +2032,15 @@
 
 ちなみに他のゆぅまぁズは、突然ババ抜きがやりたくなり、
 テントの隅でトランプを切り始めるのだが、庵西に蹴散らされてしまい仕方なくグリーティングに出ている。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#100">
-				<rdfs:label>100</rdfs:label>
-				<dcterms:creator foaf:nick="70/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:27:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#100">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">100</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">70/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:27:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「…どうした、山科？まるで『久しぶりに妹に会ったら、自分より大人になってるのがショックで、
 恥かしくて顔も見せられない！』…みたいな態度だが？」
@@ -1792,11 +2057,15 @@
 『わたしは只、何時でも舞台に立てるようにスタンバってるだけです』
 「…ふん。まぁ確かに、それ程苦しい言い訳では無いな…」
 外から漏れてくる審査結果の発表を耳に、庵西が嫌味を込めて呟く。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#101">
-				<rdfs:label>101</rdfs:label>
-				<dcterms:creator foaf:nick="71/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:27:59+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#101">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">101</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">71/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:27:59+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 『なんですか？その棘のある言い方』
 「ぶぅぇーつぅにぃ〜。
@@ -1819,11 +2088,15 @@
 お前は実家に行って、玄関先に７年分のオデコを擦り付けてこい！
 これはチームリーダーとしての命令でなく、人生の先輩としての魂の命令だ！」
 ビシッ！っと、人差し指を面のメッシュ部分の押し付け、言い放つ庵西。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#102">
-				<rdfs:label>102</rdfs:label>
-				<dcterms:creator foaf:nick="72/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:28:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#102">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">102</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">72/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:28:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 『…それくらい、言われなくて判りますよ』
 不貞腐れ気味に呟く真由美。
@@ -1844,11 +2117,15 @@
 ひょっとして最後の言葉は庵西自身の事ではないだろうか…？
 身の上話を聞いて大笑いした男が、何故親身になるのか不思議だったが
 バカで不器用な後輩に、昔の自分を見たのかもしれない…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#103">
-				<rdfs:label>103</rdfs:label>
-				<dcterms:creator foaf:nick="73/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:29:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#103">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">103</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">73/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:29:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 『…リーダー。そろそろ準備の方よろしくお願いします、との事です」
 カブラがテント幕から顔を覗かせ、ショーの開演を告げに来た。
@@ -1867,11 +2144,15 @@
 
 別の言い方をすれば、《知る事で、何かが変わってしまう怖さから目を逸らした》…とも言える。
 これも、甘えなのかもしれない…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#104">
-				<rdfs:label>104</rdfs:label>
-				<dcterms:creator foaf:nick="74/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:29:56+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#104">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">104</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">74/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:29:56+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 気合を入れれば、疲れも吹き飛ぶ…そんな意気込みは開演３０秒で吹き飛んだ。
 三者面談を受けた真由美も、予定にないグリをした３人娘も動きのキレはイマイチで
@@ -1896,11 +2177,15 @@
 　　　　　　　　　　　　・
 　　　　　　　　　　　　・
 　　　　　　　　　　　　・</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#105">
-				<rdfs:label>105</rdfs:label>
-				<dcterms:creator foaf:nick="75/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T06:30:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#105">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">105</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">75/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-02T06:30:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「ふふふ、会場にお集まりのファミリー諸君。
 都会での子育てが難しいなら灯乃に住んでは、いかがかな？
@@ -1929,11 +2214,15 @@
 変わり果てた、自分の作品を観て絶句していた…。
 
 【　−　続　く　−　】</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#118">
-				<rdfs:label>118</rdfs:label>
-				<dcterms:creator foaf:nick="76/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T15:52:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#118">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">118</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">76/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T15:52:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 【　−　夏の終わり　ゆぅまぁズの終わり　−　】
 
@@ -1950,11 +2239,15 @@
 ヤグラの上から鳴り響いていたデモンストレーションの太鼓が止み、
 年季の入ったスピーカーから開始の合図と、近所の暇人も呼び出せと言う、お知らせが流れる。
 直後、耳をつんざく灯乃新小唄が流れ出し、それに合わせた太鼓がヤグラの上から鳴り響いた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#119">
-				<rdfs:label>119</rdfs:label>
-				<dcterms:creator foaf:nick="77/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T15:53:53+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#119">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">119</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">77/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T15:53:53+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 人々が輪になって踊り出す。
 うなじが艶かしいお姉ちゃん（極々少数）も、普通に汚いオバちゃん（圧倒的大多数）も
@@ -1967,11 +2260,15 @@
 
 が、当然そんな理由で断れる筈も…と言うか口にする事も出来ず
 死にそうな笑顔を浮かべながら快く承諾する、健気な娘達であった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#120">
-				<rdfs:label>120</rdfs:label>
-				<dcterms:creator foaf:nick="78/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T15:54:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#120">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">120</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">78/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T15:54:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 数種のオタクが集まった灯乃の町だが、最後の最後まで残ったのはショーオタで、
 彼等は初日に観た《ぶっ飛んだアクションショー》の再見を期待し、
@@ -1988,11 +2285,15 @@
 何が物足りないかは、ショーオタにも判らない。
 色紙を全種類集めれば何かイイ事があるのでは？と、淡い期待が肩透かしに終わったのも
 原因の一つかもしれない。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#121">
-				<rdfs:label>121</rdfs:label>
-				<dcterms:creator foaf:nick="79/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T15:55:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#121">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">121</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">79/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T15:55:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 そんな彼等が今、ヤグラの前に目を奪われていた。
 視線の先には、ヒレを団扇代わりにして盆踊るポゴ子の姿…。
@@ -2011,11 +2312,15 @@
 と言うのがショーオタ視点で見た盆踊りの全てだが、これを一般人視点に変更すると
 ノリノリで盆踊るアニメ着ぐるみと、誰もその事に触れようとしないオバちゃん達の
 びみょーな空気流れるコラボレーション盆踊りに見えた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#122">
-				<rdfs:label>122</rdfs:label>
-				<dcterms:creator foaf:nick="80/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T15:56:13+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#122">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">122</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">80/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T15:56:13+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 盆踊り会場、午後８時０３分…。
 
@@ -2044,11 +2349,15 @@
 
 このオーバーワークも甚だしい盆グリは、花火が打ち上がるまで続くのだが、
 この時既に、彼女達の心境に微妙な変化が生じていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#123">
-				<rdfs:label>123</rdfs:label>
-				<dcterms:creator foaf:nick="81/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T15:57:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#123">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">123</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">81/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T15:57:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 　　　　　　　　　　　　・
 　　　　　　　　　　　　・
@@ -2075,11 +2384,15 @@
 ラストショーが終わっても感慨など湧かなかった彼女達だが、祭りの雰囲気に当てられたのだろう…。
 彼女達の踊りは、楽しんでいると言うより、終わりに抗っているように見えた。
 まるで「踊っていれば祭りは、終わらん！」と言わんばかりに…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#124">
-				<rdfs:label>124</rdfs:label>
-				<dcterms:creator foaf:nick="82/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T15:57:53+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#124">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">124</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">82/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T15:57:53+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 《明日９時頃に迎えに来るから》
 
@@ -2099,11 +2412,15 @@
 
 明日、妹にどんな顔をして会えば良いのか…？
 それさえも判らなかった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#125">
-				<rdfs:label>125</rdfs:label>
-				<dcterms:creator foaf:nick="83/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T15:58:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#125">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">125</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">83/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T15:58:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 《《《テェレレレッレッレレェ〜ッ♪∑ドン…ガン…ドン…ガン…ドゥォォォォォン！！》》》
 
@@ -2129,11 +2446,15 @@
 
 こうして、ゆぅまぁズの夏は終わった。
 暑い夏を熱い夏に変えてくれた彼女達にしては、随分寂しい幕引きだった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#126">
-				<rdfs:label>126</rdfs:label>
-				<dcterms:creator foaf:nick="84/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T15:59:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#126">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">126</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">84/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T15:59:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 【　−　お家へ　帰ろう　−　】
 
@@ -2155,11 +2476,15 @@
 「まぁね…」
 そっけない返事だが、その顔には笑みがこぼれている。
 どうやら庵西に、また大きな借りが出来てしまったようだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#127">
-				<rdfs:label>127</rdfs:label>
-				<dcterms:creator foaf:nick="85/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T16:00:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#127">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">127</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">85/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T16:00:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「お姉ちゃんの周りは何時も賑やかで良いよね…。羨ましいなぁ…」
 お互い黙ったまま５分程たった頃、真奈美がポツリとそんな言葉を漏らした…。
@@ -2183,11 +2508,15 @@
 ひょっとしたら、自分は妹が欲しくても手に入らないモノを持っているのかもしれない…。
 
 真由美の中でわだかまりが薄らぎ、ポツポツと積もらせてきた話を喋り始めた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#128">
-				<rdfs:label>128</rdfs:label>
-				<dcterms:creator foaf:nick="86/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T16:01:49+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#128">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">128</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">86/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T16:01:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 　　　　　　　　　　　　・
 　　　　　　　　　　　　・
@@ -2209,11 +2538,15 @@
 
 服に金を惜しまない生活が、真由美を貧乏足らしめる要因でもあるのだが
 生活を省みず、趣味嗜好に注ぎ込む辺りオタに通じるモノがあるかもしれない。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#129">
-				<rdfs:label>129</rdfs:label>
-				<dcterms:creator foaf:nick="87/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T16:02:56+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#129">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">129</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">87/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T16:02:56+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「あんなって…お姉ちゃんが入ったネス子ちゃんの事…？そんなに恥かしかった？」
 「白鳥の首付きチュチュで踊った時くらい恥かしかったわよ。ったく…」
@@ -2236,11 +2569,15 @@
 「いぇ、そうーじゃない…。そーじゃないの…。ただ、思う所があって…」
 
 思えばくだらない墓穴の連続で、こういう状況になってるのかもしれない…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#130">
-				<rdfs:label>130</rdfs:label>
-				<dcterms:creator foaf:nick="88/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T16:04:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#130">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">130</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">88/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T16:04:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「お母さんには、もう会ったんでしょ？あの人が許してくれたならもう大丈夫だよ」
 真奈美は姉が落ち込んでいる理由を、近付きつつある実家にあると勘違いしたようだ。
@@ -2261,11 +2598,15 @@
 方向性が定まらない怒りだが、要するに《貴様もビンボーというモノを味わえ！》と言いたいらしい。
 突然不機嫌になる姉と、それに気付かず微笑みながら運転する妹。
 ２人を乗せた車は緑濃い山を越え、果樹園が広がる農道へ…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#131">
-				<rdfs:label>131</rdfs:label>
-				<dcterms:creator foaf:nick="89/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T16:05:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#131">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">131</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">89/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T16:05:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 もうすぐ桃から葡萄へバトンタッチする季節。あと２ヶ月早ければサクランボも楽しめただろう。
 規則正しく並んだ木々が夏の風に揺れ、その懐かしい光景に真由美は胸が一杯になった。
@@ -2291,11 +2632,15 @@
 「とーぜん！なんたって、わたしが主役なんだから」
 ふふん！と、満面の笑顔を見せる自慢下な真由美。
 そんな姉を見て、真奈美は懐かしく幸せな気分を噛み締めていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#132">
-				<rdfs:label>132</rdfs:label>
-				<dcterms:creator foaf:nick="90/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T16:06:00+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#132">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">132</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">90/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T16:06:00+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 【　−　エピローグと言う事で　−　】
 
@@ -2314,11 +2659,15 @@
 やつれ切った変質者以外何者でもなく…。
 そのまま廊下に崩れ落ち、マジ泣きされるという痛過ぎるオチが付いてしまった。
 彼が過ごしたアツイ夏は、残念ながら苦いサマーメモリーになってしまったようだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#133">
-				<rdfs:label>133</rdfs:label>
-				<dcterms:creator foaf:nick="91/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T16:06:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#133">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">133</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">91/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T16:06:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「まなみ先生、灯乃町からファックス届いてますけど」
 都心にある静脈とかが鍵になっちゃうマンションの一室。
@@ -2338,11 +2687,15 @@
 図々しいお願いに苦笑しながらも、真奈美はスケッチブックを手に思いを巡らせる。
 私が頑張れば、ぬいぐるみ人形劇団の人達は、来年も灯乃に来てくれるのだろうか？
 昔とまったく変わらない姉は、来年も弾けた演技を見せてくれるだろうか？</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#134">
-				<rdfs:label>134</rdfs:label>
-				<dcterms:creator foaf:nick="92/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T16:07:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#134">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">134</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">92/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T16:07:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 焦魂塾を勘違いしたまま思いは巡り、筆は紙上を走り出す。
 そして、ラフで画いたスケッチブックには、
@@ -2368,11 +2721,15 @@
 残念な事に、真奈美以上に気が弱い彼女は
 先生のご乱心を止められない、弱虫な自分を責める事で現実から逃げてしまった。
 来年も灯乃には、熱い夏が巡って来そうだ…。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#135">
-				<rdfs:label>135</rdfs:label>
-				<dcterms:creator foaf:nick="93/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T16:08:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#135">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">135</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">93/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T16:08:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 『ちょっと、ちづる！あんた、カブラの時身体のライン目立つとか、文句言ってたじゃない！
 なんで戦隊のピンクはいいのよっ！』
@@ -2394,11 +2751,15 @@
 庵西がホワイトボードをバンバン叩きながら、部屋の隅でくっちゃべっているヒロインと怪人を呼び寄せる。
 今度の依頼は丹羽湖漁業協同組合の《外来魚撲滅キャンペーン》で行うステージイベント
 《漁協戦隊ニワコンⅤ》のショー製作だった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#136">
-				<rdfs:label>136</rdfs:label>
-				<dcterms:creator foaf:nick="94/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T16:09:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#136">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">136</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">94/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T16:09:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 今回も庵西が悪の幹部として出る予定で、真由美もメンバーに決定している。
 その事を危惧したショーチームの面々は、
@@ -2420,11 +2781,15 @@
 『……似合ってないって言ったら、代わってくれんの？』
 「いやです。」
 キッパリと断る沼越に軽い殺意を覚える真由美。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#137">
-				<rdfs:label>137</rdfs:label>
-				<dcterms:creator foaf:nick="95/95 " dcterms:identifier="XksB4AwhxU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T16:10:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#137">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">137</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">95/95 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T16:10:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 ひょっとして、コイツは《着ぐるむ仕事》が好きになったんじゃないだろうか？
 文句をタレながらも、しっかり着ぐるんでいる真由美を見て池田はそう思った。
@@ -2448,7 +2813,14 @@
 
 
 【　−　終わり　−　】</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-08-30T21:12:45+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T16:10:10+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">40094</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">96</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

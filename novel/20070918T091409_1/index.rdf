@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:01:20+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:01:20+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">意外な代役</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-09-18T09:14:09+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-09-23T16:36:03+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">1919</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#190">
-				<rdfs:label>190</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-18T09:14:09+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#190">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">190</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-09-18T09:14:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">僕は着ぐるみが好きだった。
 しかも中の人が女の人の着ぐるみが。
 ある日遊園地でキャラクターショーがあったので行ってみた。
@@ -49,11 +33,14 @@
 中には誰もいなくて、着ぐるみがおいてあった。
 少し着ぐるみを眺めていると、人が戻ってきた。
 「やばい」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#196">
-				<rdfs:label>196</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-19T09:57:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#196">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">196</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-09-19T09:57:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ドアが開き人が入って来た。
 
 「あなた何してるの？いけないことしようとしてたでしょう」
@@ -76,11 +63,14 @@
 「これなんですか？」
 「ガードルよ。おちんちんがもっこりしないように男の人が
 女の子の役をするときに履くの」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#197">
-				<rdfs:label>197</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-19T16:41:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#197">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">197</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-09-19T16:41:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ガードルを履いた。苦しい。
 
 「あの、すいません。何て呼べばいいですか？」
@@ -102,11 +92,14 @@
 「徹くんがやる役も女の子のキャラだから、その事を忘れないでね」
 「はい」
 「じゃあ、練習するよ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#198">
-				<rdfs:label>198</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-19T22:33:54+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#198">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">198</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-09-19T22:33:54+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">愛さんがショーの段取りを教えてくれた。
 
 「暑いでしょう。水どうぞ」
@@ -127,11 +120,14 @@
 みんなが着替えだしたので部屋を出ようとすると、
 「出なくていいよ。徹君」
 と、言われたが、みんなが着替えるまで下を向いていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#209">
-				<rdfs:label>209</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-23T14:33:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#209">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">209</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-09-23T14:33:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「徹くん、照れてる可愛い。でもおちんちん大きいままだと
 ショーできないよ」
 僕はいつの間にか股間が膨らんでいた。
@@ -153,11 +149,14 @@
 
 「みんなお疲れ様。徹君悪いけど着ぐるみ着たまま外でまってて」
 僕は控え室の外で待っていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#210">
-				<rdfs:label>210</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-23T14:51:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#210">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">210</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-09-23T14:51:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">しばらくすると愛さん以外の女の人が着替えて出てきた。
 「徹君、愛さんが入っていいよっだって。私たちは帰るからじゃあね」
 「さようなら」
@@ -173,14 +172,24 @@
 「お願いします」
 
 愛さんはマスクをしたままキスをした。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#216">
-				<rdfs:label>216</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-23T16:36:03+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#216">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">216</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-09-23T16:36:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">２１０を書いたものです。
 終わりましたので次ぎ方どうぞ。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-09-18T09:14:09+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-09-23T16:36:03+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">1919</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">7</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-11T21:53:36+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-11T21:53:36+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">抱きしめられたい気持ち</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2011-09-10T15:12:17+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2011-09-17T20:26:56+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">2660</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#991">
-				<rdfs:label>991</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-09-10T15:12:17+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#991">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">991</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-09-10T15:12:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">沙織はアルバイトに行くため、自転車をこいで駅へ向かっていた。
 その道中、学生のときに想いを寄せていた彼に偶然出会った。
 不景気でなかなか定職に就けず、自分と同じアルバイト生活だという。
@@ -48,11 +32,14 @@
 代わりの男性の募集もしたが、なかなか長続きするものはいなかった。
 そのため、沙織がヒーローとヒロインの両方をすることに。
 とはいっても、主にヒーローだったが・・・。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#992">
-				<rdfs:label>992</rdfs:label>
-				<dcterms:creator foaf:nick="HHHHH5"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-09-11T10:03:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#992">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">992</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HHHHH5</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-09-11T10:03:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">今日もヒーローのスーツを着る、中は水着を着ている。
 大量の汗で濡れるためTシャツだと動きにくくなってくるのだ。
 それとヒーローなので胸があってはおかしい。
@@ -67,11 +54,14 @@
 でも、沙織はその感覚が嫌いではなかった。
 それにヒーロースーツの厚みこそあるものの外から触れられている感じも敏感に伝わってくる、沙織は自分の感じ易い部分を触って、密かに楽しんでいた。
 ただ、身体は細いが胸が豊かな沙織にとっては、胸が潰された状態が続くのはつらかった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#996">
-				<rdfs:label>996</rdfs:label>
-				<dcterms:creator foaf:nick="HHHHH5"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-09-14T01:34:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#996">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">996</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HHHHH5</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-09-14T01:34:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そんなヒーローを続けていたある日、事件が起こった。
 怪獣と闘っていて倒されたときにファスナーが壊れてしまったのだ。
 １日２回公演の１回目のステージで。
@@ -80,11 +70,14 @@
 スタッフも必死に暑くならないように外から冷やしてくれていた。
 ２回目の公演も無事に終えて、ファスナーを壊して、ようやく解放された沙織は長い間風呂に入ったようにのぼせ、手の平はふやけていた。
 しかし、次回からヒーロースーツが使えないため、しばらくバイトも休みになった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#997">
-				<rdfs:label>997</rdfs:label>
-				<dcterms:creator foaf:nick="HHHHH5"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-09-16T00:34:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#997">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">997</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HHHHH5</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-09-16T00:34:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">それから、数日後連絡が入った。
 行ってみると、新しいヒーロースーツがそこに、がしかしサイズが大きいような。
 そして社員さんから、新しくヒーローの着ぐるみを担当になるバイトを紹介された。
@@ -96,11 +89,14 @@
 あの閉じ込め事件前から、沙織への負担が大きすぎるということで、面接が行われ、準備はされていたのだ。
 それで閉じ込め事件から比較的早くスーツができ仕事が再開となったのだ。
 沙織は顔が見えなくても慎也と一緒にできるのは嬉しい反面、慎也といることで緊張するのではと、不安だった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#998">
-				<rdfs:label>998</rdfs:label>
-				<dcterms:creator foaf:nick="HHHHH5"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-09-17T03:21:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#998">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">998</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HHHHH5</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-09-17T03:21:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">沙織は慎也の試着を手伝うことに。
 出来立てのヒーロースーツを着るのを横でヒロインのスーツを着ながら、時に手伝いながら教えた。
 背も高く、たくましい体型の慎也はヒーロースーツを着るとすごく格好よく、抱き着きたくなった。
@@ -117,11 +113,14 @@
 こんなときは自分のマスクを相手のマスクに接触させると、振動で相手の声が伝わる。
 慎也は「すごく格好いいよ」いってくれた。
 慎也に褒められて照れている沙織に慎也は突然抱き着いた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#999">
-				<rdfs:label>999</rdfs:label>
-				<dcterms:creator foaf:nick="HHHHH5"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-09-17T20:26:56+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#999">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">999</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HHHHH5</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-09-17T20:26:56+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">沙織はビックリして、動くことができなかった。
 慎也の温もりが伝わってくる。
 そして、ドキドキも。
@@ -137,7 +136,14 @@
 他人からすれば変に思われるかもしれないが。
 面と向かうとすぐに緊張してしまう沙織にとってはこれが理想だったのだ。
 それが思わぬところで叶った、沙織はうれしくてたまらなかった。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-09-10T15:12:17+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-09-17T20:26:56+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">2660</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">6</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

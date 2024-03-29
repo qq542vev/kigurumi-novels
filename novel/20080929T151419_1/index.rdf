@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:02+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-08T23:53:02+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">舞台袖にて</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:14:19+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:36:05+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">4688</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#257">
-				<rdfs:label>257</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:14:19+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#257">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">257</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">pHmPE/M9is</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:14:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「お疲れ〜。」
 「はふ〜〜、お疲れ様でした〜。」
@@ -47,11 +32,15 @@
 みか「あつ〜、今回、ガチで長かったね。」
 あや「うん、何回も撮り直したし。」
 さなえ「２人はいいよ、私なんかアクション多かったし。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#258">
-				<rdfs:label>258</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:17:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#258">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">258</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">pHmPE/M9is</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:17:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">少し身長のあるさなえは今回、親子ペンギンのお父さん役で、みかは母親ペンギン、あやは子供ペンギンの役だった。
 みか「私たちは見てるだけだったけど、さなえは動きっぱだしね。」
 さなえ「うん、もっと体力つけないと。」
@@ -69,11 +58,15 @@
 さなえ「失礼ですけど、それは差別的発言です、女性は関係ないと思います。」
 Ｄ「おお〜そうだね、撤回するよ、ごめん。」
 そして３人は帰路につく、帰りの電車の中で３人は今日のことを話していた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#259">
-				<rdfs:label>259</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:18:46+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#259">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">259</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">pHmPE/M9is</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:18:46+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">みか「さなえもディレクター相手によくあんなこと言うわね。」
 さなえ「だって、女性だからどうだって差別じゃない、そういう発言は私許せないわ。」
 あや「さなえはそういうとこ曲げないよね。」
@@ -92,11 +85,15 @@
 みか「そっか。」
 さなえ「ん？そういうみかは？」
 みか「私はまだ・・・。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#260">
-				<rdfs:label>260</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:20:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#260">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">260</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">pHmPE/M9is</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:20:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">あや「私のとこで空きあるか聞いてみるよ。」
 みか「え？悪いよ。」
 あや「いいよ、私たちは仲間でしょ。」
@@ -116,11 +113,15 @@
 みか「ええ、いいの？」
 あや「いいよ、明日、朝５時に私の家にきてね。」
 みか「早いわね、わかったいくわ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#261">
-				<rdfs:label>261</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:21:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#261">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">261</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">pHmPE/M9is</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:21:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">電話をきるみかは小さくガッツポーズをとる。
 みか「よし。」
 
@@ -138,11 +139,15 @@
 みか「うん。」
 お客さんがまだ入っていない時間帯にショーの立ち回りのリハーサルが行われる。
 レンジャー５人と怪人、悪ボス、戦闘員の組み合わせでアテレコのようだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#262">
-				<rdfs:label>262</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:23:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#262">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">262</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">pHmPE/M9is</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:23:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">劇中では音楽であまり聞こえないが、キャストは面の中からでも声をだしてアクションをしている、視界が制限される舞台において声をたよりに立ち回らないといけないためだ。
 ピンクが敵に捕まって、それを他のレンジャーが救出するシナリオで、あやも必死に演技をこなしているようだ。
 ピンクは応援と敵の一瞬の隙をついて脱出する、５人で名乗ってポーズ、その後２人、２人、１人の場面から５人で悪ボスと怪人を倒すようだ。
@@ -157,11 +162,15 @@
 みか「うん。」
 あや「みかは、邪魔にならないとこで見てて。」
 みか「うん。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#263">
-				<rdfs:label>263</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:24:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#263">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">263</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">pHmPE/M9is</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:24:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">１０分ほどして、ピンクのレンジャーがみかのとこにやってくる
 みか「おお〜、かわいい。」
 ポーズなどをとってくつろいでいるとリーダーの声がする。
@@ -176,11 +185,15 @@
 あや「す、すみません・・・私は大丈夫ですから・・・くぅ・・。」
 キャストリーダー「大丈夫じゃないだろ、見せてみろ。」
 ブーツをはずすと、くるぶしのあたりが紫にはれているのがわかる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#264">
-				<rdfs:label>264</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:25:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#264">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">264</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">pHmPE/M9is</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:25:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">キャストリーダー「無理はするな。」
 ＭＣ「そろそろ、レンジャー出撃準備お願いします。」
 キャストリーダー「わかった。」
@@ -196,11 +209,15 @@
 キャストリーダーはそのまま部屋をでていく
 あや「じゃあ、スーツはみかにあずける、お願い。」
 すばやくファスナをさげて足に負担がかからないようにスーツをあやから脱がせる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#265">
-				<rdfs:label>265</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:26:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#265">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">265</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">pHmPE/M9is</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:26:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">みかも、Ｔシャツスパッツに着替えて、さっきまであやが着ていたピンクのスーツを着る、まだあやの体温がスーツに残っている。
 下面は汗がまだ残っている、そのままかぶって、膝をまげて低くしたところであやがファスナをあげる。
 ブーツと手袋、ベルトをつけて、最後はマスクをかぶる鼻をつく匂いがするが仕方ない。
@@ -212,11 +229,15 @@
 ピンクもマスクをはずしてあやの元によってくる。
 あや「みか、ありがとう。」
 みか「ううん、いいよ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#267">
-				<rdfs:label>267</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:29:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#267">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">267</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">pHmPE/M9is</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:29:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">キャストリーダー「すまないが、２ステもでてくれ。」
 みか「え？でも私・・・。」
 あや「さっきリハーサルのステージ見てたし、みかならできるよ。」
@@ -231,11 +252,15 @@
 みか「はい、よろしくお願いします。」
 あや「さ、時間ないわ、ピンクに変身よ。」
 みか「うん。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#269">
-				<rdfs:label>269</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:31:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#269">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">269</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">pHmPE/M9is</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:31:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">１０分ほどでレンジャーに着替えられる、マスクだけをもった下面すがたのみかが立っている、すでに緊張は限界を超えようとしていた。
 あや「力ぬいて、怪我しちゃうよ。」
 みか「うん、ありがと。」
@@ -250,11 +275,15 @@
 みか「うん。」
 キャストリーダー「よし、レンジャー出撃。」
 みかは再びマスクをかぶると勢いよくステージに向かっていった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#270">
-				<rdfs:label>270</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:33:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#270">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">270</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">pHmPE/M9is</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:33:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ステージも無事すべて終了して、楽屋にもどってくるレンジャー
 みか「ただいま。」
 あや「お疲れ様。」
@@ -265,11 +294,15 @@
 みか「ありがとうございます。」
 キャストリーダー「さ、すぐにスーツを脱いで、帰る準備だ、みかさんはスーツなどをみんなから回収してたたんで元の箱にもどしてくれ、俺たちは什器を片付けるから。」
 みか「はい。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#271">
-				<rdfs:label>271</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:34:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#271">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">271</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">pHmPE/M9is</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:34:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">帰りの車内、あやの側にずっとついているみか
 あや「本当に今日はありがとう、みかが来てくれなかったらやばかった。」
 みか「あやの役にたててよかった。」
@@ -284,13 +317,24 @@
 みか「あや・・・わかった。」
 
 続く</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#272">
-				<rdfs:label>272</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="pHmPE/M9is"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:36:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#272">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">272</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">pHmPE/M9is</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:36:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ベターな展開ですが書いてみました。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:14:19+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-29T15:36:05+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">4688</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">14</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

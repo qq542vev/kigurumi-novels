@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:05:39+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:05:39+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">世界忍者戦ジライヤ妄想外伝</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-05-01T13:32+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-05-01T13:41+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">4393</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#182">
-				<rdfs:label>182</rdfs:label>
-				<dcterms:creator foaf:nick="謎の人" dcterms:identifier="p/JJBAYQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T13:32+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#182">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">182</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">謎の人</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">p/JJBAYQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T13:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">世界忍者戦ジライヤ妄想外伝
 〜奴隷姫忍恵美破〜
 
@@ -43,11 +28,15 @@
 拷問よ。生意気なあなたを屈服させるとっておきの仕打ちね。あなたはこれを身に
 付け我が下僕として生まれ変わるの。その体から顔まで全てをそのスーツに覆い
 つくされ最低の奴隷へなりなさい。魔忍シルビア、妖魔忍術で強制装着させておやり。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#183">
-				<rdfs:label>183</rdfs:label>
-				<dcterms:creator foaf:nick="謎の人" dcterms:identifier="p/JJBAYQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T13:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#183">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">183</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">謎の人</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">p/JJBAYQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T13:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「無駄な抵抗はやめなさい。この魔忍シルビアの妖魔催眠に逆らうことなど
 出来ないのよ。自らすすんでそのスーツを装着しなさい。二度と脱げないように
 自ら拘束しなさい。さあ、着たくて着たくていてもたってもいられなくなって
@@ -57,11 +46,15 @@
 でも着ずにはいられない。手が、足が、体が勝手に。
 きっ、きつい。一度着たら二度と脱げなくなっちゃう。もう足から腰、胸までも。
 ああっ、逆らえない！」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#184">
-				<rdfs:label>184</rdfs:label>
-				<dcterms:creator foaf:nick="謎の人" dcterms:identifier="p/JJBAYQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T13:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#184">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">184</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">謎の人</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">p/JJBAYQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T13:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「よしよし、いい娘ね。次はこれ、特殊合成皮革製の膝上までのブーツ。
 履くとすぐにあなたの体熱で収縮してピッタリ締め上げるわよ。足首には金の
 枷でガッチリ留めてあげる。」 
@@ -72,11 +65,15 @@
 こんな恥ずかしいもの身に着けたくない。やめて、自分で鍵を、いやいやいっ!」
 チャンッ、ガチャンッッ!、ガチャンッッっ!!、ガッチャンッッッ!!!
 ガッッチャーーンッッッッ！！！！</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#185">
-				<rdfs:label>185</rdfs:label>
-				<dcterms:creator foaf:nick="謎の人" dcterms:identifier="p/JJBAYQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T13:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#185">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">185</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">謎の人</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">p/JJBAYQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T13:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「あらあら、なんて聞き分けのいい娘なの。あっという間に身に着けて、
 見違えちゃったわ。その忍者スーツも良く似合う。もう体はすっかり奴隷姫忍ね。
 なのにそんな、恥ずかしそうな、悔しそうな顔をしては駄目。さあこのマスクで
@@ -91,11 +88,15 @@
 いますぐ、この屈辱のスーツを脱ぐの。ああ、強固な妖魔忍術で体にスーツが
 張り付いて剥がれない。これ以上このまま苦しむより、マスクを被りたい、
 拘束装着したい、外せないように施錠したい。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#186">
-				<rdfs:label>186</rdfs:label>
-				<dcterms:creator foaf:nick="謎の人" dcterms:identifier="p/JJBAYQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T13:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#186">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">186</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">謎の人</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">p/JJBAYQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T13:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「なかなか強情な娘です。紅牙様。我が拘束妖術にここまで抵抗するとは。」
 「焦るな、魔忍シルビアよ。だからこそ、奴隷姫忍にする甲斐があるというもの。
 簡単に恵美破にしてはつまらない。奴にはじっくりと足掻かせ苦しませた挙句、
@@ -113,11 +114,15 @@
 さあ装着して御覧なさい。とってもピッタリよ。ピッタリはりつくような
 被り心地よ。たまらない装着感を存分に味わって頂戴。
 どお、ゾクゾクしてきたわよね。さあ早く早くっ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#187">
-				<rdfs:label>187</rdfs:label>
-				<dcterms:creator foaf:nick="謎の人" dcterms:identifier="p/JJBAYQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T13:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#187">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">187</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">謎の人</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">p/JJBAYQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T13:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「はっ、はっ、はあっ。ああ、どうしたの、どうしたの私。体が熱い。
 興奮してる？こんな格好にされて、いいえ自らこのスーツを装着して
 脱げなくて興奮してるの。
@@ -134,11 +139,15 @@
 そして新しい私、奴隷姫忍恵美破になるの。ああ、逆らえない。もう戻れない
 そう被りたい。二度と脱げないように強制拘束装着したい。さあ、紅牙、シルビア、
 この鉄仮面を私の顔に被せてっ！お願いーっッ!!!」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#188">
-				<rdfs:label>188</rdfs:label>
-				<dcterms:creator foaf:nick="謎の人" dcterms:identifier="p/JJBAYQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T13:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#188">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">188</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">謎の人</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">p/JJBAYQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T13:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「あーはっはっはっはーっ！罠に嵌まったわね、山地ケイ。
 そのマスクは我々では強制装着させるなんて出来ないの。ほら被れないでしょ。」
 「何？いったいどういうこと？あっ頭が入らない。被れない、どうやって
@@ -155,11 +164,15 @@
 「もう遅いわ、妖魔忍法鉄仮面強制拘束転移装着封印恵美破ーーーッッッ!!!!」
 「ああーーっ、助けてーっ、いやいやいやあああああーーーーっっっっっ!!!!!」
 グアッッチャアアアアアーーーーーーッッッッッッ!!!!!!　ギリギリギーーッ！</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#189">
-				<rdfs:label>189</rdfs:label>
-				<dcterms:creator foaf:nick="謎の人" dcterms:identifier="p/JJBAYQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T13:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#189">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">189</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">謎の人</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">p/JJBAYQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T13:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">〜奴隷姫忍恵美破　第二部無間地獄編〜
 
 私は妖魔一族の下僕、奴隷姫忍恵美破。少し前は平凡な中学生、山地ケイだったが
@@ -169,11 +182,15 @@
 でも多分これは夢、こんな残酷なこと本当なわけない。妖魔催眠をかけられたからって
 自らこんな格好して興奮するわけないじゃない。さあたぶんもう朝、目をさまして
 学校行かなくちゃ。起きなさい、ケイ</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#190">
-				<rdfs:label>190</rdfs:label>
-				<dcterms:creator foaf:nick="謎の人" dcterms:identifier="p/JJBAYQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T13:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#190">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">190</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">謎の人</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">p/JJBAYQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T13:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「起きなさい！奴隷姫忍恵美破」
 「え？ここは？はっ!レザーの全身拘束網タイツがっ」
 ギチギチギチギチーッ
@@ -193,11 +210,15 @@
 ああ私は恵美破？奴隷姫忍恵美破？山地ケイには戻れない？二度と脱げない？永遠にこの姿？
 恥ずかしい、なんて恥ずかしい格好なの？ああ興奮してる？ちょっぴり興奮してるわ、
 いやよ、いや、いやあああっ、誰か助けてーーーッッッ!!!!」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#191">
-				<rdfs:label>191</rdfs:label>
-				<dcterms:creator foaf:nick="謎の人" dcterms:identifier="p/JJBAYQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T13:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#191">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">191</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">謎の人</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">p/JJBAYQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T13:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「はあはあはあはあふっ、落ち着きなさい、負けちゃ駄目、諦めちゃ駄目よケイ。
 こっ、こんなものに屈服しては駄目。でもどうしたらいいの。紅牙達はこれから私を
 どしようというの？でも、ああ、体が疼く、火照る、しかし今の私には、全身拘束で
@@ -217,11 +238,15 @@
 逃れようとして死ぬことすら出来ない。ほんとのほんとの意味で貴方には一切の自由が
 ないわ。貴方はもっとも狭く過酷で残酷な悦楽と拷問の無間地獄に今、足を踏み入れて
 しまったのよ。奴隷姫忍恵美破」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#192">
-				<rdfs:label>192</rdfs:label>
-				<dcterms:creator foaf:nick="謎の人" dcterms:identifier="p/JJBAYQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T13:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#192">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">192</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">謎の人</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">p/JJBAYQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T13:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">山地ケイ＝姫忍恵美破演じる関口めぐみ嬢はあの衣装がいやでいやで
 仕事を辞めたがってたそうだ。これ以降彼女の活躍がないのは、実際問題
 あの格好がトラウマになってしまったからかもしれない。 
@@ -235,7 +260,14 @@
 ああ、頭が混乱する。本当の私はいったい？
 ああ誰か、誰かお願い。この無間地獄から私を出して。せめて脱出する方法を
 教えて。助けて、助けて、助けて、、、、、」</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T13:32+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T13:41+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">4393</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">11</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

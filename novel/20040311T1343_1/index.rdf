@@ -1,42 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:09:21+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:09:21+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">白猫</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-03-11T13:43+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-03-16T11:10+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">12089</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#650">
-				<rdfs:label>650</rdfs:label>
-				<dcterms:creator foaf:nick="エフシイ" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T13:43+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#650">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">650</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">エフシイ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-11T13:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">さわりだけ投稿します。
 校正の行き届かないところはご指導願います。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#651">
-				<rdfs:label>651</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T13:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#651">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">651</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-11T13:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">白猫
 
 先月の話、
@@ -50,11 +39,15 @@
 彼女言葉少なになるし周りの雰囲気も悪くなって、
 私も申し訳ない気持ちもあったんだけど・・
 なんてことがあったせいで当分お呼びが掛からなかった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#652">
-				<rdfs:label>652</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T13:46+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#652">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">652</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-11T13:46+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そんなカズコからの頼みに驚いた。
 カズコはダサいからカズにしてといつも言うのでカズって呼ばされてるる
 「予定してた子が都合が悪くなって」「今度は何もポーズ取らなくて言いから」「台詞も無いし」
@@ -69,11 +62,15 @@
 彼女は首までの黒いタイツに着替えると、私にも白いタイツを差し出した。下着になってこれ着て
 椅子に座ってファスナーを開き足を入れ腕を通すとフードが着いてるフードを被ると素早くカズがファスナーを上げてくれた。レオタードかと思ったら指先、つま先まで包まれた。
 光る白色で首から上は赤色のフードは目の部分だけがくりぬかれる。「わたし変だよね！」思わず話し掛けた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#653">
-				<rdfs:label>653</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T13:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#653">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">653</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-11T13:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「大丈夫、このまま外に出るわけじゃないから」
 タイツ人間になった私は自分で体を触ってみた、艶があってツルツルだ。
 胸からお腹になでていくと何か感じた。
@@ -95,19 +92,27 @@
 そして私にフード被せファスナーを上げた。
 「じゃあ座って手を出して。」
 恐る恐る右手を出すとすっぽり肩まで白い衣装に収まった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#654">
-				<rdfs:label>654</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T13:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#654">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">654</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-11T13:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">自主校正
 二行目　　誤：カズって呼ばされてるる
 　　　　　正：カズって呼ばされてる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#656">
-				<rdfs:label>656</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T13:57+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#656">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">656</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-11T13:57+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「中に棒があるから握って」
 言われるままに握ると左手を持って肩まで押し込まれた。
 左手も同じように棒を掴んだ。
@@ -131,11 +136,15 @@
 「じゃあ歩いてみて」
 立ち上がって歩こうとするが無理みたい。
 手を突きながらゆっくり歩いてみると姿見が見えた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#657">
-				<rdfs:label>657</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T14:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#657">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">657</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-11T14:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;656
 巨大な猫が写っている。
 白い体に手足の先が黒色、赤い目に白いたてがみが背中までなびいている。
@@ -155,11 +164,15 @@
 
 リードで誘導されるまま通路を歩いていくと雑踏が聞こえてくる、
 アニメの歌と人の声。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#669">
-				<rdfs:label>669</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:03+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#669">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">669</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T11:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;657
 会場のドアを抜けると一瞬置いてざわめきが聞こえた。
 何かな？と思って手を突き出したまま中腰に立ち上がると再び周りがざわめいた。
@@ -178,11 +191,15 @@
 「頼むね」優しくささやいた。
 ゆっくり私の背中に乗ってきた。
 重いぞ！カズ！</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#670">
-				<rdfs:label>670</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#670">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">670</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T11:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;669
 私は膝を伸ばし肘に力を入れて我慢した。
 カメラの音、掛け声、ざわめき・・・
@@ -201,11 +218,15 @@
 首を引っ張られながら前に進み始める。
 腰を曲げたままで両腕は松葉杖、肩に体重を預けながら歩くと
 少しは慣れたのか手足を動かす順番が解かってきた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#671">
-				<rdfs:label>671</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#671">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">671</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T11:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;670
 徐々に大股で足を動かしてやっとリードが緩んだ。
 「あれ？」
@@ -225,11 +246,15 @@
 幾つもの手が背中を撫でたり叩いている。
 詰め物に覆われた胸にまで触ってくる。
 「うそー！この人,縫い込まれてるんじゃない？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#672">
-				<rdfs:label>672</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#672">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">672</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T11:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;671
 「え！！ファスナーを上げた筈だ、このままなんてやだ！」
 尻尾を引っ張られた、
@@ -250,11 +275,15 @@
 手足が外に開かないこの着ぐるみのせいだ。歩くと腰に快感が追いついてくる。
 私はカズを引っ張っては歩き始めた、あー！嫌だ、濡れてきたぞー！　
 立ち止まると触られる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#673">
-				<rdfs:label>673</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#673">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">673</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T11:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;672
 しばらく歩くとカズは私が態度を変えたのに気が付き
 人気の少ないブースの裏に誘導した。
@@ -275,11 +304,15 @@
 「シュグチガクデョー（すぐ近くでしょ？）」
 ヤッパリだめだ、と思ったら通じてた。
 「反対側だからね、ここが折り返し地点だよ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#674">
-				<rdfs:label>674</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#674">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">674</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T11:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;673
 
 ハァー参った。この着ぐるみのお股の調子が悪いなんて言えないし・・でも熱い。
@@ -301,11 +334,15 @@
 そして再びお約束のように人に囲まれて、
 カズが背中に乗った。
 やっぱり重いぞカズ！</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#675">
-				<rdfs:label>675</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:26+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#675">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">675</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T11:26+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;674
 重いカズは笑顔でポーズを取っている。カメラ付き携帯の音も聞こえた。
 そしてカズが降りてポーズを取り終わると
@@ -325,11 +362,15 @@
 その子の笑顔が戻ったようだ。
 そのまま笑顔でわき腹をさすり、私の顎をさすって来た。
 って猫かよ！</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#676">
-				<rdfs:label>676</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#676">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">676</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T11:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;675
 お嬢ちゃんがさすっている猫の中には
 口呼吸の汗まみれで
@@ -347,11 +388,15 @@
 カズが驚いて照れくさそうに手を振ってポーズを決めたが
 私がいないのに気が付いて私の首のリードを追いかけた。
 今度は笑いが起こった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#677">
-				<rdfs:label>677</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#677">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">677</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T11:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;676
 私は振り向いてカズが追いついたのを確認しようとした。
 カズの後ろにカメラを持った男達が群れになってついてきている。
@@ -370,11 +415,15 @@
 私は腰を振り振り感じるのを我慢しながら歩くしかなかった。
 私たちの後ろに一瞥をすると笑顔でドアを開けてくれた。
 カズが笑顔で礼を言ったので私も猫の顔の中で笑顔を作って頭を縦に振った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#678">
-				<rdfs:label>678</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T11:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#678">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">678</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T11:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;677
 自分の荒れた呼吸しか聞こえない。
 レンズも曇ってほとんど見えなくなった。
@@ -394,11 +443,15 @@
 「いやだよ！このままなんて！何とかしてよ！」
 と叫んだつもりだった。
 中腰の私の両手の先に付いてる猫足を掴んでカズが笑った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#680">
-				<rdfs:label>680</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T13:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#680">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">680</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T13:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;678
 「元気出た？そのまま床に座って」
 そう言われてお座りすると
@@ -420,11 +473,15 @@
 自由になった手でフードを下ろす。上半身は、ほぼ私に戻った。
 まだ息が荒い。思い出した、
 私の股間は濡れ濡れのままだ、やばいぞ！カズにばれませんように。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#681">
-				<rdfs:label>681</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T13:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#681">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">681</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T13:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;680
 「下も脱ぐでしょ。？」
 「あ、このままでいいよぉ」
@@ -441,11 +498,15 @@
 素早く後ろに回って尻尾を取り外すと心配そうに色々触って見ている。
 あ、衣装が心配だったんだ。
 まあ彼女らしいか。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#682">
-				<rdfs:label>682</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T13:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#682">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">682</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T13:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;681
 それから彼女が買ってきた飲み物で一息つくと、
 何か言いたそうな顔が見えてきた。
@@ -464,11 +525,15 @@
 私、純粋なコスプレーヤーだからね。ごめんね。」
 発想が純粋じゃないんだよ！
 女の子が入ってるからいじめないでなんて言えよ！</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#683">
-				<rdfs:label>683</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T13:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#683">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">683</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T13:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;682
 「あ、会場に更衣室は無いんだって、
 だから外にワゴン車が迎えが来てコスのまま移動出来るって言ってた。」
@@ -492,11 +557,15 @@
 三十分後には私は再び猫だ。長い一日になるんだろうな。
 
 　　前編を終了します。続きます。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#705">
-				<rdfs:label>705</rdfs:label>
-				<dcterms:creator foaf:nick="エフシイ" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T13:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#705">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">705</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">エフシイ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-13T13:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">白猫　続きです。
 
 私は先月の今ごろ
@@ -516,11 +585,15 @@
 尻尾の下から太ももに掛けて詰め物が何も無かった。
 横から見るとヒップラインが丸見えだ。
 これじゃ罰ゲーム受けてる人みたいだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#706">
-				<rdfs:label>706</rdfs:label>
-				<dcterms:creator foaf:nick="エフシイ" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T13:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#706">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">706</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">エフシイ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-13T13:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;705
 こんなカッコで歩いて吼えてダッシュした全てが恥ずかしく思えた。
 そんな事を考えていてもカズはテキパキと私の後ろフードを広げ私の顔に貼り付けた。
@@ -541,11 +614,15 @@
 「これなら楽！」大声で叫んだ。
 「頭動かして。」
 あ、聞こえてるんだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#707">
-				<rdfs:label>707</rdfs:label>
-				<dcterms:creator foaf:nick="エフシイ" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T13:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#707">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">707</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">エフシイ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-13T13:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;706
 聞こえる言葉が喋れると嬉しくなった。
 首を左右に振ると猫の頭と顔に張り付いたタイツのマスクが別々に動く
@@ -566,11 +643,15 @@
 顔に両手のひらを当てもぞもぞしてるとマスクのファスナーを開けてくれた。
 顔の布が手前にずり落ちた。
 「一応理詰めに作ってあるのよね。」少しすまなそうに彼女が言った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#708">
-				<rdfs:label>708</rdfs:label>
-				<dcterms:creator foaf:nick="エフシイ" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T13:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#708">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">708</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">エフシイ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-13T13:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;707
 ふー・・私はため息をつきながら
 顔に付いた髪を後ろに撫で付け首元にあるマスクを持って
@@ -588,11 +669,15 @@
 マジックテープの付いたタテガミが貼り付けられて、
 脇の金具を引っ掛け　背中を丁寧に手のひらで押さえた。
 首輪を巻き付けて尻尾を取り付ける、</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#709">
-				<rdfs:label>709</rdfs:label>
-				<dcterms:creator foaf:nick="エフシイ" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T13:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#709">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">709</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">エフシイ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-13T13:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「よし！出来た！」
 相変わらず仕上げは明るいカズ。
 そして再び私は変な猫になった。
@@ -609,11 +694,15 @@
 とりあえず股間のことがカズにばれなかったのは安心だ。
 それに何言っても聞こえないしね。
 私がゆっくり歩き出すとカズも両手に荷物を抱えてリードを持ってよろよろ歩いた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#714">
-				<rdfs:label>714</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-14T13:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#714">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">714</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-14T13:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">カズのリードと一緒に私は会場の入り口へ向かう。
 ゆっくり歩くが体もすぐ温もって再び汗がにじみ出て来た。
 一歩づつ歩く都度に私の股間でタイツ生地がしわを寄せて暴れる。
@@ -630,11 +719,15 @@
 冬なのに日光に当たると余計に熱く感じる。
 「あの車かな？」
 箱型のワゴン車？に極彩色の衣装を着た人が乗り込んでいる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#715">
-				<rdfs:label>715</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-14T13:49+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#715">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">715</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-14T13:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;714
 車までもう少しだ。
 そばまで来ると私服の男性が嬉しそうな顔でしゃがんで両手を伸ばして迎えてくれた。
@@ -651,11 +744,15 @@
 「気にしなくていいから。」と答える。
 　そのまま車の後ろの跳ね上げドアの前まで来ると
 荷室のふちに私の手を下ろし中の荷物を手際良く寄せて場所を作った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#716">
-				<rdfs:label>716</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-14T13:52+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#716">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">716</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-14T13:52+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;715
 「手をいっぱい前に伸ばして。」
 言われるままに荷室の奥に手を持って行くと後ろから
@@ -672,11 +769,15 @@
 「じゃあ出発します」
 明るい彼の声が運転席から伝わってきた。
 その後カズの心配そうな声</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#717">
-				<rdfs:label>717</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-14T13:56+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#717">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">717</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-14T13:56+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;716
 「彼、大丈夫ですか？」
 「まだオス猫かよ！」
@@ -703,11 +804,15 @@
 それにしても熱い。
 股間の刺激は納まってるけど体中私の汗を吸ったタイツが張り付いたままだ。
 そのうち車の揺れが止まり後ろのドアが開いた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#726">
-				<rdfs:label>726</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-15T12:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#726">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">726</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-15T12:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ダンスの会場に着いたようだ。
 前の席の女の子が怖々小さく手を振って降りていった。
 「じゃあ降りるよ」
@@ -723,11 +828,15 @@
 地面に手を着くと私は振り返る。
 「（荷物は？私の服は？）」
 思い出した私は通じない言葉で言ってみた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#727">
-				<rdfs:label>727</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-15T12:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#727">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">727</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-15T12:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;726
 ドアを閉めた運転手の彼がこちらに向かってあの笑顔で
 「みんなの荷物は車に預かっとくから安心して！
@@ -746,11 +855,15 @@
 名前の所に猫のイラストと番号が書いてある。
 カズの胸にも同じ名札が付いる。
 ビニール製の名刺を入れるあれだ、猫じゃないときに見た事ある。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#728">
-				<rdfs:label>728</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-15T12:12+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#728">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">728</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-15T12:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;727
 
 「動かないで！」
@@ -774,11 +887,15 @@
 「うそー、始まってるのかな？」
 カズは私を置いて駆け出しそうだ。
 先に言っていいですか？なんて目で私を見る。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#729">
-				<rdfs:label>729</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-15T12:14+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#729">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">729</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-15T12:14+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;728
 置いてかれたら大変だ。一人じゃ何にも出来ないんだ！
 私も股間が変になるのも構わず
@@ -806,18 +923,29 @@
 ドアが閉まった。
 あのドアは私一人では開かないかも知れない。
 リードを持った彼が私を見下ろして微笑んでいた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#754">
-				<rdfs:label>754</rdfs:label>
-				<dcterms:creator foaf:nick="衣装屋" dcterms:identifier="iHjqYkHk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T11:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#754">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">754</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">衣装屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iHjqYkHk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-16T11:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;753
 はい、
 衣装屋は休載致します。
 
 後がつかえてるのを引っ張るつもりは無いですよＷ
 スレに隙間が出来たら投稿しますね。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-11T13:43+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-16T11:10+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">12089</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">35</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

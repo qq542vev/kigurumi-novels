@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-11T21:53:05+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-11T21:53:05+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">私の秘密………</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2010-02-09T23:26:28+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2010-02-11T15:48:31+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">5997</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#313">
-				<rdfs:label>313</rdfs:label>
-				<dcterms:creator foaf:nick="私の秘密・・・" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-09T23:26:28+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#313">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">313</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">私の秘密・・・</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-09T23:26:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ではお言葉に甘えて………
 今回はかなり変態チックでして………申し訳ないです。
 それと文中の「ゼンタイ」は「全身タイツ」でよろしくです。
@@ -53,11 +38,15 @@ OLさん。22歳。独り暮らし。
 
 金曜日の夜。お風呂上がりの早苗は体を拭きながら、人には言えないことしようとしていた。
 その人には言えないこととは………</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#315">
-				<rdfs:label>315</rdfs:label>
-				<dcterms:creator foaf:nick="私の秘密・・・" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-09T23:29:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#315">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">315</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">私の秘密・・・</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-09T23:29:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「ふぅ……気持ちよかった」
 　お風呂に入る前につけておいた暖房のおかげで部屋がぽかぽかになってた。
 　今はお風呂上がりだからちょっと暑いけど『あれ』を着るにはちょうどいい温度になってると思う………
@@ -85,11 +74,15 @@ OLさん。22歳。独り暮らし。
 　汗もひいてきたし………うん………そろそろ着よう………
 　
 　私は濡れたあそこをティッシュでよく拭いてから、手に持ったゼンタイのチャックを開けてその中に右足を入れた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#316">
-				<rdfs:label>316</rdfs:label>
-				<dcterms:creator foaf:nick="私の秘密・・・" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-09T23:31:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#316">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">316</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">私の秘密・・・</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-09T23:31:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「んっ………んくぅっ………」
 　ゼンタイに足を通してるだけなのに………どんどんおつゆが漏れてくる………
 　新しいからなのかもしれないけど………すごくいい肌触り………自然とエッチな声がでちゃう………
@@ -114,11 +107,15 @@ OLさん。22歳。独り暮らし。
 　
 　次に左手も通す………そしたら一気にゼンタイが私の体を包んできたから、もっと胸がドキドキしてきた………
 　それに体も火照ってるし生地が厚いから汗かいちゃってる………</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#317">
-				<rdfs:label>317</rdfs:label>
-				<dcterms:creator foaf:nick="私の秘密・・・" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-09T23:34:00+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#317">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">317</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">私の秘密・・・</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-09T23:34:00+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　休憩も兼ねてその場にお尻をついたら………あそこがきゅん！ってなっちゃった………　
 「きゃっ！」
 　思わず大声出しちゃった！
@@ -147,11 +144,15 @@ OLさん。22歳。独り暮らし。
 　今の自分の姿がすごく恥かしくて………すごくエッチっぽい………
 　そんな自分を隠そうとして顔の前に垂れさがってるフードを一気に被って、髪が挟まらないようにチャックを閉じた。
 　これで私は完全にゼンタイに覆われちゃった………</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#318">
-				<rdfs:label>318</rdfs:label>
-				<dcterms:creator foaf:nick="私の秘密・・・" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-09T23:36:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#318">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">318</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">私の秘密・・・</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-09T23:36:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　視界が急にピンクになった………ほとんど周りが見えない………
 　それに………顔まで包まれちゃうと………もっとエッチな気持ちになってくる………
 
@@ -173,11 +174,15 @@ OLさん。22歳。独り暮らし。
 
 　いつも着てるゼンタイと全然違うから胸がいっぱいいっぱいになっちゃってた。
 　ゼンタイは着てから楽しむものなのに………</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#319">
-				<rdfs:label>319</rdfs:label>
-				<dcterms:creator foaf:nick="私の秘密・・・" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-09T23:40:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#319">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">319</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">私の秘密・・・</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-09T23:40:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　私はさっきみたいに大きく深呼吸して、ベットがある方へと四つん這いで歩いて行った。
 　まわりが全然見えないからすごく大変………なんとか頑張ってベットにのぼり、ベットの上の毛布を端っこにどけて仰向けになった。
 　そしてミトンに包まれた手で………ゆっくりと全身をさすってみた………
@@ -198,11 +203,15 @@ OLさん。22歳。独り暮らし。
 　もし今の私を誰かが見たら、絶対私のこと変態だって思うにきまってる。
 　だって、つま先から頭までゼンタイにくるまれながら自分の体をスリスリして………こんなに感じちゃって………股をびちょびちょにしてるんだから………
 　………でも………こんなに気持ちよくなれること………やめられない………</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#320">
-				<rdfs:label>320</rdfs:label>
-				<dcterms:creator foaf:nick="私の秘密・・・" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-09T23:42:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#320">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">320</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">私の秘密・・・</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-09T23:42:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　体が火照ってるし、こんな生地が厚いゼンタイを着てる………そのうえエアコンまできいてるからゼンタイの中の私はびっちょりになってた………
 　このびっちょり感もまた………私をエッチにさせる………
 
@@ -225,11 +234,15 @@ OLさん。22歳。独り暮らし。
 　エッチな声が抑えられない………
 　ぷにぷにクリクリするたびに胸の奥と………あそこがきゅんきゅんしちゃう………
 　たまらない………きもちい………</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#321">
-				<rdfs:label>321</rdfs:label>
-				<dcterms:creator foaf:nick="私の秘密・・・" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-09T23:45:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#321">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">321</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">私の秘密・・・</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-09T23:45:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　はぁ……はぁ…………ふぅっ！………きもち………いい………
 　……だめ………もう……んんっ！………がまんできない………
 
@@ -257,11 +270,15 @@ OLさん。22歳。独り暮らし。
 　一気に蜜が出てきておしりまで温かくなっきた………体がビクビクッ！ってなってる………
 　すごく………きもちよかった………
 　声が出ないように両手で口を押さえたから………鼻のあたりにいっぱいおつゆがついちゃった………いやらしい匂いがする………</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#322">
-				<rdfs:label>322</rdfs:label>
-				<dcterms:creator foaf:nick="私の秘密・・・" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-09T23:47:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#322">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">322</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">私の秘密・・・</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-09T23:47:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　はぁ……はぁ……あっ………ふぅ…………
 　はぁ………はぁ………んんっ！………あれ………まだ………あそこが………
 　どうしよう………なんでこんなに………
@@ -281,11 +298,15 @@ OLさん。22歳。独り暮らし。
 　ふぅんっ！…………これじゃおかしく………なっちゃうよぉ………
 　
 　いきたいのにいけなくて………切なくなってきちゃう………</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#323">
-				<rdfs:label>323</rdfs:label>
-				<dcterms:creator foaf:nick="私の秘密・・・" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-09T23:50:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#323">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">323</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">私の秘密・・・</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-09T23:50:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　私はベットの横に置いてあるマッサージ器をとってそれをあそこに当てた。ほんとはこうゆうことに使いたくなかったんだけど………
 　そして電源を入れてゆっくりとつまみを回した………
 　
@@ -314,11 +335,15 @@ OLさん。22歳。独り暮らし。
 　………男の人とのエッチはもっと気持ちいいのかな？
 
 　男の人とエッチしてるところを想像したら、私だけゼンタイを着てたからおかしくて思わず笑っちゃった………</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#324">
-				<rdfs:label>324</rdfs:label>
-				<dcterms:creator foaf:nick="私の秘密・・・" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-09T23:54:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#324">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">324</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">私の秘密・・・</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-09T23:54:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　しばらくベットの上で丸まってたらだいぶ気持ちが落ち着いてきた。
 　おつゆももう止まったみたい………
 
@@ -341,11 +366,15 @@ OLさん。22歳。独り暮らし。
 　そして……………ゼンタイに包まれたまま甘い夜へと身を浸していった………
 
 　＜おしまい＞</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#327">
-				<rdfs:label>327</rdfs:label>
-				<dcterms:creator foaf:nick="私の秘密・・・" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-10T18:37:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#327">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">327</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">私の秘密・・・</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-10T18:37:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「私の秘密………」　　　　＜完＞　　です。
 
 いきなり二重投稿してしまってすみませんでした。
@@ -358,21 +387,27 @@ OLさん。22歳。独り暮らし。
 
 またなにか書けたら載せさせて下さい。その際はよろしくお願いします。
 最後に読んで頂いた方々に心より御礼申しあげます。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#328">
-				<rdfs:label>328</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-10T22:57:01+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#328">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">328</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-10T22:57:01+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「胸がいっぱい」(＝感無量)という表現もあるし、
 「(精神的に）いっぱいっぱい」とも言う。
 
 でも、『胸がいっぱいいっぱい』って何だ？
 最初、タイツのサイズが小さくてパツパツって意味かと思ったよ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#331">
-				<rdfs:label>331</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-11T15:48:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#331">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">331</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-11T15:48:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;328
 ご指摘ありがとうございます。
 
@@ -384,7 +419,14 @@ OLさん。22歳。独り暮らし。
 
 「ドキドキ×はぁはぁ×エッチ感が胸の中でパンパンに膨らんじゃってる…………ゾクゾク！」を書きたくてこの言葉を使ってみました。
 理解できない表現を使ってしまってすみません………以後気をつけます。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-09T23:26:28+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-11T15:48:31+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">5997</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">14</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:08:56+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:08:56+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">ぬいぐるみの奥の世界</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2003-11-27T06:42+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2003-12-24T03:19+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">2791</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#33">
-				<rdfs:label>33</rdfs:label>
-				<dcterms:creator foaf:nick="ノベラー"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-27T06:42+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#33">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">33</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ノベラー</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-11-27T06:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">彼女は着ぐるみフェチだった。
 潜在的には小学校のころからフェチだったのだろう。
 起源をたどると、見に行った戦隊物の着ぐるみショーで、
@@ -42,11 +26,14 @@
 等といって抱きついても、傍目から見たらほほえましい光景である。
 だが、そのほほえましい光景とは裏腹に、
 彼女自身は、着ぐるみの中で至福の時を過ごしているのであった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#34">
-				<rdfs:label>34</rdfs:label>
-				<dcterms:creator foaf:nick="ノベラー"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-27T07:12+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#34">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">34</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ノベラー</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-11-27T07:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ある日のことである。彼女は、ふらっと、寂れた遊園地に立ち寄った。
 日曜日であるというのに客は少ない。
 別に着ぐるみ目的で立ち寄った訳ではないのだが、そこには、
@@ -63,11 +50,14 @@
 ワニも、いやな顔一つせずに（着ぐるみだから当然だが……）彼女の抱擁に答える。
 無意識の内に、彼女の右手はワニの股間に伸びていた。
 そして、明かに固くなった棒に触れたことを確認した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#35">
-				<rdfs:label>35</rdfs:label>
-				<dcterms:creator foaf:nick="ノベラー"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-27T07:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#35">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">35</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ノベラー</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-11-27T07:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">（↑　あ、誤植がありますね。　まぁ、細かいことは気になさらずに。）
 
 ワニもさすがにこれにははっとして、彼女の手を振り払った。
@@ -80,11 +70,14 @@
 そう言うと、彼女はワニの股間にある「モノ」をぎゅっと掴んだ。
 ワニも、最初は躊躇していたが、時が経つに連れ、胸を触ったり、スカートの中に手を入れたりとだんだん行動が過激になってきた。
 また、彼女もワニの行為になんの抵抗もなく、するがままにされていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#46">
-				<rdfs:label>46</rdfs:label>
-				<dcterms:creator foaf:nick="ノベラー"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-23T13:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#46">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">46</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ノベラー</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-23T13:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">（期待してくださってありがとうございます、最近忙しく手付かずなので申し訳ないです)
 
 長い間彼女はワニの胸の中で至福の時を過ごしていたが、
@@ -96,11 +89,14 @@
 次の週も、そのまた次の週も、彼女はその遊園地に通いつづけた。
 「彼」の演じるキャラクターは、ある時はウサギで、ある時はアヒル、といった感じに、毎週かわっていった。
 キャラクター達にはそれぞれ性格が決められているようで、「彼」は見事にその違いを演じわけていた。彼女も、抱きついた着ぐるみが、胸などを触りはじめて、ようやっと「彼」だと気づくこともたびたびあった。いや、むしろ、その方が彼女の望んでいることで、広い遊園地の中から、たった一匹の「スケベな着ぐるみ」を探すことが、彼女の週末の楽しみになってきた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#47">
-				<rdfs:label>47</rdfs:label>
-				<dcterms:creator foaf:nick="ノベラー"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-23T13:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#47">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">47</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ノベラー</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-23T13:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">（あ、ageちゃった、申し訳ない。）
 
 しかし、その中でも彼女が特に萌えていたのはワニであった。
@@ -120,11 +116,14 @@
 しかも、うまい具合に丁度脚の付け根にあたる部分である。
 穴の大きさは、丁度指が３本くらい入るくらいの大きさだろうか。
 蛇腹の溝にあたる部分だったので、今まで誰も気がつかず、補修もされていなかったのであろう、いやむしろ、何かを期待して、「彼」が着ぐるみにちょっとあけておいたのかもしれない。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#48">
-				<rdfs:label>48</rdfs:label>
-				<dcterms:creator foaf:nick="ノベラー"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-24T03:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#48">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">48</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ノベラー</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-24T03:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">（ageてしまったので、下がるのを待っていました。）
 
 彼女はその穴に思わず親指、人差し指、中指を突っ込み、「彼」の固くなった棒に触れた。
@@ -154,7 +153,14 @@
 
 「彼」は彼女のフェチイズムを理解していた。
 何故なら、彼も充分に着ぐるみフェチだったからである。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-11-27T06:42+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-24T03:19+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">2791</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">6</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

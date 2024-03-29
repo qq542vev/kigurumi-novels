@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:10+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-08T23:53:10+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">Dollersシリーズ５　“兄妹考証”</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:03:41+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:21:34+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">10715</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#336">
-				<rdfs:label>336</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:03:41+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#336">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">336</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-31T01:03:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">Dollersシリーズ５　“兄妹考証”
 着ぐるみ達が癒してくれる不思議な店、”Dollers”
 今宵も孤独を抱えた人々が癒しを求めやってくる。
@@ -43,11 +28,15 @@
 とショートヘアの方が俺の袖をぐいぐい引っ張りながら駄々をこねる。
 「しょうがないわよ、ジャン。お兄ちゃんはお仕事大変なんだから♪」
 とロングヘアの方が優しくたしなめショートヘアの方の頭を優しくなでる。そんな何気ない日常ドラマを展開している彼ら達３人だが無論本当の兄妹ではない。彼女達は生き人形、つまり一寸の隙のない着ぐるみなのだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#337">
-				<rdfs:label>337</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:05:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#337">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">337</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-31T01:05:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">１０分程前、俺はこの奇妙な場所に来てしまった。どういう訳かぼろいビルにあった扉が目に付いてフラッと中に入ってしまったのだ。
 「いらっしゃいませ。ここは私達人形が人間の悲しみを癒してさしあげる場所でございます」
 古い西洋建築様式の応接間で、案内人を名乗るメイドさんからざっと説明を受け、成り行きにまかせてちょっと遊んでいこうと思い、指名する子を探してカタログを眺めていた。１枚の写真に目が留まる。
@@ -60,11 +49,15 @@
 「アン＆ジャン　〜Mischievous Twins〜」
 向かって右の子がアン、こっちが姉だそうだ。ブロンドのロングヘアは腰に届くくらいの長さで、軽くウェーブがかかっている。服装は黒と白を基調にした典型的なゴスロリ服で、レースがいたるところについたそれはふわりとした曲線を形作っている。描いてあるだけのはずなのに透明感のある、とび色の目に吸い込まれそうな気がした。あどけない顔立ちなのに結構発育のいい胸につい目がいってしまう。向かって左のショートヘアの子が双子の妹のジャン。彼は白いYシャツに黒い燕尾服、襟元にはちょこんと黒い蝶ネクタイをつけている。下はチェック柄の短パンといった感じだ。頭には小さなシルクハットがちょこんとのっている。双子らしくアンと同じブロンドにとび色の目だが、アンと比べてやんちゃな印象が強い。胸はお姉ちゃんに吸い取られてしまったのか、控えめである。なんだか双子と言うよりお坊ちゃんお嬢ちゃんといった表現がしっくりくる。ともかく俺は一度に２人相手にできると言う点に惹かれ、指名するに至ったのだった。それにしてもメイドさんの別れ際の言葉が気になる。
 「くれぐれも寛容なお心で接してあげてくださいませ。たとえフルヤ様の貞操が狙われるようなことがあっても・・・・・・」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#338">
-				<rdfs:label>338</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:07:49+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#338">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">338</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-31T01:07:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「お兄ちゃんどうかしたの？ボーッとしてないで、アン達と一緒に遊びましょっ♪」
 アンが俺の左腕にギュッと抱きついてくる。胸がムニュムニュとあたって兄としてイケナイ気持ちになってしまう。
 「遊ぼ〜、遊ぼ〜、お兄ちゃ〜ん、一緒に遊ぼうよ〜☆」
@@ -83,11 +76,15 @@
 
 そういえばこの店の名前は確か・・・・・・Dollers！まさか！？実在するわけがない。あれはフィクションなのだから。だがそれでは彼女達は何者なのか説明がつかない。小説どおり体には継ぎ目が見当たらないし、口の中まで素材で覆われている。こんな手の込んだことをするなんて普通では考えられない。ならば・・・・・・自分で出した信じられない答えに自分で絶句した。
 Dollersは実在する！俺はそこに招かれた！</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#339">
-				<rdfs:label>339</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:09:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#339">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">339</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-31T01:09:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「う〜んと、これ♪あとは・・・・・・」
 俺が考え込んでいる間にアンの番が来ていた。やはりカードをめくるときに自分から遠いところまでわざわざめくりに来ている。
 「あれにしようかしら」
@@ -118,11 +115,15 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 「あはぁん、すごい♪こんなに引っ張られて、くすぐったくて気持ちいい♪」
 アンは乳首から発せられる快感の波によって震えている。
 「うん、ミルクまでは出ないけどアンのおっぱい甘くてすごくおいしいよ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#340">
-				<rdfs:label>340</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:11:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#340">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">340</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-31T01:11:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">と突然、ジャンが駆け寄ってきた。なんと燕尾服やシャツの前がはだけて、乳房が丸出しではないか。
 「アンばっかりずるいよ！ジャンのも吸ってみて☆」
 そういうと、ジャンは俺の顔をつかんで無理やり自分の胸に押し付けた。着衣のときは洗濯板かと思っていたが、実物は小ぶりだが形がよかった。仕方がないのでジャンのも全力で吸った。ぢゅううっ
@@ -148,11 +149,15 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 「な、なにをするん、うわっ」
 一瞬、ふりふりのレースがついた白ショーツが見えた後、俺の視界は完全に黒で埋め尽くされてしまった。
 アンが俺の胸の上に腰掛けて俺の動きを封じた。ロングスカートをふわりとひろげて座られたのだ。スカートの中の空気はかなり熱せられていてサウナのようだ。俺をとろかせるようなこの甘美なにおいは布がはき出した石鹸のにおいだろうか、それともアン自身がはき出したにおいだろうか。なんにせよおれの更なる興奮を煽ってくる。俺のズボンがはちきれる寸前までモノが膨らんでゆく。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#341">
-				<rdfs:label>341</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:12:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#341">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">341</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-31T01:12:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">カチャカチャというかすかな金属音が下半身のほうから聞こえている。一瞬何か分からなかったが、それはジャンが俺のベルトを外す音だと気付かされるまで時間はかからなかった。ズボンと下着がずり下げられ、下腹部一帯に涼しい空気を感じた。俺のモノが可愛い少女達の眼前に晒されてしまったようだ。
 「うわあっお兄ちゃんのお○○チン、さっきよりもおっきくなっているよ☆　それにピクピク動いてる☆」
 「そうね♪　アンのスカートの中のにおいをかいで、一層興奮しちゃったのかしら？」
@@ -169,11 +174,15 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 「ほらジャン、ここ触ってみて。カチカチよ♪」
 「ほーんとエッチなおに〜いちゃん☆　もっともっといたずらしちゃえー☆」
 そうは言っても２０本の指が休みなく絡みつき、それはもう素敵な香りのショーツのにおいを直にかがされて俺の意識は深い暗闇に落ちていった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#342">
-				<rdfs:label>342</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:13:18+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#342">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">342</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-31T01:13:18+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俺は無音の闇の中ではっきりとビジョンを見た。その中で俺が下着のにおいをかいでいる。そうだ。俺の家は両親共働きで、平日も休日も親達は家にいないことが多かった。そんなわけで俺はよく家事の手伝いをさせられてきた。ある時、洗濯物を洗濯機に放り込んでいると、見慣れないものが混じっていることに気がついた。母さんのブラジャーにしては小さすぎるし、何よりオシャレすぎる。それが一歳下の妹の初めてのブラジャーだと言うことに気付くまでさほど時間はかからなかった。さっきも言ったが母親はあまり家にいなかったので、自分にとっての一番身近な異性は妹だったのだ。不意に俺の中から何かが湧き上がり、家に誰もいなかったのをいいことに、妹のブラを、その・・・・・・鼻に押し当てクンクンにおいをかいでしまった。ショックだった。自分が気付かないうちに妹がこんなに大人の女性に近づいていたことに。それ以上にその妹に欲情してしまった自分に。
 自分はひょっとして妹のことが好きなんじゃなかろうか？
 その日以来、そんな思いが頭の中にこびりついてはなれなかった。長い間この思いを伝えるべきかどうか悩み苦しんだ。結局、思いを伝えられぬまま時は流れた。時は残酷にも、妹を美しい女性に、そして俺の知らなかった男の花嫁に変えてしまった。明日、あんなに可愛がっていた妹が嫁いでいくのだ。表向きは祝福したが自分の中で割り切れなかった。妹のウェディングドレス姿を見たくなくて明日の結婚式に出るのをやめてしまおうかとさえ思った。だが、アンとジャンに弄ばれてはっきりと分かった。
@@ -181,11 +190,15 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 あれは恋なんかじゃなかった。
 
 俺は妹と肉体関係を持ちたかったわけじゃない。ブラのにおいをかいだのは単に女性への好奇心からだったんだ。結婚を祝福できなかったのは、多分親よりも長い時間一緒にすごしてきた妹を取られるのが悔しかったからだ。彼、いい人そうだったな。安心して任せられるじゃないか。ハハハ・・・・・・。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#343">
-				<rdfs:label>343</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:14:29+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#343">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">343</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-31T01:14:29+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「あれ、何か汁が出てきたよ☆」
 「本当ね♪　ねえジャン、今度はこんないたずらはどうかしら？」
 はっと我に返った。双子の攻撃は一旦小休止して、作戦会議のようだ。突然やんだ刺激に反応しながら、俺は強い決心をした。自分の気持ちにふんぎりをつけてくれたお礼に、妹としてではなく、愛する女性として、
@@ -199,11 +212,15 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 モノの先端に締め付けられるようなムニュムニュした感触。と同時に快感神経が衝撃的な刺激を電気信号に変え、瞬く間に脳に達し、しびれさせる。その電撃は高速で全身を駆けめぐり俺の意に反して震えさせる。ジャンは俺のモノをくわえ唇で締め付けたのだ。アンも俺の攻めに負けずにモノの根元を甘噛みする。今なら心置きなくできる。３人で思いっきり攻め合える。何より二人は、自分達の中で恐ろしいほどの快感に包まれ、いつ壊れるかもしれない精神の形をとどめようと必死になっているはずだ。だがその快感を完全に押さえ込まないで、お客さんを楽しませるため適度に快感を言葉や仕草で表現しなければならない。だが自分自身もその言葉を聞き、一層快感を燃え上がらせてしまう。きっとけなげに振舞うキャラの外見を想像し「私ったら外はこんなきれいなのに中はなんて淫乱なのかしら」と思っているに違いない。そんな妄想をしていると、あっという間に終わりがきた。ジャンが俺の一番弱いところである棒の筋をぺロぺロなめたのだ。耐え切れず白濁液を吐き出してしまった。
 「ドロドロになっちゃったー☆　しかもくさいー☆」
 どうやらジャンの顔にだいぶかけてしまったようだ。アンは立ち上がると、ティッシュを持ってきて、後処理をしてくれた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#344">
-				<rdfs:label>344</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:16:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#344">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">344</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-31T01:16:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「お兄ちゃん♪もうここから出て行っちゃうの？」
 行為の後、すぐにズボンをはき、帰り支度をする俺を見てアンがさびしそうに言う。
 「ああ、明日俺の本当の妹の結婚式なんだ。行くかどうか迷ったけど兄として出席しないわけにはいかないからな」
@@ -214,11 +231,15 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 二人に向かってウインクをすると俺は部屋を後にした。
 
 きっとDollersは病院なんだ。孤独に喘ぐ人の心の傷を塞ぎ続けてるんだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#345">
-				<rdfs:label>345</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:17:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#345">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">345</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-31T01:17:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">さて、フルヤが帰った後のアンとジャンの部屋では・・・・・・。
 「あーあ、アンのせいでお兄ちゃん帰っちゃったじゃないか☆」
 ジャンが小突くとアンは床にへたり込んでしまった。見るとアンはガクガク震えている。口をきくのも辛そうだ
@@ -233,11 +254,15 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 「ジャン、お願い、やめてええぇ♪」
 「えー、よく聞こえないなぁ☆」
 そういうとジャンは腰を使ってズンッと擬似ぺ○スを奥に突き立てる。ゴスンとアンの中で鈍い音が響き、壁に当たる。アンの穴の最奥に到達したようだ。しかし、ジャンはスイッチを切らない。ちょうどそこはアンのGス○ットがある位置だった。ドリルはアンの穴の壁をゴリゴリとこすり、螺旋の溝が内壁を絡め取って引っ張りかき回す。普通の人ならただ痛いだけだろう。だが着ぐるみ達を覆う膜は丈夫で決して破れない。そのため適度に刺激が弱められ最高の快感を与えてくれるのだ。アンは一番大切なGス○ットを刺激され理性を保てるぎりぎりのところだった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#346">
-				<rdfs:label>346</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:18:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#346">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">346</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-31T01:18:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「気持ちよさそうだね。もっといい気持ちにしてあげる☆」
 ジャンはそういうと一気に擬似ぺ○スをアンの中から引き抜いた。奥に行こうというドリルの意思を無視した攻撃はあまりにも強烈だった。
 「なんれっ♪　らめ、そんらのらめえぇ！」
@@ -254,18 +279,29 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 ジャンは思いっきり弓なりになって刺激に耐える。そんなジャンに対して、アンは容赦なく擬似ぺ○スを再び突き立てる。
 「ジャン、アンはね、ジャンだけに苦しい思いはさせないわ。一緒にやりましょう。１、２の、３！」
 そういうと、アンは両方のドリルのスイッチを入れる。二人のよがる声が同時に響く・・・・・・。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#347">
-				<rdfs:label>347</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:21:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#347">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">347</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-31T01:21:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">フルヤの想像には間違いがひとつある。Dollersの着ぐるみに、中の人などいないのだ。分かりやすくいうとだ、着ぐるみ達は人間であった頃の、顔などのアイデンティティを膜で覆い尽くし、新しく与えられた顔を自らのアイデンティティとして受け入れる。永遠の生命を生きるため、着ぐるみを気の遠くなるほど長く着続けることを強いられる彼女達は、いつしか完全に人間だった頃のアイデンティティを忘れてしまうのだ。そうなると彼女達が着ぐるみを脱ぐこと、それは自分の存在が死に、無に帰すことを意味する。だから彼女達は極力着ぐるみを脱がない。そして、彼女達は与えられたキャラクターの生を全うしようとするのだ。アンとジャンの悪戯もそれに準じてやっていると言えるのだ。
 
 その意味で、Dollersの着ぐるみ達は、本当の意味でキャラとしての人格を持ち生きる者達なのだ。
 〈終わり〉
 
 この物語はすべてフィクションです。リクエストにあった、人形同士の絡みをおまけ程度に入れてみたのですが、いかがでしょうか。ところで夢幻征四郎は今着ぐるみを作ることも、発注することもできず、イベントに写真取りに行くなど畏れ多くてできません。小説という形でしか着ぐるみへの愛情を表現できない。しかし、自分の小説は諸先輩方ののようにきれいにはかけません。どうしても悪意がたっぷりと混じってしまう。着ぐるみが好き。孤独を癒してくれるから好き。このことをどうしてもっときれいな言葉でかけないのか？悔しくて悔しくて、今作がんばりましたが、どうもまだまだでした。悔しいです。もっときれいに着ぐるみへの愛を説けるようなりたい。凡人ながら精進して戻ってこようと思います。ご感想お待ちしております。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-31T01:03:41+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-31T01:21:34+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">10715</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">12</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

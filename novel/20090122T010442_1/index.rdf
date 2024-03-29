@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:30+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-08T23:53:30+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">Dollersシリーズ８　『想い撮る人』</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:04:42+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:28:47+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">11184</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#573">
-				<rdfs:label>573</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:04:42+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#573">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">573</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:04:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">Dollersシリーズ８　『想い撮る人』
 着ぐるみ達が癒してくれる不思議な店、”Dollers”
 今宵も孤独を抱えた人々が癒しを求めやってくる。
@@ -47,22 +32,30 @@
 ヤマネはスタジオの中央に小さな椅子をセットし、ミカに座るよう促した。
 「カメラの調節をするからちょっと待ってね」
 そういうとヤマネはミカに背を向け自ら持ってきたカメラをいじり始めた。彼のカメラはプロ用といってもいいくらい立派なものであった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#574">
-				<rdfs:label>574</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:06:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#574">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">574</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:06:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「絞りは16、シャッタースピードは500、と・・・・・・。これでよし。じゃいくよ」
 ヤマネのカメラを見たミカは思わず吹き出してしまった。彼のカメラのレンズの上に小さいクマのぬいぐるみが乗っかっていたのである。少し固かったミカの笑顔が一瞬でほころびる。
 「いいね！その顔いただき！」
 カシャ！軽快なシャッター音が部屋一杯に響く。
 「じゃあ今度は口を結んで、きりっとした感じで・・・・・・そう、それ！そのまま、そのまま」
 およそ素人とは思えない手際の良さで撮影を進めていくヤマネ。ミカも徐々にノッてきて、ヤマネの指示を聞くだけでなく自分で考えてポーズをとり始めた。ただ、どういうわけかポーズを変えるごとにミカはもじもじするようなそぶりを見せるのである。ヤマネも一度は気にかけたが、「着ぐるみとはいえ見知らぬ男にカメラを向けられることに抵抗があるからか、ライトで照らされて熱いのを必死で我慢しているか、そのどちらかだろう」そう自分に言い聞かせた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#575">
-				<rdfs:label>575</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:08:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#575">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">575</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:08:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">30分ほど撮影を続けた後、一旦休憩することにした。ヤマネとミカはカメラのプレビュー機能で写真を見ながら談笑を始めた。
 「お疲れ様。ミカちゃんみたいにモデルが美人だと撮影が楽しいよ」
 ヤマネは嬉嬉として言った。
@@ -82,11 +75,15 @@
 ヤマネは大声でミカを制したが、既に画面には先ほどとは別の写真が表示されていた。セーラー服に身を包んだアニメ顔の着ぐるみが、2人並んでこちらに微笑みかけている。
 「先生、これは・・・・・・？」
 「ああ。今日ここに来る前コスプレイベントに参加してきて、そこで撮ったんだ。この人達はミカちゃんみたいに仕事で着ぐるみを着ているわけじゃなくて、変身願望とか好きなアニメのキャラへの愛とかが高じて、着ぐるみを楽しんでいるんだ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#576">
-				<rdfs:label>576</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:10:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#576">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">576</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:10:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ミカはヤマネの話に頷きながら着ぐるみの写真に次々と見ていく。
 「着ぐるみって、人間と人形の良い所を両方持っていてね。人形らしさを強調してファンタジックな写真にしたり、人間らしさを強調して躍動感あふれる生命力を表現したりと自由自在なんだ。丹精こめて作られた着ぐるみが中の人とカメラマンによって人形として、あるいは人間として輝き始める。僕はこの変身に魅了されちゃったってワケさ。肝心なのはそこにどんなレディ＆ジェントルマンを描くのか、中の人と僕らカメラマンの腕の見せ所だね。例えばこの人は人形らしさを追及するために・・・・・・」
 ヤマネの大熱弁は立て板に水を流すように続いた。
@@ -100,22 +97,30 @@
 ミカはヤマネの目を覗き込むようにして言う。
 「何のことかな？」
 「うそつき。私は特別な人形なのですよ。私の目を通してみるとお客様の本当の表情が見えますの。さっき写真を撮っているときから今までずっと、先生のアソコは大きくなっているんでしょ。カメラを調節するふりをして後ろを向いたときに股に挟んだんでしょうけど、足をもぞもぞさせていたからよく分かるわ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#577">
-				<rdfs:label>577</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:11:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#577">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">577</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:11:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">図星であった。入り口でカタログの写真を一目見たときから愛らしいミカの虜になっていた。しかしそれ以上にDollersの特殊な着ぐるみとしての魅力がヤマネを惹きつけた。彼が着ぐるみの写真を撮るようになってから見たどの着ぐるみとも違う、全身シリコンゴムのようなもので塗り固めた体。不明な点は多々あったが少なくとも通気性が悪そうだと想像するのは易かった。ただでさえ汗が蒸発していかず蒸し暑いであろうところへ、撮影用ライトの強い光に照らされているのだ。生身の人間ですら『暑い、暑い』とこぼすのに、通気性皆無の着ぐるみに包まれていたら・・・・・・。自らが発した汗と体熱に蒸し焼きにされているのだろうと考えると、切なくて堪らなかった。ヤマネはそのいやらしい気持ちをずばり言い当てられ黙りこくってしまった。
 「別に怒っているわけじゃありませんの。自分で言うのもなんですけど私ってつくづく罪な女でしてね。あふれ出る魅力と色気・・・・・・私を見て欲情しなかった人はいませんわ。だから先生が私にエッチなことを望んでしまうのは自然なことなのです」
 しかしヤマネは頑なに首を振る。
 「確かに君を見ていやらしい考えを持ってしまった。でも私は今まで一度も着ぐるみに欲情したことはないし、カメラマンがモデルに手を出すなんて許されないよ」
 「先生何度も言わせないで下さい。私は人形です。着ぐるみとは違いますわ。それに人間でもないから手を出してしまっても何の問題もないでしょう？私はお客様を癒すためにここにいるのですから。欲望を吐き出してしまっても誰も咎めは致しません」
 そういうとミカはヤマネの股間をツンツンと突いた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#578">
-				<rdfs:label>578</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:12:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#578">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">578</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:12:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「先生はうそつきだからちょっと意地悪しちゃいましょうかね。私はお人形さんだから中に人なんていませんけど、もし中に人がいたら大変でしょうね。私の皮は通気性が全く無くて、ただでさえ蒸し熱いところに撮影用ライトの光にさらされたらどうなるでしょうか？それくらいは先生にも想像ついていたようですけど」
 「ま、まだ何かあるのか！？」
 「私の皮、ぴったりと張り付いているでしょう？つまり中の人の体は常にこの皮によって締め上げられていますの。その意味、お分かりますか？」
@@ -127,11 +132,15 @@
 ヤマネがそういうとミカはヤマネの手を取り自らの胸に押し当てた。するとどうしたことだろう。ミカは体に電流でも走ったかのように細かく震えたかと思うと足の力が抜けてしまい倒れそうになったのだ。空いているほうの腕でヤマネの肩に掴まったので倒れずにすんだがミカの震えはまだ治まらない。
 「これで信じてもらえたかしら、ひぁっ！」
 ミカのよがる様はあまりにもリアルで演技とは思えない。ミカは間違いなく感じているのだろう。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#579">
-				<rdfs:label>579</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:16:12+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#579">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">579</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:16:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「分かった、分かったからもうやめてくれ！」
 だがミカはヤマネの言葉にイヤイヤと首を振るだけで胸にヤマネの手を押し当てることをやめない。ミカの手がまるで湯上りの人のように火照っている。
 「ただでさえ窮屈な皮に締め付けられているところに着物を着たら柔らかいオッパイが押しつぶされてそれはもう蕩けそうになるんですの。でも私はDollersの人形。許可もなくお客様の前で取り乱すことは許されません。精一杯健全な笑顔を浮かべて、感じているなんて微塵も思わせないでお客様のお相手をしなくてはいけませんの」
@@ -150,11 +159,15 @@
 「これで私を縛ってくださいまし。途中で逃げ出したりしないように。そういう写真も悪くないと思いますが？」
 どうやらミカは本当に写真を撮らせてくれるようだ。それにコードで縛られた姿もなかなかいいかも知れない。さすがに全身に巻きつけるのは気がひけたので、ミカを仰向けに床に寝かせ、バンザイさせた状態で手首だけを縛った。
 「手だけでは食い込みが物足りないのですけど、先生がそうしたいのなら仕方ありませんわね。さあ、どんなポーズがお望みですか、先生？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#580">
-				<rdfs:label>580</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:17:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#580">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">580</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:17:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ミカはニタリと笑いながらヤマネを見ている。これから自分にどんな惨事が降りかかるのか分かっていながら、なぜニヤニヤしていられるのだろうか。撮影中に快感を必死で堪えていたという話といい、手だけ縛られるのが物足りないと言ったことといい、このミカという人形は意外とマゾなのかもしれないとヤマネは思った。
 「僕は花の写真を撮るのも好きでね。君を一目見たときから今まで見たどの花よりも素晴らしいと思った。だが君はまだつぼみだ」
 そういうとヤマネは着物の股間の部分を力強く押し広げた。ミカは逃げ出す様子もなく一瞬ピクリと身震いしただけだった。着物の下には作り物とは思えない程精巧に出来た淡いピンク色をした恥部があった。さらに驚いたことに穴の中までも皮で覆われていたのだ。あの熱を遮り、わずかな刺激を蕩けるような快感に増幅させる皮に・・・・・・。生唾を飲み込むとヤマネは自分のズボンとパンツを脱ぎ捨てた。ミカはヤマネのすることを察したのか足をM字に開いて、恥ずかしげもなく下半身の唇を露にした。
@@ -168,11 +181,15 @@
 ミカの黄色い嬌声が広いスタジオで反響した。
 「固いっ！熱いっ！でも、イイッ！」
 ミカはのけ反りながら悶えている。元々敏感な快感の受信者である穴は、体の表面に分布するどの性感帯よりも皮の影響を受けているのだろう。まだ入れたばかりだというのに絶頂に達したかの様である。ヤマネには性交渉の経験がほとんどなかったので、残念ながらこのときはミカがただ感じているだけだという認識しかなかった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#581">
-				<rdfs:label>581</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:20:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#581">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">581</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:20:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「随分気持ちよさそうだね。僕のモノを気に入ってくれたみたいでうれしいよ」
 「先生、今度は私の中をかき回して。先生の、立派な、ぺ○スで、私の中を、グリュグリュにかき回して、お、お願いよおぉ」
 途切れ途切れに更なる愛撫を求めるミカ。ヤマネはゆっくり腰で円を描くように体を動かし、モノでミカの内壁を丁寧に擦り上げていく。ミカもそれに答えるように腰を動かす。常人の何倍もの感度に高められた肉の壁にはヤマネのぺ○スが擦れる刺激が絶えず与えられ、ミカの中の人はいつ意識が飛んでもおかしくないと思い、はじめは心配した。しかし縛られた手がコードから逃れようと動いて立てるギチギチとした音がどんどん大きくなっていくことで、その心配は無用だと気付いた。ヤマネは徐々に腰の振り方が大胆になっていく。
@@ -192,11 +209,15 @@
 そういってカメラを一旦脇に置くとミカの胸を揉みしだいた。
 「んあぁ！、せ、先生、ミカのおっぱいなんて触っても、花なんか咲かないのよぉぉ!」
 ミカは必死に嘆願するがヤマネは聞き入れてくれない。先ほどから激しい愛撫に晒されてきたので、さすがのミカも抵抗する元気がなくなっていた。コードがギチギチいう音も先ほどより小さくなりミカの体はヤマネのなすがままになっている。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#582">
-				<rdfs:label>582</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:22:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#582">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">582</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:22:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「あれ？さっきより元気がなくなってきたぞ。枯れちゃったら大変だ。どうしようかな・・・・・・」
 そういって少し考えると、ヤマネは恐ろしいことをいった。
 「花には水をあげないとね」
@@ -213,11 +234,15 @@
 ヤマネはカメラを置いてミカの白い下腹部を撫でた。するとどうだろう。ミカは苦しそうに体を捻り、言葉にならない呻きをもらしたのだ。いくら快楽を増幅させる皮に包まれているとはいえここは性感帯ではないはずだ。答えに至るまでにさして時間は変わらなかった。下腹部を押したことでミカの中の人の体内に溜まった愛液がミカの細い腰を膨らませていたとみて間違いないだろう。
 （だとしたら・・・・・・！！）
 ミカはヤマネが気付かないうちに何度もイっていた可能性が高いのだ。ミカは容赦のない愛撫で何度も果てた。しかし愛液は外に放出されず腹の中に溜まり、ミカが存在し続ける間むずがゆい責め苦をミカに与え続けるのだ。そう思うと再び堪らなくなり、早くもヤマネのモノが回復し始めた。それに伴ってミカの穴がモノを締め付け始め・・・・・・。2人は2回目の行為に臨んだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#583">
-				<rdfs:label>583</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:25:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#583">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">583</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:25:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「先生はやっぱりうそつきなのね」
 撮影の後片づけをしているとき、唐突にミカが言った。
 「何を言っているんだ？僕が君の撮影中にエッチなこと考えていたのは白状したじゃないか。他に隠していることなんて何も・・・・・・」
@@ -245,11 +270,15 @@
 ヤマネは納得した。もう覚えていないが以前に仕事で一緒だった人が、今、目の前の着ぐるみの中にいるのだ。
 「お仕事中にお酒を飲まれるのはどうか？と思いましたが、嫌なことを忘れるためだったのですね。先生は下心丸出しのほかのカメラマンと違い、無名アイドルだった私の個性を引き出そうと真摯に撮影してくださいました。アイドルとして大成することは叶わなかったけれど、先生のおかげで私は自身が持てたのです」
 「それは良かったな。でも僕の問題は何一つ解決していない」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#584">
-				<rdfs:label>584</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:27:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#584">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">584</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:27:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ミカはしばらく間をおくと再び口を開いた。
 「先生、さっきのジュースおいしかったですか？」
 「う〜ん、まずくはなかったかな」
@@ -266,11 +295,15 @@
 「まあ、そんな頑固なことを・・・・・・一体誰に似たのでしょう？」
 「私の目の前にいる方に決まっていますわ」
 そこまで言うと2人は大きな声を出して笑った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#585">
-				<rdfs:label>585</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:28:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#585">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">585</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:28:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">一方、ヤマネのカメラの中のミカの画像は全て消えてしまっていた。代わりにヤマネの寝顔が写った写真が一枚入っていた。さらにカメラケースの中には手紙が入れられていた。
 （ミカのエッチな写真はやっぱり恥ずかしいから私が預かっておきます。先生が寝ている間に私もこっそり写真を撮っちゃいました。先生には伝わりましたか、私が先生のことを大好きだということが。　ミカより）
 
@@ -282,7 +315,14 @@
 この物語はDollersの人形達がくれた幸運以外は全てフィクションです。
 
 ご感想お待ちしていますm（ _ _ ）m</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:04:42+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-01-22T01:28:47+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">11184</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">13</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

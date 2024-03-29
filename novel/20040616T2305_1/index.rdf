@@ -1,41 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:05:46+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:05:46+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">着ぐるみパラダイス</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-06-16T23:05+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-06-20T23:36+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">5723</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#359">
-				<rdfs:label>359</rdfs:label>
-				<dcterms:creator foaf:nick="Novel" dcterms:identifier="AbBDdOYE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-06-16T23:05+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#359">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">359</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Novel</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">AbBDdOYE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-06-16T23:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">では、書かせていただきます。　駄文失礼します。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#360">
-				<rdfs:label>360</rdfs:label>
-				<dcterms:creator foaf:nick="Novel" dcterms:identifier="AbBDdOYE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-06-16T23:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#360">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">360</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Novel</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">AbBDdOYE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-06-16T23:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">張り詰めた空気のなか、二人の女性と一人の男性が向かい合っていた。
 男性の名前は陣内徹。徹は二人の女性と向かい合ってこわばった表情をしている。
 二人の女性のうち、長い髪の毛をポニーテールに結んでいる方が夕柳優里。
@@ -53,11 +42,15 @@
 徹はすがるように言った。優里はその徹の姿を見ると苦笑いをした。
 「いいわ……でも、許す前に罰ゲームをしましょう。」
 そういって優里は立ち上がる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#361">
-				<rdfs:label>361</rdfs:label>
-				<dcterms:creator foaf:nick="Novel" dcterms:identifier="AbBDdOYE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-06-16T23:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#361">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">361</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Novel</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">AbBDdOYE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-06-16T23:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「良子、ちょっと来て。」
 そう言って優里は良子を手招きした。
 「今から私達が着ぐるみを着る、それで、あなたは中身がどっちがどっちだか当てるの。当てるまで許さないわ。」
@@ -73,11 +66,15 @@
 そう言いかけたところで、突然アライグマが徹に抱き付いてきた。
 「！」
 徹は思わず言いかけた言葉を止める。スーツアクターをやっている優里が美少女戦士の方かと思ったが、良子は突然こんな風に抱き付いてくるような娘だとは考えづらい。僕の裏をかいて逆なのか？　頭ではこんな感じで冷静に対応しているのだが、体は正直なもので、徹の竿はこの不意討ちですでにびんびんにたっていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#362">
-				<rdfs:label>362</rdfs:label>
-				<dcterms:creator foaf:nick="Novel" dcterms:identifier="AbBDdOYE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-06-16T23:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#362">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">362</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Novel</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">AbBDdOYE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-06-16T23:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">アライグマの着ぐるみ自体は市販されているもので、フリーサイズのだぼだぼしたやつである。多少の体格差ならばこれでごまかされてしまうかもしれない。さらに、徹の肘にアライグマの「内臓」の胸があたると、徹はさらに慎重に両者を比較しはじめた。失礼な話だが、良子はそんなに大きくなかったと思う。だとしたら、やはりこのアライグマが優里なのか？
 アライグマが徹の膝の上で、まるで本当の動物のようにすりすりと体をこすりつけてくる。徹は優里の名前を呼ぼうとしたその時、美少女戦士が突然後ろから徹を抱きしめた。
 「！！」
@@ -88,11 +85,15 @@
 徹が動揺をしていると、アライグマは竿をしごくのをやめ、美少女戦士と場所を代わると、今度は後ろからしっかりと羽交い締めをし、徹の股を裂くように両足で押さえ付けた。美少女戦士は、徹の玉をズボンの上からゆっくりとゆらしはじめた。
 「ああ……うぅ……」
 徹は気持ちよさのあまりうめいてしまう。その様子を見ると、美少女戦士は徹のズボンをうまく脱がせ、パンツ一丁にさせ、ぱんぱんにふくれあがった竿を強くしっかりと握り、上下に激しく動かし始めた</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#363">
-				<rdfs:label>363</rdfs:label>
-				<dcterms:creator foaf:nick="Novel" dcterms:identifier="AbBDdOYE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-06-16T23:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#363">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">363</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Novel</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">AbBDdOYE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-06-16T23:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「ああっ……はあっ！！」
 すでに限界に達していた徹は我慢しきれなくなり、ついに絶頂を迎えてしまった。パンツがみるみる濡れていくのがわかる。アライグマと美少女戦士はそれを確認すると、手をとりあって喜ぶ真似をして見せた。
 「はぁ、はぁ……わ、わかったよ、き、君が優里で……アライグマが良子ちゃんだ……。」
@@ -107,11 +108,15 @@
 そんなことはお構いないかのように、狼が徹の両足をつかみ、大きく広げた。そして、徹の顔の上に座ったダチョウがくちばしを使って股間を攻めたててくる。
 「は、はぅ、や、やめて！！」
 徹の弱弱しい声に興奮したのか、ますますダチョウは激しく攻めたてる。先ほど出したばかりだというのにとおるの股間は再びパンパンにふくらんでしまった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#364">
-				<rdfs:label>364</rdfs:label>
-				<dcterms:creator foaf:nick="Novel" dcterms:identifier="AbBDdOYE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-06-16T23:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#364">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">364</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Novel</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">AbBDdOYE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-06-16T23:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">いつの間にか、ぐちゃぐちゃに濡れたパンツは脱がされ、代わりにゴムがはめられていた。（ゴムをはめられる前に、「着ぐるみが汚れると嫌だから」　というメモを机の上に残したのだが、徹はそれに気づいていない。）ダチョウは徹の右手を両足で挟み、徹の右足を片手で抱えながら、もう片手で徹の股間を攻めたてる。一方の狼は両足で徹の左足を挟み、徹の左手の自由を片手で奪うと、胸の辺りをまさぐりまくっている。
 「わ、わかったよ、ダチョウが優里だ、ダチョウが優里！！」
 すでにまた先走りを感じながら徹がわめいたが、ダチョウも狼も首を横にふるうと自分の「作業」を続ける。
@@ -125,11 +130,15 @@
 こうしたやりとりがさらに繰り返される。
 着ぐるみの組みあわせも、美少女戦士と狼だったときもあり、アライグマとダチョウだったときもあったが、市販されているアヒルの着ぐるみや、ワニの着ぐるみ、まったくオリジナルの女性の人形型の着ぐるみ等、同じ組み合わせを二度と使うことはなかった。それにしても、驚くのは部屋を出てから着替えるまでの早さである。その日は、春の陽気が温かく、着ぐるみには若干つらい季節だと思われるだけに、徹は犯されながらも優里や良子の体力の事が心配になった。それと同時に優里や良子の体力はもう限界であれば、音をあげるはずだ、とも思った。一回あたりせいぜい１５分くらいとはいえ、激しく動くことときたら、ショーと同じくらい体力を消耗しそうだった。しかし、毎回でてくる着ぐるみたちは一切疲れを見せず、徹を襲い、そして徹はその度に精液を搾り出されてしまうのであった。
 「それにしても、あいつ、いつの間にこんなにいっぱい着ぐるみ持ってたんだ？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#365">
-				<rdfs:label>365</rdfs:label>
-				<dcterms:creator foaf:nick="Novel" dcterms:identifier="AbBDdOYE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-06-16T23:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#365">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">365</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Novel</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">AbBDdOYE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-06-16T23:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">実は、この話には裏がある。
 優里も良子も着ぐるみフェチであることはお気づきのことだろう。
 優里も良子もそう言った類のホームページで知り合った着ぐるみフェチ仲間である。また、徹はまったく気づいていなかったが、隣の部屋には、優里と良子以外に可南子と不二恵という、二人の女性がいたのである。実は、徹の合コンに参加していた他の二人だ。そもそも徹の合コン自体が仕組まれたものだった。
@@ -168,18 +177,29 @@
 
 今では５人で週末集まって楽しいことしています。
 終わり。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#372">
-				<rdfs:label>372</rdfs:label>
-				<dcterms:creator foaf:nick="Novel" dcterms:identifier="AbBDdOYE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-06-20T23:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#372">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">372</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Novel</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">AbBDdOYE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-06-20T23:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">好評をいただけたようで光栄です。
 周期的にこういうことをされてみたくなる（笑）ので、
 私の妄想をぶつけてみました。
 
 今後もまた周期が巡ってきたら書こうと思います。
 ありがとうございました。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-06-16T23:05+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-06-20T23:36+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">5723</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">8</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

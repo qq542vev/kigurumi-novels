@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:01:35+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:01:35+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">美少女転校生安藤さん</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-05-02T10:11:16+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-05-09T07:26:47+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">7768</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#821">
-				<rdfs:label>821</rdfs:label>
-				<dcterms:creator foaf:nick="sai"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-02T10:11:16+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#821">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">821</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sai</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-02T10:11:16+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俺は大樹（ダイキ）高校３年だ、来年は卒業して一般社会になじめるようにがんばって勉強している。
 実は着ぐるみが大好きなのだ、こっそりいろんなとこで写真撮影している。
 
@@ -62,11 +46,14 @@
 「なに〜、俺がいくらかけてここまでメーレちゃんを見に来たと思ってるんだ。」
 （んなの知らね〜よ）
 「とにかく、今日はメーレちゃんは出れないので撮影できませんのでこのことはすぐにサイトにＵＰしますので今日はお引取りください。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#822">
-				<rdfs:label>822</rdfs:label>
-				<dcterms:creator foaf:nick="sai"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-02T10:12:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#822">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">822</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sai</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-02T10:12:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ギャラリーは一旦ここで撤収となった、俺もしぶしぶ帰ることにした。でもはじめてメーレちゃんを生でみれた感動が途中で中断された悔しさを上回って
 いたので今日のとこはおとなしく帰ることにした。
 
@@ -97,11 +84,14 @@
 彼女は俺の後ろの席、つまり最後尾だ。転校生のくせにいいポジションである。
 
 彼女はスポーツ万能で成績優秀ないわゆる優等生である。おまけに美少女というなんともうらやましい。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#823">
-				<rdfs:label>823</rdfs:label>
-				<dcterms:creator foaf:nick="sai"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-02T10:14:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#823">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">823</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sai</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-02T10:14:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">それから数日後の昼休みのことであった、昼休みは人気のないところでメーレちゃんのテーマソングと写真を眺めるのが俺の日課になっている。
 すると急に影ができた、なんだと思いうえをみるとなんとあの転校生のみきさんだった。
 
@@ -137,11 +127,14 @@
 
 「メーレ？あなたこんなの趣味だったの？」
 「こんなのっていうなよ、俺にとっては大事なんだ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#824">
-				<rdfs:label>824</rdfs:label>
-				<dcterms:creator foaf:nick="sai"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-02T10:15:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#824">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">824</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sai</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-02T10:15:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「へぇ〜、これのどこがいいの？」
 「ん・・・。全部。」
 
@@ -174,11 +167,14 @@
 
 土曜の夜は眠れなかった、強引とはいえ人気のみきさんが俺の部屋にくるなんて、そもそもどうして俺なんかに、しかもメーレちゃんに興味を持ったのか
 すべては謎に包まれていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#825">
-				<rdfs:label>825</rdfs:label>
-				<dcterms:creator foaf:nick="sai"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-02T10:16:54+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#825">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">825</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sai</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-02T10:16:54+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">散々悩んだ服で待ち合わせの公園に着く、１０分前にはついていたがみきさんはそれ以上にはやく着いているようだった。
 
 「ちょっと、遅いよ、レディを待たせるなんて最低ね。」
@@ -208,11 +204,14 @@
 
 「ほらさ、最初みたときは清楚で可憐でおしとやかだなって。」
 「そうなの？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#826">
-				<rdfs:label>826</rdfs:label>
-				<dcterms:creator foaf:nick="sai"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-02T10:18:01+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#826">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">826</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sai</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-02T10:18:01+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「うん。」
 「それは勝手なイメージよ。」
 
@@ -246,11 +245,14 @@
 
 「ほこりっぽいわね、掃除してるの？」
 「ぐ・・・。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#827">
-				<rdfs:label>827</rdfs:label>
-				<dcterms:creator foaf:nick="sai"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-02T10:19:01+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#827">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">827</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sai</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-02T10:19:01+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「ここが俺の部屋だけど。」
 「さ、入るわよ。」
 
@@ -280,11 +282,14 @@
 
 「なになに美人女将の湯煙でポロリ？なんかありきたりなタイトルね。」
 「う、うるさいな、もういいだろ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#828">
-				<rdfs:label>828</rdfs:label>
-				<dcterms:creator foaf:nick="sai"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-02T10:20:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#828">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">828</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sai</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-02T10:20:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「だーめ、まだまだあるじゃない。」
 「もうやめてくれ〜〜。」
 
@@ -331,19 +336,25 @@
 手元には住所を書いたメモだけが残されていた。
 
 つづく</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#829">
-				<rdfs:label>829</rdfs:label>
-				<dcterms:creator foaf:nick="sai"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-02T10:22:46+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#829">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">829</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sai</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-02T10:22:46+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">とりあえず前半だけ書いてみましたが反応をみて後編を書いていこうと思います。
 
 よろしくお願いします。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#836">
-				<rdfs:label>836</rdfs:label>
-				<dcterms:creator foaf:nick="sai"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-02T18:41:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#836">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">836</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sai</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-02T18:41:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">安藤さんから手渡されたメモに書かれた時間と場所に俺は脚を運んでいた、安藤さんんはなにを思って俺にこの
 メモを渡したんだろう。
 都心の雑居ビルの前に立っていた、空はうっすら曇っていていまにも一雨きそうな感じだった。指定されたビルは
@@ -373,11 +384,14 @@
 「え？なに？」
 「いいから、しばらくそこで待ってなさい。」
 「は、はい。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#839">
-				<rdfs:label>839</rdfs:label>
-				<dcterms:creator foaf:nick="sai"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-02T18:46:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#839">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">839</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sai</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-02T18:46:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">安藤さんから手渡されたメモに書かれた時間と場所に俺は脚を運んでいた、安藤さんんはなにを思って俺にこの
 メモを渡したんだろう。
 
@@ -393,11 +407,14 @@
 
 居間に案内された、女性好みに仕上げられたインテリアが目を引く、生け花もある、なにもかも自分のいる世界とはまったく別の世界
 なのでしばらく見とれていたがそこに安藤さんの声がする。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#876">
-				<rdfs:label>876</rdfs:label>
-				<dcterms:creator foaf:nick="sai"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-08T12:32:26+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#876">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">876</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sai</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-08T12:32:26+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">みきさんはそのまま別室に消えていった。１５分ほどして急にドアが開くとそこには大人気アニメキャラクターの風宮ヒルハがでてきたではないか・・・。
 俺は驚きのあまり声が出せなかった、全然予想していない展開に我を忘れていたのだ。
 すると急に音楽がかかる、それはこのアニメの大ヒットテーマソングである。曲にはかわいい振り付けもありマニアならず一般のコスプレイヤーなども踊っているのだが俺の目の前にいる
@@ -427,11 +444,14 @@
 「男でしょ、はっきりしなさいよね。」
 「で、でも・・・そんな。」
 内心では被ってみたい気持ちがあったのだが生まれつきの初心者の性格が災いしてはっきり答えがだせない自分が悲しい。そうしている間にもみきさんのイラだちは大きくなる一方だ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#887">
-				<rdfs:label>887</rdfs:label>
-				<dcterms:creator foaf:nick="sai"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-09T07:22:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#887">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">887</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sai</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-09T07:22:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「もういいわ、今日はもう帰って。」
 「は？」
 「いいから帰りなさい。」
@@ -461,17 +481,27 @@
 「一緒に帰りませんか？」
 苦節１８年、はじめて女の子から一緒に帰宅しようと誘われた。昔の恋愛ゲームでは一緒に帰ると友達に噂されるからとゲームにすらもてなかった俺なのに感動だ。
 夕焼けの土手を一緒に帰ることにした、駅までの道を二人でゆっくりと帰る。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#888">
-				<rdfs:label>888</rdfs:label>
-				<dcterms:creator foaf:nick="sai"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-09T07:26:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#888">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">888</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sai</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-09T07:26:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">×下駄箱から靴をだして、そのまま飛び出る。いつもならしっかり履くのだが着が焦っていたのかかかとを踏んだままだった。
 　　　　　　　　　　　↓
 ○下駄箱から靴をだして、そのまま飛び出る。いつもならしっかり履くのだが気が焦っていたのかかかとを踏んだままだった。
 
 続きは来週の月曜からです。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-02T10:11:16+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-09T07:26:47+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">7768</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">14</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-11T21:53:02+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-11T21:53:02+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">魅惑の一夜</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2009-12-09T11:04:56+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2009-12-12T15:41:12+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">3688</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#280">
-				<rdfs:label>280</rdfs:label>
-				<dcterms:creator foaf:nick="初心者"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-12-09T11:04:56+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#280">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">280</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">初心者</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-12-09T11:04:56+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">初めて書きますので誤字脱字、多々あるとは思いますが勘弁してください。
 
 どこにでもいる今風の会社員。名前は安男。　
@@ -51,11 +35,14 @@
 着ぐるみ毎週末楽しんでいた。　
 
 続きはまた。。。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#281">
-				<rdfs:label>281</rdfs:label>
-				<dcterms:creator foaf:nick="初心者"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-12-09T14:51:16+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#281">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">281</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">初心者</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-12-09T14:51:16+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">やべえ、小学生の作文になってしまった。全くストーリーが無いけど書いてしまったので最後まで
 書きます。
 
@@ -75,11 +62,14 @@
 女性が立っていた。
 
 挨拶などをドア越しに終えると安男はその女性を自分のぼろアパートの部屋に招きいれた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#282">
-				<rdfs:label>282</rdfs:label>
-				<dcterms:creator foaf:nick="初心者"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-12-09T15:08:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#282">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">282</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">初心者</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-12-09T15:08:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">続きです
 
 一通り挨拶などを終え、最初に風呂に入りいざ開始　安男は女っ気が全く無く
@@ -96,11 +86,15 @@
 へえええ　いいねっ　私もパンストとかタイツ大好きなんだよ　　
 彼女の顔がどんどんにやついてくる。　それを履いてしてみたらもっと興奮するでしょ
 安男は顔を真っ赤にしながらうんと言う暇もなく彼女はクローゼットの扉を開けてしまった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#290">
-				<rdfs:label>290</rdfs:label>
-				<dcterms:creator foaf:nick="初心者" dcterms:identifier="3huDhzFL.g"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-12-12T14:37:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#290">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">290</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">初心者</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3huDhzFL.g</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-12-12T14:37:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">わかりました。　じゃあ続きを。
 
 扉を開けた彼女の目に入り込んできたのは大量のパンストやタイツ、補正下着
@@ -134,11 +128,15 @@
 じゃあ最初はどうするの？　
 
 安男はクローゼットの中身を引っぱりだした</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#291">
-				<rdfs:label>291</rdfs:label>
-				<dcterms:creator foaf:nick="初心者" dcterms:identifier="3huDhzFL.g"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-12-12T14:55:52+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#291">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">291</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">初心者</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3huDhzFL.g</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-12-12T14:55:52+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">安男はこれとこれとを一緒に着てほしいとお願いした。
 無言で互いに下着やらパンストやらを着せあっている。
 Ｔバックショーツ　５本指パンスト　ブラジャー　ボディスーツ
@@ -166,11 +164,15 @@
 ふふふ、２人ともおそろいだねっ
 
 そういうとお互いの下ろしたショーツとパンストを上げボディスーツのホックを止めあった</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#292">
-				<rdfs:label>292</rdfs:label>
-				<dcterms:creator foaf:nick="初心者" dcterms:identifier="3huDhzFL.g"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-12-12T15:17:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#292">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">292</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">初心者</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3huDhzFL.g</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-12-12T15:17:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">次は何を着るの？安男は予備で面と、肌タイをもっていたので一着を彼女に渡す。
 この肌タイは安男がオーダーメイドしたもので股下のジッパーから着るようになっていた
 
@@ -206,11 +208,14 @@
 安男の股間からは我慢汁がしみこんでいた。　乳首を触ろうとするがブラジャーを
 つけていたのを忘れていたため肌タイの上からホックを外した少し間抜けな格好だが
 肌タイ越しに彼女の乳首が浮かび上がる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#293">
-				<rdfs:label>293</rdfs:label>
-				<dcterms:creator foaf:nick="初心者"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-12-12T15:30:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#293">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">293</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">初心者</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-12-12T15:30:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">安男は浮かび上がった乳首を２重に覆われた指先で愛撫する。
 
 うぐうううう　ああああ　ああああ　いやあああ　
@@ -229,11 +234,14 @@
 お願いっ安男はそういうと彼女はいいよっと言ってくれた
 でも生はだめちゃんとつけなきゃ　そういうと自分のポーチからコンドームを
 取り出し安男の息子に付け出した</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#294">
-				<rdfs:label>294</rdfs:label>
-				<dcterms:creator foaf:nick="初心者"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-12-12T15:41:12+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#294">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">294</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">初心者</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-12-12T15:41:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">２重に覆われた手が自分の息子に触れるだけでも逝きそうになったが
 必死にこらえた。　ローションを少したらしゆっくりゆっくり挿入していった。
 
@@ -253,7 +261,14 @@
 
 
 以上です。だめだああエロイ表現がまったくできねええ　官能小説でもよもうかなあ</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-12-09T11:04:56+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-12-12T15:41:12+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">3688</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">8</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

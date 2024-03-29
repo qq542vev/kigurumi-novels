@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:46+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-08T23:53:46+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">人形遊び</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:25:29+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:19:59+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">22867</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#726">
-				<rdfs:label>726</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:25:29+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#726">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">726</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-23T23:25:29+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">傑作堂さんのあとであれだけど……我煩悩をぶちまけてみる！
 
 「人形遊び」
@@ -59,11 +43,14 @@
 美優が真紀に「今度の休みに一緒に買い物に行きませんか？」と約束をし、
 真紀を自分の部屋に招いたことからはじまった。
 長袖だと少し汗ばむくらいの日の出来事である……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#727">
-				<rdfs:label>727</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:30:49+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#727">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">727</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-23T23:30:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　ピンポーン♪
 　私は美優の部屋のインターホンを鳴らす。
 「は〜い！」
@@ -87,11 +74,14 @@
 　今日は工学部で行事があり、部員がほとんどいないので、バトミントン部の工学部以外の部員は休みとなった。
 　バトミントン部は平日はもちろんのこと、土日も練習がある。
 　教育学部である私と美優にとって久々の休日であった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#728">
-				<rdfs:label>728</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:32:03+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#728">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">728</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-23T23:32:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　私が落ち込んでいるのを察したのか、悲しそうな顔で、
 「本当にごめんなさい……」
 　と美優は頭を下げる。
@@ -117,11 +107,14 @@
 　そんな言葉が頭の中をかけめぐっている最中に、
 「着てくれませんか！着ぐるみ！」
 　と目を大きく見開きクリクリ輝かせて、私の口から「うん」や「いいよ」等々の言葉が出てくるのを期待している。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#729">
-				<rdfs:label>729</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:36:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#729">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">729</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-23T23:36:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「ちょっ、ちょっと待って！」
 　このペースだと承諾しちゃいそう……まず、一つ一つ聞いてみよう。
 「べ、別に、私じゃなくても…」
@@ -142,11 +135,14 @@
 　そのことを美優に聞くと、
 「先輩みたいに綺麗で、かわいい人にかわいい着ぐるみを演じてほしいんです！だからお願いします！」
 　美優は頭まで下げて私に着ぐるみを着るようにお願いする。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#730">
-				<rdfs:label>730</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:41:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#730">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">730</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-23T23:41:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　かわいいだなんて…同性に言われても嬉しい……
 　でも……「いいよ」とは素直に言えない……
 　仮に「この服を着てください！」と言われて、コスプレとかするんだったら承諾できたかもしれない。
@@ -165,11 +161,14 @@
 「本当はこんな真似したくなかったけど……奥の手を使います。」
 　美優は普段出さないような凄みのある声で私を威圧する。
 　怖さと不安で私の心臓が止まったような気がした……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#731">
-				<rdfs:label>731</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:44:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#731">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">731</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-23T23:44:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　でも奥の手ってなんだろう……危ないこと？
 
 　美優はそんなことする子じゃないから乱暴なことをするとは考えられない。
@@ -193,11 +192,14 @@
 「そうです……部室の鏡の前ですっぽんぽんで…」
 「それ以上言わないで！！」
 　堪らず大声をだしてしまった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#732">
-				<rdfs:label>732</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:51:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#732">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">732</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-23T23:51:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　私はバトミントン部の女子の部室の鍵の管理を任されているから、いつも最後まで部室に残っている。
 　部室は広くて大きな鏡があるから、毎日みんなが帰ってからその鏡を使って素振りやフォームチェックをするのが私の日課になっていた。
 　それにひきかえ、自分の部屋が小さいし鏡もないからそれができない……だから部室はいい練習上でもあった。
@@ -225,20 +227,27 @@
 
 　
 　部屋の時計の針が10時をさした。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#734">
-				<rdfs:label>734</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:56:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#734">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">734</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-23T23:56:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">真紀ちゃん着ぐるみ承諾編　完　です。
 
 とりあえず今日はここまでです。
 一人で盛り上がっちゃってすみません。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#742">
-				<rdfs:label>742</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T10:28:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#742">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">742</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T10:28:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「フン、フフン、フフ〜ン♪｝
 　美優は小物入れからカッターを取り出すと、鼻歌を歌いながらダンボール箱のガムテープを切っていく。
 　箱の中は発砲スチロールや、つぶすとプチプチ鳴るビニールがぎっしり詰まっている。
@@ -255,11 +264,15 @@
 　肌色の全身タイツ、メイドカフェのメイドさんが着ているような紺色の長袖のメイド服、
 　白いニーソックス、ピンク色のリボンがついたベルト、茶色いウィッグ、
 　そして……私の顔を隠してしまうヘルメットみたいな形のプラスチック製のマスク……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#743">
-				<rdfs:label>743</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T10:39:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#743">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">743</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T10:39:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　これ、全部着るの？
 
 　着ぐるみセットを直視したまま動けない……
@@ -275,11 +288,15 @@
 「そうですか、よかった！じゃあ早速着てもらいましょ〜♪まずは服を脱いじゃってください！」
 「え！いきなり……」　
 　美優のテンションがまた始めた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#744">
-				<rdfs:label>744</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T10:47:52+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#744">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">744</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T10:47:52+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「あ！」
 　美優が何かを思い出したように、はっとした顔をした
 「その前にお化粧おとしちゃってください、着ぐるみが汚れちゃうんで。
@@ -300,11 +317,15 @@
 　不意の誉められたからさっき冷やした顔がまた熱くなってきちゃった……
 　
 　美優のテンションがさっきよりも上がっている。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#745">
-				<rdfs:label>745</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T10:54:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#745">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">745</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T10:54:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「じゃあ、今度こそ服を脱いじゃってくださ〜い♪」
 
 　同性だけど、見られながら脱ぐのは抵抗がある。
@@ -317,11 +338,15 @@
 　私が白の下着を着ている姿を見るのは初めてらしく、美優はすごく喜んでいる。　
 「あんまり見ないで…恥ずかしいよぉ……」
 　私は顔を赤らめた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#746">
-				<rdfs:label>746</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:03:53+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#746">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">746</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:03:53+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「下着もですよ、先輩♪」
 「え！下着も？」
 　理由を尋ねると、美優は肌色の全身タイツを指さしながら、
@@ -341,11 +366,15 @@
 　美優が肌タイ（肌色の全身タイツの略語らしい）を持ってきて私に手渡す。
 「次はこれを着ちゃってください♪」
 　相変わらず美優はハイテンションだ。私がどんな思いで着ぐるみを着ようとしているのかも知らないで……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#747">
-				<rdfs:label>747</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:06:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#747">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">747</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:06:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　肌タイは頭のてっぺんから腰までジッパーを下して開き、その大きな口に体を足、手、頭の順に入れて着ていくらしい。
 　顔の部分はポッカリ穴が開いてるから、着るともじもじクン状態になることが想像できた。
 　私は髪をゴムで後ろにまとめ、団子状にする。
@@ -354,11 +383,15 @@
 　ついに着ぐるみに入れられちゃう……
 
 　心臓の音がまた大きくなる。右足、左足とタイツを履くようにして履き、肌タイを腰までグイッと引っ張り上げた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#748">
-				<rdfs:label>748</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:17:29+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#748">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">748</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:17:29+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　あれ、この股のジッパーはなんだろう？
 
 　ジッパーを見ている私の前に美優が座り込み、股のジッパーに手をかけた。
@@ -383,11 +416,15 @@
 　右手、左手、頭と肌タイを着ていき美優にジッパーを上げてもらう。
 　これで私は顔以外は肌色のタイツで覆われてしまった……
 　まだ着て間もないのに肌タイがうっすらと汗ばみ始める……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#749">
-				<rdfs:label>749</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:22:13+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#749">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">749</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:22:13+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「先輩……ちょっと抱きついてもいいですか？」
 「え？」
 　美優は私の脇の間に手を差し込むとその手を背中に回し、顔を私の胸に押しつけてきた。
@@ -404,11 +441,15 @@
 
   なにも…考えられない……
 　体が…熱い……力が…入らない……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#750">
-				<rdfs:label>750</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:26:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#750">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">750</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:26:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「せ、先輩！大丈夫ですか！」
 　腰砕けになった私の体を美優が支える。
 
@@ -426,11 +467,15 @@
 「そうだ！エアコンつけてもらえる？これ着てると結構暑いの。」
 「あっごめんなさい！私ったら全然気がつかなくって！今つけますから！」
 　私が立ち直ったのを見て安心した美優は急いでテレビの上にあるエアコンのリモコンに駆け寄り、冷房のスイッチを押した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#751">
-				<rdfs:label>751</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:33:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#751">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">751</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:33:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　バタバタと忙しく動く美優を見ながら私はさっきの感覚を思い出していた。
 
 　立ちくらみなんかじゃない……じゃあさっきのはなんだったんだろう？
@@ -448,11 +493,15 @@
 　しばらくすると部屋からカビ臭さが消え、美優は部屋の窓を全部閉めた。
 　部屋の温度が急に下っていく。
 　美優はタンスから長袖のシャツ取り出すと、着ていた半袖のTシャツを脱いでそれに着替えた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#752">
-				<rdfs:label>752</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:37:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#752">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">752</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:37:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　そうだ、美優は半袖に短いデニムだから２０度じゃ寒いよね…全然気が回らなかった……
 　
 「２３度ぐらいにしよ。２０度じゃ寒いでしょ？」
@@ -476,11 +525,15 @@
 　美優はニーソックスを拾いながら、
 「裸のまま服を着る人なんていませんから下着はつけてください♪それとニーソもお願いします♪」
 　と答えた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#753">
-				<rdfs:label>753</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:41:12+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#753">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">753</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:41:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　私は違和感を感じながらも肌タイの上から自分の下着を身につけ、美優が用意した膝上まである白のニーソックスを履く。
 　ニーソックスには膝上のゴムのところに白いフリルと小さな飾りのリボンがついている。
 　人が履いていたらかわいいと思えるけど……自分が身につけるとなると恥ずかしい……
@@ -506,11 +559,15 @@
 　私はその場に座り込んだ。
 　胸がはち切れそうなぐらい心臓がバクバクなっている。
 　そんな私には見もくれず、美優はマスクとウィッグを手に取る。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#754">
-				<rdfs:label>754</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:44:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#754">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">754</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:44:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　美優はマスクにウィッグを被せ、自分の膝に置いて私に見せた。
 「これが先輩の顔になります♪」
 
@@ -525,11 +582,15 @@
 「造ってもらったの？じゃあこれも？」
 　私は自分が着ているメイド服を指さす。
 「もちろんです♪」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#755">
-				<rdfs:label>755</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:46:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#755">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">755</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:46:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　いま気づいたら私に着せようとしている着ぐるみは、かなりの額になるんじゃないかと思った。
 　聞きづらいけど…ちょっと聞いてみよう。
 「これ…全部でいくらしたの……」
@@ -557,11 +618,15 @@
 　と意を決して美優に言った。
 「え！でもまだマスクの説明が…」
 「あとで聞くから！」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#756">
-				<rdfs:label>756</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:49:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#756">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">756</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:49:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　私は試合前のように気合が入っていた。いい緊張感を保っている……
 
 　美優はそんな私を見て、あわててマスクからウィッグを外し、
@@ -584,11 +649,15 @@
 　私はマスクの中のスポンジで顔を押しつぶされるのにくわえて、視界の悪さ、呼吸のしづらさから更にパニックに陥ってゆく。
 　心臓がオーバーヒートしている。全身からドバッと汗が出た。
 　天井を見上げ、声にならない声で美優に助けを求めながら、膝から崩れ、その場にへたりこんでしまった……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#757">
-				<rdfs:label>757</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:50:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#757">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">757</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:50:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　……い！先輩！私に合わせて鼻で息してください！
 
 　遠くから美優の声が聞こえる……
@@ -615,11 +684,15 @@
 
 　そのことを美優に伝えるためマスクの口元を指さした。
 　それに気づいた美優はムクリと起き上がる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#758">
-				<rdfs:label>758</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:53:00+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#758">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">758</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:53:00+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「説明してなかったからびっくりさせちゃいましたよね。すみませんでした……」
 　美優は申し訳なさそうに頭を下げ、マスクの説明をし始めた。
 
@@ -644,11 +717,15 @@
 「これでだいたい説明は終わりです！あっ、それと何か言いたいときは体で表現してくださいね♪」
 
 　色々とかなり辛いけど、私はとりあえず頷いた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#759">
-				<rdfs:label>759</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:54:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#759">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">759</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:54:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「先輩！着ぐるんだ自分の格好見たいですよね！こっち来てください！」
 　そういって美優は急いで私の手をとって強引に私を鏡の前に立たせた。
 　そこに映っているのは私ではなく、メイド服を着たアニメ顔のかわいらしい女の子だった……
@@ -664,11 +741,15 @@
 　美優の声が右の耳から入って左の耳から抜けていく……
 
 　私は……私はどこいっちゃったの？</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#760">
-				<rdfs:label>760</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:56:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#760">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">760</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:56:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「そうだ！着ぐるみに名前つけましょう！
 　先輩の名前は眞田真紀（さなだまき）だから…サキちゃん！サキちゃんにしましょう！
 　それでいいですか、せんぱ…じゃなかった……いい！サキちゃん♪」
@@ -698,11 +779,15 @@
 　私は「あの感覚」に耐えながらも、「サキ」として頷いた。
 
 　このときの私は気づいていなかった……「あの感覚」が私の…秘所を濡らしていることを……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#761">
-				<rdfs:label>761</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T11:58:54+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#761">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">761</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T11:58:54+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　エアコンが効いてても着ぐるみに閉じ込められてるから体がほってってかなり暑い……
 　ボーっとしながら立っていたらマスクの中で、口元からツーっと何かが垂れそうになる。
 　これって……唾！
@@ -728,11 +813,15 @@
 　私がサキになっても甘えん坊なところは変わんないね……ちょっと安心した……
 　
 　私は美優の頭を撫でてあげた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#762">
-				<rdfs:label>762</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T12:00:54+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#762">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">762</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T12:00:54+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　それから５分以上は経った。
 　美優は未だに私を抱きしめている。
 　体がほってっているうえ、抱きしめられてるから肌タイがかなり湿ってきた……
@@ -757,11 +846,15 @@
 「あっそうだ！サキちゃん！女の子座りして♪」
 　私はうな垂れながらも頷き、女の子座りの格好をした。
 　そしたら美優はコロンと寝転がり私の太ももに頭をあずけてきた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#763">
-				<rdfs:label>763</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T12:03:01+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#763">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">763</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T12:03:01+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「頭なでなでして……」
 　
 　もう…甘えんぼさんなんだから……
@@ -785,19 +878,27 @@
 
 　そんなことして遊んでたら外で急にサイレンが鳴りだした。
 　色々しているうちに１２時になったらしい。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#764">
-				<rdfs:label>764</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T12:05:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#764">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">764</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T12:05:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">真紀ちゃん、着ぐるみ着用！サキになる編　完　です。
 
 続きはできたら午後ということで……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#765">
-				<rdfs:label>765</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T13:59:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#765">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">765</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T13:59:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　美優がいきなりガバッと起き上がった。
 「お昼…お昼にしよう！」
 　美優は台所に直行していった。驚くべき切り替えの早さだ。
@@ -825,11 +926,15 @@
 「うそうそっ！ちゃんと先輩の分も用意してありますから泣かないでくださいよ！」
 「ひっく、ふぐぅ……ほんほ？」
 「はい！今持ってきますからね！」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#767">
-				<rdfs:label>767</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T14:03:53+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#767">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">767</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T14:03:53+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　美優は再び台所に直行する。
 　そしてコップと細長いチューブを片手で持って、急いで冷蔵庫の中から１リットルの紙パックジュースを取り出し戻ってきた。
 「ほら！これ、せんぱ…じゃなくて、サキちゃんの好きなジュースだよ！だから泣かないで♪」
@@ -850,11 +955,15 @@
 　エアコンがついてるけど、１時間以上着ぐるみを着ている私は変な緊張と暑さで喉がカラカラだった。
 　マスクの猿轡のせいでかなり飲みづらかったけどゴキュゴキュ喉を鳴らしながら、
 　私はコップに入っていたピーチdeジュースをあっという間に飲み干した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#768">
-				<rdfs:label>768</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T14:06:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#768">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">768</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T14:06:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「もう飲んじゃったの！？もっと欲しい？」
 　大きく頷く。やっぱりピーチdeジュースはすごくおいしい！
 「ふふ！かわいい♪」
@@ -870,11 +979,15 @@
 真紀ちゃん、ピーチdeジュースガブ飲み編　完　です。
 
 相変わらず一人で盛り上がっててすみません。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#769">
-				<rdfs:label>769</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T14:42:54+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#769">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">769</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T14:42:54+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　美優は台所から戻ってくると小物入れから何かを取り出し、それを背中に隠す……なんだろう？
 「どお？元気出た？」
 　再び大きく頷く。できればもっと飲みたかったけど……
@@ -898,11 +1011,15 @@
 　それに…さっきから心臓がバクバクして……あのかんじが…ずっとしてる……
 
 　そんな私に気づくはずもなく、美優ははしゃぎながら着ぐるみ姿の私を撮り続ける……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#770">
-				<rdfs:label>770</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T14:46:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#770">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">770</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T14:46:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「そうだ！先輩のケータイにも取ってあげよ！サキちゃんの写真♪」
 　美優は勝手に私のバックからケータイを取り出した。
 
@@ -925,21 +1042,29 @@
 　でもあんなに楽しそうだし……もうちょっと頑張ってあげよう。
 
 　その後も色々のポーズで写真を撮られ続けた……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#771">
-				<rdfs:label>771</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T14:50:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#771">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">771</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T14:50:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">すみません。修正です。
 
 &gt;カメラをデジカメを持ち替えて撮影会を再開した。
 
 &gt;デジカメに持ち替えて撮影会を再開した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#772">
-				<rdfs:label>772</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T14:53:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#772">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">772</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T14:53:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「すっごくいいよ、サキちゃん♪そうだ！四つん這いになってみて！早く早く♪」
 
 　えっ！？それはちょっと…恥ずかしい……　
@@ -967,19 +1092,27 @@
 
 　そんなことを考えながら四つん這いになる。
 　そのとき私はあることに気がついた……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#773">
-				<rdfs:label>773</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T14:56:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#773">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">773</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T14:56:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">真紀ちゃん、サキで撮影会編　完　です。
 
 このあとは……「煩悩炸裂編」です！</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#775">
-				<rdfs:label>775</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T16:40:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#775">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">775</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T16:40:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　そういえば……おしっこ…したいかも……
 
 　お昼に１リットルもピーチdeジュースを飲んじゃったんだから当たり前だった。
@@ -1010,11 +1143,15 @@
 　私は渋々頷いた。
 「ふふ♪カメラ置いてくるからちょっと待っててね♪」
 　美優はデジカメを小物入れにしまいにいった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#776">
-				<rdfs:label>776</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T16:43:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#776">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">776</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T16:43:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　ちょっとあそこが濡れてる気がする……汗だよね……
 　おしっこ……漏れてないよね……
 
@@ -1040,11 +1177,15 @@
 「お待たせ！おトイレいこ♪」　
 「ふっ！」
 　急に声をかけらたからその場で飛び跳ねてしまった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#777">
-				<rdfs:label>777</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T16:47:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#777">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">777</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T16:47:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「どうかしたの？さっ、いこ！」
 「ひは……へっはいひは！！」（イヤ……絶対イヤ！！）
 　
@@ -1061,11 +1202,15 @@
 「いい子だから一緒におトイレいこ！ね！」
 「ふぅ……」
 　恐怖から頷いてしまい、美優と一緒にトイレに入った……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#778">
-				<rdfs:label>778</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T16:50:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#778">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">778</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T16:50:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「はい！じゃあスカートもって座って♪」
 　
 　やだ……やっぱり見られたいないよぉ……
@@ -1091,11 +1236,15 @@
 　裸で素振りしてるのなんかよりも……変態だよぉ……　
 
 　すすり泣きながら立ちつくす私……そんな私を美優は茫然と見ていた……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#779">
-				<rdfs:label>779</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T16:53:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#779">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">779</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T16:53:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　美優は、はっ！と気づいたように私の愛汁がついたショーツと肌タイをトイレットペーパーで拭くと、
 　ショーツを一気に脱がし、それを美優のデニムのポケットに入れてしまった。
 
@@ -1110,11 +1259,15 @@
 　こんなとこまで見られて……もうやだ……
 
 　私は着ぐるみの中で…ただひたすら自分が消えてしまうように祈ることしかできなかった……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#780">
-				<rdfs:label>780</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T16:58:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#780">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">780</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T16:58:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">煩悩炸裂編（俺的な意味で）　第一部
 真紀ちゃん、お漏らし編　完　です。
 
@@ -1122,11 +1275,15 @@
 
 このあとは　煩悩炸裂編　第二部
 真紀ちゃん、○○○○編です！</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#783">
-				<rdfs:label>783</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:36:59+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#783">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">783</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T20:36:59+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　おしっこをし終わると、美優は私のあそこをトイレットペーパーで拭く。
 　そして股のジッパーを閉じて私の手を引っ張りながら一緒にトイレを出た。
 　
@@ -1153,11 +1310,15 @@
 
 　美優は着ぐるみセットが入っていたダンボール箱から黒い塊とチェーン付きのベルトを取り出し床に並べた。
 　そしてその黒い塊を手に取ってこっちにやってくる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#784">
-				<rdfs:label>784</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:40:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#784">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">784</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T20:40:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　茫然と美優が手に持っている物を見つめる……
 　
 　これ…よくＳＭとかで使ってそうな……
@@ -1187,11 +1348,15 @@
 「ふぎゅぅうう！！」
 　
 　すでに湿っていた私のあそこは、いとも簡単に張り型を飲みこんでしまった……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#785">
-				<rdfs:label>785</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:42:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#785">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">785</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T20:42:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　あぅぅ！！……
 　もう……やめてよぉ……こんなのやだよぉ！
 　お願い……脱がせてよぉ……
@@ -1221,11 +1386,15 @@
 
 　体は正直であそこから蜜を噴き出している……
 　私は全身をつかってイヤイヤをしたけど意味もなく、逆に体をよじったせいで二本のバイブで更に刺激を与えることとなった……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#786">
-				<rdfs:label>786</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:45:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#786">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">786</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T20:45:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「はふっ！ひや！ほうやめへ！」（はぅっ！イヤ！もうやめて！）
 「だ〜め♪ＭＡＸまで我慢してね♪」
 「ふぅぅ……」
@@ -1244,11 +1413,15 @@
 　体を痙攣させながら、私の秘所は大量の蜜を噴き出した……
 　美優が見ているというにもかかわらず……私は今まで感じたことないほどの波にのまれ……激しくいってしまった……
 　バイブはＭＡＸのまま振動し続けている……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#787">
-				<rdfs:label>787</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:47:54+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#787">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">787</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T20:47:54+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「はい！お仕置きおしまい！今マスク外してあげるからね〜♪」
 　気絶した私はそのあとも体をビクビクと震わせ、いき続けている……
 　美優の声なんて聞こえてなかった……
@@ -1278,11 +1451,15 @@
 　あっ！らめっ！！……またいっちゃっ！……アァァァァァァ！！！
 
 　私はまた快楽の波にのまれ、あそこから蜜をドバッと噴き出しながらいってしまった……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#788">
-				<rdfs:label>788</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:50:52+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#788">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">788</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T20:50:52+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　またマスクの中で目覚める……美優はそこにはいない……
 「ひっく、ひっく……ひふぅ……はふへへ……」（ひっく、ひっく……美優ぅ……助けて……）
 　
@@ -1303,11 +1480,15 @@
 　ひっく、ひっく……美優ぅ……あぅぅ！……早く……早く帰ってきて……
 　はぅぅ！……苦しいよぉ……怖いよぉ……ぐすっ……
 　独りに……ひっく……しないで……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#789">
-				<rdfs:label>789</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:53:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#789">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">789</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T20:53:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　バタンッ！ドタドタドタ！
 
 　美優が帰ってきた！手には何かを持っている。
@@ -1332,11 +1513,15 @@
 　何時間も口を開けっ放しにされていた私は舌が回らなかった……
 　そして苦境から解放され、安心したから再び涙があふれでてきた……鼻から鼻水まで垂らして……
 　私の顔は汗や涙、鼻水にくわえ、唾でベチョベチョになっていた……</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#790">
-				<rdfs:label>790</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:54:59+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#790">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">790</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T20:54:59+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　そんな私の頭を美優は肌タイの顔の穴から出し、
 　グチャグチャな体液まみれの私の顔を、自分の胸に押しつけ、私の頭をギュッと抱き始めた……
 
@@ -1362,11 +1547,15 @@
 　美優のシャツが私のせいでグチョグチョになっちゃった……
 「あっ…ごめんね……私のせいでシャツが……」
 「こんなの大丈夫ですよ！それより着ぐるみ脱いじゃいましょう♪」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#791">
-				<rdfs:label>791</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:59:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#791">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">791</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T20:59:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">煩悩炸裂編　第二部
 真紀ちゃん、お仕置きand快楽地獄放置編　完　です。
 
@@ -1374,11 +1563,15 @@
 真紀ちゃん、着ぐるみ脱ぎ脱ぎ編
 真紀×美優、ほのぼの編
 真紀ちゃん、帰路を辿る編　　　　です</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#792">
-				<rdfs:label>792</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:01:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#792">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">792</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T21:01:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　足のベルト、手袋を外し私を立たせる。
 　そして美優は腰のベルトを緩め、革のパンツに手をかけた。
 「下しますよ？いいですか？」
@@ -1406,11 +1599,15 @@
 　赤面している私を見て、美優はエアコンのスイッチを切りながらニコッと笑う。
 「お風呂入りましょっか！一緒に♪」
 「え？……うん！」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#793">
-				<rdfs:label>793</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:02:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#793">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">793</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T21:02:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　美優も服を脱ぎ裸になる。美優の胸は私よりも大きかった。
 
 　私より背は低いのに……ちょっと悔しい……
@@ -1433,11 +1630,15 @@
 　美優はニコニコしながらあのダンボール箱の中から紙袋を取り出すと、それを私に手渡した。
 「これは？」
 「プレゼントです！開けてみてください♪」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#794">
-				<rdfs:label>794</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:03:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#794">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">794</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T21:03:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　袋を開けると……新品の白のブラとショーツが入ってる！これ結構高いやつだ！
 「これ高かったでしょ…もらっていいの……」
 「サキちゃんになってもらったお礼です。もらってください！」
@@ -1460,11 +1661,15 @@
 「お夕飯食べてきます？」
 「平気、平気！大丈夫だから！」
 「そうですか？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#795">
-				<rdfs:label>795</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:06:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#795">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">795</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T21:06:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　これ以上お世話になっちゃうと悪いし、今日はもう帰ろう……あっ！
 
 「下着持って帰んないと！」
@@ -1474,11 +1679,15 @@
 「無理言ったのは私のほうですから。今日は本当にありがとうございました！」
 　美優は深々と頭を下げた。
 　美優の頭をあわてて上げさせ、バックを持って私は玄関に向かった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#797">
-				<rdfs:label>797</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:09:13+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#797">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">797</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T21:09:13+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「ほんとにいいんですか？お夕飯？」
 「うん、今度はお買物一緒にいこうね♪じゃあね♪」
 
@@ -1500,11 +1709,15 @@
 「あっごめんなさい！」
 
 　私は美優の部屋を出で自分の住んでるアパートに向かった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#798">
-				<rdfs:label>798</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:11:53+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#798">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">798</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T21:11:53+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　５時だというのにまだ外は明るい。でも日は落ちてきたから涼しくて気持ちいい……
 
 　月に一回ぐらいだなんて……何で言っちゃたんだろう……
@@ -1533,11 +1746,15 @@
 　私はまた赤面し、周りに誰もいないことを確認すると、足早に自分のアパートへと帰っていくのであった。
 
 　＜おしまい＞</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#799">
-				<rdfs:label>799</rdfs:label>
-				<dcterms:creator foaf:nick="人形遊び" dcterms:identifier="zEHLoba/D2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:19:59+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#799">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">799</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形遊び</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">zEHLoba/D2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T21:19:59+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「人形遊び」　完　です。
 
 思ってたより妄想が爆発して長くなっちゃいました。
@@ -1545,7 +1762,14 @@
 もうちょっとレズ入れたかったんですけど、これ以上いれるとあれなんでやめました。
 
 最後まで読んで頂いた方々に、深くお礼申しあげます。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-23T23:25:29+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-05-24T21:19:59+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">22867</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">61</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

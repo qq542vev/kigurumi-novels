@@ -1,112 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:01:27+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:01:27+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">着ぐるみの囚人服</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-12-17T23:47:51+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-05-24T21:43:45+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">25340</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#424">
-				<rdfs:label>424</rdfs:label>
-				<dcterms:creator foaf:nick="３６９"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-17T23:47:51+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#424">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">424</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">３６９</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-17T23:47:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">インターホンが鳴る音にきずき、進一（１８）が玄関へ出てみると、そこには身長１５０〜１６０くらいの女の子の格好をした着ぐるみがたっていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#425">
-				<rdfs:label>425</rdfs:label>
-				<dcterms:creator foaf:nick="３６９"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-17T23:53:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#425">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">425</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">３６９</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-17T23:53:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">突然、その着ぐるみがマスクをとった。
 そこにはおっさんの顔があった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#426">
-				<rdfs:label>426</rdfs:label>
-				<dcterms:creator foaf:nick="３６９"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-18T00:06:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#426">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">426</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">３６９</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-18T00:06:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">進一は警察に通報した。
 10分後、町内の交番から警察官がやってきた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#428">
-				<rdfs:label>428</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-18T10:25:55+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#428">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">428</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-18T10:25:55+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">その警察官は美少女な着ぐるみの婦警さんだった。
 その婦警さんは「もうぅ逮捕しちゃうから〜」とか意味不明なことを言いながらマスクをとった。
 そこにはおっさんの顔があった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#432">
-				<rdfs:label>432</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-18T13:12:12+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#432">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">432</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-18T13:12:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">二人の美少女着ぐるみだったおっさんは再びマスクを被ると進一の両側に廻り込み
 両腕を掴んで「署まで同行願いますから〜」とか意味不明なことを言いながら歩き出した。
 進一は突然の出来事にパニックを起こした。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#437">
-				<rdfs:label>437</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-18T21:23:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#437">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">437</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-18T21:23:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">食い物を粗末にするな&gt;&gt;436
 ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#438">
-				<rdfs:label>438</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-18T21:55:57+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#438">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">438</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-18T21:55:57+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そう一喝すると、美少女着ぐるみの婦警さんは今度は諭すようにこういった。
 「お前も苦労したんだな。でもこの話を里のお袋さんが聞いたら悲しむぞ？
 　悪いことは言わん。自首したらどうだ？　反省しているなら情状酌量の余地もあるってもんさ。
 　まあ、ひとまずこれでも食ってもちつけ。」
 美少女着ぐるみの婦警さんはこぼれた油揚げ丼を器に戻して進一に差し出した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#440">
-				<rdfs:label>440</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-18T22:35:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#440">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">440</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-18T22:35:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">進一の背後でずっと見守っていた身長１５０〜１６０くらいの美少女着ぐるみの婦警さん（私服だったようだ）が進一の肩をポンポン叩いた。
 「しかたないわねぇ。　食べ物を粗末にした罪で逮捕しちゃうんだから〜」とか意味不明なことを言いながら
 二人（二体？）で進一の両腕に手錠をかけてしまった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#441">
-				<rdfs:label>441</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-19T00:57:46+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#441">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">441</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-19T00:57:46+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">進一が理不尽な逮捕にわめき散らしていると、別の着ぐるみ婦警さんがやってきた。
 二人より背が高くお姉さん風だ。二人の美少女着ぐるみ婦人警官がピシッと敬礼する。
 「さあ、囚人は囚人服に着替えるのよ。」と言い放つと囚人服にしてはかなり大仰な箱を置いた。
 蓋を開けるとそこには美少女着ぐるみのマスクと肌タイと囚人服が入っていた。
 進一は唾をゴクリと飲んだ…</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#442">
-				<rdfs:label>442</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-19T01:41:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#442">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">442</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-19T01:41:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">進一「ゴクリ…着ぐるみにも穴はあるんだよな」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#444">
-				<rdfs:label>444</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-19T09:29:13+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#444">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">444</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-19T09:29:13+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そう呟きながら、しかしあまり興味はなさそうなフリをして面や肌タイを手にしてみる。
 実は進一は素振りと裏腹に着ぐるみにとても興味があった。
 しかし、たまにキャラショーを見に行ったりネットで画像や動画を見る程度のことしかできなかった。
@@ -116,11 +130,14 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 「あー　じれったいなあ。　男だろ？　とっとと着ちまえよ。」
 突然のだみ声に顔を上げると後から入ってきた婦警さんがマスクを外して小脇に抱えながらこっちを睨んでいた。
 いや、そのしかめっ面はおっさんだった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#446">
-				<rdfs:label>446</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-19T11:46:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#446">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">446</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-19T11:46:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">進一は予想していた展開にもう慣れた。
 
 そんなことよりも、男だからこそいきなりこんな可愛いマスクを被れと…
@@ -140,11 +157,14 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 表から見ても覗き穴は分らなかった。
 
 進一がフと顔を上げると、婦警と私服の女装おっさんが三人で「はよせーやー」と見つめていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#457">
-				<rdfs:label>457</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-21T19:34:12+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#457">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">457</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-21T19:34:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">では、なんとなく続けます。
 つまらなくなったら適当に止めますね。
 
@@ -162,11 +182,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 進一の思考が絶望的な方向に向かうのを少しでも前向きにと、自らその気になり始めてるのを意識しだしたとき、
 もはやあきらるしかなさそうだと観念した。
 三体の美少女婦警さんがかわいい声と仕草で「は・や・く！　は・や・く！」とはやしたてはじめたのだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#498">
-				<rdfs:label>498</rdfs:label>
-				<dcterms:creator foaf:nick="457" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-26T17:29:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#498">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">498</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-26T17:29:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">意を決め進一は服を脱ぎだした。
 婦警さんがやってきて「逃げちゃダメ！　いいわね？」と念を押しながら手錠を外してくれた。
 「私たちは後ろを向いてるから安心して。でもきっと驚くわよ」とか意味不明なことを言い残して三人の美少女着ぐるみ婦警さんはさっさと背中を向けてしまった。
@@ -185,11 +209,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 今度は恐る恐る左足をスーツに通す。
 圧迫感は多少感じるが苦痛に感じる痛みではない。脚全体が中からもじんわりと押されるような不思議な感じだ。
 股から下を穿き終わって両足で立つと最初は気になった左右の足の長さの差が次第に無くなり圧迫感も次第に治まるのを感じた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#522">
-				<rdfs:label>522</rdfs:label>
-				<dcterms:creator foaf:nick="457" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-01-05T05:51:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#522">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">522</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-01-05T05:51:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">進一は事態を正確に把握していなかったが、実は下半身が数％ほども小さくなっていたのだ。
 
 いよいよ問題の二つの穴、すなわち筒状の部分を手にする。
@@ -220,11 +248,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 背中を触ってみると繋ぎ目がほとんど分からなかった。
 
 そして、この後、進一は着ぐるみ婦警さんの言った驚きの本当の意味を知ることになる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#526">
-				<rdfs:label>526</rdfs:label>
-				<dcterms:creator foaf:nick="457" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-01-06T02:31:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#526">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">526</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-01-06T02:31:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「あらまあ！　ここまで自分でできたのね！」
 
 進一は思わず顔を上げると、三体の美少女着ぐるみ婦警さんが傍に立っていた。
@@ -255,11 +287,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 
 ここには人権とかプライバシーというものはないのだろうか？
 まともに考えるとありえない展開に戸惑いながらも受け入れている進一だった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#543">
-				<rdfs:label>543</rdfs:label>
-				<dcterms:creator foaf:nick="457" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-01-07T00:26:03+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#543">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">543</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-01-07T00:26:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">座り込んだままマジックミラーをみると股間に両手をやって小さくうずくまっている自分が映っていた。
 なんとなく肩に重さを感じて胸を見ると二つの膨らみがあった。品のいい先端が生意気そうに上を向いて存在を主張している。
 あわてて片方の手を胸にやって隠す。この感情は何だというのだろう。
@@ -290,11 +326,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 「あ、あの…」自分の声にどぎまぎしながら尋ねる。
 「なあに？」今度は婦警さんもちゃんと聞いてくれる。
 「何か穿くものが欲しいんですけど…」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#544">
-				<rdfs:label>544</rdfs:label>
-				<dcterms:creator foaf:nick="457" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-01-07T00:27:46+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#544">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">544</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-01-07T00:27:46+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「でもよお？　勿体無いよな？」
 「そうねえ。」
 「これは大問題なんだから〜」
@@ -325,11 +365,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 よほど急いできたのだろう、息も絶え絶えに小箱を差し出す。
 年長の美少女着ぐるみ婦警さんが進一の腕を放して箱を受け取り蓋を開けた。
 中から、被る予定だったのと同じ形のマスクが出てきた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#744">
-				<rdfs:label>744</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-02-28T22:15:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#744">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">744</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-02-28T22:15:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">進一はお尻の刺激が治まると気を取り直してスーツをたくし上げた。
 
 痛みではないが、なんともいえない鈍い刺激を感じながら背中側から左腕を通す。
@@ -360,11 +404,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 &gt;口で息できない構造でも喋れるのか… 
 スーツはこのように目鼻口が穴が開いています。
 そして&gt;&gt;544で用意された別のマスクで喋ることができるというわけです。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#762">
-				<rdfs:label>762</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-04-15T17:45:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#762">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">762</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-04-15T17:45:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「まずはこのマスクを被るのよ。この椅子にお座りなさい。」
 美少女着ぐるみ婦警さんが持ってきたのは、最初に用意されていたのと同じ顔のマスクだが口内が奥で開いていた。
 進一は二人の美少女着ぐるみ婦警さんに押さえつけられ、後ろ手に鏡の前の椅子に座らされると、そのまま年長の美人着ぐるみ婦警さんに手錠を掛けられてしまった。
@@ -395,11 +443,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 目前の美少女が目を見開き驚く。
 「おまえさんの被ったマスクのチップには聖美子としての性格が設定されているのさ。表現するときはそのとおりに味付けされて口が動いたり行動したりするんだよ。」
 進一の脳裏に衝撃が走った！</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#763">
-				<rdfs:label>763</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-04-15T17:47:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#763">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">763</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-04-15T17:47:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「そ！　そんなことが…」
 できるのか？　勢いよく喋ろうとしても途中でうつむいてしまい、最後まで声が続かない。
 「現にあなた自身がその身を以て実証しているわ？　自分で分かるわよね？」
@@ -430,11 +482,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 まるで着せ替え人形だ。
 丸められた白いタイツが右のつま先を通す。
 左足も通して少しずつ伸ばしながら丁寧に穿かされる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#764">
-				<rdfs:label>764</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-04-15T17:50:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#764">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">764</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-04-15T17:50:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">聖美子の両足に白いタイツが穿かせられた。
 スーツを着たときとは違う伸縮する薄手の生地の圧迫感が進一の足に起こる。
 股間のモノがタイツに上向きに挟まれて納まるが、微妙な圧迫感が進一を襲う。
@@ -465,11 +521,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 「チップの効き目は抜群なんだから〜」
 二体の美少女着ぐるみ婦警さんが聖美子の両腕を取り押さえて立たせる。
 しばらく聖美子はイヤイヤを繰り返したが渋々立ち上がった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#765">
-				<rdfs:label>765</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-04-15T17:52:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#765">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">765</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-04-15T17:52:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">スカートの下の膨れてるモノが気になって内股になってモジモジしてしまう。
 「次は上着よ。」
 ロリータ風のフリルブラウスが用意された。
@@ -500,11 +560,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 「ふふふ、そうね。」
 「これから取り調べをするんだから〜」
 その言葉で聖美子の身体が硬直した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#772">
-				<rdfs:label>772</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-04-18T22:16:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#772">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">772</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-04-18T22:16:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「あら、お人形さんになっちゃった。しかたないわね。こっちに連れてきて。机の前に座らせるのよ。」
 「しょーがねーな。」「等身大のお人形さん遊びみたいなんだから〜」
 美少女着ぐるみ婦警さんが二人で肩と腕を掴んで取り調べの机まで聖美子を歩かせる。
@@ -535,11 +599,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 どうやら見透かされているようだ。
 とにかく着せられた衣装が密着して全身が敏感になっていた。
 聖美子はますますうつむいてしまう。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#773">
-				<rdfs:label>773</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-04-18T22:17:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#773">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">773</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-04-18T22:17:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「はじめるわよ。名前は桜小路聖美子。15才。今年から高校１年生。筋金入りのお嬢様ね。」
 「え？…それって…」
 「聖美子さんは普段から食べ物の好き嫌いがあったそうね？」
@@ -570,11 +638,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 名前を言われた後で年齢と学年が間違ってると言おうとしたけど、言わなくて助かったのかもしれない。
 少しするとお尻と足に続いて下腹部に加わった違和感が再度現実に引き戻す。
 圧迫感が気になるけど動けないしどうしようもない。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#774">
-				<rdfs:label>774</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-04-18T22:18:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#774">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">774</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-04-18T22:18:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">勘弁してくれー！進一は叫びたかったが、聖美子は口をパクパクするだけだった。
 「よく聞きなさい。『私はお腹が空いたので食事を頼みました。私のために机に用意された丼をみたら見たくもないほど大嫌いな油揚げが乗っていたので一度も箸を付けずに机を払い退けました。勿論机を払うと丼が倒れ中の食べ物がこぼれて台無しになることはよくわかっていました。』」
 「よって○月□日△時◇分、丼物を正しく摂取せず不当に投棄した飲食物粗相法違反で現行犯逮捕、罪名は机毎食料倒損罪だな。」
@@ -604,11 +676,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 「着ぐるみは好きなのよね？」
 聖美子がコクリと頷く。
 「では、聖美子さんはどんな着ぐるみが好きなの？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#775">
-				<rdfs:label>775</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-04-18T22:19:56+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#775">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">775</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-04-18T22:19:56+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「あの、び…」
 「び？なに？」
 心拍が上がる。恥ずかしいけど腹をくくって答える。
@@ -639,11 +715,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 ぷしゅーーーーー！　っと今までより長めにガスが注入される。
 「な、なんで…どうしてなの！？」
 進一はパニックになっていたが、理不尽さが言葉となって聖美子の口をついて出た。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#776">
-				<rdfs:label>776</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-04-18T22:21:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#776">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">776</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-04-18T22:21:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「うふふ、嘘発見器なんて、う・そ・よ。」
 人差し指を立てて左右に振りながら嬉しそうにいう。
 「最後のはご褒美に大サービス。」
@@ -674,11 +754,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 手で肛門を押さえたいけど、椅子に固定されているので歯を食いしばって肛門を閉める。
 「うふふ、なんだか凄い形相よ？聖美子さん。折角の美少女が台無しだわ。」
 鏡を見てみる。悲壮な表情の聖美子が息を荒くしてこちらをみてる。何を訴えかけているのかは進一が一番理解している。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#777">
-				<rdfs:label>777</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-04-18T22:22:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#777">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">777</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-04-18T22:22:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「落ち着いて深呼吸してみるんだから〜」
 聖美子が大きく深呼吸をする。
 少し楽になった。でも、いつまで耐えられるか分からない。
@@ -709,11 +793,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 しかし、この着ぐるみは進一が夢にまで見た理想の着ぐるみだった。
 聖美子の拘束がすべて解かれて自由になる。
 今までの理不尽な仕打ちもすっかり吹っ飛んでしまった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#778">
-				<rdfs:label>778</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-04-18T22:23:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#778">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">778</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-04-18T22:23:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">今までの理不尽な仕打ちもすっかり吹っ飛んでしまった。
 目の前のカタログへの興味が下腹部の圧迫感を打ち負かした。
 両足をエアコンの風がくすぐる不安な感じも今はなんだか心地よく思える。
@@ -738,20 +826,28 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 「決まってるじゃない。最初のコレ使うわよ。」
 「そうこなくっちゃなんだから〜」
 「望みは最後までかなえてあげなくちゃ、ね。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#779">
-				<rdfs:label>779</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　" dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-04-18T22:31:12+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#779">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">779</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-04-18T22:31:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">毎度稚拙な表現しか出来なくて、こっちのほうが自虐的な羞恥プレイみたいになってますが(*´Д｀*)
 とりあえずひと段落つけることができました。
 伏線残ってますし、時間を置くと思うけど気が向いたら再開するかもです。
 こんなSSに付き合っていただいて有難うございました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#19">
-				<rdfs:label>19</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　 " dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-23T22:02:01+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#19">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">19</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-23T22:02:01+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">目が覚めた。ここはどこだろう？
 寝返ると安物のバネの音がする。
 簡素なベッドに寝かされているようだ。
@@ -782,11 +878,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 そのまま鏡に目をやり、我ながらなんて淫らな格好なのかしら…頭の中で思う。
 こんな姿…人には絶対見られたくないのに、さっきは３体もの美少女着ぐるみに見られてしまった。
 恥ずかしさがこみ上げてくると同時に、尚も膨れた股間がショーツ越しにタイツを押し広げようとする。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#20">
-				<rdfs:label>20</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　 " dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-23T22:03:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#20">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">20</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-23T22:03:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">もともと美少女着ぐるみに興味があった。
 着ぐるみで淫らな格好や行為をしている画像も見たことがある。
 中には股間が膨れた美少女着ぐるみや男根を生やした美少女着ぐるみもいた。
@@ -817,11 +917,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 「だめ、とまらない！　こんなことって！　あ、いやっ　んく、いい！」
 瞬く間に進一を強烈な刺激が襲い、普段ならまだ序の口という早さで一気に上り詰めてしまった。
 聖美子はさっきと違う細く甲高い悲鳴を上げると大きくのけぞり両足をつま先まで伸ばして硬直した後にベッドの上にその身体を横たえてまた動かなくなった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#21">
-				<rdfs:label>21</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　 " dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-23T22:05:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#21">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">21</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-23T22:05:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">暫くして再度進一は覚醒した。
 聖美子が目を開く。
 完全に時間の感覚が失われていた。
@@ -852,11 +956,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 重ね合わさった根元部分を捲るとその奥の窪みにはまっている金具が指に触れた。
 マスクの左端がファスナーや金具の上に被さって隠してしまい、閉じるとファスナーや金具が見えなくなる仕組みだ。
 マスクの開口部の端は極限まで薄く仕上げられており透明感があるため右側に重ねると張り付いてその境界は見た目にはほとんど判らなくなる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#22">
-				<rdfs:label>22</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　 " dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-23T22:06:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#22">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">22</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-23T22:06:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ウィッグを被るとまったくといっていいほど境目が分からない。
 また、金具を上げて閉じるのでウイッグを被ったままではマスクを脱ぐことができないというわけだ。
 慣れない手つきでファスナーを外しマスクを脱ぐとスーツを被った進一の頭が現れた。
@@ -887,11 +995,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 生命維持に支障をきたすような事態に陥り進一の脳がパニックを起こす。
 深呼吸をしようとしているため無意識に鼻の気道を閉じてしまっているのだが、パニックを起こした進一の脳はそんなことにも気づかない。
 息ができない！　可愛い格好の聖美子が髪を振り乱してのたうちまわる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#23">
-				<rdfs:label>23</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　 " dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-23T22:07:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#23">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">23</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-23T22:07:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">喉をかきむしって口をパクパクさせるが一向にそこから空気を取り込むことができない。
 鏡の聖美子の顔に恐怖が浮かぶ。このままでは死んでしてしまう。
 鏡の聖美子に向かって右腕を伸ばすが、同じようにもがいて手を伸ばすだけで助けてはくれない。
@@ -922,11 +1034,15 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 軽く聖美子が仰け反る。ベッドのバネが軋んで音をたてる。
 口を大きく開けたことでまた無意識に鼻を閉じてしまったようだ。
 口で深呼吸をしようとして軽いパニックを起こし全身が小さく反応するが、今度は落ち着いて鼻で呼吸をする。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#24">
-				<rdfs:label>24</rdfs:label>
-				<dcterms:creator foaf:nick="457　—　着ぐるみの囚人服　—　 " dcterms:identifier="sAEsqgy2Kg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-23T22:08:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#24">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">24</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">457　—　着ぐるみの囚人服　—　 </foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">sAEsqgy2Kg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-23T22:08:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">口で呼吸できないことが分かっていても、ふとしたことで鼻の気道を閉じて口で呼吸してしまうようだ。
 直ぐに落ち着きを取り戻すと、一旦引っ込めた舌を出して軽く握った右手で自分の頭を小突いてみせた。
 ちょっとドジっ娘なお嬢さんといった風情だ。
@@ -957,11 +1073,14 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 「こりゃ、すげーわな…」
 「さあ、迎えに行きましょうか。私たちの新商品を…」
 そういうと傍らのリモコンを持って立ち上がった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#28">
-				<rdfs:label>28</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-24T21:39:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#28">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">28</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-24T21:39:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">進一は自分の身に何が起こったのか理解できなかった。
 鏡の中、横たわった聖美子が股間と胸に手をやったまま動かない。
 いや、進一が動けなくなったのだ。
@@ -992,11 +1111,14 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 あの美人着ぐるみ婦警さんの容姿振る舞い言動からはとても想像できないふてぶてしい顔だ。
 聖美子がすすり泣きしながら軽く噴出す。
 進一がまたマスクを見てると三人が手拍子を打ち始めた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#29">
-				<rdfs:label>29</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-24T21:40:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#29">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">29</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-24T21:40:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">その後、意を決した進一が服を脱いでスーツを着始める。
 早送りで時間が短縮されているのであっという間に両足を穿き終わる。
 圧縮されていく様子が映像からもはっきりとわかる。
@@ -1027,11 +1149,14 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 『あの、その前に…　えっ！！なんで！？』
 突然、通常の再生になって聖美子の声が再生される。
 三体が進一を取り囲んで騒いでいる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#30">
-				<rdfs:label>30</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-24T21:41:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#30">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">30</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-24T21:41:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">スーツを着た進一が初めて喋ったら女の子の声になっていたのだ。
 『あ、あの…』
 『なあに？』
@@ -1062,11 +1187,14 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 客観的に映像を見ていると張子を股間に咥えたただのマネキンのように見えてくる。
 そしてあのマスクが被せられると自分を示す記号は何一つなくなってしまうのだ。
 しかし、普通のマネキンには手錠などかけられていないだろう。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#31">
-				<rdfs:label>31</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-24T21:43:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#31">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">31</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-24T21:43:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">その手錠が生々しく映る。
 無抵抗のままマスクが被せられる。
 この世から自分が居なくなる…
@@ -1097,7 +1225,14 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 
 書き溜めた分を掲載しました。
 又暫く間が空くと思います。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-17T23:47:51+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-05-24T21:43:45+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">25340</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">41</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

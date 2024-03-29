@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:09:01+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:09:01+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">汗と熱気とピンクの香り</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-01-23T00:03+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-01-25T18:20+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">7826</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#152">
-				<rdfs:label>152</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-23T00:03+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#152">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">152</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-23T00:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">５月５日。こどもの日。
 それは、ゴールデンウィークの最終日でもあり、キャラクターショーの開催数もダントツに多い日でもある。
 その日の僕の現場は、某ショッピングセンターでの戦隊ヒーローショーのＰＡ。
@@ -48,11 +32,14 @@
 もう一人は、普通というか何というか、僕のタイプではなかった。
 彼女がピンクに入るのか。ふーん。
 メンバーを全員乗せ、僕は車をスタートさせた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#153">
-				<rdfs:label>153</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-23T00:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#153">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">153</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-23T00:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">今回のメンバーは外注だが、ＭＣを含めた８人は全て同じ事務所の人である。
 なので、車の中はで８人は大きく盛り上がっている。
 と思ったが、どうやら一人ポツンとしている。
@@ -69,11 +56,14 @@
 今日のステージは正面入口。
 お昼になると、日差しをモロに受けそうな場所だ。
 キャストの人たちは大変だな。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#154">
-				<rdfs:label>154</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-23T00:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#154">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">154</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-23T00:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">担当さんとの打ち合わせのため、僕は美絵ちゃんを呼んだ。
 きょとんとする美絵ちゃん。
 すると、もう一人の女の子が割って入ってきた。
@@ -90,11 +80,14 @@
 「ううん。アクションどころか、着ぐるみ今日が初めてなんです」
 「初めてなんだ。期待してるよ」
 僕は、ちょっと意地悪っぽく言ってみた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#155">
-				<rdfs:label>155</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-23T00:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#155">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">155</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-23T00:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「じゃあ、そろそろ準備お願いします」
 時計を見た僕がそう言うと、メンバーは衣装と小道具を持って移動を始めた。
 店内から一歩外に出た瞬間、熱気に包まれる。
@@ -112,11 +105,14 @@
 「大丈夫でーす」
 美絵ちゃんが衣装の袖に腕を通す。
 徐々にピンクのヒロインに変身していく。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#156">
-				<rdfs:label>156</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-23T00:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#156">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">156</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-23T00:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ここぞとばかりに、僕は美絵ちゃんの後ろに行く。
 「じゃあ、後ろ上げますよ」
 「お願いしまーす」
@@ -133,11 +129,14 @@
 本当は、携帯のカメラで写真を撮りたいところだったが、そんなこともできないので、じっと脳裏に焼き付けた。
 「それじゃあ、オンタイムでお願いしまーす」
 そう言って僕は、テントを出た。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#157">
-				<rdfs:label>157</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-23T03:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#157">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">157</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-23T03:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そしてオンタイム。
 ＭＣのお姉さんの前説が終わったところで、怪音が鳴り響く。
 「人間ども、よく聞け、今からここは我々○○のものだ！　ものども、かかれ！」
@@ -164,11 +163,14 @@
 「私たちは他の場所のパトロールに行ってくるけど…」
 「何かあったら、すぐに俺たちを呼んでくれよな！」
 ３人のヒーローが、颯爽とステージからはける。ここで前半終了だ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#158">
-				<rdfs:label>158</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-23T03:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#158">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">158</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-23T03:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そして、ＭＣと悪ボスによる「お遊び」が始まる。
 今回は、オーソドックスなクイズ大会である。
 その間、隠れではしばしの休憩。
@@ -189,11 +191,14 @@
 ヒーロー５人の登場だ。名乗りを決める。否が応でも盛り上がる。
 美絵ちゃんピンクも、控えで何度も練習していたポーズが決まる。
 そして、５人揃ったヒーロー対悪の戦いが始まった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#159">
-				<rdfs:label>159</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-23T03:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#159">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">159</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-23T03:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">戦いが始まりしばらくすると、悪ボスが逃げる。それを追うレッド。
 残る４人が怪人と戦う。
 後半は疲れもたまっているはず。
@@ -216,11 +221,14 @@
 しかし、そのとき、会場から失笑がおこった。
 段取り的には、子供たちの声援を受けた５人が復活、剣を高々と掲げるシーンである。
 そこで何故笑いが？</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#160">
-				<rdfs:label>160</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-23T03:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#160">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">160</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-23T03:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">原因はすぐにわかった。
 美絵ちゃんピンクだ。
 本来、剣はベルトの左腰の鞘に収められている。
@@ -233,11 +241,14 @@
 面の中で焦っている表情の美絵ちゃんが見えるようだ。
 完パケのショーテープは、無常にも物語は進んでいく。
 ５人が高々と剣を掲げるシーンで、美絵ちゃんは股間から剣をブラブラさせていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#161">
-				<rdfs:label>161</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-23T03:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#161">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">161</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-23T03:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">それでもショーテープは進んでいく。
 復活した５人が、怪人に最終決戦を挑む。
 格好よく決めなくてはいけないところだが、美絵ちゃんはさっきの一件から、パニックになっているようだった。
@@ -260,11 +271,14 @@
 僕は、チーフらしい毅然とした態度で言って、テントを出た。
 だいたい列ができたところで、テントの中を確認。
 スタンバイができたところで握手会の開始だ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#162">
-				<rdfs:label>162</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-23T03:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#162">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">162</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-23T03:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ＭＣのお姉さんのコールとともに、ヒーロー５人が登場。
 スタッフは、悪ボス役と怪人役のメンバーと僕だ。
 握手会のスタッフの仕事は、とにかく列を止めずに流すことだ。
@@ -286,11 +300,14 @@
 手触りの良いツルツルの衣装を通して伝わってくる美絵ちゃんの体のあったかさ。
 ちょっとよろめいただけの美絵ちゃんは、すぐに「大丈夫」とばかりに拳を握った。
 けなげな姿だ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#163">
-				<rdfs:label>163</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-23T03:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#163">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">163</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-23T03:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">怒涛の１ステが終わり、今は皆、エアコンのきいた控え室にいる。
 冷たいドリンクを飲んで、ひと時の休憩。
 衣装と小道具は、控え室に持って上がる。
@@ -313,11 +330,14 @@
 あそこは広くて、しかもきれいだ。
 誰にもばれる心配がなく、美絵ちゃんの着ていたピンクの衣装が着れる！
 僕は帰りが待ち遠しくてたまらなかった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#166">
-				<rdfs:label>166</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-24T00:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#166">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">166</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-24T00:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">２ステ目が始まる。
 ベルトをしっかり締めた美絵ちゃんピンクは、剣を股間でブラブラさせることもなく、ショーは進んだ。
 でも、美絵ちゃんピンクがパニクった１ステのが、見ていて面白かったな。
@@ -344,11 +364,14 @@
 トイレで着るなんて寂しすぎる！
 お客さんの前に立ちたい！
 美絵ちゃんの脱ぎたてのコスチュームを着て！</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#184">
-				<rdfs:label>184</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-25T01:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#184">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">184</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-25T01:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「脱いで！」
 いきなりそう言われた美絵ちゃんはきょとんとしていた。
 「握手会、僕が着て出るから」
@@ -371,11 +394,14 @@
 そして、美絵ちゃん脱ぎたてのピンクのスーツに足を通す。
 美絵ちゃんのぬくもりが伝わってくる。
 股間が熱くなってくる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#185">
-				<rdfs:label>185</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-25T01:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#185">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">185</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-25T01:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">スーツを下半身まではいたところで、足首のファスナーを上げ、美絵ちゃんの感触を確かめる。
 ブーツをはく。
 下面をつける。
@@ -398,11 +424,14 @@
 そして、ついさっきまでこのコスチュームを着ていた美絵ちゃんが、Ｔシャツにスパッツ姿の美絵ちゃんが、僕の目の前にいる。
 興奮を抑えろというのが無理な話だ。
 ＭＣのお姉さんの呼びかけとともに、待望の握手会が始まった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#195">
-				<rdfs:label>195</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-25T18:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#195">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">195</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-25T18:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">勢いよくテントを飛び出すと、明るい空の下に大勢のお客さんたち。
 美絵ちゃんのスーツを着た僕の顔は、相当にやけていたに違いない。
 でも、周りからは、可憐なピンクのヒロインに見られている。
@@ -423,11 +452,14 @@
 ＭＣのお姉さんが元気良く叫ぶ。
 「○○レンジャー、今日はどうもありがとう！　まったねー！」
 テントに戻った僕は、怪しげな影に遭遇した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#196">
-				<rdfs:label>196</rdfs:label>
-				<dcterms:creator foaf:nick="新参小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-25T18:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#196">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">196</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">新参小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-25T18:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">中には、美絵ちゃん一人しかいないはずなのに。
 人影は、事務所の社員のＹさんだった。
 どうしてここに？
@@ -450,7 +482,14 @@
 僕は、どんな顔を皆にさらけ出せばいいのか、わからなかった。
 
 おわり</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-23T00:03+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-25T18:20+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">7826</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">17</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

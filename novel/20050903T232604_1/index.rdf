@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:03:05+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:03:05+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">カレンちゃんとの秘事 その2</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2005-09-03T23:26:04+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2005-09-20T01:32:03+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">7181</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#139">
-				<rdfs:label>139</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T23:26:04+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#139">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">139</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T23:26:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">Ｂさんとのことから２ヶ月ほどたった、以前あのときの記憶は鮮明に残っている、俺は自分で着ぐるみ
 が欲しくなった、しかし、現実に予算はン十万かかるのも事実、しかし、やってみたい、あれから毎日の
 ようにＢさんのＨＰのカレンを穴があくほど眺めていた。
@@ -61,11 +45,14 @@
 　「え、大丈夫なんですか？」、大丈夫なわけないけど一応建前で聞いてみる「ええ、で、こんなんじゃとても
 カレンになれないから、今度のオフ会はＢさん、あなたがカレンになってください。」少し、予想はついて
 いたのだが、現実のことになると興奮が冷めない。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#140">
-				<rdfs:label>140</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T23:28:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#140">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">140</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T23:28:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「ってことは、俺用にも用意してくれてたっことですか？」「ええ、まあ、そんなとこでしょうか、で
 今から、また、僕の家でその衣装の試着して最終的な調整をしたいんですが、お時間よろしいでしょうか？」
 と聞いてくる、「もう、全然ＯＫですよ。」
@@ -101,11 +88,14 @@
  「うわー、思った以上にいい出来じゃないか、自分の才能が怖い」とＢさんがゆう、たしかに、それだけいいものができているのだ
 からここはおとなしくＢさんの才能を認めるしかないので、かわいく、うんうん、とゆうような仕草をしてみる、すると、急にＢさんが
 カレンを抱きしめる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#141">
-				<rdfs:label>141</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T23:45:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#141">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">141</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T23:45:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　そのままベットまでつれていかれて、しばらく抱擁していたが、さすがにタイツや下着
 のしめつけが限界に達していたため、Ｂさんにジェスチャーで限界と知らせると、すぐに
 それをわかってくれた。
@@ -119,11 +109,14 @@
 消えていった、この瞬間ほど新鮮な酸素が気持ちのいいものだとは思わなかった。
 　
 　　　to be continue・・・</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#147">
-				<rdfs:label>147</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-09T07:37:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#147">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">147</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-09T07:37:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja"> 「はい、お疲れ様でした、あとは一人でもできると思うから、僕は隣の部屋にいるよ
 着替え終わったら、勝手にシャワー使ってもらっていいよ、終わったら、隣の部屋で今度の
 オフ会の詳しい話をするよ。」と言い残してＢさんは部屋をさった。
@@ -164,11 +157,14 @@
 　「はずすって、じゃあ、Ｂさん腕は完全なんですか？」「いえいえ、まだ若干痛みは
 ありますし、で、カレンがみんなを翻弄してる最中に僕がみんなの前にでてきたら、
 どう反応するか、楽しみじゃないですか？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#149">
-				<rdfs:label>149</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-09T07:51:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#149">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">149</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-09T07:51:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja"> 　そう、考えるだけでも、今の自分にはかなり興奮である、日曜、カレンになりすまし
 てみんなの前にでていって、窮屈なカレンに閉じ込められて、でも、カレンを演じていなけ
 ればいけない、そんなことが現実に起こるのだ。
@@ -188,11 +184,14 @@
 　「え？ずっとですか？」「はい、ずっとです、いやなんですか？」「そんなことないです
 けど、さすがにずっとは・・・。」「まあ、途中、休憩あとかあるし、衣装をお披露目した
 後に各着ぐるみさんとのコラボ写真撮影なんかもあるんで、その辺もお願いします。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#154">
-				<rdfs:label>154</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-13T11:35:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#154">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">154</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-13T11:35:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　「そうですか、写真撮影とかもあるんですか、まあ、オフ会とかだったら、あっても
 おかしくないですよね。」一般的ば着ぐるみ系ＨＰはやはり定期オフなどでの写真撮影
 は当然のごとく行われている。
@@ -249,21 +248,27 @@
 　Ｔシャツとスパッツの美香が着ぐぐるみからでてきた、汗で透けて、下着が見える
 「ばか、なにニヤニヤしながら見てんだよ、あっちで待ってるよ。」追い出されてしまった
 「わかった、ごめん。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#155">
-				<rdfs:label>155</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-13T11:41:59+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#155">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">155</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-13T11:41:59+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">  あんまりつっこんだところまでは内臓女性ネタは書きません、一部の方に納得して
 いだけるように緊急でつくりました。
 　自分の見解ですが、内臓女性は視的なものでの興奮が多いはずです、そこにいろいろな
 フェチズムを感じている、文章でそれを表現するのは難しい、自分にそれを文章で表現する
 文才がない、できて今のが精一杯です。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#162">
-				<rdfs:label>162</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-15T06:47:16+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#162">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">162</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-15T06:47:16+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　土曜日
 
 　Ｂさんから、連絡があり、日曜の前日、つまり土曜日の夜にはＢさん宅に乗り込み
@@ -289,18 +294,24 @@
 　部屋に入ると、白いサテンドレスがトルソーのかかっている、「おお、これがそうです
 か、す、すごい、これを自分が・・・・。」思わず生唾をのみこんだ、「そうですよ
 僕がこの日のために作った最高傑作です。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#181">
-				<rdfs:label>181</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-19T13:09:57+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#181">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">181</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-19T13:09:57+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">オレ、「Aさん・Bさん」じゃ萌えなれないんだが。
 それらしい名前入れて欲しいよな。（次回作？から。ｗ）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#183">
-				<rdfs:label>183</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-20T01:06:18+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#183">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">183</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-20T01:06:18+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　読者の方のご要望にお答えします、Ａさんを秋山、Ｂさんを馬場さんにします
 
 　最終話
@@ -316,11 +327,14 @@
 　「今夜は前夜祭です、みんなにみせるその前に、僕だけのカレンを見たいんです、この
 純白のドレスを着た僕だけのカレンを、さ、お願いします。」そのまま、俺はカレンに
 なることになった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#184">
-				<rdfs:label>184</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-20T01:17:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#184">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">184</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-20T01:17:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　カレンはベストプロポーションだ、実に女性らしいスタイルであるがゆえに、内臓
 の人間にも外観を損なわないような下着などの着用を義務づけされる、幾重にもほどこ
 された矯正下着、そしてタイツを全身にまとう。
@@ -340,11 +354,14 @@
 　最後の仕上げはやはりお面だろう、髪もちゃんと整髪されたお面を両手で持ち上げる
 と同時に自分の頭にはめ込んでいく、小さいお面で前回もはめるのにてこずったのだ
 お面などは壊れやすいものなので慎重な作業だ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#185">
-				<rdfs:label>185</rdfs:label>
-				<dcterms:creator foaf:nick="ある着ぐるみ愛好家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-20T01:32:03+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#185">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">185</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ある着ぐるみ愛好家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-20T01:32:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　今回のドレスは腕は二の腕までの袖である、肘から先はこれまた白いサテンの手袋を
 はめることになっている、馬場さんの協力で手袋をはめる、鏡の前に立たされて、そこ
 にうつっているわが身の姿にみとれていまうくらいかわいい女の子が立っていた。
@@ -370,7 +387,14 @@
 に漏れてきた。
 
 　終わり</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-03T23:26:04+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-09-20T01:32:03+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">7181</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">12</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

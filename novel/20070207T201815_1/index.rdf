@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:03:42+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:03:42+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">ウララ</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-02-07T20:18:15+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-02-12T01:29:31+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">4563</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#706">
-				<rdfs:label>706</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-02-07T20:18:15+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#706">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">706</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-02-07T20:18:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">書いて見ますた。
 
 ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
@@ -87,11 +71,14 @@
 自分の足や体が、だんだん覆われていく。
 店長が私でもギリギリと言っていただけあって、パーツの締め付けがキツイ。
 プラスチックだから、中はものすごく蒸れそうだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#707">
-				<rdfs:label>707</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-02-07T20:19:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#707">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">707</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-02-07T20:19:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">腕の部品をつける段になって私はあることに気が付いた。
 『これ…、指先がわかれていないんですけど…』
 『あぁ、これね』
@@ -143,11 +130,14 @@
 バタッ
 
 そう言って店長は部屋から出て行った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#717">
-				<rdfs:label>717</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-02-09T03:10:14+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#717">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">717</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-02-09T03:10:14+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ハァ、ハァ、ハァ………
 
 一人部屋に取り残された、私。
@@ -175,11 +165,14 @@
 出て最初はびっくりしたけど、だいぶ慣れてきた。
 手を振ると子供達も返してくれるのがかわいい。
 喜んでくれているみたいだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#718">
-				<rdfs:label>718</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-02-09T03:11:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#718">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">718</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-02-09T03:11:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">……暑い。
 少しサイズの小さいピチピチのタイツだけでも相当蒸れちゃう。
 しかも、設定がアンドロイドだから、肌が透けないように厚手だし。
@@ -196,11 +189,14 @@
 早速続きを書いてみました。
 今度はちゃんと表示されるように改行しました。
 ご声援ありがとうございます。励みになります。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#723">
-				<rdfs:label>723</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-02-12T01:22:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#723">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">723</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-02-12T01:22:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">店頭に立ってどれくらい経ったか分からなくなりかけていたころ、アクシデントは起きた。
 
 ドカッ！！
@@ -228,11 +224,14 @@
 叫んでみたけど、面とヘルメットにさえぎられて声は届かないらしい。
 パニックになって、足をばたつかせる。
 汗でグチョグチョになったプラスチックの体の中で、私は悶えていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#724">
-				<rdfs:label>724</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-02-12T01:24:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#724">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">724</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-02-12T01:24:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">『大丈夫？？？！！！』
 その声とともに、私は仰向けにされ、抱きかかえられた。
 声の主は店長だった。
@@ -261,11 +260,14 @@
 所々に汗ジミができている。見るからににおいそうだ。
 また店長に背中のチャックを開けてもらい、全身タイツを脱ぐ。
 ついに、私は“ウララ”から開放された。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#725">
-				<rdfs:label>725</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-02-12T01:25:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#725">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">725</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-02-12T01:25:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 『店長〜こんなにきつい仕事だなんて聞いていませんよ〜。
 苦しいし、蒸れるし、汗ダクダク、前は見えないし。。。。。』
@@ -283,11 +285,14 @@
 でも、もう着ることもない。
 
 少しの名残惜しさを感じながら、私は部屋を出た。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#726">
-				<rdfs:label>726</rdfs:label>
-				<dcterms:creator foaf:nick="BGDC"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-02-12T01:29:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#726">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">726</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">BGDC</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-02-12T01:29:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ほい、一応『ウララ』完成です。
 読んでくださった皆様ありがとうございました。
 また機会があれば、書こうかと思っています。
@@ -297,7 +302,14 @@
 あと、挿絵を描いてくださる方いらっしゃいませんか？
 皆さんがどんなイメージで読んでいたのかすごく気になるので。
 できたらでいいのですが、よろしくお願いします〜☆</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-02-07T20:18:15+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-02-12T01:29:31+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">4563</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">8</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

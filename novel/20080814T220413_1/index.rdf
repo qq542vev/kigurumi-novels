@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:52:57+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-08T23:52:57+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">Dollersシリーズ３　“sadistic garden”</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-08-14T22:04:13+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-08-14T22:18:33+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">5021</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#201">
-				<rdfs:label>201</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-08-14T22:04:13+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#201">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">201</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-08-14T22:04:13+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">Dollersシリーズ３　“sadistic garden”
 着ぐるみ達が癒してくれる不思議な店、”Dollers”
 今宵も傷つき血を流した心をもつ人々が癒しを求めやってくる。
@@ -41,11 +26,15 @@
 「やあ、おはよう。担当のタジマです。えっと名前は・・・」
 「アンナです。今日はよろしくお願いします」
 アンナの目の前には身長２メートルはあろうかという大男が立っていた。大きな図体に似合わず温厚そうな顔だ。この「タジマ」という中年、スポーツインスタラクターとして働いている。今日も仕事帰りにDollersに寄ったらしく、ジャージを着ていて、なにやら大きなかばんを肩からかけていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#202">
-				<rdfs:label>202</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-08-14T22:07:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#202">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">202</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-08-14T22:07:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「よし、早速だが、君はどうなりたいんだい？」
 「ええと、もう少しおなか周りを細くして、スタイル良くなりたいんです」
 「よし、じゃあ僕のオリジナルのトレーニング法を教えてあげるよ」
@@ -74,11 +63,15 @@
 常に襲う刺激に腰を引かせながらも、アンナはやっと立ち上がった。
 「じゃあ、軽くエアロビでもやってみようか」
 アンナは笑顔を曇らせずにうなずいた。いや曇らせることができなかった。アンナは表情を変える権利を持っていなかったのだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#203">
-				<rdfs:label>203</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-08-14T22:10:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#203">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">203</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-08-14T22:10:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">・・・・・２０分後
 「はいっ、今度は横にステップしてみよう。ワン、ツー、ワン、ツー」
 「わん、ひっ、つー。わん、あっ、つー」
@@ -92,11 +85,15 @@
 「駄目だよ。ある程度長い時間続けなきゃ。頑張ろ、な」
 タジマはにっこりと笑ってアンナの顔を覗き込んだ。いや、にやりと笑ったのかもしれない。
 「・・・はい」アンナは伏し目がちに、消えそうな声で返事をした。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#204">
-				<rdfs:label>204</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-08-14T22:11:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#204">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">204</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-08-14T22:11:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「今度は、これを使うんだ」
 タジマは近くにある鉄棒を指差した。高さは約２メートル位ある。
 「これにぶら下がるんだよ。簡単でしょ」
@@ -117,11 +114,15 @@
 「あ゛・・・いやぁ」
 アンナは身を硬くして刺激に耐えていた。派手に取り乱せばかえって被害を大きくしてしまうからだ。手が封じられ、足も地に着かない上、前の穴への電気攻めが続いている今、アンナにできることは体じゅうを硬くして気を強く持って、それこそ人形のように前後の穴への執拗な責めに耐えるしかなかった。そうこうしている間に重りはどんどん追加されていく。
 アンナの精神と肉体は確実に限界へと近づいていった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#205">
-				<rdfs:label>205</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-08-14T22:13:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#205">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">205</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-08-14T22:13:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「・・・さあ、これでちょうど２キロ目だ」
 「お願い・・・お願いだから！もうやめてぇ！」
 「ふふふ、この重りをつけるかつけないかを決めるのは僕だよ。君じゃない」
@@ -132,11 +133,15 @@
 タジマは接着剤のはがし液を取り出し、アンナの手に塗って鉄棒からはがしていく。やっとはがし終わると、アンナは床にぺたんと座って動かなくなった。アンナは頭の中が真っ白になってしまっているらしく、ただただうつむき、惚けていた。
 「君は体を鍛える前に精神を鍛える必要がありそうだな」
 タジマはアンナの前に仁王立ちすると言葉を続けた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#206">
-				<rdfs:label>206</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-08-14T22:14:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#206">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">206</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-08-14T22:14:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">タジマは左手でアンナの髪の毛をわしづかみにし、無理やり上を向かせた。内心、気弱だと思っていた自分から、こんな激しい言葉が出たことに驚きながら。
 「人が真剣に話しているのに、ヘラヘラ笑いやがって・・・。そんなに俺の話が可笑しいか！」
 「コーチ、私はお人形だから表情は変えられないの。私は真面目にコーチのお話を聞いて・・・」
@@ -154,11 +159,15 @@
 アンナの頭の中で花火がはじけた。その音は理性がはじけた音、これまでの自分が壊れてしまった音。
 「・・・・・・コーチ、私を、もっと鍛えてください」
 アンナは小さくつぶやいた。その声はまるで誰かに言わされているかのようにたどたどしかった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#207">
-				<rdfs:label>207</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-08-14T22:16:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#207">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">207</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-08-14T22:16:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「ぐふふふ、正直でよろしい。こっちに君にぴったりのマシンがあるんだよ」
 タジマの指した先には、いわゆる乗馬マシンがあった。座席にまたがってバランスをとる健康器具だ。ただ、目の前の器具は座席が三角屋根のごとく尖がっていた。
 「さあ、これにまたがるんだ」
@@ -170,11 +179,15 @@
 トレーニングルームにはタジマの気味悪い高笑いとアンナのあえぎ声が延々と響いた。それこそ、世界が終わるまで続くかと思うくらい・・・。
 
 そこはまさに、サディストの庭。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#208">
-				<rdfs:label>208</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-08-14T22:18:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#208">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">208</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-08-14T22:18:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">店を後にしたタジマはついさっきまでの自分の行動に戸惑いを感じていた。自分の中にかのような感情がひそんでいたとは、思いもしなかった。・・・いや、目を背けていただけなのかも知れない。確かに自分の中で大きな獣が爪を研いでいたが、自分は良い人であり続けようとしてそれを押さえ込んできた。そうなのかもしれない。しかし、何でかばんの中にあんなものが入っていたのだろう・・・？
 
 薄暗いトレーニングルームには、アンナが体じゅう白濁液にまみれ鉄の鎖でぐるぐる巻きにされて横たわっていた。
@@ -185,7 +198,14 @@ Dollers待合室ではメイドさんが読書をしながら１人でつぶや�
 （人間誰しも善意と悪意を両方持っている。あの人の心は悪意を忌み嫌って押さえ込んでいたからバランスを崩したのね。あのまま放っておいたら大変なことになっていたわ。あの人は優しいから。私達は人の心の最も奥深くに触れることができる存在。アンナ、お疲れ様。あなたは私の指示どおり、あの人のガス抜きをしてくれた。そして恨まないでちょうだい。これがあなたの望んだ「不老不死の法」を施してあげた代償なのだから。あなたにはここで私と一緒に、永遠に人の心に寄り添ってもらうわ。ヨ・シ・エさん）
 アンナが「人間」だった頃の名を口に出すと、メイドさんは椅子から立ち上がって、アンナを助けに向かった。
 ＜終わり＞</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-08-14T22:04:13+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-08-14T22:18:33+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">5021</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">8</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

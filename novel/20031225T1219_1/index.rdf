@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-12T01:10:52+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-12T01:10:52+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">第１弾　「美貴ちゃんの着ぐるみデビュー編」</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2003-12-25T12:19+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-01-16T12:20+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">14223</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#49">
-				<rdfs:label>49</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-25T12:19+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#49">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">49</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-25T12:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">私の名前は「美貴」。今年の春、高校生になったピッチピチの１６歳。
 友達の「あや」に誘われてアルバイトをすることになりました。
 元々、あやがやっていたバイトで人手不足ということで頼まれたのが最初でした。
@@ -54,11 +38,14 @@
 私が着ているときはあやが付き添い、あやが着ているときは私が付き添いというような
 感じで常に動いているのでかなりツラそうです。
 タイム・スケジュール的には４５分店頭にいて、１５分で着替え＆交代と言うような感じです。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#50">
-				<rdfs:label>50</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-25T12:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#50">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">50</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-25T12:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">部屋の片隅に置いてあるダンボール箱を開けると中に着ぐるみが入っていました。
 着ぐるみは頭部、胴体部＆手（羽）、靴に分かれていて脚は部分はタイツを履くことになっているようです。
 （テーブルの上に赤と黄色のタイツが１足ずつ置いてありました）
@@ -91,11 +78,14 @@
 目の部分がメッシュになってるとはいえ、かなり視界は悪そうです。
 正面はどうにか見えるようですが、足元はほとんど見えないようでちょっとした段差もつまづきそうです。
 私は手をつなぎ誘導して店頭まで行きました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#51">
-				<rdfs:label>51</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-25T13:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#51">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">51</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-25T13:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">いよいよ、開店。あやはマスコットにみごとになりきりビラを配り、チビッコと握手をしたり
 遊んだりしています。私はあやのそばに立ちながら動きや仕草を観察しつつ、チビツコがなぐったり
 転んだりしないように注意していました。あっという間に４５分が経過し、あや着ぐるみに小声で
@@ -119,11 +109,14 @@
 （もう、私であって私じゃないんだぁ・・・）覚悟を決めて店頭に向かいます。
 周りの音はかなり聞こえます。しかし、視界はホント正面しか見えません。呼吸用の穴も開いているんですが
 くちばし部分が邪魔してかなり息苦しいです。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#52">
-				<rdfs:label>52</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-25T14:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#52">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">52</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-25T14:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「大丈夫？」あやが声をかけます。
 「苦しい〜」「暑いよ〜」「頭が重たいよ〜」店頭に向かう通路であやに訴えました。
 「がんばってねぇ。でも、外にでたらしゃべっちゃダメだよ(笑」
@@ -149,11 +142,14 @@
 扇風機の風を浴びながら答える。タイツは履いたままのほうがいいらしい。
 一度脱ぐと次のときに履きづらくなるらしいので。
 そんなこんなで計３回づつ交代で着ぐるんでいよいよ最後の出番になった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#54">
-				<rdfs:label>54</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-26T14:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#54">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">54</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-26T14:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">時間帯は夕方で一番お客様の増える時間帯です。
 しっかりとお店を盛り上げるためにもガンバラなきゃです。
 あやからバトンタッチされ、着ぐるみます。
@@ -191,11 +187,14 @@
 頭部のアゴ紐が外せないんです。扇風機を全開にしてもタイツ脚の部分が多少風を感じる程度です。
 「あやー、早くーーーー！」
 ガチャ。控え室の扉が開いて誰か入ってきました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#61">
-				<rdfs:label>61</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-28T12:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#61">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">61</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-28T12:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">入ってきたのはあやだった。
 
 「ゴメン、ゴメン。明日の予定の話、急ぎって言うんだもん。」
@@ -212,11 +211,14 @@
 頭に巻いていたタオルも髪の毛もビショ濡れ。タオルなんて絞れるぐらいです。
 顔もサウナから出てきたかのように頬が真っ赤です。Ｔシャツ＆タイツ姿でイスに座り込むと
 あやが冷えたジュースとタオルをくれた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#62">
-				<rdfs:label>62</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-28T12:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#62">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">62</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-28T12:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「でも、どうだった？はじめて着ぐるみ着た感想は？」
 「う〜ん、大変だったけどスゴイ楽しかった。最初は結構はずかしかったけど
 だんだん慣れてきたらなんか自分じゃないみたいな感じになってきたよ(笑)」
@@ -229,11 +231,14 @@
 いるらしいからねぇ」
 「へぇ、そんなことする子いるんだぁ。ませたチビッコだね(笑)」
 「お店の担当の人もかなり宣伝効果バッチリみたいで喜んでたよ。明日もガンバろうね」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#63">
-				<rdfs:label>63</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-28T12:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#63">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">63</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-28T12:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「脚スリスリされたりしたら殴っちゃおうかなぁー(笑)」
 「ダメだよー、殴っちゃ(笑)。あたしが注意してあげるから。でも、実はスリスリされて気持ちよかったりして(笑)」
 「・・・そ、そ、そんなことないよー(汗)」
@@ -258,11 +263,14 @@
 明日はバイト２日目。今日以上にガンバるつもりです。
 
 でも、まさか明日あんなことが起こるなんて・・・</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#64">
-				<rdfs:label>64</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-28T13:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#64">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">64</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-28T13:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">【外伝】
 
 ここは、閉店後のスーパーのスタッフ専用通路。
@@ -280,26 +288,35 @@
 テーブルの上には扇風機の風で乾かしていた着ぐるみ一式と少女フタリが履いていたタイツがたたんで
 おいてあります。男はゆっくりとイスから立ち上がるとＹシャツのボタンをはずし、シャツを脱ぎました。
 そしてベルトを外しズボンを脱ぎ、靴下を脱ぎパンツ１枚の姿になりました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#65">
-				<rdfs:label>65</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-28T20:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#65">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">65</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-28T20:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">先が読めてきたから、こういうのはすぐに続けた方がいいよ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#67">
-				<rdfs:label>67</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-29T12:14+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#67">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">67</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-29T12:14+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">あっ、先が読めちゃいましたかぁ・・・^_^;
 んでは、【外伝】の方はヤメにします。
 
 本編の方もあまり反応が無いみたいなので、もしかして需要が無いってこと・・・？</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#72">
-				<rdfs:label>72</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-03T10:53+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#72">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">72</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-03T10:53+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「え〜、ウソー」
 
 バイト二日目の朝、あやから電話があった。
@@ -320,11 +337,14 @@
 着替えをバッグに詰めて、家を出てスーパーに向かった。
 
 スーパー裏の従業員入口から中に入ると通路に○田さんがいた。困った様子で携帯電話で話していた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#73">
-				<rdfs:label>73</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-03T10:54+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#73">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">73</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-03T10:54+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「そうですかぁ、無理ですか・・・。分かりました、どうにかしてみます。」ピッ。話が終わった。
 「あっ、美貴ちゃん。あやちゃんから連絡あった？」
 「はい、朝電話がありました。」
@@ -347,11 +367,14 @@
 「臭いなんかしませんよー、ピチピチの乙女の香りなんだからー(笑)」
 
 急いで準備に取り掛かる。シャツとジーンズを脱ぐ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#74">
-				<rdfs:label>74</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-03T10:55+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#74">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">74</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-03T10:55+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">Ｔシャツとレオタ＆スパッツは家から着てきているので着替えは楽だが男性の前なので少し恥ずかしかった。
 テーブルの上のタイツを手にとる。昨日は赤色だったので今日は黄色にすることにした。
 靴下を脱ぎ、タイツを履く。
@@ -367,11 +390,14 @@
 「なんですか、これ？」
 
 渡されたのはパーカーの肩から上だけの部分のような伸縮性のある白い布だった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#75">
-				<rdfs:label>75</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-03T10:56+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#75">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">75</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-03T10:56+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「面下って言うのかなぁ。着ぐるみ着るときに髪の毛が邪魔になったりしないようするのに付けたりするんだよ」
 「へぇー、あぁ、モジモジ君の肩から上みたいですね(笑)」
 「頭からスッポリかぶって前髪を中に入れてね。それで、わきの下にゴムを通すようにしてね。」
@@ -395,11 +421,14 @@
 
 頭部がかぶされ、アゴ紐が締められます。メッシュ状になっている目の部分から○田さんの顔が見えます。
 ハァー、フゥー。自分の呼吸音が頭部内部に響きます。頭部を被ったとたん、汗が出てきます。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#76">
-				<rdfs:label>76</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-03T10:57+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#76">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">76</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-03T10:57+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「いいかい？ＯＫならそろそろ行こうかぁ」
 「はい、ＯＫでーす」こもった声
 「あはは、ダメじゃん。しゃべったら(笑)」
@@ -413,11 +442,14 @@
 
 掛け声と同時にたくさんのチビッコに囲まれてしまいました。
 握手したり、頭をなでてあげたり、一緒に写真を撮ったりしました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#86">
-				<rdfs:label>86</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-09T11:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#86">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">86</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-09T11:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">（ふぅー、暑い〜。あや、早く来ないかなぁ・・・）
 
 本日１回目と言うこともあり、体力的には多少ガンバれそうでしたが上昇してきた気温と子供たちの熱気で
@@ -439,11 +471,14 @@
 チビッコが多少まばらになったとき○田さんが私の手を引いて裏口まで誘導してくれました。
 裏口からスタッフ通路に入るとイスが置いてあります。そこに座らせてくれました。
 アゴ紐をはずしてくれて、着ぐるみの頭部を取ってくれました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#87">
-				<rdfs:label>87</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-09T11:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#87">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">87</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-09T11:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「フゥー、ツラかったぁ・・・。今日、ほんと暑いですよ」
 「いまで１時間ちょっと。もうちょい行けるかな？」
 「あやはまだですか？」
@@ -461,11 +496,14 @@
 「それだけ、大変なんですよ〜」こもった声。
 
 頭部が被らされ、面の中に自分の声と呼吸音が響きます。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#88">
-				<rdfs:label>88</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-09T11:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#88">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">88</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-09T11:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「よし、出るよ。ガンバってね」
 裏口から店頭広場に出たとたん、またチビッコに囲まれます。
 
@@ -484,11 +522,14 @@
 
 手を引かれながら裏口から通路を通り控え室に向かいます。
 控え室に入るとすぐにアゴ紐を外して頭部を取ってくれました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#90">
-				<rdfs:label>90</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-09T11:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#90">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">90</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-09T11:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「ちょっと待ってね、すぐに脱がしてあげるからね。はい、ファスナー下ろすよ。」
 「はぁー、もう限界かも・・・。まったく、あやったら・・・。」
 「いやぁ、ほんとよくガンバってくれた。助かったよ。はい、いいよ脱いで」
@@ -511,11 +552,14 @@
 「贅沢言ってられないだろ、この際。まぁ、美貴ちゃんの臭いならむしろ大歓迎だけどね(笑)」
 「もー、何言ってるんですかー。」
 「あはは、冗談、冗談。でも、やるしかないかぁ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#101">
-				<rdfs:label>101</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-12T10:59+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#101">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">101</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-12T10:59+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「そうですよね、他に誰もいないですしねぇ・・・。」
 「よし。じゃあ着替え手伝ってくれるか」
 「はい。」
@@ -535,11 +579,14 @@
 「そんなにマジマジと見られると恥ずかしいなぁ。」
 「だってぇ、あっ！・・・」
 「えっ、あっ、これはそのぉ・・・なんと言うか・・・。（大汗）」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#102">
-				<rdfs:label>102</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-12T11:01+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#102">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">102</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-12T11:01+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">あやはモコリと盛り上がったタイツの股間から目をそらし顔を手で被いながら
 
 「もー、やだー、○田さんったらこんな時に・・・（照）」
@@ -559,11 +606,14 @@
 両手、両足を胴体に入れて着込む。
 美貴が背中のファスナーを閉めてくれた。
 美貴の汗を吸い湿っている着ぐるのみに包まれた○田のムスコはすでに爆発寸前だった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#103">
-				<rdfs:label>103</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-12T11:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#103">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">103</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-12T11:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「どうかしました？」
 「いや、別になんでもないよ。」
 「そうですか。じゃあ、頭被せますよ、いいですか。」
@@ -582,11 +632,14 @@
 メッシュ状の覗きの向こうには美貴が見える。
 
 （逝きそうだ。美貴ちゃんに抱きつきたい。でも、ダメだ。ガマンだ。もし、そんなことしたら・・・）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#104">
-				<rdfs:label>104</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-12T11:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#104">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">104</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-12T11:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「○田さん、平気ですか？行けますか？」
 「・・・・・・・。」
 「ＯＫなら出ましょうか？」
@@ -610,11 +663,14 @@
 
 しかし、チビッコに集中しようと動けば動くほど暑さと苦しさで呼吸が激しくなり
 美貴の汗の染み込んだ着ぐるみ中の臭いを吸い込みます。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#112">
-				<rdfs:label>112</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-14T13:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#112">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">112</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-14T13:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">（スゥーハァー、スゥーハァー、スゥーハァハァ・・・・・）
 
 刺激しないように立ち止まっている訳にもいきません。
@@ -630,11 +686,14 @@
 美貴が両手一杯に風船を持って、○田の方に駆け寄ってきました。
 
 「風船欲しいチビッコ、手上げてー。ハーイ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#113">
-				<rdfs:label>113</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-14T13:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#113">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">113</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-14T13:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">風船欲しさにチビッコが美貴と○田の周りに集まります。
 と、その時。○田は太もものあたりになにか冷たいものを感じた。
 
@@ -651,11 +710,14 @@
 （あぁ、うっ・・・。なんだ、どうしたんだ？）
 
 誰かがタイツを触り始めた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#114">
-				<rdfs:label>114</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-14T13:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#114">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">114</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-14T13:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「染みになっちゃいますからね、拭いておきますね。」
 
 美貴がジュースのこぼれたタイツ脚を拭いてくれているのだった。
@@ -675,11 +737,14 @@
 多分美貴が素手でタイツをさすっているようだ。
 
 （あぁぁ、気持ちいいよ、美貴ちゃん。ダメだ、逝きそうだ・・・・）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#115">
-				<rdfs:label>115</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-14T13:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#115">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">115</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-14T13:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">このまま絶頂を迎えてしまいそうになったその時、突然美貴の手が止まり
 
 「美貴—、ゴメン。遅くなったぁー。」
@@ -697,11 +762,14 @@
 「はーい、チビッコたち。○○ちゃん（マスコット名）はちょっとお家に帰りますからね。バイバーイ。」
 
 美貴とあやに手を引かれて裏口から通路を通り、控え室に向かった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#116">
-				<rdfs:label>116</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-14T13:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#116">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">116</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-14T13:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「あやが来ないから私が最初２時間も着たんだよ。その後、○田さんが代わってくれたけど・・・。」
 「ほんと、ゴメンね。○田さん、すいませんでした。お疲れ様です。」
 「・・・・・」
@@ -721,11 +789,14 @@
 「ハァ、苦しかった。タイツの下パンツしか履いてないし、はずかしいからフタリとも部屋出ててよ。」
 「はい、分かりました。着替え終わったら呼んでくださいね。通路で待ってますんで・・・。」
 数分後、きちんとネクタイを締め、スーツを着た○田が部屋から出てきた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#117">
-				<rdfs:label>117</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-14T13:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#117">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">117</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-14T13:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「いやー、あんなに大変なものとは思わなかったよ。」
 「そうですよ、着ぐるみって大変なんですよ。」
 「午後はフタリで交代で頼むよ。」
@@ -745,14 +816,24 @@
 
 
 ※	○田が部屋に一人になった数分間に何をしていたかは読者の皆さんのご想像にお任せします。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#127">
-				<rdfs:label>127</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-16T12:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#127">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">127</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-16T12:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">第１弾　「美貴ちゃんの着ぐるみデビュー編」はとりあえず終了です。
 第２弾　「美貴ちゃんの着ぐるみ激闘編」を現在執筆中です。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2003-12-25T12:19+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-16T12:20+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">14223</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">31</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

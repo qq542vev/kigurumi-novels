@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-11T21:53:28+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-11T21:53:28+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">とある撮影現場にて</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2011-04-18T00:31:40+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2011-05-11T01:50:07+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">9304</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#755">
-				<rdfs:label>755</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-18T00:31:40+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#755">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">755</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-18T00:31:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">カシャッ　カシャッ
 
 小崎さんがシャッターを切る音が室内に響く。
@@ -52,11 +37,15 @@
 キャラクターのカラーを象徴しているようだ。
 二人の服もキャラクターに合わせたもので、アイは素足のホットパンツにTシャツとパーカーなのに対して、
 レイは黒タイツにロングスカートとタートルネックのセーターという出で立ちだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#756">
-				<rdfs:label>756</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-18T00:33:59+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#756">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">756</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-18T00:33:59+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">まだまだ真夏顔負けの暑さが残る9月、着ぐるみには辛いんじゃないかと思う。
 撮影環境のイメージ優先のために、この建物の殆どの部屋には空調が存在しない。
 従って室内の環境は、日差しが無いこと以外は屋外と大差がない状況になっている。
@@ -75,11 +64,15 @@
 下から見上げる形で木下さんがレイの後頭部に手をかけた。今度はすぐにできたらしい、レイの後頭部が縦に割れると、
 アイ同様、ボスッという音と共に、肌色の布地に覆われた頭が出てきた。
 くり抜かれた顔の部分から見えるレイの中の人、宮田さんの表情は木下さんのものより、幾分つらそうであった。やはり経験が少ないのだろうか。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#757">
-				<rdfs:label>757</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-18T00:37:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#757">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">757</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-18T00:37:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">この仕事が来たときには、かなり驚いた。なにせ着ぐるみを撮ってくれなんて全く初めての仕事だ。経験も何もあったもんじゃない。
 それでも喜んで引き受けてしまったうちの台所事情、どうかお察し下さい。
 その後、小崎さんと2人でネットにあった着ぐるみのキャラクターショーの映像を見て、着ぐるみをどう撮ればいいのかを研究したりした。
@@ -92,11 +85,15 @@
 2人ともそのままでも全然いいくらい綺麗な人だった。いや、美人の宮田さん、かわいい木下さんといった方がいいか。
 とりあえず一通りの挨拶と打ち合わせを済ませると、宮田さんと木下さんは控え室に着替えに入り、
 僕と小崎さんは、玄関で撮影するための準備に入った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#758">
-				<rdfs:label>758</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-18T00:40:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#758">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">758</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-18T00:40:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">2人が控え室に入って30分ぐらい経った頃、控え室の扉が開き2体の着ぐるみが出てきた。
 あの時は唖然として、思わず手が止まってしまっていた。ネットで見た映像とは全く違う2体の着ぐるみがそこに立っていたのだから。
 本当にアイとレイがそのまま、現実世界に出てきたような、動く人形と言っても全く差支えのないような、
@@ -115,11 +112,15 @@
 
 と、僕が声をかけると、アイの方がイヤイヤとでも言わんばかりに首を振る。そして、こっちこっちと、手招きされた。
 近づいて行くとさらに手招きされる。何か言いたいようだったので、ますますドキドキするのをなんとか抑えながらしゃがみ込み、耳をアイの顔に近づける。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#759">
-				<rdfs:label>759</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-18T00:42:53+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#759">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">759</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-18T00:42:53+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「私達は、アイとレイなの。喋っちゃうとどうしても自分らしさが出てしまうから、喋らない。ということで理解してください、本田さん。」
 
 小さな声で言われた最後の本田さんという言葉に、思いっきり反応してしまう。
@@ -134,11 +135,15 @@
 
 ………はっ、ついつい朝の事件を思い起こしてぼっとしてしまっていた。
 小崎さんの僕を呼ぶ声に答えて、急いて機材をまとめて1階へと運んだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#760">
-				<rdfs:label>760</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-18T00:48:03+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#760">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">760</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-18T00:48:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">今日の撮影は、玄関から始まり、寝室、階段、リビング、テラス、玄関の順で行われる予定になっている。つまり今は2個目の寝室を終えたところだ。
 いくら見事な造形と言ってもそこは着ぐるみ。より良い撮り方を試行錯誤していた影響で、現在の時刻は午前11時半。撮影開始から2時間半が経っていた。
 
@@ -156,11 +161,15 @@
 それをどうするかが問題になったのだが、結局、良い解決策は浮かばなかったのだ。
 しかし今現在、問題の汗ジミは2人のどこにも見られない。先程、寝室で頭を取った時の2人の顔を見るに、かなりの汗をかいている事は間違いないにもかからわずだ。
 その事が非常に気になってしまうが、ついつい聞きたくる衝動を気力で抑えこむ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#761">
-				<rdfs:label>761</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-18T00:51:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#761">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">761</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-18T00:51:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ふと気がつくと、レイが「どうしたの？」とでも言いたげに首を傾げていた。
 
 「あぁ、ごめん。2人とも大丈夫、完璧だよ。階段とこに行くからついて来てね。」
@@ -183,11 +192,15 @@
 
 慌ててアイの手を離し、小崎さんの方へ送り出す。
 小崎さんは、2人に立ち位置なんかを指示しているようだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#762">
-				<rdfs:label>762</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-18T00:58:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#762">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">762</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-18T00:58:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">何枚か試しに撮ったところで、小崎さんがレイに声をかける。
 
 「レイちゃん、ちょっと腰が引けてるよ。スラっと立てる？」
@@ -208,11 +221,15 @@
 ただひたすらにモヤモヤとした時間を過ごすことになった。
 
 そして事件は、唐突に起こる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#769">
-				<rdfs:label>769</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-24T02:49:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#769">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">769</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-24T02:49:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そして事件は、唐突に起こる。
 
 「レイちゃん、もう1段降りてくれる？」
@@ -236,11 +253,15 @@
 「大丈夫？」
 
 と声をかけると、コクンと胸の上で頷いた後、ゆっくりと体を起こし始める。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#770">
-				<rdfs:label>770</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-24T02:50:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#770">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">770</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-24T02:50:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">僕の心は、もはやそうとしか反応できないのか、先程の痛みなどどこへやら、その様に心奪われてしまっていた。
 本来ならば、僕がさっさと動いて抜け出せばいいのだが、結局小崎さんがレイを支えて起こしてあげるのに任せるままだった。
 
@@ -260,11 +281,15 @@
 
 気がつけば、レイのものだろうか、スーッハァーと大きな呼吸音が部屋に広がっていた。
 先程まで、呼吸音が聞こえる事は無かったので、これまでは聞こえないようにしていたということだろうか。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#771">
-				<rdfs:label>771</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-24T02:52:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#771">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">771</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-24T02:52:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「え〜っと、木下さん。どうすればいいかな？」
 
 小崎さんは中の人の名前で呼びかける。そういう状況ということだ。
@@ -283,11 +308,15 @@
 超えられない何かを見せつけられるだけかもしれない。
 
 とはいえ、今は状況が状況である。ここは男らしく、使命感を持って、未知なる世界の、扉を開くことにする。そう言い聞かせるようにして覚悟を決めた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#772">
-				<rdfs:label>772</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-24T02:54:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#772">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">772</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-24T02:54:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">といっても、頭を取るところを近くで見たことが無いのだ。どうやったらいいのかが分からない。
 
 とりあえず後頭部に手を伸ばして、なにか無いかどうかを探ってみる。しかし、髪の毛が邪魔になって思うようにいかない。
@@ -302,11 +331,15 @@
 たまらずゴクッと、唾を飲む。これを開ければ、そこは完全に未知の世界。知りたいと願っても、叶わぬはずだった世界。
 
 先程から、宮田さんはピクリとも動かない。ただスゥーッハァーと、その呼吸音だけが響いている。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#773">
-				<rdfs:label>773</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-24T02:57:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#773">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">773</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-24T02:57:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">指をゆっくりと、這わせるようにして近づけてその小さな金具をつかみ、ジジジ…、恐る恐る下げていく。
 当然のことなのだが、開けた先から少しずつ左右に開けていき、宮田さんの頭部、それを覆う布の姿があらわになっていく。その様子に興奮を抑えることができない。
 飛び跳ねる様に脈打つ心臓の音が、こまくを震わせた。
@@ -332,11 +365,15 @@
 だが、彼女の願いを無視することは許されない。固結びになっていた結び目を解くと、シュルシュルと、頭の裏側にある穴から紐を抜いていく。
 紐が緩くなるに連れ、固定が緩くなったためか、彼女の呼吸音に連動して、手に暖かく湿った風があたる。彼女の吐息を直接、自分の手で感じる。
 その温度と湿気に、彼女の中の真実に近づくどころか、かえって遠ざかってしまった用に感じてしまう。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#774">
-				<rdfs:label>774</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-24T02:58:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#774">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">774</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-24T02:58:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ズルッ
 
 残す穴が左右1つずつとなった時だった。レイの頭が前に傾き、後ろから前へと、徐々に肌色の頭が現れる。
@@ -364,30 +401,42 @@
 「着ぐるみ初めてだったんだし。これ普通じゃないしね。しかたないよ。大変な怪我にならなかっただけでもよかった、うん」
 
 木下さんはソファまで来ると、宮田さんにスポドリを手渡す。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#775">
-				<rdfs:label>775</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-24T03:00:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#775">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">775</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-24T03:00:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「本田くんもありがと。小崎さんには今、氷を買いに行ってもらってるから。宮田さんは着替えてね〜、このままじゃ何も出来ないし…というわけで本田くんは退室ね」
 
 それだけを一気にいった木下さんは、早くもレイのセーターに手をかけている。僕は慌ててリビングを後にした。
 木下さんが服を脱がしにかかった事だけが、慌てた原因の全てでは無かったのだが。
 
 (続く)</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#780">
-				<rdfs:label>780</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-05-11T01:43:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#780">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">780</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-05-11T01:43:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">どうも。時間が開いた割には短いです。しかたないね
 ゴールデンウィーク(笑)だったんです。しかたないね
 話の流れ優先なので内容も薄いんです。しかたないね</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#781">
-				<rdfs:label>781</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-05-11T01:44:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#781">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">781</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-05-11T01:44:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">部屋の外へ出たものの、やはりさっきまでの一連の光景が頭から離れない。
 なんとか気を紛らわせようと、さっきのゴタゴタの後放置されていた機材を整えていたら、小崎さんが袋を下げて戻ってきた。
 
@@ -408,11 +457,15 @@
 
 気になった僕もリビングへ入ろうとしたのだが、その前に小崎さんに止められてしまう。
 宮田さんを病院に連れて行くかも知れないから、車の中を片付けておけということだった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#782">
-				<rdfs:label>782</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-05-11T01:46:26+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#782">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">782</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-05-11T01:46:26+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">おとなしく、車の中を片付けていると、先程の頭を取った木下さんの姿が脳裏に浮かんだ。ボーイッシュな服から飛び出した、木下さんの顔。
 他は、非人間的な質感を持つその存在の中で、そこだけに見える人の姿というのがなんだか滑稽で、思わず吹き出してしまった。
 
@@ -430,11 +483,15 @@
 木下さんに声をかけ、2人で弁当を食べる。
 木下さんは、頭以外はアイのままで弁当を食べている。慣れているの問題ないらしい。
 それにしても、食べながらでも汗が止まらないらしく、しょっちゅうタオルを顔に当てていた。なるべく気にしないよう、全く関係のない話などして、食べ進める。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#783">
-				<rdfs:label>783</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-05-11T01:47:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#783">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">783</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-05-11T01:47:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「ところでさ、本田君」
 
 僕の弁当がほぼ空になった時だった。
@@ -458,11 +515,15 @@
 「そ、それって、レイの着ぐるみを着るってことですよね」
 
 「もち。ちなみに拒否権は…」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#784">
-				<rdfs:label>784</rdfs:label>
-				<dcterms:creator foaf:nick="コル" dcterms:identifier="fgmglNcMcw"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-05-11T01:50:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#784">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">784</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">コル</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">fgmglNcMcw</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-05-11T01:50:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">あぁ、なんてことだろう。先程までは、その僅かな部分に触れることしか叶わなかった世界。
 僕には理解することが許されなかった世界。
 その世界に今、僕は招待されている？
@@ -481,7 +542,14 @@
 小さく呟くのが聞こえた。
 
 （続く）</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-18T00:31:40+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-05-11T01:50:07+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">9304</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">20</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

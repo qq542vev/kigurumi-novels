@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:01:26+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:01:26+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">再燃する着ぐるみ熱</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-12-12T02:48:27+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-12-12T03:18:31+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">1023</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#385">
-				<rdfs:label>385</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-12T02:48:27+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#385">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">385</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-12T02:48:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">これは、俺の妄想の話です。
 
 俺の名前は太郎。どこにでもいる
@@ -45,11 +29,14 @@
 
 ああ、学生の頃に、着ぐるみ◎roronで(*´д｀*)ハァハァしたなぁ（苦笑
 そっから、おれの不治の病が発症してしまった・・・。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#386">
-				<rdfs:label>386</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-12T02:57:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#386">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">386</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-12T02:57:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">それから、1年間は画像を漁る日々。
 internet @rchiveに自分が調べたあらゆるアドレスで調べたり
 思いつく全てのワードは検索した。
@@ -60,11 +47,14 @@ internet @rchiveに自分が調べたあらゆるアドレスで調べたり
 
 時がたち、撤収まで待った。ショーなんかには興味はない。中身に興味があるのだ。
 「！」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#387">
-				<rdfs:label>387</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-12T03:05:49+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#387">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">387</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-12T03:05:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">壁の模様を基準に、肩の位置で白黒の判別していたので
 どちらがどっちなのかはすぐ分かった。
 黒は小さくて、かわいい。、しかも高校生ぐらい？？？
@@ -76,11 +66,14 @@ internet @rchiveに自分が調べたあらゆるアドレスで調べたり
 もちろん、分かっているのだが
 撤収作業してる彼女たちにあえて聞いてみた。
 「着ぐるみって大変なんですか?」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#388">
-				<rdfs:label>388</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-12-12T03:18:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#388">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">388</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-12T03:18:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「なんのことですか＾＾；？」黒はこう答えた。
 「え？さっき、着てた人じゃないんですか？」と、惚けて返す。
 「違いますよー、でも見ててくれたんですね、ありがとうございますっ！」
@@ -94,7 +87,14 @@ internet @rchiveに自分が調べたあらゆるアドレスで調べたり
 オカズの◎×ン☆ーや、黒が「いいですねー」と輪を作る。
 
 あ、ヤバイ展開になった・・・。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-12T02:48:27+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-12T03:18:31+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">1023</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">4</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

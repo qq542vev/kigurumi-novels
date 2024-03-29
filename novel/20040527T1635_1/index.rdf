@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:05:43+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:05:43+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">ショーの余韻</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-05-27T16:35+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-05-27T16:38+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">2323</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#308">
-				<rdfs:label>308</rdfs:label>
-				<dcterms:creator foaf:nick="沙織" dcterms:identifier="62WBq/OQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-27T16:35+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#308">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">308</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">沙織</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">62WBq/OQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-27T16:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">皆さん初めまして。私の名前は沙織（さおり♀）と言います。
 世の中には着ぐるみフェチという人が存在するのですね？
 実は、私もその内の１人です。しかし、私は元々着ぐるみフェチではありませんでした。
@@ -49,11 +34,15 @@
 さらにマスクを被り顎ひもをとめ、最後に手袋をはめたら準備OKです。
 楽屋に立て掛けた細長い鏡に映る私は、まさに美少女戦士に変身していました。
 何だか嬉しい気分になり、私は暑さも忘れて鏡の前でポーズをとっていました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#309">
-				<rdfs:label>309</rdfs:label>
-				<dcterms:creator foaf:nick="沙織" dcterms:identifier="62WBq/OQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-27T16:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#309">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">309</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">沙織</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">62WBq/OQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-27T16:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「そろそろ時間だよ。」私をこの世界に呼び入れた友達のみゆきが言いました。
 みゆきはこのアルバイトではMCをしています。分かりやすく言うと、子供達の案内係のお姉さんといったところです。
 彼女の明るい性格と笑顔の良さが、高校生ながらMCに抜てきされた理由みたいです。
@@ -73,11 +62,15 @@
 
 「沙織ちゃん大丈夫？」周りのスタッフが私を抱え上げました。
 「あ...はい...。大丈夫です...。」マスクを脱がされた私は答えました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#310">
-				<rdfs:label>310</rdfs:label>
-				<dcterms:creator foaf:nick="沙織" dcterms:identifier="62WBq/OQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-27T16:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#310">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">310</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">沙織</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">62WBq/OQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-27T16:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">舞台からは子供達に話しかけるみゆきの声が聞こえてきます。
 「このあと美少女戦士達との握手会がありま〜す。まだ帰らないでね〜。」
 
@@ -98,11 +91,15 @@
 単にその場にしゃがみ込んで子供に対して手を差し出しているだけという感じです。
 その差し出した手に子供が手を添えるという感じで握手は続けられていきました。
 握手を始めて15分くらい経ったでしょうか？私の身体が今までに体験をしたことのない感覚に襲われました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#311">
-				<rdfs:label>311</rdfs:label>
-				<dcterms:creator foaf:nick="沙織" dcterms:identifier="62WBq/OQ"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-27T16:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#311">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">311</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">沙織</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">62WBq/OQ</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-27T16:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　ハァハァ （；´Д｀）.。ｏＯ（な、何なのぉ...？.........この感覚は.........。あぁぁぁ!!!......いくぅぅ!!!.........。）
 
 私の身体中から汗が吹き出てきたのが分かりました。
@@ -124,7 +121,14 @@
 着ぐるみを着ると興奮して感じちゃうんです。
 みゆきには内緒ですが、今では自分で着ぐるみを所有するまでになっています。
 もちろん１人○ッチにはかかせない存在です。　　　　　　　　　　　　　　　　（おしまい）</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-27T16:35+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-27T16:38+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">2323</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">4</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

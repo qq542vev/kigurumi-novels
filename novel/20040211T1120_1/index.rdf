@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-12T09:11:59+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-12T09:11:59+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">リナとの冒険</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-02-11T11:20+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-06-10T08:18+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">50714</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#404">
-				<rdfs:label>404</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-11T11:20+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#404">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">404</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-11T11:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">某秘密研究所特殊実験室
 
 　Dｒカイザ「ははは、とうとうできたぞ、我が人生をかけた最高傑作が、さっそく起動開始じゃ」
@@ -50,11 +34,14 @@
 　助手１「どうします？実験体がいないとどうしようもないですしね」
 　Drカイザ「いや、実験体はいる、いるじゃないか」
 　助手１「っといいますと？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#405">
-				<rdfs:label>405</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-11T11:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#405">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">405</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-11T11:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">Dｒカイザ「きみはわしのことをどう思っているのね？」
 　助手１「それはもう、偉大なる発明家だと思います、すごく尊敬もしています」
 　Dｒカイザ「そうか、じゃったら、それを態度で示してみい、実験体はお前だ」
@@ -74,11 +61,14 @@
 　エネミーストーンが光を放つ、ピアスは頭部を、腕輪は上半身を、脚輪は下半身を変化させる
 　特殊ゴムスーツと石が反応する、筋肉を収縮させ変化させる、助手の身体はみるみる女性のもの
 　へと変化する</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#406">
-				<rdfs:label>406</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-11T11:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#406">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">406</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-11T11:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　青く長い髪が形成される、のっぺらぼうだった顔に顔が若い女性の顔に変化する、そして
 　身体はなだらかな曲線をえがくと身体に変化していく
 　Dｒカイザ「おおおお、す、すごい、すごいぞ、わしのイメージどうりだ」
@@ -99,11 +89,14 @@
 　リナ「私、壊れる・・」
 　Dｒカイザ「なんじゃと？」
 　次の瞬間、研究室に光がはなつ、大爆発がおきる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#409">
-				<rdfs:label>409</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-12T10:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#409">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">409</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-12T10:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">北沢俊介（きたざわしゅんすけ）ごく平凡な学生だ、そんな俺に突然不思議な出来事がおこった
 　　俊介は特殊工学を専行する理科大医学の学生である、性格は真面目だが女関係にはあまり進展
 　　がない、２３にもなって彼女もいない。
@@ -123,11 +116,14 @@
 　　俊介がかえってくる、季節は冬、５時にもなると、薄暗い、俊介は車庫に自転車を止める
 　　ガタン　すると車庫の奥から物音がする
 　　俊介「誰だ？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#410">
-				<rdfs:label>410</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-12T10:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#410">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">410</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-12T10:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">しかし、反応がない、俊介は懐中電灯をとりだすと音のする方向へむける
 　　俊介「誰かいるのか？」
 　　少しづつ前進する、すると車庫の薄暗い壁に脚のようなものが見える
@@ -147,11 +143,14 @@
 　　俊介「そんなかっこじゃ、寒いのはあたり前だよ」
 　　俊介は自分が羽織っていたダウンジャケットをリナにきせる
 　　俊介「ここは寒いし、とりあえず俺の部屋においでよ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#411">
-				<rdfs:label>411</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-12T10:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#411">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">411</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-12T10:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介はリナを抱きかかえ、部屋に戻る、ポケットから鍵を取り出しドアをあける
 　　リナをおろして靴をシューズボックスにいれる、部屋の電気をつける
 　　さっきは薄暗くてよく見えなかったが、そこで彼女は普通の人間ではない
@@ -172,11 +171,15 @@
 　　リナ「ありがとう」
 　　俊介はその吸い込まれそうな瞳に魅了される
 　　俊介「なんか、食べる？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#415">
-				<rdfs:label>415</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="Lb5gRSH6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-13T11:29+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#415">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">415</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Lb5gRSH6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-13T11:29+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　するとリナは小ぶりに首をふる
 　　リナ「私、食べれない」
 　　そう、特殊ゴムスーツでは食料の摂取は不可能なのだ、では内部の人間はどのようにして
@@ -196,11 +199,15 @@
 　　になっていたドアを閉めるリナ、すると電話の呼び出し音が部屋中に響き渡った
 　　リナ「どうしよう、俊介さんは対応しなくていいといってた」
 　　すると留守番電話にきりかわる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#416">
-				<rdfs:label>416</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="Lb5gRSH6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-13T11:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#416">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">416</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Lb5gRSH6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-13T11:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">男「あっしは匿名希望サンダーラットでやんす、北沢俊介くん家でやんすね、ずっと探してたでやんす
 　　あっしは俊介くんのこと好きでやんす、今日は思い切って告白したでやんす、あっしはずっと俊介くん
 　　のことこ見てるでやんす」
@@ -219,11 +226,15 @@
 　　リナ「俊介さんは・・あの、男にもてるんですね」
 　　笑いだす俊介
 　　俊介「ははは、そうなんだ、もてるんだよ男にも・・って、男」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#417">
-				<rdfs:label>417</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="Lb5gRSH6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-13T11:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#417">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">417</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Lb5gRSH6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-13T11:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナ「さっき、電話あったんだけど」
 　リナはおそるおそる電話機を指差す、電話機の留守録ランプが点滅していた
 　俊介「なんだ、電話に留守録入ってるみたいだ」
@@ -244,11 +255,15 @@
 　ザリ　俊介の頬に血がにじむ
 　俊介「うわああ、リナこれ、金タワシだよ、しかも、ご丁寧に洗剤までついてるし」
 　リナ「ごめん・・なさい」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#423">
-				<rdfs:label>423</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="Lb5gRSH6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-14T09:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#423">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">423</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Lb5gRSH6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-14T09:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介の頬の傷の手当てをする
 　リナ「痛かった？」
 　頬の傷をさする
@@ -269,11 +284,15 @@
 　俊介「ごめん、無理に思い出さなくていいよ、さ、今はゆっくり身体を休めるんだ」
 　リナ「一人は嫌、怖い、ずっとそばにいて」
 　俊介「え？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#424">
-				<rdfs:label>424</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="Lb5gRSH6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-14T10:00+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#424">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">424</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Lb5gRSH6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-14T10:00+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介「そ、それはまずいよ」
 　リナ「なんで？」
 　俊介「いや、あの・・ほら、俺は男でリナは女じゃないか、まずいよ」
@@ -294,11 +313,15 @@
 　リナの身体にほどこされたマーキングはリナの寿命を意味するものである
 　赤、黄色、青、緑、紫、茶色、黒と変化し、７日めの黒がマーキングされると２４時間以内
 　に変身を解除しなければ装着しているものの生命の保証ができない</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#425">
-				<rdfs:label>425</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="Lb5gRSH6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-14T10:01+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#425">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">425</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Lb5gRSH6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-14T10:01+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">しばらくするとリナの発光が収まる、俊介は状況が飲み込めない
 　俊介「な、なにが、どうなったんだ」
 　するとリナが寝返りをうちこっちを向く、胸元の衣服がはだけ、胸がみえる
@@ -319,11 +342,15 @@
 　リナ「私、これからずっと、俊介のそばにいたいな、俊介もずっと私のそばにいてね」
 　俊介「わかった」
 　リナ「約束よ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#435">
-				<rdfs:label>435</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="40A6OK.s"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-15T11:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#435">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">435</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">40A6OK.s</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-15T11:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">２日目
 　昨日、あんなことがあったことが嘘のようだった、しかしいつのまにか寝ていた
 　リナの存在を忘れていた、ゆっくり目を開けると見知らぬ女が隣で寝ているではないか
@@ -344,11 +371,15 @@
 　俊介「助手が行方不明っていってたよな、まさか」
 　ラジオ「なお、現場では髪の長い女性が目撃されており、現在も都内のどこかに潜伏している
 　もよう、警察はこの不審人物を重要参考人として捜索すもようです」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#437">
-				<rdfs:label>437</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="40A6OK.s"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-15T11:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#437">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">437</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">40A6OK.s</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-15T11:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">それをリナもきていたのか震えている
 　リナ「怖い、Drカイザ」
 　俊介「リナはDrカイザとどんな関係なんだ」　
@@ -369,19 +400,27 @@
 　俊介「学校だよ、あとリナの服とかも買ってくるからさ」　
 　リナ「早く帰ってきてね」
 　俊介はリナの言葉を聴いてから部屋をでる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#438">
-				<rdfs:label>438</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="40A6OK.s"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-15T11:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#438">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">438</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">40A6OK.s</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-15T11:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">訂正
 リナ「Dｒカイザは私の助手」
 リナ「私はDｒカイザの助手」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#440">
-				<rdfs:label>440</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="40A6OK.s"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-15T11:52+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#440">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">440</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">40A6OK.s</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-15T11:52+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介は学校は学校が終わると、衣料品店にでむいた
 　俊介「なんだか恥ずかしいなこうゆうとこ男の俺がはいるのは」
 　まずは下着だ、しかし、店の前でたちすくんでしまう
@@ -400,11 +439,15 @@
 　俊介「いや、そうゆうわけじゃないんですが、彼女にプレゼントするんです」
 　警官「いやーそうか、プレゼントか、にしてもつらい選択だな、勇気いるだろ男でこうゆう
 　ところ一人じゃはいれないだろ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#462">
-				<rdfs:label>462</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="40A6OK.s"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-17T10:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#462">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">462</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">40A6OK.s</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-17T10:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja"> 警官「ま、がんばれよ青年」
 　そういって警官はいなくなる
 　俊介「よーし、俺も腹をくくってはいるぞ、リナのためだ」
@@ -423,11 +466,15 @@
 　店員「当店としましてもお客様にあったものを提供したいので、よろしければ
 　彼女さんもご一緒にご来店くださいませ」
 　俊介「そうするよ、じゃあ、また」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#463">
-				<rdfs:label>463</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="40A6OK.s"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-17T11:00+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#463">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">463</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">40A6OK.s</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-17T11:00+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　（俊介の部屋）
 　リナ「いっちゃた・・」
 　俊介の部屋を徘徊してみる
@@ -448,11 +495,15 @@
 　を整理すると俊介が隠していた、いかがわしい本が数札置かれていた
 　リナ「あれ？これってまさか」
 　掃除機をとめて、しばらく眺める</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#464">
-				<rdfs:label>464</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="40A6OK.s"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-17T11:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#464">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">464</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">40A6OK.s</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-17T11:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナ「まだ、他になんかないかな？」
 　と押入れを探し始める、すると、学校の教科書や参考書などがでててくるがそれ以外にはでてこない
 　押入れの上の段は探しつくしたため、下の段を探しはじめた、壊れたラジカセやビデオデッキなどが
@@ -472,11 +523,15 @@
 　リナ「なにこれ、私どうなってるの？」
 　リナは自分の身体を押して見る、すると、皮膚のはずの内側に感触がある
 　リナ「私の中に誰かいる？私は誰かに着られてるってゆうの？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#465">
-				<rdfs:label>465</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-19T10:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#465">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">465</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-19T10:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">自分の身体の異常に気がつくとそのショックで座り込んでしまう
 　リナ「なに？なんなの？私の中に誰かいる・・嘘」
 　しかし、自分ではスーツは脱ぐことはできない、するといままでゆるんでいた皮膚がひきしまる
@@ -497,11 +552,15 @@
 　リナ「なに？どしたの？」
 　宅配の男「あの、だから、・・その・服・服を」
 　リナ「服って？・・・きゃ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#466">
-				<rdfs:label>466</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-19T10:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#466">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">466</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-19T10:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そうリナはバスルームからあがってからいろいろあったので、服を着ていないのだ
 　いいものを見せてもらった宅配業者、涙ぐんでバスタオルで胸を隠す
 　宅配の男「あ、あの、とりあえずここにサインお願いします」
@@ -521,11 +580,15 @@
 　リナはすぐその女子高生のところに走っていった
 　リナ「ねえねえ、その服かわいいね、私にも着せてよ？」
 　女子高生「え？あなた誰」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#467">
-				<rdfs:label>467</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-19T10:26+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#467">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">467</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-19T10:26+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナ「私、リナ、その服着せて」
 　女子高生「は？なにいっての、なんであなたに私の服着せなきゃなんなないのよ」
 　リナ「じゃあ、触るだけでいいから」
@@ -545,11 +608,15 @@
 　リナ「あはは、この服かわいい、ねえ、一緒に遊ぼうよ」
 　女子高生「え？あなたといたら面白そうだし、私、高司綾（たかつかさあや）よろしく」
 　そうしてリナと綾はどこかえでかけてしまった</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#490">
-				<rdfs:label>490</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T13:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#490">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">490</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T13:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">２日目　PM：１９：００
 
 　俊介が帰ってくる、ドアをあけてみたら、部屋が綺麗にかたずいていた、しかし、リナの姿はない
@@ -570,11 +637,15 @@
 　俊介「ごめんですんだら、警察はいらないよ」
 　泣きそうになるリナ
 　リナ「ごめんなさい・・」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#491">
-				<rdfs:label>491</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T13:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#491">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">491</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T13:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介「ごめん、ちょっといいすぎた、ほら、ドア閉めて、寒いでしょ」
 　泣きながら、うなづく、靴をぬいで上がる
 　俊介「ごめん、でも、俺はリナが本当に心配だからなんだ、俺、リナと離れたくない」
@@ -595,11 +666,15 @@
 　俊介「い、いいだろ、頼むよ」
 　リナ「じゃあ、いきますよ」
 　リナは写真に意識を集中させる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#492">
-				<rdfs:label>492</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T13:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#492">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">492</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T13:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ピアスと腕輪と脚輪が光る
 　俊介「なんだ？」
 　腕から変化して服が変化する、１０秒ほどでリナの姿がかわる
@@ -617,11 +692,15 @@
 　リナ「うん」
 　そういってリナはバスルームにかけこむ、彼女のシルエットが見える
 　またリナの身体がひかると、リナはなにも服を着ていない状態になる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#498">
-				<rdfs:label>498</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-23T11:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#498">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">498</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-23T11:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介は今の幸せをかみしめていた、苦節二十余年、女の子に縁がなかったのが
 　　ちょっとかわってはいるが彼女ができたこが、なによりもうれしかった
 　　俊介「ああ、やっと俺にも彼女ができたんだなー神様ありがとう」
@@ -642,11 +721,15 @@
 　　リナ「ううん、なんでもない、さ、寝ようよ。」
 　　俊介の背中を押すように、布団につれこむ
 　　リナ「おやすみ俊介さん。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#499">
-				<rdfs:label>499</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-23T11:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#499">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">499</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-23T11:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">３日目　AM：０７：００
 
 　　俊介が先に目を覚ます、横にはリナがかわいい寝息をたてて猫のように寝ている
@@ -667,11 +750,15 @@
 　　こんなことを考えると、自分のせがれも暴走しようとしていた、そんなせがれになにやら感触が
 　　リナの手がせがれに当てられているのだ
 　　リナ「おはよう俊介さん、なーにー、朝から大事なとこが、あばれてるじゃない。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#500">
-				<rdfs:label>500</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-23T11:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#500">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">500</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-23T11:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介「お、おはようリナ、いや、これは、その、あの・・」
 　　リナはより体を俊介に密着させるようにすりよってくる
 　　リナ「いいの、リナそんな俊介さんのこと大好きだから。」
@@ -692,11 +779,15 @@
 　　白いランニグシャツを着ているとリナがでてくる
 　　リナ「顔、あらったよー。」
 　　俊介「まだ、朝の水がつめたいな。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#513">
-				<rdfs:label>513</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-25T09:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#513">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">513</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-25T09:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　リナ「顔とーっても綺麗になった。」
 　俊介心の声（やっぱり、自分の皮膚ではないから、冷たいとゆう感覚がないんだな）
 　とりあえず朝食の支度をする、冷蔵庫に保管してあるガーリックマーガリンがあった
@@ -716,11 +807,15 @@
 　リナ「いいの、リナは食べなくても大丈夫なの、こうして俊介食べるとこ見るだけでいいの」
 　俊介心の声（そりゃそうだよ、着ぐるみじゃ食べられないだろ、ってゆうか中の人ってほんとに
 　大丈夫なのかな）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#514">
-				<rdfs:label>514</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-25T09:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#514">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">514</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-25T09:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナのエネルギーは身体に散りばめられたエネミーストーンとゆう特殊鉱石に蓄積されている
 　活動限界は７日間、現在、体内シグナルは青を示している、活動限界までのこり４日
 　朝食も食べ終わる、リナがあとかたずけをする
@@ -740,11 +835,15 @@
 　俊介「そうだな、じゃあ行こうか。」
 　実際に火星にいくわけではない、巨大アミューズメントパーク、スペースランドだ
 　ここには火星探検のアトラクションがあるのだ</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#515">
-				<rdfs:label>515</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-25T09:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#515">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">515</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-25T09:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">スペースランド
 　電車を乗り継いで、一時間ぐらいでスペースランドにつく
 　リナ「あーついたね、ひろーい」
@@ -764,11 +863,15 @@
 　よくできている、中の人間を感じさせない、操演者もプロだ。
 　俊介心の声（かわいいな、どんな女の子がやってるんだろう、今日も暑いし、大変だろうな、ところでリナって
 　どんな女の子がやってるんだろ）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#517">
-				<rdfs:label>517</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-26T14:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#517">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">517</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-26T14:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">一通り園内を見回って少し疲れてきたので少し休憩することにした、さすがのリナも
 　疲れているようだ、ベンチに腰掛けて一休みすることにする。　
 　
@@ -789,11 +892,15 @@
 　女の子が立っていた。
 
 　俊介「キミはだれ？どうして俺の名前をしってるんだ？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#518">
-				<rdfs:label>518</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-26T14:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#518">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">518</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-26T14:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">女「私よ、ほら、中学校まで一緒のクラスだった、神崎霞（かんざきかすみ）よ」
 　俊介「え？あ・・ああ、え？霞ちゃんか、すげー懐かしいな。」
 　神埼「そうね、俊介くん今日はどうしたの？デート？」
@@ -814,11 +921,15 @@
 　そういって神埼は、ドアの向こうに入ってしまった、しばらくして神崎がドアからでてくる
 　
 　神埼「さ、いいわ、入って。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#519">
-				<rdfs:label>519</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-26T14:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#519">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">519</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-26T14:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介「入ってって、ここはやばいでしょ。」
 　神埼「いいから、私がいいっていったらいいの。」
 
@@ -838,11 +949,15 @@
 　俊介「え、いや、そんなことは・・」
 　神埼「嘘、俊介くん子供のときからそうだった、嘘つくとき左眉が動くのよ、それに、下半身の
 　俊介くんは、正直なんだから。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#521">
-				<rdfs:label>521</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-26T14:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#521">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">521</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-26T14:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">神埼は、俊介に抱きつくと、下半身をからませる、息子に手をそえている、片手は俊介の背中に
 　まわされている
 
@@ -863,11 +978,15 @@
 　俊介「だけど、リナは俺の帰りをまってるから。」
 　神埼「なに、さっきからリナ、リナってそんなにあの女がそんなに大事なわけ、私より？」
 　俊介「なにもそこまでいってないけど、そんなにムキになることないだろ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#522">
-				<rdfs:label>522</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-27T12:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#522">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">522</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-27T12:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">神崎「行かないで、お願い、ずっとここにいて。」
 　俊介「そうゆうわけにはいかないよ。」
 　神埼「わかった、じゃあ、もう少しだけつきあって、着ぐるみ着せてあげるから。」
@@ -887,11 +1006,15 @@
 　できるかなって。」
 　俊介「わかんない、けど・・」
 　神埼「私、人に着ぐるみ着せるのが好きなの、さ、着て見せて。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#523">
-				<rdfs:label>523</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-27T12:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#523">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">523</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-27T12:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">全身を覆う肌色タイツを身にまとい、その上からブルーメタルの甲冑を着ていく、アルテミス
 　は剣と盾も装備している、腰に剣を収納する鞘がとりつけられている、盾は左手ににぎりこむか
 　背中にかけておくかのどちらかだ、顔の部分が少しくりぬかれたタイツと鎧につつまれる
@@ -913,11 +1036,15 @@
 　自分が脇からみていた着ぐるみにこんどは自分がはいっている。
 
 　神埼「どーやら、俊介くんにも種があったみたいね、さ、私も準備しよ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#524">
-				<rdfs:label>524</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-27T12:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#524">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">524</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-27T12:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja"> 神崎は手馴れたように担当の着ぐるみに着替えはじめる、一方、俊介は変わった自分の姿にみいってしまって
 　いる、剣を鞘から抜いてブンブンふりまわしてみる。
 　
@@ -936,11 +1063,15 @@
 
 　神崎は独占欲と嫉妬の塊のような女だ、好きなものを手に入れるためには手段を選ばない、いかなる犠牲を払ってでも
 　手にいれる、俊介はもう魂が抜けたように神崎のすることい全てをゆだねているようだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#531">
-				<rdfs:label>531</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-28T09:16+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#531">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">531</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-28T09:16+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja"> 俊介はもうどうするこもできなかった、タイツ一枚隔ててのリナとの接触は逃げ場のない状況
 　　に追い詰められていた、リナは当然、アルテミスが俊介だとはわからいわけで。
 
@@ -961,11 +1092,15 @@
 　俊介は自分の帰りをまっているリナのことがかわいそうになってきた、写真をとって、すぐにでもリナのもと
 　に帰ろうと思ったが、そううまくはいかない、神崎がリナのことに気がついたのだ、神崎としてはリナは
 　いわば恋敵なのだ、俊介を奪うメスネコをよせつけない。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#532">
-				<rdfs:label>532</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-28T09:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#532">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">532</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-28T09:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナが通りすがりの人に写真撮影を頼んで、俊介のアルテミスとふたりだけで撮ることになったのだが
 　神崎にしてみれば、この状況はあまりいい状況ではない。
 　無理やり二人のあいだに割り込む、でもリナはそれも気がつかない、むしろよろこんで神崎をむかえて
@@ -985,11 +1120,15 @@
 　びっくりしないで、いま、アルやってるの男よ。」
 　女「え〜マジ、なんか悔しい、私より細くない？」
 　神崎「俊介くん、お面とっていいよ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#533">
-				<rdfs:label>533</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-28T09:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#533">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">533</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-28T09:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介は面をとり、彼女の前にでる、間接的ではあるが、自分も神崎の陰謀に加担したことに多少なれど
 　罪悪感があった。
 　
@@ -1009,27 +1148,39 @@
 
 　後ろ髪をひかれるが、自分の帰りを待っているリナをこれ以上待たせるわけにはいかない
 　断腸の思いで部屋をあとにする。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#534">
-				<rdfs:label>534</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-28T09:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#534">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">534</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-28T09:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">訂正
 ５３２
 俊介はもとの役者の顔をしらい
 
 俊介はもとの役者の顔をしらない</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#535">
-				<rdfs:label>535</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-28T09:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#535">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">535</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-28T09:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">５３１の前に話しがあります、話をとばしてました、ここから次たします</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#536">
-				<rdfs:label>536</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-28T09:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#536">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">536</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-28T09:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そして二人はマスコット準備室をでる、廊下で関係者とであう、神崎はそれなりに愛想を振りまいている
 　　俊介もちゃっと恥ずかしかったが小ぶりに手を振って見る
 
@@ -1049,11 +1200,15 @@
 　　そして、ようやく出入り口につく、一旦、神崎が立ち止まる、するとここで待っててみたいなしぐさをとる　　
 　　俊介はうなずく、神崎はまたなにやら、出入り口のスタッフと手続きをしている、すると、神崎がこっちに　
 　　来てとゆう合図する、俊介はその方向にいってみる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#537">
-				<rdfs:label>537</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-28T09:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#537">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">537</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-28T09:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">スタッフ「あなた新人さんね、でもここはスペースランド、新人かどうかなんてお客さんには関係ないの
 　　お金をもらってるの、こっちはプロなの、プロ意識をしっかり持っていってらしゃい。」
 
@@ -1075,11 +1230,15 @@
 　　俊介はたったまま下をむいて子供と接している、これだと、背お低い客がこっちの顔をみるのに首をあげ
 　　なければならない、客に負担を与えてしまうからだ。
 　　この場面では神崎のように、自分からしゃがみ子供とほぼ同じ目線で接するのが正しい接客といえよう。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#538">
-				<rdfs:label>538</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-28T09:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#538">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">538</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-28T09:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介もそれに気がつきしゃがんでみる、最初のうちはどうとゆうことはなかったが、中盤になって足腰が
 　　悲鳴をあげてくる、慣れてないのもあるが、頻繁に上げ下げする屈伸運動が膝に大きな負担を与えている
 　　遊園地には子供だけではない、大人もいる、子供ばかり相手をするわけにもいかないのだ、写真撮影など
@@ -1098,11 +1257,15 @@
 　　と引き返そうとしたとき、リナがこっちに気がつく、とことこ走りよってくる
 
 　　リナ「あー、さっき写真とったやつだ、それと、わからないけど別のもいる。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#542">
-				<rdfs:label>542</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-29T08:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#542">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">542</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-29T08:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナは俊介の帰りをずっとベンチで待ち続けている、もう夕暮れだ、園内の外灯にチラチラと明かり
 　　がともりだす。
 
@@ -1123,11 +1286,15 @@
 　　リナ「いいよ、許してあげる、でも・・」
 　　俊介「でも・・？」
 　　リナ「朝はリナがご奉仕したでしょ、だから俊介は夜のご奉仕してね。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#543">
-				<rdfs:label>543</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-29T08:18+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#543">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">543</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-29T08:18+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 　　それから２日後（リナ活動限界まであと２日）
 
@@ -1149,11 +1316,15 @@
 
 　　俊介「リナ、そこにはないよ、もっと左だよ。」
 　　リナ「あっそうか、えへへ、リナどこ探してたんだろうね。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#544">
-				<rdfs:label>544</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-29T08:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#544">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">544</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-29T08:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">どことなくぎこちないリナ、破片を何とか回収したかと思うと、いろいろなところへ理不尽
 　　にぶつかりはじめる、まるで前が見えてないように
 
@@ -1173,18 +1344,26 @@
 　　俊介「なんで話してくれなかったの、目あみえてないなんて。」
 　　リナ「リナを騙したの？」
 　　俊介「ごめん、でも俺はリナにこれ以上無理させたくないんだよ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#548">
-				<rdfs:label>548</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-29T12:59+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#548">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">548</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-29T12:59+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">２時の方向は右に１０度くらいです、１１時だと左に５度ほどです、時計の１２を
 中心にして１からが右、１１からが左です。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#559">
-				<rdfs:label>559</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-01T12:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#559">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">559</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-01T12:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">急にリナが泣き出す、これには俊介も驚く、するとリナはそのまま表に飛び出していって
 　　しまった、あわてて追いかける俊介。
 
@@ -1205,11 +1384,15 @@
 　　警官「おお、なんて罪深き青年よ、よし、本官も手伝うから、特徴は？」
 　　俊介「青のワンピースに白いエプロンしてて、髪にはカチューシャつけてます。」
 　　警官「なになに、青いワンピースに白いエプロンだ、まるでメイドだな。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#560">
-				<rdfs:label>560</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-01T12:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#560">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">560</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-01T12:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介は警官と二手にわかれてリナを捜索することになった、警官と別れて、ふと街外れ
 　　の公園にさしかかったときのことである。
 　　噴水が目印の公園だ、この雨で、人もまばらである、昼間だが雨のせいで、薄暗いため
@@ -1230,11 +1413,15 @@
 　　やっとのことで、部屋につれかえる、リナ本人の意識レベルが低下したため、石の力も衰えている
 　　石が光りだす、すると、リナの着衣がスーっと音もなく消えてしまう。
 　　タオルで全身を拭いて水気を完全にとりさる、今、リナはなにも着ていない状況になる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#561">
-				<rdfs:label>561</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-01T12:53+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#561">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">561</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-01T12:53+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">こんな状況なのにいけない妄想が俊介を襲う、そう、リナは普通の人間ではないのだ、非常に
 　　精巧にできた着ぐるみなのだ、前々から気にはなっていた中の人間の存在、リナは今、完全
 　　に気を失っている状態で動く気配もない。
@@ -1254,11 +1441,15 @@
 　　防御反応がない。
 　　本当にみていいものなのだろうか、見た先になにがあるのか、急に不安になってきた、そう思うと手がそれ
 　　以上進むことはなかった、俊介も急に意識が薄れてきた、雨にうたれたため風邪をひいていまったのだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#562">
-				<rdfs:label>562</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-01T13:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#562">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">562</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-01T13:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">訂正（５６１）
 
 風邪をひいていまったのだ
@@ -1268,11 +1459,15 @@
 　早く終われとゆう人もいるみたいなのですが、自分はこの作品は最後まで書きます。
 いえ、書かせてください、前回のが途中できれたんで今回は最後までやりたいんです
 ３月３日で全て終わりますので。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#565">
-				<rdfs:label>565</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-02T09:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#565">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">565</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-02T09:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">６日目（リナ活動限界まであと２４時間）
 
 　　俊介はふと、気がつく、カーテンの間から日差しが差し込んでくる、その光に導かれるかの
@@ -1293,11 +1488,15 @@
 　　俊介「あれ？リナは自分のこと名前でよんでなかったっけ？」
 　　リナ「私は前からこうじゃない。」
 　　俊介「そっかな、おかしいな。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#566">
-				<rdfs:label>566</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-02T09:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#566">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">566</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-02T09:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">食事がおわり、休憩をしていた、しかしいまいち部屋がなじめない昨日までの記憶が
 　　ないのだ、しかしはっきり覚えているのはリナが着ぐるみだとゆうことだけだ。
 
@@ -1317,11 +1516,15 @@
 　　リナ「そんな、俊介さんなにいってるんです、私が偽者なんてありえない。」
 　　俊介「実はなリナ、俺は気がついてたんだ、リナが着ぐるみだってこと。」
 　　リナ「そ、そんな、俊介さん私が着ぐるみだなんて、ほら私は人間よ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#567">
-				<rdfs:label>567</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-02T09:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#567">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">567</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-02T09:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　あくまでも白を切るリナだが、あきらかに挙動不審な態度だ、動揺している様が
 　　手にとるようにわかる。
 
@@ -1342,19 +1545,27 @@
 　　ないこに違和感なかった。
 
 　　俊介「そうだな、それは気になったよ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#568">
-				<rdfs:label>568</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-02T09:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#568">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">568</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-02T09:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">補足説明
 石の力が暴走して、リナの性格を一時的に変化させたためです、明日、最終回を
 迎えます。疾風怒涛の完結？そして真実へ</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#571">
-				<rdfs:label>571</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-03T10:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#571">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">571</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-03T10:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナ「私のエネルギーはこのエネミーストーンと呼ばれる特殊鉱石に備蓄されているの
 　　そのエネルギーもいつまでもあるわけじゃない、もって７日、それ以上になると私は
 　　生きていけない。」
@@ -1376,11 +1587,15 @@
 　　弱弱しく手をかざす、俊介の頬をなでる
 
 　　リナ「短かったけど、リナとっても楽しかったよ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#572">
-				<rdfs:label>572</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-03T10:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#572">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">572</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-03T10:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介「リナを初めて見つけたとき、すごくわくわくしたんだ、これからすごい
 　　ことがあるって思った。」
 　　リナ「リナも最初はあんまりわかんなかったけど、俊介さんいろいろ、助けてくれたし。」
@@ -1401,11 +1616,15 @@
 　　俊介「ははは、なんだよ、本当に逝ったかと思ったよ。」
 　　リナ「ごめんね、でも、もうじき本当にうごけなくなるわ、俊介の顔が見えないのが
 　　残念だけど、リナ、俊介の腕の中でなら・・」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#573">
-				<rdfs:label>573</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-03T10:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#573">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">573</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-03T10:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介「なにバカなこといってんだよ、生きろ、生きてればきっと。」
 　　リナ「私は俊介の心の中でいつまでも生きつづけることができるから。」
 
@@ -1425,11 +1644,15 @@
 　　俊介はおそるおそる、その物体に触れてみる、人間の筋肉の感触がある、とうとうリナの中の
 　　人間が誰かわかるのだ、しかし、あまりに急激なエネルギーに放出に生身の人間の身体が
 　　耐え切れなかった、膨らんでいたはずのスーツから中の物体が消えてなくなった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#574">
-				<rdfs:label>574</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-03T10:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#574">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">574</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-03T10:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">石の力が強大すぎて生身の人間の身体が耐えられなかったのだ、スーツの開封口がパクッと
 　　ひらく、封印していた石がなくなったからだ。
 　　俊介は開封口を開くが中に人はいなかった、生命エネルギーを全て使いはたしてしまった
@@ -1448,11 +1671,15 @@
 
 　　石に意識を集中させる、リナのことを一心不乱にイメージする、石が光を放つ、のっぺらぼうの顔に表情が
 　　でる、青い髪がでてくる、スーツが俊介に筋肉組織を激しく変化させる、これには激痛がはしる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#575">
-				<rdfs:label>575</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-03T10:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#575">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">575</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-03T10:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　最終回
 　
 　　まばゆい光を放ち、俊介の身体は男性から女性に変化していく
@@ -1473,11 +1700,15 @@
 
 　　リナ「だめ、こないで、私、壊れる。」
 　　エネルギーが暴走し、大爆発を起こす。　　　第１章　終わり</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#576">
-				<rdfs:label>576</rdfs:label>
-				<dcterms:creator foaf:nick="真　人形屋" dcterms:identifier="9ghHDpjI"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-03T10:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#576">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">576</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">真　人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghHDpjI</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-03T10:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">作者より
 
 約１ヶ月にわたりご愛読、ありがとうございます、賛否両論ありましたが、こうして
@@ -1487,18 +1718,26 @@
 着脱における心情の変化を書くのが苦手でうまくないです、キグルミは人間が操って
 こそ、そこにドラマが生まれるものだと信じています、そういったキグルミドラマ
 を書いていきたいと思います、では、また、いつか。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#590">
-				<rdfs:label>590</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-07T08:59+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#590">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">590</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-07T08:59+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">おはようございます、では本日より第２章の掲載を開始します、誰が見ても普通に
 読める文章を心がけていきます。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#591">
-				<rdfs:label>591</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-07T09:00+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#591">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">591</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-07T09:00+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja"> 第２章　再起
 
 　　　俊介のアパートの謎の大爆発から３ヶ月、その跡地には新しくマンションが再建されていた
@@ -1519,11 +1758,15 @@
 　　　人の気配すらない。
 
 　　　これからは俊介とリナは魂を共有しているため、心の中でお互いで会話できるのだ</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#592">
-				<rdfs:label>592</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-07T09:01+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#592">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">592</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-07T09:01+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介（俺どうなったんだ、そっか、リナと同化して、そっから意識が飛んで・・）
 　　　リナ（俊介）
 　　　俊介（リナ、どうして、きみはたしか、あのとき）
@@ -1544,11 +1787,15 @@
 　　　俊介（え？マジ、そっか、どんなのがいいかな）
 
 　　　とっさのことだったので、いつものメイド服をイメージすると、意識が投影されて服が出る</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#593">
-				<rdfs:label>593</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-07T09:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#593">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">593</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-07T09:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">接近する物体は荷馬車だった、ゴトゴトこっちに接近してくる、帽子を被った男が乗っている
 　　　リナ（声、かけてみたら？）
 　　　俊介（そうだな・・でも、日本語通じるかな？）
@@ -1569,11 +1816,15 @@
 　　　リナ（わからない）
 
 　　　男「おめえ、こんなとこで何してるだ、いつまでもこんな危険なとこにいたら盗賊に襲われるぞ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#594">
-				<rdfs:label>594</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-07T09:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#594">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">594</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-07T09:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 　　　リナ「ここって、盗賊とかいるんですか？」
 　　　男「んだ、用がないなら、おら行くぞ。」
@@ -1594,11 +1845,15 @@
 　
 　　　するとリナはいきなり服をめくりだす、少し色っぽいしぐさをしてみる、いわゆる色じかけだ
 　　　魂を共有する二人は身体のコントロールできるのも二人なのだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#595">
-				<rdfs:label>595</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-07T09:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#595">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">595</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-07T09:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介（な、なにしてんだよリナ）
 　　　リナ（相手は男よ、色じかけで落ちないわけないわ）
 
@@ -1620,21 +1875,29 @@
 　　　リナ「はい？」
 
 　　　俊介（なに、このサムって人、俺のことわかったのか）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#600">
-				<rdfs:label>600</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-07T11:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#600">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">600</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-07T11:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">前回は助手がやっていたのですが、前回は助手の意識も記憶もほとんどない状態
 で動いてました。リナの精神は石がリナの意思を反映させることができたのです
 今回は俊介とリナが同時に会話できるようにしたのはこの作品の醍醐味なんです。
 二人で協力して問題を解決する、俊介とリナの愛も深まる、今回はSFファンタジー
 にしてみました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#604">
-				<rdfs:label>604</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-08T08:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#604">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">604</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-08T08:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナ「どうゆうことですか？」
 　サム「リナ、本当は男なんだろ？」
 　リナ「私は女です。」
@@ -1654,11 +1917,15 @@
 
 　動揺するリナをよそ目に女は、完全にキグルミから身体を出す、サムの外見は中肉中背の３０代
 　の中年男だが、中身の女はまだ若いようだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#605">
-				<rdfs:label>605</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-08T08:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#605">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">605</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-08T08:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">女「さ、私も正体を見せたんだ、あんたも見せな。」
 　リナ「正体もなにも私は、なにも着てません。」（本当は着てるけど）
 
@@ -1679,11 +1946,15 @@
 
 　そう、俊介とリナは爆発の衝撃で次元の扉がなんらかの原因で開いてしまったのだ、すなわちここは
 　異世界なのだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#606">
-				<rdfs:label>606</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-08T08:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#606">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">606</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-08T08:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介（ってことは、俺たち異世界に来たってことか）
 　リナ（そうみたいね）
 
@@ -1702,11 +1973,15 @@
 　俊介（カイザ・・カイザってまさか、Drカイザか）
 　リナ（まさか・・そんな、Drカイザがこの世界にいるってゆうの）
 　俊介（わからない、けど、リナのこともあるし、この人たちのキグルミもそのコピーみたいなもんかな）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#619">
-				<rdfs:label>619</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-09T08:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#619">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">619</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-09T08:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja"> Dｒカイザもこのキグルミキングダムに来ていたのだ、最初の爆発でこれも同じ現象が起こっていたのだ　
 　　ではなぜ遺体が発見されたのか、異次元空間のねじれがこの国にも起きたのだ、Dｒカイザと入れ違いに
 　　この世界の人間が一人、現実世界に飛ばされたのだ。
@@ -1727,11 +2002,15 @@
 
 　　俊介（悪い人じゃないみたいだな）
 　　リナ（うん、メリッサさんいい人みたい）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#620">
-				<rdfs:label>620</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-09T08:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#620">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">620</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-09T08:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　しばらくして、いきなり馬車が急に停止する、勢いでリナも壁に叩きつけられる
 　
 　　俊介（なんだ？）
@@ -1753,11 +2032,15 @@
 　　盗賊「なんだ、これだけか、もっとあるだろ、出せ。」
 　　サム「それだけだ、それ以上は出せない。」
 　　盗賊「後ろの荷台になにかあるだろ、持ち物全部だせ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#621">
-				<rdfs:label>621</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-09T08:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#621">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">621</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-09T08:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">サム「やめろ、金は出しただろ、荷物など、どうでもいいじゃないか。」
 　　盗賊「うるさい、おい、調べろ。」
 
@@ -1777,11 +2060,15 @@
 　　全員フードをはずすと、全員が女だった。
 
 　　俊介（女？いや、この世界じゃ、逆なんだよな、ってことは）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#622">
-				<rdfs:label>622</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-09T08:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#622">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">622</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-09T08:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">  お頭「私はたとえ相手が女子供であろうとも容赦しない。」
 　　リナ「女の子には優しくしろって親に習わなかったの？」
 　　お頭「ははは、私の親は私を生んですぐ私を捨てた、金がなくて私を売ったんだ、小さい頃
@@ -1801,11 +2088,15 @@
 　　リナ「なに、自分勝手なことばかり言って、それに私はこの世界の人間じゃないの。」
 　　お頭「なに？この世界の人間じゃないだと？」
 　　リナ「ええ、だから、私は誰も着てません。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#623">
-				<rdfs:label>623</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-09T08:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#623">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">623</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-09T08:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">お頭「そうか、じゃあ、お前がこの世界の人間ではないとゆう証拠はあるのか？」
 　　
 　　俊介（まいったな、証拠なんてないぞ）
@@ -1826,11 +2117,15 @@
 
 　　お頭「ははは、面白いな、気にいった。」
 　　リナ「え？それじゃあ、逃がしてくれるの？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#624">
-				<rdfs:label>624</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-09T08:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#624">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">624</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-09T08:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　お頭「なわけないだろ、アジトに連れ帰って、ゆっくり遊んでやる、おい、連れてけ。」
 　
 　　と部下に命令を下すと、部下がリナに縄をかける、縄がリナの身体にくいこむ
@@ -1851,11 +2146,15 @@
 
 　　サム「ここは？俺たちはどうなったんだ。」
 　　リナ「捕まったの、捕虜みたいなものね。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#628">
-				<rdfs:label>628</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-10T08:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#628">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">628</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-10T08:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">  俊介たちにはふにおちなないことがあった、なぜDｒカイザがこんなキグルミを作り
 　国民全体に着ることを命令させたのか、その真の目的とは一体なんなのか。
 
@@ -1876,11 +2175,15 @@
 　サム「だから、俺も最初、リナが異世界の人間だって聞いてからびっくりしたよ、ラグナロクが
 　回避できる、生き残れると思ったからな。」
 　リナ「そうですの。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#629">
-				<rdfs:label>629</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-10T08:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#629">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">629</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-10T08:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介（やっぱ俺たちの事なんだぜ異世界の人間って、でも神秘の七つの石ってのがわからない）
 　リナ（もしかして、リナの身体にあるエネミーストーンのことじゃないかしら）
 　俊介（なるほど、あ、でも、俺たちの石は六つだぜ、あと一つは？）
@@ -1900,11 +2203,15 @@
 　盗賊「うるさい、邪魔だてするとお前も痛い目をみることになるぞ。」
 
 　リナは手を縛られているためサムにすりよってサムをかばう</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#630">
-				<rdfs:label>630</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-10T08:29+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#630">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">630</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-10T08:29+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　リナ「無抵抗の人間をいたぶってなにが楽しいんです。」
 　　盗賊「お前もどうやら痛い目をみたいみたいらいしいな。」
 
@@ -1925,11 +2232,15 @@
 　　洞窟の穴を改装してあり、中にはベットや机など、豪華な装飾品がある。
 
 　　お頭「まあ、そこに座りな。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#631">
-				<rdfs:label>631</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-10T08:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#631">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">631</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-10T08:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナはそのまま、そこにペタンと座る、あいかわらず手は縄で縛られたままだ。
 　　　
 　　　　リナ「お頭さん、縄を解いてください、痛くてしょうがないんですけど。」
@@ -1949,11 +2260,15 @@
 
 　　　俊介（そういえば俺とリナってキスしてなかったな）
 　　　リナ（そうね、ってことは私のファーストキスはリンダさん？）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#632">
-				<rdfs:label>632</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-10T08:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#632">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">632</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-10T08:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リンダ「リナが本当に異世界の人間なら、ラグナロクを回避できるかもしれないな。」」
 　　　リナ「サムさんも言ってました、世界の終末ラグナロクが近いと、そして異世界から来た人間がそれを
 　　　救くうのだと。」
@@ -1972,11 +2287,15 @@
 　　　リンダ「自然の摂理を無視した力がその石だ、奴はなんらかの方法で賢者の石を手に入れ、国王に自分の
 　　　絶対忠誠を誓った、国王のオーディンは、自分の支配権拡大のため近年、隣国に侵略を計画しているらしい
 　　　それには大量の兵が必要になる、そこでオーディンはDｒカイザと賢者の石で兵隊を生み出したんだ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#633">
-				<rdfs:label>633</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-10T08:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#633">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">633</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-10T08:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 　　　リンダ「しかし、万物の摂理を無視した代償は国を荒廃させる結果になってしまった、人間の精神を大量
 　　　に必要としているのだ。」
@@ -1997,11 +2316,15 @@
 　　　リンダ「破壊の使途フレイ、戦慄の覇者バルキリー、戦場の神ワルキューレ、こいつらがオーディンの
 　　　側近にいつもはりついているため王宮に近づけない、オーディンもまた世界に３つしかない神器の一つ
 　　　グングニルの槍を持っているんだ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#640">
-				<rdfs:label>640</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T08:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#640">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">640</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-11T08:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">  リンダの説明を聞いていたが、だんだん事の重大さが身にしみてきた俊介とリナ
 　　　　しばらく呆然となる。
 　　　
@@ -2021,11 +2344,15 @@
 　　　リナ「じゃあ、そのキグル民さんに会ってドラゴンオーブをもらいましょう。」
 　　　リンダ「そんなことができたらとっくにやっている、彼らは遊牧民族だ、この世界を絶え間なく
 　　　移動しているんだ、今、どこにいるのかもわからん。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#642">
-				<rdfs:label>642</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T08:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#642">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">642</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-11T08:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介もリナも落胆の色が見えはじめる、万策つきたり、もはやどうすることもできないまま
 　　　世界の終末を迎えるのか。
 　　　
@@ -2046,11 +2373,15 @@
 　　　ピアス、腕輪、脚輪にはめ込まれたエネミーストーンが光を放つ、意識を石に集中させる
 　　　リナの服がメイド服から、ブルーメタルの甲冑にかわる、羽飾りの兜、剣と盾がでる、
 　　　そう、俊介がスペースランドで着ぐるんだ月の使途アルテミスだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#643">
-				<rdfs:label>643</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T08:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#643">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">643</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-11T08:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナ（俊介、これは？）
 　　　俊介（覚えてる？二人でいったスペースランドで見ただろ）
 　　　リナ（でも、あのときは俊介さんトイレで、知らないはずじゃ？）
@@ -2072,11 +2403,15 @@
 　　　堂々と名乗るぞ。」
 　
 　　　リナ「もうすこしこのまま盗賊のほうが、こっちも動きやすいでしょう、そうしてもらえませんか？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#644">
-				<rdfs:label>644</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T08:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#644">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">644</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-11T08:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リンダ「悪政オーディンを退けて、新しい国王を選出するんだ。」
 　　リナ「新しい国王ですか？」
 　　リンダ「ああ、ここだけの話だが、王宮の地下神殿にこの国の真の王が封印されているとゆうんだ。」
@@ -2097,11 +2432,15 @@
 　　リナ「これは私の石の力です、待ってくださいね、今もとの姿に戻ります。」
 
 　　甲冑から、メイド服に切り替わる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#645">
-				<rdfs:label>645</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T08:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#645">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">645</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-11T08:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">サム「リナも盗賊になるのか？」
 　　リナ「いえ、表向きは盗賊ですが、この人たちは、命をかけて国民をオーディンの支配から救う
 　　ため戦っているんです、私はこの人たちと共にオーディンに戦いを挑みます。」
@@ -2122,11 +2461,15 @@
 　　からきた救世主リナだ、そして、仲間のサムだ。」
 
 　　リナ「よろしくリナです、微力ながらみなさんと共に自由を勝ち取りましょうね。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#646">
-				<rdfs:label>646</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-11T08:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#646">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">646</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-11T08:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リンダ「さて、ここからオーディンの城まで約５０キロだ、幸いこのアジトはまだ敵に発見されていない
 　　敵襲は考えてはいないが、万が一とゆうこともあるので、スラッシュの兵隊を２０人、警備につける。
 　　残りは、明後日にも出発する。」
@@ -2148,11 +2491,15 @@
 　　リナ「正反対の位置ですね、どうします？」
 　　リンダ「これからの戦いで神器の存在は不可欠だ、どちらも揃えたい、なのでグループを半分に分けて
 　　両方いただく。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#663">
-				<rdfs:label>663</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T08:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#663">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">663</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T08:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">  会議は３時間以上にのぼった、議題はグループ編成の話になってきた、南のフッカモッコ島
 　　にはここから５日以上、北のキグル民に合流するのは最低でも１０日以上かかるらしい。
 
@@ -2173,11 +2520,15 @@
 
 　　俊介（いいのかリナ？危険な旅になるぞ）
 　　リナ（平気よ、リナ、俊介と一緒ならどこにでも行く、言ったじゃないずっと一緒だって）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#664">
-				<rdfs:label>664</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T08:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#664">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">664</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T08:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ここで時間概念の説明、前作でもいったとおり、リナのエネルギーはエネミーストーンに備蓄
 　　されている、事実そのエネルギーは７日しかもたない、この事実は変わらないが、ここでは
 　　俊介たちがいた世界とは時間の流れが違うため、この世界では、１０年は動ける。
@@ -2197,11 +2548,15 @@
 　　盗賊「おー。」
 　　リンダ「おう、ほら、リナもたんと食っておかないとリキが入らないぞ、腹がへっては
 　　戦はできぬとゆうだろ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#665">
-				<rdfs:label>665</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T08:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#665">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">665</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T08:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナ「私たちは戦いに行くわけではないので、私は結構です。」
 　　リンダ「なんだ、私の酒が飲めないのか？」
 　　リナ「そうゆうわけではないんですが、私、お酒だめなんです。」
@@ -2223,11 +2578,15 @@
 　
 　　俊介（みんなが期待してる分、実際に俺たちができることに差異があるよ）
 　　リナ（たいしたことできなくてリンダさんやみなさんの期待が大きいぶんプレッシャーがかかるね）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#666">
-				<rdfs:label>666</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T08:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#666">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">666</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T08:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja"> 出発前夜
 　　　
 　　　リナはなかなか寝ることができずにいた、少し気分を変えるため外に出ることにした。
@@ -2248,11 +2607,15 @@
 　　　リナ「私、みんなが思ってるほどできないかもしれない、この世界に来たのだって偶然だし
 　　　いきなり、世界の終末とか、異世界の救世主とか、短い間にいろんなことありすぎて、
 　　　みんなが私によせる期待に押しつぶされそう、無力な自分が怖いの。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#667">
-				<rdfs:label>667</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T08:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#667">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">667</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T08:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">サム「リナ・・、そんなに自分一人で抱え込むなよ、お前は一人じゃないんだ、俺たち
 　　　がいる、リナはリナに出来ることをすればいいのさ。」
 　　　
@@ -2273,11 +2636,15 @@
 　　　リナ「なに、どうしたのサム？」
 　　　サム「離れたくない、俺、最初会ったときから、リナのこと好きだった。」
 　　　リナ「サム・・気持ちはうれしいけど、今は戦争だし、サムの気持ちに答えてあげられない。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#668">
-				<rdfs:label>668</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-12T08:49+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#668">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">668</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-12T08:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">サム「ほんとは、リナと一緒に行きたかった。」
 　　　リナ「これが終わったら、考えとく。」
 　　　サム「そうか、これが終わったら。」
@@ -2299,11 +2666,15 @@
 
 　　　リナ（なに？いきなりどうしたの？）
 　　　俊介（俺たちに出来ること、ただ持ってても仕方ないだろ、剣の修行するんだ）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#696">
-				<rdfs:label>696</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T07:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#696">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">696</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-13T07:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">  出発の朝
 　　
 　　　リンダ「よーし、いよいよ、出発だ、俺とリナは北のキグル民に、サムと副首領は南のフッカモッコ島に
@@ -2324,11 +2695,15 @@
 　　　リンダ「ここ３日で発足したらしくてな、みんなリナが好きなんだそうだ。」
 
 　　　リナ「ファンクラブなんて作ってくれたなんて、私とーってもうれしいです、ありがとう。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#697">
-				<rdfs:label>697</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T07:26+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#697">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">697</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-13T07:26+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">盗賊「我々、リナ様ファンクラブは命をかけてリナ様をお守りします。」
 　　　リナ「ありがとう、でも、みなさんもどうぞご自分の命を大切にしてくださいね。」
 
@@ -2350,11 +2725,15 @@
 　　　リンダ「よし、出発せよ。」
 
 　　　そして、サムと副首領の一段は南のフッカモッコ島に向けて旅だった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#698">
-				<rdfs:label>698</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T07:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#698">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">698</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-13T07:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　リンダ「よし、我々も出発だ、いくぞ。」
 
 　　　こうしてリンダとリナは北の遊牧民族のキグル民捜索にアジトをあとにした、旅の道は険しい
@@ -2375,11 +2754,15 @@
 　　　俊介（げ、これはまずいな、どうみたって俺たちの倍はいるぞ）
 　　　
 　　　リンダ「頭数だけ多けりゃいいってもんじゃないよ、お前らの親分をだしな。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#699">
-				<rdfs:label>699</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T07:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#699">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">699</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-13T07:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja"> すると、目の前の大きな岩の頂上に一人の男が立っていた、そしてそのまま飛び降りた
 　　
 　　　俊介（げ、まじか、あの岩どうみたって、５メートルはあるぞ）
@@ -2400,11 +2783,15 @@
 
 　　　リナ「待ってください、喧嘩はいけません、ここは話し合いで解決しましょう。」
 　　　リンダ「だめだ、こいつらは話し合いでどうにかなる連中じゃない。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#700">
-				<rdfs:label>700</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T07:29+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#700">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">700</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-13T07:29+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">イーグル「なんだ、お前は、みたこともない服を着ているな。」
 
 　　　リンダ「聞いて驚け、リナはこの世界を破滅から救うため天からかの使者リナだ。」
@@ -2426,11 +2813,15 @@
 　　　ほうがいいだろうが。」
 
 　　　リナ「それは間違ってます、世界が消滅したらあなたがただって生きてはいられないんですよ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#701">
-				<rdfs:label>701</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="38GE8cA6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T07:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#701">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">701</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38GE8cA6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-13T07:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">イーグル「わからない娘だな、いーか、俺たちはもう命など惜しくない、どうせみな消滅する
 　　　運命なら堅苦しく生きてるなんていやだ、好きなことをやって生きたいんだ。」
 
@@ -2452,11 +2843,15 @@
 　　
 　　俊介（なんだ？なにするつもりなんだ）
 　　リナ（俊介みて、イーグルの身体の周りに高エネルギー反応があるわ、なにか撃ってくる）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#923">
-				<rdfs:label>923</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="nNdD.1zM"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-29T13:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#923">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">923</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">nNdD.1zM</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-29T13:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">まばゆいレーザーのようなものがこっちにものすごい勢いで飛んでくる
 　　　
 　　　リナ「みんな、伏せて。」
@@ -2477,11 +2872,15 @@
 
 　　　イーグル「ははは、どうだ。」
 　　　リナの拳に力がこもってきた</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#924">
-				<rdfs:label>924</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="nNdD.1zM"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-29T13:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#924">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">924</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">nNdD.1zM</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-29T13:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介（あいつ、許さねー）
 　　　リナ（俊介、落ち着いて、戦っちゃいけない）
 
@@ -2502,11 +2901,15 @@
 　　　リナの剣を紙一重でかわしていく、かすりもしないことに俊介も焦りがでてくる
 
 　　　イーグル「なんだその剣は、この素人め、ふん。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#925">
-				<rdfs:label>925</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="nNdD.1zM"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-29T13:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#925">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">925</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">nNdD.1zM</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-29T13:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">剣をはじき飛ばされる、すかさず至近距離でマーダーキャノンをあてにくるイーグル、すかさず
 　　　盾を構える。
 
@@ -2526,11 +2929,15 @@
 　　　リナ（ちょ、ちょっと、格闘なんて、私の身体がもたないよ）
 
 　　　リナの言葉を無視して、イーグルに立ち向かうことになった</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#926">
-				<rdfs:label>926</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="nNdD.1zM"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-29T13:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#926">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">926</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">nNdD.1zM</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-29T13:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja"> イーグル「なにをしたって無駄だ。」
 
 　　　リナ（俊介、落ち着いて、だめ、こうなった俊介は止められない、私もここまでやられたら
@@ -2551,11 +2958,15 @@
 　　　
 　　　次第に追い詰められる、イーグルの回し蹴りがリナのかた口をかする
 　　　リナも体勢を崩して、地面に膝をついてしまう。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#927">
-				<rdfs:label>927</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="nNdD.1zM"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-29T13:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#927">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">927</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">nNdD.1zM</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-29T13:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">スーツなので血がでることはないが、内部にはその衝撃を伝える、膝まずいてしまうリナ
 
 　　　俊介（さすがに、やばいな、もう身体がゆうことをきかなくなってきた）
@@ -2573,11 +2984,14 @@
 　　　イーグル「ただ、いたぶるのでは面白くないだろ、かわいがってやる。」
 
 　　　数人の山賊がリナの手足に縄をかける、手足を縄で拘束され動きがとれなくなった</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#953">
-				<rdfs:label>953</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改#"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-01T17:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#953">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">953</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改#</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-01T17:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナは身動きがとれないまま地面に縛りつけられてしまった
 リナ「ちょっと、なにすんるんですか？これを解いてよ。」
 イーグル「ははは、はいそうですかってほどく奴などいない、少しかわいがってやる。」
@@ -2591,11 +3005,14 @@
 俊介（どうするんだ？）
 リナ（今、右足のロープがゆるいわ、イーグルが近づいたらおもいっきりあそこを蹴って）
 俊介（え？マジ）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#955">
-				<rdfs:label>955</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改#"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-01T17:12+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#955">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">955</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改#</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-01T17:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">イーグル「ははは、いい様だな。」
 
 リナ（もーすこし近づけて）
@@ -2614,11 +3031,14 @@
 イーグル「ぐわー、おのれー。」
 
 俊介（いたそー同情するぜイーグル）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#957">
-				<rdfs:label>957</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改#"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-01T17:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#957">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">957</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改#</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-01T17:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">怒り狂ったイーグルがこっちにむかってくる、痛みと怒りで我を失っているようだ
 斧をふりまわしながら突進してくが、途中で石につまづて転ぶ。
 
@@ -2635,11 +3055,15 @@
 イーグル「くらえ、イーグルクラッチ。」
 リナの正面にきたイーグルは両手でリナをつかみ、背中で手をクラッチさせそのまま
 怪力で締め上げる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#958">
-				<rdfs:label>958</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="N/1v6lWc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-01T17:46+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#958">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">958</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">N/1v6lWc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-01T17:46+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">イーグル「ははは、どうだ、動けないだろ、このイーグルクラッチからは逃れられん。」
 
 俊介（なんだよ、ただのさば折りじゃないか）
@@ -2655,11 +3079,15 @@
 イーグル「おのれ、まずは貴様からだ。」
 
 リナ「俊介、俊介起きて、だめ、気絶してる、しかたないここからはリナだけでやるしかない。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#959">
-				<rdfs:label>959</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="N/1v6lWc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-01T17:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#959">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">959</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">N/1v6lWc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-01T17:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俊介が気絶した今、身体を動かせるのはリナだけだ、しかしリナはコンピュータの精神
 　　だ、実際に身体は俊介のため動かすのはかなりのエネルギーを必要とする。
 　　
@@ -2679,11 +3107,15 @@
 
 　　リンダもしばらく交戦していたが、一瞬の隙をつかれ弾き飛ばされてしまう、リンダが
 　　リナの足元まで地面をなでるように飛ばされきた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#960">
-				<rdfs:label>960</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="N/1v6lWc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-01T17:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#960">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">960</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">N/1v6lWc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-01T17:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リンダ「う、リナ、そ、その姿は」
 　　リナ「ありがとう、ここからは私がやるから、リンダさんは休んでて。」
 　　リンダ「悪い、そうさせてもらうよ。」
@@ -2703,11 +3135,15 @@
 　　
 　　しかし、リナの身体に当たる前に光の盾のようなものにはじかれる、はじかれた光弾はそのまま空に消えていく
 　　それに驚いたのはイーグルだった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#961">
-				<rdfs:label>961</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋　改" dcterms:identifier="N/1v6lWc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-01T17:52+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#961">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">961</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋　改</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">N/1v6lWc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-01T17:52+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">焦るイーグルにゆっくりとちかずいていくリナ、恐怖を感じたのか近寄るリナに対して後退するイーグル
 　　
 　　リナ「あなただけは絶対に許さない、俊介を傷つけた罪は重わ。」
@@ -2727,11 +3163,15 @@
 　　イーグルと山賊はそのまま渓谷に消えていった、鎧が普段のメイド服にもどる、空も黒雲がとれて
 　　日がさす、しかし、激しいエネルギーを消費してしまったためリナの髪がオーシャンブルーから
 　　エメラルドグリーンになっていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#3">
-				<rdfs:label>3</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="oLhH.OUc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-08T10:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#3">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">3</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oLhH.OUc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-08T10:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">激しい戦いを終えたが、俊介もリナも相当ダメージを負っていた、そのまま倒れてしまった
 　　リナが目覚めたときはもう夜になっていた、宿営地にテントを設営されて、リナはそこに寝かされて
 　　いた。
@@ -2752,11 +3192,15 @@
 　　リナ「あのあと、どうなったんですか？イーグルは？」
 　　リンダ「それが俺にもわからねえ、気がついたら奴らはいなくなってたし、リナも倒れてたんだ。」
 　　リナ「そうなんですか。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#4">
-				<rdfs:label>4</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="oLhH.OUc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-08T10:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#4">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">4</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oLhH.OUc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-08T10:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja"> リンダ「私が気を失う寸前にリナをみたとき、リナがなんかいつもと違って見えた
 んだ、鎧の色が違って見えたんだ。」
 
@@ -2769,11 +3213,15 @@
 　リナは起き上がろうと両手をつくが腕に力がはいらない
 　リナ「きゃ、なに腕がうごかない。」
 　リンダ「無理するな、今はゆっくり休め。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#5">
-				<rdfs:label>5</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="oLhH.OUc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-08T10:29+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#5">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">5</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oLhH.OUc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-08T10:29+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナ「ありがと、そうさせてもえると嬉しいです。」
 リンダ「さっき、衛生兵からちらっと聞いたんだが、リナは普通の身体構造じゃないって。」
 
@@ -2787,11 +3235,15 @@
 リナ（もう、俊介の嘘つき、そんなわけないじゃん）
 
 リンダ「じゃあ、私は引き続き見張りをする、いつ敵が襲撃してくるかわかんないしな。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#6">
-				<rdfs:label>6</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="oLhH.OUc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-08T10:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#6">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">6</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oLhH.OUc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-08T10:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナ「そんな、私なら大丈夫ですからリンダさんがお休みになって。」
 　　リンダ「いや、やらせてくれ、それと、私のことリンダでいいよ、私たちはもう友達なんだし。」
 　　リナ「リンダさん・・」
@@ -2811,11 +3263,15 @@
 　　リンダ「キスしていい？」
 
 　　小さくうなずくリナ、ランプの炎をけして、リナとリンダの夜はふけていった</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#7">
-				<rdfs:label>7</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="oLhH.OUc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-08T10:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#7">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">7</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oLhH.OUc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-08T10:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
      一夜明けて出発するこになった、リナの怪我も石の力でなんとか立てるくらいまでは回復した
 　　一行は３５人になっていた、深い山間の小さな町にたどり着く
@@ -2837,11 +3293,15 @@
 　　リンダ「金は出す、頼む、一晩だけでいいんだ。」
 　　男「わかりました、明日の朝には出て行ってくれますね？」
 　　リンダ「わかった、約束しよう。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#8">
-				<rdfs:label>8</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="oLhH.OUc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-08T10:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#8">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">8</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oLhH.OUc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-08T10:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 　　町の宿屋には入れないため、少し町はずれにテントをはるこになった、リナは食料の
 　　買出しに行くことになった。
@@ -2864,11 +3324,15 @@
 　　すると、物陰から男が出てくる、その男には殺気のようなものを感じた
 　　
 　　男「やれやれ、バレてましたか、気配は消していたつもりでしたが。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#9">
-				<rdfs:label>9</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="oLhH.OUc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-08T10:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#9">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">9</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oLhH.OUc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-08T10:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナ「あなたは誰ですか？」
 　　男「人の名を聞くときはまず自分から名乗るのが礼儀じゃないかな？」
 　　リナ「そうね、私はリナっていいます、あなたは？」
@@ -2890,11 +3354,15 @@
 
 　　ロキ「それはどうゆう事なんですリナさん、よかったら僕にだけ教えてもらえませんか？」
 　　リナ「ここでは、なにかとまずいので、人がいない所でお話します。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#10">
-				<rdfs:label>10</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="oLhH.OUc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-08T10:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#10">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">10</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oLhH.OUc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-08T10:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナとロキは町外れの小高い丘にきた、ここからは風景が綺麗で町が一望できるのだ、
 　　木の幹に腰を下ろして話はじめる。
 
@@ -2916,11 +3384,15 @@
 
 　　リナ「ロキさんはこの町でなにをしているんですか？」
 　　ロキ「僕はこの町で学校の教師をしております。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#11">
-				<rdfs:label>11</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="oLhH.OUc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-09T09:49+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#11">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">11</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oLhH.OUc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-09T09:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">リナ「ご両親と暮らしているのですか？」
 　　ロキ「両親はいません、幼いころに・・」
 　　リナ「ごめんなさい。」
@@ -2941,11 +3413,15 @@
 
 　　ロキ「オーディンはただ自分の私腹を肥やすために他国ともう何年も戦争をしています、でも戦争では
 　　なにも変わらない、国民はどんどん苦しい立場におかれ今もこうして苦しんでいる。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#12">
-				<rdfs:label>12</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="oLhH.OUc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-09T09:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#12">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">12</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oLhH.OUc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-09T09:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　しばらくなのも話さないまま二人は風景をぼんやり眺めていた、リナも俊介もロキの生い立ちを
 　　聞いてなにも言えずにいた。
 
@@ -2966,11 +3442,15 @@
 　　リナ「ずいぶん、飼いならしてるんですね、ロキさんの飼い犬ですか？」
 　　ロキ「ええ、こいつが、山で怪我してるところを僕が助けて、それから、ずっと僕と二人っきりで
 　　今まで暮らしてきたんです。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#13">
-				<rdfs:label>13</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="oLhH.OUc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-09T10:14+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#13">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">13</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">oLhH.OUc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-09T10:14+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">しばらく、一緒にあそんでいた、その犬は、銀色の毛並みで、ときどき見せる歯には鋭い牙を
 　　覗かせる。
 
@@ -2990,11 +3470,14 @@
 　　リナ「ロキさんっていいます、こっちがフェンリルちゃん、ロキさん、私たちのリーダーのリンダさん。」
 　　ロキ「よろしく、ロキです。」
 　　リンダ「よろしく、リナみんながまってる帰るぞ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#19">
-				<rdfs:label>19</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-10T22:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#19">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">19</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-04-10T22:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　第２章　最終話
 
 　　リナ「じゃあ、私、キャンプに帰ります、またどこかで会えるといいですね。」
@@ -3013,11 +3496,14 @@
 　　リナは親衛隊の頬にキスしてあげた、あまりのうれしさに気絶してしまった
 
 　　リンダ「やっちゃった、リナも大胆なことすな、ま、いい、さ、飯だ、明日も早いからな。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#344">
-				<rdfs:label>344</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-06-09T20:12+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#344">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">344</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-06-09T20:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そう遠くない未来我々の住む母星地球に人間以外の生命体がきていてるのかもしれない
 　　彼らは我々の文明を超古代から監視し文明のなんらかのコンタクトを取ってきていただろう
 　　人間の文明上で歴史的な快挙や不自然な事件、事故にはなんらかのかたちで宇宙人が関与している
@@ -3038,11 +3524,14 @@
 　　ハンス「表むきではな、だが、当時の捜査体制が今ほどではなかったのでまだ多くの謎が残されている」
 　　マックス「これを自分に捜査しろと」
 　　ハンス「そうだ、着任そうそうでわるいが頼むぞ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#345">
-				<rdfs:label>345</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-06-09T20:13+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#345">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">345</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-06-09T20:13+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「地球暦２０００年に起きた都市近郊の実験施設の爆発事故」
 　　実験施設にはその当時の人間社会では禁じられてた人間のクローンを作る機械やその形跡
 　　が発見された、当時の管理責任者のＤｒカイザとその助手キースがなんらかの実験中に爆破事故
@@ -3064,14 +3553,24 @@
 　　スティーブ「ああ、俺も最初この事件を任されたんだ」
 　　マックス「先輩もこの事件を、でどうなったんです？」
 　　スティーブ「まー聞け後輩、この事件はな・・・」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#350">
-				<rdfs:label>350</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-06-10T08:18+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#350">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">350</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-06-10T08:18+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">これは前回の出来事の別視点からの話です、本編は書きません、別の作家さんの作品
 をお楽しみください。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-11T11:20+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-06-10T08:18+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">50714</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">131</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

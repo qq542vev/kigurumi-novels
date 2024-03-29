@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:09:07+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:09:07+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">愛と正義の美少女戦士ヴィーナスＶ</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-01-30T13:30+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-02-10T20:43+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">28066</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#289">
-				<rdfs:label>289</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-30T13:30+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#289">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">289</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-30T13:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">２００ｘ年３月１９日
 　アキにとのことがあって約三ヶ月あまりが経過した、一人暮らしだった俺の生活
 にも花が咲いたような気がした。
@@ -49,11 +33,14 @@
 思い出があってさ、忘れられないんだ」
 アキ「そーなんだ、あのときは私がどじふんだからね」
 ケイスケ「お前のせいじゃないっていったろ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#290">
-				<rdfs:label>290</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-30T13:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#290">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">290</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-30T13:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">アキ「あのこ、いまごろどうしてるんだろうなー」
 ケイスケ「でもあの子供は強いよ、アキは知らないかもしれないが、あのあと
 写真撮影の最後に並んで待ってんだ」
@@ -74,11 +61,14 @@
 アキ「そうね、中はつらかったけど、子供の笑顔みてたらなんか疲れもふっとんじゃうね」
 ケイスケ「そうだな、またやりたいな」
 そのとき俺の携帯の呼び出し音が鳴る</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#291">
-				<rdfs:label>291</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-30T13:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#291">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">291</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-30T13:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ケイスケ「誰だろ？」
 俺は携帯を開き受信ボタンをおす
 ケイスケ「はい・・・あ、ルミさん、どうしたんです？」
@@ -99,11 +89,14 @@
 大事なクライアントなの、だから、ね、頼めるかしら？」
 ケイスケ「・・・いまはどうっていえないんで、今日中に折り返し電話します」
 ルミ「そう、じゃ、いい返事まってるわ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#292">
-				<rdfs:label>292</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-30T13:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#292">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">292</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-30T13:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ピ　俺は携帯を閉じる
 ケイスケ「ふー・・まずいな」
 アキ「なんだったの？」
@@ -123,11 +116,14 @@
 俺はメモリーから事務所の番号を検索する
 ケイスケ「ああ、なんでもアニメ番組の番宣でキャラクターの着ぐるみで出演だって」
 プルルル（ああルミさん怒るだろうな、ってか、着ぐるみやりたかったな）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#293">
-				<rdfs:label>293</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-30T13:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#293">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">293</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-30T13:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そのときアキが思いがけない行動にでる、いきなり俺の携帯をひったくり電源をきる
 ケイスケ「うお？いきなりなにすんだよ」
 アキ「ケイスケ、さっきいったことほんと？」
@@ -147,11 +143,14 @@
 とき、はじめて客観的にみたんだけど、なんか自分にみられてるようだったし」
 ケイスケ「俺もアキをみてたけど、あのときの自分はからっぽだった、ミケとしてお前をみてた」
 アキ「だからなのね、私もあのときはミケの中のケイスケをまったく感じられなかったんだ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#310">
-				<rdfs:label>310</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-31T10:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#310">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">310</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-31T10:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ケイスケ「じゃ、やるってことでいいんだな、ルミさんに電話するけど」
 アキ「うん、はい、携帯」
 アキはひったくったケイスケの携帯を返す
@@ -172,11 +171,14 @@
 アキ「なんだか、楽しみだね、でも、私はケイスケと一緒に仕事できるならなんでもいいって
 感じ、それに、また着ぐるみやれるなんて、それにケイスケって着ぐるみすると急にかわいく
 なるんだもん、びっくりしちゃった」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#311">
-				<rdfs:label>311</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-31T10:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#311">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">311</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-31T10:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俺はアキの言葉を聞いて、はっとあのときの感覚を思い出す
 ケイスケ心の声（そ、そうだ、俺はあのとき、いままで感じたことない感覚に襲われたんだ）
 ケイスケ「なあ、アキ、俺、そんなにかわいくみえたか？」
@@ -196,11 +198,14 @@
 アキ「えー、そんなことないよ、そんなこと・・・」
 アキの脳裏に斉藤の顔がうかぶ、一人で暴れるアキ
 ケイスケ「おいおい、なに一人でアバレてんだ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#312">
-				<rdfs:label>312</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-31T10:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#312">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">312</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-31T10:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">我にかえるアキ
 アキ「ううん、なんでもないの、気にしないで」
 ケイスケ「気にするなといわれると、余計、気になるもんだろ普通、ってゆうか今日のアキなんか
@@ -221,11 +226,14 @@
 アキ「前は動物だったじゃない？こんどは人間タイプのがいいな、きれいなドレスのお姫様
 とか、あ、でも男の子もやってみたいな、なんだか面白そうだし」
 ケイスケ「ふーん」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#313">
-				<rdfs:label>313</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-31T10:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#313">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">313</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-31T10:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">アキ「ケイスケは？」
 ケイスケ「俺か、俺は・・・そうだなー」
 俺は迷っていた、この間のこともあり女の子キャラといいたいが、ここはたてまえで
@@ -246,11 +254,14 @@
 すると、内ポケットにしまった携帯がなりだす
 ケイスケ「はい、渡辺ですが」
 ルミ「あ、ケイスケ、私よルミよ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#314">
-				<rdfs:label>314</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-31T10:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#314">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">314</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-31T10:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ケイスケ「あ、ルミさん、どうしたんです」
 ルミ「さっき言いわすれたんだけど、今回の仕事、内の事務所からは３人でることになってるの」
 ケイスケ「え？３人って、俺とアキと・・あとは誰なんですか？」
@@ -271,11 +282,14 @@
 もいないし、私、こうみえても寂しがりやなの、一人の食卓も寂しくなってきたの」
 ケイスケ「ルミさん・・・」
 ルミ「ってことだから、まってるわね」　プー、プー　電話がきれる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#321">
-				<rdfs:label>321</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-01T10:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#321">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">321</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-01T10:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ケイスケ「あの、あ、ルミさん、もしもし？・・・切れてる」
 　ケイスケ心の声（まいったなー、でも行かないと後でどうなるかわかんないしな）
 　俺はそのままルミの家にいった
@@ -295,11 +309,14 @@
 　なのしってるでしょ、今、練習してるんだって、それでねおいしいもの食べさせてあげてと
 　アキからいってきたのよ」
 　ケイスケ「そうなんですか・・（アキのやつそんなことしてたのか）」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#322">
-				<rdfs:label>322</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-01T10:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#322">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">322</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-01T10:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ルミにダイニングルームに招かれる
 　ルミ「さ、今日はすき焼きよ、ケイスケのために作ったのよ、安心して、肉は国産牛肉だ
 　から」
@@ -320,11 +337,14 @@
 　ケイスケ「いえ、アニメ見ないもんで」
 　ルミ「それはいけないわね、はい、これそのアニメのビデオだから役づくりしといて」
 　ケイスケ「美少女ですか、じゃあ俺はこの二枚目の男ですね」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#323">
-				<rdfs:label>323</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-01T10:46+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#323">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">323</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-01T10:46+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ルミ「え？それはあんたはこれ、水の精霊ブルーアクエリアスよ」
 　ケイスケ「え？水の精霊ブルーアクエリアス？ってこの女ですかー」
 　ルミ「そうよ、あなたなら、他の子たちとたっぱも体型もかわらないし」
@@ -344,11 +364,14 @@
 　ケイスケ「ルミさん、笑い事じゃないっすよ」
 　ルミ「ごめん、ごめん、けどかわいかったのは事実よ」
 　ケイスケ「ルミさんまで、ひどいっすよ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#324">
-				<rdfs:label>324</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-01T10:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#324">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">324</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-01T10:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ルミ「で、アキもあんたの変身は認めてるってことね、これはやりやすくなったわね」
 　ケイスケ「そんな、俺、俺、できるんでしょうか？」
 　ルミ「それはあなたしだいだけど、私はできるって信じてる」
@@ -367,11 +390,14 @@
 　ケイスケ「もしもし、アキか、どうしたんだ」
 　アキ「どうしたじゃないよ、いまどこなの？」
 　ケイスケ「え？あ、ああ先輩の部屋だよ、あれから呼ばれたんだ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#325">
-				<rdfs:label>325</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-01T10:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#325">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">325</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-01T10:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">アキ「そう、じゃあまだ部屋じゃないんだ」
 　ケイスケ「でも、いまから帰るとこなんだ、アキも友達にはあえたのか？」
 　アキ「うん、とってもたのしかったよ、じゃあまた明日ね」
@@ -391,11 +417,14 @@
 　ドン　すごい勢いでぶつかる
 　ケイスケ「あいたたた、っておい、大丈夫か？」
 　そこに倒れていたのは赤いコートの女が倒れていた</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#327">
-				<rdfs:label>327</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-02T10:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#327">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">327</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-02T10:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俺は赤いコートの女をゆする
 　ケイスケ「おい、大丈夫かー、もーしかたないな」
 　俺は近くの自室に運び込む、ある意味かなり大胆な誘拐である
@@ -415,11 +444,14 @@
 　ケイスケ「いいたくないなら無理に言わなくていいよ」
 　女「友達と飲んでて、酔って帰えってたら道に迷って、悔しくなって空き缶けったら
 　怖いお兄さんに当って、追いかけられてたの」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#328">
-				<rdfs:label>328</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-02T10:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#328">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">328</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-02T10:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ケイスケ「そうなんだ（なんだか天然っぽいぞ）」
 　女「じゃ、いつまでもお邪魔するわけにはいけませんので、私、これでおいとまします」
 　ケイスケ「まあまあ、夜も遅いし今日はここで休んでいきなよ」
@@ -439,11 +471,14 @@
 　ケイスケ「トミー？へーあだ名でもいいよ、いつまでもキミじゃだめだし」
 　トミー「ほんとにすみません、ここまでお世話になって自分の素性を明かさないなんて」
 　ケイスケ「いいよ、初対面で自分のことあまり話さない人はいるよ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#329">
-				<rdfs:label>329</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-02T10:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#329">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">329</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-02T10:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ピー　コンロにかけておいた、やかんから音がする、あらかじめマグカップにいれておいた
 　コーヒーの粉末にお湯を注ぐ、トミー用にミルクと砂糖を入れる
 　ケイスケ「はい、トミーちゃん、ミルクと砂糖入れといたよ」
@@ -463,11 +498,14 @@
 　ですねー」
 　ケイスケ「じつは、そのこが俺の彼女なんだ・・・」
 　トミー「えー、ほんとですかー、こんな美人の彼女さんいてケイスケさんもてるんですね」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#330">
-				<rdfs:label>330</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-02T10:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#330">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">330</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-02T10:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">トミーはその写真をいつまでも眺めている
 　トミー「ケイスケさんのミケ猫かわいいですね、変に色気がでてるしー」
 　ケイスケ「そうかなー、俺もこときが初めての着ぐるみだったんだ、最初は彼女がミケに入って
@@ -486,11 +524,14 @@
 　ケイスケ「俺なんかこの日にたまたまこの仕事で着ただけだからなー」
 　トミー「ケイスケさんはどんな仕事をしてるんですか？」
 　ケイスケ「人材派遣だよ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#331">
-				<rdfs:label>331</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-02T10:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#331">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">331</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-02T10:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">トミー「私も役者だけじゃまだ食べてけなくて、バイトしてるんです」
 　ケイスケ「へー、トミーちゃんも苦労してるんだね」
 　トミー「う、先月もつらくて、最近あんまり食べてないんです」
@@ -510,20 +551,26 @@
 　見学にきてくださいよ、彼女さんと」
 　ケイスケ「あ、ああわかったよ（ずいぶん積極的なんだな）」
 　トミー「約束ですよ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#332">
-				<rdfs:label>332</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-02T10:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#332">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">332</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-02T10:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">訂正　　３３１
 ケイスケ「やめてけれよ、恥ずかしいな」
 
 ケイスケ「やめてくれよ、恥ずかしいな」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#342">
-				<rdfs:label>342</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-03T10:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#342">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">342</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-03T10:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そんな話をして俺とトミーは朝まで遊んでいた
 　３月２０日　ＡＭ：７：００
 
@@ -544,11 +591,14 @@
 　部屋のドアをあけて中にはいる、テーブルの上に携帯電話が置いてあった
 　ケイスケ「これは・・きっと彼女のだ、まいったな、忘れていったんだ」
 　すると、いきなり携帯が鳴り出す</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#343">
-				<rdfs:label>343</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-03T10:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#343">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">343</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-03T10:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ケイスケ「うお！びっくりしたー」
 　プルルル　プルルル　俺はおそるおそる受信ボタンをおす
 　ケイスケ「・・もしもし・・」
@@ -569,11 +619,14 @@
 　ケイスケ「いや、それはまずいよ、俺にはアキがいるし」
 　トミー「アキ？彼女さんの名前ですか？」
 　ケイスケ「まあね」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#344">
-				<rdfs:label>344</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-03T10:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#344">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">344</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-03T10:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">トミー「じゃあ、そのアキさんにもいつか会いたいです」
 　ケイスケ「いや、それはまずいよ」
 　トミー「じゃ、そうゆうことで」
@@ -590,11 +643,14 @@
 　と、俺は携帯をたたむ
 　ケイスケ「ふー、なんだかややこしくなってきたな」
 　俺は昨晩、ルミにもらった、仕事の資料をリュックにいれて部屋をでた</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#345">
-				<rdfs:label>345</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-03T10:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#345">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">345</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-03T10:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ＡＭ：１０：００
 
 　駅についた俺は待ち合わせ場所につく
@@ -615,11 +671,14 @@
 　ケイスケ「俺はあまり・・・」
 　アキ「えーなんで、ケイスケはこの二枚目のイケメンでしょ、で私が主人公の女の子で・・楽しみ」
 　ケイスケ「いや、俺はこれなんだ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#346">
-				<rdfs:label>346</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-03T10:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#346">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">346</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-03T10:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俺は自分の役のキャラクターを指差す
 　アキ「えー、これ女の子じゃなーい」
 　ケイスケ「そうなんだ、水の精霊ブルーアクエリアスってゆうんだ」
@@ -639,11 +698,15 @@
 　アキ「でも楽しみ、また着ぐるみできるし、しかもこんどは人間みたいだし」
 　ケイスケ「どう？これからキャラショーでもみにいかないか、参考になると思うけど」
 　アキ「それいいね、行こうよ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#354">
-				<rdfs:label>354</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-04T10:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#354">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">354</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-04T10:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">市内某デパート屋上
 　アキ「ついたねー、わー子供がいっぱいだねー」
 　ケイスケ「ちょっと恥ずかしいな」
@@ -664,11 +727,15 @@
 　そのとき俺には一瞬、着ぐるみが俺のほうをみるようなしぐさをしたようにみえた
 　ケイスケ「おいおいアキそんなにしがみついたらウサギだって大変じゃないか、それはアキもわかってるだろ」
 　アキ「そうね、ウサギさんごめんなさい」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#355">
-				<rdfs:label>355</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-04T10:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#355">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">355</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-04T10:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ウサギもまるで、いいよ、みたいなポーズをとる、そして手にした風船をアキに渡す
 　アキ「ありがとー、見てケイスケ、風船もらちゃった」
 　ケイスケ「ああ、よかったな、そろそろショーがはじまるぜ」
@@ -689,11 +756,15 @@
 　ケイスケ「え？聞こえない、なんていったの？」
 　アキ「すごい音ね」
 　ケイスケ「そうだな」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#356">
-				<rdfs:label>356</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-04T10:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#356">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">356</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-04T10:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja"> 一方、さっきまで子供と遊んでいたウサギの着ぐるみもショー開始３０分前になると忽然と姿を消していた
 　どこにいったかとゆうと、ステージ裏のスタッフルームだった
 　部屋に入るとおなじような動物の着ぐるみがいる
@@ -714,11 +785,15 @@
 　女２「うっせーよ、寒いんだよ、風、ビュービュー吹いてんじゃん」
 　そんな彼女たちもなかにも一人しずかなコもいる
 　女「どーしたの？疲れた？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#357">
-				<rdfs:label>357</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-04T10:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#357">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">357</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-04T10:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">女４「ううん、大丈夫、私こうゆうの慣れてるから」
 　女「じゃあどうしたの？元気ないね」
 　女４「さっきね、知り合いの人をみかけたような気がするの」
@@ -738,11 +813,15 @@
 　ろくな会話もないまま、着ぐるみ女子控え室のなか、なかには赤いコートがハンガーにかけてあった
 　マネージャー「はいはい、喧嘩は仕事がおわってからしてちょうだい、もうすぐショーがはじまるから全員持ち場に
 　ついてちょうだい」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#358">
-				<rdfs:label>358</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-04T10:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#358">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">358</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-04T10:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">場内アナウンス「魔法戦隊マジックマンショーがはじまるよー」
 　アキ「あー始まったよー」
 　ケイスケ「そうだな」
@@ -763,11 +842,15 @@
 　が、でてきたのは、悪のボスと数人の戦闘員だった
 　悪ボス「ふははは、なにがマジックマーンだ、おろかな人間どもめ、この地球はわれわれネタバラシーが征服するのだ
 　さあ、我が部下たちよ、手始めにここにいる人間を襲うのだ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#359">
-				<rdfs:label>359</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-05T09:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#359">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">359</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-05T09:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">戦闘員「イエッサー」
 　戦闘員はそのまま会場観客席まで乗り込んできた
 　いきなりの襲撃で客席がどよめく
@@ -783,11 +866,15 @@
 　戦闘員「ぐぎゃー」
 　正面の戦闘員がきりかかるが、寸前で受身をりかわす、敵の背後に回りこむと、その体勢から
 　蹴りを腹部めがけてけりこむ</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#360">
-				<rdfs:label>360</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-05T09:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#360">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">360</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-05T09:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">息もつかないアクションで観客を魅了する
 　ケイスケ「やるなーさすがプロだな、ピンクも動きにキレがあっていいな」
 　ケイスケ（どんな娘がやってんだろなー）
@@ -807,11 +894,15 @@
 　攻撃をうけた戦闘員はトンボがえりをきめる
 　戦闘員はそのまま下手に逃げるようにはける
 　ピンク「待ちなさい、逃がさないわよ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#361">
-				<rdfs:label>361</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-05T09:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#361">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">361</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-05T09:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ここで中間のお遊びタイムにさしかかる
 　悪ボスと戦闘員がでてくる
 　悪ボス「くっそー、なかなかやるなマジックマン、だがそれもここまでだ、ここにいる人間を我々の仲間にするのだ」
@@ -831,11 +922,15 @@
 　声「待て！女の子をはなせネタバクーロ元帥、とお」
 　舞台の上手と下手からでてくる、レッドとブラックはロンダートからのバク転で、でてくる
 　ブルーとピンクはトランポリンを利用して前転宙返りで飛び込んでくる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#362">
-				<rdfs:label>362</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-05T09:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#362">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">362</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-05T09:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">しかし、誰にでもミスはあるものだ、着地地点で微妙にバランスをくずすピンク
 　でもそこはさすがプロ、なにごともなかったかのように立ち上がる
 　レッド「ダイヤレッド」ブルー「ブルースペード」ブラック「ブラッククラブ」ピンク「ハートピンク」
@@ -855,11 +950,15 @@
 　と、ふらつきながら下手にはける
 　アキの縄もとかれ解放される
 　ＭＣ「みんなーこのあと握手と写真撮影があるからたのしみにしててね」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#363">
-				<rdfs:label>363</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-05T09:49+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#363">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">363</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-05T09:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">アキ「あー、楽しかった」
 　ケイスケ「だいぶ楽しんでたな、さ、見るもんみたし帰るか」
 　アキ「そうね」
@@ -880,11 +979,15 @@
 　ケイスケ「じゃあ、アキがんばれよ、俺は外で待ってるから」
 　アキ「うん、がんばる」
 　スタッフ「なにいってるんです、あなたがやるんですよ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#372">
-				<rdfs:label>372</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-06T10:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#372">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">372</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-06T10:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">アキ「えー、なんで？」
 　ケイスケ「いや、ちょっと待ってくださいよ、なんで俺が」
 　と言いつつも、ちょっとドキドキだったが、高ぶる感情を理性で押さえ込む
@@ -905,11 +1008,15 @@
 　彼女の右足首は青く腫れていた
 　アキ「わ、大変、すごい腫れてますね」
 　ピンク役の女の子は裸足になり氷水に足を入れる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#373">
-				<rdfs:label>373</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-06T10:03+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#373">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">373</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-06T10:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">俺はＹシャツとトランクスになる
 　スタッフ「じゃあこれから着替えてもらいます、まずは体型補正からなんですが・・」
 　レッド「下は俺の予備の競泳用パンツ使いなよ」
@@ -930,11 +1037,15 @@
 　俺はそのまま鏡をみて、視線をあわせる
 　アキ「ケイスケかわいいーホンとの女の子みたい」
 　俺はそのままアキのほうにふりむきざまにＶサインをきめる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#374">
-				<rdfs:label>374</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-06T10:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#374">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">374</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-06T10:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ＭＣ「すみません、もうお客が並んで待ってます、もう限界です、はやくマジックマンをだしてください」
 　スタッフ「わかった、こっちは準備ＯＫよ、じゃ、急だけどがんばってください」
 　ピンク役の女の子「私なんかの後でほんとにごめん、でもあなたならやれるって信じてる、がんばって」
@@ -955,11 +1066,15 @@
 　ケイスケ心の声（やっべーよく覚えてないぞ、こうだったかな？？）
 　ピンク「ハートピンク」
 　会場が静まる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#375">
-				<rdfs:label>375</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-06T10:18+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#375">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">375</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-06T10:18+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">会場「わーマジックマンだー」
 　なんとかポーズも間違ってないようだ、俺はこぶりに会場にむかって手をふる
 　ＭＣ「じゃあこれからお楽しみの握手会と写真撮影をはじめます」　
@@ -980,11 +1095,15 @@
 　男の行動にスタッフが気がつき引き離す
 　スタッフ「お客様、他のお客様のご迷惑になりますのでご遠慮ください」
 　男「写真も一緒にとろうねー」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#376">
-				<rdfs:label>376</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-06T10:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#376">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">376</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-06T10:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">こんどは写真撮影だ、列も半端な数ではない、この日は天気もよく気温も高い
 　汗をにがさない素材のスーにくわえ被りなれてない面が体力を奪っていく
 　その列ももうまもなく終わる、しかし、悪夢は忘れたこと頃にやってくる
@@ -1004,11 +1123,15 @@
 　レット「俺たちのことテレビでも応援してくれよ」
 　そのまま上手にはける
 　控え室にかえる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#377">
-				<rdfs:label>377</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-07T10:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#377">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">377</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-07T10:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">アキ「お疲れケイスケ」
 　俺はすぐに面をとる
 　ケイスケ「なんなんですか、あの男」
@@ -1029,11 +1152,15 @@
 　スタッフ「うーん、みんな疲れてるとこ悪いんだけど、その子供のためにでてくれない？」
 　レッド、ブルー、ブラックがうなづく
 　スタッフ「すみませんが、ケイスケさんも、もう１回おねがいします」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#378">
-				<rdfs:label>378</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-07T10:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#378">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">378</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-07T10:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">アキ「ケイスケ、私からもお願い」
 　ケイスケ「ああ、わかったよ」
 　俺は再度、面を被る　左右の拘束具をとめる
@@ -1054,11 +1181,15 @@
 　子供「ありがとーマジックマン」
 　ＭＣ「ありがとございます、じゃこんどこそお疲れ様でした」
 　そして再び控え室にもどる</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#379">
-				<rdfs:label>379</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-07T10:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#379">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">379</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-07T10:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">スタッフ「どうです、せっかくですし記念写真とりません？」
 　そんなことから、集合写真をとることになった
 　マジックマンとスタッフ、そしてアキもいれて写真をとる
@@ -1078,11 +1209,15 @@
 　ケイスケ「あー、それより怪我した人は大丈夫なんですか？」
 　ピンク役の女の子「私は平気よ、こうゆう仕事してたら怪我なんて日常茶飯事だし」
 　ケイスケ「そうなんですか」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#380">
-				<rdfs:label>380</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-07T10:46+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#380">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">380</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-07T10:46+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ピンク役の女の子は足をひきずりながら俺の目の前までくる、そして俺の手をにぎる
 　ピンク役の女の子「ほんとにありがと、またどこかで会えるといいね」
 　アキ「ゴホン、いつまで手つないでんのよ」
@@ -1101,11 +1236,15 @@
 　ケイスケ心の声（そりゃそうだよ、人が違うんだから）
 　男「この写真はいままでの中でもトップ３にはいるな、かえって額にいれよう」
 　ケイスケ心の声（おいおい、かんべんしてくれよ、てめえと一緒の額には入りたくない）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#381">
-				<rdfs:label>381</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-07T10:49+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#381">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">381</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-07T10:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">トイレもすませて、出口からでてくる
 　アキ「もー、遅いよケイスケ」
 　ケイスケ「悪い、ちょっといろいろあってな」
@@ -1126,11 +1265,15 @@
 　水の精霊ブルーアクエリアス、これは俺だな、銀河の巨星パープルジュピター、金色の覇者ゴールドヴィーナス
 　だって」
 　アキ「私は金色（こんじき）の覇者ゴールドヴィーナスね、楽しみ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#385">
-				<rdfs:label>385</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-08T10:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#385">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">385</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-08T10:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">３月２５日（リハーサル）
 
 　アキ「いよいよ明日だね」
@@ -1151,11 +1294,15 @@
 　トミー「ケイスケさんが教えてもらったんです」　
 　アキ「ってなに、ケイスケ、よくもみずしらずの人にどこまで教えてるの」
 　ケイスケ「すまん」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#386">
-				<rdfs:label>386</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-08T10:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#386">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">386</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-08T10:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">するとアキがトミーを呼ぶ
 　アキ「トミーさん、ちょっと付き合ってもらえるかしら」
 　トミー「ごめんなさいアキさん、私、女の人とは付き合えません」
@@ -1176,11 +1323,15 @@
 　トミー「私、あなたからケイスケさんを奪っていきます」
 　アキ「そんなことさせない」
 　トミー「嘘ですよ、けど、わかんないな、これからどうなるか」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#387">
-				<rdfs:label>387</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-08T10:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#387">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">387</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-08T10:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">アキ「どっちなの？嘘なのホンとなの」
 　トミー「さあ、それはこれからのアナタの行動をみて決めていくことにします」
 　アキ「負けないわ」
@@ -1201,11 +1352,15 @@
 　おれたちはそういわれて横一列に並ぶ
 　演出家「それでは、明日の本番まで時間がありません、簡単なショーですが我々はプロとして
 　はずかしくない舞台にしましょう、私は今回演出の高見沢です」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#388">
-				<rdfs:label>388</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-08T10:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#388">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">388</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-08T10:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">高見沢「では、監督の北小路さんからお話を聞いてください」
 　北小路「俺が監督の北小路だ、たるんだ演技したら容赦しないぞ」
 　高見沢「はい、監督の言葉でした、ではメンバー紹介に移ります、では今回の主役ホワイトムーン
@@ -1225,11 +1380,15 @@
 　アキ「大丈夫よ、ケイスケならやれるわ」
 　トミー「わからなかったら私に聞いてください教えます」
 　アキ「ご心配なく、ケイスケには私が教えるから」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#389">
-				<rdfs:label>389</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-08T10:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#389">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">389</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-08T10:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">トミー「アキさんはダンスの経験はあるんですか？」
 　ケイスケ「アキは元ダンサーなんだ、バレーやジャズダンスもやってたんだ」
 　トミー「まあ、そうなんですか、人はみかけによりませんね」
@@ -1249,11 +1408,15 @@
 　ケイスケ「さ、いこうか、ここまできたらやるしかない」
 　アキ「さ、いきましょケイスケ」
 　トミー「あー待ってください、私もいきます」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#390">
-				<rdfs:label>390</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-09T10:18+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#390">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">390</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-09T10:18+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ＰＭ：１４：３０（ダンス稽古終了）
 
 　　高見沢「はい、お疲れ様、１５分休憩して４５分から練習再開します」
@@ -1274,11 +1437,15 @@
 　　神崎「きっと私たちにあうのが嫌で逃げたんじゃないかしら」
 　　ケイスケ「ルミさんは明日、別の仕事でだめってゆうから俺が来ることになったんだ」
 　　江藤「あらあら、うまいこといって逃げたのねきっと」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#391">
-				<rdfs:label>391</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-09T10:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#391">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">391</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-09T10:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">神埼「あなたたちＴＡＣの人たちね、所詮、寄せ集めの連中じゃたかがしれてるわ、私たちの足を
 　　ひっぱらいでくださいね」
 　　江藤「じゃ、失礼」
@@ -1299,11 +1466,15 @@
 　　江藤「どう、特別なのかしら」
 　　トミー「そうですよ、ケイスケさん着ぐるみすると別人みたいになるんです」
 　　アキ心の声（え？なんで知ってるの）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#392">
-				<rdfs:label>392</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-09T10:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#392">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">392</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-09T10:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">神埼「じゃ、その特別な人の実力見せてもらうわ」
 　　江藤「ま、さっきのダンスをみるかぎりじゃたいしたことないようだけど」
 　　神埼「いい、自分だけが特別だなんて思わないことね、それはたんなるうぬぼれにすぎないってこと」
@@ -1322,11 +1493,15 @@
 　　アキ「なんでもないの」
 　　ケイスケ「よし、俺もなんだかやる気がでてきたな、やるか」
 　　アキ「そう、なに事もやる気が大事よ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#393">
-				<rdfs:label>393</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-09T10:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#393">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">393</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-09T10:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ＰＭ：１４：４５
 
 　　高見沢「さて、時間もおしてるので、衣装合わせにしましょう、ケイスケくんは男性更衣室で、他の女性は
@@ -1347,11 +1522,15 @@
 　　江藤「けど、残念ね、なぜ私がホワイトじゃないのかしら」
 　　神崎「そうですね、こんな女がホワイトだなんて」
 　　トミー「私、がんばります」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#394">
-				<rdfs:label>394</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Rd2SBwnE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-09T10:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#394">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">394</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Rd2SBwnE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-09T10:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">（男子更衣室）
 　　全身タイツ、グローブ、ブーツ、上着まで着用した、あとは面だけだ
 　　面箱を開けると、衝撃吸収材のなかに面が埋まっていた
@@ -1371,11 +1550,15 @@
 　　ケイスケ「なんだ、俺、どうしてポーズとりはじめてるんだ」
 　　俺の中で別の自分が目覚めようとしている、自分じゃない自分を発見したこと
 　　認めたくない、けど淡いこの気持ちが交錯していた</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#397">
-				<rdfs:label>397</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Xrf.qICk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-10T20:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#397">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">397</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Xrf.qICk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-10T20:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">（女子更衣室）
 
 　　　女性も着替えを終えていた
@@ -1396,11 +1579,15 @@
 　　　アキ心の声（苦しい言い訳ね）
 　　　トミー「さ、アキさん時間がありません、面を・・」
 　　　アキ「そうね」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#398">
-				<rdfs:label>398</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Xrf.qICk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-10T20:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#398">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">398</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Xrf.qICk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-10T20:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ＰＭ：１５：００
 
 　　着替えを終えたケイスケ、アキ、トミー、江藤、神崎があつまる
@@ -1420,11 +1607,15 @@
 　　高見沢「え？きめポーズがわからない？そーいえばまだ教えてなかったですね」
 　　アキ心の声（ええ、なんでさっきのでわかるの）
 　　高見沢「先生、お願いします」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#399">
-				<rdfs:label>399</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Xrf.qICk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-10T20:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#399">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">399</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Xrf.qICk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-10T20:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ＰＭ：１５：３０
 
 　振り付け師「だめ、もっと手をのばして、こう」
@@ -1445,11 +1636,15 @@
 　アキ「そうね、踊ってる間もほとんど重さをかんじなかったし」
 　江藤「あら、知らないの、この着ぐるみはただの着ぐるみじゃなくてよ」
 　アキ「どうゆうこと？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#400">
-				<rdfs:label>400</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Xrf.qICk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-10T20:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#400">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">400</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Xrf.qICk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-10T20:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">神埼「まったく、これだからおバカさんは困るわ」
 　アキ「なんですって」
 　トミー「アキさん、落ち着いて・・・で、どこが違うんです」
@@ -1469,11 +1664,15 @@
 　アキ「あんまり説明になってない気がするけど」
 　トミー「ひらたくいえば、とってもいい素材の着ぐるみだってことですよ」
 　アキ「平たくなってないし」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#401">
-				<rdfs:label>401</rdfs:label>
-				<dcterms:creator foaf:nick="人形屋" dcterms:identifier="Xrf.qICk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-10T20:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#401">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">401</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形屋</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">Xrf.qICk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-10T20:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ＰＭ：１５：３８
 
 　アキ「起きて、ねえ、起きてよケイスケ」
@@ -1494,7 +1693,14 @@
 　そして、心臓の鼓動がほんの一瞬おおきく鳴った　　ドクン
 　ケイスケ「う、なんだ、い、息が・・できない」
 　そのまま前のめりに倒れる</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-01-30T13:30+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-10T20:43+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">28066</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">61</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

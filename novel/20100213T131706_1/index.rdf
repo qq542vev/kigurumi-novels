@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-11T21:53:07+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-11T21:53:07+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">途切れた夢</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:17:06+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:49:45+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">22529</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#334">
-				<rdfs:label>334</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="iKuayxAL9E"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:17:06+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#334">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">334</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">iKuayxAL9E</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:17:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ショーチーム事務所
 
 上司「さて、次の演目の美少女戦士の配役候補を募集する〜。我こそはって人は立候補するように、以上。」
@@ -71,11 +56,14 @@
 安田先輩の指さす方向には悪の怪人の着ぐるみがあった。
 
 島田「あれですか？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#335">
-				<rdfs:label>335</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:18:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#335">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">335</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:18:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">安田先輩「そーだよ、幸い誰もやりたがらねーし、どんくせーお前にはぴったりだな。」
 
 島田「は、はぁ・・・。」
@@ -111,11 +99,15 @@
 間宮先輩「うん、だからがんばってね。」
 
 島田「は、はい。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#336">
-				<rdfs:label>336</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="jEbT2uTnC2"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:19:26+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#336">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">336</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">jEbT2uTnC2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:19:26+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そういうと間宮先輩はかわいく手を振りながら、事務所のほうに行ってしまった。間宮先輩はアクションもダンスも上手い、稽古は男女区別なくやっているので練習中の間宮
 先輩のこともよく見ている。間宮先輩は戦隊ヒロインの内臓もよくやっているのだ。
 
@@ -145,11 +137,15 @@
 そうこうしている間に自分の番が回ってきた。
 
 上司「次の人。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#337">
-				<rdfs:label>337</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:20:59+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#337">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">337</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:20:59+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">島田「あ、はい、僕です、島田です。」
 
 上司「おー島田か、お前これやるのか？」
@@ -173,11 +169,15 @@
 手続きを済ませて、その日はそのまま部屋に帰ることになった。部屋に帰ってすぐに美少女戦士のビデオをみたりサイトにあるすでにやっている現場の写真を眺めていた。
 
 島田「とうとううちでもこれやるんだ、稽古はきついかもだけど、とにかくなんかの配役にはつきたいな。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#338">
-				<rdfs:label>338</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:22:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#338">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">338</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:22:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">１５時　稽古場
 
 上司「さて、今回のショーは昨日も言ったがうちの大プロジェクトだから、気合いいれてほしい。」
@@ -214,11 +214,15 @@
 間宮先輩「特技はダンスとちょっとアクロバットかな。見てください。」
 
 すると稽古場のすみに走っていったかと思うと、そこから走りこんでロンダートからバク転を３回にスワンをきれいにきめて見せた、一同から拍手が巻き起こる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#339">
-				<rdfs:label>339</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:23:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#339">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">339</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:23:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ペコリと礼をして、また閲覧席に戻って行った。
 
 島田「さすがだ・・・間宮先輩・・・。」
@@ -260,11 +264,15 @@
 島田「えーあの。その・・・。」
 
 全員の視線が自分一人に集中する、わかってはいたのだがもう頭が真っ白になる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#340">
-				<rdfs:label>340</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:24:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#340">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">340</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:24:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">島田「し、島田勇次っていいます・・・男子チーム所属です・・・芸歴は・・・チョイ短め・・・なんちゃって・・・。」
 
 周りはシーンと静まりかえる。
@@ -294,11 +302,15 @@
 上司「みんな御苦労、結果は後日電話連絡するから、それまで待機していてくれ。」
 
 一同「はい。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#341">
-				<rdfs:label>341</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:25:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#341">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">341</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:25:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">上司「では、本日はこれで解散、明日の現場ある人はちゃんと準備して帰りなさい。」
 
 帰り途、落ち込む僕に金田はやさしく接してくれた。
@@ -324,11 +336,15 @@
 島田「ははは。」
 
 金田「お、笑ったな〜、その調子だ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#342">
-				<rdfs:label>342</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:27:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#342">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">342</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:27:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">訂正↓から６行目島田「すごいな〜島田くんは・・・。」×金田でした。
 
 
@@ -361,11 +377,15 @@
 といって、電話を切る。正直まだ現実が受け入れられないでいる自分がいたまだ心臓が速く鼓動している。
 
 島田「よし、よし、よし〜やった〜。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#343">
-				<rdfs:label>343</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:28:55+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#343">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">343</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:28:55+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">稽古場
 
 上司「さて、ここにいる諸君は幸運と実力で一次試験を突破した者だけだ、今日は二次試験を行う、みな心してかかりなさい。」
@@ -395,11 +415,15 @@
 上司「それもある。」
 
 島田「他にもあるのか・・・。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#344">
-				<rdfs:label>344</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:30:00+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#344">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">344</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:30:00+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">上司「では、解散。」
 
 金田「やばい、けっこう面倒なとこだわここ・・・急がないと間に合わないぞ。」
@@ -429,11 +453,15 @@
 金田「感心してないで、いくぞ。」
 
 島田「うん。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#345">
-				<rdfs:label>345</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:31:14+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#345">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">345</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:31:14+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">まったく知らない土地で方向音痴の僕が地図だけわたされてもきっと迷って時間内にたどり着けなかっただろう、こういうとき友達の存在は本当にありがたいと感じる。
 
 金田くんの誘導のおかげで一番に目的地の学校に着いた僕たちは上司に報告した。
@@ -465,11 +493,15 @@
 上司「うむ、金田功。」
 
 金田「はい、金田功おります。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#346">
-				<rdfs:label>346</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:32:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#346">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">346</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:32:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">上司「うむ、金田功。」
 
 金田「はい、金田功おります。」
@@ -513,11 +545,15 @@
 島田「わかったよ、ありがとう。」
 
 そういって、金田くんと別れ駅に戻ろうとしたが道がまったくわからないので、ちょっと痛いけどタクシーで駅までいった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#347">
-				<rdfs:label>347</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:33:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#347">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">347</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:33:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">土曜日　１５時前
 
 １０分前には僕は稽古場に着いた、金田くんはすでにもう来ているようだ、稽古場のすみでストレッチ運動をしている金田くんを見つけると駆け寄っていった。
@@ -549,11 +585,15 @@
 
 もっとも難しいと思われる演技試験が最後の試験となってしましった、実際たった３時間で、どれをやるかなど決めるだけでも大変、キャラクターがわかっているのは主人公の４人の少女だけあとはセリフからどんなキャタクターなのをかを想像しなければならないのだ
 当然メルヘンは中にダンスが含まれるのでダンスのスキルも問われてくる非常に厳しい試験である。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#348">
-				<rdfs:label>348</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:35:16+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#348">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">348</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:35:16+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">もっとも難しいと思われる演技試験が最後の試験となってしましった、実際たった３時間で、どれをやるかなど決めるだけでも大変、キャラクターがわかっているのは主人公の４人の少女だけあとはセリフからどんなキャタクターなのをかを想像しなければならないのだ
 当然メルヘンは中にダンスが含まれるのでダンスのスキルも問われてくる非常に厳しい試験である。
 
@@ -580,11 +620,15 @@
 読んで選考基準にしている可能性も捨てきれない、難しいキャラはさけて無難にいこうとする者がでるのはきっと予想されているかもしれない・・・配点されていると考えたら当然、難しい主人公などが高得点なのは必然的である。
 
 金田「おい、島田？おい？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#349">
-				<rdfs:label>349</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:36:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#349">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">349</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:36:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">はっと我に帰る
 
 島田「あ・・・金田くん。」
@@ -612,11 +656,15 @@
 金田「速くきめねーと時間ねーぞ、俺先に練習してっから。」
 
 といって金田くんはメモしたものをもって稽古場のすみでイメージトレーニングに入った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#350">
-				<rdfs:label>350</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:38:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#350">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">350</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:38:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">島田「といってもな〜、どうすれば・・・本当は僕も女の子してみたいけど・・・ダンスもアクションも苦手だしな〜どうしよう〜やっぱり怪人にしようかな・・・。」
 
 僕はもともとアクションもダンスも得意なほうではない・・・それなのになぜこんな仕事をしているのかというと着ぐるみがみたいしやりかったからであるが、この仕事、単に着ぐるみ好きが興味半分で続けれるほど甘い世界ではないのだ、僕はそれを身をもって体感していた。
@@ -641,11 +689,15 @@
 金田「ああ・・まあ・・なんとかな・・・人の心配より自分の心配しろよ。」
 
 島田「う・・・うん、そうだね。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#351">
-				<rdfs:label>351</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:39:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#351">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">351</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:39:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">上司「時間だ、練習終り、機材を所定の位置にもどしてＣＤを返してくれ。」
 
 ぞろぞろと移動が始まる。
@@ -671,11 +723,15 @@
 上司「いけないくはないが・・・まあいい、やってみなさい。」
 
 間宮先輩「はい、ＢＧＭお願いします。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#352">
-				<rdfs:label>352</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:40:57+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#352">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">352</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:40:57+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ショーの序盤から怪人は頻繁にでてくる、かわいい間宮先輩が顔面をかえ、普段のイメージからかけはなれたとても彼女とは思えない演技で全員がその迫真の演技から目をそむけようとはしなかった。ダンスも実にうまくかつ悪びれた様子で踊りくるう様は怪人そのものである。
 
 さすがに３０分のを２０人でやると長時間になるので一人10分か１５分程度で終了となる。
@@ -701,11 +757,15 @@
 島田「そ、そうだったんですか。」
 
 間宮先輩「ところで島田くんはなにするつもり？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#353">
-				<rdfs:label>353</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:42:03+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#353">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">353</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:42:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">島田「え？あ・・・その・・・。」
 
 金田「こいつも怪人だそうですよ。」
@@ -735,11 +795,15 @@
 とうとう金田くんの出番になった、緊張した面持ちで舞台にあがる金田くん。
 
 金田「金田功、青の子やります。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#354">
-				<rdfs:label>354</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:43:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#354">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">354</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:43:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">すると、どよめきが起こる、なんせ男子ではじめて女性ヒロインをやろうというのであるから当然である。
 
 金田くんはダンスも演技も全力で10分間をのりきった、女性らしいというのは少しかけてはいるが彼の勇気には本当にすばらしい、終わったあとも拍手が起こった。
@@ -767,11 +831,15 @@
 急いで舞台に上がる
 
 島田「島田勇次、役は怪人です。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#355">
-				<rdfs:label>355</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="7Vumx4mk7A"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-13T13:44:16+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#355">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">355</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">7Vumx4mk7A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:44:16+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">とにかく、3時間でつめたことを１０分という短い時間に凝縮してがんばった・・・と思う・・・。
 
 上司「はい、お疲れ様、下がっていいよ。」
@@ -787,11 +855,15 @@
 全員の演技が終わるころにはもう２２時を過ぎていた。
 
 上司「はい、これで最終審査は終わり、結果は後日、全員に電話連絡するから、明日の現場の人は準備して帰るように、以上、解散。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#364">
-				<rdfs:label>364</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="0iyM/DjmvY"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:21:56+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#364">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">364</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">0iyM/DjmvY</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:21:56+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">３ヶ月後・・・
 
 僕はある劇場にいた、あれからどうなったかというと・・・僕は落選した・・・金田くんは補欠合格ということだけ聞いていて、その後彼とは会っていない、連絡しても電話にもでれないようだ。
@@ -812,11 +884,15 @@
 すると肩にをたたかれたので後ろを振り返るとそこには金田くんが立っていた。３か月前より痩せている、補欠といえど激しい稽古を積んできたせいなのであろう。
 
 金田「よ？ひさしぶりだな島田。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#365">
-				<rdfs:label>365</rdfs:label>
-				<dcterms:creator foaf:nick="ＨＡＮＺＯＵ" dcterms:identifier="LI4cqL.zZY"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:22:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#365">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">365</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＨＡＮＺＯＵ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">LI4cqL.zZY</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:22:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">島田「あ、金田くん、久しぶり〜ちょっと痩せた？」
 
 金田「ん？ああ・・・稽古激しいからな、見ての通りさ。」
@@ -844,11 +920,15 @@
 金田「ああ、ロビーで着ぐるみ着てお客さん出迎えんだよ。」
 
 島田「え？僕が？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#366">
-				<rdfs:label>366</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:24:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#366">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">366</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:24:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">金田「今日、ロビースタッフ足りてないみたいだし、言えばやらせてくれるかも。」
 
 島田「だけど、今日はそんな着替えとかもってきてないよ・・・。」
@@ -886,11 +966,15 @@
 島田「は？」
 
 スタッフ「ブツ見てみなよ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#367">
-				<rdfs:label>367</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:25:26+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#367">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">367</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:25:26+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">島田「すみませーん、手伝いで着ることになった者です。」
 
 スタッフ「は？あああ・・・一人ちょうど足りてなかったからね、そこにおいてあるけど、君、やったことあるの？」
@@ -916,11 +1000,15 @@
 島田「あ・・・はい・・・すみませんでした・・・失礼します。」
 
 と、こそこそ逃げるように更衣室から退散した・・・くそ〜あとちょっとだったのに・・・。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#368">
-				<rdfs:label>368</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:26:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#368">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">368</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:26:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ロビーの邪魔にならない椅子に座ってただぼーっとロビーを眺める、５０分くらいになってさっきの着ぐるみがロビーにでてきたどれもキャピキャピ動いて実にかわいい、本当なら僕もあの中に入っていたかもしれないのに・・・。
 
 手伝いは仕込みとばらしのときだけ、あとはショーは後ろの席ではあるが自由に見てもいいことになっている、ただし楽屋は立ち入り禁止のようだ。
@@ -945,11 +1033,15 @@
 間宮先輩「ちょっと、そこで話そうよ。」
 
 島田「はい。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#369">
-				<rdfs:label>369</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:27:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#369">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">369</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:27:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">誰もいない奥の椅子に座る、隣には間宮先輩が座る。
 
 間宮先輩「はい、これ私のおごりね。」
@@ -985,11 +1077,15 @@
 間宮先輩「そっか、悔しいのはわかるけどそれは島田くんだけじゃないし、でもさ、お友達の金田くんはいつもなにかあったら島田くんのこと話すよ。」
 
 島田「え？そうなんですか？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#370">
-				<rdfs:label>370</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:28:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#370">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">370</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:28:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">間宮先輩「興味ないの？」
 
 島田「そんなことないですけど、ちょっとうらやましいなって思うし、僕も最終試験までいってたのに落ちて・・・なんだか心にポッカリ穴が空いたみたいで・・・。」
@@ -1017,11 +1113,15 @@
 間宮先輩「きっといいことあるって、あ・・もうリハの時間だ、ごめんね、またね。」
 
 といって間宮先輩は楽屋に帰ってしまった、彼がどんな役で自分の役すら明かすこともないままである。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#371">
-				<rdfs:label>371</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:29:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#371">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">371</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:29:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">島田「諦めないでがんばれ・・・か・・・。」
 
 一人でさめきった缶コーヒーを持って冷たいロビーをいつまでも眺めていた。頭がぼーっとしてきて一瞬意識を失いかけていたのだ・・・。
@@ -1051,11 +1151,15 @@
 といってスタッフは走り去ってしまった。なにがなんだかわからないけど、これは千載一遇のチャンスなのは間違いないので早速トイレの個室で金田くんから借りたＴシャツとスパッツにはきかえてその上から自分のジーンズとトレーナーを着る。
 
 更衣室に入るとさっきのスタッフが待ち構えていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#372">
-				<rdfs:label>372</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:30:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#372">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">372</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:30:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">スタッフ「もう時間ないから、さっさと着替えて・・・あ・・・まって、ブラつけて・・・一応女の子だしさ・・・ほら、なに興奮してんのよ・・・普通だったらセクハラだわ。」
 
 僕の股間の息子は無意識にテントを張っていたのだ・・・しまった〜恥ずかしいとこを見られてしまった。反射的に両手で股間を覆い隠す。
@@ -1083,11 +1187,15 @@
 スタッフ「こんな元気なものぶらさげて女の子ででるわけないでしょ、ちょっと苦しいかもだけど我慢しなさい。」
 
 とりあえず目立たない程度には隠れたが、血はまだ息子にいっているのでもう苦しいのなんのって・・・。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#373">
-				<rdfs:label>373</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:31:57+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#373">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">373</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:31:57+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">スタッフ「ほら、ぼやぼやしてないでこれ着なさい。」
 
 それは肌タイツといういわゆる人形の皮膚にあたるものである、背中のチャックから足を入れて、腰、胸、腕と通していく、前任者の汗もあるせいか湿っていてなかなか入らない。
@@ -1111,11 +1219,15 @@
 スタッフ「いい、特にあんたよあんた、一人だけ男なんだから、常に女性らしい振る舞いしてよ、前任者が女の子だったし、イメージ壊すような動きしないで、とくに大きいお友達はそういう変化にはかなりうるさいから。」
 
 ドアの向こうで係員が声をかける</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#374">
-				<rdfs:label>374</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:33:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#374">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">374</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:33:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">係員「まもなく会場です、着ぐるみさんは準備してください。」
 
 スタッフ「さ、お面かぶって、速く。」
@@ -1143,11 +1255,15 @@
 すると、スカートを誰かが引っ張っていることに気づく、女の子がスカートをくいくい引っ張って自分のほうに感心をもってほしそうだ。
 
 島田心の声（あ・・・いけないいけない・・・あいつらより今はこの子供だちが大事だし）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#375">
-				<rdfs:label>375</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:34:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#375">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">375</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:34:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">男Ａ「やっぱりさっきと入ってる人違うなりね〜。」
 
 男Ｂ「うんうん、なんかよそよそしいよね〜。」
@@ -1175,11 +1291,15 @@
 スタッフ「お〜〜〜い」
 
 島田「は？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#376">
-				<rdfs:label>376</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:36:14+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#376">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">376</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:36:14+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">島田「え？あれ・・・あの男たちは？」
 
 スタッフ「は？男たち？そんなのいるはずないでしょ・・・まったく、あんたここでずっと寝てたみたいだし・・・。」
@@ -1207,11 +1327,15 @@
 島田「え？金田くんが・・・。」
 
 スタッフ「うん、まだいるかな・・・。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#377">
-				<rdfs:label>377</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:37:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#377">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">377</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:37:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">僕は荷物を抱えてステージのほうに走っていった、重たいドアをあけ客席に入るとなんと美少女戦士4人がリハーサルをしているようだ。
 
 観客は僕一人、なんかすごい贅沢な感じがする。あの４人の美少女着ぐるみのどれかに金田くんが入っているのであろうか・・・そう考えると羨ましいと思うし、嫉妬心も湧きあがってくる。
@@ -1238,11 +1362,15 @@
 
 
 しばらく眺めてしまった、しばしの沈黙が続く・・・。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#378">
-				<rdfs:label>378</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:38:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#378">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">378</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:38:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 島田「ひとつ、お願い聞いてもらっていいかな？」
 
@@ -1267,11 +1395,15 @@
 島田「ご、ごめん、だけど、こんなとこに僕をつれてきてどうするつもり？」
 
 青の子は置き去りにしている着ぐるみを指さしている。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#379">
-				<rdfs:label>379</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:39:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#379">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">379</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:39:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">島田「え？あれがどうしたって？」
 
 青の子は自分と着ぐるみの間を何回も指をうごかしている、もしかしてこれを着てみろということなのか・・・。
@@ -1297,11 +1429,15 @@
 しかし、もうこんなチャンス２度とないかもしれない・・・見つかったらあとの祭りだ・・・僕はふっきれた。
 
 島田「わかったよ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#380">
-				<rdfs:label>380</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:41:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#380">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">380</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:41:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">急いで、着衣を脱いで、トランクスだけになった。
 
 島田「あ・・でもタイツないや・・・。」
@@ -1323,11 +1459,15 @@
 その上から衣装を羽織って、手袋とブーツをはめるブーツにはまだ汗があり湿っている靴下が濡れるのがわかった。
 
 頭以外は桃色の女の子になっている・・・もう下半身の興奮は爆発寸前だった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#381">
-				<rdfs:label>381</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:42:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#381">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">381</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:42:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">最後に桃色の女の子の頭を自分の頭部にはめることになった、案外コンパクト設計なのか顔に密着しているこのお面もさっきまでアクトレスがかぶって演技をしていたのだ。
 
 留め具をして顔にお面を固定させる、目の部分のクリアパーツは視界もよくこれならアクションもしやすいと感じた。
@@ -1350,11 +1490,15 @@
 女性「なにしてんの、ちょっと。」
 
 間宮先輩「どういうこと？お面とりなさい。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#382">
-				<rdfs:label>382</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:43:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#382">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">382</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:43:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">少し後ろにあとづさりしたが、誰かにぶつかって後ろに転んでしまった。
 
 目の前にはあの怖い安田先輩が立っていた。
@@ -1380,11 +1524,15 @@
 安田先輩「どうもこうもねーよ、ざけんな島田、お前とんでもねーことしてるってわかってんのか？」
 
 間宮先輩「それに、どうやってここまできたの？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#383">
-				<rdfs:label>383</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:44:26+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#383">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">383</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:44:26+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「待ちなさい」
 
 と、どこからともなく男の声がきこえる。
@@ -1408,11 +1556,15 @@
 島田「え？これって間宮先輩の・・。」
 
 言われてみると、いつも間宮先輩の髪からただよういいにおいのシャンプーの香りが自分の肌からもほんの少しにおっている。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#384">
-				<rdfs:label>384</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:45:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#384">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">384</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:45:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">間宮先輩「だけど・・・なにも私のを・・・う・・・。」
 
 と、普段強気で明るい間宮先輩の目に涙があふれてくる。
@@ -1434,11 +1586,15 @@
 安田先輩「で・・・でもよ・・・。」
 
 間宮先輩「いいのよ・・・もう・・・鮫島さんが決めたことなんだし。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#385">
-				<rdfs:label>385</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:46:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#385">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">385</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:46:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">鮫島「どんな理由であれ暴力はよくないぞ安田、拳は人を守るためのものだ。」
 
 安田先輩「はい・・すみませんでした。」
@@ -1461,11 +1617,15 @@
 鮫島「冗談でここまでやらないだろ、お前がここまで案内でもやってきて自分で決めてこの着ぐるみまで着たんだ、そうだろ？」
 
 島田「は・・・はい。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#386">
-				<rdfs:label>386</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:48:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#386">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">386</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:48:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 鮫島「だめ思うなら、ここまではやらんさ、どっかでブレーキかかってやめている。」
 島田「鮫島さん・・・。」
@@ -1483,15 +1643,26 @@
 こうして、僕は念願のショーキャスト（補欠）になれた・・・これからどんな事が待ち受けていようともくじけないでやっていこうと思う。
 
 おしまい</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#387">
-				<rdfs:label>387</rdfs:label>
-				<dcterms:creator foaf:nick="HANZOU" dcterms:identifier="MSUJIAEFes"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-02-19T17:49:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#387">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">387</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HANZOU</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">MSUJIAEFes</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:49:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">最後まで読んでいただきありがとうございます。
 
 乱文雑文で読みにくい個所があったことをお詫びもうしあげます。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-13T13:17:06+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-19T17:49:45+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">22529</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">46</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

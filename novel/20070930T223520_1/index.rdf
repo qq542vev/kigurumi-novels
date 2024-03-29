@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:01:21+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:01:21+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">真夜中の奇妙な出会い</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2007-09-30T22:35:20+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2007-10-21T17:55:02+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">2772</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#247">
-				<rdfs:label>247</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="9ghP7k6ang"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-09-30T22:35:20+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#247">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">247</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghP7k6ang</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-09-30T22:35:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　真夜中。既に日付は次の日になっていた。
 　道路警備のバイトを終えた僕は、コンビニで食糧を買い込み、アパートに
 帰る途中だった。このあたりは周りに林が生い茂り、人家が少なく、夜中に
@@ -46,15 +30,18 @@
 黒いメイド服を着て、髪の長い少女のマスクを被っている。手を見ると、
 素肌ではなく手袋か何かをはめている。アニメのキャラクターショーに出て
 くるような、着ぐるみの女の子だったのだ。
-　&quot;な、なんで夜中に、こんな所に、こんなのが…？&quot;　とりあえず、幽霊の
+　"な、なんで夜中に、こんな所に、こんなのが…？"　とりあえず、幽霊の
 類じゃないにせよ、不気味な事このうえないその着ぐるみの少女は、僕の前
 に座って、手にしていたスケッチブックに、字を書いて僕に見せた。
 『あの、ここはどこですか？』                             （…続く？）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#257">
-				<rdfs:label>257</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="9ghP7k6ang"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-10-01T21:56:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#257">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">257</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghP7k6ang</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-10-01T21:56:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">（&gt;&gt;247より）
 「…ここ、どこ…？」呆然としていた僕がようやく発した言葉がこれでは、
 着ぐるみの少女もリアクションの取りようがない。それでも少女は、気を
@@ -75,11 +62,14 @@
 「じゃあ、今言った場所を友達に連絡して、迎えに来てもらうといいよ」
 だが、少女の返答は意外だった。
 『わたし、ケイタイ持ってないんです』（まだ続く…）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#265">
-				<rdfs:label>265</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="9ghP7k6ang"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-10-03T01:50:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#265">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">265</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">9ghP7k6ang</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-10-03T01:50:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">（&gt;&gt;257より）
 　…ありえない。この着ぐるみ少女は、自分のよく知らない場所で、他人と
 連絡する手段も無くて、ずーっと夜中まで彷徨っていたのか？　第一、何で
@@ -101,44 +91,56 @@
 導いた。僕はビックリしつつも、指先は冷静に感触を探っていた。
 　…少女は、スケッチブックに字を書いて見せた。
 『わかって、いただけました？』（tuduku)</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#266">
-				<rdfs:label>266</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-10-03T08:14:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#266">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">266</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-10-03T08:14:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">しかしよく考えてみるとタックをしている男かもしれない。
 僕の疑いはますます強くなった。
 「タックしてるの？」
 少女は頷いた。
 これで完全に生理的に受け付けなくなった。
 僕は少女を交番まで連れて行くことにした。（tuduku)</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#267">
-				<rdfs:label>267</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-10-03T11:41:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#267">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">267</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-10-03T11:41:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">交番に着くと僕は警官に事情を説明した。
 「とにかくそのお面を脱いで顔をみせてください。」
 と警官が言うのだが、彼女は首を横に振るばかり。
 仕方がないので僕は少女を羽交い締めにした。
 「おまわりさん！今の内にお面を脱がしてください！」
 そして警官がお面を脱がした。（tuduku)</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#268">
-				<rdfs:label>268</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-10-03T11:46:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#268">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">268</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-10-03T11:46:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">中から現れたのは無精髭の濃いおっさんだった。
 男だというのは分かっていたが、あまりのギャップに僕は気分が悪くなった。
 「どうしてこんなことをしているのですか？」
 警官が質問をする。
 しかし、おっさんは無言を貫いている。
 「カツ丼でも食べますか？」（tuduku)</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#269">
-				<rdfs:label>269</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-10-03T13:35:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#269">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">269</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-10-03T13:35:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">おっさんは首を横に振る。
 「じゃあ天丼にしますか？」
 同じように首を横に振る。
@@ -148,11 +150,14 @@
 否定。
 「いったいお前は何が食いたいんだ！！」
 穏やかだった警官がついに切れた。（tuduku)</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#270">
-				<rdfs:label>270</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-10-03T14:08:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#270">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">270</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-10-03T14:08:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">『誰もお腹がすいてるとは言ってません』
 おっさんはスケッチブックに字を書いて見せた。
 「そうか、これは失礼しました。」
@@ -160,11 +165,14 @@
 僕は吹き出しそうになった。
 「文字じゃなくて直接喋れないのですか？」
 警官の問いに、ついにおっさんは口を開いた。（tuduku)</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#331">
-				<rdfs:label>331</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-10-21T16:07:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#331">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">331</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-10-21T16:07:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;247&gt;&gt;257&gt;&gt;265-270の続き。
 「喋れるけど.......ほら、イメージ崩れるでしょ？」
 そんなのとっくの昔に崩れている。ってゆうか、何だよこのおっさんの声！
@@ -174,11 +182,14 @@
 警官が質問をする。
 「そうですが何か？」
 半分キレたようにおっさんは答えた。（tuduku)</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#332">
-				<rdfs:label>332</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-10-21T16:14:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#332">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">332</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-10-21T16:14:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「いえ、地声ならそれでいいんですけど。」
 警官は慌てて答え、そのまま質問をする。
 「お名前は？何か身分を証明するものをお持ちですか？」
@@ -186,11 +197,14 @@
 それにしてもメイド服を着たおっさんが交番にいるこの異様な光景。
 僕はこの場から離れたい衝動にかられた。
 「あのぉ〜、僕はもう帰っていいですか？」（tuduku)</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#334">
-				<rdfs:label>334</rdfs:label>
-				<dcterms:creator foaf:nick="名無しさん@着ぐるみすと"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-10-21T17:55:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#334">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">334</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-10-21T17:55:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「ちょっと待ってください。あなたのお名前も伺っていませんし。」
 どうやら、すんなり家には帰して貰えなさそうだ。
 僕は覚悟を決めて言った。
@@ -198,7 +212,14 @@
 「駄目ですよ。ここは食堂じゃないのですから。」
 (´-`).。ｏＯ（えぇ〜！さっきはこのおっさんに注文をきいてたじゃないか！）
 僕は悲しくなった。（tuduku)</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-09-30T22:35:20+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-10-21T17:55:02+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">2772</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">11</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

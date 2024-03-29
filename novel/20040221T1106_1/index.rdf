@@ -1,42 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:09:17+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:09:17+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">ウレタンに包まれて</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:06+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:12+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">6684</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#469">
-				<rdfs:label>469</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:06+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#469">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">469</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">とりあえず、書いてみた。
 感想もらえたら、続き書くかも？</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#470">
-				<rdfs:label>470</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#470">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">470</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">事務所に呼び出された明美は、マネージャーと共に、会議室へと入った。
 いつも机が並べられている部屋だが、今日はそれも片付けられ、部屋の真中に、
 なにやら、鞄のような四角いものが置かれているだけだった。
@@ -56,11 +45,15 @@
 「えっと、着ぐるみ……っていうのかな？　人がかぶって操演する
 ぬいぐるみなんだけど」
 「えっ……」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#471">
-				<rdfs:label>471</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#471">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">471</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「急に予定してた娘が用事が出来たらしくてね。それに身長の制限があるから、
 誰でもいいわけじゃなくて。お願いできないかな？」
 「着ぐるみ……ですか」
@@ -80,11 +73,15 @@
 「ありがとう。助かったよ」
 安堵の声が、電話の向こうから聞こえた。
 その後、予定を教えてもらい、必要なものを指示されて電話が切れた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#472">
-				<rdfs:label>472</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#472">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">472</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">部屋の真中に置かれたそれは、茶色の立方体の形をした着ぐるみだった。
 いや、たぶん着ぐるみだろうと思えるものだった。
 全部の面にチャックがついている……いや、それだけで、
@@ -105,11 +102,15 @@
 「こうして腕が入ってるんだ。足も同じように……」
 底に当たる部分を開けると、足の部品が出てくる。
 これも、縫い付けられている……が、だいぶ短い。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#473">
-				<rdfs:label>473</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#473">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">473</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「しゃがんで入るタイプだから、足はこんな感じ。で、頭の部分は……」
 今度は上部。ここには、帽子のようなものが入っていた。
 「これは『ようかんマン』って言うらしいんだけど、それが、
@@ -130,11 +131,15 @@
 「自力じゃ出れない。けど、ま、サポートの人は絶対に付くはずだしね。
 あっ、今日は誰かしらここにいるから、大丈夫」
 そう言ってマネージャーは笑う。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#474">
-				<rdfs:label>474</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#474">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">474</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「とりあえず、クライアントが来る前に着てみてもらえる？」
 「あっ、はい。わかりました」
 「着替えはこの部屋。スパッツとTシャツに着替えたら呼んで。
@@ -155,11 +160,15 @@
 「とにかく、着替えよう」
 いつまでも、着ぐるみを見ていても仕方ないので、明美は着替えを始めた。
 広い部屋。何も隠すものが無い中で、服を脱ぐのはちょっと恥ずかしい感じ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#475">
-				<rdfs:label>475</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#475">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">475</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「マネージャー、準備できました」
 「はい、ちょっと待って、今行く」
 事務所でマネージャを呼んでから、部屋に戻ってくると、
@@ -179,11 +188,15 @@
 そう言って、マネージャーは笑うが、明美としては、それどころじゃない。
 大きく息を吸って、背中のチャックから潜ると、
 マネージャーは着ぐるみをまっすぐにしてくれたようだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#476">
-				<rdfs:label>476</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#476">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">476</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">まっすぐ上に頭を向ければ良い状態になった。
 ちょうど、ウレタンが割れて、通り抜けられる場所を上へと頭を動かすが、
 なかなか進んでくれない。
@@ -204,11 +217,15 @@
 「……は、はい」
 苦しそうな息の音が、帽子の部分から聞こえる。
 「がんばって」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#477">
-				<rdfs:label>477</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#477">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">477</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ウレタンの中を進む腕が、横からぽこっと出た。腕の部分はたぶん、
 自力で通せないだろうから、再度手伝う。
 「ほい、そのまま腕をゆっくり突き出して。こっちで布の部分が
@@ -229,11 +246,15 @@
 「大丈夫？」
 「平気……です……」
 くぐもった声は、やはり荒れた呼吸の合間に小さく聞こえる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#478">
-				<rdfs:label>478</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#478">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">478</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">マネージャーは、チャックを下から引き上げていく。
 途中、何度か背中を引っ張るたびに、小さな声が、中から漏れた。
 「じゃ、いったんカギを閉めるね」
@@ -253,11 +274,15 @@
 
 「大丈夫、苦しくない？」
 「いや、普通に苦しいですけど……」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#479">
-				<rdfs:label>479</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#479">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">479</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">荒れた呼吸。いくら空気を吸っても、自分で吐いた息を
 再度吸ってるだけのように思える。
 新鮮な空気じゃなく、暑く汚れた空気で、帽子となった頭を入れる部分が
@@ -277,11 +302,15 @@
 足首のすぐ上で、着ぐるみ本体に固定されているため、小さくしか歩けないが、
 なんとか動くことは出来る。
 「腕とか、頭とかも大丈夫だよね？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#480">
-				<rdfs:label>480</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#480">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">480</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">目の前にマネージャーが立っている……ような人影が見える……ので、
 それに向かって手を振ってみた。
 「握手とか出来るのかな？」
@@ -302,11 +331,15 @@
 「とりあえず、腕を抜いてみて。で、中で自分でウレタンを押しながら、
 頭を抜けばいけないかな？」
 「……やってみます」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#481">
-				<rdfs:label>481</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#481">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">481</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「じゃ、手伝うよ」
 腕を抜く。簡単に言えばそれだけだが、湿った腕がウレタンに吸い付いて、
 なかなか思うようには抜けてくれない。
@@ -327,11 +360,15 @@
 脱ぎやすいようにと押さえるのだが、なかなか明美は脱ぐことが出来ない。
 「んーーー」
 くぐもった声が、中から聞こえた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#482">
-				<rdfs:label>482</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#482">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">482</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「大丈夫？　がんばって」
 「んーーんーー」
 徐々に暴れるようになってくる着ぐるみ。
@@ -352,11 +389,15 @@
 そして、指先が触れた瞬間、
 「んーーー」
 と、大きな声を出した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#483">
-				<rdfs:label>483</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#483">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">483</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「ほら、がんばって。わきの下から肩を引っ張るから」
 たどり着いた明美のからだは、本当に熱かった。そして、湿っていた。
 腕をなんとかわきの下に回すと、着ぐるみに足をかけ、マネージャーは、
@@ -377,11 +418,15 @@
 「後は、押さえるから、体を抜いて」
 腕が、明美から離れていく。
 「んーーーーーーーーーー」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#484">
-				<rdfs:label>484</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#484">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">484</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">最後は暴れるようにして、腕と体を動かす。
 それでも、汗に張り付くウレタンはなかなか動いてくれない。
 「んーーーーーーーーーー」
@@ -399,11 +444,15 @@
 そこまで行くと、あとはなんとか脱げた。
 足は、先をマネージャに引っ張ってもらって、片足ずつ引き抜く。
 そしして、やっと、着ぐるみから開放された。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#485">
-				<rdfs:label>485</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#485">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">485</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「大丈夫だった？」
 「えーっと、なんとか」
 着ぐるみを脱いで、近くの椅子に座った明美に、マネージャは
@@ -424,11 +473,15 @@
 鞄には着替えの半そでTシャツが数枚。
 「だよね。もうすぐクライアントが来る時間だし、
 このまま頑張ってくれるか？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#486">
-				<rdfs:label>486</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:12+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#486">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">486</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「はい……その代わり、給料には色をつけてくださいね」
 「わかったよ……」
 少し苦しいかもしれないけど、終わればいろいろ買い物できそう。
@@ -444,14 +497,25 @@
 「はい。頑張ってみます」
 「よろしくー」
 このとき明美は、ま、なんとかなるかな？　と、少し楽観的に考えていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#487">
-				<rdfs:label>487</rdfs:label>
-				<dcterms:creator foaf:nick="みず" dcterms:identifier="FRgqoucg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-21T11:12+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#487">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">487</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">みず</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">FRgqoucg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ほい、最後に上げておくですよ。
 感想よろです。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:06+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:12+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">6684</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">19</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

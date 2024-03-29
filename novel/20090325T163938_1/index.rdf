@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:36+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-08T23:53:36+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">Dollersシリーズ９『ブログ』</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2009-03-25T16:39:38+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2009-03-25T17:15:18+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">13443</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#624">
-				<rdfs:label>624</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T16:39:38+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#624">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">624</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T16:39:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">Dollersシリーズ９『ブログ』
 着ぐるみ達が癒してくれる不思議な店、”Dollers”
 今宵も孤独を抱えた人々が癒しを求めやってくる。
@@ -45,11 +30,15 @@
 今日も私がお相手していたお客様がコートを忘れて帰ってしまわれたの。幸いお客様は途中で気付いたみたいでお店に戻ってきたから良かったけど・・・。
 「お客様の忘れ物に気付けないで本当のサービスが出来ますか！？」って店長に怒られちゃった・・・(T_T)。皆さんも忘れ物には気をつけてね❤
 コメント（０）トラックバック（０）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#625">
-				<rdfs:label>625</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T16:43:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#625">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">625</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T16:43:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ブログを始めてから一週間、毎日更新し続けてきた。「そろそろ誰かからコメントが欲しいなあ」と思って、今まで書いた日記を見返していると・・・・・・昨日の記事にコメント
 が付いている！アスナはドキドキしながらクリックした。
 Ｃ　　　　　　　　　　　　　　　　　　　　　　　　　　　3月×日　23：08
@@ -65,11 +54,15 @@
 Ｃさんコメントありがとう。お仕事がんばるよ！Ｃさんもがんばって！
 
 アスナはうれしくて、うれしくて、その後何度も自分のブログにアクセスしてはコメントを読んでニヤニヤしてしまった。アスナはこれがブログを書くことの楽しさなのだと思った。こんな自分の言葉でも耳を傾けてくれる人がいるのだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#626">
-				<rdfs:label>626</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T16:45:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#626">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">626</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T16:45:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">【１】
 次の日、アスナは仕事が終わるとまっすぐ自分の部屋に戻りパソコンの電源を入れた。はやる気持ちを抑えつつ自分のブログにアクセスすると・・・・・・あった！昨日の記事にコメントが2件も。早速クリックして中身を確認した。
 
@@ -80,11 +73,15 @@
 
 昨日の人がまた見に来てくれた。しかも一日に二回も！初めて自分のブログを気に入ってくれた人が出来た。アスナは前の日にも増して喜びをかみ締めていた。だが一方で少し迷った。（同じ人からの二つのコメント。どうやって返事したらいいんだろう？・・・・・・やっぱり別々に返事を書いたほうが良いよね）
 2つの返しコメントを書き終えるとアスナは新しいブログの記事を考え始めた。読んでくれる人がいると更新するのにも張り合いが出てくる。昨日にもまして一生懸命に文章を考えていたため昨日よりも休む時間が遅くなってしまった。今のアスナにとっては、Ｃに喜んで欲しい、それが全てだった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#627">
-				<rdfs:label>627</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T16:46:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#627">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">627</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T16:46:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">【２】
 ・・・・・・Ｃが初めてコメントをくれてから一か月が過ぎた。コメントを書いてくれるのは相変わらずＣだけだったが、コメント数は日を追うごとに増えていった。しかしアスナは最初の頃のように素直に喜べなかった。コメントの内容が「寂しい」とか「悲しい」とか、Ｃのグチになってきたからだ。内容はともかく、せっかくＣさんがコメントを書いてくれたんだから、と“返し”で悩み相談をしたり励ましの言葉を書いたりした。全部に真剣返事を書いたものだから、最近はアスナの休憩時間はほとんどブログの更新に費やされていた。仕事が終わったらすぐ部屋に戻って、すぐにブログの更新とコメント返しをして、また仕事に行くという有様であった。アスナはほとんど休めていなかったが、『自分は人形だから我慢すれば平気だ』と自分に言い聞かせて働いた。さあ今日もブログの更新をやらなければ・・・・・・。アスナはいつものように仕事を終えると急いで自分の部屋に向かった。しかし、自分の部屋の前に着いたとき、向こうから二人の人形がやってきた。淫子と恥ん子だ。
 「よお、アスナ。ちょうど良かった」
@@ -94,11 +91,15 @@
 アスナは弱弱しく笑って首を振った。
 「ゴメン。やらなきゃいけないことがあるから」
 そういってドアを開けて中に入ろうとしたそのとき、淫子が勢いよく手を掴んできた。顔では笑っているが何か鬼気迫るものを感じさせる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#628">
-				<rdfs:label>628</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T16:48:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#628">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">628</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T16:48:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「そんなこと言わずにさ、最近付き合い悪いぞ」
 恥ん子も一歩前に出てアスナに迫る。
 「アスナちゃん、悩みがあったら私達相談にのるの」
@@ -117,11 +118,15 @@
 「お母様が直接聞いたほうが早いかも、なの」
 リュネは悩ましげに首を振った。
 「アスナは変なところで頑固になりますからね。無理やり聞き出して説き伏せようとしても返って逆効果かもしれません。心配ですがしばらく様子を見ましょう」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#629">
-				<rdfs:label>629</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T16:50:14+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#629">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">629</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T16:50:14+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">【３】 
 「本当に申し訳ありませんでした」
 アスナが淫子たちとケンカして数日後、彼女はリュネと一緒にお客様に頭を下げていた。アスナはビールを注ぎながらＣさんに何を言って励ますか考えていたため、ぼうっとしてしまいお客様の服に派手にこぼしてしまったのだ。ビールまみれになった服はリュネがすぐに洗濯して乾かしてくれたおかげでシミも残らずに済み、お客様も笑って許してくれた。だがDollersはお客様に癒しを与える場所、そのお客様を驚かせてしまうなんて本当に大変なことをしてしまったとアスナは見えない冷や汗を流していた。
@@ -131,11 +136,15 @@
 「ついうっかり・・・・・・そうですか。Dollersの人形はお客様にとってかけがえのないものを扱うこともあるというのに、自分のミスを『ついうっかり』で軽々しく片付けるなんて。ユリの指導もこの程度だったと言うことですね。ここで待っていなさい、アスナ。すぐにユリを呼んできますから。二人一緒に罰を与えます」
 私のせいでユリ姉さんまで罰を受けるなんて・・・・・・。アスナは立ち去ろうとするリュネの足にすがり付いて、あわてて本当のことを言った。最近ブログを始めたこと、コメントを書いてくれる人が悩んでいること、自分ひとりで助けようと苦心していたこと・・・・・・。
 最後まで聞き終えるとリュネはその場にしゃがみこむと、アスナの顔を見ながらこう言った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#630">
-				<rdfs:label>630</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T16:51:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#630">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">630</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T16:51:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja"> 
 「そういうことでしたか・・・・・・。最近アスナの様子がおかしいと他の人形達から聞いていました。私は淫子達にさりげなく様子を探るよう指示しておいたのですが、今日の事を受けてあまり悠長なことをいっていられないと思い、少し脅かしました。しかしどうして自分ひとりで解決しようとしたのですか？」
 「それは・・・Ｃさんは私を頼ってくれたわけで、自分だってもう一人前だからお母様みたいに癒せるって思って、それで・・・・・・」
@@ -146,11 +155,15 @@
 「仕方がありませんね。それならワタクシに策があります。それにはアスナの協力が不可欠です。もちろん引き受けてくれますね？」
 アスナが快く同意するとリュネは作戦をアスナに話した。
 リュネの作戦とは、アスナのブログにDollersの場所を書き、会って話がしたいと書くことだ。あれだけアスナに興味を持っていたＣのことだ。間違いなく会いにやって来るだろう。もし他の人がそれを見てDollersに来てしまっても、Dollersには選ばれた人しか入れないから問題はない。後はアスナがとっておきのサービスを施してＣの心の傷を癒すのだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#631">
-				<rdfs:label>631</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T16:53:16+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#631">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">631</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T16:53:16+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">【４】 
 アスナがDollersの場所を書き込んでから3日後、ＣがDollersにやってきた。リュネはいつものようにDollersについての説明をするとアスナの部屋のままでＣの案内をする。
 「では、ごゆっくりどうぞ」
@@ -165,11 +178,15 @@
 「本当の顔？なあに、それ？」
 軽くはぐらかされたがＣはひるむことなく言葉を続ける。
 「ほら、アスナちゃんの中の人の顔だよ。そんな着ぐるみなんか脱いでさ。そのスタイルからして女の人でしょ？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#632">
-				<rdfs:label>632</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T16:55:17+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#632">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">632</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T16:55:17+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">アスナは声を出して笑うとこう言った。
 「そんなに疑うなら・・・・・・調べてみる？」
 「え？」
@@ -183,11 +200,15 @@
 「確かに私は今まで他のお客様のものだった。でもそれはお仕事だったから。今私は私の意志でＣさんだけのものになりたいの。もちろんお金を払う必要なんてないわ。これでも信じてもらえないかしら？」
 とうとうＣは落ちた。
 「シャワー、浴びてきていいかな？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#633">
-				<rdfs:label>633</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T16:56:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#633">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">633</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T16:56:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">【５】 
 シャワーを浴びてから裸で部屋に戻ったＣはアスナを見て目が飛び出るかと思うくらい驚いた。アスナの体にはたっぷりと生クリームが塗られ、その上に種々のフルーツがちりばめられている。乳房にはそそり立つ乳首を模した苺が飾られ、股間には女性の茂みを思わせるようにチョコレートソースが網目状にかけられている。まるでアスナがケーキに化けたかのような見事な出来だ。女体盛りなどフィクションの世界では見たことがあるが実物を見るのはこれが初めてである。
 「これは一体どういう・・・・・・？」
@@ -197,11 +218,15 @@
 アスナは指でわき腹のクリームをすくうとＣの前に差し出した。とうとうＣは腹を据えてアスナの指をくわえた。口の中にクリームの優しい甘さが広がる。
 「どう、おいしい？」
 「・・・・・・おいしい」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#634">
-				<rdfs:label>634</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T16:57:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#634">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">634</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T16:57:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">Ｃはアスナの問いかけにぼそぼそと答えるだけで精一杯だった。2，3口食べた頃、アスナが一回にすくうクリームの量をわざと少なめにしてＣをじらしていることに気付いた。このままではアスナの裸を拝む前に自分の気がどうにかなってしまう。事実、彼はもうクリームの甘さやフルーツの酸味を感じられなくなっていた。
 突然Ｃはアスナを押し倒し、へその辺りを舐めだした。ぺろぺろぺろぺろ・・・一心不乱にアスナの腹をむしゃぶる。すっかりクリームを舐め尽くしてもアスナの肌を味わうことを辞めなかった。無味なる作り物の肌、しかしその肌から中にいる人の熱がはっきりと伝わってくる。先ほどまでの健全さはすっかり消えてＣの行為を受け入れ感じている淫猥な女性が舌先にいる、そう思うと堪らず自分のモノを大きくさせながら舐め続けた。
 アスナのクリームが胸と股の割れ目を覆うだけになった頃、さすがに舐めることに疲れたＣは一旦舌をアスナから離した。クリームを舐め取った部分にはやはり何の継ぎ目も見られず、のっぺりとした皮があるだけだった。アスナの顔がこちらを見上げている。表情は変わらないはずなのになぜか悲しそうに見えた。自分が手荒な愛撫をした後ろめたさがあったせいだろう。Ｃはすっかり萎えてしまった。
@@ -210,11 +235,15 @@
 アスナはＣのほほに手を伸ばして撫でた。 
 「遠慮しなくていいよ。Ｃさんに私の体を良く知ってもらいたいの。舐めてみて分かったと思うけど私の肌ってパツンパツンでしょ。もし私の中に人がいるとしたら大変よね。例えば乳首。元々皮に絞り上げられているところにＣさんが体じゅうをナメナメしてくれたから、この苺みたいに立っていると思うわ」
 アスナは自分の乳房の上の苺をさした。ショートケーキのように、ふわふわのクリームに鎮座したそれは、やはり女性の乳首を模しているのだ。おそらくその下に本物があるのだろう。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#635">
-				<rdfs:label>635</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T16:58:54+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#635">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">635</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T16:58:54+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">Ｃはアスナの言葉に操られているかのようなうつろな目で苺をくわえ、舐める。
 「ん・・・・・・」
 Ｃが舌を動かし、唇の力を変えるたびにアスナはわずかに身震いし身を捩る。アスナは苺を舐めるＣを見て、自分の乳首が責められるのを想像しているのだろう。しかし実際は苺が乳首に押し当てられる刺激しか得られないのだからもの足りないはずだ。その証拠に「直接乳首を責めて欲しい」と彼女の目が訴えている（ように見える）。だがＣは、じれったさを感じながらもＣにされるままになっているアスナをもっと見ていたかった。小さな快感を与え続けられるもどかしさに耐え、ご褒美の強い刺激を待ち続けているであろうアスナを・・・・・・。Ｃは彼女を操っているような気さえしてきた。既にアスナの母たるリュネの術中にはまっていることも知らずに。
@@ -224,11 +253,15 @@
 「もう片方も舐めてちょうだい。お願いだから・・・・・・」
 アスナは収まらない興奮をこらえてＣに頼んだ。イくことができない人形は、行為を受ければ受けるほど感度が上がりより大きな快感を受けることが出来る。しかしアスナには、作戦通りＣの心を一気に開ききることが求められている。Ｃの攻撃を受けつつも理性を失わずに彼の心の傷をさらけ出させなければならないのだ。余裕を持ってＣを誘いつつも、内心これから与えられる刺激を想像し体をさらに熱くしていた。
 Ｃはさっきと同じように苺をすぐには食べず、まるで本物の乳首を攻めるように執拗に舌で転がしたり、しゃぶったりする。違うのはアスナの状態だ。さっきの乳首攻めで体はすっかり湯上りのように火照り、陽炎でも見えるかというほどであった。感度がずっと良くなった体でＣの焦らし戦法を受けながらも、少しも顔をゆがめることは出来ず、人形ならではのスマイルを絶やさない。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#636">
-				<rdfs:label>636</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T17:00:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#636">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">636</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T17:00:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「かわいそうだから、そろそろ直接触ってあげようかな」
 乳房のクリームをすっかり舐めとったＣは、直接舌で乳首を弄びはじめる。さらにＣは空いている方の乳首を容赦なく指でこねくり回す。アスナは大きく仰け反りながら、搾り出すように嬌声を上げながら彼の行為を受け止める。
 （耐えるのよ、アスナ。た、え、て）
@@ -238,11 +271,15 @@
 にちゅっ。アスナは股間に塗られたクリームに手を入れて外側に広げた。おそらく割れ目に手をかけたのだろう。ここまで来るとＣはためらわなかった。アスナの股に顔を突っ込み顔をチョコとクリームまみれにしてむしゃぶりついた。
 「あああっ、激しすぎっ！ちょっ、やめっ！刺激が強すぎて、ア〜ンッ、私、おかしくなっちゃうよぉ〜〜〜！」
 散々Ｃの執拗な攻撃に堪えた体。その体の一番敏感なところをＣに凝視され責められるのだ。さすがのアスナも大きく取り乱し、興奮の大きさを全身で表現する。Ｃも女性の股間を目の前にして、自分に責められ狂うアスナに気を良くしていた。しかしここで何かが舌に当たる。こりこりとした小さな塊。Ｃは何かのフルーツだと思いペロペロと舐めてみた。味はないが弾力がある。なんだろうと考えながらＣは舐め続ける。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#637">
-				<rdfs:label>637</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T17:03:03+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#637">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">637</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T17:03:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">一方アスナはパニックに陥っていた。そう、Ｃが舐めていたのはアスナのクリ○○○に他ならなかった。ここを責められてはとても理性をつなぎ続けることは出来ない。アスナは絶えず嬌声を上げ、体はＣの行為のなすがままに操られる。時間の流れがとてもゆっくりに感じられた。とうとうＣはアスナのクリ○○○にかじりついた。その瞬間、ビクンッビクンッビクンッと、アスナの体が三回程跳ね上がり、ぐったりとしてしまった。心配になりＣはアスナの股間から顔を離し様子をうかがった。程なくしてアスナは何事もなかったようにゆっくりと体を起こすと自分の体をタオルで拭いた。
 「ねえ、大丈夫？」
 「もちろん大丈夫よ。Ｃさんとっても上手ね。おかげでとっても気持ち良くイくことが出来たわ。人形だからエロ汁は出ないんだけどね」
@@ -271,11 +308,15 @@
 「もし気が変わったらエッチな顔を見せてあげてもいいわよ。気が変わったら、だけどね」
 
 Ｃは今その言葉の意味を理解した。そして自らの指を彼女の引き締まったつつましやかなア○スに突き立てた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#638">
-				<rdfs:label>638</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T17:05:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#638">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">638</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T17:05:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">驚いたのはアスナである。確かに『自分を責めてみろ』と挑発したものの、せいぜい足などを撫でるくらいだろうと思っていてア○スを責めてくるなんて大胆なことは想定していなかった。
 （思ったより私に心を開いてくれているみたい。作戦は順調過ぎるくらい順調ね）
 さっき2回もイき損ねたアスナはＣのア○ス責めをありったけの精神力で我慢しながら、責め手を緩めないよう注意した。しかし、それは並大抵のことではなく、体が再び火照るのを止められない。
@@ -290,11 +331,15 @@
 アスナはそういうとあまり大きくない胸を寄せてＣの熱いモノを挟むと乳房を上下に動かし始めた。さらに舌を伸ばしてＣのモノの先端をくすぐる。今度は本気だ。手加減をせずにＣに崩壊を促している。アスナはＣの指でまたイき損なってしまい、限界が近づいていたため、仕上げに入ったのだ。
 我慢させられていたＣはあっけなく出してしまった。あんまりたくさん出たので、アスナの顔が真っ白になってしまった。
 「えへへ、私またクリームまみれになっちゃったね」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#639">
-				<rdfs:label>639</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T17:06:54+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#639">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">639</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T17:06:54+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">【６】
 この後、Ｃはさらに2回イかせてもらい、帰るころにはぼうっと恍惚の表情を浮かべていた。
 「今日は本当に楽しかった。また近いうちに遊びに来るよ」
@@ -308,11 +353,15 @@
 「ごめん・・・・・・」
 「いいの。私、Ｃさんのことが好きよ。だから安心して甘えられたの。でもＣさんは愛しているからじゃなくて、寂しさから逃れたいから私を好きでいてくれるんじゃない？」
 心の中を言い当てられ、Ｃは観念したように話し始めた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#640">
-				<rdfs:label>640</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T17:08:18+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#640">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">640</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T17:08:18+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「僕、昔から友達を作るのが下手だったんだ。自分は孤独に耐えられないって頭では分かっていたんだけど、自分がグループに入ることで、そのグループのバランスが崩れて自分や他の人が嫌な思いをするんじゃないかってずっと怖かった。『独立』っていうか『孤立』だよね。都内の大学に受かって上京したら、家族とも離れて本当に『孤立』した。そんなときにアスナちゃんのブログを見つけたんだ。アスナちゃんはこんな僕の言葉でも答えてくれた。僕はアスナちゃんのブログを読むときだけ孤独を忘れられたんだ。その上実際に会ってくれて、やっと友達が出来たって思えたんだ。だから『もう会わない』なんていわないでくれよ・・・・・・」
 アスナは黙って聞いていた。Ｃが話し終えるとアスナはＣの手を取り、彼の胸に当てた。
 「目を閉じて」
@@ -326,11 +375,15 @@
 アスナは自信たっぷりに笑って答えた。
 「Ｃさんの気持ちは人形の私にも伝わったんだから大丈夫。私が保証するわ！」
 不意にＣの目から一筋の涙が流れた。Ｃはアスナに抱かれながら今までの寂しさを押し流すように泣いた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#641">
-				<rdfs:label>641</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T17:10:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#641">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">641</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T17:10:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">【７】
 「ご苦労様でした、アスナ」
 Ｃを見送ったあと、アスナはリュネの部屋に報告に行った。
@@ -339,11 +392,15 @@
 「あの、これで良かったんでしょうか？これでＣさんが立ち直れたのか心配で・・・・・・」
 「ワタクシも彼に会うまで不安はありました。ですが実際に彼に会って確信しました。この人なら大丈夫だ、と。母がこう言うのです。安心なさい」
 接客経験豊富な母の言葉でアスナも心からほっとした。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#642">
-				<rdfs:label>642</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T17:12:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#642">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">642</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T17:12:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「さて、今度はアスナに罰を与えなければいけませんね」
 「へ？」
 にやりとしたリュネがさらっと恐ろしい言葉を放ち、アスナはワケが分からずポカンとした。
@@ -361,11 +418,15 @@
 一気に体の力が抜け、アスナの表情が思わず緩む。
 「ほら、笑わないで！早く教えなさい！」
 「はいはい。誰にでも簡単に作れますよ、ブログって」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#643">
-				<rdfs:label>643</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T17:15:18+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#643">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">643</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T17:15:18+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">【Epilogue】 
 「さぁ、今日もブログ更新するぞ〜」
 Ｃがやってきた次の日、今日もブログの更新に張り切るアスナ。昨日の記事に付いたコメントは・・・・・・20件！しかも全部Ｃさんから！
@@ -381,7 +442,14 @@
 ＜Dollersシリーズ９『ブログ』終わり＞
 この物語はフィクションです。登場する人物・団体・組織名はDollersの幸運以外全て架空のものです。
 ご感想お待ちしております。m( _ _ )m</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T16:39:38+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-03-25T17:15:18+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">13443</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">20</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

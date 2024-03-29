@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-11T21:53:15+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-11T21:53:15+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">キュアアクアとキュアピーチ</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:17:18+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:43:15+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">22168</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#544">
-				<rdfs:label>544</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:17:18+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#544">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">544</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:17:18+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　
 　まだ僕が幼かったころに近くのスーパーで撮った１枚の写真……
 
@@ -72,11 +57,15 @@
 脚を踏み入ることができるチャンスでもある。
 「6000円か、僕も明日から暇になるわけだし、いいよ。」
 「やった〜！じゃあ主催の人に連絡入れておくね。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#545">
-				<rdfs:label>545</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:18:54+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#545">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">545</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:18:54+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　その日は高校合格のささやかなお祝いに家族と外食に出かけたが
 正直、翌日のバイトが気になってステーキの味もよく覚えていなかった。
 子供のころに夢見た着ぐるみが出入りするテントの中……
@@ -106,11 +95,15 @@
 あまり仕事として気乗りはしないのだがバイト代が出る手前、そうも言ってられない。
 スタッフの１人である山口孝司(こうじ)さんにアドバイスをいただきながら
 ステージやテントの設営を急ピッチで進めていった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#546">
-				<rdfs:label>546</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:20:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#546">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">546</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:20:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　時刻は丁度９時、雪の残る道に日差しが照りつけキラキラと共鳴しあう中で
 ショッピングモールは開店時間となり駐車場にもちらほらとお客さんの姿が
 見受けられるようになった。
@@ -132,11 +125,15 @@
 彼女と僕は幼馴染だ、他の人とは違って彼女の着替えぐらいならどうってことはない。
 「入るぞ、いいか？」
 ひとこと断って、僕はカーテンの先に脚を踏み入れた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#547">
-				<rdfs:label>547</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:22:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#547">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">547</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:22:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　すべっとした艶やかなもっちり肌、ぴっちりしつつもふんわりとした衣装、
 すらっとした赤い髪、そして愛くるしい、くりっとした瞳が特徴の顔……いや、お面……
 外から子供がはしゃぐ声のする中で僕の心の中が虚空に満たされた。
@@ -157,11 +154,15 @@
 残り２０分ほど始まってしまうという状態だ。
 するとそこに主催の幸さんが慌てた様子で入ってきた。
 「やばい、アクア役予定の人がこれなくなってしまったんだ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#548">
-				<rdfs:label>548</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:24:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#548">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">548</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:24:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　僕以外のスタッフはその瞬間、凍りついて少しの間身動きがとれなくなっていた。
 「どどど、どうしてですか！！？」
 ピーチの中から結衣が顔のマスクを脱いでいた。
@@ -177,11 +178,15 @@
 よく見るとそのタイツには少し毛玉ができている。
 と、ふと僕は我に返って結衣に尋ねた。
 「グリーティングって何？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#549">
-				<rdfs:label>549</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:26:49+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#549">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">549</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:26:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　結衣の話だとこうだ。
 ステージングは物語に沿って演技をしていくもので少しの期間練習をしなければならず、
 いざ配役の子に休みが出てしまうと実行は不可能になってしまう。
@@ -202,11 +207,15 @@
 彼女一人で子供たちの相手をすることになるとは……
 着ぐるみでいられることに羨ましさを隠しきれずにいたが、
 僕は黙ってそんな彼女を見送ってあげることしかできなかった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#550">
-				<rdfs:label>550</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:28:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#550">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">550</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:28:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　しかし次の瞬間であった。
 主催の幸さんや周りのスタッフが僕を見ながら何やら話をしている。
 どうしたんだ？僕に何かあったのか？？？
@@ -237,11 +246,15 @@
 確かにあのおねえさんを除けばアクアができるギリギリの？体型の持ち主は
 僕以外にはいない様子だ。
 「…………お役に立てるかどうかは分かりませんが、やってみます。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#551">
-				<rdfs:label>551</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:31:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#551">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">551</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:31:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　「み〜んな〜！！！こ〜〜〜んにちは〜〜〜！！！」
 ＭＣのおねえさんの掛け声と同時に時刻が１０時になったのを確認した。
 結衣、もとい、キュアピーチのいなくなったテントの中にも聞こえてくる
@@ -273,11 +286,15 @@
 必死になるが、カチンコチンに硬くなった僕の息子はもうはちきれんばかりだ。
 もちろん内心はうれしかった、まさか僕が着ぐるみに、しかも女の子キャラに
 なろうとしている……内心、呼吸も少し早くなってきただろうか。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#552">
-				<rdfs:label>552</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:32:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#552">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">552</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:32:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　「あれ？キュアアクアは〜？？？」
 外から女の子の声がする。
 今のキュアアクアは全身タイツに下着を身に付けただけの変態容姿だ。
@@ -303,11 +320,15 @@
 続いて首周りにつけるアクセサリー、さらには靴を身につけ、
 これで頭のマスク以外は一通りの準備がととのったことになる。
 「じゃあ、頭をかぶせるよ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#553">
-				<rdfs:label>553</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:35:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#553">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">553</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:35:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　……青というよりは水色といった髪の毛、愛くるしい瞳、かわいらしい顔立ち。
 後ろにあった大きな鏡に映る自分は先ほどの全身タイツの変態容姿などではなく
 あのみんなの人気者、キュアアクアの姿に変身を遂げていた。
@@ -338,11 +359,15 @@
 孝司さんはアクアの後ろに椅子を置いて腰掛けている。
 「いいかい、アクアはただ力を抜いて鏡を見ているだけでいいから。
 　５分、長くても１０分ぐらいで終わるから。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#554">
-				<rdfs:label>554</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:36:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#554">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">554</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:36:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　すると次の瞬間、僕は動揺するとともに下半身に強烈な電流を感じ腰が砕け落ちた。
 こ、孝司さん！いったい何をするんですか！！？
 少し不敵な笑みを浮かべながらアクアのスカートの中に手を入れてくるではないか！
@@ -365,11 +390,15 @@
 声を押し殺すことができない。
 ただひどいポージングをとっているのに笑顔でいる美少女のアクア、
 中にいる僕はハァハァと恍惚な表情になり果てているはずなのに…………。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#555">
-				<rdfs:label>555</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:38:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#555">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">555</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:38:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　だんだんと孝司さんの手の動きが早くなってきた。
 やばい、そんなことをされると射精してしまう。
 「いっていいんだからね。」
@@ -390,11 +419,15 @@
 『ぶちゅっ！！！』という射精音が僕の体内をかけめぐり聞こえてきた気がする。
 ガタンと椅子の上から転げ落ちるアクア……わずか１０分未満の出来事ではあったが
 あまりの気持ちよさに時を忘れていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#556">
-				<rdfs:label>556</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:40:14+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#556">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">556</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:40:14+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　それと同時に僕の股間は急速に縮んでいき、衣装を押し上げることがなくなった。
 ハァハァと呼吸を荒げる中でアクアは、いや、僕は孝司さんから渡された
 コンドームの、そして呼吸の苦しみはすぐに分からなくなるという意味を知った。
@@ -407,11 +440,15 @@
 「いやいや、どういたしまして。外に出たら君は絶対にアクアだからね。」
 アクアはガッツポーズを見せて孝司さんに手を振った。
 まだ下半身に余韻の残る中、僕はアクアとなって子供たちに姿を見せた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#557">
-				<rdfs:label>557</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:41:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#557">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">557</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:41:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　ステージの上でこぶしを高々と上げて子供たちの声援に応えるアクア、
 その姿に一番驚きを隠せなかったのは結衣、いや、ピーチのほうであった。
 アクアの子は親戚の不幸のために来られないはずでは……
@@ -432,11 +469,15 @@
 もちろん写真を断る理由はないために手を大きく広げてポージングをとったが
 どこかしらでアクアは警戒感のある動きに変わっていた。
 そして次の瞬間、その警戒は現実のものとなってアクアに、いや、僕に襲いかかった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#558">
-				<rdfs:label>558</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:44:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#558">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">558</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:44:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　結論から言うと一瞬のスキをつかれて股間を触られてしまったのである。
 ただ、この３０歳代ぐらいのカメラマンにではない。
 彼に向ってポージングをとっていたときに背後からやってきた３人の男子中学生に
@@ -453,11 +494,15 @@
 いや、まるでフォローになってないからその言葉……
 でもアクアは立ち上がり、その人に向かって深々とお辞儀をした。
 何はともあれこの人は悪気があって言ってるわけではなさそうだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#559">
-				<rdfs:label>559</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:46:18+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#559">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">559</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:46:18+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　正午を周り、昼とはいえさすがにアクアの中では汗がじゅわりとしたたりおちていた。
 が、それよりも危険なことが１つあった。
 時間の流れとともにどんどんと中にいる僕の下半身がそそり立ってくるのである。
@@ -471,11 +516,15 @@
 こんな貴重な体験ができるのならタダ働きで全然問題ない。
 バイバ〜イと大きく手を振るピーチとアクア、子供たちに背を向けて
 テントの中へといったん引き下がっていった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#560">
-				<rdfs:label>560</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:49:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#560">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">560</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:49:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　テントの中に入るとすぐさまピーチの中から結衣が顔を出した。
 「えっ！？ちょっと……この中って誰なの！！？」
 やはり僕の思ったとおりである。
@@ -493,11 +542,15 @@
 何らかのフェチ的な感情を抱いているのではないだろうか？と思わずにはいられない。
 しかしさすがにアクアの中にも疲れはどっとたまっている。
 外の新鮮な空気を吸わないとそろそろ危ないだろうと僕はアクアの面をはずした。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#561">
-				<rdfs:label>561</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:51:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#561">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">561</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:51:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　「え〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜っ！！！！！！？？？」
 結衣の声はテントの外にまで響いてるのではないだろうか……。
 「祐也くん、お疲れだったね。」
@@ -519,11 +572,15 @@
 僕にはそれは褒め言葉だ。
 何だろう、子供たちに喜ばれる達成感もさることながら、他ならぬ結衣に言われたこと……
 こんな貴重な体験をできて、僕は幸せだった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#562">
-				<rdfs:label>562</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:52:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#562">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">562</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:52:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　午後になり隣町のショーチームから応援の女の子がやってきたために
 僕はアクアを脱いでその子へとバトンタッチした。
 正直、応援が来なければよかったのにと思っている。
@@ -548,11 +605,15 @@
 「いや、今日は本当にいろいろとよくしてくださって、ありがとうございました。」
 明日から僕はまた、普通の一般市民に逆戻りだ。
 みんなのヒーロー、キュアアクアはこれにておしまいだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#563">
-				<rdfs:label>563</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:53:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#563">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">563</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:53:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　……そう思っていた僕に再び、脳内を駆け巡る興奮を与えてくれたのは、孝司さんだった。
 　幸さんに色をつけていただいたバイト代をもらったところで後ろから孝司さんが
 どうしようかしら？と神妙な面持ちでこっちを見ていたのである。
@@ -580,11 +641,15 @@
 　ゆっくり練習の成果を見せてもらうからがんばってよ。」
 なるほど、そのためのバッグか……にしては少し大きすぎないか？
 とりあえず僕は深々とお辞儀をして帰路へと急いだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#564">
-				<rdfs:label>564</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:56:14+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#564">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">564</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:56:14+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　「でも祐也が中に入ってるなんてホント、びっくりしたよ〜。」
 結衣は家の前で僕に何か言いたげな表情だった。
 あぁ、たぶんいろいろと聞きたいことはあるんだろうな……。
@@ -597,11 +662,15 @@
 「じゃあ、また明日ね。」
 僕は結衣が家の中に入るのを見届けた後、どっと疲労感が襲ってきたのを肌で感じ取った。
 すがすがしい疲れだ……今日はきっといい夢が見られそうだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#565">
-				<rdfs:label>565</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:57:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#565">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">565</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:57:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　しかし家に戻り、ご飯とお風呂を済ませた後の自分の部屋で
 僕は再び目を疑うような光景と出くわすこととなった。
 時計の針は午後１１時、明日は父も母も仕事が早いらしくすでに寝込んでおり、
@@ -624,11 +693,15 @@
 笑うしかなかった。
 しかし孝司さんは僕をそんな気持ちに期待を裏切らない。
 カチッカチッと時計の音だけが支配している中で、それを決断するのに時間はいらなかった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#566">
-				<rdfs:label>566</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-03T23:59:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#566">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">566</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:59:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　１階のリビングから両親を起こさないように忍び足で姿見用の鏡を２階の僕の部屋へと
 運び、さらにはその脚ですぐさまコンビニまで駆け足でコンドームを買いに行った。
 正直、女性との性行為目的以外でこんなものを購入することになるとは……
@@ -659,11 +732,15 @@
 取り出した瞬間に僕の目に飛び込んでくるアクアの愛くるしい眼差し……。
 「ただいま、アクア。」
 僕はアクアの唇に１度、口づけをしてからゆっくりと頭にかぶった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#567">
-				<rdfs:label>567</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:08:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#567">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">567</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:08:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　あぁ、あのときと同じ感覚だ……すでに股間はカチンコチンとなり
 アクアのスカートを押し上げている。
 しかし今は子供の目など気にしなくてもいい。
@@ -687,11 +764,15 @@
 日曜日の朝やキャラショーでは絶対に見られないおぞましい姿がそこにはあった。
 だがそれこそ中にいる僕が望んだ姿である。
 もう呼吸を荒げずにはいられなかった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#568">
-				<rdfs:label>568</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:10:00+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#568">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">568</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:10:00+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　「ハァハァ……ハァハァ……。」
 アクアが下半身をさすっている。
 あくまで事を行なっているのはアクアである。
@@ -718,11 +799,15 @@
 念仏のようにマスクの中にいる自分が声を荒げる。
 あっち向いたりこっち向いたりするペニス、ぎゅっ、ぎゅっ、ぎゅっ、ぎゅっ……。
 「ぐあぁ！！！！！！！！！！！！」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#569">
-				<rdfs:label>569</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:11:54+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#569">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">569</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:11:54+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　下半身、主に股間部に走る強烈な電流。
 こすれたペニスが我慢を忘れるかのごとく『ぶちゅぶちゅ！』と白濁液を
 アクアの中ではじかせた。
@@ -747,11 +832,15 @@
 しかしそれも本能というハードルに打ち勝てるわけもない。
 ぐちゅぐちゅと股間の中が揺れ動く中で僕は天高く股間を突きだした。
 「あああああああああああああああああああぁぁぁぁぁぁぁぁぁぁぁぁぁ！！！」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#570">
-				<rdfs:label>570</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:13:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#570">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">570</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:13:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　がたがたがたがた！！！ベッドが激しく揺れ僕の叫び声はマスクの中を木霊する。
 『ぶちぶちっ！！！』とさらなる白濁液を空に向けて一気に放出した。
 「ハァハァ……ハァハァ……。」
@@ -779,11 +868,15 @@
 何だろう、まだ気持ちふとももあたりがしびれている……
 昨日やりすぎたせいだろうか？
 眠い目をこすりながらさっと歯を磨き、服を着て結衣が来るのを待った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#571">
-				<rdfs:label>571</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:14:55+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#571">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">571</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:14:55+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　一緒に早めの昼ごはんを食べた後、いざ、アクションショーの練習にとりかかった。
 リビングにあるテレビに昨日もらったビデオを挿入してまず動きを覚える。
 右へ左へ、体を大きく使いながらの動き……これは大変そうである。
@@ -804,11 +897,15 @@
 なるほど、思ったほど楽な仕事ではなさそうだ。
 こういった練習をしているときに給料がでるわけではないので
 実質の給料もそこまで高くはない、好きではないとやっていけない仕事であることは確かだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#572">
-				<rdfs:label>572</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:16:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#572">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">572</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:16:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　「ところでさ……孝司さんからやっぱ渡されてるんだよね？」
 「！！？」
 僕はそのひとことで今までの疲れがふっとぶかのような緊張に襲われた。
@@ -820,11 +917,15 @@
 時刻は午後の４時、そろそろ親が帰ってくるかもしれないデッドラインである。
 そんなときにリビングでこの話をするのは危険この上ない。
 僕は冷蔵庫からコカコーラを取り出して自分の部屋へと案内した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#573">
-				<rdfs:label>573</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:31:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#573">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">573</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:31:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　そう言えば長年の付き合いであるにも関わらず結衣を自分の部屋へと
 招き入れたのはこれが初めてである。
 そもそも僕はいつも自分の部屋は神聖な場所だからと言って誰も入れようとしなかった。
@@ -853,11 +954,15 @@
 「あのさ、結衣……ひょっとして、アクアも着てみたいの？」
 その瞬間、彼女の顔がカーッと真っ赤になるのを見逃さなかった。
 そう、ビンゴだった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#574">
-				<rdfs:label>574</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:32:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#574">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">574</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:32:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　その後、僕と結衣との間で交わされたのはほんのふたことみことだった。
 「僕も……ピーチのほう着てみたいよ。」
 「じゃあ、やってみようか。」
@@ -882,11 +987,15 @@
 あぁ、これで今度は結衣が前まで着ていたピーチになってるんだ……
 一度下半身を確認してみるとそびえ立つ股間がスカートの中で悲鳴を上げている。
 何だろう、苦しいよぉ〜と言わんばかりだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#575">
-				<rdfs:label>575</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:34:18+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#575">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">575</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:34:18+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　３、２、１……。
 シャーっと隔てていたカーテンを取り外すと目の前には元気いっぱいのアクアの姿、
 僕の、いや、ピーチの姿を目認したと同時に瞬時に抱きついてきた。
@@ -915,11 +1024,15 @@
 触られているのはアクアとはいえ、その中には幼馴染の結衣がいる。
 いったいどういうことだ？？？
 ピーチの、いや、僕の思考は崩壊寸前だ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#576">
-				<rdfs:label>576</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:35:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#576">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">576</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:35:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　そのときふと、とある考えが僕の脳裏をかすめた。
 もしかしてアクアも、いや、結衣も着ぐるみに対してフェチ的な感情を抱いてる？
 ……しかしどうやってそれを確かめればいいだろう？
@@ -939,11 +1052,15 @@
 だとすると僕らは完全に彼に見透かされていたということになる……
 いや、今となってはそうとしか思えない。
 でも孝司さん、ありがとうございます…………。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#577">
-				<rdfs:label>577</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:37:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#577">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">577</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:37:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　それさえ分かればもう迷うことはなかった。
 鏡の位置をずらしてお互いベッドの上に横になる。
 そして僕はアクアの下半身に手をつっこみなでまわした。
@@ -973,11 +1090,15 @@
 あぁ……ダメだ……アクア……いっちゃう、いっちゃうよ……。
 「ピーチ、ごめんね……先に……いっちゃあああああああああああああああああっ！！！」
 「んぐっ……んあああああああああああああああああああああああああああああっ！！！」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#578">
-				<rdfs:label>578</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:38:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#578">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">578</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:38:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　『ぶぢゅぶぢゅ！！！』
 彼女の体重など何のその、ピーチが突き上げた股間はアクアの体を軽々と持ち上げていた。
 お互い、絶頂を超えるとそのままアクアがピーチの上に倒れこんでくる。
@@ -1000,11 +1121,15 @@
 「うん、明日も練習しないとね……。」
 時刻は午後５時、玄関に母親の車が帰ってきたところで、
 僕は結衣が夕日に向かって走り去るのを見送った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#579">
-				<rdfs:label>579</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:39:54+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#579">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">579</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:39:54+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　明日もまたこんな濃密な時間を過ごすことになるだろう。
 そして僕は今、今日の夜はどうやって楽しもうかということばかり考えていた。
 今日は隣の部屋に妹も帰ってくるのに……もう病みつきになった僕は止まらない。
@@ -1017,11 +1142,15 @@
 セーラー●ーンの中に入っていたという当時のことを教えてもらおうと思った。
 きっと喜んで当時のことを教えてくれるはずである。
 そして僕と一緒、きっと自分の姿を見て欲情してたはずである。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#580">
-				<rdfs:label>580</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:41:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#580">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">580</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:41:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　おしとやかなアクアというキャラクター。
 となりで笑うそのマスクは僕を１８０度変えてしまった。
 たにんには決して言えないけども、僕は着ぐるみフェチだ。
@@ -1034,14 +1163,25 @@
 
 
 　　　　　　　　　　　　　　　　　　　　　　　　　　(続く……のか？)</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#581">
-				<rdfs:label>581</rdfs:label>
-				<dcterms:creator foaf:nick="ミカルディス" dcterms:identifier="JDmJrao8rU"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-10-04T00:43:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#581">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">581</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ミカルディス</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JDmJrao8rU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:43:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">２回も30行を超えてしまった……吊ってくるorz
 駄文失礼いたしました。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-03T23:17:18+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-10-04T00:43:15+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">22168</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">38</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-11T21:53:21+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-11T21:53:21+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">人形の洋館</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2010-12-16T21:01:26+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2011-05-16T20:49:38+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">9255</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#659">
-				<rdfs:label>659</rdfs:label>
-				<dcterms:creator foaf:nick="人形の洋館　序章"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-12-16T21:01:26+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#659">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">659</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形の洋館　序章</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-12-16T21:01:26+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そこはどこにあるかわからない、闇の奥深く一つの洋館がありました。
 その洋館に一室に、ひとりの、いやひとつの人形がいました四肢を繋ぐチェーンによって拘束されていました。
 エナメルのメイド服に身を包み、手にはラバーのグローブ、靴にも同素材のヒールが付けられていました。
@@ -40,11 +24,14 @@
 ですが「おおぉ...あおぉ...」とかわいらしいマスクに包まれた口から、まるで獣のような呻き声を発し体を強張らせます。
 アソコから送り込まれる無機質な振動に、何度も絶頂寸前まで追い上げられますが、そのたびにバイブの振動が止まり、決してイかせてはもらえません。
 彼女は襲い来る恐怖に身を強張らせ、暗闇の中で耐え続けるしかありませんでした。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#665">
-				<rdfs:label>665</rdfs:label>
-				<dcterms:creator foaf:nick="人形の洋館　序章"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-12-17T20:24:03+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#665">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">665</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形の洋館　序章</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-12-17T20:24:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">前に書き込んだのはプロローグでしたすみません
 本編
 そもそもなぜこんなことになってしまったのだろうか。
@@ -60,11 +47,14 @@
 彼女も不安になり先輩にいつ着くのか聞いても先輩は「大丈夫」の一点張りだった。
 するとしばらくして、車の心地よい揺れとヒーターの温もりに包まれ、いつの間にか女性は、まどろみの中に沈んでいった。
 不安を全て打ち消して・・・。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#689">
-				<rdfs:label>689</rdfs:label>
-				<dcterms:creator foaf:nick="人形の洋館　第一章"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-12-20T20:28:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#689">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">689</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形の洋館　第一章</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-12-20T20:28:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">会話パート入ります
 
 ここは、どこにあるかわからない人形の洋館の地下深く
@@ -89,11 +79,15 @@
 そう言うと白衣を着こんだＡは、うすら笑いながら実験に励んだのだった
 
 そしてプロローグ（&gt;&gt;659）に続く</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#694">
-				<rdfs:label>694</rdfs:label>
-				<dcterms:creator foaf:nick="人形の洋館　第二章" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-12-23T22:50:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#694">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">694</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形の洋館　第二章</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-12-23T22:50:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ＡＭ４：３０ごろ
 Ａ「ふあぁ」
 Ｂ「お疲れ様〜。実験どうだったんですか？」
@@ -105,11 +99,15 @@
 Ｂ（ナナ）「わかってますよ〜。それでは！新商品と台座をつなげておくのでエレベーター使いますね」
 Ａ「それでは頼みますよわたしはその間寝ているので、なんかあったときはナツキさんに連絡してください」
 ナナ「は〜い！それではいってきま〜す！」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#695">
-				<rdfs:label>695</rdfs:label>
-				<dcterms:creator foaf:nick="人形の洋館　第三章" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-12-24T18:35:01+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#695">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">695</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形の洋館　第三章</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-12-24T18:35:01+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">彼女が目覚めると、目の前に一つのフィギュアがあった。サンタの格好をした青い髪の女の子だ
 頬は赤く染まっている。それもそうだ。なぜならそのフィギュアのポーズは一本足の肘掛椅子に赤いロープで縛りつけられているのだ
 そして、目の前にいるフィギュアが、鏡に反射した自分だということに気づくにはさほど時間がかからなかった。
@@ -130,11 +128,15 @@
 移動された際に周りが見えたが、触手にやられているもの、性器を見せつけているもの、緊縛されているものといろいろあった
 ナナは場所を離れた後、クスリと笑いこう言った
 ナナ「さ〜て、動かずにいられるかな？気持ち良い臭いにやられないでね♪」」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#701">
-				<rdfs:label>701</rdfs:label>
-				<dcterms:creator foaf:nick="人形の洋館　第四章" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2010-12-26T14:17:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#701">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">701</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形の洋館　第四章</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-12-26T14:17:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">拘束されてもうどれくらい経つだろう。入ってくる客にばれないよう動かなくしていた
 いや、お目付け役がいないため、動いて助けを求めることも出来たのだが、そんな事をすればあの変態が何をしでかすかわかったもんじゃない
 そう考えると目の前で恍惚しているオタクがかわいく思えてしまう
@@ -150,11 +152,15 @@
 そしてそのボタンの隣にはこう説明されていた
 「このフィギュアはボタンを押すとしばらくの間動きます。動きが止まってもすぐには押さず、１０分以上経ってから押さないと壊れる可能性があります」
 そうとも知らず彼女は動いてしまったことに後悔し、お仕置きに恐怖しながら媚薬に翻弄されるのであった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#721">
-				<rdfs:label>721</rdfs:label>
-				<dcterms:creator foaf:nick="人形の洋館　第五章" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-01-22T17:25:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#721">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">721</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形の洋館　第五章</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-01-22T17:25:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">すいませんまとめてＵＰしようとと思ってたんですけど
 宿題があって途中まででしかできませんでした
 また後日続き書きます
@@ -178,11 +184,15 @@
 私「私をこんな目に合わせることよ！あなたたちの目的はなんなの一体？！」
 ナナ「目的・・・それはマスター聞かないと分らないかな〜」
 私「マスター！？！？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#723">
-				<rdfs:label>723</rdfs:label>
-				<dcterms:creator foaf:nick="人形の洋館　第六章" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-01-28T18:58:00+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#723">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">723</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形の洋館　第六章</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-01-28T18:58:00+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">彼女の話はこうだ
 マスターはあの洋館の主であり、行き場所をなくした彼女たちを拾ったのだという
 そしてマスターの目的もわからないという。ならどうして従うかというと、拾ってもらった恩なのだとか
@@ -204,11 +214,15 @@
 マスター「さあ食事でもすませましょうか」
 ナツキ「ちょっと待って下さいよ！」
 二人は洋館の長い廊下を歩いて行った</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#728">
-				<rdfs:label>728</rdfs:label>
-				<dcterms:creator foaf:nick="人形の洋館　第七章" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-02-20T10:40:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#728">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">728</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形の洋館　第七章</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-02-20T10:40:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">どうもオチの付け方が雑だ・・・。どうにかしたい・・・
 本編
 気がつくと、私は大きな扉の前に横たわっていた。
@@ -233,11 +247,15 @@
 マスター「そう・・・。と言ってもレンタルだから人身売買とは少し違うかもしれないけど。そして目的は・・・かわいらしい玩具を作り私自身を満足させるためとでも言っておこうかしら」
 そういうと私の目を見つめ、クスリと笑った。
 その瞬間私の中で寒気がした。なんと言えばいいのか解らないが、彼女の目から狂気のようなものを感じ取ったからである。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#751">
-				<rdfs:label>751</rdfs:label>
-				<dcterms:creator foaf:nick="人形の洋館　第八章" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-03-22T11:28:56+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#751">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">751</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形の洋館　第八章</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-03-22T11:28:56+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">すみません遅くなりました　マスター目線で始めました
 
 私は、答えを言い終えると、「他に何か質問や文句があるかしら」と聞いてきた
@@ -265,11 +283,15 @@
 ユミ「そのせいで仲間には“マスターは双子じゃなくて一人”と思い込まれているけどね・・・」
 ミユ「いいんじゃない？そっちの方が面白くて。さぁお風呂に入りましょう。もう痺れも取れたでしょう？」
 そういうとミユは浴室へと足を運び、ユミはそれを追うように走って行った</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#754">
-				<rdfs:label>754</rdfs:label>
-				<dcterms:creator foaf:nick="人形の洋館　第九章" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-04-02T17:29:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#754">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">754</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形の洋館　第九章</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-04-02T17:29:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">それでは九章いきます
 
 午前２時ごろ、とある建物の地下駐車場にて
@@ -299,11 +321,15 @@
 マスター「有難う御座います。じゃあアヤ、あなたは車で待機してなさい」
 アヤ「わかりました。お待ちしております」
 アヤは一歩後ろに下がり、一礼をし、車の方に帰って行った</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#788">
-				<rdfs:label>788</rdfs:label>
-				<dcterms:creator foaf:nick="人形の洋館　第最終章" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2011-05-16T20:49:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#788">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">788</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">人形の洋館　第最終章</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-05-16T20:49:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ラストです
 
 団長に更衣室に案内されたマスターは、キャリーケースの中から一人の少女を取り出した
@@ -358,7 +384,14 @@
 いつもの寮である。しかしそんな中見慣れないものもあった。
 一つの茶封筒で中には大金が入っていた。
 どうしてこうなったか思い出そうにも思い出せなかった・・・。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-12-16T21:01:26+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-05-16T20:49:38+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">9255</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">12</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

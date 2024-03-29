@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-17T01:56:43+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-17T01:56:43+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">殻の中</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2006-02-17T00:05:31+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2006-02-17T00:09:06+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">2498</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#345">
-				<rdfs:label>345</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="C60ZnIY/xA"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-17T00:05:31+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#345">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">345</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">C60ZnIY/xA</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-02-17T00:05:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　人は長い間抑制されると、それが解かれた後も自らでそれを抑制し続けるようである。
 　もはや筆談やキーボードなどの術を用いなければ、言葉を操ることが出来なくなってしまった。
 
@@ -49,11 +33,14 @@
 
 　その二日間の昂揚は決定的であった。
 　見られているとか、変身願望とかそう言う類の感情も含まれていたのかも知れないが、昂揚の主たる根源は、中に入っていると言うことである。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#346">
-				<rdfs:label>346</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="C60ZnIY/xA"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-17T00:06:57+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#346">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">346</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">C60ZnIY/xA</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-02-17T00:06:57+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　これは今になってから考えた講釈であるが、キャラクターであれ、人であれ、どれほど好きになっても、そこの内部に入り込むことは出来ない。
 　隣にいて、そして性交渉に至るにしても、表面的な接触でしかない。生殖器であれ、消化器であれ、皮膚とひと続きになっている以上、それは表面なのだ。
 　そう言う意味で、着ぐるむという行為はそれらを超越しているとさえ言えるのだ。
@@ -74,11 +61,14 @@
 
 
 sage忘れましたorz</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#347">
-				<rdfs:label>347</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="C60ZnIY/xA"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-17T00:07:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#347">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">347</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">C60ZnIY/xA</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-02-17T00:07:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　モーニングコールのベルが鳴る。
 　受話器を取り、一拍おいて、切る。
 　着ぐるみを着たまま眠ることは希であるが、気分を出すためにランジェリーを着用している。
@@ -94,11 +84,14 @@ sage忘れましたorz</sioc:content>
 　某掲示板で、男じゃないかと例しに煽ってみたら、一斉に全否定されたのは良い思い出である。
 
 　日中は主に二人の女性と、一人の男性がサポートに付くが、話を聞いている限り、中の人の存在は全く喪失しており、それこそキャラクターがゲームの外に出てきたと思いこんでいるのに近い感情を持っているのが分かる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#348">
-				<rdfs:label>348</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="C60ZnIY/xA"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-17T00:09:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#348">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">348</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">C60ZnIY/xA</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-02-17T00:09:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　初めの頃、写真の撮影となると、商品の広告や限定品のポスターやカレンダー、そうでなければ、記事の間を埋めるだけの存在だったが、今となっては声優のグラビアと肩を並べるほどとなった。
 　この仕事も楽しい。
 　絵ではなく、写真を撮影する意味は、「私が入っているキャラクター」が認められている所にある。
@@ -118,7 +111,14 @@ sage忘れましたorz</sioc:content>
 
 
 今回はここまで、もう少し続きます。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-02-17T00:05:31+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-02-17T00:09:06+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">2498</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">4</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

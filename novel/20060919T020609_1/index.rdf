@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:03:31+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:03:31+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">花島かなえちゃんが君の家にやってくる！</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:06:09+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:24:00+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">13793</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#573">
-				<rdfs:label>573</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:06:09+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#573">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">573</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:06:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">それでは、ここに貼らせていただきます。
 &gt;&gt;532-535までとは別の話です。この小説はフィクションであり、実在の人物・団体・ゲーム等とは一切関係ありません。
 
@@ -60,11 +44,14 @@
 　啓之は喜び勇んでドアを開けた。そこには秋の夕焼けで逆光になってはいたが、微笑を浮かべた花島かなえちゃんが
 立っていた。背丈は啓之の胸くらい。１５０〜１６０cmくらいだろうか。服装は写真と同じメイド服。
 腕と足に少し皺はあるが肌タイツで覆われている。手には大きめのバッグを持っていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#574">
-				<rdfs:label>574</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:07:52+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#574">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">574</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:07:52+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「いらっしゃい、かなえちゃん」
 啓之が震えた声でそう話し掛けると、かなえちゃんはちょっと引いた様子だった。
 なんだか、おどおどしている感じがする。（今の話し方、アクセントとかちょっときもかったかな）と、啓之は反省した。
@@ -93,11 +80,14 @@
 　かなえちゃんは、どうしようかな、と言うかのように、人差し指を立てて顎のあたりにあてるジェスチャーをした。
 しばらく考えていたようだが、やがて、小さくこくりとうなずいた。
 「やったー！」と、近所迷惑もかえりみず大声で歓声をあげる啓之。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#575">
-				<rdfs:label>575</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:09:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#575">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">575</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:09:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　啓之から受け取ったスクール水着を手にとったかなえちゃんは、腕を伸ばして啓之の後ろ側を指差す。
 どうやら、向こうをむいて、というジェスチャーらしい。啓之は素直に従った。見るなと言われた物を見ると幸せが逃げるのは、
 昔話から教訓を得ている。
@@ -126,11 +116,14 @@
 　啓之がそう言うと、かなえちゃんは素直に手を離した。
 　ごめんね、というように手を合わせて軽く頭を下げている。
 「別に謝らなくても。ただ、ちょっとおどろいただけだから」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#576">
-				<rdfs:label>576</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:10:18+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#576">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">576</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:10:18+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　表情はまったく変わっていないのに、なぜ彼女の二面性を感じることができるのだろう、と啓之は考えていた。
 平常時はかわいらしい少女なのに、一旦えっちになると、性欲をかきたたせる妖女にも見えるのだ。
 　その間も、かなえちゃんはとても過激なポーズをとり続け、啓之は撮影を続ける。
@@ -159,11 +152,14 @@
 　そのあと、かなえちゃんは部屋の片隅にある小さな冷蔵庫からミネラルウォーターのペットボトルを取り出して、
 ちょうだい、というように上目遣いで（と、いうよりは顎を引いて）啓之を見つめた。
 「う、うん。いいよ。自由に飲んで」と答えながらも、啓之は抑えられない衝動が胸の中に渦巻くのを感じた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#577">
-				<rdfs:label>577</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:11:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#577">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">577</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:11:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　かなえちゃんはペットボトルを開け、ストローを指して、面の小さい口からどうにか飲んでいるようだった。
 　カップラーメンだけの粗末な夕食をとった啓之は寝ることにした。時刻はすでに午前になっている。
 「布団は一つしかないんだ。かなえちゃん、使う？」と、啓之は訊ねたが、かなえちゃんは小さく首を振った。
@@ -193,11 +189,14 @@
 　かなえちゃんは、また、向こうをむいて、というようなジェスチャーをした。
 　啓之は、それに構わず、とうとう自分の欲望に正直になることにした。
 「中の人、いるって最初に言ったよね」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#578">
-				<rdfs:label>578</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:12:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#578">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">578</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:12:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　かなえちゃんは、突然の質問に戸惑いながらもうなずいた。
 「俺、どうしても中の娘に会いたいんだ。最後の夜だし、かなえられないかな」
 　肌タイツの上にビキニを着けた少女は、明らかに狼狽した様子だった。何時間、いや丸１日以上この姿でいて、啓之が
@@ -227,11 +226,14 @@
 
 　亜理紗は啓之の高校時代の初恋の人である。が、とうとう告白することなく卒業し、それぞれの進路に進んでしまったのだ。
 その後、彼女はとあるゲームメーカーに就職したと言う噂を聞いたが、まさかエロゲのメーカーだったとは。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#579">
-				<rdfs:label>579</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:13:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#579">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">579</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:13:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「もしかして、あたしの事、忘れてた？ ゲームのタイトル通り、『再開』しちゃうとはね」
 　フード状のタイツを頭から外して、汗に濡れたショートカットの黒髪をさらした亜理紗が問う。啓之は黙ったままだ。
 「あたしは結構、啓之君のこと、気になっていたの。でも、互いにあまり話さなかったわね」
@@ -261,11 +263,14 @@
 「とにかく、中へどうぞ」
 　戸惑いながらも中に入った。啓之君の部屋の中にはそういう趣味の物がかなりあった。高校時代の彼からはとても想像できない。
 　とにかく、何かをしなくては。あ、そうだ、あの紙を啓之君に渡さなくては。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#580">
-				<rdfs:label>580</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:14:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#580">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">580</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:14:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　啓之君は、じっと紙を見つめて、言った。
 「うん、わかったよ。でも、中の人って書いてあるけど、具体的にはどうすればいいの？」
 　そんなのわかってるでしょ。人なんだから、食べ物・飲み物がなくっちゃ。
@@ -295,11 +300,14 @@
 「ほ、本当！じゃ、じゃあお願いします！」
 　また、大声を出す。少しは反省してよ。しーっ。こんなジェスチャー小学生のとき以来だ。
 「ごめんね。ちょっと興奮しすぎた」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#581">
-				<rdfs:label>581</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:15:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#581">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">581</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:15:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　まったくもう、気を付けてね。まあ、少しは反省してくれただろうし、サービスしちゃおうかな。どうせ、中にあたしが
 いることを知らないのだから。グラビアアイドルが取るようなポーズをしてみた。啓之君のテンションがどんどん高く
 なってきた。
@@ -329,11 +337,14 @@
 あたしは再びかなえになった。かなえはまだ、裸だ。とりあえず、ここに来た時に着ていたメイド服を着ることにした。
 かなえの下着を身に着ける。あたしは、この服はリボンだのフリルだのが多すぎてあまり好きじゃないけど、
 かなえはこの服を気に入っているのね。よし、着替え完了。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#582">
-				<rdfs:label>582</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:16:51+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#582">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">582</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:16:51+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　意外にも素直だった啓之君の肩をたたく。啓之君はやや欲求不満そうな表情をみせた。
 「そういえば、夕飯は？」と、啓之君は言ったけど、まさかかなえの顔をずらして、あたしの口だけだしてむしゃむしゃ
 夕飯を食べるわけにも行かないでしょ。そのかわり、何か飲み物をもらおう。冷蔵庫の中、ちょっと失礼するわね。
@@ -364,11 +375,14 @@
 仕方がないから、我慢することにした。でも、ビキニのまま寝るわけにもいかないから、啓之君に向こうをむいて
 もらって、またメイド服にでも着替えるか。意外と暖かいし。そう思いながら、かなえが啓之君の後ろを指差したとき、
 啓之君は言った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#583">
-				<rdfs:label>583</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:19:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#583">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">583</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:19:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「中の人、いるって最初に言ったよね」
 　確かに言ったけど、まさか、あたしの顔を見せろと言うの。高校生のとき同じクラスだった女の子がこの中に入って
 いるって知ったとき、啓之君はどんな反応をするだろう。
@@ -397,11 +411,14 @@
 「あっ、そうだった。ずっとかなえに拘束されてたから、つい脱いじゃったけど。しょうがない、また着るか…」
 　そのとき、啓之は自分の欲求にさらに正直になることにし、驚くべきことを言った。
 「その前に…俺がかなえになってもいい？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#584">
-				<rdfs:label>584</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:20:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#584">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">584</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:20:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「えっ！？」
 　当然、驚いて聞き返す亜理紗。
 「いや、あの、俺が着ぐるみの女の子が大好きなのはとっくに気付いていると思う。それで、一度でいいから
@@ -430,11 +447,14 @@
 　亜理紗は理解できない、といったような表情をして、冷たい視線を啓之に送った。
 「つぎは、衣裳を身に着けようかな。これがいいなあ」
 　啓之が手にとったのは、かなえちゃんが一番えっちになったときに着ていた、バニー服だった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#585">
-				<rdfs:label>585</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:21:49+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#585">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">585</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:21:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「これ、胸がないとずり落ちるかもしれないわよ」
 と、亜理紗は言ったが、啓之は構う様子もなく網タイツを履き始めている。
 　そして、真っ黒なレオタードというような衣裳のメインを手に取り、履くように着た。胴が亜理紗よりも太いせいか、
@@ -464,11 +484,14 @@
 　びくんびくんと、大きく体を震わせるかなえちゃん。
 「こうやるのよ。わかった？」
 　小悪魔のような表情で亜理紗は言った。かなえちゃんは首を振る。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#586">
-				<rdfs:label>586</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-19T02:24:00+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#586">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">586</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:24:00+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「まったく、仕方がないんだから」
 　亜理紗はそう言うと、かなえちゃんの股間にまたがった。メイド服のスカートで啓之の大きいものは隠れた。
 　えっ、ちょっと、まさか、と啓之が思っていると、亜理紗は手で刺激しながら、啓之のものに、股間をこすりつけた。
@@ -498,7 +521,14 @@
 「かなえちゃんは、亜理紗のものになりました。実は、かなえのゲームそんなに売れなかったの。だからこのままだと、
 廃棄処分されるというので、亜理紗に救ってもらいました」
 　啓之は興奮と喜びに飛び上がって歓声をあげた。　（終わり）</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:06:09+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-19T02:24:00+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">13793</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">14</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

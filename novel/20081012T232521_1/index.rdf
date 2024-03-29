@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:05+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-08T23:53:05+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">Dollersシリーズ４　〜そして真相へ〜</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:25:21+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-10-18T00:25:03+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">10377</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#282">
-				<rdfs:label>282</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:25:21+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#282">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">282</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:25:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">KG様、割り込んで書くことをお許しください。
  Dollersシリーズ４　〜そして真相へ〜
 私はついにたどり着いた。深夜の色町の中にひっそりと灯る赤いネオン、重苦しい扉・・・。そう、私はついにDollersの入り口を発見したのだ！Aの依頼を受けてからすでに2ヶ月が経過していた。ああ、なんと言うことか。まさかこんなにぎやかな通りに店を構えているなんて、一度探していた場所なのになぜ見落としていたのだろう！いや、そんなことはどうでもいい。早速潜入捜査だ。彼女達が一体何者なのだろうかという疑問、それ以上に継ぎ目のない着ぐるみとは一体どのようなものなのかという好奇心が私を突き動かしていた。早速扉を開けて中にはいってみる。
@@ -45,11 +30,15 @@
 途中、薄暗い廊下を延々歩いたり、階段を何度も上ったり降りたりした。外から見た限りでは、あのビルはここまでの広さはなかったはずだが・・・。
 メイドさんは迷うことなく私を導き、やがて、黒い扉の前にたどり着いた。“VIP　room”
 と書かれている。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#283">
-				<rdfs:label>283</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:26:49+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#283">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">283</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:26:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「この部屋でお待ちください。すぐオーナーを呼んでまいります。お茶もお持ちしますね」
 メイドさんは私を部屋に通し、パタパタと駆けていった。
 部屋の中は薄暗く、オレンジ色の背の高い電気スタンドが優しく輝いている。天蓋つきの二人用ベッドが部屋のど真ん中にあり、近くに洒落たデザインの飴色の木のテーブルと椅子が置かれている。部屋の中は霞がかかっているようにぼんやりとしか見えないので正確な広さや様子はわからない。お香でもたかれているのだろうか？頭の中がトロリとなるような強烈で甘美な香りだ。私は椅子に座るとメイドさんのいない間にポケットのなかの小型録音器のスイッチを入れておいた。
@@ -59,11 +48,15 @@
 「ワタクシがオーナー兼案内人の「リュネ」と申します。“夢幻征四郎”様」
 「！！なぜ、私の名を！？」
 リュネはおもむろに立ち上がると、奥からノートパソコンを持ってきた。その画面には、こう書かれていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#284">
-				<rdfs:label>284</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:30:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#284">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">284</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:30:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">【妄想】着ぐるみ小説スレ第５章【連載？】
 ・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
 114：夢幻征四郎：2008/07/13(日)00：20：53
@@ -82,11 +75,15 @@
 私は激しく暴れて抵抗したがリュネの腕力は強く逃れることができない。しかも彼女は自分の口の中に舌を侵入させて私の舌に絡め始めた。
 「んん〜〜〜」
 私は激しく困惑した。彼女はその豊満な乳房を私の胸に押し付けムニュムニュさせてきたし、ひざを私のモノのある位置にあてがい、ズボンの上からグリグリと刺激してきたからだ。リュネの舌が私の敏感な口腔をくすぐり、胸の感触をアピールし、モノを弄ぶ。女の武器をフル活用した攻撃が私の戦意を削ぐのに5分とかからなかった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#285">
-				<rdfs:label>285</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:31:52+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#285">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">285</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:31:52+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「落ち着きましたか？」
 もう逃げ出さないと判断したのか、私がぐったりとしてしまうと彼女はテーブルの向こう側の椅子に腰掛けた
 「夢幻様を始末しようなんて・・・・・・いえいえ、逆です。憶測で物を言われてしまうと皆さん誤解してしまうではありませんか。他の仲間達と話し合って、いっそ真実をお話したほうがいいと決まりましてね。」
@@ -99,22 +96,30 @@
 「・・・・・・孤独、特に性的な孤独です。食欲は食物によって満たせます。睡眠欲は寝ることによって満たせます。ですが性欲は・・・人によってしか、人による愛でしか満たすことはできません。しかし、それを望んでも得られないばかりに傷つき苦悩する人はあまりにも多い・・・。ワタクシ達は信じているのです。人形の仮初めの愛でも、お客様の苦悩を少しだけ軽くすることができる、と」
 「あの、もしかしてここに入る資格というのは、その孤独感を自覚しているということですか」
 ふられてしまったA、奥さんとの死別を改めて痛感していたBさん、確かに彼らは孤独感を強く感じていたはずだ。（夢幻は知らないが、タジマもまた、パートナーがおらず、性欲を発散できない孤独感をかかえていたのであのような行為に及んだのである）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#286">
-				<rdfs:label>286</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:33:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#286">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">286</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:33:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「はい。大なり小なりの孤独感を感じているお客様のみ、ここの扉を見つけることができるのです。そういえば、AさんとBさんはもう一度ここに来たいとおっしゃっているようですね。ここに入れなくなったのは孤独感から解放されて資格を失ったからでしょう。お気に召しましたようでうれしいのですが、早くここでのことは忘れて、明日を向いて生きていくように、とお伝え願いたいです」
 　私はすっかり圧倒された。ただの風変わりな風俗店だと思っていたが、あまりにもしっかりとした営業方針にすっかり惹かれてしまったのだ。会話が途切れ、しばしの沈黙。会話を切りたくなかったので、私はハーブティーを一気に飲み干すと一つ質問を投げかけた。
 「なかなか立派な営業方針ですね。しかし、一体この店どうなっているんですか？たての野の外見よりずっと広いですが。それに、いつから営業しているんですか？」
 すると、リュネはハーブティーを注ぎながら思いもよらぬことを言った。
 「ここは、あのビルの中ではありませんよ。おそらく『始まりも終わりもない空間』なんです。広さにも終わりがないので、こんなにも広いのです。時間的にも始まりと終わりがない、つまりワタクシとこの空間は『最初からあった』のです。人間の孤独を癒すことも『最初からやっていた』という具合なのです。ワタクシは不老不死の体で終わらない時の中、志を同じくする者に不老不死の法を施して、少しずつ仲間を増やしながら人間の孤独に寄り添ってきました」
 私は口をぽかんと開けて、彼女の話に聞き入っていた。冷静に考えると彼女の話は信じがたかったが、不思議とうそを言っているようには思えなかった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#287">
-				<rdfs:label>287</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:34:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#287">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">287</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:34:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「さて、そろそろ効いてきたようですね」
 リュネが意味深な言葉をつぶやき、私の下半身を指差す。指の先を見るとなんと私のモノが、ズボンをつき破らんとばかりにいきり立っていたのだ。あまりの恥ずかしさに必死に手で隠す。何てことだ。いくらリュネが下着姿だからって・・・。そこまで考えた後、頭が真っ白になってしまった。
 「照れることはありません。この部屋を満たしている香りには性欲を増進させる効果がありますから。自然なことです」
@@ -126,11 +131,15 @@
 女性経験のない私を見下すことなく、リュネは優しく誘ってくれているのだ。しかし女性への懐疑心が先にたち、私は頑なに口を閉じたままだった。
 「特になしということは、お任せでよろしいですね。途中で気が変わりましたら、いつでもお申し付けくださいませ」
 リュネはティーセットを端に寄せると、テーブルの上にぺたりと座り、ショーツの両脇の蝶結びを解いた。白いつるりとした恥部があらわになる。ブラジャーのホックにも手をかけ、押さえつけられていた乳房を解放した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#288">
-				<rdfs:label>288</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:36:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#288">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">288</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:36:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「まずは女性の体をよく知っていただけたらと思いまして。人形ですのでワタクシの体は確かに作り物ですが、女性のそれを正確に模しております。たぶん中に人がいるとすれば、女性ではないでしょうか？」
 そういうと、リュネは自分の割れ目に手をかけ目一杯開き、私に見せつけてきた。
 「ここがク○○トス、女性の勃起体ですね。本物なら性的に興奮するとここが勃起し、股全体が湿ってくるのですが、私は人形ですゆえ、そうはいきません。ご了承ください。そしてここがいわゆる性の穴、ワタクシのは途中でふさがっていますが本物の女性でしたら・・・・・・」
@@ -140,11 +149,15 @@
 「これは熱で収縮、凝固する液体です。これを体に塗ることで薄い膜を形成し、体温でちょうど良い固さで固まります。顔の部分は私のみが自由自在につくり換えることができます。仲間の顔もすべて私が作りましたの。それゆえに仲間達はワタクシを創造主（クリエイター）と呼びます。」
 リュネは私の目の前で小瓶を振りながら話を続ける。
 「それで、もし、もしもワタクシの中に誰かいるとしたら、その人は大変でしょうね。想像してみてください。熱で収縮してくる皮に、身長が縮む位ぎゅうぎゅう締め付けられて、そこから逃れようとしてとっさに皮を引っ張っても体に張り付いて決してはがれない。それに少しでも体を動かすと他のところがグイって引っ張られて切なくなってしまうでしょう。まるで無数の手がまとわりついているように。例えば・・・・・・」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#289">
-				<rdfs:label>289</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:37:53+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#289">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">289</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:37:53+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そういうとリュネは自分の胸をつかみ、円を描くように揉み始めた。
 「ほら、ワタクシのお股、皮が食い込んでいっているの、お分かりですか？」
 確かにリュネが胸を揉む１サイクルごとに股の皮が上下どうしているのが分かる。
@@ -155,11 +168,15 @@
 私は強い口調でリュネを問うた。なんとも悶々として、彼女の嫌らしいショーを見ていられなかった。
 「裸になっているところを他の誰かに見られたら、羞恥心でかえって悶えてしまいますわ。結局、どうあっても快楽から逃げられません。でも、ここは素晴らしい場所なのです。この皮は細胞の活性化作用があって私たちに永遠の命を保障してくれますし、普通の人間には到達できない快楽の極致を味わうことができますから」
 私は彼女の言葉攻めにすっかりやられてしまったようだ。口の中にたまった生唾をごくりと飲み込んで、リュネの体をまじまじと見ていた。こんなにきれいなのに・・・。常人が決して覗き見ることができない淫靡な世界を内包しているのだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#290">
-				<rdfs:label>290</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:39:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#290">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">290</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:39:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「あらあら、申し訳ありません。ワタクシばかり気持ちよくなってしまって・・・。でもご満足していただけたようですね。今度こそ夢幻様が気持ちよくなる番です。どうぞ、ベッドに入りましょうか」
 私はリュネに手を引かれてベッドまで行き、服を脱がされる。思わず自分のモノを隠した私の手をリュネは優しく解き、彼女に促されるままベッドに寝ころがった。彼女はベッドの周りの藤色の薄いカーテンを締めてこう言った。
 「夢幻様は横になっているだけでよいのです。自分だけ気持ちよくなっては悪いなんて考えないでください。ワタクシのことはお気遣いなく」
@@ -169,11 +186,15 @@
 確かに、先ほどの彼女の話を聞いて、この行為の最中にもいやらしい熱と無数の手がまとわりついているように皮が体に張り付き弄ばれて、どんなにか悩ましいのかと興味があったし、常人に到達できない性感の境地に招待されたらどんなにかいいだろうと、リュネをうらやましく思っていた。
 「そりゃ、興味あるけど・・・・・・」
 「でしたら、先ほどの液体を塗って差し上げますわ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#291">
-				<rdfs:label>291</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:40:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#291">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">291</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:40:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そういうとリュネはベッドに持ってきていた先ほどの小瓶を取り出し、中の液体を私のモノに塗ってくれた。あるいは最初から私に体験させてくれるつもりだったのかも知れない。
 液体は即座に固まって、次の瞬間、私はまるで牛の乳絞りのような感じで、モノを握られているような感覚に襲われた。予想をはるかに上回る締め付けと断熱性による自らの嫌らしい熱に軽く悲鳴を上げながら、リュネのことを考えていた。こんなのに全身覆われていたらさぞ辛いだろうに。さっき私のために、胸を擦り付けたり揉んだりしていたとき、ピクピク動くだけですむはずがないのだ。激しく身をよじって、床でもんどりうってもおかしくないのになぜそうまでして、慎ましやかであり続けるのか、メイド人形としての意地がそうさせるのか、それとも何か別の目的のためか・・・・・・。その疑問の答えが後者だと気付くのにさほど時間はかからなかった。
 「せっかくです。ワタクシの中も味わっていってくださいませ」
@@ -183,11 +204,15 @@
 「いかがですか、ワタクシの中のお味は？」
 「なんか、上手く言えないけど、こう、壁がムニュムニュして、時々キューと締め付けられて、すごく熱い・・・・・・」
 「そうですか、ワタクシも夢幻様のモノの律動を確かに感じております・・・・・・。それではもう少しお楽しみを増やして差し上げます」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#292">
-				<rdfs:label>292</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:41:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#292">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">292</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:41:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">一時間くらいたったころ、私はもう5回はお預けを食らってかなりグロッキーだった。
 「ふふふ、ワタクシの中の熱、ちゃんと夢幻様をエッチな気分にさせていますか？」
 「もうそういうこと言うのはやめて！頭が変になる！」
@@ -204,11 +229,15 @@
 結局我慢しきれずに中で出してしまった。ドプドプと音を立て注がれたそれは、穴から湧き水のようにあふれ出し、ベッドと彼女の下半身をねっとりと潤した。
 「はあぁ、き・も・ち・イ・イ・・・・・・」
 リュネは軽く身震いして嘆息した声を上げると、再びモノを引き抜きティッシュできれいに後始末してくれた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#293">
-				<rdfs:label>293</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:43:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#293">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">293</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:43:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「ゴメン、シーツよごしちゃった・・・」
 「いいのです。夢幻様のお汁のにおいに包まれて眠れるなら本望です」
 「な、ななななな・・・」
@@ -223,11 +252,15 @@
 「あら、回復が早いですね。まあ、先ほどのお茶には精液の生産を促進させる効能がありますから」
 「あの、今度は、その・・・・・・。胸、触ってもいいかな？」
 「はい、もちろんですとも。お茶の効果は最大12時間持続します。その間は何度お汁を出しても苦痛はありません。時間はたっぷりあります。ごゆっくりお楽しみください」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#296">
-				<rdfs:label>296</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:47:55+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#296">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">296</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:47:55+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">最終的に私はあの皮を使って、５回も快楽の極致を味わうことができた。大満足してそろそろ帰ろうと思い、お金を払うというと、リュネは、
 「御代は結構です。ここはお客様の警戒心を解くために風俗店に擬態しています。最初から無料だというと、かえって怪しまれるので。お会計のときは、お客様だけにサービス、とか言って、ごまかしております」
 と答えた。
@@ -236,38 +269,58 @@
 「青い月？」
 「あり得ないこと、という意味です。ワタクシ達人形もまた、『青い月』です」
 「・・・・・・できればそうならないといいけど、もしこれから先孤独を感じたら、また来ていいかな？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#297">
-				<rdfs:label>297</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:49:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#297">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">297</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:49:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「常に月が空にあるように、ワタクシ達は人間と共にあります」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#298">
-				<rdfs:label>298</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:51:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#298">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">298</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:51:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">店を出ると、東の空が明るくなり始めていた。帰ったらAやBさんに、そしてあの掲示板に報告書を書かなければ。一度振り返ると、そこにもう扉はなかった。再び前を向いて歩き出す。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#299">
-				<rdfs:label>299</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:52:11+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#299">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">299</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:52:11+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">私達は青い月に照らされているのかも知れない。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#301">
-				<rdfs:label>301</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:53:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#301">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">301</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:53:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">＜終わり＞
 筆者の私が長いこと追いかけてきたのもまた、着ぐるみという名の「青い月」。月には決して手が届かないと知りつつも。
 ・・・・・・まあ、キザで気持ちの悪いあとがきはこれ位にして、と。真相を書きました。伏線はすべて回収したつもりです。
 ご感想お待ちしておりますm( _ _ )m</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#324">
-				<rdfs:label>324</rdfs:label>
-				<dcterms:creator foaf:nick="夢幻征四郎" dcterms:identifier="qDggTAordc"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-18T00:25:03+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#324">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">324</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">夢幻征四郎</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">qDggTAordc</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-18T00:25:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ご感想ありがとうございました。申し訳ないです。読み返してたら抜けてた箇所があったのであげておきます。291と292の間に以下の文章が入ります。
 
 そういうとリュネはゆっくりと自分の腰を上下に動かし始めた。動かすたびにぢゅぷぢゅぷと淫靡な水音が響く。
@@ -284,7 +337,14 @@
 正直、「液体を体に『塗る』なんて『着』ぐるみじゃない！」とお叱りを受けることを覚悟していましたので、ほっとしています。
 ところで、まさかメイドさん（リュネ）がこのBBS見てたとはねぇ。案外フィクションでもなかったりして。（なんちゃって。本当にそうだったらいいですが）。不思議な空間で人の孤独を癒す着ぐるみ達って本当にありえないですね。
 でも、そんなありえない月があってもいいと思うんです。優しく照らす青い月があっても。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-12T23:25:21+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-18T00:25:03+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">10377</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">18</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

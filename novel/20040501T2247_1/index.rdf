@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:05:41+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:05:41+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">大胆アイドルくるみちゃん</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-05-01T22:47+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-05-11T23:39+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">7274</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#200">
-				<rdfs:label>200</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T22:47+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#200">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">200</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T22:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">月17日　　13：00
 
 「これは〜・・・ここだな。」
@@ -50,11 +35,15 @@
 
 休憩所に到着し、品切れの商品のリストを確認して少し経った時、
 ふと後ろを振り返るとココの遊園地のマスコットが立っていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#201">
-				<rdfs:label>201</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-01T23:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#201">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">201</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T23:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">しかし普通の遊園地にあるようなマスコットではない
 ネコやクマのような動物型ではなく
 アニメなどに出てきそうな”美少女”とでも言うのであろう。
@@ -72,11 +61,15 @@
 あまりジロジロ見るわけにもいかないのでチラチラと見つつ作業を続けた。
 
 すると彼女がオレの肩を叩いた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#202">
-				<rdfs:label>202</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-02T22:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#202">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">202</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-02T22:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「っ！？はい？オレに用ですか？」
 こくっ。
 彼女はうなずいた
@@ -92,11 +85,15 @@
 こくこくっ！
 すると彼女は元気に二回頷いた。
 （へぇ〜。この時間帯は休み時間ってわけか）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#204">
-				<rdfs:label>204</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-03T00:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#204">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">204</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-03T00:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「それじゃあ・・・はい。１５０円になりま〜す！」
 彼女は小銭を手渡し、元気にお辞儀をして去っていった
 「お買い上げありがとうございま〜す！！」
@@ -110,11 +107,15 @@
 詰めの作業も終わり、
 本部に終了の確認を取ろうと思い事務所に戻る途中
 先ほどの”美少女”がついてきていた</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#205">
-				<rdfs:label>205</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-03T00:26+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#205">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">205</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-03T00:26+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「あぁっと・・・さっきはどーも・・・」
 オレは動揺しているのがわかった
 なにか胸を締め付けられている感じがしてならなかった
@@ -128,11 +129,15 @@
 
 「えっ！？あっ？？ちょ・・・ちょっと・・・。」
 オレはとっさの事で身動きが取れなかった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#206">
-				<rdfs:label>206</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-03T00:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#206">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">206</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-03T00:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そのとき遠くの方で声が掛かった。
 「おぉ〜いっ！！くるみちゃぁ〜ん！！そろそろ上がるよ〜！！」
 お世話になっている佐伯園長が出てきた。
@@ -147,11 +152,15 @@
 「えっ！？あぁ〜・・・あははは・・・。」
 （”くるみ”って言うのかぁ〜可愛いなぁ〜って違う違う！）
 ふとヨコを見ると先ほどまでいたくるみちゃんとやらはすでに消えていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#215">
-				<rdfs:label>215</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-07T00:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#215">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">215</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-07T00:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「何か考え事でもしておったのかね？くるみちゃん可愛いだろう！」
 「えっ！？そっ・・・そうですねぇ〜！あの衣装とかは園長先生がお選びに？」
 「そうだが？男心をくすぐるじゃろう！」
@@ -168,11 +177,15 @@
 「おぅ！ケンタか。お疲れさん」
 「あっ！先輩お疲れです！」
 事務所に戻ると、鷹田先輩が居た。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#216">
-				<rdfs:label>216</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-07T00:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#216">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">216</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-07T00:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 鷹田　啓一郎　オレの４年先輩でかなり熱い性格
 オレが新米だったころからお世話になっている兄貴的存在。
@@ -190,11 +203,15 @@
 玄関まであと少しのところでオレは立ち止まった。
 
 ・・・・・・自室のドアの隙間から明かりが漏れていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#222">
-				<rdfs:label>222</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-07T23:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#222">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">222</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-07T23:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「えぇ・・・マジかよ・・・なんで明かりなんか付いてるんだ？」
 
 恐る恐る部屋を覗いてみるといい香りがオレの鼻をくすぐった。
@@ -208,11 +225,15 @@
 彼女おもむろに携帯電話を取り出し
 画面を自分の顔に極端に近づけ
 うつむきながら一生懸命になにかを打ち始めた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#223">
-				<rdfs:label>223</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-07T23:35+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#223">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">223</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-07T23:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　”勝手におジャマしてしまってゴメンなさい！！
 どうしても速水さんの事が気になってしまったので・・・”
 「えっ・・・あ・・・あぁ〜・・・」
@@ -230,11 +251,15 @@
 するとくるみは画面が見づらいのかまた近づけ
 肌タイと呼ばれる生地に覆われた手で文字を紡ぎだした。
 そのおぼつかない動作がまたオレの胸を苦しめる。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#224">
-				<rdfs:label>224</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-07T23:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#224">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">224</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-07T23:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">”それは速水さんの会社の制服の方が午前中に来ていらしたので
 聞いてみたら・・・”
 
@@ -250,11 +275,15 @@
 
 彼女はちょっと迷った仕草をしたが
 元気に頷いたのであった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#225">
-				<rdfs:label>225</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-07T23:49+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#225">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">225</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-07T23:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「せっかく美味そうな料理作ってくれたんだから食べないと失礼になるなぁ」
 食卓に上がっていたのはパッと見あまり風貌はよろしくないのだが・・・。
 「もしかしてコレって面を付けたまま支度してくれたの？」
@@ -269,11 +298,15 @@
 「！？」
 
 ちなみに見た目よりは美味しかったと書いておこう・・・。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#226">
-				<rdfs:label>226</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-07T23:53+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#226">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">226</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-07T23:53+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「えぇっと・・・その・・・オレさぁ、明日も仕事あるから寝ようと思うんだけど・・・
 その・・・着替えとかはぁ・・・どうする？」
 
@@ -289,11 +322,15 @@
 （ちょっと待てよ、なんでカバンなんて持ってきたんだ？
 まさか・・・オレが”泊まりなよ！！”って言うのを見越してか！？
 すごい大胆というか・・・くるみちゃんって・・・）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#227">
-				<rdfs:label>227</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-08T00:00+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#227">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">227</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-08T00:00+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そうこうしてるとパジャマ姿のくるみが呼び出しにきた。
 （うっ！？なんてことだ・・・もう完全に転がされてるな）
 オレは頭を抱えてうずくまった。
@@ -306,11 +343,15 @@
 だって普段は確実にあり得ない光景が広がっていたのに・・・。
 
 全て今日に限って酒の席に呼んだ鷹田先輩のせいにしよう・・・。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#230">
-				<rdfs:label>230</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-08T00:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#230">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">230</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-08T00:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　6：30
 
 洗面所・・・。
@@ -332,11 +373,15 @@
 ってうなだれてるほど時間余ってない！！
 とにかくっ！！仕事には行かなきゃなっ！！」
 自分に言い聞かせるように家を飛び出た。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#231">
-				<rdfs:label>231</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-08T00:55+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#231">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">231</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-08T00:55+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">同日　8：00
 
 （んーっ・・・せっかく家に来てくれたのに一日だけか・・・
@@ -355,11 +400,15 @@
 オレはその遊園地へは休日か商品に余裕がある時に駆り出される。
 会社からはそう遠くは無いのでたいていの日には出向いているが・・・
 もう一つの目当てもあるけど今ココでは触れないでおこう。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#232">
-				<rdfs:label>232</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-09T23:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#232">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">232</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-09T23:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">午前は同期の　”岩瀬　キョウヘイ”　が遊園地の自販機点検をしている。
 リアクションが大きくてちょっかいを出すと面白い。
 飽きずに友人をやってくれてる優しき人。
@@ -372,11 +421,15 @@
 「もう午後だぞ？長い昼飯でも食ってたのか？」
 「あいかわらず冗談キツいヤツだなぁ・・・」
 「そぉか？まぁ・・・鷹田先輩には負けるけどなぁ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#233">
-				<rdfs:label>233</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-09T23:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#233">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">233</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-09T23:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そうやって他愛も無い会話をしているとくるみがやってきた。
 しかしこの前とは違い少し距離を取っているようだ。
 やはり他の人が居ると気まずいのであろうか。
@@ -393,11 +446,15 @@
 そのアイドルって歌でも歌うんか？」
 「カノジョ居ねぇって・・・ユミちゃんと付き合ってたろーが・・・。」
 「あ・・・。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#234">
-				<rdfs:label>234</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-09T23:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#234">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">234</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-09T23:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">実は・・・オレは今の今まで”お付き合い”という物ををあまり経験した事が無いのだ。
 唯一したのがちょっと前、オレが高校生だった時
 互いの進路が違いすぎて住む場所を余儀なく変更されてしまった。
@@ -414,11 +471,15 @@
 「あいやっ！？特にはねぇーんだけどよ・・・」
 
 そのときキョウヘイの頬をつたう一筋の汗を見逃すオレでは無かった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#235">
-				<rdfs:label>235</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-09T23:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#235">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">235</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-09T23:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「って。あぁぁぁっ！？」
 「ヤバっ！？もうこんな時間だしっ！！」
 「ケンタ！！早く自販機チェックしてこぉ〜い！！」
@@ -432,11 +493,15 @@
 なんだかんだ言ってキョウヘイ曰くココのアイドルらしいからなぁ」
 
 とにかくそんなこんなで今日のスケジュールはこなした。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#236">
-				<rdfs:label>236</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-09T23:15+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#236">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">236</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-09T23:15+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">同日　18：50　　帰宅途中の車内
 
 
@@ -449,11 +514,15 @@
 大きくため息をついてシートに寄りかかってフロントガラス越しに
 渡っていく人の姿を何と無く眺めていた。
 オレはある一転に釘付けになった・・・。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#244">
-				<rdfs:label>244</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-10T23:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#244">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">244</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-10T23:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">えぇと・・言い訳しますｗ
 何でもかんでも　○○が言った　と振っていくと
 ごちゃごちゃになって読みづらいかと思いました。
@@ -472,11 +541,15 @@
 直してお読みください。
 
 では。まだまだ出しますよｗ</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#246">
-				<rdfs:label>246</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-10T23:19+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#246">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">246</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-10T23:19+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">（えぇっ！？・・・ユミじゃねぇか・・・？そんな小説みたいな話が・・・
 声・・・掛けてみるかな・・・）
 
@@ -491,11 +564,15 @@
 「これから帰りか？送っていくけど」
 「ありがとっ！足代が浮いたわ」
 っ・・・なんかむなしくなってきた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#247">
-				<rdfs:label>247</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-10T23:29+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#247">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">247</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-10T23:29+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">天然ボケの方も健在だったようである・・・。
 
 「あのさ・・・久しぶりに会ったんだからさ・・・メシでもどぉ？」
@@ -513,11 +590,15 @@
 「そ〜だねぇ〜！」
 
 ”確かここら辺にヨースケの店があったよな・・・安くしてもらおうかな”</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#249">
-				<rdfs:label>249</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-11T23:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#249">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">249</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-11T23:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">同日　19：20　　
 
 しばらくして例の店に到着した。
@@ -536,11 +617,15 @@
 ユミはエビの入ったスープのような物に済ましていた。
 先ほどから’〜のような’と連呼しているが
 あまり外国の素材には詳しくないので悪しからず・・・。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#250">
-				<rdfs:label>250</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-11T23:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#250">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">250</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-11T23:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">食べるだけでは寂しいのですこし話しをした。
 
 「いつのまにかコッチに来てたのか。教えてくれても良かったのによぉ・・・」
@@ -560,11 +645,15 @@
 「あぁっ！！もう何も言うなっ！！」
 
 思わずユミの口を塞いでしまう・・・</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#251">
-				<rdfs:label>251</rdfs:label>
-				<dcterms:creator foaf:nick="退屈愚鈍" dcterms:identifier="4yAWpHjg"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-05-11T23:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#251">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">251</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">退屈愚鈍</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">4yAWpHjg</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-11T23:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">
 「もむっ！！もももむもむもむっ！！」
 「はっ・・・！！ゴメンゴメン・・・」
@@ -588,7 +677,14 @@
 
 しかしオレはまだ翌日に起こるトラブルを知る由も無かった・・・。
 まぁ・・・当たり前か・・・。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-01T22:47+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-05-11T23:39+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">7274</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">27</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

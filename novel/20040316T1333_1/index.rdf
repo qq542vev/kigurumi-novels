@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="application/xslt+xml" href="../tohtml.xsl"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:types="http://rdfs.org/sioc/types#"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:types="http://rdfs.org/sioc/types#" xmlns:sioc="http://rdfs.org/sioc/ns#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-12T09:03:02+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-12T09:03:02+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">Ｈな美貴ちゃん</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:33+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:38+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">19732</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#759">
-				<rdfs:label>759</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:33+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#759">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">759</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-16T13:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">着ぐるみデビューから数年後の話・・・
 
 ここは都内某所のビルの一室。着ぐるみショーなどを行うアクションチームの事務所です。
@@ -44,11 +29,15 @@
 美貴はそんな慎吾君を可愛がっているようでした。
 
 事務所で漫画を読んでいた慎吾は、美貴が事務所に入ってきたことにびっくりしたようです。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#760">
-				<rdfs:label>760</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:34+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#760">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">760</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-16T13:34+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">慎　「あっ、美貴さん。おつかれさまです。」
 美　「あれー？慎吾君一人だけなの？」
 慎「はい、皆さん今日は忙しいらしくて・・・留守番していてくれって言われて僕だけなんですよ。
@@ -67,11 +56,15 @@
 慎　「い、いいんじゃないですか、あっちの部屋で着替えちゃえば。着替えたらこっちに出てきてくださいね。
 ぼ、僕も見てみたいです。」
 美　「もうーしょうがないなー。はいはい、わかりました、ちょっと待っててね。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#761">
-				<rdfs:label>761</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#761">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">761</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-16T13:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美貴はウインクをしながらズタ袋に入っている着ぐるみ一式を持って隣の部屋に行きます。
 この部屋はカギが掛かるので慎吾に覗かれる心配はありません。
 美貴はまず、髪の毛をゴムでひとつに束ね、その後着ていた洋服を脱ぐとＴシャツと下着姿になり、
@@ -91,11 +84,15 @@
 全身を鏡に写してチェックを済ませ、部屋を出ます。
 
 美　（うしろの毛が面の中に入り込んじゃってるけど、あっちで慎吾君に直してもらおっと・・・・）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#762">
-				<rdfs:label>762</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#762">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">762</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-16T13:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">慎吾はソワソワしながら美貴が出てくるのを待っていたようでした。
 
 ガチャ・・・
@@ -116,11 +113,15 @@
 慎　「さ、触ってもいいんですか？・・・」
 美　『何言ってるの？早くしてよ(笑)』
 慎　「え？あ、は、はい。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#763">
-				<rdfs:label>763</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#763">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">763</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-16T13:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">慎吾はローズ（美貴）の後に回り、言われたとおり髪の毛を直しました。
 
 美　『でもさぁ、面被ったまま見るの？』
@@ -138,11 +139,15 @@
 美　『うん、もう一度スローで見せて』
 
 ローズ（美貴）は立ち上がってビデオを見ながらポーズをしてみます。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#764">
-				<rdfs:label>764</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#764">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">764</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-16T13:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　『こうかなー？害虫なんておっ仕置きよー！』
 慎　「おー、すごいすごい！合ってますよ。カッコいいですね。さすが美貴さん。」
 美　『えへへ。そお？害虫なんてお仕置きよー　こうだね。』
@@ -161,11 +166,15 @@
 慎　「えっと、あの・・・ぼ、僕、み、美貴さんのこと好きなんです。この事務所入ってからひ、一目惚れしっちゃったんです。」
 
 慎吾はソファーから立ち上がって顔を赤くしながらそう言いました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#765">
-				<rdfs:label>765</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T13:43+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#765">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">765</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-16T13:43+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　『あら、これって告白？かわいいわね。嬉しいわ。私も慎吾君のこと好きよ、だって可愛いんだもん。』
 
 美貴は慎吾の手をとってそう言いました。
@@ -177,11 +186,15 @@
 
 慎　「えっ、なんですか？いいことって・・・。」
 美　『ふふふ、こういうことよ。』</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#802">
-				<rdfs:label>802</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-18T12:48+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#802">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">802</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-18T12:48+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ローズ（美貴）はいきなり両腕を慎吾の首に巻きつけ、慎吾に抱きつきソファーに倒れこみました。
 そして慎吾の耳元にふぅーっと息を吹きかけました。
 面の口の部分に張られた紗を通し、美貴の息がかかります。
@@ -202,11 +215,15 @@
 慎　「な、何を・・・あ、ありませんよ・・・。」
 
 慎吾は顔を紅潮させていいました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#827">
-				<rdfs:label>827</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-19T17:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#827">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">827</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-19T17:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　『いやーん、可愛いー。慎吾君って正直なのね。』
 
 ローズ（美貴）はそういってもう一度慎吾を抱きしめました。少し美貴の息も弾んでいるようです。
@@ -223,11 +240,15 @@
 ひとしきりソファーの上で絡み合っていましたが、不意に美貴は慎吾を立たせました。
 慎吾はローズ（美貴）の後に立ち、左手で胸を、右手で美貴の大事なところを一心不乱に擦り、揉み続けます。
 ローズ（美貴）も後ろ手に慎吾の股間を撫で回しています。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#828">
-				<rdfs:label>828</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-19T17:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#828">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">828</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-19T17:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">慎　「ハァハァ・・・面被ったままで・・・ハァハァハァ・・苦しくないですか？・・・ハァハァ・・・。」
 美　『んー・・・キューティーローズは苦しくないのよ。気持ちいいけど・・・きつくしちゃだめよ・・・もっとやさしく・・・そう・・・。』
 慎　「は、はい・・・あの・・・面・・・本当に脱がないんですか？ハァハァ・・・。」
@@ -242,11 +263,15 @@
 
 美貴もまだ経験がない慎吾の手荒い愛撫でも十分感じてしまったようで、呼吸が荒れています。
 慎　「あぁぁ、もうガマンできません・・・。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#829">
-				<rdfs:label>829</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-19T17:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#829">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">829</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-19T17:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">急に目標を失った慎吾はそう言いながら、ローズ（美貴）に抱きついてきました。
 ローズ（美貴）はそれを振りほどきながら
 
@@ -265,11 +290,15 @@
 美　『ハァーとってもいいことよ・・・ハァー・・・お仕置きしてあげるからね。ウフフフフ』
 
 次に美貴はこれも以前小道具に使用したアイマスクを取り出し、慎吾の顔につけた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#835">
-				<rdfs:label>835</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:03+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#835">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">835</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-20T19:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">慎　「あ、あのー何にも見えないんですけど・・・。」
 美　『キューティーローズはちょっと休憩するからね。この姿は見せられないの。』
 
@@ -291,11 +320,15 @@
 美　「さて、ひと休みしたし、続きを始めようかな？」
 
 そう言いながら慎吾に近づき、肩に手を乗せました。慎吾は一瞬ビクっと動き、無言のまま頷きました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#836">
-				<rdfs:label>836</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:05+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#836">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">836</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-20T19:05+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　「今から面つけたら私喋らなくなるから。いいわよね？」
 
 美貴は面を被り、衣装の手袋をはめ、その手袋の上にもう一枚薄手の綿の手袋をはめて、
@@ -315,11 +348,15 @@
 美貴も興奮しているようで、ハァーとかフゥーとかいう息遣いが面を通して慎吾の耳に入ってくる。
 
 慎　（苦しいのかなぁ・・・ち、違う・・・ハァハァ・・・美貴さんも興奮してるんだ、きっと。）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#837">
-				<rdfs:label>837</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#837">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">837</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-20T19:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">上半身責めは段々と下に下がり、ローズ（美貴）は慎吾が座っている椅子の前にしゃがみ込み、
 股間のあたりを撫で始めた。
 そして、右手でパンツの中から大きくなった慎吾のオチ○○ンを取り出して擦り、左手で袋を揉み始めました。
@@ -338,11 +375,15 @@
 美　『・・・。』　わかったわ。　の仕草
 
 ローズ（美貴）は再び手を動かせます。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#838">
-				<rdfs:label>838</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#838">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">838</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-20T19:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">慎　「あ、あのぉ・・・ハァハァ・・・み、美貴さん・・・お願いしますぅ・・・喋って下さいよぉー。美貴さんの声も萌えなんだからー。」
 美　『・・・。』　ダメよ　の仕草
 慎　「あぁ・・・あー、美・・・キューティーローズにこんなことされるなんてー・・・ハァハァ・・・」
@@ -360,11 +401,15 @@
 まだ、若く経験もない慎吾はローズ（美貴）のお仕置きに耐えられず、ついに逝ってしまいました。
 美貴が付けている綿の手袋にドクドクと白い液体を吐き出し、慎吾は頭を垂れました。
 衣装の手袋の上にもう１枚手袋をしていたので、衣装用の手袋は汚さずに済んだようです。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#839">
-				<rdfs:label>839</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:09+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#839">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">839</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-20T19:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">慎　「あぁぁ・・・あの・・・す、すっごく気持ちよかったです・・・・ハァハァこんなの初めてですぅ・・・。」
 
 今の慎吾には搾り出すような声でそう言うのが精一杯のようです。
@@ -377,11 +422,15 @@
 慎　「あぁ・・・これまた付けるんですか？ねぇ、美貴さん・・・何か言ってくださいよぅ。」
 
 美貴は手袋を外し、面を取りました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#840">
-				<rdfs:label>840</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#840">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">840</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-20T19:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　「ハァー、暑い・・・ハァー・・・自分だけ逝っちゃってぇー・・・許さないわよー。」
 慎　「え？だ、だって・・・すみません。美貴さんにこんな事してもらえるなんて思わなかったし・・・」
 美　「ずるいよ、慎吾君。自分だけ気持ちよくなっちゃってさー。あたしはどうすればいいのよー。」
@@ -398,11 +447,15 @@
 美　「そう？慎吾君、カワイイわね。」
 
 美貴はそう言うとアイマスクをした慎吾に軽くキスをしました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#841">
-				<rdfs:label>841</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:13+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#841">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">841</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-20T19:13+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　「そのかわり約束してね。」
 慎　「え？な、何ですか？」
 美　「慎吾君はキューティーローズの衣装着て面付けたら絶対喋っちゃダメ。
@@ -424,11 +477,15 @@
 美　「もー、慎吾君ったら。じゃ、先に私が着替えるね。もう少しそのままで待っててね。」
 
 パンツ一枚で椅子に縛り付けられた慎吾はこれから起こるであろう事に大いに期待しながら待つ事にした。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#846">
-				<rdfs:label>846</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-21T18:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#846">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">846</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-21T18:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">プルルルルルル♪
 
 美貴が着替えようとした時、事務所の電話が鳴った。
@@ -440,11 +497,15 @@
 愛子はこの事務所に入ってバイト歴１年の高校２年生１７歳。器械体操経験有りで学校では演劇部に所属していて、
 アクションショーからメルヘンショーまでなんでもこなす、チーム期待の女の子です。
 美貴とは戦隊ヒーローショーでダブルヒロインとして一緒に出演することが多く、美貴が妹のようにカワイがっています。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#847">
-				<rdfs:label>847</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-21T18:07+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#847">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">847</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-21T18:07+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　「あれ愛子ちゃん、どうしたの？」
 愛　「はい、暇なんですよー近くまで来たんで、誰かいるなら寄ろうかなぁと思ったんですけど・・・。」
 美　「えーっとね、今私と慎吾君だけなのよ。あとは、誰もいないの。」
@@ -460,11 +521,15 @@
 慎　「電話ですか？誰だったんです？」
 
 向うの部屋から慎吾が聞いてきた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#848">
-				<rdfs:label>848</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-21T18:08+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#848">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">848</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-21T18:08+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　「愛子ちゃんが今から来るんだって。」
 慎　「えぇ・・・じゃあ・・・今日はもう何もできないんですね・・・。」
 美　「残念そうね。」
@@ -476,11 +541,15 @@
 美貴は急いでキューティーローズの着ぐるみを脱ぐと一旦私服に着替えた。
 
 部屋に戻り、慎吾のアイマスクと手錠を外した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#849">
-				<rdfs:label>849</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-21T18:10+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#849">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">849</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-21T18:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　「痛かった？ごめんね・・・でも慎吾君がひとりで先に逝っちゃった罰だからね(笑)」
 慎　「そんなぁ・・・。」
 美　「あっちの部屋にローズの着ぐるみ一式が置いてあるからすぐに着替えて。
@@ -499,11 +568,15 @@
 美　「慎吾君はこれからキューティーローズになるのよ？ローズは女の子なんだから
 胸も無きゃおかしいでしょ？(笑)　さぁ、早く早く。」
 慎　「・・・は、はい。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#850">
-				<rdfs:label>850</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-21T18:12+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#850">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">850</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-21T18:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">慎吾はブラとパッドとガードルを受け取り、別室に行った。
 そこには、数分前まで美貴が着ていたキューティーローズの着ぐるみ一式が置いてあった。
 パンツ１枚の慎吾はまずブラジャーをつけ、パッドを中に入れ、ガードルを履いた。
@@ -520,11 +593,15 @@
 慎吾はそれを着る前に思いっきり匂ってみた。
 
 慎　（あぁ・・・美貴さんの匂いだぁ・・・ハァハァ・・・。）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#851">
-				<rdfs:label>851</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-21T18:13+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#851">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">851</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-21T18:13+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美貴の匂いを十二分に味わった慎吾は両足から順に着て、両腕を通し、背中のファスナーを途中まで閉めました。
 慎吾は身体が硬いのかそれとも興奮していたからなのか、頭まで上手く閉められなかったのでそのままにしておきました。
 ガードルを履いているとはいえ、タイツの股間のあたりは慎吾のオ○○○ンの形に膨らんでいた。
@@ -542,11 +619,15 @@
 ガチャ。
 
 キューティーローズの衣装に着替え、ローズの面を抱えた慎吾が美貴のいる部屋に戻ってきた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#856">
-				<rdfs:label>856</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-22T15:02+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#856">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">856</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-22T15:02+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　「あっ、いいじゃん、似合ってるよ(笑)」
 慎　「あ、あの・・・後のファスナー上手く閉められませんでした。」
 
@@ -555,11 +636,15 @@
 美　「やっぱり？閉めてあげるね。あ、リボンも片方外れてるじゃない（笑）」
 
 美貴はタイツのファスナーを閉め、リボンを止め、衣装のファスナーを閉めました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#857">
-				<rdfs:label>857</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-22T15:03+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#857">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">857</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-22T15:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　「はい、出来たよ。」
 慎　「なんだか恥ずかしいです・・・。」
 美　「なに言ってるのよ。ショーのときはもっと大勢の前に出るんだからね。」
@@ -576,11 +661,15 @@
 慎吾は面の中に残ってる美貴の匂いを目一杯吸い込み、先ほど確認した口紅の跡辺りに唇を突き出しました。
 
 慎　（うぅーーーん、ハァハァ・・・あぁ・・・美貴さんの匂い・・・ハァハァ・・・。）</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#858">
-				<rdfs:label>858</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-22T15:04+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#858">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">858</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-22T15:04+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　「何ハァハァ言ってるの？苦しいの？大丈夫？」
 慎　『あ、だ、大丈夫ですぅ・・・スーハァー・・・ちゃんと息ができるか確認を・・・。』
 美　「コラッ！喋っちゃダメでしょ。キューティーローズから男の人の声がしたらおかしいでしょ。
@@ -599,11 +688,15 @@
 愛子が事務所のドアを空けようとしましたが鍵が掛かっているようです。
 
 愛　「あれ？鍵が掛かってる？美貴さん達中で何やってるのかなー。美貴さんって意外とエッチだからなー（笑）」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#859">
-				<rdfs:label>859</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-22T15:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#859">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">859</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-22T15:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">愛子は呼び鈴を押しました。
 
 ピンポーン♪
@@ -623,11 +716,15 @@
 美　「さぁ？誰でもないよねー、キューティーローズはキューティーローズなんだもんねー(笑)」
 
 キューティーローズ（慎吾）は頭を掻きながら　うん　と頷く。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#860">
-				<rdfs:label>860</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-22T15:06+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#860">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">860</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-22T15:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">愛　「あっ、もしかして慎吾君？慎吾君でしょー？へえー、慎吾君カワイイじゃん。
 あ、さっき電話で美貴さんが言ってたのはこういうことなんですね？(笑)」
 美　「そう、練習だからね、厳しくしないと（笑）。愛子ちゃんも協力してね。」
@@ -644,11 +741,15 @@
 美　「あれぇ？なーに、これー？女の子がこんなんじゃマズイわよねぇ。ねぇ、愛子ちゃん。」
 
 キューティーローズ（慎吾）は慌てて股間に手を当ててモッコリを隠した。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#878">
-				<rdfs:label>878</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-24T13:20+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#878">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">878</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-24T13:20+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　「これはマズイよねぇ、愛子ちゃん。」
 愛　「いやぁだー、美貴さんなにしてるんですかー・・・そ、そうですよねぇー。マズイですよー、何か隠してるのかなー（笑）」
 
@@ -666,11 +767,15 @@
 愛　「どうしようかなぁ・・・・。あっ、私はキューティーチェリーにします。」
 美　「よし、決まり。キューティーローズ、ちょっといい子にしててね。私たちも着替えてくるから(笑)」
 愛　「脱いで休憩しちゃダメだからね、わかった？(笑)」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#879">
-				<rdfs:label>879</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-24T13:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#879">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">879</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-24T13:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ローズ（慎吾）は頷く事もできず、2人を見ながら立ち尽くしていた。
 
 慎　（着替える・・・って？ハァハァ・・・。）
@@ -686,11 +791,15 @@
 愛子に被せてもらった。
 面の中は所々にスポンジのようなクッションが貼ってあり、面がグラグラしないようになっている。
 覗きは正面のゴーグルの部分に無数の小さな穴があいていて、キューティーローズの面よりは視界はいい。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#880">
-				<rdfs:label>880</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-24T13:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#880">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">880</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-24T13:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　『さぁ、愛子ちゃん。キューティーローズをイジメちゃいましょー（笑）』
 愛　『はい、美貴さん（笑）』
 
@@ -708,11 +817,15 @@
 愛　『私たちに見せてご覧なさい。』
 
 ピンク（美貴）とチェリー（愛子）がローズ（慎吾）のスカートをめくり上げた。ローズ（慎吾）は恥ずかしそうに股間を手で隠す。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#881">
-				<rdfs:label>881</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-24T13:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#881">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">881</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-24T13:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　『あら、なーにこれは？』
 愛　『手をどかして見なさい。』
 
@@ -733,11 +846,15 @@
 ローズ（慎吾）は声は出していないよーと言うような仕草でアピールした。
 
 美　『ちゃんとまっすぐ立ってみなさい。かわいらしくよ。』</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#882">
-				<rdfs:label>882</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-24T13:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#882">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">882</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-24T13:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">チェリー（愛子）はローズ（慎吾）の正面から顔を近づけ面越しにキスをした。
 さらに手を首の辺りにかけ、面と面下のあたりを摩る。
 ピンク（美貴）は後ろからローズ（慎吾）に抱きつき、胸を揉み始めた。
@@ -757,11 +874,15 @@
 
 美　『あらー？また先に自分だけ逝っちゃったの？』
 慎　『・・・・・。』</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#883">
-				<rdfs:label>883</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-24T13:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#883">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">883</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-24T13:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ローズ（慎吾）はガックリと座りこむと、大きく肩で息をしていた。
 喋ってはいけないと言われたからではなく、今までに体験した事のない快感と興奮で喋る事が出来ないようです。
 
@@ -780,11 +901,15 @@
 しばらく動かなかったキューティーローズ（慎吾）ですが、ピンク（美貴）の質問にようやく顔を上げ頷きました。
 もちろん言葉は発していません。
 喋ってはいけないと釘を刺されているのですから。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#884">
-				<rdfs:label>884</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-24T13:29+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#884">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">884</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-24T13:29+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　『でも、気持ちよかったんでしょ？』
 慎　『・・・・・。』　頷く
 美　『面脱ぎたい？』
@@ -792,11 +917,15 @@
 美　『いやらしい子ねぇ(笑)』
 愛　『美貴さん、どうしましょうか？（笑）』
 美　『そうねぇー・・・。』</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#886">
-				<rdfs:label>886</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-25T10:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#886">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">886</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-25T10:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ピンク（美貴）は考えるポーズをとった後、座り込んだローズ（慎吾）に立ち上がるように指示した。
 慎吾のパンツの中は既に2度暴発しており、グチャグチャになっていた。
 ローズ（慎吾）は股間を気にしながら言われた通り、素直に立ち上がった。
@@ -810,11 +939,15 @@
 愛　『胸があるのに股間も膨らんでるのね(笑)』
 美　『若いから元気なのね、もう、大きくなってるわ(笑)』
 愛　『さぁ、ここに座りなさい。』</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#887">
-				<rdfs:label>887</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-25T10:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#887">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">887</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-25T10:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ローズ（慎吾）はチェリー（愛子）に促され椅子に座った。
 ピンク（美貴）は先ほどの手錠を取り出し背もたれの後ろでローズ（慎吾）の両手にかけた。
 チェリー（愛子）はローズ（慎吾）の脚を椅子の脚に片方ずつ、足が開き気味になるように紐で縛りつけた。
@@ -833,11 +966,15 @@
 美　「そうなのよねぇ。なんか自分じゃないって感じなのかな。」
 愛　「なんか私・・・ムラムラしてきちゃたんですけど・・・。」
 美　「えぇ？このくらいで？愛子ちゃんダメねぇー。さぁてと、この後どうしようかなぁ・・・。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#888">
-				<rdfs:label>888</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-25T10:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#888">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">888</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-25T10:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そのころ椅子に縛りつけられたままのキューティーローズの慎吾はと言うと・・・
 
 慎　（あぁ、気持ちいいよー。２回も逝かされちゃったよ。もう、起たないかもしれない・・・）
@@ -855,11 +992,15 @@
 美　「あー私たちの面取った姿見たなぁ！それでまた興奮してたんでしょー。」
 
 美貴も振り返りながらローズ（慎吾）に注意をした。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#889">
-				<rdfs:label>889</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-25T10:45+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#889">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">889</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-25T10:45+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">慎　『・・・・』　見ていない、と俯きながら大きく何度も首横に振る。
 愛　「またお仕置きしなくちゃいけないですね(笑)」
 美　「第３ラウンド開始ね。私たちも面被らないと。」
@@ -876,11 +1017,15 @@
 暫くの間、ピンク（美貴）はチェリー（愛子）とローズ（慎吾）の戯れを眺めていましたが、
 二人に気づかれないようにそっとチェリー（愛子）の背後に回りこんだ。
 するとピンク（美貴）はチェリー（愛子）の後ろから抱きつき、チェリー（愛子）の胸を揉みはじめました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#890">
-				<rdfs:label>890</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-25T10:46+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#890">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">890</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-25T10:46+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">愛　『あぁ、うっ・・・・。』
 
 不意をつかれたチェリー（愛子）は思わず声を出してしまいました。
@@ -897,11 +1042,15 @@
 愛　『うっ、あぁ・・・ん。そ、そんなところ触られたら・・・ハァハァ・・・』
 
 チェリー（愛子）も負けじとピンク（美貴）の股間のあたりを後ろ手ですが、摩り始めました。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#899">
-				<rdfs:label>899</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-26T11:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#899">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">899</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-26T11:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　『あぁん。ハァハァ・・・』
 愛　『んんー・・・ハァハァ・・・』
 美　『ハァハァ・・・ハァ・・・』
@@ -918,11 +1067,15 @@
 
 ピンク（美貴）はキューティーチェリーの衣装を脱がし始めた。
 衣装を脱がされ手袋とパンプスの姿にされたチェリー（愛子）は、ますます興奮度が上昇したようです。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#900">
-				<rdfs:label>900</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-26T11:24+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#900">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">900</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-26T11:24+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">愛　『あぁ、美貴さんもう・・・ガマンできません。ハアハア・・・。』
 美　『あらあら、愛子ちゃんも若いわね。これぐらいのことで興奮しちゃって・・・。』
 愛　『そ、そんなこと言ったって・・・美貴さん・・・わ、私はまだ・・・ハァハァ・・・。』
@@ -940,11 +1093,15 @@
 
 チェリー（愛子）はピンク（美貴）に言われるまま、戸惑いながら、キューティーローズ（慎吾）の股間に跨った。
 ローズ（慎吾）の股間の凸部分とチェリー（愛子）の股間の凹部分がぴったりと重なり合った。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#901">
-				<rdfs:label>901</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-26T11:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#901">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">901</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-26T11:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">慎　『ウッ、ウゥゥゥゥ・・・ハァハァ・・・。』
 愛　『あぁぁぁ・・・ん・・・ハァハァ・・・。』
 慎　『ハァハァ・・・。』
@@ -963,11 +1120,15 @@
 愛　『・・・気持ちいいです・・・・。』
 
 チェリー（愛子）は動けないローズ（慎吾）の首に腕を回し、強く抱きしめた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#902">
-				<rdfs:label>902</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-26T11:26+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#902">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">902</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-26T11:26+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">慎　『ウゥゥゥゥ・・・ハァハァ・・・ハァハァ・・・。』
 愛　『あぁぁぁん・・・。』
 
@@ -984,11 +1145,15 @@
 
 愛　『もうダメ、気持いい、ハアハア。苦しい、ハァーハァー・・・。』
 慎　『ハァハァ。』</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#903">
-				<rdfs:label>903</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-26T11:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#903">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">903</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-26T11:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">愛子の声が荒々しくなってきて、かなり呼吸も苦しそうです。
 腰の動きがよりいっそう激しさを増し、愛子が苦しさの限界に達したらしく自分の面に手をかけ、
 面を少し持ち上げ、素顔を半分出して大きく息を吸った瞬間・・・
@@ -999,11 +1164,15 @@
 慎吾も目の前で愛子の半分マスクオフを見せられ、今までの手だけの攻撃と違う快感を受け、
 愛子が逝った瞬間にほぼ同時に本日３回目を向かえましたようです。
 再び面をきちんと被ったチェリー（愛子）は肩で大きく息をしています。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#904">
-				<rdfs:label>904</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:27+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#904">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">904</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-27T10:27+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">愛　『気持ちよかったです・・・ハァーハァー・・・』
 美　『慎吾君も逝っちゃったようね(笑)』
 慎　『・・・。』
@@ -1018,11 +1187,15 @@
 
 ピンク（美貴）はローズ（慎吾）の手錠と紐を外して、先に着替えるからここで待っているように指示した。
 ピンク（美貴）とチェリー（愛子）は隣の部屋に行き、着ぐるみを脱いだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#905">
-				<rdfs:label>905</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:28+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#905">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">905</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-27T10:28+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">愛　「はぁー、苦しかったですよ。ほんとに・・・。」
 美　「苦しいだけ？苦しいより気持ちいいほうが強かったんじゃなーい？(笑)」
 愛　「は、はい・・・。」
@@ -1041,11 +1214,15 @@
 部屋に入るなり、面を取り大きく息をしながら床に座り込んでしまった。
 
 慎　「フゥーーー。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#906">
-				<rdfs:label>906</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:29+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#906">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">906</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-27T10:29+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">目の前のテーブルにキューティーローズの面を置く。
 部屋にはさっきまでフタリが着ていたピンクサファイヤとキューティーチェリーの衣装一式が吊るしてあり、面が置かれていた。
 慎吾は立ち上がり、部屋のカギを閉めた。手袋をとり、ブーツを脱ぎ、後頭部の肌タイツのファスナーを下ろした。
@@ -1060,11 +1237,15 @@
 
 慎吾のオ○○○ンは再び猛り狂っている。テーブルのうえに置かれた皮の手袋を取りはめた。
 手袋にも美貴の温もりが微かに残っていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#907">
-				<rdfs:label>907</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:30+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#907">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">907</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-27T10:30+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">慎　（美貴さん・・・、美貴さん・・・、ハァハァハァハァ・・・。）
 
 慎吾は手袋をした手で自分のオチ○○ンの怒りを鎮めにかかった。
@@ -1075,11 +1256,15 @@
 あっという間に本日４回目。逝く瞬間にテッシュを手に取っていたので手袋や部屋を汚すことはなかった。
 手袋を外し、ムスコの白い液をふき取り、面を脱いだ。面をテーブルに元通りに置き、私服に着替えた。
 パンツはグチョグチョだがティシュでできる限り拭き取った。部屋に戻ると二人が待っていた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#908">
-				<rdfs:label>908</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:31+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#908">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">908</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-27T10:31+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　「遅かったじゃない。」
 愛　「なんかしてたんじゃないの？」
 慎　「そ、そんなことないですよー（汗）」
@@ -1098,11 +1283,15 @@
 
 愛子が事務所を出て行った後、美貴も事務所を出て行った。
 出て行く前に、美貴は慎吾に軽くキスをしていった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#909">
-				<rdfs:label>909</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:32+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#909">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">909</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-27T10:32+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">美　「また、遊ぼうね。」
 慎　「・・・。」
 美　「カワイイわねー、じゃあねー。」
@@ -1111,17 +1300,28 @@
 
 
 　　　おわり</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#910">
-				<rdfs:label>910</rdfs:label>
-				<dcterms:creator foaf:nick="恋愛小説家" dcterms:identifier="ttKSm1z6"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-27T10:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#910">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">910</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">恋愛小説家</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ttKSm1z6</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-27T10:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">永らくのご愛読ありがとうございましたm(__)m
 今回で「Ｈな美貴ちゃん」の投稿を終了しました。
 このスレも残り少なくなりましたが、今後の作品の参考にしたいので
 皆様のご感想などを聞かせていただければと思っています。
 よろしくお願いします。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-16T13:33+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-03-27T10:38+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">19732</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">53</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

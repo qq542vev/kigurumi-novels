@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-08T23:53:07+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-08T23:53:07+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:title xml:lang="ja">派遣着ぐるみ</dcterms:title>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:04:10+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:21:39+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">4607</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#306">
-				<rdfs:label>306</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:04:10+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#306">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">306</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JEhW0nJ.FE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-14T13:04:10+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">派遣着ぐるみ
 
 
@@ -51,11 +36,15 @@
 しばらくして、ドアを開ける
 男「さ、入って。」
 さなえ「はい。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#307">
-				<rdfs:label>307</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:05:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#307">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">307</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JEhW0nJ.FE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-14T13:05:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">中には数台のパソコンやテレビモニターが備えつけてあった、そこには客室の様子が写っていた
 さなえ「こ、これは・・・。」
 男「驚いたかい？」
@@ -76,11 +65,15 @@
 さなえ「どういうこと？」
 男「さあ・・・、どうする？」
 さなえ「く・・・わ、わかりました。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#308">
-				<rdfs:label>308</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:06:25+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#308">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">308</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JEhW0nJ.FE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-14T13:06:25+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">男「従業員控え室に案内するから。」
 さなえ「は、はい。」
 管理室をあとにして、また薄暗い通路を男についていく
@@ -101,11 +94,15 @@
 女「どんな事情があるかしらないけど、中途半端じゃだめよ、今日だけでもかなりよ。」
 さなえ「あ・・・・はい。」
 女「本当にわかってるのかしら・・。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#309">
-				<rdfs:label>309</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:07:47+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#309">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">309</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JEhW0nJ.FE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-14T13:07:47+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">さなえ「どうして、男性もいるんですか？」
 女「あ？ああ男もやるからよ。」
 さなえ「え？でもあれって・・・。」
@@ -125,11 +122,15 @@
 さなえ「は、はい。」
 女「にしても、かわいい顔、お面で隠すにはもったいないわね。」
 さなえ「え？あぅ・・・。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#310">
-				<rdfs:label>310</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:08:58+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#310">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">310</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JEhW0nJ.FE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-14T13:08:58+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">女は場もわきまえずさなえにキスをした、回りの人間はそんなことが行われえているのにまるで興味のないように携帯電話や本に視線を集中させている。
 さなえ「んん・・・。」
 ちゅぱ・・・唾液が糸を引いてさなえと女の唇が離れる
@@ -151,11 +152,15 @@
 するとなんと、男性がでてきたではないか。
 さなえ「だ、男性？。」
 女「そうだよ、さっきいったろ。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#311">
-				<rdfs:label>311</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:10:21+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#311">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">311</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JEhW0nJ.FE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-14T13:10:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">女「今日はもうこの娘はシフトないだろ、ほらさっさと着替える。」
 さなえは内心かなりどきどきしていた、まさか本当に中から男性があらわれると思っていなかったからだ。
 女「おや、どうしたんだい？」
@@ -175,11 +180,15 @@
 さなえ「え？いきなりですか。」
 女「そうだよ、とにかく先にこの子ひっぺがさないとだめだから。」
 さなえ「は、はい。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#312">
-				<rdfs:label>312</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:11:41+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#312">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">312</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JEhW0nJ.FE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-14T13:11:41+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">髪の長い女の子の着ぐるみが控え室に帰ってくる、ひどく疲れているようだ。
 女「さ、ここに座って背中だしな。」
 着ぐるみはうなずいて背中をむけて座る。
@@ -199,11 +208,15 @@
 さなえ「は、はい。」
 前任者からタイツを受け取るとカーテンの中にかくれて服を全部脱ぎ、タイツに足を通す前任者の汗もありなかなか肌を通ってくれない。
 なんとか、顔までかぶることができたが、前任者の香水のにおいと汗が混じって頭が割れそうにいたい。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#313">
-				<rdfs:label>313</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:13:42+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#313">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">313</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JEhW0nJ.FE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-14T13:13:42+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">女「着替えたら、こっちきて。」
 さなえ「は、はい。」
 女「あ、あとわかってると思うけど、着たら絶対に声はだしちゃだめ。」
@@ -222,11 +235,15 @@
 女「いわゆるお色直しの時間なんだよ、クライアントは着ぐるみと本気で結婚しようとしているんだから、あんたは新婦役なんだ、クライアントも人生かけてやってるんだからそそうのないように。」
 スタッフ「そろそろ時間ですので新婦は式場までお願いします。」
 女「さ、がんばりな。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#314">
-				<rdfs:label>314</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:16:40+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#314">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">314</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JEhW0nJ.FE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-14T13:16:40+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ほとんどなにも聞かされないまま式場にでてしまう。親族であろう人間たちがじろじろこっちを見ている、そりゃそうだ、生の人間ではないのだから。
 すると、年配の男性がこっちにくる。
 男「新婦の父役で派遣されました小林といいます、一緒に手をつないでバージンロードを歩き、新郎に受け渡しまでやりますので、よろしくお願いします。」
@@ -245,11 +262,15 @@
 新郎「ようやく式も終わったね、父さん、母さん、悪いけど二人きりになりたいんだ。」
 そういうと新郎の両親は部屋をでていった。
 新郎「今日はありがとう、仕事とはいえつらい役だったね。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#315">
-				<rdfs:label>315</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:18:22+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#315">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">315</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JEhW0nJ.FE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-14T13:18:22+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">首を横に振る。
 新郎「いいよ、無理しなくても、とりあえず着替えてね。」
 といって、新郎はどこかに電話すると、しばらくして部屋のドアをたたく音がする
@@ -266,11 +287,15 @@
 さなえ「あ、はい。」
 言われるがままに、さなえは部屋のシャワーを借りて汗を流す。もってきてもらった自分の服に着替えてでてくる。」
 さなえ「あの、私はどうすれば？」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#316">
-				<rdfs:label>316</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:19:44+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#316">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">316</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JEhW0nJ.FE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-14T13:19:44+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">スタッフ「はい、今日のぶんのギャラです、それとアンダーのタイツは会社の備品ですので返してください。」
 さなえ「あ、はい。」
 たたんだタイツをスタッフに返す。
@@ -283,15 +308,26 @@
 その後のその着ぐるみは新郎の男性の所有物ということが判明しただけでその後どうなったかはわかっていない・・・。
 
 終わり</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#317">
-				<rdfs:label>317</rdfs:label>
-				<dcterms:creator foaf:nick="ＫＧ" dcterms:identifier="JEhW0nJ.FE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-14T13:21:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#317">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">317</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ＫＧ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">JEhW0nJ.FE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-14T13:21:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">雑な文章ですみません、もっときれいにまとめられればよかったのですが・・・。
 
 読んでいただいてありがとうございます。</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-14T13:04:10+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-10-14T13:21:39+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">4607</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">12</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

@@ -1,45 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:03:25+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:03:25+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">プール奥の侵入者</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2006-06-22T01:01:21+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2006-06-22T01:24:38+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">7338</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#471">
-				<rdfs:label>471</rdfs:label>
-				<dcterms:creator foaf:nick="ふかもこ好き" dcterms:identifier="1hCfTbr4qE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-06-22T01:01:21+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#471">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">471</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ふかもこ好き</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">1hCfTbr4qE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-06-22T01:01:21+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">このスレとか、２ちゃんの特殊な衣類で拘束スレを読んでいたら
 なんか自分も書いてみたくなりました
 ズブの素人ですし、初めての落書きです
 ミスもあるでしょうし、ありがちなストーリー
 しかもエロなしですがご容赦ください</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#472">
-				<rdfs:label>472</rdfs:label>
-				<dcterms:creator foaf:nick="ふかもこ好き" dcterms:identifier="1hCfTbr4qE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-06-22T01:03:50+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#472">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">472</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ふかもこ好き</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">1hCfTbr4qE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-06-22T01:03:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">夏休みに入ってまだ間もないある日、彩香はクラスメイトの友人に誘われ、４人で
 最近新しくできた遊園地内のプールへ泳ぎに来た。
 ここ数日、例年に無いほど暑い日が続いていたし、休み前にクラス内でも大いに
@@ -73,11 +62,15 @@
 
 ほぼ全部のプールをとりあえず体験した彼女らは、少し泳ぎ疲れたので、
 皆プールサイドに上がった。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#473">
-				<rdfs:label>473</rdfs:label>
-				<dcterms:creator foaf:nick="ふかもこ好き" dcterms:identifier="1hCfTbr4qE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-06-22T01:05:36+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#473">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">473</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ふかもこ好き</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">1hCfTbr4qE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-06-22T01:05:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">パラソル付きのビーチチェアで休みたかったが、この混みっぷりではどこも
 空きそうにない。
 近くの階段に腰掛けて休むことにした。
@@ -122,11 +115,15 @@
 「よーし、中に誰もいない。チャンスだ！」
 後ろで誰かに見られてないか気にしながら、サッと扉の中に入り、従業員トイレに
 駆け込んだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#474">
-				<rdfs:label>474</rdfs:label>
-				<dcterms:creator foaf:nick="ふかもこ好き" dcterms:identifier="1hCfTbr4qE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-06-22T01:07:55+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#474">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">474</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ふかもこ好き</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">1hCfTbr4qE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-06-22T01:07:55+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">そこはまだ新しくてあまり使われていないような綺麗なトイレだった。
 幸いここも人の気配はない。
 「混んでるのに、自分だけおちついてトイレが使えるなんてラッキー！」
@@ -178,11 +175,15 @@
 
 彩香は友達に迷惑をかけたくないという思いで不安をこらえ、とにかくエレベーターに
 乗ってみようと決めた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#475">
-				<rdfs:label>475</rdfs:label>
-				<dcterms:creator foaf:nick="ふかもこ好き" dcterms:identifier="1hCfTbr4qE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-06-22T01:10:26+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#475">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">475</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ふかもこ好き</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">1hCfTbr4qE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-06-22T01:10:26+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ひとつしかないボタンを押すと、エレベーターのドアはすぐに開き、中の蛍光灯が
 点灯した。
 どうやら動いていない時は、節電のため照明などの電気が切られるタイプらしい。
@@ -243,11 +244,15 @@
 閉じ込められるなんて。
 ２度も同じような失敗をしてしまった
 しかもここは冷蔵・・・・・・大変な事になった・・・・</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#476">
-				<rdfs:label>476</rdfs:label>
-				<dcterms:creator foaf:nick="ふかもこ好き" dcterms:identifier="1hCfTbr4qE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-06-22T01:13:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#476">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">476</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ふかもこ好き</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">1hCfTbr4qE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-06-22T01:13:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">必死に考える。
 さっき扉から出て行った従業員が戻ってくるかもしれない。
 けれどこの寒さ．．．とても長くは待っていられない。
@@ -319,11 +324,15 @@
 着ぐるみの足をなんとか掴むことができた。
 するとその着ぐるみは何の抵抗もなく、彩香が着地するのに合わせてスルスルと
 降りてきたのである。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#477">
-				<rdfs:label>477</rdfs:label>
-				<dcterms:creator foaf:nick="ふかもこ好き" dcterms:identifier="1hCfTbr4qE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-06-22T01:17:37+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#477">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">477</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ふかもこ好き</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">1hCfTbr4qE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-06-22T01:17:37+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">その着ぐるみは、胴回りが身長よりもありそうな太っちょのパンダだった。
 頭が大きく手足はとても短いが、癒し系のカワイイ顔をしている。
 天井から垂れたロープが後頭部のフックに結ばれてた。
@@ -401,11 +410,15 @@
 
 「これからどうしよう。　といっても、助けを待つしかないか……」
 「これならエレベーターの前まで戻って待っていても平気かな。」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#478">
-				<rdfs:label>478</rdfs:label>
-				<dcterms:creator foaf:nick="ふかもこ好き" dcterms:identifier="1hCfTbr4qE"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-06-22T01:24:38+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#478">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">478</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ふかもこ好き</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">1hCfTbr4qE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-06-22T01:24:38+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">考えながら、さらに数歩前に進んだときだ。
 
 ガチャンという大きな音が天井から響いた。
@@ -465,7 +478,14 @@
 
 
 続く</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-06-22T01:01:21+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-06-22T01:24:38+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">7338</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">8</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>

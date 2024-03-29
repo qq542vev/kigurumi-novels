@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rdf:RDF [
-	<!ENTITY dcterms "http://purl.org/dc/terms/">
-	<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
-]>
-<rdf:RDF
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:schema="https://schema.org/"
-	xmlns:sioc="http://rdfs.org/sioc/ns#"
-	xmlns:types="http://rdfs.org/sioc/types#"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-09T00:03:20+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:03:20+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="main"/>
 	</foaf:Document>
-
-	<foaf:Document rdf:nodeID="main">
+	<sioc:Container rdf:nodeID="main">
 		<dcterms:alternative xml:lang="ja">二人の秘密</dcterms:alternative>
-		<dcterms:dateSubmitted rdf:datatype="&dcterms;W3CDTF">2006-03-09T01:44:50+09:00</dcterms:dateSubmitted>
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2006-03-09T01:50:33+09:00</dcterms:modified>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
-		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="&xsd;positiveInteger">4450</rdf:value>
-		</dcterms:extent>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#373">
-				<rdfs:label>373</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-03-09T01:44:50+09:00</sioc:delivered_at>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#373">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">373</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-03-09T01:44:50+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　ヒューマノイド型ロボットが一般に普及したちょっと未来の話。
 　そんな未来にも、やっぱり着ぐるみが好きな人はいる。
 　その中の一人、Ａはアパートの一室で、とある工房に作ってもらった
@@ -57,11 +41,14 @@
 「これって音声はでるのかな。私はＡの彼女の美優です。…駄目か。パソコンを
 使わないと動かせないタイプね」
 　そう言うと、美優は突然ちえちゃんのメイド服を脱がせ始めた。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#374">
-				<rdfs:label>374</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-03-09T01:45:54+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#374">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">374</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-03-09T01:45:54+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">（えっ、ちょ、ちょっと。美優の奴、いきなり何をするんだ）
 　当然ちえちゃんの中にいるＡはパニックになった。が、どうにか動くことなく
 おとなしくメイド服を脱がされる。
@@ -91,11 +78,14 @@
 　ちえちゃんは、はっとして両手で口をふさいだ。
 「かわいいわね。実は、Ａのを見ちゃった後、ネットでいろいろ調べてみたの。
 それで……言いづらいけど、実は………実はあたしも、こういうのを着てみたいの！」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#375">
-				<rdfs:label>375</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-03-09T01:47:23+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#375">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">375</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-03-09T01:47:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　ちえちゃんはどこからか白紙を探し出してきて、サインペンで書いた。
 「着てみたいって、どういうことなの！？」
 「こんな世界があったのかと調べていくうちに、段々とあたしもこういうのになりたい
@@ -126,11 +116,14 @@
 「流石に、これはちょっとむこう向いててもらえる？」
 　ちえちゃんは美優に背を向けた。ちょっと経った後、
 「いいわよ」</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#376">
-				<rdfs:label>376</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-03-09T01:48:03+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#376">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">376</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-03-09T01:48:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　振り向いたＡが見たのは、ピンクのレオタードに身を包んだ美優のまぶしい姿だった。
 　そして、美優は肌色の顔がでるタイプの全身タイツを手に取ると、背中のチャックを開けた。
 そのまま、足を滑らせ、腕を通し、頭の部分もかぶる。ちえちゃんにチャックを閉めてもらった。
@@ -160,11 +153,14 @@
 　悲鳴のような声をあげるゆりちゃんこと美優。しかし、彼女も内心こうなることを望んでいたのかも
 しれない。そのままちえちゃんにベッドへと押し倒され、メイド服のフリルがいっぱいついたスカート
 をまくり上げられた。中には真っ白な、そして少し湿ったショーツ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#377">
-				<rdfs:label>377</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-03-09T01:49:39+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#377">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">377</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-03-09T01:49:39+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　スク水姿のちえちゃんは、メイド服の上からゆりちゃんの胸を激しくもみながら、大きく固くなった
 Ａの物をスカートの中のショーツのこすりつけた。
 「え、ちょっと…やめ…気持ちいいかも。も、も、もっと！」
@@ -190,11 +186,14 @@
 敏感な部分にあてた。
 「ああっ！」
 　問題なく絶頂を迎えたようだ。</sioc:content>
-			</sioc:Post>
-			<sioc:Post rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#378">
-				<rdfs:label>378</rdfs:label>
-				<dcterms:creator foaf:nick="" dcterms:identifier="TUrTQC5dZk"/>
-				<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-03-09T01:50:33+09:00</sioc:delivered_at>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#378">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">378</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">TUrTQC5dZk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-03-09T01:50:33+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">　しばらくの時が流れた。
 
 　ちえちゃんが白紙にこう書く。
@@ -214,7 +213,14 @@
 「何やってるの。あたしはゆりちゃんになってやりたいの」
 　Ａは、もう一回自分からでた液体でびしょびしょに濡れたタイツを着ることになるが、大いなる悦びを
 もう一度味わえるのかと、満面の笑みをうかべて美優をみつめていた。（終）</sioc:content>
-			</sioc:Post>
+				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
-	</foaf:Document>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-03-09T01:44:50+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-03-09T01:50:33+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parsetype="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">4450</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">6</sioc:num_items>
+	</sioc:Container>
 </rdf:RDF>
