@@ -28,7 +28,7 @@
 	<xsl:variable name="t6" select="document('../src/rdf/1247437212.rdf')"/>
 	<xsl:variable name="posts" select="($t1 | $t2 | $t3 | $t4 | $t5 | $t6)/rdf:RDF/*[@rdf:about]"/>
 
-	<xsl:template match="foaf:Document[@rdf:nodeID='main']">
+	<xsl:template match="sioc:Container[@rdf:nodeID='main']">
 		<xsl:variable name="first-item" select="$posts[@rdf:about=current()/dcterms:hasPart/*[1]/@rdf:about]"/>
 		<xsl:variable name="last-item" select="$posts[@rdf:about=current()/dcterms:hasPart/*[last()]/@rdf:about]"/>
 		<xsl:variable name="content">
@@ -37,8 +37,7 @@
 			</xsl:for-each>
 		</xsl:variable>
 
-		<!--<xsl:copy>-->
-		<sioc:Container>
+		<xsl:copy>
 			<xsl:apply-templates select="@* | dcterms:title | dcterms:alternative | schema:creativeWorkStatus | dcterms:hasPart"/>
 
 			<dcterms:created>
@@ -58,8 +57,7 @@
 			<sioc:num_items rdf:datatype="{$xsd}nonNegativeInteger">
 				<xsl:value-of select="count(dcterms:hasPart/*[@rdf:about])"/>
 			</sioc:num_items>
-		</sioc:Container>
-		<!--</xsl:copy>-->
+		</xsl:copy>
 	</xsl:template>
 
 	<xsl:template match="dcterms:hasPart[@rdf:parseType='Collection']/*[@rdf:about]">
