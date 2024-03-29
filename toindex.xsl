@@ -25,11 +25,11 @@
 			<table>
 				<thead>
 					<tr>
-						<th>タイトル</th>
-						<th>状態</th>
-						<th>文字数</th>
-						<th>投稿数</th>
-						<th>投稿日</th>
+						<th scope="col">タイトル</th>
+						<th scope="col">状態</th>
+						<th scope="col">文字数</th>
+						<th scope="col">投稿数</th>
+						<th scope="col">投稿日</th>
 					</tr>
 				</thead>
 				<tbody>
