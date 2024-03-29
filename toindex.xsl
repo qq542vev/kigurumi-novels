@@ -38,7 +38,7 @@
 
 		<section id="about">
 			<h1>このサイトについて</h1>
-			
+
 			<ul>
 				<li><a href="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html">【妄想】着ぐるみ小説スレ【連載？】</a></li>
 				<li><a href="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html">【妄想】着ぐるみ小説スレ第２章【連載？】</a></li>
@@ -62,7 +62,7 @@
 		<tr>
 			<td>
 				<a href="{$base-url}{$url}">
-					<xsl:choose>			
+					<xsl:choose>
 						<xsl:when test="dcterms:title">
 							<xsl:value-of select="dcterms:title"/>
 						</xsl:when>
