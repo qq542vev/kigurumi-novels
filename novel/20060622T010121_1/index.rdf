@@ -483,7 +483,7 @@
 		</dcterms:hasPart>
 		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-06-22T01:01:21+09:00</dcterms:created>
 		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-06-22T01:24:38+09:00</sioc:last_activity_date>
-		<dcterms:extent rdf:parsetype="Resource">
+		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">7338</rdf:value>
 		</dcterms:extent>
 		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">8</sioc:num_items>

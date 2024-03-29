@@ -106,7 +106,7 @@
 		</dcterms:hasPart>
 		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-03-03T23:25:09+09:00</dcterms:created>
 		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-03-04T21:30:49+09:00</sioc:last_activity_date>
-		<dcterms:extent rdf:parsetype="Resource">
+		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">1603</rdf:value>
 		</dcterms:extent>
 		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">5</sioc:num_items>

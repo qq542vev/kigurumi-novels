@@ -424,7 +424,7 @@ OLさん。22歳。独り暮らし。
 		</dcterms:hasPart>
 		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-09T23:26:28+09:00</dcterms:created>
 		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-02-11T15:48:31+09:00</sioc:last_activity_date>
-		<dcterms:extent rdf:parsetype="Resource">
+		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">5997</rdf:value>
 		</dcterms:extent>
 		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">14</sioc:num_items>
