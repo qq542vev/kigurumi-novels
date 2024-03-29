@@ -23,6 +23,16 @@
 			<h1>着ぐるみ小説の一覧</h1>
 
 			<table>
+				<colgroup>
+					<col class="title"/>
+				</colgroup>
+				<colgroup>
+					<col class="character-count"/>
+					<col class="num-items"/>
+				</colgroup>
+				<colgroup>
+					<col class="first-date"/>
+				</colgroup>
 				<thead>
 					<tr>
 						<th scope="col">タイトル</th>
