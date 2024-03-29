@@ -73,6 +73,14 @@
 
 		<tr>
 			<td>
+				<xsl:attribute name="class">
+					<xsl:choose>
+						<xsl:when test="dcterms:title">definitive-title</xsl:when>
+						<xsl:when test="dcterms:alternative">provisional-title</xsl:when>
+						<xsl:otherwise>untitled</xsl:otherwise>
+					</xsl:choose>
+				</xsl:attribute>
+
 				<a href="{$base-url}{$url}">
 					<xsl:choose>
 						<xsl:when test="dcterms:title">
