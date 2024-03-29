@@ -10,6 +10,7 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:schema="https://schema.org/"
 	xmlns:sioc="http://rdfs.org/sioc/ns#"
+	xmlns:types="http://rdfs.org/sioc/types#"
 >
 	<foaf:Document rdf:about="">
 		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-12T11:57:32+09:00</dcterms:modified>
