@@ -13,7 +13,7 @@
 	<xsl:output
 		version="1.0"
 		method="xml"
-		indent="yes"
+		indent="no"
 		encoding="UTF-8"
 		media-type="application/rdf+xml"
 	/>
@@ -29,8 +29,8 @@
 	<xsl:variable name="posts" select="($t1 | $t2 | $t3 | $t4 | $t5 | $t6)/rdf:RDF/*[@rdf:about]"/>
 
 	<xsl:template match="foaf:Document[@rdf:nodeID='main']">
-			<xsl:variable name="first-item" select="$posts[@rdf:about=current()/dcterms:hasPart/*[1]/@rdf:about]"/>
-			<xsl:variable name="last-item" select="$posts[@rdf:about=current()/dcterms:hasPart/*[last()]/@rdf:about]"/>
+		<xsl:variable name="first-item" select="$posts[@rdf:about=current()/dcterms:hasPart/*[1]/@rdf:about]"/>
+		<xsl:variable name="last-item" select="$posts[@rdf:about=current()/dcterms:hasPart/*[last()]/@rdf:about]"/>
 		<xsl:variable name="content">
 			<xsl:for-each select="dcterms:hasPart/*/@rdf:about">
 				<xsl:value-of select="$posts[@rdf:about=current()]/sioc:content"/>
@@ -61,7 +61,7 @@
 	</xsl:template>
 
 	<xsl:template match="dcterms:hasPart[@rdf:parseType='Collection']/*[@rdf:about]">
-		<xsl:copy-of select="$posts[@rdf:about=current()/@rdf:about]"/>
+		<xsl:apply-templates select="$posts[@rdf:about=current()/@rdf:about]"/>
 	</xsl:template>
 
 	<xsl:template match="@* | node()">
