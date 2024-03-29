@@ -28,6 +28,7 @@
 						<th>タイトル</th>
 						<th>状態</th>
 						<th>文字数</th>
+						<th>投稿数</th>
 						<th>投稿日</th>
 					</tr>
 				</thead>
@@ -81,6 +82,9 @@
 				<xsl:apply-templates select="dcterms:extent[@rdf:parseType='Resource']/rdf:value"/>
 			</td>
 			<td>
+				<xsl:apply-templates select="sioc:num_items"/>
+			</td>
+			<td>
 				<xsl:apply-templates select="dcterms:created"/>
 			</td>
 		</tr>
@@ -93,7 +97,7 @@
 		</xsl:choose>
 	</xsl:template>
 
-	<xsl:template match="dcterms:extent[@rdf:parseType='Resource']/rdf:value">
+	<xsl:template match="dcterms:extent[@rdf:parseType='Resource']/rdf:value | sioc:num_items">
 		<xsl:value-of select="format-number(., '#,###')"/>
 	</xsl:template>
 
