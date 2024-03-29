@@ -85,7 +85,7 @@
 					</xsl:choose>
 				</a>
 			</td>
-			<td class="{translate(schema:creativeWorkStatus, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')}">
+			<td>
 				<xsl:apply-templates select="schema:creativeWorkStatus"/>
 			</td>
 			<td>
@@ -101,6 +101,10 @@
 	</xsl:template>
 
 	<xsl:template match="schema:creativeWorkStatus">
+		<xsl:attribute name="class">
+			<xsl:value-of select="translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')"/>
+		</xsl:attribute>
+
 		<xsl:choose>
 			<xsl:when test=". = 'Complete'">完結</xsl:when>
 			<xsl:otherwise>未完結</xsl:otherwise>
