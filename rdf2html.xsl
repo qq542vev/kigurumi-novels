@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet
 	version="1.0"
-	exclude-result-prefixes="dcterms foaf rdf rdfs schema sioc"
+	exclude-result-prefixes="dcterms foaf rdf rdfs schema sioc types"
 	xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:foaf="http://xmlns.com/foaf/0.1/"
@@ -15,11 +15,11 @@
 	<xsl:import href="template.xsl"/>
 
 	<xsl:template match="/">
-		<xsl:variable name="main" select="rdf:RDF/foaf:Document[@rdf:nodeID='main']"/>
+		<xsl:variable name="main" select="rdf:RDF/sioc:Container[@rdf:nodeID='main']"/>
 
 		<xsl:call-template name="html-template">
 			<xsl:with-param name="title">
-				<xsl:choose>			
+				<xsl:choose>
 					<xsl:when test="$main/dcterms:title">
 						<xsl:value-of select="$main/dcterms:title"/>
 					</xsl:when>
@@ -37,16 +37,16 @@
 	</xsl:template>
 
 	<xsl:template name="html-main">
-		<xsl:apply-templates select="rdf:RDF/foaf:Document[@rdf:nodeID='main']"/>
+		<xsl:apply-templates select="rdf:RDF/sioc:Container[@rdf:nodeID='main']"/>
 	</xsl:template>
 
 	<xsl:template match="foaf:Document[@rdf:about='']/dcterms:modified">
 		<meta name="dcterms.modified" property="dcterms:modified" datatype="dcterms:W3CDTF" content="{.}"/>
 	</xsl:template>
 
-	<xsl:template match="foaf:Document[@rdf:nodeID='main']">
+	<xsl:template match="sioc:Container[@rdf:nodeID='main']">
 		<h1>
-			<xsl:choose>			
+			<xsl:choose>
 				<xsl:when test="dcterms:title">
 					<xsl:value-of select="dcterms:title"/>
 				</xsl:when>
@@ -60,16 +60,19 @@
 		<dl class="info">
 			<xsl:apply-templates select="schema:creativeWorkStatus"/>
 			<xsl:apply-templates select="dcterms:extent[@rdf:parseType='Resource']/rdf:value"/>
+			<xsl:apply-templates select="sioc:num_items"/>
 		</dl>
 
-		<dl class="comment">
-			<xsl:apply-templates select="dcterms:hasPart[@rdf:parseType='Collection']/sioc:Post"/>
-		</dl>
+		<blockquote>
+			<dl class="comment">
+				<xsl:apply-templates select="dcterms:hasPart[@rdf:parseType='Collection']/types:BoardPost"/>
+			</dl>
+		</blockquote>
 	</xsl:template>
 
 	<xsl:template match="schema:creativeWorkStatus">
-		<dt>状態</dt>
-		<dd>
+		<dt class="status">状態</dt>
+		<dd class="status {translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')}">
 			<xsl:choose>
 				<xsl:when test=". = 'Complete'">完結</xsl:when>
 				<xsl:otherwise>未完結</xsl:otherwise>
@@ -78,13 +81,20 @@
 	</xsl:template>
 
 	<xsl:template match="dcterms:extent[@rdf:parseType='Resource']/rdf:value">
-		<dt>文字数</dt>
-		<dd>
+		<dt class="character-count">文字数</dt>
+		<dd class="character-count">
 			<xsl:value-of select="format-number(., '#,###')"/>
 		</dd>
 	</xsl:template>
 
-	<xsl:template match="sioc:Post">
+	<xsl:template match="sioc:num_items">
+		<dt class="num-items">投稿数</dt>
+		<dd class="num-items">
+			<xsl:value-of select="format-number(., '#,###')"/>
+		</dd>
+	</xsl:template>
+
+	<xsl:template match="types:BoardPost">
 		<dt id="comment-{rdfs:label}">
 			<a class="number" href="{@rdf:about}">
 				<xsl:value-of select="rdfs:label"/>
@@ -102,17 +112,25 @@
 	</xsl:template>
 
 	<xsl:template match="dcterms:creator">
-		<span class="name">
-			<xsl:value-of select="@foaf:nick"/>
-		</span>
+		<xsl:apply-templates select="foaf:nick"/>
 
-		<xsl:if test="@dcterms:identifier">
+		<xsl:if test="foaf:nick and dcterms:identifier">
 			<xsl:text> </xsl:text>
 
-			<span class="trip">
-				<xsl:value-of select="concat('◆', @dcterms:identifier)"/>
-			</span>
+			<xsl:apply-templates select="dcterms:identifier"/>
 		</xsl:if>
+	</xsl:template>
+
+	<xsl:template match="foaf:nick">
+		<span class="name">
+			<xsl:value-of select="."/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="dcterms:identifier">
+		<span class="trip">
+			<xsl:value-of select="concat('◆', .)"/>
+		</span>
 	</xsl:template>
 
 	<xsl:template match="sioc:delivered_at">
@@ -159,7 +177,7 @@
 					<xsl:value-of select="(-2 * $C) + floor($C div 4)"/>
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:value-of select="(-1 * $C) + 5"/>				
+					<xsl:value-of select="(-1 * $C) + 5"/>
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
