@@ -3,16 +3,15 @@
 	version="1.0"
 	exclude-result-prefixes="dcterms foaf rdf rdfs schema sioc"
 	xmlns="http://www.w3.org/1999/xhtml"
-  	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:foaf="http://xmlns.com/foaf/0.1/"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:schema="https://schema.org/"
 	xmlns:sioc="http://rdfs.org/sioc/ns#"
+	xmlns:types="http://rdfs.org/sioc/types#"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:regexp="http://exslt.org/regular-expressions"
-	extension-element-prefixes="regexp"
-                >
+>
 	<xsl:import href="template.xsl"/>
 
 	<xsl:template match="/">
@@ -167,40 +166,4 @@
 
 		<xsl:value-of select="(($day + floor((26 * ($month + 1)) div 10) + $Y + floor($Y div 4) + $G + 5) mod 7) + 1"/>
 	</xsl:template>
-
-<!--	<xsl:template name="comment-link">
-		<xsl:param name="str" select="."/>
-		<xsl:param name="url" select="."/>
-
-		<xsl:choose>
-			<xsl:when test="contains($str, '>>')">
-				<xsl:variable name="after" select="substring-after($str, '>>')"/>
-
-				<xsl:value-of select="substring-before($str, '>>')"/>
-				
-				<xsl:choose>
-					<xsl:variable name="n" select="$after"/>
-
-					<xsl:when test="match($after, '^[1-9][0-9]*')">
-						<a href="{$url}{$n}">
-							<xsl:value-of select="substring-before($str, '>>')"/>
-						</a>
-
-						<xsl:call-template name="comment-link">
-							<xsl:with-param name="str" select="substring-after($after, $n)"/>
-							<xsl:with-param name="url" select="$url"/>
-						</xsl:call-template>
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:value-of select="$str"/>				
-					</xsl:otherwise>
-				</xsl:choose>
-				
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:value-of select="$str"/>				
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>-->
-
 </xsl:stylesheet>
