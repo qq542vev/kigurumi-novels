@@ -48,12 +48,20 @@
 		<h1>
 			<xsl:choose>
 				<xsl:when test="dcterms:title">
+					<xsl:attribute name="class">definitive-title</xsl:attribute>
+
 					<xsl:value-of select="dcterms:title"/>
 				</xsl:when>
 				<xsl:when test="dcterms:alternative">
+					<xsl:attribute name="class">provisional-title</xsl:attribute>
+
 					<xsl:value-of select="concat(dcterms:alternative, '(仮)')"/>
 				</xsl:when>
-				<xsl:otherwise>無題</xsl:otherwise>
+				<xsl:otherwise>
+					<xsl:attribute name="class">untitled</xsl:attribute>
+
+					<xsl:text>無題</xsl:text>
+				</xsl:otherwise>
 			</xsl:choose>
 		</h1>
 
