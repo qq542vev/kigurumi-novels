@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet
 	version="1.0"
-	exclude-result-prefixes="dcterms foaf rdf rdfs schema sioc"
+	exclude-result-prefixes="dcterms foaf rdf rdfs schema sioc types"
 	xmlns="http://www.w3.org/1999/xhtml"
-  	xmlns:dcterms="http://purl.org/dc/terms/"
+ 	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:foaf="http://xmlns.com/foaf/0.1/"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:schema="https://schema.org/"
 	xmlns:sioc="http://rdfs.org/sioc/ns#"
+	xmlns:types="http://rdfs.org/sioc/types#"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 >
 	<xsl:import href="template.xsl"/>
