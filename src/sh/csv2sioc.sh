@@ -65,7 +65,7 @@ template=$(
 	>
 		<foaf:Document rdf:about="">
 			<dcterms:modified rdf:datatype="&dcterms;W3CDTF">$(date +%Y-%m-%dT%H:%M:%S+09:00)</dcterms:modified>
-			<foaf:primaryTopic rdf:nodeID="main"/>
+			<foaf:primaryTopic rdf:nodeID="&board;"/>
 		</foaf:Document>
 
 		<types:MessageBoard rdf:about="&board;">
