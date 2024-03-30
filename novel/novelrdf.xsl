@@ -47,7 +47,7 @@
 			<sioc:last_activity_date>
 				<xsl:apply-templates select="$last-item/sioc:delivered_at/@* | $last-item/sioc:delivered_at/node()"/>
 			</sioc:last_activity_date>
-	
+
 			<dcterms:extent rdf:parseType="Resource">
 				<rdf:value rdf:datatype="{$xsd}nonNegativeInteger">
 					<xsl:value-of select="string-length(translate($content, '&#x9;&#xA;&#xD; 　', ''))"/>
