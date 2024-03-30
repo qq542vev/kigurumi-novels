@@ -14,20 +14,33 @@ awkScript=$(
 		csv_parse("<" ARGV[1], array)
 
 		for(i = 1; (i, 1) in array; i++) {
-			if(array[i, 4] != "") {
-				post = element("rdfs:label", "rdf:datatype=\"&xsd;positiveInteger\"", array[i, 1])
+			number = array[i, 1]
+			name = array[i, 2]
+			trip = array[i, 3]
+			date = array[i, 4]
+			content = array[i, 5]
 
-				creator = element("foaf:nick", (array[i, 2] == "名無しさん@着ぐるみすと" ? "xml:lang=\"ja\"" : "rdf:datatype=\"&xsd;string\""), str_sanitize(array[i, 2]))
+			post = element("rdfs:label", "rdf:datatype=\"&xsd;positiveInteger\"", number)
+			creator = ""
 
-				if(array[i, 3] != "") {
-					creator = creator element("dcterms:identifier", "rdf:datatype=\"&xsd;string\"", array[i, 3])
-				}
-
-				post = post element("dcterms:creator", "rdf:parseType=\"Resource\"", creator, 0)
-				post = post element("sioc:delivered_at", "rdf:datatype=\"&dcterms;W3CDTF\"", array[i, 4])
-				post = post element("sioc:content", "xml:lang=\"ja\"", str_sanitize(array[i, 5], "\t\n"))
-				printf("%s", element("types:BoardPost", "rdf:about=\"&post;" array[i, 1] "\"", post, 0))
+			if(name != "") {
+				creator = creator element("foaf:nick", (name == "名無しさん@着ぐるみすと" ? "xml:lang=\"ja\"" : "rdf:datatype=\"&xsd;string\""), str_sanitize(name))
 			}
+
+			if(trip != "") {
+				creator = creator element("dcterms:identifier", "rdf:datatype=\"&xsd;string\"", trip)
+			}
+
+			post = post element("dcterms:creator", "rdf:parseType=\"Resource\"", creator, 0)
+
+			if(date != "") {
+				post = post element("sioc:delivered_at", "rdf:datatype=\"&dcterms;W3CDTF\"", date)
+				post = post element("sioc:content", "xml:lang=\"ja\"", str_sanitize(content, "\t\n"))
+			}
+
+			post = post element("sioc:has_container", "rdf:resource=\"&board;\"")
+
+			printf("%s", element("types:BoardPost", "rdf:about=\"&post;" number "\"", post, 0))
 		}
 	}
 	__EOF__
