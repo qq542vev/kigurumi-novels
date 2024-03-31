@@ -16,6 +16,7 @@
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-03-03T23:25:09+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">すみません。
 妄想をたくましくしてたら一本できちゃったんで投稿します。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#730">
@@ -39,6 +40,7 @@
 
 彼女のマスクに開けられた狭い視界からは、すぐ下の段に並んでいる女性キャラの着ぐるみたちの後ろ姿が見える。そこには三体の女性着ぐるみが、これまた見た目は豪華だが重くて暑そうな衣装に身を包んで並んでいる。
 さらにその下の段にも、上の三体とは異なる衣装に身を包んだ着ぐるみたちが並んでいるのが見える。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#731">
@@ -67,6 +69,7 @@
 壇上には豪華な平安風の装束に身を包んだ人形たちがずらりと並び、デパートを訪れた人々の目を楽しませていた。
 
 ＜終わり＞</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#732">
@@ -77,6 +80,7 @@
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2011-03-03T23:30:49+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">以上です。
 お邪魔しました。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#736">
@@ -101,6 +105,7 @@
 他にも書いている方がいましたか。
 どこにあるんでしょうか。
 そっちも読んでみたいです。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
 			</types:BoardPost>
 		</dcterms:hasPart>

@@ -34,6 +34,7 @@
 「聞いてないですか？今日着ぐるみ着てもらいますけど」
 「え、そうなんですか？聞いてなかったので」
 ちょっとびっくりしたけど、やってみたかったので少し楽しみだった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#857">
@@ -66,6 +67,7 @@
 「じゃあ閉めますよ？」
 「お願いします」
 最後に靴を履き着替え完了</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#860">
@@ -97,6 +99,7 @@
 麻衣さんに手伝ってもらい着ぐるみを着る。
 「じゃあ行きますよ？」
 私はジャンプして合図した。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#861">
@@ -122,6 +125,7 @@
 「店の人に頼んでチラシ配り代わってもらうから
 私が着ぐるみ着る。田中さんに怪我させちゃったし。
 気にしないで。私着ぐるみ着てみたかったの」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#862">
@@ -149,6 +153,7 @@
 「大丈夫」
 と返事してくれた。
 知らないうちに３０分が経ち控え室に麻衣さんを誘導した。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#863">
@@ -174,6 +179,7 @@
 事務所の女の人が迎えに来てくれた。
 「着ぐるみは大変でしたか？」
 「大変でしたけど、いい経験になりました」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#865">
@@ -184,6 +190,7 @@
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-05-29T21:10:53+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">８６３を書いたものです。
 終わりましたので他の方どうぞ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 		</dcterms:hasPart>

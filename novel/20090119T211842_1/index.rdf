@@ -22,6 +22,7 @@
 　裸で踊れとをしへしや、
 　慰みものと生きろよとて
 　手間をかけかけを作りしや。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#564">
@@ -38,6 +39,7 @@
 　ほろびずとても何事ぞ、
 　君は知らじな、芸人の
 　家のおきてに無かりけり。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 		</dcterms:hasPart>

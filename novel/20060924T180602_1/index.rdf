@@ -39,6 +39,7 @@
 「急で申し訳ないんだけど、明日バイトお願いできないかな。」
 「はい、大丈夫です。」
 詳しいことは今日連絡するから。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#597">
@@ -63,6 +64,7 @@
 「じゃ、私も３枚にする。」
 「絵梨香、明日事務所で。」
 「わかった、じゃあね。」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#599">
@@ -95,6 +97,7 @@
 「ほんとー。」
 着ぐるみは白色でふかふかして気持ちいい。
 すると、田中さんが戻って来た。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#600">
@@ -137,6 +140,7 @@
 「お願いします。」
 
 田中さんに誘導してもらって店内に向かいました。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#601">
@@ -171,6 +175,7 @@
 「頭にタオルを巻けばよかったね。目に汗が入りそうだったよ。」
 「絵梨香もそうだったの？私も目に汗が入りそうだったよ。」
 次から頭にタオルを巻くことにしました。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#602">
@@ -214,6 +219,7 @@
 「もう限界。」
 「田中さんに伝えてくるよ。」
 私は田中さんに伝えた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#604">
@@ -254,6 +260,7 @@
 「肩車して着るんだよ。」
 「田中さんが私を肩車するんですか？」
 「愛ちゃんが僕を肩車するんだよ。」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#605">
@@ -288,6 +295,7 @@
 「愛ちゃん大丈夫？何かあったら言ってね。」
 「はい。」
 田中さんは細身なので良かった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#606">
@@ -324,6 +332,7 @@
 「愛ちゃん、僕もだよ。」
 
 私の髪の毛は白い液体でびちょびちょになりました。（おわり）</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 		</dcterms:hasPart>

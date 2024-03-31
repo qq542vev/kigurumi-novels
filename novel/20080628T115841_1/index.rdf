@@ -36,6 +36,7 @@
 同封のお金でジャージとお洒落な服と靴を買ってください。
 
 「じゃあ、買い物行くか」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#59">
@@ -61,6 +62,7 @@
 玄関に行って靴を履く。
 靴は夏でも履いて大丈夫なブーツ。
 「忘れ物ないし、出かけよう」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#71">
@@ -92,6 +94,7 @@
 殴られたり蹴られたりしても怒らない。
 「じゃあ、よろしく頼むよ」
 担当の人と別れ会社に戻った。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 		</dcterms:hasPart>

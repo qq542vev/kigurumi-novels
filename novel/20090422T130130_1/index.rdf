@@ -17,6 +17,7 @@
 				<sioc:content xml:lang="ja">21世紀はロボットの時代になるらしい。だが、人間はどこへ行くのだろう。
 
 　「 Machinery 」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#650">
@@ -40,6 +41,7 @@
 　「君が何をすべきか、分かっているな？
 　------正義などないかもしれない。虚偽が真実ではなく、真実が虚偽であるかもしれない。
 　どちらにせよ、我々は君を待っていたのだ・・・・宜しければ丁寧に扱ってくれたまえ。」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#651">
@@ -51,6 +53,7 @@
 				<sioc:content xml:lang="ja">　そこは、ROBOT EXPOの会場、一般公開に先駆けてのプレス公開日。会場は企業ごとのブースに区切られ、マニピュレータやリフトやロボットアームは元より、懸架や揚重用の強化外骨格、OCRのような活字認識技術、指紋や顔や手の毛細血管や虹彩での個人認証、音声合成、対話型で処理を行うインターフェイス、恐竜型や動物型の愛玩ロボット、ラジコン競技用の玩具、音楽を流しながら踊るラグビーボール、あるいは人工臓器などなど、各社バリエーション豊富なそれらのものが展示されている。
 　「21世紀はロボットの時代になります」という、床に散らばったパンフレットに最初に書かれたマニフェストの通り、これらは、今後もっとも伸びていく産業である。
 　そして、そのパンフレットの表紙に描かれているのは、人型のロボットだ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#652">
@@ -74,6 +77,7 @@
 　「・・・イメージは出来るけど、」「はい、それです！その、イメージが予想出来る、ということが、人間に二足歩行が出来てロボットに出来ない理由です。」
 　「そうは言うが、」と、技師は言う。「暗黙知やゲシュタルトなんて昔からある理論じゃないか。」
 　「いえ、『イメージと予想』が本質です。暗黙知は過去に構築されたもの、ライブラリに過ぎません。ええと・・・」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#653">
@@ -98,6 +102,7 @@
 　静かな研究室に、機械の軋む音と排気音が広がる。
 　くっ、と首を曲げる所、体のバランスを保つために上体をのけぞらせながら手を差し上げ、動かす所、
 　静止と急な動作は、爬虫類を思わせる。もしくは鳥・・・鳥類は温血のトカゲでウロコが変化したものが羽だ、という、よく知られた話があるが、この少女にも小さなメカニカルな羽がある。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#654">
@@ -111,6 +116,7 @@
 　先生の言葉で言うと秋葉系ですが、それもそういう危機を抱えていて・・・アニメのキャラクターにも作品の中での愛と死がある。それが魅力を形作る。しかし、萌え産業の消費者にはそんなものに興味を抱く必要が無い。だから安易なメイド、記号化された顔と髪型。磨り潰されたキャラクターグッズ。」
 　
 　そうした美少女は、今彼らの前に居る。エプロンドレスで羽があり甘いクリームソーダのような色と目と肌、血のかわりに電気が流れ、肉の代わりに-----アクチンとミオシンの化学反応で動くのが肉と腱だが、これはペルチェ素子のわずかな温度変化で揮発油を暖め冷やすことで駆動するスターリングエンジンと、瞼や唇を動かすコンプレッサーの空気で動いている。それはモーターと歯車の駆動とは違った、人間らしい柔らかな動きを実現する筈だった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#655">
@@ -139,6 +145,7 @@
 　その間、彼女は研究室の様子をちらちらと盗み見る。ロボットのまわりに乱雑に置かれた電源装置、ケーブル、銀色のシリンダー。汚れた白衣の技師たちはファイルやノートPCを持ってテーブルに集まり始める。重い足取り、と彼女は判断する。これはスムーズには行かないようだ。会議の時間はきっと長い。
 　彼女は教授のほうに声をかける。「外出てていいですか？ここは電波がわるくて・・・」
 教授は話の途中で彼女に答える。構わんよ。最近の子は携帯が好きだな。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#656">
@@ -158,6 +165,7 @@
 
 　『何点か確認したいことがある。一度研究室に戻ってほしい。』
 　『あーはい、今戻ります。』</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#657">
@@ -182,6 +190,7 @@
 　人間なら？
 　「下までやっぱり脱いだほうがいいんですか？」
 　御陵はパーテションの向こうに声をかける。ああ、と返事がある。なんとなく辺りを見渡してから、スカートを脱いで、ブラウスといっしょにパーティションにかける。ストッキングを脱ぐ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#658">
@@ -206,6 +215,7 @@
 　イヤフォンの延長コードの先には、パソコンがつながり、それのマイクが音声を拾うようだ。イヤフォンをつけて、頭を頭部にはめ込む。視界はピンホールの視界で、室内が暗く見える。
 　口をくわえる。首の後ろのジップが下ろされると、首が絞まる感じがする。首までがマスクの部分で、継ぎ目はエプロンドレスの首輪状の襟で隠れる形だ。顔は、上向きで固定される。背中の開いていた部分が閉じられる。
 　『聴こえますか？聴こえたら手を上げて下さい。』手を上げる。『水とエアを回します。呼吸を機械に任せてください。人工呼吸をされるような感じになります。いいですか・・・』</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#659">
@@ -219,6 +229,7 @@
 　軽いパニックで真っ白くなった頭が、機械が力尽くで呼吸を奪ったのを理解する。
 　水圧が体にかかっている。さっきまでは椅子の感触が感じられていたのに、今はそれも無い。手足を押さえていた手が取り除けられる。耳元で、
 　『君は、機械になった。』教授の声がした。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#660">
@@ -233,6 +244,7 @@
 　終点まで乗るつもりがもう無いかもしれません。』
 　『自発的に降りてしまった？』
 　『恐らく。それと・・・いえ、これは次の報告に。』</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#661">
@@ -271,6 +283,7 @@
 　助手：「ななななにゆうてはるんですか。そんなわけあらしまへんわ」
 　------とか、彼女はその情景に台詞を付けてみる。
 　あの助手さんは後先考えずにそんなことが出来るようなタイプじゃないだろうけど。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#662">
@@ -294,6 +307,7 @@
 　
 　メールのメッセージ。コミュニケーションの断絶を感じる。
 　器械の中の孤独と、耳元のマイクの声。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#663">
@@ -315,6 +329,7 @@
 　ステージイベントでは、彼女-----ベネティアが自然に障害物を避けて歩いたり、階段を上ったり降りたり、キャッチボールをしたり、そして愛くるしく踊る姿を-------多くの来場者が見ていた。
 　それが目の前にいる。背中を向けて、ギチギチと噛み合ったジッパー。その中には、生身の人間が居る。
 　彼の知っている情報では、確かにその筈だ。それを暴けば山陰電気のロボット開発にダメージを与え、四星の市場占有の足掛かりとすることができる。彼はそのレイヤードに示すとおり四星のエージェントであり、退く事は出来ない。ジッパーに指をかける。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#664">
@@ -331,6 +346,7 @@
 　彼女のステータスはパソコンのモニタに表示されて、それを助手がコーヒーを飲みながら眺めている。
 　
 　そして、四星のエージェントはジッパーを開いて、その肌を押し広げた。器械の熱、オゾンの匂い。意外にも隙間が多く密度の無いプラスティックのフレームと金属のシリンダー。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#665">
@@ -356,6 +372,7 @@
 　-------さて、君をどうしよう？』
 　ベネティアは優しい笑顔のまま、腰をくねらせて・・・木馬の鋭角の上で足掻いている。ジッパーが机の角に擦れて、ガリガリと音を立てる。
 　電話が鳴るが、彼女には聴こえない。助手は電話を取る。ややあって、</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#666">
@@ -367,6 +384,7 @@
 				<sioc:content xml:lang="ja">　『黒幕が割れました。あなたは誰にとっても用済みだが・・・教授は、あなたを使ってもう少し研究をしたいようですね。
 　同意しますか？・・・ああ、そうだった。』
 　彼女の耳に、頷く、の操作音が鳴る。ベネティアは頷いた。-------機械として。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#667">
@@ -379,6 +397,7 @@
 
 いささか乱調すぎるな・・・
 面白そうな所だけ摘んで頂ければ幸いです。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 		</dcterms:hasPart>

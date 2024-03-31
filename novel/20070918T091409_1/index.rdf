@@ -33,6 +33,7 @@
 中には誰もいなくて、着ぐるみがおいてあった。
 少し着ぐるみを眺めていると、人が戻ってきた。
 「やばい」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#196">
@@ -63,6 +64,7 @@
 「これなんですか？」
 「ガードルよ。おちんちんがもっこりしないように男の人が
 女の子の役をするときに履くの」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#197">
@@ -92,6 +94,7 @@
 「徹くんがやる役も女の子のキャラだから、その事を忘れないでね」
 「はい」
 「じゃあ、練習するよ」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#198">
@@ -120,6 +123,7 @@
 みんなが着替えだしたので部屋を出ようとすると、
 「出なくていいよ。徹君」
 と、言われたが、みんなが着替えるまで下を向いていた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#209">
@@ -149,6 +153,7 @@
 
 「みんなお疲れ様。徹君悪いけど着ぐるみ着たまま外でまってて」
 僕は控え室の外で待っていた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#210">
@@ -172,6 +177,7 @@
 「お願いします」
 
 愛さんはマスクをしたままキスをした。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#216">
@@ -182,6 +188,7 @@
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-09-23T16:36:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">２１０を書いたものです。
 終わりましたので次ぎ方どうぞ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
 			</types:BoardPost>
 		</dcterms:hasPart>

@@ -62,6 +62,7 @@
 マスクの頭を入れる部分が頭に当たり、私は少し驚き体を強張らせた。
 最後の最後なのに、私の大事な何かが問いかけた。
 本当に着るつもりなの？</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#531">
@@ -110,6 +111,7 @@
 次着る時は、写真でも撮りたいなぁ。
 そんな事を思いつつ肌タイツを私は洗濯機に放り込んだ。
 でも次着る時は落ち着いて着れるような気が、その時はなんとなくした。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#532">
@@ -120,6 +122,7 @@
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2010-09-20T03:35:35+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">駄文失礼いたしました。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
 			</types:BoardPost>
 		</dcterms:hasPart>

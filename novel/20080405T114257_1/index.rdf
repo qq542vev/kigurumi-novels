@@ -30,6 +30,7 @@
 「はい」
 
 僕は着ぐるみを店の裏側にあるテントに連れて行った。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
 			</types:BoardPost>
 		</dcterms:hasPart>

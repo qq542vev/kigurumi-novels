@@ -41,6 +41,7 @@
 
 周りの烏合の衆に任しておいても埒が明かないので、オレは現場に
 走り寄ったんだ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#514">
@@ -77,6 +78,7 @@
 人工呼吸をしないのは、相手がオッサンだから…ではなくて。
 万一相手が感染症を持っていたときの用心。自分の身を危険に
 晒してまで助ける必要はないから。（って当時の指導員に言われたんだよ。）</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#515">
@@ -115,6 +117,7 @@
 
 ＡＥＤを持って駆けつけた遊園地の係員さんと一緒に心臓マッサージを
 続けたらやっと息を吹き返した。ヤレヤレだよ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#516">
@@ -145,6 +148,7 @@
 
 次から、着ぐるみが死に掛けてても助けない。
 喪前ら、もうイベントに来るなよ。迷惑だからさ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#517">
@@ -162,6 +166,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 
 そして…もし命が助けられたときは、マスクや衣装・タイツが破損しても、
 小額訴訟とかしないでくださいね。くれぐれもお願いします。ors</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 		</dcterms:hasPart>

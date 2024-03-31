@@ -35,6 +35,7 @@
 完全に一体化しているのか、ジッパーで繋いでいるかはこの手では分からない。
 手を外そうにも…外せない！引っ張ると腕の周り数カ所に紐状の感覚を感じるので、何かで結ばれているのだろうか！？
 背中を調べようと立ち上がろうとしたが、足が上手く曲がらず立ち上がれない！</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#619">
@@ -65,6 +66,7 @@
 そう思い、私は眠りについた。最高にラッキー。心からそう感じながら。
 
 獣系着ぐるみのSSが増えますように。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
 		</dcterms:hasPart>

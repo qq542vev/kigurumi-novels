@@ -30,6 +30,7 @@
 「私暇ですから大丈夫ですよ。」
 「じゃあ、行こうか。」
 「はい。」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#634">
@@ -53,6 +54,7 @@
 「僕は外で待っているよ。」
 「はい。」
 私は女性用の控え室に入った。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#635">
@@ -80,6 +82,7 @@
 「私と唯ちゃんは１７歳。ひとつ違いだね。」
 「真理ちゃんと唯ちゃんは着ぐるみのバイトはじめてどれぐらい？」
 「１年ぐらいかな。」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#640">
@@ -124,6 +127,7 @@
 １時間ぐらい着ぐるみを着てるので限界に近かった。
 「しょうがないから寝転がっていようよ。」
 私たちは寝転がった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#641">
@@ -160,6 +164,7 @@
 「着たことありますよ。」
 「唯ちゃんどうする？」
 「加藤さんお願いします。」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#642">
@@ -199,6 +204,7 @@
 控え室に戻ると加藤さんの服と靴がなくなったんです。
 すぐスタッフさんに言っていろいろ調べたら、
 男子トイレに人が進入した後があったんです。」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html#643">
@@ -246,6 +252,7 @@
 でも田中さんと着ぐるみ着れないのは寂しかったけど。」
 「じゃあ遊園地で遊んでいく？」
 「うん。」　　　　　　　　　　（おわり）</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html"/>
 			</types:BoardPost>
 		</dcterms:hasPart>

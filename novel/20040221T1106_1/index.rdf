@@ -17,6 +17,7 @@
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:06+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">とりあえず、書いてみた。
 感想もらえたら、続き書くかも？</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#470">
@@ -45,6 +46,7 @@
 「えっと、着ぐるみ……っていうのかな？　人がかぶって操演する
 ぬいぐるみなんだけど」
 「えっ……」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#471">
@@ -73,6 +75,7 @@
 「ありがとう。助かったよ」
 安堵の声が、電話の向こうから聞こえた。
 その後、予定を教えてもらい、必要なものを指示されて電話が切れた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#472">
@@ -102,6 +105,7 @@
 「こうして腕が入ってるんだ。足も同じように……」
 底に当たる部分を開けると、足の部品が出てくる。
 これも、縫い付けられている……が、だいぶ短い。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#473">
@@ -131,6 +135,7 @@
 「自力じゃ出れない。けど、ま、サポートの人は絶対に付くはずだしね。
 あっ、今日は誰かしらここにいるから、大丈夫」
 そう言ってマネージャーは笑う。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#474">
@@ -160,6 +165,7 @@
 「とにかく、着替えよう」
 いつまでも、着ぐるみを見ていても仕方ないので、明美は着替えを始めた。
 広い部屋。何も隠すものが無い中で、服を脱ぐのはちょっと恥ずかしい感じ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#475">
@@ -188,6 +194,7 @@
 そう言って、マネージャーは笑うが、明美としては、それどころじゃない。
 大きく息を吸って、背中のチャックから潜ると、
 マネージャーは着ぐるみをまっすぐにしてくれたようだ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#476">
@@ -217,6 +224,7 @@
 「……は、はい」
 苦しそうな息の音が、帽子の部分から聞こえる。
 「がんばって」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#477">
@@ -246,6 +254,7 @@
 「大丈夫？」
 「平気……です……」
 くぐもった声は、やはり荒れた呼吸の合間に小さく聞こえる。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#478">
@@ -274,6 +283,7 @@
 
 「大丈夫、苦しくない？」
 「いや、普通に苦しいですけど……」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#479">
@@ -302,6 +312,7 @@
 足首のすぐ上で、着ぐるみ本体に固定されているため、小さくしか歩けないが、
 なんとか動くことは出来る。
 「腕とか、頭とかも大丈夫だよね？」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#480">
@@ -331,6 +342,7 @@
 「とりあえず、腕を抜いてみて。で、中で自分でウレタンを押しながら、
 頭を抜けばいけないかな？」
 「……やってみます」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#481">
@@ -360,6 +372,7 @@
 脱ぎやすいようにと押さえるのだが、なかなか明美は脱ぐことが出来ない。
 「んーーー」
 くぐもった声が、中から聞こえた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#482">
@@ -389,6 +402,7 @@
 そして、指先が触れた瞬間、
 「んーーー」
 と、大きな声を出した。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#483">
@@ -418,6 +432,7 @@
 「後は、押さえるから、体を抜いて」
 腕が、明美から離れていく。
 「んーーーーーーーーーー」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#484">
@@ -444,6 +459,7 @@
 そこまで行くと、あとはなんとか脱げた。
 足は、先をマネージャに引っ張ってもらって、片足ずつ引き抜く。
 そしして、やっと、着ぐるみから開放された。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#485">
@@ -473,6 +489,7 @@
 鞄には着替えの半そでTシャツが数枚。
 「だよね。もうすぐクライアントが来る時間だし、
 このまま頑張ってくれるか？」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#486">
@@ -497,6 +514,7 @@
 「はい。頑張ってみます」
 「よろしくー」
 このとき明美は、ま、なんとかなるかな？　と、少し楽観的に考えていた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html#487">
@@ -508,6 +526,7 @@
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-02-21T11:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">ほい、最後に上げておくですよ。
 感想よろです。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html"/>
 			</types:BoardPost>
 		</dcterms:hasPart>

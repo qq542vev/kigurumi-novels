@@ -43,6 +43,7 @@
 俺はその場に立ち尽くすしかなかった・・・・
 
 (多少ネタバレ的要素も含むと思います）</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#706">
@@ -53,6 +54,7 @@
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004-12-30T04:03+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">つい勢いでカキコしちゃいました
 中断になるようならやめておきます m(_ _)m</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
 			</types:BoardPost>
 		</dcterms:hasPart>
