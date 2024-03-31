@@ -36,6 +36,7 @@ awkScript=$(
 			if(date != "") {
 				post = post element("sioc:delivered_at", "rdf:datatype=\"&dcterms;W3CDTF\"", date)
 				post = post element("sioc:content", "xml:lang=\"ja\"", str_sanitize(content, "\t\n"))
+				post = post element("schema:creativeWorkStatus", "xml:lang=\"en\"", "Published")
 			} else {
 				post = post element("schema:creativeWorkStatus", "xml:lang=\"en\"", "Deleted")
 			}
