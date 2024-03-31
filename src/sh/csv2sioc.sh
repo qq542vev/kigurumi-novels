@@ -76,6 +76,7 @@ template=$(
 
 		<types:MessageBoard rdf:about="&board;">
 			<dcterms:title>${2}</dcterms:title>
+			<sioc:num_items rdf:datatype="&xsd;nonNegativeInteger">${5-1000}</sioc:num_items>
 		</types:MessageBoard>
 
 		<!-- !CONTENT! -->
