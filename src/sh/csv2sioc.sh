@@ -21,17 +21,20 @@ awkScript=$(
 			content = array[i, 5]
 
 			post = element("rdfs:label", "rdf:datatype=\"&xsd;positiveInteger\"", number)
-			creator = ""
 
-			if(name != "") {
-				creator = creator element("foaf:nick", (name == "名無しさん@着ぐるみすと" ? "xml:lang=\"ja\"" : "rdf:datatype=\"&xsd;string\""), str_sanitize(name))
+			if(name != "" || trip != ""){
+				creator = ""
+
+				if(name != "") {
+					creator = creator element("foaf:nick", (name == "名無しさん@着ぐるみすと" ? "xml:lang=\"ja\"" : "rdf:datatype=\"&xsd;string\""), str_sanitize(name))
+				}
+
+				if(trip != "") {
+					creator = creator element("dcterms:identifier", "rdf:datatype=\"&xsd;string\"", trip)
+				}
+
+				post = post element("dcterms:creator", "rdf:parseType=\"Resource\"", creator, 0)
 			}
-
-			if(trip != "") {
-				creator = creator element("dcterms:identifier", "rdf:datatype=\"&xsd;string\"", trip)
-			}
-
-			post = post element("dcterms:creator", "rdf:parseType=\"Resource\"", creator, 0)
 
 			if(date != "") {
 				post = post element("sioc:delivered_at", "rdf:datatype=\"&dcterms;W3CDTF\"", date)
