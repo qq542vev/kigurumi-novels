@@ -4,6 +4,8 @@
 	xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 >
+	<xsl:import href="param.xsl"/>
+
 	<xsl:output
 		version="1.0"
 		method="xml"
@@ -13,8 +15,6 @@
 		doctype-system="about:legacy-compat"
 		omit-xml-declaration="yes"
 	/>
-
-	<xsl:import href="param.xsl"/>
 
 	<xsl:template name="html-template">
 		<xsl:param name="title"/>
