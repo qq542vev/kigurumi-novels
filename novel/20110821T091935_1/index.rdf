@@ -120,6 +120,10 @@
 &gt;&gt;908は全体的に社長
 &gt;&gt;909は全体的にマネージャー
 落ちがありませんが、この後、マネージャーは死ぬべきだと思います。</sioc:content>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#906"/>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#907"/>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#908"/>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#909"/>
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
 			</types:BoardPost>

@@ -335,6 +335,8 @@
 ボリュームのある金髪は → ボリュームのある黄色い髪は
 
 では続き行きます。</sioc:content>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#449"/>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#452"/>
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
 			</types:BoardPost>

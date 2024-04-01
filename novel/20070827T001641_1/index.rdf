@@ -716,6 +716,7 @@
 こんな私ですが、ネタが浮かんだらまた書いてみたいなぁと思っています。
 一度でも読んでくれた人、遙を着たいと一度でも思った人、本当にありがとうございました。
 では次の人、ファイトです。</sioc:content>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#102"/>
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
 			</types:BoardPost>

@@ -3095,6 +3095,7 @@
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009-08-18T14:10:26+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;193
 こんなのあればいいなっていう俺の妄想です。すみません……</sioc:content>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html#193"/>
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html"/>
 			</types:BoardPost>

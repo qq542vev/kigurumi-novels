@@ -397,6 +397,7 @@
 「そうそう、久しぶりにユリさんの演歌を聞きたいっス」
 「え〜。私が演歌歌っても“ええんか”・・・なんてね」
 なんてね」の前が抜けていました。申し訳ないです。</sioc:content>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#375"/>
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>

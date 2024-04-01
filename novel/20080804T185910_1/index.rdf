@@ -139,6 +139,7 @@
 				<sioc:content xml:lang="ja">&gt;&gt;169
 左手にはめた→左手の薬指にはめた
 右手にはめた→右手の薬指にはめた</sioc:content>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#169"/>
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>
@@ -151,6 +152,7 @@
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-08-05T10:08:59+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">&gt;&gt;166
 9行目　ケン君を手に入れた→レン君を手に入れた</sioc:content>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html#166"/>
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html"/>
 			</types:BoardPost>

@@ -72,6 +72,7 @@
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-12-18T21:23:23+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">食い物を粗末にするな&gt;&gt;436
 ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#436"/>
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
 			</types:BoardPost>
@@ -422,6 +423,11 @@ ttp://www1.plala.or.jp/niwatori/recipe/book004/re061.htm</sioc:content>
 &gt;口で息できない構造でも喋れるのか… 
 スーツはこのように目鼻口が穴が開いています。
 そして&gt;&gt;544で用意された別のマスクで喋ることができるというわけです。</sioc:content>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#743"/>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#522"/>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#526"/>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#546"/>
+				<dcterms:relation rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html#544"/>
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html"/>
 			</types:BoardPost>
