@@ -39,10 +39,21 @@ awkScript=$(
 			if(date != "") {
 				post = post element("sioc:delivered_at", "rdf:datatype=\"&dcterms;W3CDTF\"", date)
 				post = post element("sioc:content", "xml:lang=\"ja\"", str_sanitize(content, "\t\n"))
+
+				while(match(content, />>([1-9][0-9]?[0-9]?|1000)/)) {
+					ref_number = substr(content, RSTART, RLENGTH)
+					content = substr(content, RSTART + RLENGTH)
+
+					if(index(content, "-") != 1) {
+						post = post element("dcterms:relation", "rdf:resource=\"&post;" ref_number "\"")
+					}
+				}
+
 				post = post element("schema:creativeWorkStatus", "xml:lang=\"en\"", "Published")
 			} else {
 				post = post element("schema:creativeWorkStatus", "xml:lang=\"en\"", "Deleted")
 			}
+
 
 			post = post element("sioc:has_container", "rdf:resource=\"&board;\"")
 
