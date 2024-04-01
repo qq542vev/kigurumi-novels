@@ -40,11 +40,13 @@ awkScript=$(
 				post = post element("sioc:delivered_at", "rdf:datatype=\"&dcterms;W3CDTF\"", date)
 				post = post element("sioc:content", "xml:lang=\"ja\"", str_sanitize(content, "\t\n"))
 
+				refs = ""
 				while(match(content, />>([1-9][0-9]?[0-9]?|1000)/)) {
 					ref_number = substr(content, RSTART + 2, RLENGTH - 2)
 					content = substr(content, RSTART + RLENGTH)
 
-					if(index(content, "-") != 1) {
+					if(!index(refs, "#" ref_number ",") && index(content, "-") != 1) {
+						refs = refs "#" ref_number ","
 						post = post element("dcterms:relation", "rdf:resource=\"&post;" ref_number "\"")
 					}
 				}
@@ -53,7 +55,6 @@ awkScript=$(
 			} else {
 				post = post element("schema:creativeWorkStatus", "xml:lang=\"en\"", "Deleted")
 			}
-
 
 			post = post element("sioc:has_container", "rdf:resource=\"&board;\"")
 
