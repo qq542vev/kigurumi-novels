@@ -41,7 +41,7 @@ awkScript=$(
 				post = post element("sioc:content", "xml:lang=\"ja\"", str_sanitize(content, "\t\n"))
 
 				while(match(content, />>([1-9][0-9]?[0-9]?|1000)/)) {
-					ref_number = substr(content, RSTART, RLENGTH)
+					ref_number = substr(content, RSTART + 2, RLENGTH)
 					content = substr(content, RSTART + RLENGTH)
 
 					if(index(content, "-") != 1) {
