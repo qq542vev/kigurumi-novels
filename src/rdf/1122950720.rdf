@@ -7,7 +7,7 @@
 ]>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-31T22:10:29+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-04-01T20:41:38+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="&board;"/>
 	</foaf:Document>
 	<types:MessageBoard rdf:about="&board;">
@@ -188,6 +188,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-08-12T10:16:26+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;7
 スレ違い。</sioc:content>
+		<dcterms:relation rdf:resource="&post;7"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2291,6 +2292,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-02T02:52:03+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">(´-`).。ｏＯ（とりあえず&gt;&gt;19さんの作品が終わるのを待ちましょ。）</sioc:content>
+		<dcterms:relation rdf:resource="&post;19"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2890,6 +2892,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-03T12:32:08+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;110-112
 　そのたとえ話が&gt;&gt;90に集約して表現されてるんだよ。まるで作者さん予言してたかのようで傑作でつね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;90"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2921,6 +2924,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 まあ、おかわり自由なお店でとんかつ定職だと山盛りキャベツ３回はおかわりするけどね。
 
 冗談はともかく、&gt;&gt;105さん、残りを楽しみにしてます。</sioc:content>
+		<dcterms:relation rdf:resource="&post;105"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -3688,6 +3692,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-04T08:53:13+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;14
 以来の続編キター！</sioc:content>
+		<dcterms:relation rdf:resource="&post;14"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -3700,6 +3705,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 		<sioc:content xml:lang="ja">&gt;&gt;137
 今までにないような大作、お疲れ様でした。
 楽しめました。</sioc:content>
+		<dcterms:relation rdf:resource="&post;137"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4081,6 +4087,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-17T01:05:28+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;164
 根性なしめ！　小説ごときで泣き言言うなよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;164"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4092,6 +4099,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-17T04:16:08+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;165
 それはだめ　五七五に　なってない</sioc:content>
+		<dcterms:relation rdf:resource="&post;165"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4103,6 +4111,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-17T13:11:13+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;166
 字余り！</sioc:content>
+		<dcterms:relation rdf:resource="&post;166"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4165,6 +4174,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-17T20:49:01+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;169
 （・∀・）ソレダ！！</sioc:content>
+		<dcterms:relation rdf:resource="&post;169"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4177,6 +4187,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 		<sioc:content xml:lang="ja">&gt;&gt;172
 &gt;小説すなわち創作スレだからあながちスレ違いでもないかもね？ 
 アホですか？</sioc:content>
+		<dcterms:relation rdf:resource="&post;172"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4190,6 +4201,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 アホにアホという阿呆（煽ってみるテスト）
 172は害のない阿呆だが、174は雰囲気を悪くしてるから害悪だな。
 ＃火に油を注いでる175は最悪だ。ｗ</sioc:content>
+		<dcterms:relation rdf:resource="&post;174"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4201,6 +4213,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-18T14:30:07+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;175
 基地外？</sioc:content>
+		<dcterms:relation rdf:resource="&post;175"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4222,6 +4235,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-09-18T18:12:03+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;177
 意味不明。</sioc:content>
+		<dcterms:relation rdf:resource="&post;177"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4373,6 +4387,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 オフまで引っ張らないで正解だと思います。
 楽しめましたよ。
 お疲れ様でした。</sioc:content>
+		<dcterms:relation rdf:resource="&post;185"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4396,6 +4411,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 最後にBさんの願いがかなったわけですね。
 だからこれで正真正銘物語の終わりというわけです。
 &gt;&gt;188さんは気に病むことはないと思いますよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;188"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4410,6 +4426,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 
 これぜんぜん関係ないよ。ただ出しただけで。物語には関連してないし（帰り道のエピソードだし）
 なにより女の子変は完結すらもしてない</sioc:content>
+		<dcterms:relation rdf:resource="&post;188"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4422,6 +4439,7 @@ http://jbbs.shitaraba.com/bbs/read.cgi/anime/846/1081325649/</sioc:content>
 		<sioc:content xml:lang="ja">&gt;&gt;190
 &gt;物語には関連してないし
 いやだから「無茶な希望」だったんだろ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;190"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4458,6 +4476,7 @@ http://pya.cc/pyaimg/pimg.php?imgid=19127</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-10-13T17:34:40+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;193
 スレ違いだがイイ！</sioc:content>
+		<dcterms:relation rdf:resource="&post;193"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4479,6 +4498,7 @@ http://pya.cc/pyaimg/pimg.php?imgid=19127</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-10-15T18:56:02+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;195
 スレ違い。キエロ！</sioc:content>
+		<dcterms:relation rdf:resource="&post;195"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4490,6 +4510,7 @@ http://pya.cc/pyaimg/pimg.php?imgid=19127</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-10-15T19:18:30+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;196
 誰にレスしてんだYO!</sioc:content>
+		<dcterms:relation rdf:resource="&post;196"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4501,6 +4522,7 @@ http://pya.cc/pyaimg/pimg.php?imgid=19127</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-10-15T21:43:10+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;197
 雑談がしたいなら雑談スレにイケ！</sioc:content>
+		<dcterms:relation rdf:resource="&post;197"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4512,6 +4534,7 @@ http://pya.cc/pyaimg/pimg.php?imgid=19127</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-10-17T01:43:40+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;198
 誰にレスしてんだYO!</sioc:content>
+		<dcterms:relation rdf:resource="&post;198"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4726,6 +4749,8 @@ http://pya.cc/pyaimg/pimg.php?imgid=19127</sioc:content>
 &gt;&gt;206
 どうなるんだろう…
 というか、作者さんはどうなったんだろう…</sioc:content>
+		<dcterms:relation rdf:resource="&post;204"/>
+		<dcterms:relation rdf:resource="&post;206"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4867,6 +4892,7 @@ insidoll独自の着ぐるみにおける構造とは異なる形をとってい
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-10-23T17:55:37+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">ttp://takemoku.blog21.fc2.com/blog-entry-287.html
 &gt;&gt;206のインスパイア元でつか？</sioc:content>
+		<dcterms:relation rdf:resource="&post;206"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4968,6 +4994,8 @@ insidoll独自の着ぐるみにおける構造とは異なる形をとってい
 妄想を暴走させるための導入部…なのかもしれないが、
 ここで止めておくのも味があると思うのだがどうだろう？
 PS.「〜とゆう」は「〜という」と表記するのが一般的だよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;223"/>
+		<dcterms:relation rdf:resource="&post;224"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5049,6 +5077,7 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 		<sioc:content xml:lang="ja">&gt;&gt;230
 前スレの文師さんは何時の間にかようかんマン小説途切れさせたまま失踪してしまったんで
 誰か続きお願いします</sioc:content>
+		<dcterms:relation rdf:resource="&post;230"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6729,6 +6758,7 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 		<sioc:content xml:lang="ja">&gt;&gt;277
 「ホントにいいって。それより特売話もいいけど、そろそろ着
 ちょっと校正w</sioc:content>
+		<dcterms:relation rdf:resource="&post;277"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -7177,6 +7207,7 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2005-12-08T19:09:10+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;305
 同意</sioc:content>
+		<dcterms:relation rdf:resource="&post;305"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -7250,6 +7281,7 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 		<sioc:content xml:lang="ja">&gt;&gt;311より上では
 &gt;だから感想もまちまち。
 なんてことにはなってないんだけどな。</sioc:content>
+		<dcterms:relation rdf:resource="&post;311"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -7633,6 +7665,7 @@ PS.「〜とゆう」は「〜という」と表記するのが一般的だよ�
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-01T17:09:26+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">(´-`).。ｏＯ（漏れは最新50で四出る。続きを楽しみにしてまつ&gt;&gt;329）</sioc:content>
+		<dcterms:relation rdf:resource="&post;329"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8354,6 +8387,7 @@ sage忘れましたorz</sioc:content>
 結局、グダグダになるんだから書き終えて、読み直してから投稿すれば？
 人よりは文学、小説を読んでいるはずで、つもりなんでしょ？
 第3者の視点で読んで見ることを薦めます。ご自身の程を知るにはよい機会かと</sioc:content>
+		<dcterms:relation rdf:resource="&post;357"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8366,6 +8400,8 @@ sage忘れましたorz</sioc:content>
 		<sioc:content xml:lang="ja">&gt;&gt;342の作者が現実にありそうな話を軽いタッチで書いていただけに、&gt;&gt;357の小説がギャップがあり過ぎて上手く読めなかったんだよ。
 自己の名誉だなんて訳の分からない言い訳しているのも見苦しさに拍車をかけている。
 しかしどっちの作家様も頑張れ！w</sioc:content>
+		<dcterms:relation rdf:resource="&post;342"/>
+		<dcterms:relation rdf:resource="&post;357"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8385,6 +8421,7 @@ sage忘れましたorz</sioc:content>
 頭からリライトしてみる方がいろんな意味で良いような気はする。
 文章ってのは書きまくればそれなりには上手くなるから、
 きつい意見が多いけどそれにめげずにとにかく書きまくれ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;345"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8417,6 +8454,8 @@ sage忘れましたorz</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-02-19T20:17:29+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;351=&gt;&gt;362
 お前の代わりなら幾らでもいるぞ</sioc:content>
+		<dcterms:relation rdf:resource="&post;351"/>
+		<dcterms:relation rdf:resource="&post;362"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8467,6 +8506,7 @@ sage忘れましたorz</sioc:content>
 
 &gt;&gt;324の人はなかなか良かった
 今、完成を目指して執筆中なのを祈ります</sioc:content>
+		<dcterms:relation rdf:resource="&post;324"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8479,6 +8519,7 @@ sage忘れましたorz</sioc:content>
 		<sioc:content xml:lang="ja">&gt;&gt;367みたいな奴に多少褒められていてもすぐに手のひら返されそうなんで書きません。
 
 出されたものは黙って食え。文句あるなら自分で書け。</sioc:content>
+		<dcterms:relation rdf:resource="&post;367"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8493,6 +8534,7 @@ sage忘れましたorz</sioc:content>
 
 同じレベルで反論すると、批評や意見
 文句や要望が怖かったら最初から書くな</sioc:content>
+		<dcterms:relation rdf:resource="&post;368"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9435,6 +9477,7 @@ GJ!</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-05-02T12:40:07+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;412
 わかった。ゴメン</sioc:content>
+		<dcterms:relation rdf:resource="&post;412"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9786,6 +9829,7 @@ GJ!</sioc:content>
 		<sioc:content xml:lang="ja">&gt;&gt;425
 (・∀・)イイ!! 
 ただ、30行以内で書いてくれるともっと(・∀・)イイ!!</sioc:content>
+		<dcterms:relation rdf:resource="&post;425"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9797,6 +9841,7 @@ GJ!</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-05-06T23:53:11+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;426
 sageとくともっと(・∀・)イイ!!</sioc:content>
+		<dcterms:relation rdf:resource="&post;426"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9878,6 +9923,7 @@ sageとくともっと(・∀・)イイ!!</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-05-08T18:47:45+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">ここの住人は、着ぐるみするまでの過程よりも着ぐるみしてからの過程を読みたいんだよ。
 &gt;&gt;324みたいに最初に着ているシーンから始まると、読み易いと思われ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;324"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9889,6 +9935,7 @@ sageとくともっと(・∀・)イイ!!</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-05-08T21:22:57+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;432
 (・∀・)ソレダ!!</sioc:content>
+		<dcterms:relation rdf:resource="&post;432"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -10275,6 +10322,7 @@ sageとくともっと(・∀・)イイ!!</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-05-10T17:26:53+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;445
 着になるなあ〜</sioc:content>
+		<dcterms:relation rdf:resource="&post;445"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -10331,6 +10379,7 @@ sageとくともっと(・∀・)イイ!!</sioc:content>
 「男が入ってんじゃねーの？」
 バットを持っていた背が一番高い子が、憎たらしそうな笑みを見せて聞いてきた。
 もちろん首を振る私。</sioc:content>
+		<dcterms:relation rdf:resource="&post;341"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -10644,6 +10693,7 @@ sageとくともっと(・∀・)イイ!!</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-05-12T20:09:05+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">訂正です。書いてから気付いたけれど、上半身だけだと用が足せませんね（汗）
 &gt;&gt;459は飛ばしてください…。</sioc:content>
+		<dcterms:relation rdf:resource="&post;459"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -10699,6 +10749,7 @@ sageとくともっと(・∀・)イイ!!</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-05-12T20:53:21+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;463
 誰？</sioc:content>
+		<dcterms:relation rdf:resource="&post;463"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -10710,6 +10761,7 @@ sageとくともっと(・∀・)イイ!!</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-05-12T21:58:08+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;464
 どうみても460だろｗｗｗｗｗ</sioc:content>
+		<dcterms:relation rdf:resource="&post;464"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -10721,6 +10773,7 @@ sageとくともっと(・∀・)イイ!!</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-05-14T00:28:52+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;463さん、スルーしてすみません。
 けれど小説の途中で内容の解説をするのは、今後のストーリーに関わることもあるので、あまり好きじゃないんです。</sioc:content>
+		<dcterms:relation rdf:resource="&post;463"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11284,6 +11337,7 @@ sageとくともっと(・∀・)イイ!!</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-06-25T18:14:59+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;481
 (゜Д゜)ハァ?意味不明。</sioc:content>
+		<dcterms:relation rdf:resource="&post;481"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11295,6 +11349,7 @@ sageとくともっと(・∀・)イイ!!</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-06-25T20:46:24+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;481
 B言語でおｋ</sioc:content>
+		<dcterms:relation rdf:resource="&post;481"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11976,6 +12031,7 @@ B言語でおｋ</sioc:content>
 そろそろ、もう1日経ったので締め切らせていただきます。
 &gt;&gt;524さんレスありがとうございました。
 それでは方向性としては非エロ路線でいきますね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;524"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12293,6 +12349,7 @@ B言語でおｋ</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-08-22T00:11:24+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;536
 別に良いと思うが。</sioc:content>
+		<dcterms:relation rdf:resource="&post;536"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12316,6 +12373,7 @@ B言語でおｋ</sioc:content>
 		<sioc:content xml:lang="ja">流れを無視してどうのとか割って入りにくいとか、例えば現行のひとつ前のオクスレで美少女面はどうのとか、他を気にしすぎる発言がたまにあるけど
 
 もしかして&gt;&gt;536かな？</sioc:content>
+		<dcterms:relation rdf:resource="&post;536"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12340,6 +12398,7 @@ ttp://kasamatu.o0o0.jp/pochi/src/hajime1806.txt.html
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-08-25T00:38:49+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;540
 GJ!　どこぞにアップするのも一つの手だねぇ</sioc:content>
+		<dcterms:relation rdf:resource="&post;540"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12363,6 +12422,7 @@ GJ!　どこぞにアップするのも一つの手だねぇ</sioc:content>
 		<sioc:content xml:lang="ja">&gt;&gt;542
 うん、ちょっとわかりにくい部分や理解不能な部分があった。
 この状況になった導入編もつけるといいかも。</sioc:content>
+		<dcterms:relation rdf:resource="&post;542"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12418,6 +12478,7 @@ passは一緒。
 		<sioc:content xml:lang="ja">&gt;&gt;546
 いいんでねぇ？
 続編楽しみにしてまつ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;546"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12531,6 +12592,7 @@ passは一緒。
 		<sioc:content xml:lang="ja">&gt;&gt;555
 もちろんですとも。
 気長に待ってるよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;555"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12595,6 +12657,7 @@ pass：to-aru
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-12T21:38:00+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">ふむ、&gt;&gt;540さんの意見を聞こうジャマイカ</sioc:content>
+		<dcterms:relation rdf:resource="&post;540"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12619,6 +12682,7 @@ pass：to-aru
 すんません、自己中人間でｏ∠Ｚ
 と言う事でもうすこし、ここに居座らせて貰います…どうもすんませんorz
 でも今書いてるシリーズ完結させた後頭の中にネタが無ければ、邪魔にならないように消えますorz</sioc:content>
+		<dcterms:relation rdf:resource="&post;563"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12641,6 +12705,7 @@ pass：to-aru
 		<sioc:content xml:lang="ja">ちょっとすみません。
 １４レス分の小説を書いたのですが、ここに貼り付けてもいいでしょうか？
 それとも、&gt;&gt;540氏に倣ってどこかにうｐしたほうがよいでしょうか？</sioc:content>
+		<dcterms:relation rdf:resource="&post;540"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12681,6 +12746,7 @@ pass：to-aru
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-18T07:10:44+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">あーCMうざい&gt;&gt;570</sioc:content>
+		<dcterms:relation rdf:resource="&post;570"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12691,6 +12757,7 @@ pass：to-aru
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-18T16:33:33+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;567　ここに貼り付けて良いと思うよ</sioc:content>
+		<dcterms:relation rdf:resource="&post;567"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13301,6 +13368,7 @@ pass：to-aru
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-09-22T18:01:24+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;540
 わくわく</sioc:content>
+		<dcterms:relation rdf:resource="&post;540"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13962,6 +14030,7 @@ ttp://march-ell.seesaa.net/article/19950635.html</sioc:content>
 		<sioc:content xml:lang="ja">&gt;&gt;626
 フェチ心が判ってないうえにストーリーも希薄。
 これはツマラン以上の感想は言えないだろ〜。ｗｗｗ</sioc:content>
+		<dcterms:relation rdf:resource="&post;626"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13994,6 +14063,7 @@ ttp://march-ell.seesaa.net/article/19950635.html</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-10-22T17:53:44+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;628は上の駄作書いた人かｗ</sioc:content>
+		<dcterms:relation rdf:resource="&post;628"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14005,6 +14075,7 @@ ttp://march-ell.seesaa.net/article/19950635.html</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-10-22T19:49:29+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">というわけで&gt;&gt;630は617以降の「オモシロい」ストーリーを書き込んでくださいね。
 楽しみにしてますので、よろしく！</sioc:content>
+		<dcterms:relation rdf:resource="&post;630"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14125,6 +14196,7 @@ ttp://march-ell.seesaa.net/article/19950635.html</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-10-25T00:18:36+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;637
 はぁ？</sioc:content>
+		<dcterms:relation rdf:resource="&post;637"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14136,6 +14208,7 @@ ttp://march-ell.seesaa.net/article/19950635.html</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-10-29T00:23:04+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;637
 同意。最後見てからにしたらいいんじゃないかと思う。感想は。</sioc:content>
+		<dcterms:relation rdf:resource="&post;637"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14431,6 +14504,7 @@ ttp://march-ell.seesaa.net/article/19950635.html</sioc:content>
 		<sioc:content xml:lang="ja">&gt;&gt;653
 意見ありがとうございます、こんな駄文書きにすまないっすorz
 意見を反映できるように頑張りますＯ三　rz</sioc:content>
+		<dcterms:relation rdf:resource="&post;653"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14479,6 +14553,7 @@ pass:同上
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-11-10T19:57:44+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;656の次回作は美少女着ぐるみでよろしく。</sioc:content>
+		<dcterms:relation rdf:resource="&post;656"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14491,6 +14566,7 @@ pass:同上
 		<sioc:content xml:lang="ja">&gt;&gt;658
 えっと、一応期待に沿えるよう頑張ってみます…orz
 あんまり期待しないでくださいorz</sioc:content>
+		<dcterms:relation rdf:resource="&post;658"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14504,6 +14580,7 @@ pass:同上
 携帯で表示した文章を画面上でコピーしてメールの新規作成に貼り付けできないのかな？
 コピーできる文字数に制限があったら何度かに分けてコピーしたらいいし。
 漏れの携帯ならできるよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;657"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14524,6 +14601,7 @@ pass:同上
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-11-17T18:00:15+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">カワイソス…&gt;&gt;661</sioc:content>
+		<dcterms:relation rdf:resource="&post;661"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14534,6 +14612,7 @@ pass:同上
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-11-19T12:59:55+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">紙に書き写せばいいじゃまいか！&gt;&gt;661</sioc:content>
+		<dcterms:relation rdf:resource="&post;661"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14597,6 +14676,7 @@ pass:同上
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2006-11-22T23:56:06+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;668
 赤毛のアン？</sioc:content>
+		<dcterms:relation rdf:resource="&post;668"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14740,6 +14820,7 @@ pass:同上
 		<sioc:content xml:lang="ja">&gt;&gt;679
 イイ！
 こういう小説かけるようになりたいなあ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;679"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14752,6 +14833,7 @@ pass:同上
 		<sioc:content xml:lang="ja">&gt;&gt;679
 いや、流石プロさんですね…Ｏｒｚ
 自分のなんかが書くのは場違いのようですねorz</sioc:content>
+		<dcterms:relation rdf:resource="&post;679"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14765,6 +14847,7 @@ pass:同上
 プロとかアマとか関係ないんじゃねぇの？読んだ人が面白いと思えばＯＫ。
 探していくとアマチュア作家の作品でも下手なプロより面白いものあるし。
 （ただ、プロの方が面白く読みやすい文章を書きなれてるのは確か。）</sioc:content>
+		<dcterms:relation rdf:resource="&post;681"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14778,6 +14861,7 @@ pass:同上
 女の子を化け物に変えちゃうフェチ掲示板からかな？
 「海原・みなも」でオーダーメイドCOM作品一覧見ると結構掘り出し物わんさかあるよ。
 個人的に佐野麻雪氏の作品がかなり好みだ…。すれ違いスマソ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;681"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14790,6 +14874,7 @@ pass:同上
 		<sioc:content xml:lang="ja">&gt;&gt;683
 同士よ！佐野氏がみなも嬢を扱うと良い味出してくれますよね。
 (最近、ちょっと方向がディープになってて・・・そこが良いんだけどね。）</sioc:content>
+		<dcterms:relation rdf:resource="&post;683"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14802,6 +14887,7 @@ pass:同上
 		<sioc:content xml:lang="ja">&gt;&gt;681
 卑下しすぎだよ。
 俺は貴方の作品を期待してるよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;681"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15027,6 +15113,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1074337431/171-173</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-01-04T16:43:46+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">保守は無意味だよ。
 それより、なんか新春に相応しいのを一つ頼むよ&gt;&gt;695</sioc:content>
+		<dcterms:relation rdf:resource="&post;695"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15099,6 +15186,7 @@ pass:seii-gai
 		<sioc:content xml:lang="ja">&gt;&gt;701
 698から少し追加されていますね。
 続きを楽しみに待ってます。</sioc:content>
+		<dcterms:relation rdf:resource="&post;701"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15114,6 +15202,7 @@ GJ！
 
 しかしリアルだと客引きも減ってつまらなくなったなぁ。
 着ぐるみで客引きしてくれたらなー</sioc:content>
+		<dcterms:relation rdf:resource="&post;701"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15298,6 +15387,7 @@ GJ！
  文章は完璧です。萌えました。
 　ただ、文章が長めになってて、省略されました・・・って出てきてしまうのが、唯一の欠点かな・・・。
 　続きを読みたいので、がんばって続きを書いてくださいませ・・・。</sioc:content>
+		<dcterms:relation rdf:resource="&post;708"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15309,6 +15399,7 @@ GJ！
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-02-08T01:30:51+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;710
 長文前提の小説スレ読むのに専ブラも使ってないなんて…</sioc:content>
+		<dcterms:relation rdf:resource="&post;710"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15334,6 +15425,8 @@ GJ！
 　&gt;&gt;711
  専用ブラウザっていうのがあるんですか？
 　知りませんでした。</sioc:content>
+		<dcterms:relation rdf:resource="&post;712"/>
+		<dcterms:relation rdf:resource="&post;711"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15619,6 +15712,7 @@ GJ！
 　（チャックをしめられたら、自分では脱げないやつ）
 　あと、体育祭の応援合戦で、くじ引きか何かで負けて、女の子が、怪獣の着ぐるみに入ったり。
 　（これも、自分で脱げないやつ）</sioc:content>
+		<dcterms:relation rdf:resource="&post;726"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15655,6 +15749,7 @@ GJ！
 		<sioc:content xml:lang="ja">&gt;&gt;729
 だから続きを読むでいいじゃん
 なんで専ブラだけ喰いつくのさ？</sioc:content>
+		<dcterms:relation rdf:resource="&post;729"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16029,6 +16124,7 @@ GJ！
 		<sioc:content xml:lang="ja">&gt;&gt;753
 初めて書いてみたものがあるが、まだ校正ちう
 そろそろ準備しとくから、もちっと待ってて</sioc:content>
+		<dcterms:relation rdf:resource="&post;753"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16066,6 +16162,7 @@ GJ！
 		<sioc:content xml:lang="ja">&gt;&gt;756
 そこの既出アドレスを吊るす意味が分からん。
 そこの管理人か？</sioc:content>
+		<dcterms:relation rdf:resource="&post;756"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16077,6 +16174,8 @@ GJ！
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-04-06T11:11:36+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">そう煽るなよ&gt;&gt;757
 せめてsageような&gt;&gt;756</sioc:content>
+		<dcterms:relation rdf:resource="&post;757"/>
+		<dcterms:relation rdf:resource="&post;756"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16128,6 +16227,7 @@ GJ！
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-04-06T15:54:15+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">でも&gt;&gt;754サン楽しみにしているよぉ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;754"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16415,6 +16515,7 @@ B「おはよう」
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-04-14T16:31:38+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;779
 普通の人は流れで理解できるのだが、779はできないのかな？</sioc:content>
+		<dcterms:relation rdf:resource="&post;779"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16426,6 +16527,7 @@ B「おはよう」
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-04-14T17:02:26+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">単に文章がわかりにくいということだろ？
 &gt;&gt;779は皮肉を込めて書いてるんジャマイカ？</sioc:content>
+		<dcterms:relation rdf:resource="&post;779"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16460,6 +16562,7 @@ B「おはよう」
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-04-14T18:35:53+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;785
 何をつけるの？</sioc:content>
+		<dcterms:relation rdf:resource="&post;785"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16533,6 +16636,7 @@ B「おはよう」
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-04-14T21:06:59+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;790
 いいかげんにしろよ</sioc:content>
+		<dcterms:relation rdf:resource="&post;790"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16565,6 +16669,7 @@ B「おはよう」
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-04-15T12:06:29+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;791
 (゜Д゜)ハァ?</sioc:content>
+		<dcterms:relation rdf:resource="&post;791"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16820,6 +16925,7 @@ B「おはよう」
 あやまることはない。
 気が向いたらまた書けばいいんでない？
 それだけのことだよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;811"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16901,6 +17007,7 @@ ttp://insidedoll.bne.jp/story_t023.html
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-05-12T21:06:17+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;817
 インサイドドールを貼るのはヤメレ！</sioc:content>
+		<dcterms:relation rdf:resource="&post;817"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16932,6 +17039,7 @@ ttp://insidedoll.bne.jp/story_t023.html
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-05-13T07:31:29+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;817
 このスレの存在を否定するまねはやめろと何回言えば(ry</sioc:content>
+		<dcterms:relation rdf:resource="&post;817"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17303,6 +17411,7 @@ pass:hajime
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-05-20T21:52:13+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">ん？みれましたよ？&gt;&gt;844</sioc:content>
+		<dcterms:relation rdf:resource="&post;844"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17314,6 +17423,7 @@ pass:hajime
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-05-20T21:54:27+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;843
 良かったよ。続きを楽しみにしている</sioc:content>
+		<dcterms:relation rdf:resource="&post;843"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17339,6 +17449,7 @@ pass:hajime
 &gt;&gt;843
 続き希望。なんか美少女ゲーム的展開でおもしろい！
 ワクワクしてます。</sioc:content>
+		<dcterms:relation rdf:resource="&post;843"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17365,6 +17476,8 @@ pass:hajime
 &gt;&gt;843
 続きを期待してるよ
 エロゲのような展開、斬新で好きだｗ</sioc:content>
+		<dcterms:relation rdf:resource="&post;844"/>
+		<dcterms:relation rdf:resource="&post;843"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17382,6 +17495,8 @@ pass:hajime
 		<sioc:content xml:lang="ja">&gt;&gt;848&gt;&gt;850
 そうじゃないよ。
 Macに対応していないらしい。＿|‾|○</sioc:content>
+		<dcterms:relation rdf:resource="&post;848"/>
+		<dcterms:relation rdf:resource="&post;850"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17619,6 +17734,7 @@ Macに対応していないらしい。＿|‾|○</sioc:content>
 
 
 &gt;&gt;843さん続き希望です。</sioc:content>
+		<dcterms:relation rdf:resource="&post;843"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17782,6 +17898,7 @@ Macに対応していないらしい。＿|‾|○</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-05-31T20:30:11+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;843
 続きщ(゜Д゜щ)カモォォォン。</sioc:content>
+		<dcterms:relation rdf:resource="&post;843"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17802,6 +17919,7 @@ Macに対応していないらしい。＿|‾|○</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-05-31T23:23:35+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">足着ぐるみだからじゃない？&gt;&gt;878</sioc:content>
+		<dcterms:relation rdf:resource="&post;878"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17824,6 +17942,7 @@ Macに対応していないらしい。＿|‾|○</sioc:content>
 		<sioc:content xml:lang="ja">&gt;&gt;878-880
 　&gt;&gt;855-863の続編という形でお手本を示したのが&gt;&gt;874ってことだろ。
 だからその足の着ぐるみでいいことしようとしたけど一人で着れずに捕まっちゃったってオチ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;874"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -18541,6 +18660,7 @@ Poserから抜け出してきたような、ブラとパンツの天使。手を
 材料をうまく盛り込んでまとめた作品だと思いました。
 現実世界で起こる夢のような出来事、思い通りに進まない歯がゆさの描写がうまいです。
 最後に現実世界に引き戻されるあたりもリアルでいいですね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;927"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -18604,6 +18724,8 @@ Poserから抜け出してきたような、ブラとパンツの天使。手を
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-07-01T15:07:34+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;932
  つ &gt;&gt;927の最後の一行</sioc:content>
+		<dcterms:relation rdf:resource="&post;932"/>
+		<dcterms:relation rdf:resource="&post;927"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -18736,6 +18858,7 @@ Poserから抜け出してきたような、ブラとパンツの天使。手を
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-07-03T16:22:17+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">じゃ、萌える小説を書いてくれ&gt;&gt;945</sioc:content>
+		<dcterms:relation rdf:resource="&post;945"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -18802,6 +18925,7 @@ Poserから抜け出してきたような、ブラとパンツの天使。手を
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-07-04T10:04:12+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;951
 989の絵を描いた人でつか？</sioc:content>
+		<dcterms:relation rdf:resource="&post;951"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -18829,6 +18953,7 @@ Poserから抜け出してきたような、ブラとパンツの天使。手を
 なんだそうだ。すいかは野菜ですと言われた時のような衝撃だ。
 
 人間性の隠蔽（=顔や声の否定）って要素はこっち側にしか無い気がするんだけど。</sioc:content>
+		<dcterms:relation rdf:resource="&post;952"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -18840,6 +18965,8 @@ Poserから抜け出してきたような、ブラとパンツの天使。手を
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-07-04T19:51:36+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;951&gt;&gt;954
 何でお絵かきBBSスレを使わずにこっちに書くんだ？</sioc:content>
+		<dcterms:relation rdf:resource="&post;951"/>
+		<dcterms:relation rdf:resource="&post;954"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -18868,6 +18995,7 @@ Poserから抜け出してきたような、ブラとパンツの天使。手を
 
 ちなみにどうでもいいけど、スイカは野菜で間違いないが果菜とも言われる。
 ちなみにメロンも野菜（果菜）に分類されてる。</sioc:content>
+		<dcterms:relation rdf:resource="&post;954"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -18884,6 +19012,8 @@ Poserから抜け出してきたような、ブラとパンツの天使。手を
 &gt;&gt;955
 水準が高そうだから。果菜という表現が許容される水準というか。
 次の人が投下し始めたらいなくなる積もりです。</sioc:content>
+		<dcterms:relation rdf:resource="&post;957"/>
+		<dcterms:relation rdf:resource="&post;955"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -18907,6 +19037,7 @@ Poserから抜け出してきたような、ブラとパンツの天使。手を
 いなくなるなんてそんな。
 って、無理強いしませんけど、たまにでも書いて描いてくださいな。
 楽しみにしてますよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;958"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -19119,6 +19250,7 @@ orz
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-07-15T20:30:36+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;975
 それを言ったらおしまいでつよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;975"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -19225,6 +19357,7 @@ orz
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2007-07-16T11:07:36+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;985
 kwsk!</sioc:content>
+		<dcterms:relation rdf:resource="&post;985"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -19237,6 +19370,7 @@ kwsk!</sioc:content>
 		<sioc:content xml:lang="ja">&gt;&gt;986
 意味なし。
 単に捨てゼリフだから。</sioc:content>
+		<dcterms:relation rdf:resource="&post;986"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>

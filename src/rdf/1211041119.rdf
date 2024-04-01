@@ -7,7 +7,7 @@
 ]>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-31T22:10:30+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-04-01T20:41:39+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="&board;"/>
 	</foaf:Document>
 	<types:MessageBoard rdf:about="&board;">
@@ -120,6 +120,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1184654919/</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-20T12:32:13+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">つまり&gt;&gt;7は生粋のマゾっ娘って訳か。</sioc:content>
+		<dcterms:relation rdf:resource="&post;7"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -673,6 +674,7 @@ GJ!</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-25T00:01:37+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;33
 ■執筆者以外の人はsage進行でお願いします。</sioc:content>
+		<dcterms:relation rdf:resource="&post;33"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -683,6 +685,8 @@ GJ!</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-31T11:36:16+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">もしかしたら&gt;&gt;33は最初に書き始めて途中乗っ取られて暴れてた作者＝執筆者じゃね？&gt;&gt;34</sioc:content>
+		<dcterms:relation rdf:resource="&post;33"/>
+		<dcterms:relation rdf:resource="&post;34"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -738,6 +742,7 @@ pass:orz
 ここに最初にuｐした、とある以来の分割ですorz
 なんだよつまんねー上に、尻切れトンボじゃねえかよ、とお怒りの方。
 すいませんまとめてuｐじゃなく今回は続きが有るので、待って頂ければ幸いですorz</sioc:content>
+		<dcterms:relation rdf:resource="&post;38"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -751,6 +756,7 @@ pass:orz
 なんでわざわざページとんでパスを入力させて見せようとするの？
 文章ができてるならここにコピペすればいいだけなのに。
 何のためのスレなんだよ？</sioc:content>
+		<dcterms:relation rdf:resource="&post;37"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -767,6 +773,7 @@ pass:orz
 パスに関してはupローダーの性質上つけないといけないのでつけていました。
 自分なりの配慮のつもりでしたが、不快に思われたようで、誠に申し訳ありません。
 以後気をつけます。</sioc:content>
+		<dcterms:relation rdf:resource="&post;40"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -792,6 +799,7 @@ pass:orz
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-06-07T23:48:53+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;42
 同意見</sioc:content>
+		<dcterms:relation rdf:resource="&post;42"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -803,6 +811,7 @@ pass:orz
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-06-09T07:22:28+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;42
 異意見</sioc:content>
+		<dcterms:relation rdf:resource="&post;42"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -813,6 +822,7 @@ pass:orz
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-06-09T12:15:45+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">どうでもいい意見&gt;&gt;44</sioc:content>
+		<dcterms:relation rdf:resource="&post;44"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -825,6 +835,9 @@ pass:orz
 		<sioc:content xml:lang="ja">さらにどうでもいい意見&gt;&gt;45
 そして漏れも&gt;&gt;46
 そして&gt;&gt;47も。</sioc:content>
+		<dcterms:relation rdf:resource="&post;45"/>
+		<dcterms:relation rdf:resource="&post;46"/>
+		<dcterms:relation rdf:resource="&post;47"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -835,6 +848,7 @@ pass:orz
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-06-09T21:20:05+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;45が優勝</sioc:content>
+		<dcterms:relation rdf:resource="&post;45"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -865,6 +879,7 @@ pass:orz
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-06-09T22:52:17+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;46が準優勝</sioc:content>
+		<dcterms:relation rdf:resource="&post;46"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -875,6 +890,7 @@ pass:orz
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-06-09T23:27:35+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;47は第三位</sioc:content>
+		<dcterms:relation rdf:resource="&post;47"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1210,6 +1226,7 @@ pass:orz
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-06-30T13:42:11+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">って、服とジャージに20万の支給ってありえないし、そういう事情なら着ぐるみ一式といっしょに服も送るだろうって部分の詰めが甘いと思うのですよ。
 &gt;&gt;75</sioc:content>
+		<dcterms:relation rdf:resource="&post;75"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1222,6 +1239,7 @@ pass:orz
 		<sioc:content xml:lang="ja">&gt;&gt;66
 言いたいことはよく分かるんだが、テンポの速い戦闘シーンとかならともかく、
 買い物シーンは店の様子や服の細かい描写に主人公の主観などを取り入れてじっくり読ませるもんだろう。</sioc:content>
+		<dcterms:relation rdf:resource="&post;66"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1277,6 +1295,7 @@ pass:orz
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-06-30T21:03:18+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;79は作者と見られてないようだ…かわいそす…orz</sioc:content>
+		<dcterms:relation rdf:resource="&post;79"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1312,6 +1331,8 @@ pass:orz
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-07-02T11:23:59+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">で、続きマダー （・∀・ ）っノシ凵 ⌒☆チンチン &gt;&gt;71&gt;&gt;79</sioc:content>
+		<dcterms:relation rdf:resource="&post;71"/>
+		<dcterms:relation rdf:resource="&post;79"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1464,6 +1485,7 @@ pass:orz
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-07-04T17:58:13+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">勿論ありますよ&gt;&gt;89</sioc:content>
+		<dcterms:relation rdf:resource="&post;89"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1486,6 +1508,8 @@ pass:orz
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-07-04T18:59:29+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">執筆者は&gt;&gt;1のルールを読んでから書き込もうよ。
 ちなみに過去スレは&gt;&gt;2。</sioc:content>
+		<dcterms:relation rdf:resource="&post;1"/>
+		<dcterms:relation rdf:resource="&post;2"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1507,6 +1531,7 @@ pass:orz
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-07-05T07:22:36+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;103
 ■執筆者以外の人はsage進行でお願いします。</sioc:content>
+		<dcterms:relation rdf:resource="&post;103"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1518,6 +1543,8 @@ pass:orz
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-07-05T12:20:24+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">スレ読者も&gt;&gt;1のルールを読んでから書き込もうよ。
 ちなみに過去スレは&gt;&gt;2。</sioc:content>
+		<dcterms:relation rdf:resource="&post;1"/>
+		<dcterms:relation rdf:resource="&post;2"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1808,6 +1835,7 @@ pass:orz
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-07-14T22:35:57+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;120
 本当はNGだけどおk！</sioc:content>
+		<dcterms:relation rdf:resource="&post;120"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2205,6 +2233,7 @@ Bはそういうと酒をグラスに注いだ。輝くような黄色い液体�
 興奮しますた。
 
 でももし次書かれるならトリップよろよろです。</sioc:content>
+		<dcterms:relation rdf:resource="&post;138"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2227,6 +2256,8 @@ Bはそういうと酒をグラスに注いだ。輝くような黄色い液体�
 
 そういえば、囚人服の方はどうしているのでしょう・・・
 ここが落ち着いている時にでも続きが投下されないだろうか、と思わずにはいられないです。</sioc:content>
+		<dcterms:relation rdf:resource="&post;138"/>
+		<dcterms:relation rdf:resource="&post;140"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2249,6 +2280,7 @@ Bはそういうと酒をグラスに注いだ。輝くような黄色い液体�
 
 しかし作品としては私も続編が気になります。
 楽しみにしています。</sioc:content>
+		<dcterms:relation rdf:resource="&post;138"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2289,6 +2321,7 @@ Bはそういうと酒をグラスに注いだ。輝くような黄色い液体�
 		<sioc:content xml:lang="ja">&gt;&gt;138
 ショーの最中に性癖を暴露されちゃう話があったね。
 作風がなんとなく似てるけど同じ作者さん？</sioc:content>
+		<dcterms:relation rdf:resource="&post;138"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2317,6 +2350,8 @@ Bはそういうと酒をグラスに注いだ。輝くような黄色い液体�
 ただ、トリップをつけないで投稿＝スレルールーは守らないけど
 自分の小説はエロイから覚悟してねって最初に書いておくのは自分勝手で卑怯だと思う。
 自分勝手な内容の小説と理解しての押し付け投稿ならsageとけ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;144"/>
+		<dcterms:relation rdf:resource="&post;114"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2358,6 +2393,7 @@ Bはそういうと酒をグラスに注いだ。輝くような黄色い液体�
 		<sioc:content xml:lang="ja">&gt;&gt;149
 トリップを付けるのは当然の行為だが、執筆者はsageを強要されるものではない。
 sageなくてもいいよ。執筆者以外のレスはsageるべきだな。</sioc:content>
+		<dcterms:relation rdf:resource="&post;149"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2372,6 +2408,7 @@ sageなくてもいいよ。執筆者以外のレスはsageるべきだな。</s
 その氏が着ぐるみに対するポリシーを掲げているという。
 着ぐるみのあり方としてかのような小説を投稿された背景、
 すなわち何を憂いてどう改善したいと考えたのかを物語にすると面白いのではないでしょうか。</sioc:content>
+		<dcterms:relation rdf:resource="&post;149"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2383,6 +2420,7 @@ sageなくてもいいよ。執筆者以外のレスはsageるべきだな。</s
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-07-21T16:30:38+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;151
 意味不明棚。</sioc:content>
+		<dcterms:relation rdf:resource="&post;151"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2399,6 +2437,8 @@ sageに関しての発言は、どれも本人の意思を尊重したアドバ�
 
 漏れか？
 漏れはどれとは言わないが感想やアドバイスを書いたよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;150"/>
+		<dcterms:relation rdf:resource="&post;152"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2412,6 +2452,7 @@ sageに関しての発言は、どれも本人の意思を尊重したアドバ�
 おまいは何を勘違いしているのか分からんがこのスレはsage進行のスレじゃないんだよ。
 あくまでも執筆者以外はsage進行なんだよ。
 執筆者がageようがsageようが自由なんだよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;153"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2435,6 +2476,7 @@ sageに関しての発言は、どれも本人の意思を尊重したアドバ�
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-07-21T20:59:22+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;155
 意味不明棚。</sioc:content>
+		<dcterms:relation rdf:resource="&post;155"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2447,6 +2489,9 @@ sageに関しての発言は、どれも本人の意思を尊重したアドバ�
 		<sioc:content xml:lang="ja">&gt;&gt;146=&gt;&gt;152=&gt;&gt;156
 核心に触れられると混乱しちゃうんですね？
 分かります。</sioc:content>
+		<dcterms:relation rdf:resource="&post;146"/>
+		<dcterms:relation rdf:resource="&post;152"/>
+		<dcterms:relation rdf:resource="&post;156"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2468,6 +2513,7 @@ sageに関しての発言は、どれも本人の意思を尊重したアドバ�
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-07-22T19:51:44+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;157
 流石に夏休み期間中は芳ばしいのが湧くねえ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;157"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2531,6 +2577,7 @@ ttp://www.quizilla.com/poems/7427925/barbie-doll-mask
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-07-29T04:10:41+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;162
 日本語ておk！</sioc:content>
+		<dcterms:relation rdf:resource="&post;162"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2665,6 +2712,7 @@ ttp://www.quizilla.com/poems/7427925/barbie-doll-mask
 		<sioc:content xml:lang="ja">&gt;&gt;169
 左手にはめた→左手の薬指にはめた
 右手にはめた→右手の薬指にはめた</sioc:content>
+		<dcterms:relation rdf:resource="&post;169"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2677,6 +2725,7 @@ ttp://www.quizilla.com/poems/7427925/barbie-doll-mask
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-08-05T10:08:59+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;166
 9行目　ケン君を手に入れた→レン君を手に入れた</sioc:content>
+		<dcterms:relation rdf:resource="&post;166"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2752,6 +2801,7 @@ ttp://www.quizilla.com/poems/7427925/barbie-doll-mask
 		<sioc:content xml:lang="ja">&gt;&gt;178
 楽しいか？
 雑談スレへ池！</sioc:content>
+		<dcterms:relation rdf:resource="&post;178"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2897,6 +2947,7 @@ ttp://www.quizilla.com/poems/7427925/barbie-doll-mask
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-08-08T23:45:41+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">Σ(‾□‾;)!!飯能ハエエエエーYO！&gt;&gt;191</sioc:content>
+		<dcterms:relation rdf:resource="&post;191"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2943,6 +2994,7 @@ ttp://www.quizilla.com/poems/7427925/barbie-doll-mask
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-08-10T17:01:59+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">トリップを付けない執筆者は&gt;&gt;1の【ルール】を読み直してから書き込め．</sioc:content>
+		<dcterms:relation rdf:resource="&post;1"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -3300,6 +3352,7 @@ Dollers待合室ではメイドさんが読書をしながら１人でつぶや�
 性的な表現がとってもいいっすなぁ。
 ただもう少し着ぐるみ感を出すというか
 着ぐるみでヤってるんだということが分かり易ければなおさらｇｊです。</sioc:content>
+		<dcterms:relation rdf:resource="&post;208"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -3313,6 +3366,7 @@ Dollers待合室ではメイドさんが読書をしながら１人でつぶや�
 秘密が少しだけ垣間見えたって感じですね・・・
 彼女達がどういう事情で、どうやってあの姿になったのか。
 またこの話が読んでみたいです。</sioc:content>
+		<dcterms:relation rdf:resource="&post;208"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -3409,6 +3463,7 @@ Dollers待合室ではメイドさんが読書をしながら１人でつぶや�
 まあ、着ぐるみの構造があるに越したことはないけど、やはり性描写以上に着ぐるみの描写は欲しいと思うよ。
 あと不老不死になっても精神障害起こして復帰できなくなると何のための不老不死っつうか、まあそういう流れを書きたかったんだろうけど、
 教訓っぽい一発ネタで終わらないようにしないと折角の設定が勿体無いんじゃないかな。</sioc:content>
+		<dcterms:relation rdf:resource="&post;219"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -3474,6 +3529,7 @@ Dollers待合室ではメイドさんが読書をしながら１人でつぶや�
 		<sioc:content xml:lang="ja">&gt;&gt;232様
 うれしいお言葉をありがとうございます。ですが、早くても年末頃になりそうです。
 ご期待にはすぐにお答えできませんが、がんばります。</sioc:content>
+		<dcterms:relation rdf:resource="&post;232"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -3830,6 +3886,7 @@ AV界の新しいキラ星、にじいろプラム　デビュー作！！
 でも、インカムで無条件に演技を強要させられたり、助けた仲間（登場の仕方も定番だけど非常にいいね）に遣られてしまうあたりは
 非常にツボだし楽しめた。
 GJ!!だよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;243"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4332,6 +4389,7 @@ GJ!!だよ。</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T07:45:27+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">何が言いたい？&gt;&gt;279</sioc:content>
+		<dcterms:relation rdf:resource="&post;279"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4727,6 +4785,7 @@ GJ!!だよ。</sioc:content>
 
 ともかくここまで来ると、着せられる話や脱がされる話も見てみたくなってしまいますね。
 あるいは、人形同士で弄くりあうような話とか・・・</sioc:content>
+		<dcterms:relation rdf:resource="&post;301"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5195,6 +5254,7 @@ GJ!!だよ。</sioc:content>
 液体が全身を覆って着ぐるみになるってシチュは個人的に好きなものですし、色んな応用ができると思うんですよね。
 
 そちらの話のノリを見てたら色々なシチュが想像できるんでたまらないですね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;324"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5224,6 +5284,8 @@ GJ!!だよ。</sioc:content>
 &gt;&gt;292-293
 &gt;&gt;296
 順番にしてみた</sioc:content>
+		<dcterms:relation rdf:resource="&post;324"/>
+		<dcterms:relation rdf:resource="&post;296"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5277,6 +5339,7 @@ GJ!!だよ。</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-26T12:00:41+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;332
 暗いと不平を言うよりも、すすんであかりをつけましょう。</sioc:content>
+		<dcterms:relation rdf:resource="&post;332"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5710,6 +5773,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 囚人服の人の続きとか、他の方の話の続きとかを今になっても期待してるのですが、
 もう無理なんでしょうか。
 （一念発起して自分で何か書いてみるのもいいかもしれないですが、出来上がるかどうか・・・）</sioc:content>
+		<dcterms:relation rdf:resource="&post;347"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5721,6 +5785,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-11-06T23:32:52+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;357
 見ているし、期待してるよ〜</sioc:content>
+		<dcterms:relation rdf:resource="&post;357"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5732,6 +5797,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-11-07T01:44:19+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;358
 俺も楽しみにしている</sioc:content>
+		<dcterms:relation rdf:resource="&post;358"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6138,6 +6204,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 「そうそう、久しぶりにユリさんの演歌を聞きたいっス」
 「え〜。私が演歌歌っても“ええんか”・・・なんてね」
 なんてね」の前が抜けていました。申し訳ないです。</sioc:content>
+		<dcterms:relation rdf:resource="&post;375"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6177,6 +6244,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-11-23T21:52:24+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;377
 ■執筆者以外の人はsage進行でお願いします。</sioc:content>
+		<dcterms:relation rdf:resource="&post;377"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6188,6 +6256,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-11-25T09:00:26+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;378
 誤爆だろ？多分。</sioc:content>
+		<dcterms:relation rdf:resource="&post;378"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6199,6 +6268,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-11-25T09:07:03+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;379
 スレ違い。雑談スレにでも行け。</sioc:content>
+		<dcterms:relation rdf:resource="&post;379"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6210,6 +6280,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-11-25T10:25:57+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;380
 なんでやねん！</sioc:content>
+		<dcterms:relation rdf:resource="&post;380"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6221,6 +6292,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-11-25T10:28:03+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;377
 スレ違い。雑談スレにでも行け。</sioc:content>
+		<dcterms:relation rdf:resource="&post;377"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6252,6 +6324,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-11-26T23:46:13+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;384
 もう古米。</sioc:content>
+		<dcterms:relation rdf:resource="&post;384"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6277,6 +6350,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 元々自分が小説を書いているのは少しでもこのスレッドの一層の繁栄の助けになればと言う思いがあったからですし、自分の三文小説がきっかけになって新たな小説家の誕生を促すことができればいいな、というささやかな願いもあります。
 今ネタが浮かばないと言うのもあるのですが・・・・・・。
 特に&gt;&gt;347様は良い小説を書く力があると思うのです。</sioc:content>
+		<dcterms:relation rdf:resource="&post;347"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6292,6 +6366,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 元々自分が小説を書いているのは少しでもこのスレッドの一層の繁栄の助けになればと言う思いがあったからですし、自分の三文小説がきっかけになって新たな小説家の誕生を促すことができればいいな、というささやかな願いもあります。
 今ネタが浮かばないと言うのもあるのですが・・・・・・。
 特に&gt;&gt;357様は良い小説を書く力があると思うのです。</sioc:content>
+		<dcterms:relation rdf:resource="&post;357"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6328,6 +6403,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 （今まで出ている設定で色々想像はできるんですけれどね・・・）
 
 何か書くにしても、やっぱり夢幻さんの話とはまた別の世界観・設定で書きたいかなと思ってます。</sioc:content>
+		<dcterms:relation rdf:resource="&post;387"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6351,6 +6427,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 匿名掲示板なんて所詮はチラシの裏。
 何をシコシコ書いても自慰行為でしかないし、
 読む手にとってはただのエロ小説に過ぎない。</sioc:content>
+		<dcterms:relation rdf:resource="&post;391"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6366,6 +6443,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 なかなか楽しめた。
 ただ、恋も結婚もしたことのないアスナがその客のことを知ったところで
 やはりエロいことしか出来ないだろうと思うと、結局アスナの気持ちの問題だけのような気もするね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;376"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6670,6 +6748,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-09T02:38:10+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;404
 余計な事書かなきゃいいのに..</sioc:content>
+		<dcterms:relation rdf:resource="&post;404"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6741,6 +6820,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		<sioc:content xml:lang="ja">&gt;&gt;404
 &gt;そういった方々への批判等は遠慮して頂きたいのです。
 なんでパクられた人を批判しなきゃならないんだ？</sioc:content>
+		<dcterms:relation rdf:resource="&post;404"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6795,6 +6875,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-10T04:07:38+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;412
 「元ネタはあるけど、これを書いたのは俺様だ！」って自己主張だろ。ｗ</sioc:content>
+		<dcterms:relation rdf:resource="&post;412"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -7783,6 +7864,7 @@ FRPなんか普及してない時代、環境には恵まれていなかった�
 
 正直、妄想読み物として結構楽しんでる漏れもいるし
 書いてくれる人がいる以上、あまりそういう事は言わないで欲しいな。</sioc:content>
+		<dcterms:relation rdf:resource="&post;464"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8097,6 +8179,7 @@ FRPなんか普及してない時代、環境には恵まれていなかった�
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-01T02:45:23+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;491
 穿った見方し杉。</sioc:content>
+		<dcterms:relation rdf:resource="&post;491"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8130,6 +8213,7 @@ FRPなんか普及してない時代、環境には恵まれていなかった�
 これが童貞というやつだ。
 
 そう思わないか？</sioc:content>
+		<dcterms:relation rdf:resource="&post;491"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8639,6 +8723,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 		<sioc:content xml:lang="ja">&gt;&gt;529
 もういいよ。
 ツマラン。</sioc:content>
+		<dcterms:relation rdf:resource="&post;529"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8661,6 +8746,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 		<sioc:content xml:lang="ja">&gt;人間としてとんだ常識知らずな野郎
 &gt;&gt;523
 ああ、ファンがいるから等とファンのせいにする奴とか最低な。</sioc:content>
+		<dcterms:relation rdf:resource="&post;523"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8720,6 +8806,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 そうそう、叩かれながらも自力で岸までたどり着いたよ。
 よく知ってるね？
 もしかして見てた？</sioc:content>
+		<dcterms:relation rdf:resource="&post;536"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8858,6 +8945,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-17T13:40:19+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;548
 着ぐるみに関係ないことを書かないでください。</sioc:content>
+		<dcterms:relation rdf:resource="&post;548"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8880,6 +8968,8 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 		<sioc:content xml:lang="ja">&gt;&gt;549
 結がいるだろ。それに川柳だし&gt;&gt;547だけでは俳句だからな。
 つうか細かいこと気にしてると禿まつよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;549"/>
+		<dcterms:relation rdf:resource="&post;547"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8893,6 +8983,9 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 &gt;&gt;548のどこが川柳なんだよ？
 五・七・五じゃねーじゃんｗｗｗ
 それに&gt;&gt;547は季語がないから川柳じゃん。</sioc:content>
+		<dcterms:relation rdf:resource="&post;554"/>
+		<dcterms:relation rdf:resource="&post;548"/>
+		<dcterms:relation rdf:resource="&post;547"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8904,6 +8997,8 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-17T15:36:17+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">レスアンカー間違えている上にageてしもうた。＿|‾|○ 
 &gt;&gt;554じゃなくて&gt;&gt;551。</sioc:content>
+		<dcterms:relation rdf:resource="&post;554"/>
+		<dcterms:relation rdf:resource="&post;551"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8938,6 +9033,8 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 五・七・五・七・七は川柳じゃなくて短歌だぉ。
 起承転結だろうが何だろうが川柳じゃなくて短歌だぉ。
 そこんとこヨロシク！</sioc:content>
+		<dcterms:relation rdf:resource="&post;551"/>
+		<dcterms:relation rdf:resource="&post;554"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9569,6 +9666,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T22:34:46+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">そして&gt;&gt;596のような奴が湧いてくるわけですね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;596"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9594,6 +9692,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 		<sioc:content xml:lang="ja">&gt;&gt;599
 わざわざ反応するようなことじゃない。スレ汚す位ならば黙っとけ。
 執筆者じゃないなら出てくるな。うざい。</sioc:content>
+		<dcterms:relation rdf:resource="&post;599"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9615,6 +9714,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-23T12:27:45+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;600
 そうでもないですね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;600"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9661,6 +9761,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 っていうか、マジレスしないでそのくらい察しろよ。
 相手の文脈が理解できないのか？
 これがゆとり教育の行く末か。＿|‾|○</sioc:content>
+		<dcterms:relation rdf:resource="&post;604"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9710,6 +9811,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 なんか人に頼ってばかりだな。
 よほど甘やかされて育てられたんだろうけど、
 駄々をこねるしかできないのはどうなんだろうね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;606"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9722,6 +9824,8 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 		<sioc:content xml:lang="ja">&gt;&gt;604に&gt;&gt;606のような返しをするのが「まともな会話」なのか。
 
 いらね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;604"/>
+		<dcterms:relation rdf:resource="&post;606"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -10769,6 +10873,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 スーツの中で呼吸まで制御されてしまうというのがなんとも…
 
 人間が特殊着ぐるみでロボットに化けるような話を自分でも考えたことはありますが、また違うものがあって面白かったです。</sioc:content>
+		<dcterms:relation rdf:resource="&post;649"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11448,6 +11553,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-19T04:26:28+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;706
 嫌ならスルーしろ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;706"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11459,6 +11565,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-19T13:29:34+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;706
 死後裁きにあう</sioc:content>
+		<dcterms:relation rdf:resource="&post;706"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11472,6 +11579,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 
 &gt;&gt;706
 嫌なら読むな、白痴</sioc:content>
+		<dcterms:relation rdf:resource="&post;706"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11483,6 +11591,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-19T17:24:27+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;706
 何が言いたい？</sioc:content>
+		<dcterms:relation rdf:resource="&post;706"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12003,6 +12112,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 一応、トリップは付けてほしいのですがとっても萌えましたｗ
 
 次回はトリップをつけた上で投稿きたいしてますよー</sioc:content>
+		<dcterms:relation rdf:resource="&post;734"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12038,6 +12148,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂ければ幸いです。
 
 それとこの話、無駄に長くなると思いますので、そこらへんよろしくお願いします。</sioc:content>
+		<dcterms:relation rdf:resource="&post;733"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12060,6 +12171,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 		<sioc:content xml:lang="ja">&gt;&gt;738
 それじゃ偽物が現れる罠。
 トリップはコピペじゃなくて「人形遊び#○○○○」だな。</sioc:content>
+		<dcterms:relation rdf:resource="&post;738"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13805,6 +13917,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 機会があったらまた書かさせて下さい。
 その際はよろしくお願いします</sioc:content>
+		<dcterms:relation rdf:resource="&post;805"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13825,6 +13938,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-26T03:48:01+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">執筆者以外は下げれ！&gt;&gt;1嫁！</sioc:content>
+		<dcterms:relation rdf:resource="&post;1"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13847,6 +13961,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 		<sioc:content xml:lang="ja">&gt;&gt;807
 こちらこそ失礼しました。
 次回作を期待しております！</sioc:content>
+		<dcterms:relation rdf:resource="&post;807"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15219,6 +15334,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-06-09T20:47:06+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;863&gt;&gt;865-866
 ■執筆者以外の人はsage進行でお願いします。</sioc:content>
+		<dcterms:relation rdf:resource="&post;863"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15244,6 +15360,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 &gt;&gt;726
 
 余談ですが最近になって「バトミントン」じゃなくて「バドミントン」だということを知りました。</sioc:content>
+		<dcterms:relation rdf:resource="&post;726"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16518,6 +16635,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 		<sioc:content xml:lang="ja">&gt;&gt;909
 乙です！今回もドキドキしてしまいました。
 今後も期待しております！</sioc:content>
+		<dcterms:relation rdf:resource="&post;909"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16709,6 +16827,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-11T23:56:03+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;925
 期待します！</sioc:content>
+		<dcterms:relation rdf:resource="&post;925"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17320,6 +17439,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 「へ？……はい！」
 「アリスちゃん役、頑張ってね！」
 　教頭先生は私の背中をポンと叩き優しく微笑んだ……</sioc:content>
+		<dcterms:relation rdf:resource="&post;964"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17354,6 +17474,8 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 「眞田さん、眞田さん！これが今日着てもらう着ぐるみです！」
 「え？……」
 　私が振り向くとテーブルの上にはアリスちゃんの着ぐるみセットが並べてあった。</sioc:content>
+		<dcterms:relation rdf:resource="&post;946"/>
+		<dcterms:relation rdf:resource="&post;947"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17463,6 +17585,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 　女の子の日じゃないのに「ナプキン貸して」なんて言えないし……
 　しょうがない……ティッシュで我慢しよ……</sioc:content>
+		<dcterms:relation rdf:resource="&post;950"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>

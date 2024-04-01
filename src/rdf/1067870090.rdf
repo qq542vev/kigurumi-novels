@@ -7,7 +7,7 @@
 ]>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-03-31T22:10:27+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-04-01T20:41:37+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="&board;"/>
 	</foaf:Document>
 	<types:MessageBoard rdf:about="&board;">
@@ -63,6 +63,7 @@
 30 名前： 名無しさん@着ぐるみすと 投稿日： 2003/11/04(火) 01:27
 &gt;&gt;29
 そんな妄想を小説スレに書いてください。</sioc:content>
+		<dcterms:relation rdf:resource="&post;29"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -195,6 +196,7 @@
 偽者が書いても識別できるようにトリップついてるじゃんw
 それに次かくとしたら「小説屋３」にしなきゃ駄目じゃん！
 しかも完結してるし・・・。</sioc:content>
+		<dcterms:relation rdf:resource="&post;9"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -421,6 +423,7 @@ SF小説の範囲になった・・・・。
 そういう妄想を抱くと、ドラゴンボールショーで本当にカメハメ波を出すとか・・・・
 もうやりたい放題になるよ。
 だんだん現実離れしてきてまさに漫画、アニメの世界になるな。</sioc:content>
+		<dcterms:relation rdf:resource="&post;21"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -453,6 +456,7 @@ SF小説の範囲になった・・・・。
 		<sioc:content xml:lang="ja">&gt;&gt;24
 ttp://insidedoll.bne.jp/ 
 か？</sioc:content>
+		<dcterms:relation rdf:resource="&post;24"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -464,6 +468,7 @@ ttp://insidedoll.bne.jp/
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-11T20:19+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;25
 激しくガイシュツ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;25"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -508,6 +513,7 @@ ttp://insidedoll.bne.jp/
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-11-17T22:15+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;29
 具体的には何がどうなればいいのかと・・・小一時間。</sioc:content>
+		<dcterms:relation rdf:resource="&post;29"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -616,6 +622,7 @@ ttp://insidedoll.bne.jp/
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2003-12-01T00:01+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;35
 続きまだぁ？</sioc:content>
+		<dcterms:relation rdf:resource="&post;35"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1172,6 +1179,7 @@ ttp://insidedoll.bne.jp/
 		<sioc:content xml:lang="ja">&gt;&gt;59
 需要は考えなくていいから、とりあえず投稿してみては？
 誰も反応がなかったら需要がないってことで路線を変えるとか。</sioc:content>
+		<dcterms:relation rdf:resource="&post;59"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1197,6 +1205,7 @@ ttp://insidedoll.bne.jp/
 		<sioc:content xml:lang="ja">&gt;&gt;67
 とりあえず最後まで読まないと感想は書けないよ。
 だから続けて欲しいと思う。</sioc:content>
+		<dcterms:relation rdf:resource="&post;67"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1399,6 +1408,7 @@ ttp://insidedoll.bne.jp/
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-03T20:05+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;78
 何が？</sioc:content>
+		<dcterms:relation rdf:resource="&post;78"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2170,6 +2180,7 @@ ttp://insidedoll.bne.jp/
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-18T17:25+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;127
 まだですか？</sioc:content>
+		<dcterms:relation rdf:resource="&post;127"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2185,6 +2196,7 @@ ttp://insidedoll.bne.jp/
 
 
 多分（笑</sioc:content>
+		<dcterms:relation rdf:resource="&post;130"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2478,6 +2490,7 @@ ttp://insidedoll.bne.jp/
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-20T12:56+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;142
 本格的な小説じゃないから大目にみれ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;142"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -3425,6 +3438,9 @@ ttp://insidedoll.bne.jp/
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-25T18:18+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;189&gt;&gt;190&gt;&gt;191
 ではこちらはさっさと終わらせますね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;189"/>
+		<dcterms:relation rdf:resource="&post;190"/>
+		<dcterms:relation rdf:resource="&post;191"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -3818,6 +3834,7 @@ ttp://insidedoll.bne.jp/
 一度に最後まで書いてうｐしてね。
 他の小説もあるから話がこんがらがってわけわかめだよ。
 何個か連載して内容が似通っているからだな。</sioc:content>
+		<dcterms:relation rdf:resource="&post;211"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4002,6 +4019,7 @@ ttp://insidedoll.bne.jp/
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-27T18:28+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;212 【すみません】
 ごめんなさい、次は俺に書かせてください。</sioc:content>
+		<dcterms:relation rdf:resource="&post;212"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4015,6 +4033,7 @@ ttp://insidedoll.bne.jp/
 人形屋氏の話が終了したら書いてみれば？
 今の内にメモ帳にでも書いて、あとからコピぺすればいい。
 省略されないように、１回の投稿で20行を守れば皆が詠みやすいです。</sioc:content>
+		<dcterms:relation rdf:resource="&post;221"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4245,6 +4264,7 @@ ttp://insidedoll.bne.jp/
 クリスマスの設定だから夜もやるってことなんじゃないの？
 いかにも子供無視のイベントだけどなw
 それにしても、この時期にクリスマスネタをやるってのは...(ry</sioc:content>
+		<dcterms:relation rdf:resource="&post;231"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4453,6 +4473,7 @@ ttp://insidedoll.bne.jp/
 		<sioc:content xml:lang="ja">&gt;&gt;238
 ＞アキ「ルミ、ってこだから、ごめん」
 ？？？？？？？？？？？？？？？？？</sioc:content>
+		<dcterms:relation rdf:resource="&post;238"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4502,6 +4523,7 @@ ttp://insidedoll.bne.jp/
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-29T12:21+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;243
 最後まで書かないと感想は書けないよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;243"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4516,6 +4538,7 @@ ttp://insidedoll.bne.jp/
 もしかして既製のキャラクターなの？
 何で着ぐるみと同じ名前の人がいるの？
 内容が全然理解できない。</sioc:content>
+		<dcterms:relation rdf:resource="&post;243"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4529,6 +4552,7 @@ ttp://insidedoll.bne.jp/
 着ぐるみが好きだからといってもアニメが好きとは限らないからな。
 登場人物の説明がないと意味不明なのも理解できる。
 新参小説家タソの続きを待ったほうがいいと思われ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;245"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4561,6 +4585,7 @@ ttp://insidedoll.bne.jp/
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-29T14:31+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;247
 誰？</sioc:content>
+		<dcterms:relation rdf:resource="&post;247"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5047,6 +5072,7 @@ ttp://insidedoll.bne.jp/
 長引くと設定が破綻し易いし、
 短くまとめる方が難しいんですよ。
 で、次は何篇？（笑）</sioc:content>
+		<dcterms:relation rdf:resource="&post;268"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5058,6 +5084,7 @@ ttp://insidedoll.bne.jp/
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-29T19:04+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;245 【すみませんでした。】
 登場人物の設定を一通り書いたら、また改めて書きます。</sioc:content>
+		<dcterms:relation rdf:resource="&post;245"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5127,6 +5154,7 @@ ttp://insidedoll.bne.jp/
 		<sioc:content xml:lang="ja">&gt;&gt;273
 登場人物の名前の読み方がよく分かりません。
 ふりがなをつけてください。</sioc:content>
+		<dcterms:relation rdf:resource="&post;273"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5164,6 +5192,7 @@ ttp://insidedoll.bne.jp/
 というか、アニメの登場人物を使っちゃ駄目だろ？
 オリジナルの小説にしないと著作権うんぬんだし。
 漏れも同じくよく分からん。</sioc:content>
+		<dcterms:relation rdf:resource="&post;275"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5289,6 +5318,7 @@ www.ska.cx
 
 本日はカキコ辞めます。
 偽エフシイさん後をお願い致しますぅ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;284"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5606,6 +5636,7 @@ www.ska.cx
 エフシイさん教えてください。
 ＰＣでトリップ付けるのはどうしたら出来ますか？
 ぼくもハンドルネームにしようと思ってます。</sioc:content>
+		<dcterms:relation rdf:resource="&post;288"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5617,6 +5648,7 @@ www.ska.cx
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-01-30T17:29+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;299
 そういうことは雑談スレで質問してね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;299"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5634,6 +5666,7 @@ www.ska.cx
 やっぱりだめですか？
 
 だめでしたら、今までの事は本当にすみませんでした。ごめんなさい。</sioc:content>
+		<dcterms:relation rdf:resource="&post;283"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5654,6 +5687,7 @@ www.ska.cx
 そのほうが間違いない！
 
 以上、長井秀和でした。（←本当はこういうのも駄目だよw）</sioc:content>
+		<dcterms:relation rdf:resource="&post;301"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5715,6 +5749,7 @@ www.ska.cx
 あと、一度に書く文章は20行にした方がいいよ。省略されるから。
 （本当は21行まで書けるらしいけど、一行は予備ということで。
 一行の文字数が長すぎて２行にまたがったりすることがあるから。）</sioc:content>
+		<dcterms:relation rdf:resource="&post;303"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6387,6 +6422,7 @@ www.ska.cx
 		<sioc:content xml:lang="ja">&gt;&gt;338
 誰も「やめろ！」とは書いてない罠。
 どちらかというと「今後の参考にしてください」的なものだ罠。</sioc:content>
+		<dcterms:relation rdf:resource="&post;338"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6600,6 +6636,7 @@ www.ska.cx
 		<sioc:content xml:lang="ja">&gt;&gt;348
 トリップつけりゃいいじゃん。
 &gt;1にも書いてあるし。</sioc:content>
+		<dcterms:relation rdf:resource="&post;348"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6997,6 +7034,7 @@ www.ska.cx
 		<sioc:content xml:lang="ja">&gt;&gt;367
 過去にも何回か指摘されているのだけど当人は変える気はないらしいよ。
 というか漢字を知らないらしいよ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;367"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -7028,6 +7066,7 @@ www.ska.cx
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-05T19:00+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;370
 一番最初のやつ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;370"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -7356,6 +7395,7 @@ www.ska.cx
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-07T21:48+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;382
 言っちゃだめですよぉ！</sioc:content>
+		<dcterms:relation rdf:resource="&post;382"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -7832,6 +7872,7 @@ www.ska.cx
 		<sioc:content xml:lang="ja">&gt;&gt;396
 着てから閉じ込められるシチュエーションのものを書いてみたけど、
 お話としての納得できるようなオチが思い浮かばないよ！</sioc:content>
+		<dcterms:relation rdf:resource="&post;396"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8781,6 +8822,7 @@ www.ska.cx
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-16T16:45+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;446
 着ぐるみと関係ないと思いますが。</sioc:content>
+		<dcterms:relation rdf:resource="&post;446"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8924,6 +8966,7 @@ www.ska.cx
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-16T23:38+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;446、448
 天の羽衣じゃんか。</sioc:content>
+		<dcterms:relation rdf:resource="&post;446"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9658,6 +9701,7 @@ www.ska.cx
 		<sioc:content xml:lang="ja">&gt;&gt;487
 着るみの造型が想像できないので、お絵かきBBSに絵を描いて。
 知らないものを文章にされても分かりにくい。</sioc:content>
+		<dcterms:relation rdf:resource="&post;487"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9927,6 +9971,7 @@ www.ska.cx
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-23T12:53+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;497
 吉田照美のやるまんか？</sioc:content>
+		<dcterms:relation rdf:resource="&post;497"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -10629,6 +10674,8 @@ www.ska.cx
 &gt;&gt;537
 ×すのスタッフは
 ○そのスタッフは</sioc:content>
+		<dcterms:relation rdf:resource="&post;531"/>
+		<dcterms:relation rdf:resource="&post;537"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -10753,6 +10800,7 @@ www.ska.cx
 　　こっちにちかずいｋてくる物体をとらえる。
 
 ２時の方向ってどこ？</sioc:content>
+		<dcterms:relation rdf:resource="&post;542"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -10802,6 +10850,7 @@ www.ska.cx
 		<sioc:content xml:lang="ja">&gt;&gt;548
 右ってどこを基準に右なの？
 まったくもって意味不明。</sioc:content>
+		<dcterms:relation rdf:resource="&post;548"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -10813,6 +10862,7 @@ www.ska.cx
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-02-29T13:39+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;548
 １周を360度と考えると２時は60度だろ？</sioc:content>
+		<dcterms:relation rdf:resource="&post;548"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -10890,6 +10940,7 @@ www.ska.cx
 あと&gt;&gt;524で神崎が付けているブツの造形の詳細が欲しい。そういうところでフェチ心をくすぐって欲しい。
 
 &gt;&gt;524から着ぐるみ同士のレズに行くかと思ったが残念だ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;524"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -10902,6 +10953,7 @@ www.ska.cx
 		<sioc:content xml:lang="ja">&gt;&gt;557
 その場しのぎの思い付きで書いているからだよ。
 だから誤字脱字も多いし、掲載する順番を間違えるし・・・(ry</sioc:content>
+		<dcterms:relation rdf:resource="&post;557"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11155,6 +11207,8 @@ www.ska.cx
 
 ×リナがなにも食べてないこに違和感なかった。
 ○リナが何も食べてないことに違和感がなかった？</sioc:content>
+		<dcterms:relation rdf:resource="&post;566"/>
+		<dcterms:relation rdf:resource="&post;567"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11166,6 +11220,7 @@ www.ska.cx
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-02T14:23+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;568
 もし次回作があるのなら漢字の勉強などをしてから何回も読み返してうpしてね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;568"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11360,6 +11415,7 @@ www.ska.cx
 		<sioc:content xml:lang="ja">&gt;&gt;576
 ×それでもまだ呼んで
 ○それでもまだ読んで</sioc:content>
+		<dcterms:relation rdf:resource="&post;576"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11404,6 +11460,7 @@ www.ska.cx
 他人に見せるものなら誤字脱字はあってはならない。
 いくら素人が書いているとはいえ、いい加減にして欲しい。
 学習能力がないのかと小一時間・・・(ry</sioc:content>
+		<dcterms:relation rdf:resource="&post;580"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11710,6 +11767,7 @@ www.ska.cx
 モロそんな感じと言うか翻訳機でそのまま読んで・・・・（略
 
 tp://www.bearchive.com/~addventure/game1/trees/story/story_skins.html</sioc:content>
+		<dcterms:relation rdf:resource="&post;598"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11942,6 +12000,7 @@ tp://www.bearchive.com/~addventure/game1/trees/story/story_skins.html</sioc:cont
 		<sioc:content xml:lang="ja">&gt;&gt;613
 「タイトル」が全てでしょう。
 一人のSS書きが独占する必要もないし、何かあるならうｐキボンヌ</sioc:content>
+		<dcterms:relation rdf:resource="&post;613"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11958,6 +12017,7 @@ tp://www.bearchive.com/~addventure/game1/trees/story/story_skins.html</sioc:cont
 面白い保障はありません。
 もちょっとしてからウプします。
 それまで恋愛さん頼みます（笑</sioc:content>
+		<dcterms:relation rdf:resource="&post;614"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11969,6 +12029,7 @@ tp://www.bearchive.com/~addventure/game1/trees/story/story_skins.html</sioc:cont
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-08T22:54+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;615
 現実ばなれのSF小説じゃないのをきぼんぬ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;615"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11985,6 +12046,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 コスプレに付き合わされてユニイクな着ぐるみに閉じ込められる。
 
 あくまで私的ツボで書き書き中です。</sioc:content>
+		<dcterms:relation rdf:resource="&post;616"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12404,6 +12466,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 
 ×彼もまた異世界からきた人間だとゆう
 ○彼もまた異世界からきた人間だという</sioc:content>
+		<dcterms:relation rdf:resource="&post;632"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12437,6 +12500,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-10T16:15+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;636
 人形屋氏の作品が終わってからキボンヌ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;636"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12696,6 +12760,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 私も書いてますが、ＳＳでは納まらないみたいです。
 だめですね、自分で萌え萌えになってどんどん詳しく書いちゃうＷ
 で、改めて読み直すとブリザードの吹雪だったりするのね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;639"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12884,6 +12949,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 
 リードで誘導されるまま通路を歩いていくと雑踏が聞こえてくる、
 アニメの歌と人の声。</sioc:content>
+		<dcterms:relation rdf:resource="&post;656"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -12909,6 +12975,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 はい、終わります。
 
 反響がなければお休みします。</sioc:content>
+		<dcterms:relation rdf:resource="&post;658"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13156,6 +13223,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 「頼むね」優しくささやいた。
 ゆっくり私の背中に乗ってきた。
 重いぞ！カズ！</sioc:content>
+		<dcterms:relation rdf:resource="&post;657"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13184,6 +13252,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 首を引っ張られながら前に進み始める。
 腰を曲げたままで両腕は松葉杖、肩に体重を預けながら歩くと
 少しは慣れたのか手足を動かす順番が解かってきた。</sioc:content>
+		<dcterms:relation rdf:resource="&post;669"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13213,6 +13282,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 幾つもの手が背中を撫でたり叩いている。
 詰め物に覆われた胸にまで触ってくる。
 「うそー！この人,縫い込まれてるんじゃない？」</sioc:content>
+		<dcterms:relation rdf:resource="&post;670"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13243,6 +13313,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 手足が外に開かないこの着ぐるみのせいだ。歩くと腰に快感が追いついてくる。
 私はカズを引っ張っては歩き始めた、あー！嫌だ、濡れてきたぞー！　
 立ち止まると触られる。</sioc:content>
+		<dcterms:relation rdf:resource="&post;671"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13273,6 +13344,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 「シュグチガクデョー（すぐ近くでしょ？）」
 ヤッパリだめだ、と思ったら通じてた。
 「反対側だからね、ここが折り返し地点だよ。」</sioc:content>
+		<dcterms:relation rdf:resource="&post;672"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13304,6 +13376,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 そして再びお約束のように人に囲まれて、
 カズが背中に乗った。
 やっぱり重いぞカズ！</sioc:content>
+		<dcterms:relation rdf:resource="&post;673"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13333,6 +13406,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 その子の笑顔が戻ったようだ。
 そのまま笑顔でわき腹をさすり、私の顎をさすって来た。
 って猫かよ！</sioc:content>
+		<dcterms:relation rdf:resource="&post;674"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13360,6 +13434,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 カズが驚いて照れくさそうに手を振ってポーズを決めたが
 私がいないのに気が付いて私の首のリードを追いかけた。
 今度は笑いが起こった。</sioc:content>
+		<dcterms:relation rdf:resource="&post;675"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13388,6 +13463,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 私は腰を振り振り感じるのを我慢しながら歩くしかなかった。
 私たちの後ろに一瞥をすると笑顔でドアを開けてくれた。
 カズが笑顔で礼を言ったので私も猫の顔の中で笑顔を作って頭を縦に振った。</sioc:content>
+		<dcterms:relation rdf:resource="&post;676"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13417,6 +13493,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 「いやだよ！このままなんて！何とかしてよ！」
 と叫んだつもりだった。
 中腰の私の両手の先に付いてる猫足を掴んでカズが笑った。</sioc:content>
+		<dcterms:relation rdf:resource="&post;677"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13458,6 +13535,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 自由になった手でフードを下ろす。上半身は、ほぼ私に戻った。
 まだ息が荒い。思い出した、
 私の股間は濡れ濡れのままだ、やばいぞ！カズにばれませんように。</sioc:content>
+		<dcterms:relation rdf:resource="&post;678"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13484,6 +13562,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 素早く後ろに回って尻尾を取り外すと心配そうに色々触って見ている。
 あ、衣装が心配だったんだ。
 まあ彼女らしいか。</sioc:content>
+		<dcterms:relation rdf:resource="&post;680"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13512,6 +13591,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 私、純粋なコスプレーヤーだからね。ごめんね。」
 発想が純粋じゃないんだよ！
 女の子が入ってるからいじめないでなんて言えよ！</sioc:content>
+		<dcterms:relation rdf:resource="&post;681"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13545,6 +13625,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 三十分後には私は再び猫だ。長い一日になるんだろうな。
 
 　　前編を終了します。続きます。</sioc:content>
+		<dcterms:relation rdf:resource="&post;682"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13564,6 +13645,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 皆さんの指導的校正をお待ちします。
 こちらで機会が無くても
 続きを書き書き中です。</sioc:content>
+		<dcterms:relation rdf:resource="&post;679"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13610,6 +13692,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 まだ書き書き中です。
 どなたか他の作家さま。
 投稿お願いしますＷ</sioc:content>
+		<dcterms:relation rdf:resource="&post;686"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13895,6 +13978,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T10:06+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">
 (´-`).。ｏＯ（&gt;&gt;695は意味分かって書いてるのか？）</sioc:content>
+		<dcterms:relation rdf:resource="&post;695"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13906,6 +13990,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-13T12:15+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;702
 (´-`).。ｏＯ（分かってたらあんな発言はしないと思われ）</sioc:content>
+		<dcterms:relation rdf:resource="&post;702"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13975,6 +14060,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 「これなら楽！」大声で叫んだ。
 「頭動かして。」
 あ、聞こえてるんだ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;705"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14005,6 +14091,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 顔に両手のひらを当てもぞもぞしてるとマスクのファスナーを開けてくれた。
 顔の布が手前にずり落ちた。
 「一応理詰めに作ってあるのよね。」少しすまなそうに彼女が言った。</sioc:content>
+		<dcterms:relation rdf:resource="&post;706"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14032,6 +14119,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 マジックテープの付いたタテガミが貼り付けられて、
 脇の金具を引っ掛け　背中を丁寧に手のひらで押さえた。
 首輪を巻き付けて尻尾を取り付ける、</sioc:content>
+		<dcterms:relation rdf:resource="&post;707"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14108,6 +14196,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-14T08:36+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;710
 じゃあ、誤字とか、句点とか添削してやってくれｗ</sioc:content>
+		<dcterms:relation rdf:resource="&post;710"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14160,6 +14249,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 「気にしなくていいから。」と答える。
 　そのまま車の後ろの跳ね上げドアの前まで来ると
 荷室のふちに私の手を下ろし中の荷物を手際良く寄せて場所を作った。</sioc:content>
+		<dcterms:relation rdf:resource="&post;714"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14186,6 +14276,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 「じゃあ出発します」
 明るい彼の声が運転席から伝わってきた。
 その後カズの心配そうな声</sioc:content>
+		<dcterms:relation rdf:resource="&post;715"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14222,6 +14313,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 それにしても熱い。
 股間の刺激は納まってるけど体中私の汗を吸ったタイツが張り付いたままだ。
 そのうち車の揺れが止まり後ろのドアが開いた。</sioc:content>
+		<dcterms:relation rdf:resource="&post;716"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14236,6 +14328,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 私もなるべく目を通しておりますが、
 行き届かないところが有りましたら先週の様に
 校正、添削のご指摘を願います。</sioc:content>
+		<dcterms:relation rdf:resource="&post;713"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14247,6 +14340,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-14T14:29+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;718
 何で名前を変えるんだ？</sioc:content>
+		<dcterms:relation rdf:resource="&post;718"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14260,6 +14354,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 衣装屋≠エフシイで、エフシイ氏が衣装屋氏の原稿を代投稿している
 
 という設定と思われ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;719"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14376,6 +14471,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 名前の所に猫のイラストと番号が書いてある。
 カズの胸にも同じ名札が付いる。
 ビニール製の名刺を入れるあれだ、猫じゃないときに見た事ある。</sioc:content>
+		<dcterms:relation rdf:resource="&post;726"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14409,6 +14505,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 「うそー、始まってるのかな？」
 カズは私を置いて駆け出しそうだ。
 先に言っていいですか？なんて目で私を見る。</sioc:content>
+		<dcterms:relation rdf:resource="&post;727"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14446,6 +14543,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 ドアが閉まった。
 あのドアは私一人では開かないかも知れない。
 リードを持った彼が私を見下ろして微笑んでいた。</sioc:content>
+		<dcterms:relation rdf:resource="&post;728"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14469,6 +14567,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:content xml:lang="ja">&gt;&gt;730
 気を付けます。
 そろそろどなたかお願いします。</sioc:content>
+		<dcterms:relation rdf:resource="&post;730"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14493,6 +14592,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 そうしないと次の人書けないよＷ
 
 あ、続きも早く読みたいしＷ</sioc:content>
+		<dcterms:relation rdf:resource="&post;731"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14520,6 +14620,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 絡んでくる人の為じゃ無く&gt;&gt;695の方が言われるように
 特殊な嗜好のお話ですからそうでない普通のお話も
 同時進行で良いのではないかと思ってます。</sioc:content>
+		<dcterms:relation rdf:resource="&post;695"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14554,6 +14655,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:content xml:lang="ja">&gt;&gt;737
 何がわかってないか
 教えてください。</sioc:content>
+		<dcterms:relation rdf:resource="&post;737"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14576,6 +14678,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-15T19:11+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;739
 無理を言うものじゃありません！</sioc:content>
+		<dcterms:relation rdf:resource="&post;739"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14626,6 +14729,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 
 ひっかってくれた作家さんが
 いらっしゃるようですね（笑</sioc:content>
+		<dcterms:relation rdf:resource="&post;737"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14647,6 +14751,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-15T20:57+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;745
 どっかの方言だろ？ｗ</sioc:content>
+		<dcterms:relation rdf:resource="&post;745"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14678,6 +14783,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:content xml:lang="ja">&gt;&gt;75
 ＞大意はご理解頂けると思います。
 わかんねーよw</sioc:content>
+		<dcterms:relation rdf:resource="&post;75"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14700,6 +14806,8 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-15T22:05+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;75→&gt;&gt;747の間違い。</sioc:content>
+		<dcterms:relation rdf:resource="&post;75"/>
+		<dcterms:relation rdf:resource="&post;747"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14711,6 +14819,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T09:09+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;749
 休載しないよ・・・多分</sioc:content>
+		<dcterms:relation rdf:resource="&post;749"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14756,6 +14865,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 
 後がつかえてるのを引っ張るつもりは無いですよＷ
 スレに隙間が出来たら投稿しますね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;753"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14767,6 +14877,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T12:04+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;754
 続き読みたかったなー</sioc:content>
+		<dcterms:relation rdf:resource="&post;754"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -14778,6 +14889,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-16T12:10+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;755
 そうやって煽るのは(・Ａ・)イクナイ!!</sioc:content>
+		<dcterms:relation rdf:resource="&post;755"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15133,6 +15245,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-17T11:35+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;778
 正解！</sioc:content>
+		<dcterms:relation rdf:resource="&post;778"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15164,6 +15277,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-17T16:30+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;781
 恋愛小説家</sioc:content>
+		<dcterms:relation rdf:resource="&post;781"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15175,6 +15289,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-17T17:32+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;753
  恋愛小説家さん　sageないとコナイ！</sioc:content>
+		<dcterms:relation rdf:resource="&post;753"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15206,6 +15321,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-17T18:52+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;753
 メル欄にsage入れないとコナイ！</sioc:content>
+		<dcterms:relation rdf:resource="&post;753"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15308,6 +15424,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-18T10:35+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;795
 しきるの(・Ａ・)イクナイ!!</sioc:content>
+		<dcterms:relation rdf:resource="&post;795"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15473,6 +15590,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 つるしあげイクナイ！
 
 恋愛先生へこんデル！</sioc:content>
+		<dcterms:relation rdf:resource="&post;805"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15484,6 +15602,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-18T14:16+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;806
 あんた誰？</sioc:content>
+		<dcterms:relation rdf:resource="&post;806"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15495,6 +15614,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-18T15:52+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;807
 でわ　・・・・あなたは誰？</sioc:content>
+		<dcterms:relation rdf:resource="&post;807"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15520,6 +15640,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:content xml:lang="ja">&gt;&gt;809
 もう好きにしてくれ。
 自分が投稿したければすればいいさ。</sioc:content>
+		<dcterms:relation rdf:resource="&post;809"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15584,6 +15705,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:content xml:lang="ja">&gt;&gt;814
 恋愛小説家さんですね。Ｗ
 ＳＡＧＥましょう！</sioc:content>
+		<dcterms:relation rdf:resource="&post;814"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16036,6 +16158,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-20T19:55+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;833
 折れもてぃんこたってキタ━━━━━━━━━(;´∀｀)━━━━━━━━━!!</sioc:content>
+		<dcterms:relation rdf:resource="&post;833"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16442,6 +16565,7 @@ SFの方が難スイですただでさえ文字数増えるのに。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-23T06:34+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;864
 ageるなよ</sioc:content>
+		<dcterms:relation rdf:resource="&post;864"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16456,6 +16580,8 @@ ageるなよ</sioc:content>
 卯月様、先に投稿お願いします。
 衣裳屋は別に置き場を作りました。
 おってどこかで告知できると思います。</sioc:content>
+		<dcterms:relation rdf:resource="&post;863"/>
+		<dcterms:relation rdf:resource="&post;864"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16519,6 +16645,7 @@ ageるなよ</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-23T23:03+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;870
 おまいまだ若いなｗ</sioc:content>
+		<dcterms:relation rdf:resource="&post;870"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16542,6 +16669,7 @@ ageるなよ</sioc:content>
 ＞衣裳屋は別に置き場を作りました。
 
 …その辺なんだよね。</sioc:content>
+		<dcterms:relation rdf:resource="&post;866"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -16992,6 +17120,7 @@ ageるなよ</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-26T00:48+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;893
 Ass hole Son of a bitch Ｗ　か？ｗ</sioc:content>
+		<dcterms:relation rdf:resource="&post;893"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17357,6 +17486,7 @@ Ass hole Son of a bitch Ｗ　か？ｗ</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-29T01:03+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;916
 終了です。</sioc:content>
+		<dcterms:relation rdf:resource="&post;916"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17384,6 +17514,7 @@ Ass hole Son of a bitch Ｗ　か？ｗ</sioc:content>
 最後まで書いてくださいよ〜。
 ってか白猫編だけでも完結させて。気になるから。
 ここじゃないところに書いて、リンクはるやり方でもいいんで。</sioc:content>
+		<dcterms:relation rdf:resource="&post;918"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17395,6 +17526,7 @@ Ass hole Son of a bitch Ｗ　か？ｗ</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-29T11:47+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;919
 自分のHPをたちあげたので、そこに掲載する予定です。</sioc:content>
+		<dcterms:relation rdf:resource="&post;919"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17587,6 +17719,7 @@ ROMで構いませんがこちらと違って匿名は無しです。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-29T14:25+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;921
 なんでURLをここに書かないんだい？</sioc:content>
+		<dcterms:relation rdf:resource="&post;921"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17598,6 +17731,7 @@ ROMで構いませんがこちらと違って匿名は無しです。
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-29T14:55+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;928
 宣伝する意味がないから。</sioc:content>
+		<dcterms:relation rdf:resource="&post;928"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17612,6 +17746,7 @@ ROMで構いませんがこちらと違って匿名は無しです。
 外出先から
 ｉモードで書き込んだから（笑
 仔細は後日に</sioc:content>
+		<dcterms:relation rdf:resource="&post;928"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17624,6 +17759,7 @@ ROMで構いませんがこちらと違って匿名は無しです。
 		<sioc:content xml:lang="ja">&gt;&gt;928
 ここから逝け。
 http://jet-car.hp.infoseek.co.jp/cgi-bin/clip/clip.cgi</sioc:content>
+		<dcterms:relation rdf:resource="&post;928"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17651,6 +17787,7 @@ ttp://groups.msn.com/fctoisyouya/_whatsnew.msnw</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-29T21:52+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;931様
 補則ありがとうございます。</sioc:content>
+		<dcterms:relation rdf:resource="&post;931"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17664,6 +17801,7 @@ ttp://groups.msn.com/fctoisyouya/_whatsnew.msnw</sioc:content>
 		<sioc:content xml:lang="ja">&gt;&gt;911,912,914,915様
 
 ご感想ありがとうございましたm(__)m</sioc:content>
+		<dcterms:relation rdf:resource="&post;911"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17712,6 +17850,7 @@ ttp://groups.msn.com/fctoisyouya/_whatsnew.msnw</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-31T13:38+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;936は偽物です。</sioc:content>
+		<dcterms:relation rdf:resource="&post;936"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17724,6 +17863,7 @@ ttp://groups.msn.com/fctoisyouya/_whatsnew.msnw</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-31T13:51+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;938
 も偽物です。</sioc:content>
+		<dcterms:relation rdf:resource="&post;938"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17736,6 +17876,7 @@ ttp://groups.msn.com/fctoisyouya/_whatsnew.msnw</sioc:content>
 		<sioc:content xml:lang="ja">&gt;&gt;937
 メール欄が「saw]なのは何故？
 ageるのが目的？</sioc:content>
+		<dcterms:relation rdf:resource="&post;937"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17759,6 +17900,7 @@ ageるのが目的？</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-31T15:49+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;941
 そうですが何か？</sioc:content>
+		<dcterms:relation rdf:resource="&post;941"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17806,6 +17948,7 @@ ageるのが目的？</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-03-31T22:22+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;945
 キティｗ</sioc:content>
+		<dcterms:relation rdf:resource="&post;945"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17870,6 +18013,7 @@ ageるのが目的？</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-01T12:31+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;949
 まあまあ、閉鎖的なオナニーサイトは放っておいて、ここで楽しみましょう。</sioc:content>
+		<dcterms:relation rdf:resource="&post;949"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17915,6 +18059,7 @@ ageるのが目的？</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-01T17:07+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;953
 トリップが付いてないですよW</sioc:content>
+		<dcterms:relation rdf:resource="&post;953"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17954,6 +18099,7 @@ ageるのが目的？</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-01T17:20+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;955
 だからトリップ付いてない罠ｗ</sioc:content>
+		<dcterms:relation rdf:resource="&post;955"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -18143,6 +18289,7 @@ ageると余計に来なくなることが理解できないらしい。</sioc:c
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-03T23:22+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;965
 もしかしてあなたは・・・略</sioc:content>
+		<dcterms:relation rdf:resource="&post;965"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -18201,6 +18348,7 @@ ageると余計に来なくなることが理解できないらしい。</sioc:c
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2004-04-06T23:20+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;966
 誰のことを言っていたのかっ！？</sioc:content>
+		<dcterms:relation rdf:resource="&post;966"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
