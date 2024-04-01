@@ -32,7 +32,7 @@
 
 					<xsl:value-of select="$site-name"/>
 				</title>
-				<link rel="stylesheet" type="text/css" href="{concat($base-url, 'style.css')}"/>
+				<link rel="stylesheet" type="text/css" href="{$base-url}css/style.css"/>
 
 				<xsl:call-template name="html-head"/>
 			</head>
