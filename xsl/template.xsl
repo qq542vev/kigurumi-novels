@@ -14,9 +14,7 @@
 		omit-xml-declaration="yes"
 	/>
 
-	<xsl:param name="site-name">着ぐるみ小説のまとめ</xsl:param>
-
-	<xsl:param name="base-url">/</xsl:param>
+	<xsl:import href="param.xsl"/>
 
 	<xsl:template name="html-template">
 		<xsl:param name="title"/>
