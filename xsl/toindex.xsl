@@ -22,7 +22,7 @@
 
 	<xsl:template name="html-main">
 		<section id="novels">
-			<h1>着ぐるみ小説の一覧</h1>
+			<h1>着ぐるみ小説スレの小説一覧</h1>
 
 			<table>
 				<colgroup>
