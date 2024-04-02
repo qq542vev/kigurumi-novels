@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet
 	version="1.0"
-	exclude-result-prefixes="dcterms foaf rdf rdfs schema sioc types"
+	exclude-result-prefixes="dcterms foaf rdf rdfs schema sioc sitemap types"
 	xmlns="http://www.w3.org/1999/xhtml"
  	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:foaf="http://xmlns.com/foaf/0.1/"
@@ -9,9 +9,11 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:schema="https://schema.org/"
 	xmlns:sioc="http://rdfs.org/sioc/ns#"
+	xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:types="http://rdfs.org/sioc/types#"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 >
+	<xsl:import href="param.xsl"/>
 	<xsl:import href="template.xsl"/>
 
 	<xsl:template match="/">
@@ -43,7 +45,9 @@
 					</tr>
 				</thead>
 				<tbody>
-					<xsl:apply-templates select="//url"/>
+					<xsl:apply-templates select="//sitemap:loc[contains(., '/index.rdf')]" mode="novel">
+						<xsl:sort order="descending" lang="en"/>
+					</xsl:apply-templates>
 				</tbody>
 			</table>
 		</section>
@@ -52,24 +56,23 @@
 			<h1>このサイトについて</h1>
 
 			<ul>
-				<li><a href="https://web.archive.org/web/20120214160639/http://jbbs.livedoor.jp/anime/846/storage/1067870090.html">【妄想】着ぐるみ小説スレ【連載？】</a></li>
-				<li><a href="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html">【妄想】着ぐるみ小説スレ第２章【連載？】</a></li>
-				<li><a href="https://web.archive.org/web/20090322230543/http://jbbs.livedoor.jp/anime/846/storage/1122950720.html">【妄想】着ぐるみ小説スレ第３章【連載？】</a></li>
-				<li><a href="https://web.archive.org/web/20090323011551/http://jbbs.livedoor.jp/anime/846/storage/1184654919.html">【妄想】着ぐるみ小説スレ第４章【連載？】</a></li>
-				<li><a href="https://web.archive.org/web/20090730010136/http://jbbs.livedoor.jp/anime/846/storage/1211041119.html">【妄想】着ぐるみ小説スレ第５章【連載？】</a></li>
-				<li><a href="https://web.archive.org/web/20150111082648/http://kigurumi.net63.net/kako/1247437212.html">【妄想】着ぐるみ小説スレ第６章【連載？】</a></li>
+				<xsl:apply-templates select="//sitemap:loc[contains(., '/src/rdf/')]" mode="board">
+						<xsl:sort order="descending" lang="en"/>
+				</xsl:apply-templates>
 			</ul>
 		</section>
 	</xsl:template>
 
-	<xsl:template match="url">
-		<xsl:apply-templates select="document(.)//sioc:Container[@rdf:about='#main']">
-			<xsl:with-param name="url" select="substring-before(., 'index.rdf')"/>
+	<xsl:template match="sitemap:loc" mode="novel">
+		<xsl:variable name="path" select="concat('/', substring-after(substring-after(., '://'), '/'))"/>
+
+		<xsl:apply-templates select="document(substring-after($path, $base-url), .)//sioc:Container[@rdf:about='#main']" mode="novel">
+			<xsl:with-param name="path" select="substring($path, 1, string-length($path) - string-length('index.rdf'))"/>
 		</xsl:apply-templates>
 	</xsl:template>
 
-	<xsl:template match="sioc:Container[@rdf:about='#main']">
-		<xsl:param name="url" select="."/>
+	<xsl:template match="sioc:Container[@rdf:about='#main']" mode="novel">
+		<xsl:param name="path" select="."/>
 
 		<tr>
 			<td>
@@ -81,7 +84,7 @@
 					</xsl:choose>
 				</xsl:attribute>
 
-				<a href="{$base-url}{$url}">
+				<a href="{$path}">
 					<xsl:choose>
 						<xsl:when test="dcterms:title">
 							<xsl:value-of select="dcterms:title"/>
@@ -94,21 +97,21 @@
 				</a>
 			</td>
 			<td>
-				<xsl:apply-templates select="schema:creativeWorkStatus"/>
+				<xsl:apply-templates select="schema:creativeWorkStatus" mode="novel"/>
 			</td>
 			<td>
-				<xsl:apply-templates select="dcterms:extent[@rdf:parseType='Resource']/rdf:value"/>
+				<xsl:apply-templates select="dcterms:extent[@rdf:parseType='Resource']/rdf:value" mode="novel"/>
 			</td>
 			<td>
-				<xsl:apply-templates select="sioc:num_items"/>
+				<xsl:apply-templates select="sioc:num_items" mode="novel"/>
 			</td>
 			<td>
-				<xsl:apply-templates select="dcterms:created"/>
+				<xsl:apply-templates select="dcterms:created" mode="novel"/>
 			</td>
 		</tr>
 	</xsl:template>
 
-	<xsl:template match="schema:creativeWorkStatus">
+	<xsl:template match="schema:creativeWorkStatus" mode="novel">
 		<xsl:attribute name="class">
 			<xsl:value-of select="translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')"/>
 		</xsl:attribute>
@@ -119,11 +122,11 @@
 		</xsl:choose>
 	</xsl:template>
 
-	<xsl:template match="dcterms:extent[@rdf:parseType='Resource']/rdf:value | sioc:num_items">
+	<xsl:template match="dcterms:extent[@rdf:parseType='Resource']/rdf:value | sioc:num_items" mode="novel">
 		<xsl:value-of select="format-number(., '#,###')"/>
 	</xsl:template>
 
-	<xsl:template match="dcterms:created">
+	<xsl:template match="dcterms:created" mode="novel">
 		<xsl:variable name="year" select="substring(., 1, 4)"/>
 		<xsl:variable name="month" select="substring(., 6, 2)"/>
 		<xsl:variable name="day" select="substring(., 9, 2)"/>
@@ -131,5 +134,19 @@
 		<time datetime="{.}">
 			<xsl:value-of select="concat($year, '/', $month, '/', $day)"/>
 		</time>
+	</xsl:template>
+
+	<xsl:template match="sitemap:loc" mode="board">
+		<xsl:variable name="path" select="concat('/', substring-after(substring-after(., '://'), '/'))"/>
+
+		<xsl:apply-templates select="document(substring-after($path, $base-url), .)//types:MessageBoard" mode="board"/>
+	</xsl:template>
+
+	<xsl:template match="types:MessageBoard" mode="board">
+		<li>
+			<a href="{@rdf:about}">
+				<xsl:value-of select="dcterms:title"/>
+			</a>
+		</li>
 	</xsl:template>
 </xsl:stylesheet>
