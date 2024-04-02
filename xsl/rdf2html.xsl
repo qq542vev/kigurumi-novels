@@ -45,37 +45,39 @@
 	</xsl:template>
 
 	<xsl:template match="sioc:Container[@rdf:about='#main']">
-		<h1>
-			<xsl:choose>
-				<xsl:when test="dcterms:title">
-					<xsl:attribute name="class">definitive-title</xsl:attribute>
+		<section>
+			<h1>
+				<xsl:choose>
+					<xsl:when test="dcterms:title">
+						<xsl:attribute name="class">definitive-title</xsl:attribute>
 
-					<xsl:value-of select="dcterms:title"/>
-				</xsl:when>
-				<xsl:when test="dcterms:alternative">
-					<xsl:attribute name="class">provisional-title</xsl:attribute>
+						<xsl:value-of select="dcterms:title"/>
+					</xsl:when>
+					<xsl:when test="dcterms:alternative">
+						<xsl:attribute name="class">provisional-title</xsl:attribute>
 
-					<xsl:value-of select="concat(dcterms:alternative, '(仮)')"/>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:attribute name="class">untitled</xsl:attribute>
+						<xsl:value-of select="concat(dcterms:alternative, '(仮)')"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:attribute name="class">untitled</xsl:attribute>
 
-					<xsl:text>無題</xsl:text>
-				</xsl:otherwise>
-			</xsl:choose>
-		</h1>
+						<xsl:text>無題</xsl:text>
+					</xsl:otherwise>
+				</xsl:choose>
+			</h1>
 
-		<dl class="info">
-			<xsl:apply-templates select="schema:creativeWorkStatus"/>
-			<xsl:apply-templates select="dcterms:extent[@rdf:parseType='Resource']/rdf:value"/>
-			<xsl:apply-templates select="sioc:num_items"/>
-		</dl>
-
-		<blockquote>
-			<dl class="comment">
-				<xsl:apply-templates select="dcterms:hasPart[@rdf:parseType='Collection']/types:BoardPost"/>
+			<dl class="info">
+				<xsl:apply-templates select="schema:creativeWorkStatus"/>
+				<xsl:apply-templates select="dcterms:extent[@rdf:parseType='Resource']/rdf:value"/>
+				<xsl:apply-templates select="sioc:num_items"/>
 			</dl>
-		</blockquote>
+
+			<blockquote>
+				<dl class="comment">
+					<xsl:apply-templates select="dcterms:hasPart[@rdf:parseType='Collection']/types:BoardPost"/>
+				</dl>
+			</blockquote>
+		</section>
 	</xsl:template>
 
 	<xsl:template match="schema:creativeWorkStatus">
