@@ -36,7 +36,7 @@
 		<xsl:apply-templates select="*"/>
 	</xsl:template>
 
-	<xsl:template match="sioc:Container[@rdf:nodeID='main']">
+	<xsl:template match="sioc:Container[@rdf:about='#main']">
 		<xsl:variable name="first-item" select="$posts[@rdf:about=current()/dcterms:hasPart/*[1]/@rdf:about]"/>
 		<xsl:variable name="last-item" select="$posts[@rdf:about=current()/dcterms:hasPart/*[last()]/@rdf:about]"/>
 		<xsl:variable name="content">

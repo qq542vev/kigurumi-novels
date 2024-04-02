@@ -15,7 +15,7 @@
 	<xsl:import href="template.xsl"/>
 
 	<xsl:template match="/">
-		<xsl:variable name="main" select="rdf:RDF/sioc:Container[@rdf:nodeID='main']"/>
+		<xsl:variable name="main" select="rdf:RDF/sioc:Container[@rdf:about='#main']"/>
 
 		<xsl:call-template name="html-template">
 			<xsl:with-param name="title">
@@ -37,14 +37,14 @@
 	</xsl:template>
 
 	<xsl:template name="html-main">
-		<xsl:apply-templates select="rdf:RDF/sioc:Container[@rdf:nodeID='main']"/>
+		<xsl:apply-templates select="rdf:RDF/sioc:Container[@rdf:about='#main']"/>
 	</xsl:template>
 
 	<xsl:template match="foaf:Document[@rdf:about='']/dcterms:modified">
 		<meta name="dcterms.modified" property="dcterms:modified" datatype="dcterms:W3CDTF" content="{.}"/>
 	</xsl:template>
 
-	<xsl:template match="sioc:Container[@rdf:nodeID='main']">
+	<xsl:template match="sioc:Container[@rdf:about='#main']">
 		<h1>
 			<xsl:choose>
 				<xsl:when test="dcterms:title">
