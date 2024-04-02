@@ -35,7 +35,7 @@
 				<xsl:call-template name="html-head"/>
 			</head>
 			<body>
-				<main>
+				<main id="main">
 					<xsl:call-template name="html-main"/>
 				</main>
 				<footer>
