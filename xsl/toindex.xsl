@@ -63,12 +63,12 @@
 	</xsl:template>
 
 	<xsl:template match="url">
-		<xsl:apply-templates select="document(.)//sioc:Container[@rdf:nodeID='main']">
+		<xsl:apply-templates select="document(.)//sioc:Container[@rdf:about='#main']">
 			<xsl:with-param name="url" select="substring-before(., 'index.rdf')"/>
 		</xsl:apply-templates>
 	</xsl:template>
 
-	<xsl:template match="sioc:Container[@rdf:nodeID='main']">
+	<xsl:template match="sioc:Container[@rdf:about='#main']">
 		<xsl:param name="url" select="."/>
 
 		<tr>
