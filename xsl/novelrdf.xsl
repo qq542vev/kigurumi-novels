@@ -10,6 +10,8 @@
 	xmlns:types="http://rdfs.org/sioc/types#"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 >
+	<xsl:import href="param.xsl"/>
+
 	<xsl:output
 		version="1.0"
 		method="xml"
@@ -27,6 +29,12 @@
 	<xsl:variable name="t5" select="document('../src/rdf/1211041119.rdf')"/>
 	<xsl:variable name="t6" select="document('../src/rdf/1247437212.rdf')"/>
 	<xsl:variable name="posts" select="($t1 | $t2 | $t3 | $t4 | $t5 | $t6)/rdf:RDF/*[@rdf:about]"/>
+
+	<xsl:template match="/">
+		<xsl:processing-instruction name="xml-stylesheet">href="<xsl:value-of select="$base-url"/>xsl/rdf2html.xsl" type="application/xslt+xml" title="XHTML" alternate="yes"</xsl:processing-instruction>
+
+		<xsl:apply-templates select="*"/>
+	</xsl:template>
 
 	<xsl:template match="sioc:Container[@rdf:nodeID='main']">
 		<xsl:variable name="first-item" select="$posts[@rdf:about=current()/dcterms:hasPart/*[1]/@rdf:about]"/>
