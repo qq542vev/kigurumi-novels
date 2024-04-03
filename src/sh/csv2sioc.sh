@@ -13,6 +13,13 @@ awkScript=$(
 	BEGIN {
 		csv_parse("<" ARGV[1], array)
 
+		for(count = 1; (count, 1) in array; count++) {}
+
+		board = element("dcterms:title", "", ARGV[2])
+		board = board element("sioc:num_item", "rdf:datatype=\"&xsd;nonNegativeInteger\"", count - 1)
+
+		printf("%s", element("types:MessageBoard", "rdf:about=\"&board;\"", board, 0))
+
 		for(i = 1; (i, 1) in array; i++) {
 			number = array[i, 1]
 			name = array[i, 2]
@@ -86,15 +93,10 @@ template=$(
 			<foaf:primaryTopic rdf:nodeID="&board;"/>
 		</foaf:Document>
 
-		<types:MessageBoard rdf:about="&board;">
-			<dcterms:title>${2}</dcterms:title>
-			<sioc:num_items rdf:datatype="&xsd;nonNegativeInteger">${5-1000}</sioc:num_items>
-		</types:MessageBoard>
-
 		<!-- !CONTENT! -->
 	</rdf:RDF>
 	__EOF__
 )
 
-str_replace 'x' "${template}" '<!-- !CONTENT! -->' "$(awk -- "${awkScript}" "${1}")"
+str_replace 'x' "${template}" '<!-- !CONTENT! -->' "$(awk -- "${awkScript}" "${1}" "${2}")"
 printf '%s' "${x}" | xmlstarlet fo -t -
