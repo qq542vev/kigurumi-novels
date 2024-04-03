@@ -14,9 +14,15 @@ awkScript=$(
 		csv_parse("<" ARGV[1], array)
 
 		for(count = 1; (count, 1) in array; count++) {}
+		count--
 
 		board = element("dcterms:title", "", ARGV[2])
-		board = board element("sioc:num_items", "rdf:datatype=\"&xsd;nonNegativeInteger\"", count - 1)
+		board = board element("sioc:num_items", "rdf:datatype=\"&xsd;nonNegativeInteger\"", count)
+
+		if(1 <= count) {
+			board = board element("dcterms:created", "rdf:datatype=\"&dcterms;W3CDTF\"", array[1, 4])
+			board = board element("sioc:last_item_date", "rdf:datatype=\"&dcterms;W3CDTF\"", array[count, 4])
+		}
 
 		printf("%s", element("types:MessageBoard", "rdf:about=\"&board;\"", board, 0))
 
