@@ -7,12 +7,14 @@
 ]>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-04-01T20:41:37+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-04-03T17:23:36+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="&board;"/>
 	</foaf:Document>
 	<types:MessageBoard rdf:about="&board;">
 		<dcterms:title>【妄想】着ぐるみ小説スレ第２章【連載？】</dcterms:title>
 		<sioc:num_items rdf:datatype="&xsd;nonNegativeInteger">1000</sioc:num_items>
+		<dcterms:created rdf:datatype="&dcterms;W3CDTF">2004-04-07T17:14+09:00</dcterms:created>
+		<sioc:last_item_date rdf:datatype="&dcterms;W3CDTF">2005-07-28T15:43:25+09:00</sioc:last_item_date>
 	</types:MessageBoard>
 	<types:BoardPost rdf:about="&post;1">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">1</rdfs:label>
