@@ -40,6 +40,10 @@
 		<xsl:apply-templates select="rdf:RDF/sioc:Container[@rdf:about='#main']"/>
 	</xsl:template>
 
+	<xsl:template match="foaf:Document[@rdf:about='']/dcterms:created">
+		<meta name="dcterms.created" property="dcterms:created" datatype="dcterms:W3CDTF" content="{.}"/>
+	</xsl:template>
+
 	<xsl:template match="foaf:Document[@rdf:about='']/dcterms:modified">
 		<meta name="dcterms.modified" property="dcterms:modified" datatype="dcterms:W3CDTF" content="{.}"/>
 	</xsl:template>
