@@ -16,7 +16,7 @@ awkScript=$(
 		for(count = 1; (count, 1) in array; count++) {}
 
 		board = element("dcterms:title", "", ARGV[2])
-		board = board element("sioc:num_item", "rdf:datatype=\"&xsd;nonNegativeInteger\"", count - 1)
+		board = board element("sioc:num_items", "rdf:datatype=\"&xsd;nonNegativeInteger\"", count - 1)
 
 		printf("%s", element("types:MessageBoard", "rdf:about=\"&board;\"", board, 0))
 
