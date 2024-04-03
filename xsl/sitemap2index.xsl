@@ -147,6 +147,22 @@
 			<a href="{@rdf:about}">
 				<xsl:value-of select="dcterms:title"/>
 			</a>
+
+			<xsl:text> (</xsl:text>
+			<xsl:apply-templates select="dcterms:created" mode="board"/>
+			<xsl:text> - </xsl:text>
+			<xsl:apply-templates select="sioc:last_item_date" mode="board"/>
+			<xsl:text>)</xsl:text>
 		</li>
+	</xsl:template>
+
+	<xsl:template match="dcterms:created | sioc:last_item_date" mode="board">
+		<xsl:variable name="year" select="substring(., 1, 4)"/>
+		<xsl:variable name="month" select="substring(., 6, 2)"/>
+		<xsl:variable name="day" select="substring(., 9, 2)"/>
+
+		<time date="{.}">
+			<xsl:value-of select="concat($year, '/', $month, '/', $day)"/>
+		</time>
 	</xsl:template>
 </xsl:stylesheet>
