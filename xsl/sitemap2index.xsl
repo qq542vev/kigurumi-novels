@@ -87,10 +87,10 @@
 				<a href="{$path}">
 					<xsl:choose>
 						<xsl:when test="dcterms:title">
-							<xsl:value-of select="dcterms:title"/>
+							<xsl:apply-templates select="dcterms:title"/>
 						</xsl:when>
 						<xsl:when test="dcterms:alternative">
-							<xsl:value-of select="concat(dcterms:alternative, '(仮)')"/>
+							<xsl:apply-templates select="dcterms:alternative"/>
 						</xsl:when>
 						<xsl:otherwise>無題</xsl:otherwise>
 					</xsl:choose>
@@ -109,6 +109,14 @@
 				<xsl:apply-templates select="dcterms:created" mode="novel"/>
 			</td>
 		</tr>
+	</xsl:template>
+
+	<xsl:template match="dcterms:title">
+		<xsl:value-of select="."/>
+	</xsl:template>
+
+	<xsl:template match="dcterms:alternative">
+		<xsl:value-of select="concat(., '(仮)')"/>
 	</xsl:template>
 
 	<xsl:template match="schema:creativeWorkStatus" mode="novel">
