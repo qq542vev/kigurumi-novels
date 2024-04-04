@@ -75,7 +75,7 @@
 	</xsl:template>
 
 	<xsl:template match="sioc:num_items">
-		<xsl:value-of select="concat('投稿数:', format-number(., '#,###'))"/>
+		<xsl:value-of select="concat('投稿数: ', format-number(., '#,###'))"/>
 	</xsl:template>
 
 	<xsl:template match="types:BoardPost">
