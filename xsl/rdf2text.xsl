@@ -140,7 +140,9 @@
 	</xsl:template>
 
 	<xsl:template match="sioc:content">
-		<xsl:text>    </xsl:text>
+		<xsl:if test="string()">
+			<xsl:text>    </xsl:text>
+		</xsl:if>
 
 		<xsl:call-template name="string.replace">
 			<xsl:with-param name="src" select="'&#xA;'"/>
