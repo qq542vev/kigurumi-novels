@@ -17,6 +17,7 @@
 	/>
 
 	<xsl:param name="nl" select="'&#xD;&#xA;'"/>
+	<xsl:param name="indent" select="'    '"/>
 
 	<xsl:template match="/">
 		<xsl:apply-templates select="rdf:RDF/sioc:Container[@rdf:about='#main']"/>
@@ -141,12 +142,12 @@
 
 	<xsl:template match="sioc:content">
 		<xsl:if test="string()">
-			<xsl:text>    </xsl:text>
+			<xsl:value-of select="$indent"/>
 		</xsl:if>
 
 		<xsl:call-template name="string.replace">
 			<xsl:with-param name="src" select="'&#xA;'"/>
-			<xsl:with-param name="dst" select="concat($nl, '    ')"/>
+			<xsl:with-param name="dst" select="concat($nl, $indent)"/>
 		</xsl:call-template>
 
 		<xsl:value-of select="concat($nl, $nl)"/>
