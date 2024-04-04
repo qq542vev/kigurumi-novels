@@ -138,9 +138,9 @@
 
 		<xsl:if test="foaf:nick and dcterms:identifier">
 			<xsl:text> </xsl:text>
-
-			<xsl:apply-templates select="dcterms:identifier"/>
 		</xsl:if>
+
+		<xsl:apply-templates select="dcterms:identifier"/>
 	</xsl:template>
 
 	<xsl:template match="foaf:nick">
