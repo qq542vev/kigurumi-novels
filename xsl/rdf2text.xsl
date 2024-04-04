@@ -24,6 +24,16 @@
 	</xsl:template>
 
 	<xsl:template match="sioc:Container[@rdf:about='#main']">
+		<xsl:apply-templates select="schema:creativeWorkStatus"/>
+		<xsl:text>, </xsl:text>
+		
+		<xsl:apply-templates select="dcterms:extent[@rdf:parseType='Resource']/rdf:value"/>
+		<xsl:text>, </xsl:text>
+		
+		<xsl:apply-templates select="sioc:num_items"/>
+
+		<xsl:value-of select="concat($nl, $nl)"/>
+
 		<xsl:text># </xsl:text>
 
 		<xsl:choose>
@@ -37,16 +47,6 @@
 				<xsl:text>無題</xsl:text>
 			</xsl:otherwise>
 		</xsl:choose>
-
-		<xsl:value-of select="concat($nl, $nl)"/>
-
-		<xsl:apply-templates select="schema:creativeWorkStatus"/>
-		<xsl:text>, </xsl:text>
-		
-		<xsl:apply-templates select="dcterms:extent[@rdf:parseType='Resource']/rdf:value"/>
-		<xsl:text>, </xsl:text>
-		
-		<xsl:apply-templates select="sioc:num_items"/>
 
 		<xsl:value-of select="concat($nl, $nl)"/>
 
