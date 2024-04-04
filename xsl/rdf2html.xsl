@@ -70,6 +70,10 @@
 				<xsl:apply-templates select="schema:creativeWorkStatus"/>
 				<xsl:apply-templates select="dcterms:extent[@rdf:parseType='Resource']/rdf:value"/>
 				<xsl:apply-templates select="sioc:num_items"/>
+
+				<dt class="alternative">他の形式</dt>
+				<dd class="alternative"><a href="index.txt">Plain Text</a></dd>
+				<dd class="alternative"><a href="index.rdf">RDF</a></dd>
 			</dl>
 
 			<blockquote>
