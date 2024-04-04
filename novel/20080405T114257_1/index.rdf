@@ -4,6 +4,8 @@
 	<foaf:Document rdf:about="">
 		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:01:32+09:00</dcterms:created>
 		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-03-09T00:01:32+09:00</dcterms:modified>
+		<dcterms:hasFormat rdf:resource="./"/>
+		<dcterms:hasFormat rdf:resource="index.txt"/>
 		<foaf:primaryTopic rdf:resource="#main"/>
 	</foaf:Document>
 	<sioc:Container rdf:about="#main">
