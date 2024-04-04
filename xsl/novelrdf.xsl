@@ -32,6 +32,7 @@
 
 	<xsl:template match="/">
 		<xsl:processing-instruction name="xml-stylesheet">href="<xsl:value-of select="$base-url"/>xsl/rdf2html.xsl" type="application/xslt+xml" title="XHTML" alternate="yes"</xsl:processing-instruction>
+		<xsl:processing-instruction name="xml-stylesheet">href="<xsl:value-of select="$base-url"/>xsl/rdf2text.xsl" type="application/xslt+xml" title="Plain Text" alternate="yes"</xsl:processing-instruction>
 
 		<xsl:apply-templates select="*"/>
 	</xsl:template>
