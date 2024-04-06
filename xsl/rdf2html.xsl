@@ -72,8 +72,8 @@
 				<xsl:apply-templates select="sioc:num_items"/>
 
 				<dt class="alternative">他の形式</dt>
-				<dd class="alternative"><a href="index.txt">Plain Text</a></dd>
-				<dd class="alternative"><a href="index.rdf">RDF</a></dd>
+				<dd class="alternative"><a rel="alternate" type="text/plain" href="index.txt">Plain Text</a></dd>
+				<dd class="alternative"><a rel="alternate" type="application/rdf+xml" href="index.rdf">RDF</a></dd>
 			</dl>
 
 			<blockquote>
