@@ -76,8 +76,8 @@
 				<dd class="alternative"><a rel="alternate" type="application/rdf+xml" href="index.rdf">RDF</a></dd>
 			</dl>
 
-			<blockquote>
-				<dl class="comment">
+			<blockquote id="comments">
+				<dl>
 					<xsl:apply-templates select="dcterms:hasPart[@rdf:parseType='Collection']/types:BoardPost"/>
 				</dl>
 			</blockquote>
