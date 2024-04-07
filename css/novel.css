@@ -1,0 +1,72 @@
+@charset "UTF-8"
+@import url("style.css");
+
+body {
+	background: #EFEFEF;
+}
+
+a:hover, a:active {
+	color: #FF0000;
+}
+
+h1.definitive-title, h1.provisional-title, h1.untitled {
+	font-size: 120%;
+	color: #FF0000;
+}
+
+.info {
+	font-size: 80%;
+	color: #666666;
+}
+
+.info a:link {
+	color: #3838FF;
+}
+
+.info a:visited {
+	color: #6638FF;
+}
+
+.info a:hover, .info a:active {
+	color: #FF3030;
+}
+
+#comment {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#comment pre {
+	margin: 0;
+	max-width: 60em;
+	white-space: pre-line;
+	font-family: inherit;
+}
+
+.number:link, .number:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+.number:hover, .number:active {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+.name {
+	font-weight: bold;
+	color: #008800;
+}
+
+.trip {
+	color: #008800;
+}
+
+.info dt, .info dd {
+	display: inline;
+	margin: 0;
+}
+
+.info dt:after {
+	content: ":";
+}

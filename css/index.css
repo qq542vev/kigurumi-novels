@@ -1,0 +1,14 @@
+@charset "UTF-8"
+@import url("style.css");
+
+section {
+	margin: 1em 0;
+	border: 3px #808080 outset;
+	border-radius: 0.7em;
+	padding: 10px;
+	background: #CCFFCC;
+}
+
+#about h1, #novels h1 {
+	font-size: 120%;
+}

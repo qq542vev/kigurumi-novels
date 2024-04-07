@@ -1,25 +1,43 @@
-@charset "UTF-8";
+@charset "UTF-8"
 @import url("normalize.css");
 
-pre {
-	white-space: pre-line;
-	font-family: sans-serif;
+body {
+	padding: 10px 15px;
+	line-height: 1.5;
+	letter-spacing: 0.05em;
+	font-family: "Arial", sans-serif;
 }
 
-.name {
-	font-weight: bold;
-	color: #008800;
+table {
+	border-collapse: collapse;
 }
 
-.trip {
-	color: #008800;
+th, td {
+	border: 1px solid #808080;
+	padding: 0.4em;
 }
 
-.info dt, .info dd {
-	display: inline;
+footer {
+	border-top: 3px double #808080;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav li {
+	list-style: none;
+	float: left;
 	margin: 0;
+	padding: 0;
 }
 
-.info dt:after {
-	content: ":";
+nav li + li {
+	margin-left: 1em;
 }
