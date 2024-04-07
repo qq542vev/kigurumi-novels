@@ -4,6 +4,15 @@
 		<loc>https://qq542vev.github.io/kigurumi-novels/</loc>
 	</url>
 	<url>
+		<loc>https://qq542vev.github.io/kigurumi-novels/css/index.css</loc>
+	</url>
+	<url>
+		<loc>https://qq542vev.github.io/kigurumi-novels/css/normalize.css</loc>
+	</url>
+	<url>
+		<loc>https://qq542vev.github.io/kigurumi-novels/css/novel.css</loc>
+	</url>
+	<url>
 		<loc>https://qq542vev.github.io/kigurumi-novels/css/style.css</loc>
 	</url>
 	<url>
@@ -1114,9 +1123,6 @@
 		<loc>https://qq542vev.github.io/kigurumi-novels/novel/20110910T151217_1/index.txt</loc>
 	</url>
 	<url>
-		<loc>https://qq542vev.github.io/kigurumi-novels/novel/a.xml</loc>
-	</url>
-	<url>
 		<loc>https://qq542vev.github.io/kigurumi-novels/sitemap.xml</loc>
 	</url>
 	<url>
@@ -1190,9 +1196,6 @@
 	</url>
 	<url>
 		<loc>https://qq542vev.github.io/kigurumi-novels/src/sh/csv2sioc.sh</loc>
-	</url>
-	<url>
-		<loc>https://qq542vev.github.io/kigurumi-novels/threads.tsv</loc>
 	</url>
 	<url>
 		<loc>https://qq542vev.github.io/kigurumi-novels/xsl/novelrdf.xsl</loc>
