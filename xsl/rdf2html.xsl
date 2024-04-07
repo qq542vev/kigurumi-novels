@@ -33,6 +33,8 @@
 	</xsl:template>
 
 	<xsl:template name="html-head">
+		<link rel="stylesheet" type="text/css" href="{$base-url}css/novel.css"/>
+
 		<xsl:apply-templates select="rdf:RDF/foaf:Document[@rdf:about='']/*"/>
 	</xsl:template>
 

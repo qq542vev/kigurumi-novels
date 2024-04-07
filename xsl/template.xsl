@@ -23,6 +23,7 @@
 			<head>
 				<meta charset="UTF-8"/>
 				<meta name="robots" content="index,follow"/>
+
 				<title property="dcterms:title">
 					<xsl:if test="$title != ''">
 						<xsl:value-of select="concat($title, ' | ')"/>
@@ -30,8 +31,8 @@
 
 					<xsl:value-of select="$site-name"/>
 				</title>
+
 				<link rel="dcterms:publisher" href="https://purl.org/meta/"/>
-				<link rel="stylesheet" type="text/css" href="{$base-url}css/style.css"/>
 
 				<xsl:call-template name="html-head"/>
 			</head>

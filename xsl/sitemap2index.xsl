@@ -20,6 +20,10 @@
 		<xsl:call-template name="html-template"/>
 	</xsl:template>
 
+	<xsl:template name="html-head">
+		<link rel="stylesheet" type="text/css" href="{$base-url}css/index.css"/>
+	</xsl:template>
+
 	<xsl:template name="html-main">
 		<section id="novels">
 			<h1>着ぐるみ小説スレの小説一覧</h1>
