@@ -28,6 +28,8 @@
 		<section id="novels">
 			<h1>着ぐるみ小説スレの小説一覧</h1>
 
+			<p><xsl:value-of select="format-number(count(//sitemap:loc[contains(., '/index.rdf')]), '#,###')"/>個の小説があります。</p>
+
 			<table>
 				<colgroup>
 					<col class="title"/>
@@ -59,11 +61,23 @@
 		<section id="about">
 			<h1>このサイトについて</h1>
 
+			<p>このサイトは<strong>★着ぐるみ★ゼンタイ★マスク★ BBS</strong>内の<strong>着ぐるみ小説スレ</strong>に掲載された小説をまとめております。歴史の中に埋もれているには惜しいような秀逸な作品が幾つも存在したため、勝手ながら再掲載致しました。</p>
+
+			<p>2024年04月現在、以下のスレッド内に掲載された小説をまとめております。</p>
+
 			<ul>
 				<xsl:apply-templates select="//sitemap:loc[contains(., '/src/rdf/')]" mode="board">
 						<xsl:sort order="descending" lang="en"/>
 				</xsl:apply-templates>
 			</ul>
+		</section>
+
+		<section id="editorial-policy">
+			<h1>編集方針</h1>
+
+			<p>投稿された小説の誤字脱字などを含め、元の文章を一切変更せずに掲載しております。また著者による前書き、後書き、補足事項など作品に関するコメントもそのまま掲載しております。執筆者以外のコメントは、執筆者の投稿を掲載する上で、必要としたもののみ掲載致します。</p>
+
+			<p>再掲載した小説のレイアウトは元のしたらば掲示板に似た形式を採用しており、投稿時の番号、名前、トリップ、投稿日時もそのままですが、行間や字幅などの細かいスタイルは、読みやすさを考慮して<abbr title="Cascading Style Sheets">CSS</abbr>で変更しています。</p>
 		</section>
 	</xsl:template>
 
