@@ -3,7 +3,7 @@
 	version="1.0"
 	exclude-result-prefixes="dcterms foaf rdf rdfs schema sioc sitemap types"
 	xmlns="http://www.w3.org/1999/xhtml"
- 	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:foaf="http://xmlns.com/foaf/0.1/"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"

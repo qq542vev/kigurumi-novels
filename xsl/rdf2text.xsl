@@ -26,10 +26,10 @@
 	<xsl:template match="sioc:Container[@rdf:about='#main']">
 		<xsl:apply-templates select="schema:creativeWorkStatus"/>
 		<xsl:text>, </xsl:text>
-		
+
 		<xsl:apply-templates select="dcterms:extent[@rdf:parseType='Resource']/rdf:value"/>
 		<xsl:text>, </xsl:text>
-		
+
 		<xsl:apply-templates select="sioc:num_items"/>
 
 		<xsl:value-of select="concat($nl, $nl)"/>
@@ -63,7 +63,7 @@
 
 	<xsl:template match="schema:creativeWorkStatus">
 		<xsl:text>状態: </xsl:text>
-		
+
 		<xsl:choose>
 			<xsl:when test=". = 'Complete'">完結</xsl:when>
 			<xsl:otherwise>未完結</xsl:otherwise>
