@@ -46,6 +46,7 @@
 							<li><a href="#top">ページの最上位</a></li>
 							<li><a href="{$base-url}#novels">小説一覧</a></li>
 							<li><a href="{$base-url}#about">このサイトについて</a></li>
+							<li><a href="{$base-url}#editorial-policy">編集方針</a></li>
 						</ul>
 					</nav>
 				</footer>
