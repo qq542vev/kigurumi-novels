@@ -9,6 +9,6 @@ section {
 	background: #CCFFCC;
 }
 
-#about h1, #novels h1 {
+h1 {
 	font-size: 120%;
 }
