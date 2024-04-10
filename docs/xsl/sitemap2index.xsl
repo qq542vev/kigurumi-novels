@@ -187,7 +187,7 @@
 		<xsl:variable name="month" select="substring(., 6, 2)"/>
 		<xsl:variable name="day" select="substring(., 9, 2)"/>
 
-		<time date="{.}">
+		<time datetime="{.}">
 			<xsl:value-of select="concat($year, '/', $month, '/', $day)"/>
 		</time>
 	</xsl:template>
