@@ -1,0 +1,21 @@
+{
+  "rules": {
+    "invalid-attr": {
+			"options": {
+				"allowAttrs": [
+					"about",
+					"content",
+					"datatype",
+					"inlist",
+					"prefix",
+					"property",
+					"rel",
+					"resource",
+					"rev",
+					"typeof",
+					"vocab"
+				]
+			}
+		}
+  }
+}
