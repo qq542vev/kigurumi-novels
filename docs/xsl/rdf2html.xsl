@@ -51,7 +51,7 @@
 	</xsl:template>
 
 	<xsl:template match="sioc:Container[@rdf:about='#main']">
-		<section>
+		<article>
 			<h1>
 				<xsl:choose>
 					<xsl:when test="dcterms:title">
@@ -83,7 +83,7 @@
 					<xsl:apply-templates select="dcterms:hasPart[@rdf:parseType='Collection']/types:BoardPost"/>
 				</dl>
 			</blockquote>
-		</section>
+		</article>
 	</xsl:template>
 
 	<xsl:template match="dcterms:title">
