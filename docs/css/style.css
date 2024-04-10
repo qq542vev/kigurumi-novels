@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 @import url("normalize.css");
 
 body {
@@ -25,7 +26,7 @@ nav ul {
 	padding: 0;
 }
 
-nav ul::after {
+nav ul:after {
 	content: "";
 	display: block;
 	clear: both;
