@@ -1,4 +1,9 @@
 {
+	"excludeFiles": [
+		"*",
+		"!docs/",
+		"docs/src/html/"
+	],
   "rules": {
     "attr-duplication": true,
     "attr-value-quotes": false,
@@ -6,15 +11,31 @@
     "case-sensitive-tag-name": false,
     "character-reference": true,
     "class-naming": false,
-    "deprecated-attr": true,
+    "deprecated-attr": false,
     "deprecated-element": true,
     "disallowed-element": [],
-    "doctype": "always",
+    "doctype": false,
     "end-tag": false,
     "heading-levels": true,
     "id-duplication": true,
     "ineffective-attr": false,
-    "invalid-attr": true,
+    "invalid-attr": {
+			"options": {
+				"allowAttrs": [
+					"about",
+					"content",
+					"datatype",
+					"inlist",
+					"prefix",
+					"property",
+					"rel",
+					"resource",
+					"rev",
+					"typeof",
+					"vocab"
+				]
+			}
+		},
     "label-has-control": false,
     "landmark-roles": false,
     "neighbor-popovers": true,
@@ -32,7 +53,11 @@
     "require-datetime": true,
     "required-attr": [],
     "required-element": [],
-    "required-h1": true,
+    "required-h1": {
+			"options": {
+				"expected-once": false
+			}
+		},
     "use-list": false,
     "wai-aria": true
   }
