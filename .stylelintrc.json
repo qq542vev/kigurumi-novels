@@ -1,5 +1,10 @@
 {
   "extends": [
     "stylelint-config-standard"
-  ]
+  ],
+  "rules": {
+		"color-hex-length": "long",
+		"font-family-name-quotes": "always-unless-keyword",
+		"selector-pseudo-element-colon-notation": "single"
+	}
 }
