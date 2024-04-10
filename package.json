@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint:css": "stylelint '**/*.css'",
     "lint:html": "markuplint '**/*.html'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "markuplint": "^4.5.0",
-    "stylelint": "^16.3.1"
+    "stylelint": "^16.3.1",
+    "stylelint-config-standard": "^36.0.0"
   }
 }
