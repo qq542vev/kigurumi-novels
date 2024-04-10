@@ -1,4 +1,7 @@
 {
+	"extends": [
+		".markuplintrc-rdfa"
+	],
 	"excludeFiles": [
 		"*",
 		"!docs/",
@@ -19,23 +22,7 @@
     "heading-levels": true,
     "id-duplication": true,
     "ineffective-attr": false,
-    "invalid-attr": {
-			"options": {
-				"allowAttrs": [
-					"about",
-					"content",
-					"datatype",
-					"inlist",
-					"prefix",
-					"property",
-					"rel",
-					"resource",
-					"rev",
-					"typeof",
-					"vocab"
-				]
-			}
-		},
+    "invalid-attr": true,
     "label-has-control": false,
     "landmark-roles": false,
     "neighbor-popovers": true,
