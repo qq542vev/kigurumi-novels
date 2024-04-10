@@ -28,7 +28,7 @@
 		<section id="novels">
 			<h1>着ぐるみ小説スレの小説一覧</h1>
 
-			<p><xsl:value-of select="format-number(count(//sitemap:loc[contains(., '/index.rdf')]), '#,###')"/>個の小説があります。</p>
+			<p><xsl:value-of select="format-number(count(//sitemap:loc[contains(., '/index.rdf')]), '#,###')"/>個の小説があります。タイトル末尾に(仮)と付いているのは仮題です。</p>
 
 			<table>
 				<caption>着ぐるみ小説スレの小説一覧</caption>
