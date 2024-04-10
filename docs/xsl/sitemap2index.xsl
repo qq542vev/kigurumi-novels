@@ -31,6 +31,7 @@
 			<p><xsl:value-of select="format-number(count(//sitemap:loc[contains(., '/index.rdf')]), '#,###')"/>個の小説があります。</p>
 
 			<table>
+				<caption>着ぐるみ小説スレの小説一覧</caption>
 				<colgroup>
 					<col class="title"/>
 				</colgroup>

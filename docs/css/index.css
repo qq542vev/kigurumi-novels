@@ -12,3 +12,7 @@ section {
 h1 {
 	font-size: 120%;
 }
+
+#about caption {
+	display: none;
+}
