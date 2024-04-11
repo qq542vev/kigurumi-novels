@@ -2,9 +2,14 @@
   "extends": [
     "stylelint-config-standard"
   ],
+  "ignoreFiles": [
+    "docs/css/normalize.css",
+    "!docs/",
+    "*"
+  ],
   "rules": {
-		"color-hex-length": "long",
-		"font-family-name-quotes": "always-unless-keyword",
-		"selector-pseudo-element-colon-notation": "single"
-	}
+    "color-hex-length": "long",
+    "font-family-name-quotes": "always-unless-keyword",
+    "selector-pseudo-element-colon-notation": "single"
+  }
 }
