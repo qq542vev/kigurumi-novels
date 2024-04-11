@@ -1,23 +1,16 @@
-{
-	"extends": [
-		".markuplintrc-rdfa",
-		"markuplint:recommended-static-html"
-	],
-	"excludeFiles": [
-		"*",
-		"!docs/",
-		"docs/src/html/"
-	],
-	"rules": {
-		"character-reference": false,
-		"deprecated-attr": false,
-		"doctype": false,
-		"ineffective-attr": false,
-		"required-h1": {
-			"options": {
-				"expected-once": false
-			}
-		},
-		"use-list": false
-	}
-}
+extends:
+  - .markuplintrc-rdfa
+  - markuplint:recommended-static-html
+excludeFiles:
+  - "*"
+  - "!docs/"
+  - docs/src/html/
+rules:
+  character-reference: false
+  deprecated-attr: false
+  doctype: false
+  ineffective-attr: false
+  required-h1:
+    options:
+      expected-once: false
+  use-list: false
