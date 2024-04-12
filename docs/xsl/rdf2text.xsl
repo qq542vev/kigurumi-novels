@@ -159,20 +159,32 @@
 		<xsl:param name="day" select="1"/>
 		<xsl:param name="gregorian" select="true()"/>
 
-		<xsl:variable name="C" select="floor($year div 100)"/>
-		<xsl:variable name="Y" select="$year mod 100"/>
+		<xsl:variable name="year-month">
+			<xsl:choose>
+				<xsl:when test="$month &lt;= 2">
+					<xsl:value-of select="concat($year - 1, '-', $month + 12)"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="concat($year, '-', $month)"/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<xsl:variable name="_year" select="substring-before($year-month, '-')"/>
+		<xsl:variable name="_month" select="substring-after($year-month, '-')"/>
+		<xsl:variable name="C" select="floor($_year div 100)"/>
+		<xsl:variable name="Y" select="$_year mod 100"/>
 		<xsl:variable name="G">
 			<xsl:choose>
 				<xsl:when test="$gregorian">
-					<xsl:value-of select="(-2 * $C) + floor($C div 4)"/>
+					<xsl:value-of select="(5 * $C) + floor($C div 4)"/>
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:value-of select="(-1 * $C) + 5"/>
+					<xsl:value-of select="(6 * $C) + 5"/>
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
 
-		<xsl:value-of select="(($day + floor((26 * ($month + 1)) div 10) + $Y + floor($Y div 4) + $G + 5) mod 7) + 1"/>
+		<xsl:value-of select="(($day + floor((26 * ($_month + 1)) div 10) + $Y + floor($Y div 4) + $G + 5) mod 7) + 1"/>
 	</xsl:template>
 
 	<xsl:template name="string.replace">
