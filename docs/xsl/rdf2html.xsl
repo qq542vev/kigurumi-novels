@@ -294,7 +294,7 @@
 						</xsl:variable>
 						<xsl:variable name="number" select="substring-before($after, $trimed)"/>
 
-						<a href="{$url}{$number}">
+						<a class="anchor-start" href="{$url}{$number}">
 							<xsl:value-of select="concat('&gt;&gt;', $number)"/>
 						</a>
 
@@ -335,7 +335,7 @@
 
 				<xsl:text>-</xsl:text>
 
-				<a href="{$url}{$number}">
+				<a class="anchor-end" href="{$url}{$number}">
 					<xsl:value-of select="$number"/>
 				</a>
 
