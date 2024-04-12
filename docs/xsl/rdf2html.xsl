@@ -12,7 +12,7 @@
 	xmlns:types="http://rdfs.org/sioc/types#"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 >
-	<xsl:import href="template.xsl"/>
+	<xsl:import href="template-html.xsl"/>
 
 	<xsl:template match="/">
 		<xsl:variable name="main" select="rdf:RDF/sioc:Container[@rdf:about='#main']"/>
