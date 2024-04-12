@@ -212,4 +212,121 @@
 
 		<xsl:value-of select="(($day + floor((26 * ($month + 1)) div 10) + $Y + floor($Y div 4) + $G + 5) mod 7) + 1"/>
 	</xsl:template>
+
+	<xsl:template name="ltrim">
+		<xsl:param name="str" select="."/>
+		<xsl:param name="chars" select="'&#x9;&#xA;&#xD; '"/>
+
+		<xsl:variable name="left" select="substring($str, 1, 1)"/>
+
+		<xsl:choose>
+			<xsl:when test="string($str) and translate($left, $chars, '') = ''">
+				<xsl:call-template name="ltrim">
+					<xsl:with-param name="str" select="substring($str, 2)"/>
+					<xsl:with-param name="chars" select="$chars"/>
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$str"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+
+	<xsl:template name="rtrim">
+		<xsl:param name="str" select="."/>
+		<xsl:param name="chars" select="'&#x9;&#xA;&#xD; '"/>
+
+		<xsl:variable name="right" select="substring($str, string-length($str))"/>
+
+		<xsl:choose>
+			<xsl:when test="string($str) and translate($right, $chars, '') = ''">
+				<xsl:call-template name="rtrim">
+					<xsl:with-param name="str" select="substring($str, 1, string-length($str) - 1)"/>
+					<xsl:with-param name="chars" select="$chars"/>
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$str"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+
+	<xsl:template name="anchor-link">
+		<xsl:param name="str" select="."/>
+		<xsl:param name="url"/>
+
+		<xsl:choose>
+			<xsl:when test="contains($str, '&gt;&gt;')">
+				<xsl:variable name="after" select="substring-after($str, '&gt;&gt;')"/>
+
+				<xsl:value-of select="substring-before($str, '&gt;&gt;')"/>
+
+				<xsl:choose>
+					<xsl:when test="$after and translate(substring($after, 1, 1), '123456789', '') = ''">
+						<xsl:variable name="trimed">
+							<xsl:call-template name="ltrim">
+								<xsl:with-param name="str" select="$after"/>
+								<xsl:with-param name="chars" select="'0123456789'"/>
+							</xsl:call-template>
+						</xsl:variable>
+						<xsl:variable name="number" select="substring-before($after, $trimed)"/>
+
+						<a href="{$url}{$number}">
+							<xsl:value-of select="concat('&gt;&gt;', $number)"/>
+						</a>
+
+						<xsl:call-template name="anchor-link-end">
+							<xsl:with-param name="str" select="$trimed"/>
+							<xsl:with-param name="url" select="$url"/>
+						</xsl:call-template>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:call-template name="anchor-link-end">
+							<xsl:with-param name="str" select="$after"/>
+							<xsl:with-param name="url" select="$url"/>
+						</xsl:call-template>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$str"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+
+	<xsl:template name="anchor-link-end">
+		<xsl:param name="str" select="."/>
+		<xsl:param name="url"/>
+
+		<xsl:variable name="after" select="substring($str, 2)"/>
+
+		<xsl:choose>
+			<xsl:when test="starts-with($str, '-') and $after and translate(substring($after, 1, 1), '123456789', '') = ''">
+				<xsl:variable name="trimed">
+					<xsl:call-template name="ltrim">
+						<xsl:with-param name="str" select="$after"/>
+						<xsl:with-param name="chars" select="'0123456789'"/>
+					</xsl:call-template>
+				</xsl:variable>
+				<xsl:variable name="number" select="substring-before($after, $trimed)"/>
+
+				<xsl:text>-</xsl:text>
+
+				<a href="{$url}{$number}">
+					<xsl:value-of select="$number"/>
+				</a>
+
+				<xsl:call-template name="anchor-link">
+					<xsl:with-param name="str" select="$trimed"/>
+					<xsl:with-param name="url" select="$url"/>
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:call-template name="anchor-link">
+					<xsl:with-param name="str" select="$str"/>
+					<xsl:with-param name="url" select="$url"/>
+				</xsl:call-template>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
 </xsl:stylesheet>
