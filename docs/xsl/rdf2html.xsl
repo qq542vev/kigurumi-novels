@@ -191,6 +191,17 @@
 		</time>
 	</xsl:template>
 
+	<xsl:template match="sioc:content">
+		<xsl:call-template name="anchor-link">
+			<xsl:with-param name="url">
+				<xsl:call-template name="rtrim">
+					<xsl:with-param name="str" select="../@rdf:about"/>
+					<xsl:with-param name="chars" select="'0123456789'"/>
+				</xsl:call-template>
+			</xsl:with-param>
+		</xsl:call-template>
+	</xsl:template>
+
 	<xsl:template name="day-number">
 		<xsl:param name="year" select="number()"/>
 		<xsl:param name="month" select="1"/>
