@@ -9,7 +9,7 @@
 	<xsl:output
 		version="1.0"
 		method="xml"
-		indent="yes"
+		indent="no"
 		encoding="UTF-8"
 		media-type="application/xhtml+xml"
 		doctype-system="about:legacy-compat"
