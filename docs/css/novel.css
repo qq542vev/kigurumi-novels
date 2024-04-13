@@ -20,6 +20,23 @@ h1.definitive-title, h1.provisional-title, h1.untitled {
 	color: #666666;
 }
 
+.info dt, .info dd {
+	display: inline;
+	margin: 0;
+}
+
+.info dt:after {
+	content: ":";
+}
+
+.info dt + dt, .info dd + dt {
+	margin-left: 1em;
+}
+
+.info dd {
+	margin-left: 0.6em;
+}
+
 .info a:link {
 	color: #3838FF;
 }
@@ -61,13 +78,4 @@ h1.definitive-title, h1.provisional-title, h1.untitled {
 
 .trip {
 	color: #008800;
-}
-
-.info dt, .info dd {
-	display: inline;
-	margin: 0;
-}
-
-.info dt:after {
-	content: ":";
 }
