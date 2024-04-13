@@ -30,11 +30,11 @@ h1.definitive-title, h1.provisional-title, h1.untitled {
 }
 
 .info dt + dt, .info dd + dt {
-	margin-left: 1.2em;
+	margin-left: 1em;
 }
 
 .info dd {
-	margin-left: 0.6em;
+	margin-left: 0.4em;
 }
 
 .info a:link {
