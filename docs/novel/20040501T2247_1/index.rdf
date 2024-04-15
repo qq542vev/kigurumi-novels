@@ -11,6 +11,7 @@
 		<foaf:primaryTopic rdf:resource="#main"/>
 	</foaf:Document>
 	<sioc:Container rdf:about="#main">
+		<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#anyUri">urn:uuid:b3bf17ab-7f1d-424c-90c1-8800bbc18b6b</dcterms:identifier>
 		<dcterms:alternative xml:lang="ja">大胆アイドルくるみちゃん</dcterms:alternative>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">

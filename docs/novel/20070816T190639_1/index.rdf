@@ -11,6 +11,7 @@
 		<foaf:primaryTopic rdf:resource="#main"/>
 	</foaf:Document>
 	<sioc:Container rdf:about="#main">
+		<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#anyUri">urn:uuid:f6f5d4d7-2c11-490c-b024-da2beb4a34c0</dcterms:identifier>
 		<dcterms:alternative xml:lang="ja">アルバイトヒロインの熱中症</dcterms:alternative>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">

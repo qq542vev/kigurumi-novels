@@ -11,6 +11,7 @@
 		<foaf:primaryTopic rdf:resource="#main"/>
 	</foaf:Document>
 	<sioc:Container rdf:about="#main">
+		<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#anyUri">urn:uuid:85286627-ea9f-4867-92fc-6fe34c865fae</dcterms:identifier>
 		<dcterms:alternative xml:lang="ja">無名のお人形さん</dcterms:alternative>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">

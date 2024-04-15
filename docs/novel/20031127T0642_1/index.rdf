@@ -11,6 +11,7 @@
 		<foaf:primaryTopic rdf:resource="#main"/>
 	</foaf:Document>
 	<sioc:Container rdf:about="#main">
+		<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#anyUri">urn:uuid:c28e5715-f5c7-43d8-9fe5-6df1a3595154</dcterms:identifier>
 		<dcterms:alternative xml:lang="ja">ぬいぐるみの奥の世界</dcterms:alternative>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
