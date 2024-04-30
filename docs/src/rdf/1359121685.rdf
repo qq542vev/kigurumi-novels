@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+<!ENTITY dcterms "http://purl.org/dc/terms/">
+<!ENTITY xsd "http://www.w3.org/2001/XML_Schema#">
+<!ENTITY board "http://jbbs.shitaraba.net/anime/9756/storage/1359121685.html">
+<!ENTITY post "&board;#">
+]>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
+	<foaf:Document rdf:about="">
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-05-01T00:53:05+09:00</dcterms:modified>
+		<foaf:primaryTopic rdf:nodeID="&board;"/>
+	</foaf:Document>
+	<types:MessageBoard rdf:about="&board;">
+		<dcterms:title>【妄想】着ぐるみ小説スレ第８章【連載？】</dcterms:title>
+		<sioc:num_items rdf:datatype="&xsd;nonNegativeInteger">40</sioc:num_items>
+		<dcterms:created rdf:datatype="&dcterms;W3CDTF">2013-01-25T22:48:05+09:00</dcterms:created>
+		<sioc:last_item_date rdf:datatype="&dcterms;W3CDTF">2013-02-07T02:13:18+09:00</sioc:last_item_date>
+	</types:MessageBoard>
+	<types:BoardPost rdf:about="&post;1">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">1</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-01-25T22:48:05+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">文才よ集まれ！ここは着ぐるみを題材にした小説を載せるスレです。
+
+【ルール】
+■執筆者以外の人はsage進行でお願いします。 
+■あなたが作ったオリジナルの文章を募集します。
+■長い文章は何回かに分けて連載してください。（何話でも可）
+■１回の投稿では30行以内で書いてください。
+■執筆者は識別の為、名前欄には『必ず』ペンネームとトリップを入れてください。
+■１度使ったトリップは変えないでください。
+■題材が着ぐるみならどんな内容でもOKです。（アダルト可）
+■文章を読んだ人はこのスレに感想を書いてください。（任意）</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;2">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">2</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-01-27T00:50:29+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">消えたのか？前の掲示板。キャッシュで読めないかな？</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;3">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">3</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-01-27T16:08:41+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">692 名前：名無しさん＠ピンキー[sage] 投稿日：2013/01/26(土) 23:33:00.19 ID:???
+需要ありそうな小説スレを６章途中まで発掘した
+2769437.zip(Sc_420039.zip)</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;4">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">4</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-01-29T13:00:28+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">今までの人等、ここ知ってんのかな？</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;5">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">5</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-01-29T14:57:34+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">連載途中だった人のことかな？
+残念ながら気づいてない可能性が高いよね
+または投稿が消えてやる気がなくなっちゃったってことも…
+どちらにしろ待つしかないね</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;6">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">6</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">俺</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">XksB4AwhxU</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-01-30T00:41:30+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">人が来るまで場つなぎします。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;7">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">7</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-01-30T01:25:58+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">ｗｋｔｋ</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;8">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">8</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">俺</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">XksB4AwhxU</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-01-30T01:35:30+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">イベント系の仕事を請け負う会社に勤めてた頃の話。
+やめる直前は世話になった人達に感謝する反面、結構緩めに仕事をこなしてた。
+そんなもんだから完璧主義な上司のカナコさんからはよく目をつけられてたんだ。
+２年前だから当時２１歳のちっこいクールビューティー(笑)だった。
+キャンギャル派遣はとにかくブッチが多く、その度にオフの子を集めてたがどうしても無理な状況では文句言われるのを覚悟の上でカナコさんにお願いしてた。
+そして、とあるパチスロの｢マスコットの着ぐるみの子がまだ来てない｣という連絡を受けたんだ。
+撿その着ぐるみってのが、２等身のウサギみたいなキャラでその企業の新しいマスコットらしい。
+会社事態はド田舎の小さなチェーン店で、そのキャラに関する販促物もまだ未入荷だったらしく着ぐるみだけが先に来るという適当っぷりｗ
+店長はマスコットの詳細を把握してはいたが、この人もまた軽い人で週末にもかかわらず当日は公休を取ってた。
+とにかく欠員を埋めるべく片っ端から電話帳を漁るが、何しろ'身長制限150cm以下'だ。
+見つかるわけないし面倒だったのでカナコさんに助けを求めた。
+ｶ｢え？ヤダよ暑そうだし…俺君やりなよ｣俺｢いや…俺含めキャンペーンの子ってみんな165cm前後あるじゃないすか…多分入りもしないっすよ｣
+ｶ｢マジかあ…わかった。１回家寄って着替え取ってくから、ちょっと待ってて｣
+仕事の後に飯を要求されるか、長時間の愚痴になるかはカナコさんの気分次第だったが
+｢この仕事とももうすぐお別れだし、カナコさんのお説教もこれで最後だ｣
+と自分を慰めつつ現場に到着した。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;9">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">9</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">俺</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">XksB4AwhxU</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-01-30T22:35:58+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">他所に携帯で書いたので改行がひどいです。
+あくまで場つなぎですのでお許しを。
+ちなみにコレを見て思いつきました。
+ttp://kigurumiphotos.webspace.ne.jp/bbs/data/kigurumiphotos/img/2072_24a8c86a13.jpg</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;10">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">10</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">俺</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">XksB4AwhxU</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-01-30T22:42:27+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">とりあえずブツを確認するべくスタッフに場所を尋ねると、やはりどの様なキャラが
+来たのか知らないらしく目を輝かせながら楽しみにしている旨を伝えられる。
+バックヤードの倉庫にある大きめの段ボールを開けると
+まず目についたのはとんでもない特大サイズのウサギの頭だ。
+中から出してみると見た目よりは軽いが、その下に埋もれるかの如く入っていた
+胴体の小ささを見ると、やはり小柄な女性でなければキツそうだ。
+どうやらマスコットの腕は内蔵されている棒で動かすタイプで
+わ操演者の肘から下にかけて胴が位置し、その上に先程の頭を被せるらしい。
+撿残るは別の袋に包まれた王冠の様な物だ。
+ウサギの二本の耳の間には何故か穴が開いており、その周りと王冠の下部の
+接合部分の一致からウサギのアイテムであることを再確認する。
+箱の底には白いほっかむりの様な物体が一つ。用途は既に心得ている。
+この業界にいると度々、着ぐるみを扱うが担当するのは大概キャンペーンの女の子である。撿
+伝えられた仕事内容とは全く別のコスチュームを手渡され
+それを着用し朝礼に臨むが挨拶ということで頭部を外すことを指摘される。
+その子の綺麗なご尊顔があらわになるにもかかわらず周囲は
+まるで腫れ物を見るような目であった。
+海外製のねんどペンギンとして人気な、そのキャラの頭があるべき場所にあるものは
+胴体と比べると大変アンバランスな大きさの所謂モジモジ君である。
+黒い布の中心から覗く、その沈んだ表情からは
+何とも言えない心の叫びが伝わってくる様で心許なかった。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;11">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">11</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-01-31T12:30:51+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">ｲｲﾈｲｲﾈ-</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;12">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">12</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">俺</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">XksB4AwhxU</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-02T01:33:18+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">話は逸れたが、その光景をカナコさんに置き換えると何だか笑えてしまい
+同時に一つの仮定と企みが俺の中に芽生えた。
+すぐに王冠の側面を見ると…やはり視界確保のための穴らしきものが確認できる。
+気づくのが遅くなったが、どうやら頭頂部の穴は操演者の頭が通過するためのもので
+それに王冠を付けて隠す仕様らしかった。
+店内のスタッフはまだマスコットのデザインを知らない…。
+王冠の用途はぱっと見た感じで分かりにくい。
+この着ぐるみを使ってカナコさんにイタズラ…いや…ささやかな復讐をしてしまえ。
+俺の中の悪魔がそう囁いた。撿
+
+こうして俺は王冠を袋の中にしまい、それを入れた段ボールを部屋の片隅へ
+追いやった。そう…今回のイベントもとい復習劇にあの王冠は邪魔だったのだ。
+仮に後で文句を言われても｢気づきませんでした｣で済む様な状況の現場だし
+どうせもうすぐ退社する身だ。
+そんなことを考えているうちにカナコさんが到着。
+イベント開始まであまり時間がないので着用に取り掛かることになった。
+胴体に足を入れるカナコさんに語りかける。
+
+ｶ｢え？…ああ…頭に被るヤツかあ。これ絶対付けなきゃダメなの？｣
+俺｢汗吸い取る役目なんですから…新しい着ぐるみですし汚しちゃまずいっすよ｣
+そうだ。今回はこの布っ切れが主役なんだから付けてもらわないと困る。
+王冠の存在がないことになってる今ならなおさらだ。
+ｶ｢もお…。ちょいあっち向いてて｣
+モジモジ君スタイルが恥ずかしいのか、そう催促する彼女。
+どうせこの後いくらでも見られるにも関わらず無駄な抵抗だ。…そう…いくらでもね。
+丸い穴から伺える少し紅潮したカナコさんのお顔を尻目に俺は巨大な頭部を持ち上げた。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;13">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">13</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">俺</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">XksB4AwhxU</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-03T01:28:16+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">俺｢んじゃ頭かぶせますよ｣
+ｶ｢ん…お願い｣
+カナコさんにとっては一刻も早く自分の頭を隠したかったんだろうが
+その願いも次の瞬間には無惨に崩れ落ちた。
+ｶ｢へぁ？！｣
+頭部を装着することによる蒸し暑く視界不良の世界に
+未だ自分がいないことに違和感を覚えたのかカナコさんの第一声はその姿もあいまって
+非常に滑稽なものだった。
+
+俺｢ぷっ…マジいいかんじっすよカナコさん｣
+ｶ｢ふぇ…？この穴って何？｣
+ようやく登頂部の穴に気づいたらしいが、もう遅い。
+王冠が無い限り、その様相どころか表情すら隠せないのだ。
+俺｢ん~…このキャラの原版が手元に無いんで確認できないんですけど、
+多分こういうマスコットなんじゃないんですか？両耳の間だから、あんこうの触角みたいな…それがカナコさんの頭なんすよ…きっとｗ｣
+ｶ｢えええ？！そんなこと聞いてないし…
+じゃアタシの頭を含めて一つの着ぐるみってこと？！｣撿
+
+俺｢そうっすねｗでも、わざわざ顔が出るように造ってあるってことは喋んなきゃダメですよ~！
+ほら！ウサギって話せないでしょ？だから人間部分が出てるとこで会話するんすよ！
+触角だしｗ｣
+ｶ｢ひぇえ？！声も出さなきゃダメなの？！｣
+俺｢ウサギっぽくカワイイ声でお願いします。解り易い様に語尾に~だぴょん！
+…を付けなきゃですね。じゃなきゃ顔を白く塗るしかないですよおｗ
+それなら人間部分(ちょっとだけ)消えるし…｣</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;14">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">14</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-03T18:00:43+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">仕事もしないでいた自分に大学時代の友人から一緒に仕事をしないかと誘いがあった。
+誘ってくれた彼女はこちらの出身ではなく地方出身者で大学を卒業後しばらくはこちらにいたが、その後地元に帰ったと聞いていた。大学時代はすごく可愛く好意をもったこともあり久しぶりに会ってみたい気持ちもあり、指定されたところへ行った。そこは彼女の地元の物産店だった。入口には妙にリアルな恐竜の置物？があった。
+店内に入ろうと近づくと「直樹くん！来てくれたんだぁ」とその恐竜が立ち上がり、
+話しかけてきた。
+そう、その恐竜は誘ってくれて彼女、美優が入っていたのだ。
+恐竜の着ぐるみの彼女に手を引かれて店の奥へと入っていく。
+店には店長の里香（30歳くらい）と里香よりも少し若い恵美がいた。
+「店長がもうすぐ来るからと」と言いながら、美優は恐竜の口を大きく開けると、口は顎
+から上が裏返り黒い丸い物体が顔を出した。
+その黒い物体を近づいてよく見ると、鼻のようなものそれに耳も、それに少し息苦しそうな呼吸音も聞こえる。
+「近づきすぎ！」美優の声にビックリして後退した。
+自分では気付いていなかったが、近づきすぎていたようだ。
+美優が「頭の後ろのファスナー下ろしてくれない」と。
+黒い物体の後ろにまわると、後ろにファスナーがあり、下ろしていくと、後ろでお団子
+結びの髪が、続いて美優の顔が出てきた。声は聞いていたが、久しぶりに美優に対面
+できた。大学時代から可愛くスタイルもよかった彼女はどこかのモデル事務所に所属
+していたときはチョクチョク連絡を取り合っていたが、事務所をやめて地元に帰って
+からは疎遠になっていた。
+なにかゴソゴソしている美優、顔しか出ていなかった恐竜の口の部分から美優の両腕が
+が出てきて、恐竜の裏返った口を美優の腰辺りまで下げると、黒いタイツには覆われて
+いるが、はっきりと分かるくらい豊満な彼女の胸が飛び出してきた。
+楽な体勢になった美優と久々に話をしようとしたとき、店長の里香が入ってきた。
+今日は面接に来たのであって、美優と話をしに来たのではなかったことを思い出した。
+美優の紹介ということもあり、少し話をしただけで採用となった。
+その後、早速、業務内容の説明があった。品だしに検品、レジうち。そして、着ぐるみの
+脱着のお手伝いなど。美優の手伝いだけかと思っていたが、恵美が入るご当地ゆるキャラ
+があり、そちらもサポートするとのことだった。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;15">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">15</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-03T18:22:14+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">今日は恵美について、いろいろ教えてもらうことになったが、その前に美優を恐竜に戻す
+初めての仕事があった。美優に教えてもらいながら、恐竜を上半身だけ着せた。見かけは
+すこしリアルで恐い恐竜であるが、中身が美優だと思うと変に興奮するのを覚えたが、
+グッとこらえて美優を店の前へ手を引いて連れていった。
+ちなみに、なぜ恐竜なのかというと美優の地元では恐竜の化石がいくつも発見されている
+からだそうだ。ゆるキャラは名産のキノコをモチーフにしいるとか。
+女性だけの職場で、それほどたいしたことはないと思っていたが、これが予想以上に
+きつかった。それでも小柄で細身の恵美は、身体に似合わずに仕事をこなしていく。
+仕事を教えてもらいながら、着ぐるみについて教えてもらった。
+今、美優が着ている恐竜は一つで美優に合わせて造ってあるので、彼女しか着れない。
+ゆるキャラは２体あり、一つは恵美が着る少し小さめのものと、美優が着る少し大きめの
+ものがある。日替わりで、着ぐるみを担当しているが、日曜だけはゆるキャラ２体で、
+店は店長と日曜限定で来てくれる応援の方と２人でまわしているが、やはり人手がほしい
+ということ、それと来週テレビの夕方番組で店を取り上げもらうことになり、取材がはいるが日曜に来るので人手がどうしても必要になったので自分が呼ばれたのだとわかった。
+閉店の１時間前には、着ぐるみは撤収して閉店準備を始める。
+美優を着替えさせるために、店の奥へ手を引いて連れていく。
+部屋に入ると、恐竜の口を上下に裂くようにして開けると、また黒い物体　美優の
+頭が出てきた。そのまま、腕を持ってやると美優は力をこめて後ろへ自分の腕を
+引いて着ぐるみから片腕を抜いた、もう片方は自分で抜き、着ぐるみを腰辺りまで
+下げる。次は脚の部分をしっかりと持ってやると、片足ずつ着ぐるみから引き抜いた。
+目の前には、全身真っ黒なのっぺらぼうが現れた。
+まじまじ、見ていると、「早くファスナー下ろしてよ」と美優。
+美優の声に我に返り、後ろに周りファスナーを下ろす。身体をのけぞるようにして美優が
+顔を出した。そのまま、全身タイツを脱いでいく。「ちょっと待って、すぐ部屋出るから」
+といったが、美優は「いいよ、裸じゃないから。汗かいてもいいように水着きているから」と。続けて、「ありがとう。シャワー浴びてくるから、閉店作業してきて」と。
+こうして、物産店で仕事が始まった。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;16">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">16</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-03T19:29:25+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">翌日は美優が店内業務で、恵美が着ぐるみ担当だが、着ぐるみを着せる手伝いは初めて
+なので、美優についてもらい教えてもらうことに。
+美優が出してきたゆるキャラの着ぐるみを見て驚いた、すごく小さい。
+恵美は確かに小柄だがそれでもこの着ぐるみは小さすぎる。
+ゆるキャラは、キノコの傘をかぶっており、太い軸の部分から細いキノコが２本生えて
+いる（手の部分）、そして軸の根元（足の部分）は二股に分かれている
+キノコに入るには、頭の傘の部分を開いて入るのだが、丈が短すぎる。
+どうやって、着るのだろうと考えているところに、頭から足の先まで黒の全身タイツを
+まとった黒いマネキンのような恵美が現れた。
+早速、キノコを着せにかかる。
+美優の指示で、床に正座している恵美を片足ずつ着ぐるみに入れていく。
+そう、小さな着ぐるみを着るために、膝を曲げた状態で入らなければいけないのだ。
+両足が納まると、恵美を立たせ着ぐるみを胸の辺りまで引き上げる。
+つぎに手の部分だが、これまた短い。
+恵美は肘を曲げ、片方ずつ着ぐるみに入っていく。
+一度キノコに入ると、自分では脱ぐことはもちろん、曲がった腕や脚では動きが制限
+され自分では少し動くくらいで、なにもできなくなる。
+頭だけ飛び出た状態の恵美にキノコの傘を被せて完成である。
+中からは傘のひだ部分の隙間から外がよく見える、恵美に被せる前に被らせてもらった。
+移動がたいへんなので、キノコになった恵美を台車に載せて店の前へ。
+自分で降りようしているが、転びそうなので抱きかかえて降ろしてあげた。
+傘の奥の方からこもった声で「ありがとう」という声が聞こえてきた。
+「がんばってください。」と声をかけて店内に戻る。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;17">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">17</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-03T19:55:13+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">物産店キター</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;18">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">18</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">俺</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">XksB4AwhxU</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-03T19:59:20+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">物産展さん、後はよろしくお願いしますね。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;19">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">19</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-03T23:16:38+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">美優に仕事を教えてもらう。
+外では短い手足を動かす愛らしい姿に、通りを行き交う親子連れに大人気だった。
+中には写メを撮る人の姿も見られた。
+美優の恐竜のときは泣き出す子供もいたが、えらい違いだ。
+気になり、恵美の様子ばかりを見ていたので、美優に怒られた。「見習いさん、しっかり
+仕事してね」と。
+仕事に専念して、ふと恵美のことが気になり見てみると、キノコの姿が見えない。
+慌てて外に出ると仰向けの状態で、短い手足をパタパタしている。
+必死に起きようとするが、短い手足ではどうにもならない。
+起こしながら、どうしたのか聞くと、中学生の三人組が来て、話掛けられたが応えず
+にいると押されて倒されてしまったのだ。
+倒れたまま10分くらい起き上がろうと奮闘したが、駄目だったところに、直樹が
+気付いたのだった。
+かなり、がんばったようで、説明する声が途切れ苦しそうだった。
+背中の汚れたキノコに入った恵美を立たせ、台車と店長に恵美の休憩の了解を取りに
+店に入った。
+キノコに入った恵美の元に台車を持って戻る、そのまま台車に載せて店の奥へ。
+幸い　キノコの周りには人はおらず、すんなり店の奥へ運ぶことができた。
+すぐに傘を取ると、黒い頭が現れた、かなり辛そうに呼吸している。
+かいた汗でタイツが顔に纏わりついて呼吸がままならないようだ。
+着ぐるみを脱がせるより先に顔の部分だけ解放した。
+恵美の顔は赤く、湯気が立ち上っている。
+団扇で扇いで、落ち着かせてから着ぐるみを脱ぐのを手伝った。
+「私、鈍臭いのでよく転ぶので慣れてはいるんですけど・・・」と恵美。
+恵美を休ませて、状況を店長に報告すると、「君、やってみる？」と。
+一瞬、なにを言っているのか理解できなかったが、すぐに着ぐるみに入ること
+だとわかった。
+戸惑っていると、店長は美優を呼んでなにか指示をしている。
+その後、美優に連れられて店の奥へ。
+店長から美優に、自分と美優の身長が近いので、美優の着ぐるみなら
+着ることができるのではないかとのことだった。
+シャワーを済ませた恵美が申し訳なさそうに、入れ替わりで売場へ。
+美優が「あの娘、Mだから、あのままでもよかったのに」と。
+美優は、恵美のキノコよりも少し大きめのキノコを出してきた、使い込んだ感のある
+着ぐるみだった。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;20">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">20</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-03T23:17:51+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">以前、美優が入っていたものだそうだ。今は使っていないが何かあったときのために
+予備として取っておいたものだそうだ。
+そして、美優の全身タイツも借りることに、多少は伸びるがかなりきつい、
+後ろのファスナーを締めてもらうと、後ろへ引っ張られるように反ってしまう、
+鼻は潰れてしまいそうだが、同時に美優のいい香りがする。
+締め付けがいいのか、美優の香りのせいなのか、興奮してきた。
+自分では気付いていなかったが、Mなのだろうかと思いながら、着ぐるみに入っていく。
+着ぐるみの中にも美優が。全身を美優に包まれているようでますます興奮してきた。
+「大丈夫？」という美優の問いかけで、我に返り、すぐに大丈夫と答えたが、股間の方は
+ぜんぜん大丈夫ではなくなっていた。
+台車で表へ運んでもらい、降りるくらいは自分でとやってみたが、想像以上に身体が
+うまく動かずにうつ伏せに倒れてしまった。
+「大丈夫～？」と少し呆れた感じの声が後ろから聞こえてきた。
+すぐに自分で起き上がろうとするが、腕が短すぎて、虚しく左右に揺れ動くだけだった。
+「あんまり動かなくていいから」といいながら、美優が起こしてくれた。
+倒されてしまい必死で起き上がろうとしていた恵美の気持ちがわかった気がした。
+誰も助けに来ないで、放置されている感じはMにはすこし快感なのかもしれないとも
+思った。
+中身は男だが、ゆるキャラのキノコは人の目には愛らしく映るようだ。
+短い手足を動かすとコミカルで可愛く見える。
+人がよってきては写真を撮っていく。
+そのまま、店へ入っていく人も多く、客寄せ効果はかなりある。
+店は着ぐるみで繁盛しているといっても過言ではないと思う。
+閉店までの短い時間だったが、彼女達のたいへんさを体験できた。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;21">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">21</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-03T23:19:18+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">翌日、店は休みだったが出勤するように言われていたので
+出勤すると店長と美優がすでに来ていたが、恵美の姿がない。
+２人は足元をじっと見ている。
+視線の先には黒く少し光沢のある物体がある。
+よくよくみると微かに動いている。
+店長が「恵美、どんな感じ？きつい？それとも気持ちいい？」と。
+恵美？と思いながら少し角度を変えて見ると、
+キノコに入るときのような状態の拘束着になっていた。
+全身をゴムで覆われているので曲げられた腕や脚、
+身体のラインまでくっきりと浮き出ているがわかる。
+顔はよく見ないとわからないぐらい小さな穴が鼻のところに
+２つ空いているだけで、のっぺらぼうのようになっている。
+恵美の視界は当然、奪われてしまっている。
+そんな恵美に美優が「触っていいですか」と聞いている。
+恵美が答える間もなく美優が恵美の胸を揉みはじめた。
+恵美は抵抗しようとするが、短い手足では
+身体をくねらせるだけしかできなかった。
+美優に身体のあちらこちらを触られて、感じているようで
+吐息まじりの声が聞こえる。
+このスーツは店長が恵美を細かく採寸して造ったものらしい。
+店長は恵美をおもちゃにしている美優に「あなたのもあるけど・・・」と。
+店長は美優のも準備していた。
+恵美のものと同じ薄いゴムでできているが、形状は違い足の部分、
+下半身は普通のタイツのようになっているが、
+腕は後ろで組んだ状態で着るので全く手は使えなくなる。
+水着を着てきていた美優は、すぐに服を脱ぎそのスーツを着始めた。
+一人では着ることができないので手伝う。
+着せ終わると、１本の黒い棒のようになった。
+以前、モデルをやっていただけあり、美優の美脚が強調される。
+店長はその黒くきれいな脚にヒールの高いニーハイブーツを、
+そして合皮のスカートを履かせ、床に倒した。
+そして「立つことができたら、ごほうびをあげるわ。
+でも、起きられなかったらお仕置きよ」と。
+美優は必死に起き上がろうとするが、合皮のスカートが
+伸びず、まとわりついてくるので、脚がうまく動かせない。
+なんとかしようとするが、皮が擦れ合う音だけが虚しく響くだけだった。
+おまけに高いヒールのブーツでは動きは制限され、
+ブーツは床の上を蹴るだけだった。
+「３分あげるから、がんばるのよ」と店長。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;22">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">22</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-03T23:20:30+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">美優とのやり取りの間、仰向け状態で休んでいた恵美だったが、
+その行動が店長には気に入らなかった。
+直樹にキノコの着ぐるみを取ってきて、
+恵美にキノコを着せるように指示した。
+迫力があり逆らうことができなかった直樹は、
+店長の指示通りに恵美にキノコの着ぐるみを着せにかかった。
+抵抗する恵美をキノコに入れて頭の部分を締める。
+そしてキノコになった恵美に店長の蹴りが入り、
+「きゃっ！」とこもった悲鳴と共にキノコが床に転がった。
+店長は「起き上がれたら、許してあげる」と。
+普段でも起き上がるのが困難なのに、拘束着をきたままで
+中は非常に暑く苦しい、おまけに上手く動けないのに起きろなんて。
+その間も美優は立とうとがんばっていたが、
+約束３分が経ってしまった。
+「できなかったのでお仕置きね」と店長。
+笑みを浮かべながら、美優の上半身部分を
+ビニール袋に詰め始めた。
+脚だけが出た状態で、ビニール袋の口を縛った。
+ビニール袋からブーツが生えた奇妙なものが
+目の前に横たわる。
+その奇妙な物体が呼吸するたびに、ビニール袋が
+収縮・膨張を繰り返す。
+この中では、腕の自由を奪われた状態で美優が
+苦しそうに呼吸しているのかと思うと興奮してきた。
+また、その傍らで立ち上がろうとしてるキノコがいる、
+少し体勢がよくなると、店長に蹴られて倒れている。
+これでは立つことはできないだろう。
+それでも必死にあがいている恵美は今、
+どんな気分なのだろうかと考えているとまた興奮してきた。
+しばらくすると、美優に被せられているビニールが曇ってきた。
+そして、よく聞き取れないが、ぐもった声で助けを求めている。
+立ち上がろうとしていたキノコもおとなしく床で転がっているが
+耳を澄ますと苦しそうに呼吸しているのがわかる。
+それを見て店長が、直樹に「彼女達を解放してあげていいわよ」
+といって部屋を出て行ってしまった。
+まず苦しんでいる美優のビニール袋を外してやると、
+少し楽になったのかおとなしくなった。
+そのあとすぐにキノコの頭を外してやると、
+恵美が肩で呼吸しているのがわかった。
+二人ともしばらくそのままで動けなかった。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;23">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">23</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-04T16:47:46+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">お昼も近くになり、二人ともようやく
+解放されたかのように思われた。
+美優と直樹は先に店を出たが、
+恵美はまだ解放されていなかった。
+キノコからは解放されたが、
+恵美には店長が特別な着ぐるみを用意していた。
+それは精巧に造られた犬の着ぐるみ。
+再び拘束着を着せられた恵美は、
+犬にされていく。
+最後にお腹部分のファスナーを閉める、
+ファスナー部分は毛で覆われて
+全く判らなくなった。
+拘束着で曲げられて短くなった手足をカバーするように
+犬の着ぐるみには肉球のついた細い前足と後足がついている。
+そのため、恵美はうまく立つことも歩くこともできない。
+そんな犬にした恵美を店長は大きめのゲージに押し込む。
+そして、そのままゲージを車に乗せて帰った。
+店長の家で恵美がどうなったかわからない。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;24">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">24</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-04T16:49:00+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">翌日、店に新しい恐竜の着ぐるみが届いた。
+かなり小さく細身の四本歩行の恐竜の着ぐるみ、
+皮膚は軟らかくよく伸びる素材でできている。
+美優の恐竜と同じように口の部分から入る。
+口の中でロックができ、外側からは容易に
+開くことはできない。
+目の部分は透明でできていて、
+外がよく見ることができるようになっていた。
+恵美が着ることは誰もがわかっていたが、
+美優はすぐに興味をもち、着てみたいと言い出した。
+恵美よりも身体の大きな美優が着ても、
+皮膚がよく伸びるので着ることはできたが、
+さすがに頭は納まりきらずに、
+パッと見た感じでは恐竜に食べられているように見える。
+直樹は吹き出してしまい、恐竜に食べかけられている
+ように見える美優に怒られた。
+美優の身体はなんとか恐竜に納まっているが、
+よくよく見るとピチピチ過ぎて、胸やお尻、身体のライン
+までもが、くっきりと浮き出ていた。
+店長はそんな美優の身体を撫で回すように触り始めた。
+少し感じている美優は、逃れようとするが手足を
+曲げて着ているので思うように動けない。
+そんな光景を直樹は、股間が熱くなるのを感じながら
+眺めていた。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;25">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">25</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-04T16:59:19+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">そこへ、かなり遅れて、恵美が出勤してきた。
+遅れてきた恵美を店長はなにも咎めず、
+「着ぐるみを着てもらうから、着替えてきて」と。
+しばらくして全身タイツに着替え、
+黒いマネキンとなった恵美が現れた。
+早速、店長がラバー製の拘束着を
+恵美に着せ始めた。
+直樹は、店長に身体を触られ顔を赤らめた
+美優を着ぐるみから脱がせる。
+どうにか美優を脱がせることができた時、
+拘束着を着せられた恵美に店長が
+猿轡のようなものを付けていた。
+その猿轡は恵美の声に反応して、
+恐竜の声を出すことができる。
+恵美の声はその声にかき消されて
+聞こえることはない。
+店長は恵美のお尻をたたくと、
+恵美は思わず声を出したが、
+その声は恐竜の鳴き声のようだった。
+新しい恐竜の着ぐるみを恵美に着せていく。
+拘束着で視界を奪われている恵美は
+されるがまま、恐竜に入れられていく。
+直樹は店長に
+「恵美さん、目が見えないですが」
+と聞くと。
+「この娘、ほとんど動けないから大丈夫」と。
+着せ終えると、かなり小さいかわいらしい
+恐竜ができあがった。
+店の前に運ぼうと台車を探すと、
+台車には大量の荷物が乗っていて
+使えなかったので、直樹が抱っこして運ぶことにした。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;26">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">26</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-04T17:03:48+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">運ぼうと持ち上げたとたんに、恵美は驚いたのか
+恐竜の鳴き声を出して暴れた。
+まるで、本物の恐竜のようだった。
+ビックリして直樹は、恵美を落としそうになったが、
+それでもなんとか落とさずに店の前へ。
+そして、店長に指示されたとおりロープの付いた
+首輪を恐竜になった恵美に取り付ける。
+店長が言うには、目が見えないので
+安全のため行動範囲を制限するためだと。
+首輪を付けられた恐竜は、時折鳴きながら
+動き回る。
+その光景は、まるで店で恐竜を
+飼っているように見えるだろうと
+直樹は思った。
+そんな店のペットのような恐竜に興味を
+持って見ている男がいた。
+その男の名前は、健二。
+爬虫類を愛するこの男は恵美の入っている
+恐竜が爬虫類の新種だと思い、
+一目見たときから手に入れたいと思った。
+毎日のように、健二は物産店に通った。
+しかし、日替わりでいろいろな着ぐるみが
+出ているのに、恵美の恐竜が着ぐるみとは
+気付かなかったようで、ある日健二が
+行動を起こす。
+そう、恵美の入った恐竜を盗んでいった（誘拐？）
+オープン時を狙い、直樹に抱えられて店の前へ
+連れて来られた恐竜の首輪をナイフで切断して
+そのまま準備してきた麻袋へ、恵美を入れて
+近くに停めてあった自分の車へとすばやく運んでいった。
+店長以下、従業員が気付いた時には
+切られた首輪が転がっているだけだった。
+視界が奪われている恵美。
+麻袋にほり込まれ、状況が全くわからない、
+おまけに今度は車。
+恵美は、店長が悪ふざけで直樹に指示して
+こんなことをさせているのか？
+くらいにしか思っていなかった。
+しかし、いつもよりも扱いが丁寧な上
+聞いたことのない声が聞こえてきたようで、
+不安になり声を上げた。
+車の後部座席で、麻袋が奇声を発しながら動いているのを
+嬉しそうに見ながら、健二は車を走らせた。
+しばらく、走っていると恵美はいつの間にか
+声を出すのに疲れて眠ってしまった。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;27">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">27</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-04T17:10:23+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">恵美が連れてこられた部屋には、いくつもの爬虫類の
+入った水槽が置かれていた。
+そして部屋の中央には新しい金属製のカゴが
+用意されていた。
+麻袋から出された恵美は、そのままカゴへと移され
+扉を南京錠でロックされてしまった。
+カゴの外から健二が、女の子がリアルな恐竜の
+着ぐるみを着ているとも知らず新種の爬虫類に出会ったと
+思い込み嬉しそうに眺めている。
+そして、ネットや図鑑で何かを調べ始めた。
+爬虫類の知識はあったが、見たことがない大きさだったので
+餌や飼い方を調べていたのだ。
+当然、どこを調べても分かるはずがなく、
+仕方なく思いつくものをカゴへ入れて見るが
+全く食べようとしない。
+当たり前なのだが・・・。
+何も食べてくれない恐竜に、健二は話しかけた。
+その声を聞いた恵美は、今の状況が店長の悪ふざけでなく、
+自分の知らないだれかに連れ出されたことに気付いた。
+急に恐くなった恵美は、「助けて！出して！」と叫んだが、
+その声は健二には恐竜の鳴き声としてしか届かなかった。
+それでも、しばらく手足をバタバタしたが、
+全く状況は変わらずカゴが軋むだけだった。
+恵美が急に暴れだしたので、健二はどうしてよいか
+分からずオロオロするだけだったが、それもしばらく
+すると納まった。
+パニックの上、暴れて酸欠っぽくなり恵美は
+倒れ込んでしまった。
+しかし、倒れ込んだ衝撃と声を出して暴れたことで
+口のまわりがよだれまみれになり、猿轡が緩んで
+外れた。
+ようやく猿轡から解放された恵美は、
+勇気を振り絞って、健二に話しかけた。
+健二はかなり驚いていたが、
+言葉を話す爬虫類を前に、この生物が
+中身が人間でしかも女の子であることに
+ようやく気付いた。
+そして、健二は爬虫類にしかみえない
+恵美に恐る恐る今までの事情を話した。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;28">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">28</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-04T17:18:19+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">そのおどおどした話し方をしている健二に
+恵美は着ぐるみを脱がせてほしいと頼んでみた。
+健二は恵美に脱がせ方を聞きながら、
+脱がせていく。
+恐竜の口から、黒い頭が出たとき健二は
+かなり驚いたのか、後ろにのけぞり尻餅をついた。
+頭は出たが腕は曲がった状態で、着ぐるみに
+入っているので、これではまだ自分では
+脱ぐことができない。健二に手伝ってもらい
+なんとか恐竜の口を恵美の腰部分まで下げてもらった。
+拘束着姿の上半身が現れた恵美は、拘束着のファスナーを
+下げてもらえれば、一人でも脱げると思っていたが、
+思うように脱げない。
+恐竜の口から出てきた黒い物体は、
+しきりに短い腕を動かしているが、一向に変化はない。
+最終的にはうな垂れる恵美を見て健二が、声を掛けて
+拘束着を脱がせてくれた。
+最後は自分で全身タイツから顔出す。
+ようやく新鮮な空気にありつけた恵美。
+深呼吸していると、目の前には見知らぬ男。
+もちろん、それは健二である。
+健二は気の弱そうな青年であるが、なかなかのイケメン。
+恵美は少し恥ずかしくなり、健二から顔を背けた。
+健二も女性とまともに話したことがないので、
+下を向いている。
+お互い、相手の顔を見ないでしばらく話をした。
+恵美は健二に好感を少し抱いた。
+健二もまた恵美に同じ気持ちを抱いていた。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;29">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">29</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-04T17:24:33+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">いろいろ話をして、健二のしたことを恵美は許せていたが、
+おそらく店ではえらい騒ぎになっていることは容易に想像できた。
+着ぐるみをここにおいて、自分だけ戻れればよいが服がない。
+考えた挙句、健二のために恵美は再び恐竜に入り、
+そのままプラスチックケースに入れてもらい。
+宅急便で店に送り返してもらうことにした。
+拘束着を着せてもらい、再び恐竜の中へ押し込んでもらう。
+途中、健二から「痛かったり、苦しくないの？」と聞かれた。
+恵美は「私、緩く拘束された感じが好きだから」と冗談ぽく答えた。
+実際、恵美は拘束着に包まれ、外界と遮断されていく感じに陶酔していた。
+恐竜に押し込めらた時は、気持ちよく少し濡れてしまうことも。
+送り返してもらう案も、恵美自らこういうプレイをしたいと思っていたからだった。
+仮に宅配業者に見つかっても、恐竜の着ぐるみを着ているので、
+それほど恥ずかしくないだろうと安易に考えていた。
+ケースに詰められて、運ばれていく自分。
+変な感覚に恵美は酔いしれていた。
+健二のときは、丁寧に扱ってくれていたが、
+宅配業者になると結構、雑であることが身をもって
+実感できた。速達にしてくれたのか、
+たまたまそうなったのかすぐに配送されていく。
+やがて、聞き覚えのある店の音楽が聞こえてきた。
+恵美はその音楽を聴きながら、安心してのか眠ってしまった。
+目が覚めると、ベッドに横になっていた。
+恐竜の着ぐるみを脱がされた状態で。
+傍らで、店長が心配そうに付き添って
+いてくれていた。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;30">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">30</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">とある物産店</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">1pLg/IIvYk</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-04T17:26:46+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">数日後、店内作業中　ふと顔を上げると、
+遠くに健二の姿を見つけ、
+恵美は飛び出して健二の元へ。
+健二はあれから恵美のことが心配で
+店の近くまで何度も足を運んでくれていた。
+それから、何度か二人で会うようになり、
+恵美のことを気にしていた健二は
+どんどん恵美に惹かれていった。
+恵美もまた優しく自分のことを
+思ってくれる健二に惹かれ、
+付き合うことになった。
+この二人の付き合い方は、
+世間のそれとは少し違っていた。
+会うときはいつも健二の家。
+そのとき、恵美は大きな荷物を持っていく。
+そう、荷物の中は・・・。
+そして健二の家で、恵美は裸になり
+恐竜の着ぐるみの中へ。
+拘束着を付けていないので、
+外の健二がよく見える。
+健二からは恵美が見えていない。
+健二はリアルな恐竜の着ぐるみを
+着せた恵美を膝の上に置き、
+ソファーでテレビを見たり、
+映画を見たりしていた。
+膝の上にいる恐竜からは恵美の温もりが伝わってくる。
+２時間もすると、恵美は身体を揺らせて
+脱がせて脱がせての合図をする。
+健二は温かい恐竜を抱え、ベッドへ向かう。
+ベッドで恐竜から恵美を脱皮させる。
+恐竜から出た恵美は、汗ばんでいるが、
+健二はそんなことは気にもせず、
+恵美を強く抱きしめて、そして結ばれた。
+恵美はほどなくして店を辞めてしまった。
+恵美の辞めた後、恵美と似たような
+体型の人材がほしく物産店では
+身長制限のある募集をしている。
+
+　***続・とある物産店に続く***</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;31">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">31</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-05T03:59:07+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">俺さんの続きも見たい…</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;32">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">32</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">巨大昆虫観察</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">EKwHaA83h2</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-05T18:22:19+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">妻に黙っていることがある。
+それは特撮に関する収集。
+その中でも特に気に入っていたのが、
+「巨大昆虫観察」というもの。
+主人公の幼い兄弟が遊んでいたとき、
+大きな卵を見つける。
+持って帰ると、親は大き過ぎる卵を
+気持ち悪がり捨ててくるようにいうが、
+子供達は言う事を聞かず、渋々離れの倉庫で
+育てることになる。
+兄弟が卵を温め始めてまもなく卵が孵った。
+卵から生まれた幼虫は緑色しており、
+全体的にぬるぬるした粘液で覆われている
+大きさは１ｍほどとかなり大きい。
+しばらくするとくねくねと動き、子供達と戯れる。
+その緑色の幼虫の着ぐるみに入っているのは、
+サイズ的に見て女性であるのではないかと思った。
+卵の中で着ぐるみを着せられた上、
+卵に閉じ込められ、卵の中をローションのような
+液でみたされたなら、一体呼吸はどうしているのだろうか。
+中に入っている女の子は大丈夫なのだろうか
+などと考えているとこの番組が気になり、
+毎週かかさず見るようになっていた。
+そして、この番組で見逃せないのが、エンディング。
+その回放送されたメイキングが流れる。
+幼虫の着ぐるみに入るシーンや着ぐるみが
+動きの指導受けているシーンや出演者が団らんしているなどの
+メイキングシーンが流れて、番組が終わる。
+このメイキング映像で、着ぐるみに入っているのが、
+自分の想像通り女の子なのかを確認しようと必死で見ていた。
+エンディング映像が流れるが、文字でよく見えなかったが、
+体型から確かに着ぐるみに入っているのは女性であることは確認できた。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;33">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">33</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">巨大昆虫観察</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">EKwHaA83h2</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-05T18:23:09+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">話は回を重ねる毎に幼虫からサナギ、成虫、
+さらにそこから脱皮して変体を繰り返していく。
+成虫で２回脱皮したのが、最終形態（成虫は1・2・3がある）。
+どの着ぐるみも自分の思っていたものよりもすばらしかった。
+そんな理想的な着ぐるみに入って、
+必死に演じている彼女を見てみたいという
+気持ちがどんどん大きくなっていくのがわかった。
+放送は毎回録画して、欠かさず見た。
+特にエンディングは何度も繰り返して見たが、
+彼女の顔を見ることはもちろん、
+見つけることもできなかった。
+放送終了後しばらくして、自分と同じような思いの人が
+多かったのかどうかはわからないが、DVD　BOXが発売された。
+もちろん、特典として放送されていないメイキング映像も収録されていた。
+早速、購入して見て見たが、彼女を見つけることはできなかった。
+スーツアクトレスとして織田香代子と名前が出ていたので、
+女性であることは確実になったが、
+ネットで検索してもヒットしなかった。
+全く情報もなく、一目見てみたいという
+気持ちだけがさらに大きくなっていった。
+そんなとき、妻に秘密にして隠しておいた巨大昆虫観察
+に関する雑誌やDVD　BOXが見つかってしまった。
+えらくこだわって集めていることを追求されたら、
+どう答えようなどと考えていたが、
+妻は面白そうだから一緒に見ようと言い出した。
+ホッとして見始めたのも束の間、テレビを見ながら、
+どうして興味を持ったのか聞いてきた。
+妻の香織とは、高校の３年間同じクラスで
+付き合ってこそいなかったが、すごく仲がよかった。
+香織は東京の大学へ進学、そのまま就職し、
+しばらく会っていなかったが、同窓会で久しぶりに再会。
+意気投合して１年半の遠距離恋愛をして、現在の結婚生活に至る。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;34">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">34</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-05T20:31:18+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">巨大昆虫の人きたああああああああ
+パープルワーム続きパンツ脱いで待ってます！</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;35">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">35</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-06T00:29:19+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">執筆者じゃない人が転載するのは本当はあまりよくないのでは？</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;36">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">36</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-06T01:22:37+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">私も俺さんの続きみてみたいです
+それとも他所に携帯で書いたとありましたがどこかで見れるのでしょうか？</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;37">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">37</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick rdf:datatype="&xsd;string">俺</foaf:nick>
+			<dcterms:identifier rdf:datatype="&xsd;string">XksB4AwhxU</dcterms:identifier>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-06T23:40:09+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">私はあくまでつなぎということで
+上のお二方が一段落ついたらまた掲載致しますね。</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;38">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">38</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-07T00:30:03+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">どなたか、プ○キュアっぽいバイトの話で
+先輩に人形のふりをしろっていわれた話をお持ちではないでしょうか？
+執筆者は分からないのですが・・・</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;39">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">39</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-07T01:28:29+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">&gt;&gt;37
+楽しみにしてますね
+ただ巨大昆虫観察については&gt;&gt;35さん言うとおり転載なのでは？</sioc:content>
+		<dcterms:relation rdf:resource="&post;37"/>
+		<dcterms:relation rdf:resource="&post;35"/>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+	<types:BoardPost rdf:about="&post;40">
+		<rdfs:label rdf:datatype="&xsd;positiveInteger">40</rdfs:label>
+		<dcterms:creator rdf:parseType="Resource">
+			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+		</dcterms:creator>
+		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-07T02:13:18+09:00</sioc:delivered_at>
+		<sioc:content xml:lang="ja">物産店も同じ人が投稿したんだと思うよ</sioc:content>
+		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+		<sioc:has_container rdf:resource="&board;"/>
+	</types:BoardPost>
+</rdf:RDF>
