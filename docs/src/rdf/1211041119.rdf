@@ -7,7 +7,7 @@
 ]>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-04-03T17:23:38+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-05-01T00:31:38+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="&board;"/>
 	</foaf:Document>
 	<types:MessageBoard rdf:about="&board;">
@@ -71,7 +71,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1184654919/</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-19T12:33:24+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">まだ完結してない話があるけど
-作者さん来てくれるよね？(´・ω・`)</sioc:content>
+作者さん来てくれるよね？(´･ω･`)</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -149,10 +149,10 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1184654919/</sioc:content>
 	<types:BoardPost rdf:about="&post;12">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">12</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">ななし、ですわ〜</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">ななし、ですわ～</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-20T21:55:43+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">そろそろ、だれか、かかないと、つまらない、でしょう、だから、わたくしが、かいて、さしあげますわ〜！と、いいたい、のですけど、あいにく、わたくしは、かくよりも、みるほうが、このみ、なので、たのしみに、してますわ！</sioc:content>
+		<sioc:content xml:lang="ja">そろそろ、だれか、かかないと、つまらない、でしょう、だから、わたくしが、かいて、さしあげますわ～！と、いいたい、のですけど、あいにく、わたくしは、かくよりも、みるほうが、このみ、なので、たのしみに、してますわ！</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -172,7 +172,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1184654919/</sioc:content>
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-20T22:00:35+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">12と13は同一人物だべ！おれもだべさ〜</sioc:content>
+		<sioc:content xml:lang="ja">12と13は同一人物だべ！おれもだべさ～</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -220,7 +220,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1184654919/</sioc:content>
 	<types:BoardPost rdf:about="&post;19">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">19</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">457　—　着ぐるみの囚人服　—　 </foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">457　―　着ぐるみの囚人服　―　 </foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">sAEsqgy2Kg</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-23T22:02:01+09:00</sioc:delivered_at>
@@ -260,7 +260,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1184654919/</sioc:content>
 	<types:BoardPost rdf:about="&post;20">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">20</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">457　—　着ぐるみの囚人服　—　 </foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">457　―　着ぐるみの囚人服　―　 </foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">sAEsqgy2Kg</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-23T22:03:09+09:00</sioc:delivered_at>
@@ -300,7 +300,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1184654919/</sioc:content>
 	<types:BoardPost rdf:about="&post;21">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">21</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">457　—　着ぐるみの囚人服　—　 </foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">457　―　着ぐるみの囚人服　―　 </foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">sAEsqgy2Kg</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-23T22:05:23+09:00</sioc:delivered_at>
@@ -340,7 +340,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1184654919/</sioc:content>
 	<types:BoardPost rdf:about="&post;22">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">22</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">457　—　着ぐるみの囚人服　—　 </foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">457　―　着ぐるみの囚人服　―　 </foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">sAEsqgy2Kg</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-23T22:06:28+09:00</sioc:delivered_at>
@@ -380,7 +380,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1184654919/</sioc:content>
 	<types:BoardPost rdf:about="&post;23">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">23</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">457　—　着ぐるみの囚人服　—　 </foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">457　―　着ぐるみの囚人服　―　 </foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">sAEsqgy2Kg</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-23T22:07:34+09:00</sioc:delivered_at>
@@ -420,7 +420,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1184654919/</sioc:content>
 	<types:BoardPost rdf:about="&post;24">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">24</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">457　—　着ぐるみの囚人服　—　 </foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">457　―　着ぐるみの囚人服　―　 </foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">sAEsqgy2Kg</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-23T22:08:38+09:00</sioc:delivered_at>
@@ -434,14 +434,14 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1184654919/</sioc:content>
 ついさっき淫らな行為は自粛しようと思ったのに、舌の根も乾かぬ内というが元々舌が濡れていない今の聖美子には無縁だ。
 最初は両手とも遠慮がちに触っていたが次第に大胆に弄りだした。
 …
-「ねえねえ、今度のデータ、これまた凄い値なんだから〜」
+「ねえねえ、今度のデータ、これまた凄い値なんだから～」
 「こっちの数値もさっき以上に乱高下してるぜ」
 「なかなか興味深い結果が得られたようね」
 「そろそろ、アレ試した方がいいんじゃねーか？」
 「そうね」
-「じゃ、スイッチ押すんだから〜」
+「じゃ、スイッチ押すんだから～」
 「まって、まだよ。私が押します。そのスイッチをよこしなさい」
-「えーずるいんだから〜」
+「えーずるいんだから～」
 「つべこべ言わないの」
 「はーい」
 美少女着ぐるみ婦警さんが抱えていた怪しいスイッチを美人着ぐるみ婦警さんが取り上げる。
@@ -450,7 +450,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1184654919/</sioc:content>
 「…今ね！」
 暫くモニタ画面を見ながらタイミングを見計らっていた美人着ぐるみ婦警さんがセーフティを跳ね上げ、ぽちっ！とスイッチを押す。
 見守っていた二体が息を呑む。
-「さ、さすがはおねーさま…なんだから〜」
+「さ、さすがはおねーさま…なんだから～」
 「こりゃ、すげーわな…」
 「さあ、迎えに行きましょうか。私たちの新商品を…」
 そういうと傍らのリモコンを持って立ち上がった。</sioc:content>
@@ -463,7 +463,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1184654919/</sioc:content>
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-24T11:50:00+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">新作キタ━━━━━━(゜∀゜)━━━━━━━!!!!!</sioc:content>
+		<sioc:content xml:lang="ja">新作ｷﾀ━━━━━━(ﾟ∀ﾟ)━━━━━━━!!!!!</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -649,7 +649,7 @@ GJ!</sioc:content>
 	<types:BoardPost rdf:about="&post;32">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">32</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">457　—　着ぐるみの囚人服　—　</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">457　―　着ぐるみの囚人服　―　</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">sAEsqgy2Kg</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-05-24T21:47:01+09:00</sioc:delivered_at>
@@ -922,7 +922,7 @@ pass:orz
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-06-22T06:00:10+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">夫婦の噺の人と転校生の噺の作者帰ってきてぇ〜！</sioc:content>
+		<sioc:content xml:lang="ja">夫婦の噺の人と転校生の噺の作者帰ってきてぇ～！</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1034,7 +1034,7 @@ pass:orz
 「僕は」からはじめるなんて、小学生レベルもいいとこ。
 しかも箇条書き……。こんなのを小説だと自称してたら、超叩かれますよ。
 
-２０〜３０冊、活字の小説本を読んで勉強してから書くことをお奨めします。</sioc:content>
+２０～３０冊、活字の小説本を読んで勉強してから書くことをお奨めします。</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1079,7 +1079,7 @@ pass:orz
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-06-29T20:34:31+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">で、続きマダー （・∀・ ）っノシ凵 ⌒☆チンチン</sioc:content>
+		<sioc:content xml:lang="ja">で、続きﾏﾀﾞｰ （・∀・ ）っﾉシ凵 ⌒☆ﾁﾝﾁﾝ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1132,7 +1132,7 @@ pass:orz
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-06-29T21:28:09+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">工エエェェ(´д｀)ェェエエ工</sioc:content>
+		<sioc:content xml:lang="ja">工エｴェｪ(´д｀)ｪェｴエ工</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1332,7 +1332,7 @@ pass:orz
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-07-02T11:23:59+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">で、続きマダー （・∀・ ）っノシ凵 ⌒☆チンチン &gt;&gt;71&gt;&gt;79</sioc:content>
+		<sioc:content xml:lang="ja">で、続きﾏﾀﾞｰ （・∀・ ）っﾉシ凵 ⌒☆ﾁﾝﾁﾝ &gt;&gt;71&gt;&gt;79</sioc:content>
 		<dcterms:relation rdf:resource="&post;71"/>
 		<dcterms:relation rdf:resource="&post;79"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
@@ -1424,7 +1424,7 @@ pass:orz
 		<sioc:content xml:lang="ja">何でもそうですけど、勉強なくして良いものは作れないのですよ。
 どんな世界でも「できる奴」というのは「勉強や努力のやりかたを知っている奴」。
 文字や単語を並べただけで小説になるわけありません。
-「１％の閃きがあれば９９％の努力も苦にならない」とキバット先生もおっしゃってるし〜。</sioc:content>
+「１％の閃きがあれば９９％の努力も苦にならない」とキバット先生もおっしゃってるし～。</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1788,7 +1788,7 @@ pass:orz
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-07-13T10:38:52+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">良作キタ！　お疲れ様です！</sioc:content>
+		<sioc:content xml:lang="ja">良作ｷﾀ！　お疲れ様です！</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1884,7 +1884,7 @@ pass:orz
 「はい、どちらさまで？」
 「夢幻探偵事務所の夢幻です」
 ピーッ。電子ロックが外れる音と共に、おっさんが勢いよく出てきて私に抱き付き、熱いマウス・トゥー・マウスのキスをしてきた。
-「〜〜〜〜〜〜〜っ」
+「～～～～～～～っ」
 私は手足をばたつかせて抵抗し、何とか離れることができた。
 「な、何をするんですかぁっ。いきなり！？」
 「何って歓迎のキスに決まっているじゃないか、君ぃ。常識だろ？」
@@ -2503,7 +2503,7 @@ sageに関しての発言は、どれも本人の意思を尊重したアドバ�
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-07-21T23:38:36+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">大事なところに触れられると(*´Д｀*)ハァハァ　しちゃう…</sioc:content>
+		<sioc:content xml:lang="ja">大事なところに触れられると(*´Д｀*)ﾊｧﾊｧ　しちゃう…</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2938,7 +2938,7 @@ ttp://www.quizilla.com/poems/7427925/barbie-doll-mask
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-08-08T23:18:44+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">(゜Д゜)ハァ?</sioc:content>
+		<sioc:content xml:lang="ja">(ﾟДﾟ)ﾊｧ?</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2948,7 +2948,7 @@ ttp://www.quizilla.com/poems/7427925/barbie-doll-mask
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-08-08T23:45:41+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">Σ(‾□‾;)!!飯能ハエエエエーYO！&gt;&gt;191</sioc:content>
+		<sioc:content xml:lang="ja">Σ(￣□￣;)!!飯能ハエエエエーYO！&gt;&gt;191</sioc:content>
 		<dcterms:relation rdf:resource="&post;191"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -3143,7 +3143,7 @@ ttp://www.quizilla.com/poems/7427925/barbie-doll-mask
 タジマはゴム球にたっぷりとジェルを塗りたくり１つ１つアンナの後ろの穴に押し込んでゆく。
 「あ・・・ああっ・・・あ゛あ゛っ」
 お尻の穴が広げられるごとに、アンナの体はピクンピクンと波打つ。鉄棒にぶら下がることしかできないアンナに抵抗する術はない。
-「準備は整った。これから君の中に入れたゴム球つき紐の先端に重りをつける。君はしっかり穴を締めて中のものが出ないようにするんだ。さもないと・・・気持ち良—くなっちゃうよ。ぐふふふ・・・」
+「準備は整った。これから君の中に入れたゴム球つき紐の先端に重りをつける。君はしっかり穴を締めて中のものが出ないようにするんだ。さもないと・・・気持ち良―くなっちゃうよ。ぐふふふ・・・」
 タジマの口からよだれがたれ始めていた。それは彼の仮面が外れ始めた証であった。
 「や・・・コーチ、それだけは・・・許してぇ」
 アンナの懇願もむなしく、タジマはニヤニヤしながらアンナの穴から出ていたフックに重りをつけた。アンナは必死に穴を締めたが重さに耐えられず、ボールが２個出てしまった。
@@ -3353,7 +3353,7 @@ Dollers待合室ではメイドさんが読書をしながら１人でつぶや�
 
 性的な表現がとってもいいっすなぁ。
 ただもう少し着ぐるみ感を出すというか
-着ぐるみでヤってるんだということが分かり易ければなおさらｇｊです。</sioc:content>
+着ぐるみでﾔってるんだということが分かり易ければなおさらｇｊです。</sioc:content>
 		<dcterms:relation rdf:resource="&post;208"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -3388,7 +3388,7 @@ Dollers待合室ではメイドさんが読書をしながら１人でつぶや�
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-08-17T15:04:12+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">(σ・∀・)σ222ゲッツ!!</sioc:content>
+		<sioc:content xml:lang="ja">(σ・∀・)σ222ｹﾞｯﾂ!!</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -3497,7 +3497,7 @@ Dollers待合室ではメイドさんが読書をしながら１人でつぶや�
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-03T22:17:31+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">作者来ないね(´・ω・`)</sioc:content>
+		<sioc:content xml:lang="ja">作者来ないね(´･ω･`)</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -3545,8 +3545,8 @@ Dollers待合室ではメイドさんが読書をしながら１人でつぶや�
 		<sioc:content xml:lang="ja">キャラショーの悪夢
 都内にあるビルのイベントホールで、「ブレザーカーニバル」が催されている。ブレザーカーニバルというのは、夢見る少女達に絶大な支持を受けている変身美少女アニメ「学園戦士ブレザー・ベガ」の同人イベントである。会場ではいくつかのサークルが力作の同人誌を販売している。他に昨日放送された第３５話での衝撃の展開について喧々諤々の議論をする集団、大声でオープニングテーマを歌っている集団がいくつか見られる。一見よくあるオンリーイベントのように見える。しかし、ただ一点他のオンリーイベントとは決定的に異なっていた。会場の壁際に設けられた特設ステージには、こんな看板がかかっていた。
 学園戦士ブレザー・ベガ　着ぐるみショー
-１回目１１：００〜
-２回目１４：００〜
+１回目１１：００～
+２回目１４：００～
 イベント主催者の粋な計らいで、プロの着ぐるみショーチームが招致されていたのだ。開演３０分前であるにもかかわらず、ステージの前はすでに満員で、各々の自慢のカメラの準備に余念がない。</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -3668,7 +3668,7 @@ Dollers待合室ではメイドさんが読書をしながら１人でつぶや�
 軽快な音楽と共に、アルタイル、デネブがステージから出てきた。
 「この公園においしい移動クレープ屋さんが来ているのよ」
 「庶民の味も、たまにはいいですわね。楽しみですわぁ」
-ザアアァ〜、ガッ、ぴぃ〜
+ザアアァ～、ガッ、ぴぃ～
 「あー、ただいまマイクのテスト中」
 ア「この声は！」
 デ「レトロンディ！」
@@ -3732,8 +3732,8 @@ Dollers待合室ではメイドさんが読書をしながら１人でつぶや�
 デネブ「あぁ、ベガのここ、暖かくて柔らかい。学校で、隣の席のあなたを見るたび、あなたの胸をモミモミしてみたいって、私の手で形を変えてみたいって思ってた。学校から帰ると、私のショーツには恥ずかしいシミができてたわ・・・。できることなら、もっと早くこうしたかった・・・」
 このせりふを言っている間にも、次第に愛撫が激しく、早くなっていく。プラムは大声を出して助けを求めていた（ちょっ、ミウラさん止めて、あうっ）が、面の中でむなしくこだまするばかりで、誰にも聞こえない。
 ア「私もベガを性的に欲していたの・・・。でも、私、女の子だから、ベガに嫌われるのが怖くて・・・。でも、私はもう我慢できないの」
-そういうと、ベガのスカートをまくり上げ、レオタードの上から人差し指の腹を使ってツゥ—と指を割れ目に沿って滑らせる。
-「ハアァ、割れ目、スッゴク蒸れてる・・・。あら、小さいベガもかわいい〜。あ、今ピクピクってした。そんなにシてほしいのね。小さいほうのベガは悪い子ですねえ。厳罰に・・・処しちゃうんだからぁ」
+そういうと、ベガのスカートをまくり上げ、レオタードの上から人差し指の腹を使ってツゥ―と指を割れ目に沿って滑らせる。
+「ハアァ、割れ目、スッゴク蒸れてる・・・。あら、小さいベガもかわいい～。あ、今ピクピクってした。そんなにシてほしいのね。小さいほうのベガは悪い子ですねえ。厳罰に・・・処しちゃうんだからぁ」
 いまや、アルタイルの指はレオタードの内部に侵入し肌タイツ１枚隔ててプラムの豆を刺激していた。
 観客達はもはや、写真を撮るのも忘れ、目を皿のようにして３人の行為を見ていた。彼らはもう何も考えようとしなかった。目玉だけの存在となっていたから。
 一方、プラムは残酷なほどの快楽の中、１人あえいでいた。ベガの面の穴はピンホールなので、視界が狭く、自分の体がまったく見えない。だから、誰がどのような刺激を与えてくるのか分からない。身構えて防御することができない。ゆえに、急に刺激箇所を変えられると、実に切なくなってしまい大きく腰が引けてしまうのだ。
@@ -3748,13 +3748,13 @@ Dollers待合室ではメイドさんが読書をしながら１人でつぶや�
 			<dcterms:identifier rdf:datatype="&xsd;string">LMKplaQJMQ</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-13T03:01:23+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">ザァ〜、イヤホンからの声だ。「楽しんでいるかね」
+		<sioc:content xml:lang="ja">ザァ～、イヤホンからの声だ。「楽しんでいるかね」
 （ウツギさん、一体これはどういうことなんですか）
 「これは、約束を破った君への罰なんだよ」
 （約束、一体何のこと？）
-「君の歓迎会を開いたとき、こう言っていた。『私、まだ経験がないんですよ』そして君はこんなことを言っちゃった。『この中の誰か、私の“初めて”もらってよ〜』」
+「君の歓迎会を開いたとき、こう言っていた。『私、まだ経験がないんですよ』そして君はこんなことを言っちゃった。『この中の誰か、私の“初めて”もらってよ～』」
 （あれは、酔った勢いで、約束ってわけじゃないです！）
-だが、通信は一方向。プラムの声は面の中で響き、耳がキ—ンとなっただけだった。
+だが、通信は一方向。プラムの声は面の中で響き、耳がキ―ンとなっただけだった。
 「だが君は最近彼氏ができて、一夜をともにしたそうじゃないか。我々は君に罰を与えようと決意した。そう、君以外のメンバー、観客達はすべてグルだ。皆、君の処罰される姿を見に来たってわけだ。このオフ回を開いたのも俺達だよ。安心しろ。何もケガさせようってわけじゃない。究極の快楽の世界への片道旅行にいってもらうだけさ・・・。じゃあな、永遠に。」
 ライムの心はぽっきりと折れた。自分はそんな身勝手な理由で罰せられるのか。だが、ここからの脱出は不可能だ。もう自分は自分には戻れないかもしれない・・・。突然、ベガの面が外れ、プラムの顔がさらされた。それは美しく淫らな、快楽と絶望で彩られた表情だった。
 
@@ -3772,7 +3772,7 @@ Dollers待合室ではメイドさんが読書をしながら１人でつぶや�
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-13T03:02:28+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">数ヵ月後、DVDレンタルショップの一角で、あるDVDが大量に貸し出されていた。パッケージにはこう書いてある。
-「キャラショーの悪夢　〜美人Fカップ着ぐるみアクターを襲う淫乱な罠〜
+「キャラショーの悪夢　～美人Fカップ着ぐるみアクターを襲う淫乱な罠～
 AV界の新しいキラ星、にじいろプラム　デビュー作！！
 映像特典として、お面内に小型赤外線カメラを取り付けて撮影したショー中の面下の顔を完全収録！！」
 ＜完＞
@@ -3930,8 +3930,8 @@ GJ!!だよ。</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:14:19+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">
-「お疲れ〜。」
-「はふ〜〜、お疲れ様でした〜。」
+「お疲れ～。」
+「はふ～～、お疲れ様でした～。」
 そんな会話をかわしているのはとあるスタジオの一角にある更衣室での会話である。
 なにをしているのかというと、新作企業ＣＭの撮影で動物の着ぐるみが出演して製品を宣伝するという企画なのだ。
 
@@ -3943,7 +3943,7 @@ GJ!!だよ。</sioc:content>
 彼女たちが今回のＣＭのペンギンの内臓を勤めている、新人タレント学校の研修生たちである。
 名前は、みか、あや、さなえ、３人は同期の新人でいつも仲のがよく、普段の姿は着ぐるみに入っているとは考えつかない普通の女性である。
 
-みか「あつ〜、今回、ガチで長かったね。」
+みか「あつ～、今回、ガチで長かったね。」
 あや「うん、何回も撮り直したし。」
 さなえ「２人はいいよ、私なんかアクション多かったし。」</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
@@ -3966,12 +3966,12 @@ GJ!!だよ。</sioc:content>
 みか「ありがとうございます、お疲れ様でした。」
 さなえ「ありがとうございます、次もがんばります。」
 あや「ありがとうございます。」
-Ｄ「とくに父親ペンギンよかったわ〜、アクションがきれてたよ。誰がやってたんだっけ？」
+Ｄ「とくに父親ペンギンよかったわ～、アクションがきれてたよ。誰がやってたんだっけ？」
 みか「さなえちゃんですよ。」
 さなえ「私です。」
 Ｄ「女性なのにがんばってるね。」
 さなえ「失礼ですけど、それは差別的発言です、女性は関係ないと思います。」
-Ｄ「おお〜そうだね、撤回するよ、ごめん。」
+Ｄ「おお～そうだね、撤回するよ、ごめん。」
 そして３人は帰路につく、帰りの電車の中で３人は今日のことを話していた。</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -3989,14 +3989,14 @@ GJ!!だよ。</sioc:content>
 さなえ「女性だからってなめられたくないだけよ。」
 みか「まあね、私たちだって体はってやってるんだし。」
 あや「そうね・・・。」
-みか「明日からまたレッスンね〜。」
+みか「明日からまたレッスンね～。」
 さなえ「うん、私はこれからジムだよ。」
-あや「え〜、まだやるの？」
+あや「え～、まだやるの？」
 さなえ「当たり前よ、私、普通の女性より身長も高いしスポーツ好きだし。」
 みか「まあ、体こわさない程度にしなよ。」
 さなえ「うん、わかってるよ。」
 みか「そういえば、２人とも次の仕事決まってる？」
-あや「う〜ん、いまのとこはショーの手伝いくらいかな。」
+あや「う～ん、いまのとこはショーの手伝いくらいかな。」
 さなえ「私もそんなとこ。」
 みか「そっか。」
 さなえ「ん？そういうみかは？」
@@ -4046,7 +4046,7 @@ GJ!!だよ。</sioc:content>
 日曜日
 
 あやの部屋にみかがくる。
-みか「おはよ〜〜。」
+みか「おはよ～～。」
 あや「おはよう、さ、時間ないから一緒にきて。」
 みか「うん。」
 二人の今日の仕事はキャラクターショーのキャストである、あやはピンク役のようである。
@@ -4071,10 +4071,10 @@ GJ!!だよ。</sioc:content>
 ピンクが敵に捕まって、それを他のレンジャーが救出するシナリオで、あやも必死に演技をこなしているようだ。
 ピンクは応援と敵の一瞬の隙をついて脱出する、５人で名乗ってポーズ、その後２人、２人、１人の場面から５人で悪ボスと怪人を倒すようだ。
 真剣なリハーサルが終了してから、お客さんが会場に入ってくる。
-あや「ふ〜、おつかれ〜。」
-みか「おつかれ〜、あやがんばってね。」
+あや「ふ～、おつかれ～。」
+みか「おつかれ～、あやがんばってね。」
 あや「うん、ありがとう。」
-みか「かっこいいだろうな〜。」
+みか「かっこいいだろうな～。」
 キャストリーダー「そろそろ着替えて用意してください。」
 あや「はい。」
 あや「じゃあ、ちょっとやってくるね。」
@@ -4092,7 +4092,7 @@ GJ!!だよ。</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-09-29T15:24:19+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">１０分ほどして、ピンクのレンジャーがみかのとこにやってくる
-みか「おお〜、かわいい。」
+みか「おお～、かわいい。」
 ポーズなどをとってくつろいでいるとリーダーの声がする。
 キャストリーダー「おーい、なにやってんだ、本番はじまるぞ。」
 ピンクはみかに手をふって舞台の袖に待機する。
@@ -4403,7 +4403,7 @@ GJ!!だよ。</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:25:21+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">KG様、割り込んで書くことをお許しください。
- Dollersシリーズ４　〜そして真相へ〜
+ Dollersシリーズ４　～そして真相へ～
 私はついにたどり着いた。深夜の色町の中にひっそりと灯る赤いネオン、重苦しい扉・・・。そう、私はついにDollersの入り口を発見したのだ！Aの依頼を受けてからすでに2ヶ月が経過していた。ああ、なんと言うことか。まさかこんなにぎやかな通りに店を構えているなんて、一度探していた場所なのになぜ見落としていたのだろう！いや、そんなことはどうでもいい。早速潜入捜査だ。彼女達が一体何者なのだろうかという疑問、それ以上に継ぎ目のない着ぐるみとは一体どのようなものなのかという好奇心が私を突き動かしていた。早速扉を開けて中にはいってみる。
 「いらっしゃいませ」
 西洋のアンティーク様式の待合室で、肘掛け椅子に腰掛けていた黒髪のメイドさんがこちらに歩み寄ってきた。
@@ -4460,9 +4460,9 @@ GJ!!だよ。</sioc:content>
 「ネット掲示板に実名で書き込みをするのはあまりお勧めできませんね・・・あなたのことはいろいろと調べさせていただきました。顔写真やら経歴やら見つけるのは造作ないことでしたよ。夢幻様はここに入る資格があることを「自覚」していなかったので今までここには入れなかったのですが、一応ここに入る資格がおありでしたので、このたびお招きいたしました」
 「なぜ今更・・・。秘密をかぎまわる私を始末するつもりか？」
 私は走って逃げようと思ったが、椅子から立ち上がらないうちにリュネは私を強く押さえつけると私の顔を両手でつかみ強引に彼女の唇に引き寄せた。
-「む〜〜〜」
+「む～～～」
 私は激しく暴れて抵抗したがリュネの腕力は強く逃れることができない。しかも彼女は自分の口の中に舌を侵入させて私の舌に絡め始めた。
-「んん〜〜〜」
+「んん～～～」
 私は激しく困惑した。彼女はその豊満な乳房を私の胸に押し付けムニュムニュさせてきたし、ひざを私のモノのある位置にあてがい、ズボンの上からグリグリと刺激してきたからだ。リュネの舌が私の敏感な口腔をくすぐり、胸の感触をアピールし、モノを弄ぶ。女の武器をフル活用した攻撃が私の戦意を削ぐのに5分とかからなかった。</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -4683,7 +4683,7 @@ GJ!!だよ。</sioc:content>
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:46:15+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">また同じの２回投稿キタ━━━━━━(゜∀゜;)━━━━━━━!!!!!</sioc:content>
+		<sioc:content xml:lang="ja">また同じの２回投稿ｷﾀ━━━━━━(ﾟ∀ﾟ;)━━━━━━━!!!!!</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4744,7 +4744,7 @@ GJ!!だよ。</sioc:content>
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-12T23:53:19+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">(σ・∀・)σ300ゲッツ!!</sioc:content>
+		<sioc:content xml:lang="ja">(σ・∀・)σ300ｹﾞｯﾂ!!</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -4828,8 +4828,8 @@ GJ!!だよ。</sioc:content>
 
 さなえの今回の仕事はここののヘルプである。なにをするのかというと着ぐるみに入って、接客するというもの。
 さなえ「ここね、今日の私の現場は。」
-ぎぃ〜〜裏の勝手口が中に入る
-さなえ「すみませ〜〜ん。ヘルプできた者なんですけど・・・。」
+ぎぃ～～裏の勝手口が中に入る
+さなえ「すみませ～～ん。ヘルプできた者なんですけど・・・。」
 すると奥から男がでてきた
 男「とりあえず、ドア閉めて。」
 さなえ「あ、はい、すみません。」
@@ -4897,7 +4897,7 @@ GJ!!だよ。</sioc:content>
 すると、一人の女性がこっちにやってくる
 女「新人さん？」
 さなえ「え？あ・・・はい、ヘルプで今日だけ。」
-女「へ〜、ここかなりじゃないとヘルプなんて呼ばないんだけどね。」
+女「へ～、ここかなりじゃないとヘルプなんて呼ばないんだけどね。」
 さなえ「そうなんですか。」
 女「あんたここでなにするかわかってる？」
 さなえ「え？まあ・・・。」
@@ -4984,7 +4984,7 @@ GJ!!だよ。</sioc:content>
 さなえ「え？あたしですか？」
 女「そのためにきたんだろ。」
 さなえ「え、まあそうなんですけど・・・。」
-女「はは〜ん、前任者がどんな人なのか心配なんだろ？」
+女「はは～ん、前任者がどんな人なのか心配なんだろ？」
 さなえ「そ、そんなことは・・。」
 女「大丈夫、今日やってるのはあと全員、女だから。」
 さなえ「そ、そうですか。」
@@ -5307,7 +5307,7 @@ GJ!!だよ。</sioc:content>
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-23T22:22:51+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">次いってみよぅ〜!</sioc:content>
+		<sioc:content xml:lang="ja">次いってみよぅ～!</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5329,7 +5329,7 @@ GJ!!だよ。</sioc:content>
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-26T11:47:47+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">(σ・∀・)σ333ゲッツ!!</sioc:content>
+		<sioc:content xml:lang="ja">(σ・∀・)σ333ｹﾞｯﾂ!!</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5394,7 +5394,7 @@ GJ!!だよ。</sioc:content>
 「２人とも大変人懐こくて妹みたいな子達です。きっとフルヤ様のお気に召すと思います」
 そこまで聞いて、再び写真に視線を落とす。
 その写真の女の子達は軽く抱き合い、こちらにきらきらした笑顔を振りまいている。双子と言う設定らしく顔は瓜二つだ。写真の下にはこう書かれている。
-「アン＆ジャン　〜Mischievous Twins〜」
+「アン＆ジャン　～Mischievous Twins～」
 向かって右の子がアン、こっちが姉だそうだ。ブロンドのロングヘアは腰に届くくらいの長さで、軽くウェーブがかかっている。服装は黒と白を基調にした典型的なゴスロリ服で、レースがいたるところについたそれはふわりとした曲線を形作っている。描いてあるだけのはずなのに透明感のある、とび色の目に吸い込まれそうな気がした。あどけない顔立ちなのに結構発育のいい胸につい目がいってしまう。向かって左のショートヘアの子が双子の妹のジャン。彼は白いYシャツに黒い燕尾服、襟元にはちょこんと黒い蝶ネクタイをつけている。下はチェック柄の短パンといった感じだ。頭には小さなシルクハットがちょこんとのっている。双子らしくアンと同じブロンドにとび色の目だが、アンと比べてやんちゃな印象が強い。胸はお姉ちゃんに吸い取られてしまったのか、控えめである。なんだか双子と言うよりお坊ちゃんお嬢ちゃんといった表現がしっくりくる。ともかく俺は一度に２人相手にできると言う点に惹かれ、指名するに至ったのだった。それにしてもメイドさんの別れ際の言葉が気になる。
 「くれぐれも寛容なお心で接してあげてくださいませ。たとえフルヤ様の貞操が狙われるようなことがあっても・・・・・・」</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
@@ -5409,10 +5409,10 @@ GJ!!だよ。</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:07:49+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">「お兄ちゃんどうかしたの？ボーッとしてないで、アン達と一緒に遊びましょっ♪」
 アンが俺の左腕にギュッと抱きついてくる。胸がムニュムニュとあたって兄としてイケナイ気持ちになってしまう。
-「遊ぼ〜、遊ぼ〜、お兄ちゃ〜ん、一緒に遊ぼうよ〜☆」
+「遊ぼ～、遊ぼ～、お兄ちゃ～ん、一緒に遊ぼうよ～☆」
 ジャンも右腕に抱きついて揺さぶり、可愛らしくせがんでくる。見た目は結構いい年頃だと思うが、中身は結構あどけないようだ。そんな二人にせまられたら断れない。
 「分かった、わーかったてば。・・・それじゃ何して遊ぼうか？」
-「う〜んとね、う〜んとね、トランプやりたい☆」ピョンピョン跳ねながらジャンが言う。
+「う～んとね、う～んとね、トランプやりたい☆」ピョンピョン跳ねながらジャンが言う。
 「そうね、せっかく三人いるから、神経衰弱にしましょう。いいわよね、お兄ちゃん♪」
 アンが同意を求めて俺の目を見てくる。ちくしょう、これじゃ格闘ゲームで対戦やりたいなんて言えねえよ！
 「よし、神経衰弱な。かつてトランプ王と呼ばれた俺の実力を見せてやるぜぇ！」
@@ -5435,7 +5435,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 			<dcterms:identifier rdf:datatype="&xsd;string">qDggTAordc</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-10-31T01:09:28+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「う〜んと、これ♪あとは・・・・・・」
+		<sioc:content xml:lang="ja">「う～んと、これ♪あとは・・・・・・」
 俺が考え込んでいる間にアンの番が来ていた。やはりカードをめくるときに自分から遠いところまでわざわざめくりに来ている。
 「あれにしようかしら」
 そういうとアンは俺の目の前のカードをめくろうと、散らしたカードの上をハイハイして近づいてきたではないか。１歩ごとに、ずっしりと垂れ下がった胸がぷるんぷるんと揺れる。俺は今設定上、兄として振舞っているが、こんな魅力的なものを男として見逃すわけにはいかず、つい視線が胸にいってしまう。
@@ -5444,7 +5444,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 「い、いや、これは、なんでもないよ」
 だがここでジャンがとんでもないことを言う。
 「アン、お兄ちゃんはアンのおっぱいが気になってるみたいだよ☆」
-うわ〜これじゃ完全にスケベ兄貴じゃんか！？終わったよ、うん絶対嫌われた。
+うわ～これじゃ完全にスケベ兄貴じゃんか！？終わったよ、うん絶対嫌われた。
 「お兄ちゃんはアンのおっぱいに興味あるの？」アンが無垢な目でこちらを見てくる。
 「いや、その、あの・・・・・・」（いや、全然そんなことないですから！）
 「見せてあげよっか？」
@@ -5513,18 +5513,18 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		<sioc:content xml:lang="ja">カチャカチャというかすかな金属音が下半身のほうから聞こえている。一瞬何か分からなかったが、それはジャンが俺のベルトを外す音だと気付かされるまで時間はかからなかった。ズボンと下着がずり下げられ、下腹部一帯に涼しい空気を感じた。俺のモノが可愛い少女達の眼前に晒されてしまったようだ。
 「うわあっお兄ちゃんのお○○チン、さっきよりもおっきくなっているよ☆　それにピクピク動いてる☆」
 「そうね♪　アンのスカートの中のにおいをかいで、一層興奮しちゃったのかしら？」
-「え〜、お兄ちゃんって、エッチなんだなあ☆」
+「え～、お兄ちゃんって、エッチなんだなあ☆」
 こんな破廉恥な会話がアンのロングスカートやパニエによって吸収されずにクリアに聞こえてくる。あの小説どおり彼女達は直接心に話しかけてくるからだろうか。これでは、興奮がとどまることはない。とうとうこれ以上ないくらいビンビンの最高硬度に至ってしまった。
 そのとき、ズリズリと音がしたかと思うと、アンのお尻が迫ってきて、俺の口と鼻をふさぐ位置まできて止まった。口が利けないように、かつ窒息しないようにショーツを押し当て絶妙な高さで腰を浮かせている。パンツのにおいがより濃厚になる。どうも人間の体臭がほのかに感じられる。おそらく液体が硬化してできた彼女達の皮膚は、熱によってばらばらだった分子が結合し巨大分子となっているのだろうと想像していた。ある程度伸縮するそうだから、結構分子構造に隙間があると思われる。そこから皮膚呼吸したり、汗を水蒸気として放出することができるのだろう。それでも皮膚呼吸だけでは普通の人間が生命維持できるだけの酸素を供給できないが、この着ぐるみは何らかの方法で生命力を強めるそうだから・・・・・・いや、あくまでも想像だ。ただ、彼女達の中に間違いなく人はいること、そしてその中の様子を想像させる、汗のにおいをたっぷりと吸収したショーツのいやらしい香りを俺の肺腑の奥まで吸い込ませようとしていることは確かだ。
 「うふふふ。ねえジャン、エッチなお兄ちゃんにいたずらしちゃいましょう♪」
 「うん！いーたずーらいーたずーら、それっ☆」
 ４本の手が一斉に攻撃を開始した。玉袋をやわやわと刺激する手、棒をゴシゴシとこする手。ゴムのようなすべすべした、かつ弾力のある未体験の触感は俺をすぐさま上り詰めさせる。
-「むご〜、むごご〜（やめてくれ〜）」
+「むご～、むごご～（やめてくれ～）」
 「あれれ☆　今何か聞こえなかった？」
 「さあ？風の音じゃないかしら♪」
 俺は必死に声を上げたつもりだったが、二人には届かない。いや聞き届けてなんかくれないだろう。あのメイドさんの言葉はこういうことだったのか。しかしなぜだろう、俺は二人のいたずらにいまひとつ乗り気になれない。
 「ほらジャン、ここ触ってみて。カチカチよ♪」
-「ほーんとエッチなおに〜いちゃん☆　もっともっといたずらしちゃえー☆」
+「ほーんとエッチなおに～いちゃん☆　もっともっといたずらしちゃえー☆」
 そうは言っても２０本の指が休みなく絡みつき、それはもう素敵な香りのショーツのにおいを直にかがされて俺の意識は深い暗闇に落ちていった。</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -5714,7 +5714,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-11-01T07:18:33+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">がんがれ〜！</sioc:content>
+		<sioc:content xml:lang="ja">がんがれ～！</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5724,7 +5724,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-11-01T07:57:45+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">がんがる〜！</sioc:content>
+		<sioc:content xml:lang="ja">がんがる～！</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -5786,7 +5786,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-11-06T23:32:52+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;357
-見ているし、期待してるよ〜</sioc:content>
+見ているし、期待してるよ～</sioc:content>
 		<dcterms:relation rdf:resource="&post;357"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -5845,7 +5845,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-11-20T13:54:02+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">数時間前・・・・・・コンコンとドアをノックする音がする。
-「はぁ〜い」
+「はぁ～い」
 アスナは最高の笑顔で来客を出迎える。
 「やあ、また来ちゃったよ、アスナ」
 ワンポイントフレームの眼鏡の向こうから、優しい目がこちらを見ている。紺のスーツを着たその青年は、名をユウジと言った。彼はアスナについた常連客で、毎週金曜日の夜９時に決まって現れた。
@@ -6012,7 +6012,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 「んん・・・・・・」アスナは無理やり肛門から皮を引っ張り出している。人形になってからというものご無沙汰になりがちな排泄の悦びを思い出す瞬間である。腸がめくれ、皮と一緒に出て行きそうな感覚は、それだけで最高の愛撫となる。やっとのことで後ろの穴の皮を引きずり出すと、今度は前の穴に手を掛ける。これから起こることを思うと手が震えるが、覚悟を決めて一気に引っ張り出す。
 「んんっ、こんなところでっ、だめぇ」
 何とか抜き出すことができたが肛門の刺激ですでに敏感になっていた体には強すぎる刺激だった。人形の間溜まりに溜まった芳しい匂いのする淫液をここぞとばかりに噴出した。アスナは２、３回空腰を使って、その場にへたり込んでしまっていた。
-「あ〜あ、そんなに勢いよく抜くからよ。まぁ、ゆっくり抜いたら抜いたで、じらされて感じちゃうから同じかな」
+「あ～あ、そんなに勢いよく抜くからよ。まぁ、ゆっくり抜いたら抜いたで、じらされて感じちゃうから同じかな」
 そういって手を差し伸べてきたのは淫子であった。アスナは手をとってどうにか立ち上がった。
 「淫子、ありがとう。恥ずかしいところを見られちゃったわね」
 「いいって、これくらい。今日の日替わり風呂は、バラ風呂だって。一緒に入ろうよ」</sioc:content>
@@ -6033,7 +6033,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 アスナはその筒を淫子の前の穴と後ろの穴に突っ込んだ。
 「くああっ・・・んおおぅ、毎度のことだけど、キツいな。穴の中でゴリゴリいってる」
 完全に固まるまでこの状態でいなければならないので、淫子はこの上なく興奮し、アスナはこの上なくうらやましく思った。快楽を我慢する淫子を見ていたアスナは少しイタズラをしてやろうと思った。胸に塗る際に、強く揉んでやったのだ。ただでさえ下が大変なことになっている淫子にはたまらない愛撫であった。その場に崩れ落ち、ひざを着く。
-「ちょっと、やめてよ〜。くすぐったいよ〜、ひゃぅ、あんっ」
+「ちょっと、やめてよ～。くすぐったいよ～、ひゃぅ、あんっ」
 仲間に自分の醜態を晒さぬようヘラヘラ笑いつつ、淫子は必死で興奮を押さえ込もうとするが、体がいうことを利かずピクンピクン反応してしまい、口からは嬌声が漏れる。それは煽っているアスナの興奮を高めさせ、さらに行為をエスカレートさせる。穴をふさがれているのでイくこともできず、地肌を直接触られる。淫子の置かれた状況は、悲惨というよりはうらやましく思える。猫のようにじゃれあいながらの隠微な遊戯もやがて終わりを告げる。
 硬化した皮には、乳首など色の濃い部分がくっきりと桃色に浮かび上がり、黒い筒を抜いてやるとしっかりと挿入のための穴ができていた。抜く瞬間に淫子が悶絶したのは言うまでもない。首の周りには継ぎ目もなく、中に人を入れた痕跡はどこにも見られない。
 「それじゃ、今度はアスナの番ね。たっぷり気持ちよくしてあげるから覚悟しなさい」
@@ -6086,7 +6086,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		<sioc:content xml:lang="ja">ここで風呂場の場面まで時間を少し巻き戻す。
 「うん。すごく良いじゃない！がんばってやってみる」
 そういうと淫子は円筒の底面に液体を薄く塗りつける。厚すぎれば破れないし、薄すぎてもきれいに膜を張ることができない。淫子は苦労しながらも、絶妙な厚さの膜を仕上げ、アスナの穴の入り口付近のところにねじ込んで固めた。
-「ふぅ、やっと完成〜。でも、処○膜を作りたいなんて、アスナにとってそのお客様は本当に特別な人なんだねぇ・・・・・・」
+「ふぅ、やっと完成～。でも、処○膜を作りたいなんて、アスナにとってそのお客様は本当に特別な人なんだねぇ・・・・・・」
 
 さて、まさかアスナに処○膜があるなんて思いもよらなかったユウジは激しく混乱していた。しかし、せっかく女の子の処女をもらえるという心遣いをしてくれたアスナに報いるため、ユウジは一層強く突き上げた。ズンッ、ズンッ、ズンッッ！
 「ふわわぁっ、私、人間の男に処女を捧げちゃった。もう乙女じゃなくなってしまったのね」
@@ -6204,7 +6204,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 と恥ん子がうれしそうに言う。
 「ユリさんとアスナにもお休みをくれたの。一緒に行きましょう」
 「そうそう、久しぶりにユリさんの演歌を聞きたいっス」
-「え〜。私が演歌歌っても“ええんか”・・・なんてね」
+「え～。私が演歌歌っても“ええんか”・・・なんてね」
 なんてね」の前が抜けていました。申し訳ないです。</sioc:content>
 		<dcterms:relation rdf:resource="&post;375"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
@@ -6845,7 +6845,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-10T02:47:18+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">今で言えば夢幻氏、さかのぼれば囚人服氏に５４０氏ってとこかな。
-それ以降はシラネ</sioc:content>
+それ以降はｼﾗﾈ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6855,7 +6855,7 @@ Dollersは実在する！俺はそこに招かれた！</sioc:content>
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-10T02:57:48+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">それ以降は俺もシラネ</sioc:content>
+		<sioc:content xml:lang="ja">それ以降は俺もｼﾗﾈ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -7175,7 +7175,7 @@ Dollersのユリの部屋で対峙する1人の特殊着ぐるみと1人の中�
 「今日から私がアスナの師匠としてビシバシしごいていくからね。よろしく」
 「は、はあ。よろしくお願いします」
 アスナは小さく会釈した。
-「じゃあ、まずはこの皮についてさっきよりも詳しく説明していくわね。この皮は中の人に快楽を与え続ける特別な皮なの。着ていて分かると思うけど、全身締め付けられたうえに熱がこもって、とっても悩ましいでしょう？そんな状態で胸とか揉まれると切ないのよね〜」
+「じゃあ、まずはこの皮についてさっきよりも詳しく説明していくわね。この皮は中の人に快楽を与え続ける特別な皮なの。着ていて分かると思うけど、全身締め付けられたうえに熱がこもって、とっても悩ましいでしょう？そんな状態で胸とか揉まれると切ないのよね～」
 そういってユリは自分の胸に手を伸ばし、服の上から揉み始めた。アスナは乳首にブラジャーが擦れているだけで、我慢するのに精一杯なのに、ユリは平然と胸の形を変えていく。それを見るだけで再び体が熱くなるのだった。
 ユリは話し続ける。
 「私達の口は口角がちょっと上向きになっているでしょ。口を開けているときも閉じているときも笑って見えるようになっているの。お客様は私達が皮の中で悶え苦しんでいるなんて全然気付かないから手加減してくれないの。この皮に覆われている限り気絶することはないから、皮の中でひたすら快感に耐えるしかないのよ」
@@ -7290,7 +7290,7 @@ Dollersのユリの部屋で対峙する1人の特殊着ぐるみと1人の中�
 アスナはパニックになりかけていた。今以上の興奮が襲ってきたら、自分はどうなってしまうのだろう？
 そう考えているうちに、ユリは体位を変えてアスナのわきの下をなめる。
 「ユリさん、続きは又今度にしましょう、ね」
-「ダ〜メ。まだ性感帯はたくさん残っているもの。全部覚えるまで許してあげない」
+「ダ～メ。まだ性感帯はたくさん残っているもの。全部覚えるまで許してあげない」
 アスナの懇願は聞き入れてもらえず、嬌声とベッドのスプリングのきしむ音が続いた</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -7364,7 +7364,7 @@ Dollersのユリの部屋で対峙する1人の特殊着ぐるみと1人の中�
 アスナの腰はモノのストロークにつられて動き、抑えようとしても変な声が出てしまう。
 「もう感じちゃっているの、アスナちゃん？」
 「ま、まだまだ、感じてなんか、いないもん！」
-「じゃあもっと激しくして、感じさせてあげるからね〜」
+「じゃあもっと激しくして、感じさせてあげるからね～」
 そういうとキタミは前後の運動だけではなく、腰を上下左右に使ってア○スの壁に満遍なく自分の固くなったモノを擦り付けていく。
 「あふんっ、んんっ、あっはあっ」
 正直アスナは参っていた。バイブの振動は単調だったし、勝手にピストン運動なんてしない。だが実際のイチモツは不規則に律動し、その上自由に動いて内壁を擦り上げる。その刺激は直ちに頭の中を痺れさせ、甘ったるい刺激の蜜が溢れかえり思考を麻痺させる。練習の時とはあまりにも状況が違いすぎて、ほとんど我慢できず上り詰めてしまった。ありったけの精神力で腰のビクつきを抑えたのでキタミに悟られずには済んだが、イき損ねた体は刺激されながらも不満そうにうずいている。</sioc:content>
@@ -7860,9 +7860,9 @@ FRPなんか普及してない時代、環境には恵まれていなかった�
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-22T23:51:12+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;464
-何でそういう事小説スレで言うかな。。。
+何でそういう事小説ｽﾚで言うかな。。。
 妄想と現実はまた別で、ストレスばかりたまるというなら
-このスレを見なければ良いと思う。
+このｽﾚを見なければ良いと思う。
 
 正直、妄想読み物として結構楽しんでる漏れもいるし
 書いてくれる人がいる以上、あまりそういう事は言わないで欲しいな。</sioc:content>
@@ -8012,7 +8012,7 @@ FRPなんか普及してない時代、環境には恵まれていなかった�
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-28T17:47:17+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「ええ〜！馬の着ぐるみですかあ？ちょっと嫌だなあ。しかも顔の所がくり抜いてあるじゃないですか」
+		<sioc:content xml:lang="ja">「ええ～！馬の着ぐるみですかあ？ちょっと嫌だなあ。しかも顔の所がくり抜いてあるじゃないですか」
 「そうだよ。顔が出るから呼吸も楽だしいいでしょ？」
 「恥ずかしいから嫌ですよ」
 「じゃあやめるか？」
@@ -8030,7 +8030,7 @@ FRPなんか普及してない時代、環境には恵まれていなかった�
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-28T20:20:33+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">工エエェェ(´д｀)ェェエエ工</sioc:content>
+		<sioc:content xml:lang="ja">工エｴェｪ(´д｀)ｪェｴエ工</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8040,7 +8040,7 @@ FRPなんか普及してない時代、環境には恵まれていなかった�
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-28T21:24:55+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">どんだけ工エエェェ(´д｀)ェェエエ工</sioc:content>
+		<sioc:content xml:lang="ja">どんだけ工エｴェｪ(´д｀)ｪェｴエ工</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8050,7 +8050,7 @@ FRPなんか普及してない時代、環境には恵まれていなかった�
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-28T22:30:28+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">こんだけ工エエェェ(´д｀)ェェエエ工</sioc:content>
+		<sioc:content xml:lang="ja">こんだけ工エｴェｪ(´д｀)ｪェｴエ工</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8083,7 +8083,7 @@ FRPなんか普及してない時代、環境には恵まれていなかった�
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2008-12-29T11:52:16+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">いうよね〜</sioc:content>
+		<sioc:content xml:lang="ja">いうよね～</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8255,7 +8255,7 @@ FRPなんか普及してない時代、環境には恵まれていなかった�
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-03T09:22:07+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">(*^-^)b 500ゲトー!</sioc:content>
+		<sioc:content xml:lang="ja">(*^-^)b 500ｹﾞﾄｰ!</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8350,7 +8350,7 @@ FRPなんか普及してない時代、環境には恵まれていなかった�
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-10T15:38:02+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">工エエェェ(´д｀)ェェエエ工</sioc:content>
+		<sioc:content xml:lang="ja">工エｴェｪ(´д｀)ｪェｴエ工</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8398,7 +8398,7 @@ FRPなんか普及してない時代、環境には恵まれていなかった�
 
 そのうち、その着ぐるみ軍団の一人がバッタリと倒れたんだよ。
 引率とか言ってる奴らは仲間内でワイワイ騒いでるだけだし、
-カメラマンは「記念に〜」「記録で〜」とか言いながら写真撮るだけ。
+カメラマンは「記念に～」「記録で～」とか言いながら写真撮るだけ。
 
 そのほかの着ぐるみも申し訳程度にパタパタ扇いでるんだけど、誰も
 具体的な行動を起こそうとしないのな。
@@ -8440,7 +8440,7 @@ FRPなんか普及してない時代、環境には恵まれていなかった�
 覆面タイプの面下とゴテゴテした衣装で判りにくいけれど、自発呼吸を
 してない雰囲気。こりゃヤバイんじゃないか？？
 
-ともかく、近くにいる奴にAEDと救急車の手配を頼んだんだが・・・。
+ともかく、近くにいる奴にAEDと救急車の手配を頼んだんだが･･･。
 「写真撮らなきゃならないから、他の人に頼んでください」なんて
 言いやがる。　一瞬呆気に取られたね。
 
@@ -8487,7 +8487,7 @@ FRPなんか普及してない時代、環境には恵まれていなかった�
 
 今まで右往左往していた「着ぐるみのお友達」が、何を思ったか
 急に手を伸ばしてくるんだよ。もうアホとしか言えない。
-辛うじてその手を押しとどめてＡＥＤのアナウンスを聞くと・・・。
+辛うじてその手を押しとどめてＡＥＤのアナウンスを聞くと･･･。
 
 『微細動はありません。そのまま胸部圧迫を続けてください。』だそうだ。
 
@@ -8664,7 +8664,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-13T21:51:50+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">執筆者というより単なる吉野家ネタだから小説とは違うだろうね〜♪</sioc:content>
+		<sioc:content xml:lang="ja">執筆者というより単なる吉野家ネタだから小説とは違うだろうね～♪</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8675,7 +8675,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-13T21:57:08+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">じゃ、どっちかつうと雑談かよ。
-雑談スレとここと話題が逆転してるじゃねーかよ！ヽ(`Д´)ノ ウワワン</sioc:content>
+雑談スレとここと話題が逆転してるじゃねーかよ！ヽ(`Д´)ﾉ ｳﾜﾜﾝ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8685,7 +8685,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-13T22:01:07+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">本当に牛丼ネタで被せて来た。＿|‾|○</sioc:content>
+		<sioc:content xml:lang="ja">本当に牛丼ネタで被せて来た。＿|￣|○</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8872,7 +8872,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-16T20:04:06+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">( ´_ゝ｀)フーン</sioc:content>
+		<sioc:content xml:lang="ja">( ´_ゝ｀)ﾌｰﾝ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8895,7 +8895,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-16T23:52:49+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">で、どこを立て読み・・・。ｗｗｗ
+		<sioc:content xml:lang="ja">で、どこを立て読み･･･。ｗｗｗ
 
 もう一押しして
 
@@ -8997,7 +8997,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 			<foaf:nick rdf:datatype="&xsd;string">552</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-17T15:36:17+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">レスアンカー間違えている上にageてしもうた。＿|‾|○ 
+		<sioc:content xml:lang="ja">レスアンカー間違えている上にageてしもうた。＿|￣|○ 
 &gt;&gt;554じゃなくて&gt;&gt;551。</sioc:content>
 		<dcterms:relation rdf:resource="&post;554"/>
 		<dcterms:relation rdf:resource="&post;551"/>
@@ -9021,7 +9021,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-17T18:35:25+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">(σ・∀・)σ555ゲッツ!!</sioc:content>
+		<sioc:content xml:lang="ja">(σ・∀・)σ555ｹﾞｯﾂ!!</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9046,7 +9046,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-17T18:46:57+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">Σ(・ω・ノ)ノ </sioc:content>
+		<sioc:content xml:lang="ja">Σ(・ω・ﾉ)ﾉ </sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9097,7 +9097,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-19T19:49:20+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">イクナイ！</sioc:content>
+		<sioc:content xml:lang="ja">ｲｸﾅｲ！</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9337,7 +9337,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 「ま、まだ何かあるのか！？」
 「私の皮、ぴったりと張り付いているでしょう？つまり中の人の体は常にこの皮によって締め上げられていますの。その意味、お分かりますか？」
 こうして会話している間にも、ミカはヤマネの下半身の膨らみを執拗に突き続ける。
-「え〜と、痛いの？」
+「え～と、痛いの？」
 「ハズレですわ。私の恥ずかしいところも例外じゃなく締め付けてくれて、感覚を鋭くしてくれますの。軽く触れられただけで感じちゃう位に」
 ヤマネは驚き、その後赤面した。確かにミカの中が熱くて苦しそうだとは思ったが、着ぐるみのせいで感じやすい体になっていたとは・・・。そこまで考えてヤマネは思い直した。ミカの言っている内容が嘘である可能性もある。刺激の強い言葉で僕が赤面するところを見て楽しんでいるのかもしれない。
 「本当にそうなのかな？君が嘘をついている可能性もある」
@@ -9499,7 +9499,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T01:27:08+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">ミカはしばらく間をおくと再び口を開いた。
 「先生、さっきのジュースおいしかったですか？」
-「う〜ん、まずくはなかったかな」
+「う～ん、まずくはなかったかな」
 ミカはにっこりと微笑みながらうなずいた。
 「思い詰めて行き場を失ったお客様にはこれを振舞うようにしています。考えすぎてミスしてしまうこともあれば、逆に何も考えずにやって上手くいくこともあります」
 「なるほど。答えは教えずにヒントだけを与えようというわけか」
@@ -9613,7 +9613,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-01-22T19:54:57+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">＿|‾|○</sioc:content>
+		<sioc:content xml:lang="ja">＿|￣|○</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9762,7 +9762,7 @@ http://aed.maps.pref.aichi.jp/modules/tinyd2/content/index.php?id=3
 一般的な掲示板の会話ってあるだろ。
 っていうか、マジレスしないでそのくらい察しろよ。
 相手の文脈が理解できないのか？
-これがゆとり教育の行く末か。＿|‾|○</sioc:content>
+これがゆとり教育の行く末か。＿|￣|○</sioc:content>
 		<dcterms:relation rdf:resource="&post;604"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -9985,7 +9985,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 着ぐるみ達が癒してくれる不思議な店、”Dollers”
 今宵も孤独を抱えた人々が癒しを求めやってくる。
 【Prologue】
-「今日もお仕事終了〜」
+「今日もお仕事終了～」
 その日アスナはいつものようにサービスを終えて自分の部屋に戻った。1日で５人のお客様のお相手をして、そのうち３人にエッチなサービスをしたものだからもうグロッキーという感じである。腹の中など擦られすぎて痛みでジンジンといっていた。だが彼女はベッドに飛び込みたいのを我慢してノートパソコンの電源を入れる。パソコンが立ち上がったらすぐにあるブログにアクセスした。「アスナの明日なろブログ」・・・・・・アスナのブログだ。
 「ふふ、今日は何を書こうかな♪」
 内容は近況報告であったりファッションについてであったりとありふれたものだった。まあアスナはまだまだ未熟だからリュネへのグチに話題は偏りがちであったが。
@@ -9994,7 +9994,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 最近、だんだん暖かくなってきたね(*^_^*)
 私の店では脱いだコートを忘れちゃう人が増えています。
 今日も私がお相手していたお客様がコートを忘れて帰ってしまわれたの。幸いお客様は途中で気付いたみたいでお店に戻ってきたから良かったけど・・・。
-「お客様の忘れ物に気付けないで本当のサービスが出来ますか！？」って店長に怒られちゃった・・・(T_T)。皆さんも忘れ物には気をつけてね❤
+「お客様の忘れ物に気付けないで本当のサービスが出来ますか！？」って店長に怒られちゃった・・・(T_T)。皆さんも忘れ物には気をつけてねâ¤
 コメント（０）トラックバック（０）</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -10189,7 +10189,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 「これは一体どういう・・・・・・？」
 「クリームを舐めながら少しずつ裸を見る方が普通に見るよりもエッチに見えるでしょ？さあ、遠慮しないで、わ・た・し・を・た・べ・て」
 Ｃはアスナの周りを一周し、アスナの中に人を入れた痕跡を探した。しかし背中にはジッパーは見られず、それどころかクリームが塗られていないところには継ぎ目や呼吸口すらない。やはりクリームの下に何かギミックが隠されているのだろうか？Ｃは正座をすると生唾を飲み込んだ。クリームを食べれば食べるほどアスナの肌が露になってしまう。もちろん恥ずかしいところも。Ｃはクリームに飾られたアスナの肢体を前にしてたじろぐばかりである。
-「早く食べないとクリームが溶けちゃうよ。もう、仕方ないわね・・・・・・ほら、ア〜ンして」
+「早く食べないとクリームが溶けちゃうよ。もう、仕方ないわね・・・・・・ほら、ア～ンして」
 アスナは指でわき腹のクリームをすくうとＣの前に差し出した。とうとうＣは腹を据えてアスナの指をくわえた。口の中にクリームの優しい甘さが広がる。
 「どう、おいしい？」
 「・・・・・・おいしい」</sioc:content>
@@ -10247,7 +10247,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 二つの乳首が露になったが、アスナは隠そうともせずＣに見せ付けている。桃色の突起は今にも破裂しそうだ。
 「最後はここね。私はお人形だから排泄物は全く出さないわ。汚くないから安心して。さぁ、私の・・・・・・をどうぞ召し上がれ」
 にちゅっ。アスナは股間に塗られたクリームに手を入れて外側に広げた。おそらく割れ目に手をかけたのだろう。ここまで来るとＣはためらわなかった。アスナの股に顔を突っ込み顔をチョコとクリームまみれにしてむしゃぶりついた。
-「あああっ、激しすぎっ！ちょっ、やめっ！刺激が強すぎて、ア〜ンッ、私、おかしくなっちゃうよぉ〜〜〜！」
+「あああっ、激しすぎっ！ちょっ、やめっ！刺激が強すぎて、ア～ンッ、私、おかしくなっちゃうよぉ～～～！」
 散々Ｃの執拗な攻撃に堪えた体。その体の一番敏感なところをＣに凝視され責められるのだ。さすがのアスナも大きく取り乱し、興奮の大きさを全身で表現する。Ｃも女性の股間を目の前にして、自分に責められ狂うアスナに気を良くしていた。しかしここで何かが舌に当たる。こりこりとした小さな塊。Ｃは何かのフルーツだと思いペロペロと舐めてみた。味はないが弾力がある。なんだろうと考えながらＣは舐め続ける。</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -10276,7 +10276,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 「え？そっち向いちゃうの」
 「うん。だって、おチ○チンいじっている時のエッチな顔見られるの、恥ずかしいんだもの」
 「お願い。こっち向いていじってよ」
-「ダ〜メ」
+「ダ～メ」
 Ｃの必死のお願いもあっさり断られた。Ｃの方を振り返ってアスナは言葉を続ける。
 「もし気が変わったらエッチな顔を見せてあげてもいいわよ。気が変わったら、だけどね」
 アスナはニコッと笑うと、Ｃのモノをしゃぶりだした。
@@ -10388,17 +10388,17 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		<sioc:content xml:lang="ja">「さて、今度はアスナに罰を与えなければいけませんね」
 「へ？」
 にやりとしたリュネがさらっと恐ろしい言葉を放ち、アスナはワケが分からずポカンとした。
-「ブログのことを考えて、仕事をおろそかにしていたのでしょう？罰を受けるのは当然です。さ〜て、どんな罰にしようかしら？」
+「ブログのことを考えて、仕事をおろそかにしていたのでしょう？罰を受けるのは当然です。さ～て、どんな罰にしようかしら？」
 なぜか楽しそうなリュネを見ながら、アスナは前に偶然聞いた先輩人形達の会話を思い出していた。
 
-「この店で一番怖いのは、ダントツでお母様だよね〜」
+「この店で一番怖いのは、ダントツでお母様だよね～」
 「この間もお仕置きされた奴がいて、そいつ2，3日恐怖で口が利かなくなったって・・・・・・」
 
 これから自分を待ち受けている運命を考えると、見えない冷や汗が流れてくるような気がする。
 「では、アスナの罰は・・・・・・ワタクシにブログの作り方を教えなさい」
 「はい！？」
 「ですから、ブログの作り方を教えなさい。なんだか面白そうだなって思ったんですが、いざ始めようとしたらどうもよく分からなくて・・・・・・」
-「もう、お母様ったら〜」
+「もう、お母様ったら～」
 一気に体の力が抜け、アスナの表情が思わず緩む。
 「ほら、笑わないで！早く教えなさい！」
 「はいはい。誰にでも簡単に作れますよ、ブログって」</sioc:content>
@@ -10413,9 +10413,9 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T17:15:18+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">【Epilogue】 
-「さぁ、今日もブログ更新するぞ〜」
+「さぁ、今日もブログ更新するぞ～」
 Ｃがやってきた次の日、今日もブログの更新に張り切るアスナ。昨日の記事に付いたコメントは・・・・・・20件！しかも全部Ｃさんから！
-（もう、全然変わってないじゃない〜〜！） 
+（もう、全然変わってないじゃない～～！） 
 と、少しがっかりしてコメントに目を通し始めるアスナ。だが、1件目のコメントを読んだ彼女はなんだかうれしそうだ。
 
 Ｃ　　　　　　　　　　　　　　　　　　　　　　　　　　　４月×日　12：37
@@ -10447,7 +10447,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-06T09:49:58+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">(´-`).。ｏＯ（次の方どうぞ）</sioc:content>
+		<sioc:content xml:lang="ja">(´-`).｡ｏＯ（次の方どうぞ）</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -10559,7 +10559,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 　例えば、高性能なガソリンエンジンでさえ処理系を一体と見たエネルギー変換効率は15%程度、肉体はエネルギーの70%以上を動力に変換できます。また、体積辺りの仕事量で言うと、筋肉はモーターの10倍から100倍。勝負になりません。
 人間らしいロボット、という定義には、この凄まじく高密度で高効率な動力系が含まれます。」　
 　「しかし、さし当たっての問題は・・・フランケンシュタインの苦悩だ。まさかこんな事になるとは。私が問題にしている人間らしさというのは、そこだよ。」
-　「不気味さの谷ってやつですかねぇ・・・う〜ん・・・」彼はそれを見る。「シミュレーションではこんな傾向はなかったんですが。」
+　「不気味さの谷ってやつですかねぇ・・・う～ん・・・」彼はそれを見る。「シミュレーションではこんな傾向はなかったんですが。」
 
 　プラスチックの美少女はぎこちなく動いた。歩き、こちらを見て、手を突き出して振る。
 　静かな研究室に、機械の軋む音と排気音が広がる。
@@ -10575,7 +10575,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:09:08+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">　「何だって秋葉系でやってみようって話になったのか。これでせんとくんなら全然アリだろうに。不気味さが売りにもなるだろうに。」
-　「マスコットキャラクターは存在感として軽いからでは？」教授に助手が言う。「う〜ん・・・安易で分かりやすいものを求めるのが大衆であり市場主義ですが、その結果生み出される社会的な機械には魂がない。奈良、平安遷都、この上なく分かりやすい。
+　「マスコットキャラクターは存在感として軽いからでは？」教授に助手が言う。「う～ん・・・安易で分かりやすいものを求めるのが大衆であり市場主義ですが、その結果生み出される社会的な機械には魂がない。奈良、平安遷都、この上なく分かりやすい。
 　先生の言葉で言うと秋葉系ですが、それもそういう危機を抱えていて・・・アニメのキャラクターにも作品の中での愛と死がある。それが魅力を形作る。しかし、萌え産業の消費者にはそんなものに興味を抱く必要が無い。だから安易なメイド、記号化された顔と髪型。磨り潰されたキャラクターグッズ。」
 　
 　そうした美少女は、今彼らの前に居る。エプロンドレスで羽があり甘いクリームソーダのような色と目と肌、血のかわりに電気が流れ、肉の代わりに-----アクチンとミオシンの化学反応で動くのが肉と腱だが、これはペルチェ素子のわずかな温度変化で揮発油を暖め冷やすことで駆動するスターリングエンジンと、瞼や唇を動かすコンプレッサーの空気で動いている。それはモーターと歯車の駆動とは違った、人間らしい柔らかな動きを実現する筈だった。</sioc:content>
@@ -10619,11 +10619,11 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-04-22T13:12:08+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">　スカッシュのハーフコートのそばのベンチに座る。もう、ここに人影は無い。夏も過ぎて、涼しくなったと思う。
 　携帯でぷちぷちとメールを打つ。
-　＞ちこくした。副都心線パネェ。アナウンスが途中でだまるとかないわ。あ、とか言ってるの。
+　＞ちこくした。副都心線ﾊﾟﾈｪ。アナウンスが途中でだまるとかないわ。あ、とか言ってるの。
 　送信、っと。しかし変わった仕事もあったもんだとあらためて思う。タレントとして名の通っていない人にも仕事をとってくるナインティの・・・・なんていうか、敏腕ぶり？
 
-　`⊂〃ま→レヽ(；’ヮ’)　とかメールが返ってくる。また送る。一旦携帯を閉じて、思いなおしてまた開く。どうせ待機時間だし、バッテリにはまだまだ余裕がある。
-　ニュースサイトを見に行く。EXPOや先程の美少女ロボットはベネティアという名前。反響はなかなか大きい。ティアたん萌え〜だって。まぁディテールが凄いしねぇ・・・動きがあんなホラーだと分かったらみんな凍りつくね。
+　`⊂〃ま→ﾚヽ(；’ヮ’)　とかメールが返ってくる。また送る。一旦携帯を閉じて、思いなおしてまた開く。どうせ待機時間だし、バッテリにはまだまだ余裕がある。
+　ニュースサイトを見に行く。EXPOや先程の美少女ロボットはベネティアという名前。反響はなかなか大きい。ティアたん萌え～だって。まぁディテールが凄いしねぇ・・・動きがあんなホラーだと分かったらみんな凍りつくね。
 　ネットワークが切断され、携帯がぶるっと震える。着信。研究室からだ。
 
 　『何点か確認したいことがある。一度研究室に戻ってほしい。』
@@ -10742,7 +10742,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 　『ロボットはトイレに行かない。』という技師の返事。その後、別の声。『ジップを下からあけるとそのまま出来ます。材質的には汚しても構いませんので、じゃあ、行って来て。』
 　うわぁ・・・なんだそれ。下のほうに手をやってみると、確かにダブルジップになっている。
 　カサッ、という音がして、ホワイトノイズが消える。イヤフォンのコードが抜かれたようだ。向こうでは教授の助手がドアを開けて、廊下を確認したのが見えた。彼に教授が何か言って、女性のスタッフに声をかける。
-　田村教授：「おいおまえ〜。送り狼ちゃうんか？」
+　田村教授：「おいおまえ～。送り狼ちゃうんか？」
 　助手：「ななななにゆうてはるんですか。そんなわけあらしまへんわ」
 　------とか、彼女はその情景に台詞を付けてみる。
 　あの助手さんは後先考えずにそんなことが出来るようなタイプじゃないだろうけど。</sioc:content>
@@ -10782,11 +10782,11 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		<sioc:content xml:lang="ja">　『ハードウェア制御の限界値を読み取りたいので、今日は定時までそのまま着ていて。』
 　＞まじで＠＠
 　『じっとしていられると正規のデータにならないから、負荷をかけてみますか・・・音楽でも聴いてウマウマでも踊っててください。』
-　助手がmp3をパソコンのミュージックプレイヤーに流し込み、指し示す。彼女はボリュームを操作する。ラウンジ・フロア系のストリクトなダンスミュージックでは無く、踊るにはやや速いBPMの曲。思考や理解よりも速くて心地良い。錆びも摩擦も無い心地良く動作する器械。
+　助手がmp3をパソコンのミュージックプレイヤーに流し込み、指し示す。彼女はボリュームを操作する。ラウンジ･フロア系のストリクトなダンスミュージックでは無く、踊るにはやや速いBPMの曲。思考や理解よりも速くて心地良い。錆びも摩擦も無い心地良く動作する器械。
 　最初は軽くリズムを取り、アクションが段々派手目になる。背中のユニットの冷却ファンが唸りを上げ始め、そこに少し熱を感じる。体から出た温度を熱交換でドレインして、金属の羽と空冷ファンで空中に逃がす仕組み。
 　ちらっと教授達を見ると、彼らは何か話をしている。内容は聴こえない。
-　助手：「せんせぇ〜、これをロボットやゆうてEXPOに出していいもんなんでしょうか？」
-　教授：「しょうがないやろ。期日もせまっとるし大企業の偉いさんにはせっつかれるし〜。」
+　助手：「せんせぇ～、これをロボットやゆうてEXPOに出していいもんなんでしょうか？」
+　教授：「しょうがないやろ。期日もせまっとるし大企業の偉いさんにはせっつかれるし～。」
 　そんな会話を想像する。技師と目が合い、彼は気まずそうに目を背ける。助手はパソコンの画面に体ごと視線を移す。
 　
 　ステージイベントでは、彼女-----ベネティアが自然に障害物を避けて歩いたり、階段を上ったり降りたり、キャッチボールをしたり、そして愛くるしく踊る姿を-------多くの来場者が見ていた。
@@ -10957,7 +10957,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-08T08:23:01+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">最近エロサイト業者の広告が酷いな。
-あぼーんばかりだよ。○|‾|＿</sioc:content>
+あぼーんばかりだよ。○|￣|＿</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11093,7 +11093,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 言うまでも無く中に入っている人間の汗だ。ＭＣの女性はマルスマンの様子を時折心配そうな目でみている。
 だが、マルスマンは元気一杯をアピールしながら子供達と一緒に体操をしている。
 
-体操が終わった。今度は握手会だ。ＭＣのお姉さんは子供達に「順番に並んでね〜。」と言った後、
+体操が終わった。今度は握手会だ。ＭＣのお姉さんは子供達に「順番に並んでね～。」と言った後、
 タオルを持ってきて、マルスマンのよだれの様な汗を拭きとって、小声で「大丈夫ですか？」と聞いてみた。
 マルスマンは力強く頷いた。</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
@@ -11283,7 +11283,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-17T20:05:00+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">智子と麻奈はパスタを食べていた。
-「さっき言ってた知ってる人って誰なんですか。まさか元カレですか〜？」
+「さっき言ってた知ってる人って誰なんですか。まさか元カレですか～？」
 「違う違う。単なる高校のクラスメート。ただ凄く頭が良くて、医学部目指してたの。おそらく、
 今頃医者にでもなってるんじゃないかなあ。着ぐるみの追っかけ何かやってる訳ないよ。」
 智子はそう言った。
@@ -11838,18 +11838,18 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T20:06:24+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">　　 /.　　　ノ、i.|i　　　　　、、　　　　　　　　　ヽ
-　　i　　　 | ミ.＼ヾヽ、＿＿_ヾヽヾ　　　　　　　 |
-　　|　　　i　、ヽ_ヽ、_i　 , /　`__,;—'彡-i　　　　 |
-　　i　　,'i/　`,ニ＝ミ`-、ヾ三''—-—'　/　　　　.|
-　　　iイ | |' ;'(( 　 ,;/　'~ ゛　 ‾`;)" c ミ　　　　 i.
-　　　.i　i.| ' ,||　 i| ._　_-i　　　　||:i　　　| ｒ-、 　ヽ、　　　／　 　 ／　　 /　　|　＿|＿　—　/／‾7l l ＿|＿
-　　 丿　`|　((　　_゛_i__`'　　　　(( ;　　 ノ//　i　|ヽi.　_／|　　_／|　 　 /　 　|　　｜　 —　/　＼/　　 　｜　　———
-　 /　　 　i　||　 i` - -、` i　 　 ノノ　　'i /ヽ |　ヽ 　　　　|　　　　|　　/　　 　| 　 丿　＿／　　／　　 　 丿
-　 'ノ　　..　i )) 　'--、＿`7　　 ((　　　, 'i ノノ　　ヽ
-　ノ　　　　 Y　　`--　 " 　　　))　　ノ ""i　　　　ヽ
-　　　　　　ノヽ、　　　　　　　ノノ　　_/　　 i　　　　　＼
-　　　　　/ヽ　ヽヽ、＿＿_,;//--'";;"　　,/ヽ、　　　 ヾヽ</sioc:content>
+		<sioc:content xml:lang="ja">　　 /.　　　ノ、i.|i　　　　　､、　　　　　　　　　ヽ
+　　i　　　 | ﾐ.＼ヾヽ､＿＿_ヾヽヾ　　　　　　　 |
+　　|　　　i　､ヽ_ヽ､_i　 , /　`__,;―'彡-i　　　　 |
+　　i　　,'i/　`,ﾆ＝ﾐ`-､ヾ三''―-―'　/　　　　.|
+　　　iｲ | |' ;'(( 　 ,;/　'~ ゛　 ￣`;)" c ﾐ　　　　 i.
+　　　.i　i.| ' ,||　 i| ._　_-i　　　　||:i　　　| ｒ-､ 　ヽ、　　　／　 　 ／　　 /　　|　＿|＿　―　/／￣7l l ＿|＿
+　　 丿　`|　((　　_゛_i__`'　　　　(( ;　　 ﾉ//　i　|ヽi.　_／|　　_／|　 　 /　 　|　　｜　 ―　/　＼/　　 　｜　　―――
+　 /　　 　i　||　 i` - -､` i　 　 ﾉﾉ　　'i /ヽ |　ヽ 　　　　|　　　　|　　/　　 　| 　 丿　＿／　　／　　 　 丿
+　 'ﾉ　　..　i )) 　'--､＿`7　　 ((　　　, 'i ﾉノ　　ヽ
+　ノ　　　　 Y　　`--　 " 　　　))　　ﾉ ""i　　　　ヽ
+　　　　　　ﾉヽ､　　　　　　　ﾉﾉ　　_/　　 i　　　　　＼
+　　　　　/ヽ　ヽヽ､＿＿_,;//--'";;"　　,/ヽ、　　　 ヾヽ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11899,7 +11899,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-23T23:30:49+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">　ピンポーン♪
 　私は美優の部屋のインターホンを鳴らす。
-「は〜い！」
+「は～い！」
 　美優の元気な声がドア越しから聞こえ、ダッダッダッと足音が近づいてきた。
 「おはよう美優。」
 「あ、先輩、おはようございます♪ささっ、入ってください！」
@@ -11934,7 +11934,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 　と美優は頭を下げる。
 　私はこの顔に非常に弱い。
 　しょうがないから箱の中に何が入っているかを聞くと、美優は急に元気になり、
-　重そうにダンボール箱を私の隣に運び、それをそ〜と置く。
+　重そうにダンボール箱を私の隣に運び、それをそ～と置く。
 　元気になった美優を見て安心すると、美優が思いもよらぬことを口にする。
 
 「単刀直入に言います！先輩に…お人形さんになってもらいたいんです！」
@@ -12069,7 +12069,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 　今日着ぐるみを着るか、それともずっと変態扱いされるか、選択の余地なんて無かった……
 
 「私が……私が着ぐるみを着れば…秘密をばらさないって約束してくれるなら……」
-「着てくれるんですね！約束します！絶対言いません！やった〜♪」
+「着てくれるんですね！約束します！絶対言いません！やった～♪」
 　美優は私が着ぐるみを着るといったので飛び跳ねていた。
 
 　逆に、私は着ぐるみを着ることが決まり、さっき芽生えた感覚が……
@@ -12196,7 +12196,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T10:28:33+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「フン、フフン、フフ〜ン♪｝
+		<sioc:content xml:lang="ja">「フン、フフン、フフ～ン♪｝
 　美優は小物入れからカッターを取り出すと、鼻歌を歌いながらダンボール箱のガムテープを切っていく。
 　箱の中は発砲スチロールや、つぶすとプチプチ鳴るビニールがぎっしり詰まっている。
 　美優が箱の中のものを一つ、また一つと出すたびに美優自身のテンションはあがっていく……
@@ -12234,7 +12234,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 「だ、大丈夫。ちょっとボーとしてただけだから。」
 　と答えると、美優はまた元気になった。
-「そうですか、よかった！じゃあ早速着てもらいましょ〜♪まずは服を脱いじゃってください！」
+「そうですか、よかった！じゃあ早速着てもらいましょ～♪まずは服を脱いじゃってください！」
 「え！いきなり……」　
 　美優のテンションがまた始めた。</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
@@ -12277,7 +12277,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T10:54:30+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「じゃあ、今度こそ服を脱いじゃってくださ〜い♪」
+		<sioc:content xml:lang="ja">「じゃあ、今度こそ服を脱いじゃってくださ～い♪」
 
 　同性だけど、見られながら脱ぐのは抵抗がある。
 　ソックス、半袖のTシャツ、ベルトをはずしてデニムを脱ぎ、美優の前で下着姿になった。
@@ -12596,8 +12596,8 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 「じゃあかぶせますよ？いいですか？」
 「うん！」
-「口開いてください。はい、あ〜ん。」
-「え？あ〜〜ん、ふぎゅ！」
+「口開いてください。はい、あ～ん。」
+「え？あ～～ん、ふぎゅ！」
 
 　口に何か入ってきた！鼻にも！息が…息が出来ないよ！
 
@@ -12638,7 +12638,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 「ほんとに大丈夫ですか！？」
 「んん！」
-「よかった〜。」
+「よかった～。」
 　私が急に崩れたから私以上に混乱したんだろう……美優はぐったりしながらその場に寝転んだ。
 　
 　また心配させちゃった…しっかりしなきゃ！
@@ -12801,7 +12801,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 「……あれ？あっ、ごめんね！立ったまんまじゃ疲れちゃうよね！座って座って♪」
 　私を抱きしめていた手を解くと、美優は私をその場に座らせた。
 
-「ふぅ〜〜。ふはへは〜〜。」（ふぅ〜〜。つかれた〜〜。）
+「ふぅ～～。ふはへは～～。」（ふぅ～～。つかれた～～。）
 　座らせてもらえたから思わず声を出ちゃった！
 　私はあわててサキの口元に手をやる。
 
@@ -12981,7 +12981,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 　私が首をかしげると、美優が背中に隠していたものを見せてきた。デジカメだ！
 
-「これよりサキちゃんの撮影会をはじめま〜す♪ほら、立って立って！」
+「これよりサキちゃんの撮影会をはじめま～す♪ほら、立って立って！」
 　手を引っ張られ立たされると、美優はいきなり私をデジカメで撮り始めた。
 「次は手を後ろにやってうつむいてみて♪そお、そお！かわいい♪」
 　言われたとおりにポーズをとる。
@@ -13020,7 +13020,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　美優は手を合わせて私にお願いする。
 　私はしぶしぶ頷き、十枚ぐらい私のケータイで写真を撮らせてあげた。
 
-「これぐらいで十分かな？じゃあまたデジカメでとりま〜す♪」
+「これぐらいで十分かな？じゃあまたデジカメでとりま～す♪」
 　美優はケータイを私のバックに入れると、カメラをデジカメを持ち替えて撮影会を再開した。
 
 　まだ撮るの……もう疲れてきちゃったよぉ……
@@ -13069,7 +13069,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　私は拳を握り締め、がんばるぞ！のポーズをして首を大きく縦にふる。
 　着ぐるみを着てからちょっと動きが大胆になってる気がする……
 
-「ほんと！やった〜♪」
+「ほんと！やった～♪」
 　美優がまた元気になり、ピョンピョン飛び跳ねている。
 
 　やっぱり美優にはいつも元気でいてもらいたい……
@@ -13255,7 +13255,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 「ひっく、ひっく……ふぅ……」
 　言われたとおりにスカートを持ち、便座に座る……
 　すると美優は股のジッパーを開け、肌タイが閉じないように手で広げた。
-「はい！出していいよ♪し〜し〜ぽんぽんぽん……」
+「はい！出していいよ♪し～し～ぽんぽんぽん……」
 
 　美優の掛け声とともに溜まってたおしっこが勢いよく噴き出す…かなりの量……
 　
@@ -13299,7 +13299,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:32:31+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">続きマダー？チンチン</sioc:content>
+		<sioc:content xml:lang="ja">続きﾏﾀﾞー？ﾁﾝﾁﾝ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13368,7 +13368,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　美優は無言でパンツを上げ続ける……ついに二つの張り型が私の二つの穴に近づいてきた！
 「いい？一気にいくよ？」
 「やら！やめへ！！」（やだ！やめて！）
-「せ〜の！」
+「せ～の！」
 
 　ズル！！
 　
@@ -13425,7 +13425,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:45:21+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">「はふっ！ひや！ほうやめへ！」（はぅっ！イヤ！もうやめて！）
-「だ〜め♪ＭＡＸまで我慢してね♪」
+「だ～め♪ＭＡＸまで我慢してね♪」
 「ふぅぅ……」
 
 　体も顔も変な汗でグチョグチョだ……マスクの中は涙とよだれが混じってもっと気持ち悪い……
@@ -13452,7 +13452,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T20:47:54+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「はい！お仕置きおしまい！今マスク外してあげるからね〜♪」
+		<sioc:content xml:lang="ja">「はい！お仕置きおしまい！今マスク外してあげるからね～♪」
 　気絶した私はそのあとも体をビクビクと震わせ、いき続けている……
 　美優の声なんて聞こえてなかった……
 
@@ -13690,7 +13690,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 「いいかんじです♪やっぱり先輩は白が一番です♪」
 「ふふっ、ありがと♪」
-　私は着てきた服に着替える。お腹がぐ〜っとなった。
+　私は着てきた服に着替える。お腹がぐ～っとなった。
 　
 　もう５時かぁ……ジュースしか飲んでないからおなか減っちゃった……
 
@@ -13822,7 +13822,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-24T21:36:36+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">(σ・∀・)σ800ゲッ・・・やっぱやめるわ</sioc:content>
+		<sioc:content xml:lang="ja">(σ・∀・)σ800ｹﾞｯ・・・やっぱやめるわ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13970,7 +13970,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;812">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">812</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:00:59+09:00</sioc:delivered_at>
@@ -13979,7 +13979,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 それと展開がかぶってるかも……
 
 
-「(・(ェ)・)クマ！」
+「(･(ｪ)･)クマ！」
 
 
 主人公：早瀬恭子（はやせ　きょうこ）
@@ -14005,7 +14005,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;813">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">813</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:02:02+09:00</sioc:delivered_at>
@@ -14031,7 +14031,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;814">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">814</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:03:32+09:00</sioc:delivered_at>
@@ -14064,7 +14064,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;815">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">815</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:04:34+09:00</sioc:delivered_at>
@@ -14094,7 +14094,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;816">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">816</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:06:18+09:00</sioc:delivered_at>
@@ -14132,7 +14132,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;817">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">817</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:08:18+09:00</sioc:delivered_at>
@@ -14145,7 +14145,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;818">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">818</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:09:48+09:00</sioc:delivered_at>
@@ -14155,7 +14155,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 「恭子、恭子……ねえ聞いてる？」
 「……えっ！なに？……ごめん…聞いてなかった……」
 　凛はドリンクバーのメロンソーダをチューチュー吸いながら私に話しかけていた。
-「何か今日ずっとボ〜っとしてるよ。なにかあったの？」
+「何か今日ずっとボ～っとしてるよ。なにかあったの？」
 「別になにもないよ！で、話って？」
 「今日の授業でレポートの宿題でたでしょ？私ちょっとわかんないとこあるから明日恭子ん家いってもいい？」
 
@@ -14174,7 +14174,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;819">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">819</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:11:13+09:00</sioc:delivered_at>
@@ -14200,7 +14200,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;820">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">820</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:12:13+09:00</sioc:delivered_at>
@@ -14231,7 +14231,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;821">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">821</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:13:18+09:00</sioc:delivered_at>
@@ -14271,7 +14271,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;822">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">822</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:14:31+09:00</sioc:delivered_at>
@@ -14286,7 +14286,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　
 　緊張する……抜けなくなったらどうしよう……ちょっと……怖い……
 　ダメダメ！これがクマになるための第一歩なんだから！
-　こうゆうのは思い切りが大事よね！一気にいこう！……いっせ〜の〜せっ！
+　こうゆうのは思い切りが大事よね！一気にいこう！……いっせ～の～せっ！
 
 　私は目をつぶって一気にクマの頭の中に自分の頭を入れた！
 　ズボッ！という音とともに頭全体が覆われ、首が少し絞められた気がした。
@@ -14309,7 +14309,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;823">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">823</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:15:40+09:00</sioc:delivered_at>
@@ -14345,7 +14345,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;824">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">824</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:16:46+09:00</sioc:delivered_at>
@@ -14358,7 +14358,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;825">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">825</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:18:28+09:00</sioc:delivered_at>
@@ -14380,12 +14380,12 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　
 　……そろそろくるかも……　
 
-　ピンポ〜ン♪
-「おはよう恭子。起きてる〜？」
+　ピンポ～ン♪
+「おはよう恭子。起きてる～？」
 　予想通りのタイミングで凛はやってきた。
 「はーい！今開けるからね！」
 　私は玄関にいき、ドアの鍵を開けた。そこには凛がコンビニの袋をもって立っていた。
-「レポート教えてもらいにきたよ〜♪それとこれ授業料！」
+「レポート教えてもらいにきたよ～♪それとこれ授業料！」
 　持っていた袋を私に手渡す……中にはピーチdeジュースが入っていた！しかも２本も！
 「いいの！貰っちゃって！」
 「いいの、いいの。」
@@ -14398,11 +14398,11 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;826">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">826</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:19:31+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「相変わらずかたづいてるね〜。恭子の部屋。」
+		<sioc:content xml:lang="ja">「相変わらずかたづいてるね～。恭子の部屋。」
 　凛はクッションに座って私の部屋を見回しながらそう言った。
 　そしてベットの上のクマに気づいた。
 
@@ -14423,7 +14423,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 「やっぱり縫ぐるみのこととになると子供になっちゃうんだね♪」
 「またからかって！」
-「あっ！じゃあ、そろそろレポート教えてもらおっかな〜？」
+「あっ！じゃあ、そろそろレポート教えてもらおっかな～？」
 「もお！調子いんだから……」
 　
 　こうして私たちはレポートに取りかかった……</sioc:content>
@@ -14433,11 +14433,11 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;827">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">827</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:20:42+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">『終わった〜』
+		<sioc:content xml:lang="ja">『終わった～』
 　同時にそういうと、二人でその場に仰向けに寝転んだ。
 　二人で集中してやったから、まだ３時をちょっと過ぎたぐらいだった。
 
@@ -14469,7 +14469,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;828">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">828</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T14:21:46+09:00</sioc:delivered_at>
@@ -14482,7 +14482,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;829">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">829</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T15:56:57+09:00</sioc:delivered_at>
@@ -14510,14 +14510,14 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;830">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">830</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T15:58:16+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">　私は服を脱いで下着姿になり、クマと一緒にベットの上に座った。
 　そしてクマの背中の縫い目に手をかけ、マジックテープをバリバリはがす……相変わらずかたい……
 
-「ふぅ〜開いた〜」
+「ふぅ～開いた～」
 　なんとか首から尻尾まであるマジックテープを全部開けた。
 
 　あとは……私が入るだけ……
@@ -14540,7 +14540,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;831">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">831</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T15:59:29+09:00</sioc:delivered_at>
@@ -14569,7 +14569,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;832">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">832</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:00:47+09:00</sioc:delivered_at>
@@ -14597,13 +14597,13 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;833">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">833</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:02:08+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">　ふぅ〜、危なかった〜……
+		<sioc:content xml:lang="ja">　ふぅ～、危なかった～……
 　……やっぱりきつい……
-　けど私！クマになれたんだ！ヤッタ〜♪
+　けど私！クマになれたんだ！ヤッタ～♪
 
 　私は嬉しくて飛び上がろうとしたら、おもいっきり後ろに倒れそうになった！
 『わぁ！！』
@@ -14626,7 +14626,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;834">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">834</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:04:35+09:00</sioc:delivered_at>
@@ -14637,7 +14637,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;835">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">835</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:06:22+09:00</sioc:delivered_at>
@@ -14670,7 +14670,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;836">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">836</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:08:04+09:00</sioc:delivered_at>
@@ -14698,7 +14698,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;837">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">837</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:11:10+09:00</sioc:delivered_at>
@@ -14731,7 +14731,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;838">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">838</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:12:17+09:00</sioc:delivered_at>
@@ -14742,7 +14742,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;839">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">839</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:15:41+09:00</sioc:delivered_at>
@@ -14778,7 +14778,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;840">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">840</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:17:09+09:00</sioc:delivered_at>
@@ -14809,7 +14809,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;841">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">841</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:19:10+09:00</sioc:delivered_at>
@@ -14834,7 +14834,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;842">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">842</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:27:45+09:00</sioc:delivered_at>
@@ -14869,7 +14869,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;843">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">843</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:30:02+09:00</sioc:delivered_at>
@@ -14904,7 +14904,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;844">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">844</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:31:20+09:00</sioc:delivered_at>
@@ -14915,7 +14915,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;845">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">845</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:37:37+09:00</sioc:delivered_at>
@@ -14947,7 +14947,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;846">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">846</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:38:52+09:00</sioc:delivered_at>
@@ -14958,7 +14958,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;847">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">847</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:41:55+09:00</sioc:delivered_at>
@@ -14985,7 +14985,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;848">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">848</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:43:11+09:00</sioc:delivered_at>
@@ -15009,7 +15009,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;849">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">849</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:44:52+09:00</sioc:delivered_at>
@@ -15033,7 +15033,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;850">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">850</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:46:00+09:00</sioc:delivered_at>
@@ -15044,17 +15044,17 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;851">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">851</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:49:04+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">　ピンポ〜ン♪
+		<sioc:content xml:lang="ja">　ピンポ～ン♪
 
 　！！
 
 　突然インターホンが鳴ったから体がビクッてなった。
 　ドア越しからは私の慣れ親しんだ声が聞こえてきた。
-「恭子〜いるの〜……あれっ？鍵開いてる……入っちゃうよ〜」
+「恭子～いるの～……あれっ？鍵開いてる……入っちゃうよ～」
 　ガチャッとドアの開く音がし、次にドアを閉めた音が聞こえた。
 
 　凛だ！
@@ -15082,7 +15082,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;852">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">852</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:51:02+09:00</sioc:delivered_at>
@@ -15104,7 +15104,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;853">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">853</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:54:03+09:00</sioc:delivered_at>
@@ -15129,7 +15129,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;854">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">854</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:56:43+09:00</sioc:delivered_at>
@@ -15157,7 +15157,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;855">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">855</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T16:59:42+09:00</sioc:delivered_at>
@@ -15193,11 +15193,11 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;856">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">856</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-05-31T17:09:09+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「(・(ェ)・)クマ！」　完　です。
+		<sioc:content xml:lang="ja">「(･(ｪ)･)クマ！」　完　です。
 
 また長くなっちゃいました……
 それにまた、我フェティッシュ（泣いちゃう女の子、感じちゃう女の子、縫ぐるみが大好きな女の子等々）だらけになっちゃいました……
@@ -15254,7 +15254,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 	<types:BoardPost rdf:about="&post;861">
 		<rdfs:label rdf:datatype="&xsd;positiveInteger">861</rdfs:label>
 		<dcterms:creator rdf:parseType="Resource">
-			<foaf:nick rdf:datatype="&xsd;string">(・(ェ)・)</foaf:nick>
+			<foaf:nick rdf:datatype="&xsd;string">(･(ｪ)･)</foaf:nick>
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-06-04T18:53:31+09:00</sioc:delivered_at>
@@ -15409,8 +15409,8 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-06-14T23:46:12+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「おつかれ〜」
-「おつかれさま〜」
+		<sioc:content xml:lang="ja">「おつかれ～」
+「おつかれさま～」
 　今日は金曜日だから少し早めに練習を終わりにした。
 　練習が終わったからみんなが次々と帰っていく……部室には私だけが残っていた。
 　私は部室のドアに鍵をかけ、カーテンを全部閉めた。
@@ -15525,7 +15525,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 「……いいよ。」
 　無意識に呟いてた……
 
-「ほんとですか！やった〜♪早いんですけど明日の朝５時に来てくださいね！じゃあ私はこれで！お疲れ様です♪」
+「ほんとですか！やった～♪早いんですけど明日の朝５時に来てくださいね！じゃあ私はこれで！お疲れ様です♪」
 　美優はピョンピョン飛び跳ねてから私にペコリとお辞儀して部室から出て行った。
 
 「……？……あれ？」
@@ -15627,7 +15627,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 「あれ？先輩……目が覚めましたか？あっそうだ！もう先輩じゃなくてサキちゃんだよね♪」
 『ふぅ！ふぅぅ！』
-「ふふ♪ダーメ♪イヤイヤなんかしても……サキちゃんはず〜とこのカッコでいるの♪お人形さんでしょ♪」
+「ふふ♪ダーメ♪イヤイヤなんかしても……サキちゃんはず～とこのカッコでいるの♪お人形さんでしょ♪」
 『ひふぅ！やへへほぉ！』（美優！やめてよぉ！）
 「声出しちゃダメでしょ！そんな悪い子には……お仕置きが必要ね！」
 『ふっ！ふぎゅぅぅぅ！！！』
@@ -15654,7 +15654,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 		<sioc:content xml:lang="ja">「なんだ……夢か……怖かった……」
 　ちょっとリアルな夢だった……
 　ホッと一息ついてベットに大の字に寝転ぶ。そしたらあそこの異変に気付いた……
-　そ〜と手をシューツの中に入れる……
+　そ～と手をシューツの中に入れる……
 
 　もしかして……やっぱり……
 
@@ -15695,8 +15695,8 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　まだ５時ちょっと前だけど美優の部屋に着いちゃった。
 　私はインターホンに指を伸ばす……
 
-　ピンポ〜ン♪
-「……ふぁ〜い……」
+　ピンポ～ン♪
+「……ふぁ～い……」
 　少し間があいてから美優の声が聞こえた。いつもみたいな元気がない……
 　そしてトコトコと足音がしてから玄関のドアが開いた。
 
@@ -15724,7 +15724,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 「先輩！早速始めましょっか！全部脱いじゃってください♪」
 「え！もお……」
 　さっきとは打って変って美優はハイテンションになってる！
-　台所に目をやるとリポビタンみたいなビンが置いてある……天狗〜〜って書いてある……
+　台所に目をやるとリポビタンみたいなビンが置いてある……天狗～～って書いてある……
 
 　あんなの飲んで大丈夫かなぁ……あっ！そおだ！
 
@@ -15739,7 +15739,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 　……やっぱり……
 
-　私はおしっこを出して濡れたナプキンと股を拭いき、トイレから出てよ〜く手を洗った。</sioc:content>
+　私はおしっこを出して濡れたナプキンと股を拭いき、トイレから出てよ～く手を洗った。</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15751,7 +15751,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-06-15T20:37:38+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">　トイレから戻ってくると美優は鼻歌を歌いながら着ぐるみセットの前に立っていた。
-「フン、フフ〜ン♪あっ！終わりました？じゃあお願いします♪」
+「フン、フフ～ン♪あっ！終わりました？じゃあお願いします♪」
 「う、うん……」
 　私は髪をゴムでまとめて着てきた服を全部脱いで裸になった。やっぱり恥かしい……
 　肌タイをひろい、美優に背中を向けて足、手、頭の順に着ていく……
@@ -15784,8 +15784,8 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-06-15T20:42:47+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「口開けてください♪あ〜ん！」
-「うん……あ〜〜ん……」
+		<sioc:content xml:lang="ja">「口開けてください♪あ～ん！」
+「うん……あ～～ん……」
 
 　ドックン！ドックン！ドックン！
 
@@ -15885,7 +15885,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　マスクの中で顔が真っ赤になった……もちろん美優には見えてない……
 　それに美優はさっきからテンションが上がってきてる……
 
-「次は……これこれ！ピンクのキャミソ〜♪サキちゃん！バンザイして♪」
+「次は……これこれ！ピンクのキャミソ～♪サキちゃん！バンザイして♪」
 　言われたとおりにバンザイする。美優は上からキャミソールを着せた。
 　キャミソールはニット状の生地で胸がちょうど隠れるくらい。お腹もちゃんと隠れるからちょっと安心した……
 　肩ひもはなくて胸の谷間のところのひもをちょうちょ結びで縛って落ちないようにしてる。
@@ -15948,7 +15948,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　美優の手を振り払い首を横にふる。こんなカッコで外に出たくない！
 
 　美優は優しく微笑みながらサキの口に指を当てた。
-「しゃべっちゃダ〜メ♪今なら人いないからだいじょぶだよ！それに誰が入ってるかわかんないし♪」
+「しゃべっちゃダ～メ♪今なら人いないからだいじょぶだよ！それに誰が入ってるかわかんないし♪」
 
 　こんな早くに私を呼んだ理由がわかった……外で撮影会するためだ……
 　だからメイド服じゃなくてこの服装なんだ……
@@ -15967,7 +15967,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-06-16T21:04:41+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">　そしたら美優は意地悪そうな顔をした……何か企んでる……
-「じゃあサキちゃんの秘密……ばらしちゃおっかな〜？」
+「じゃあサキちゃんの秘密……ばらしちゃおっかな～？」
 　
 　ドキッ！
 
@@ -16004,7 +16004,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　美優に私が履いてきたスニーカーを履かせてもらう。ちょうど白だから服に合ってるかも……
 　肌タイを着てるからなんか違和感がある……少しきつい……
 
-　美優はそ〜とドアを開け、頭を出して周りの様子を伺っている……さすがに近所の人に見られるのは嫌みたい。
+　美優はそ～とドアを開け、頭を出して周りの様子を伺っている……さすがに近所の人に見られるのは嫌みたい。
 
 （今ならだいじょぶ……さっ行こ♪）
 　美優は小声で合図し、一緒に外に出てドアをバタンと閉めた。
@@ -16060,7 +16060,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　カシャ！
 
 　振り向いたらカメラのフラッシュが目に飛び込んできた。もう撮影会は始まっちゃったみたい……
-「う〜ん……フラッシュいらないかも……目が光っちゃうし……」
+「う～ん……フラッシュいらないかも……目が光っちゃうし……」
 　さっき撮った写真を見ながら美優は一人で考え込んでる。なんか私はおいてけぼり……
 　気付いてもらえるように美優の肩を指で突いてみた。
 「ん？……あっ！ごめんね！再開しよ♪じゃあその郵便ポストの横に立って！俯き加減で手は後ろに……ＯＫ！かわいい♪」
@@ -16157,7 +16157,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　公園の真ん中には時計が立ってて、もう６時になってる。
 
 　美優は公園を見渡しながらまずどれにしようか迷っていた。
-「う〜ん……なにがいっかなぁ……鉄棒にしよっ！サキちゃん！鉄棒につかまって♪」
+「う～ん……なにがいっかなぁ……鉄棒にしよっ！サキちゃん！鉄棒につかまって♪」
 　美優は一番高い鉄棒をポケットティッシュで拭いてから私を鉄棒につかまらせた。　
 
 　鉄棒なんて久しぶり……小学校以来かも……
@@ -16197,7 +16197,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　遠心力で鼻のなかの筒と口の猿轡が食い込んでくる！
 　痛かったから３回ぐらいしか回れなかった……
 
-「すごいすご〜い♪さっすがサキちゃん！かっこいい！」
+「すごいすご～い♪さっすがサキちゃん！かっこいい！」
 　でも美優はピョンピョン跳ねながら喜んでる。
 
 　いつつつ……まだジンジンする……鼻ん中切れちゃいそう……
@@ -16273,7 +16273,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-06-17T08:12:34+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「へ〜、そうなんだ。あっ！俺、川上涼！よろしく！君は？」
+		<sioc:content xml:lang="ja">「へ～、そうなんだ。あっ！俺、川上涼！よろしく！君は？」
 　川上くんが私に握手を求めてきた。私も思わず手をさしのべ、声を出そうとした。
 
 　……あっ！しゃべれないんだった！
@@ -16287,7 +16287,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 「え？いいの？何か悪いね。じゃあ……こんなかんじかな！」
 　川上くんはブランコに座った私の隣に立ってピースした。恥かしくないのかな？
-「ＯＫです！いきますよ！はいっチ〜ズ！」
+「ＯＫです！いきますよ！はいっチ～ズ！」
 
 　カシャ！
 
@@ -16351,7 +16351,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　しかも川上くんのまえなのに……
 
 「なわけないよな……ごめんごめん。なんとなく俺の友達に雰囲気が似てたから……
-　……その子、女の子なんだけどすっげ〜バドミントン上手くてさ。完璧に勝てるように朝からジョギングってわけ！
+　……その子、女の子なんだけどすっげ～バドミントン上手くてさ。完璧に勝てるように朝からジョギングってわけ！
 　へへ……ごめん！なんか愚痴っぽくなっちゃって……次に会うときは顔みせてね！じゃ！」
 
 　そういって川上くんは公園から出て行った。
@@ -16544,7 +16544,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 「へ？……はい……」
 　美優が不思議そうな顔で私を見る。私はニコッと笑った。
 「入ろっか！今日は私が美優の体洗ってあげる♪」
-「ほ、ほんとですか！ヤッタ〜♪」
+「ほ、ほんとですか！ヤッタ～♪」
 　美優がいつもの元気な美優に戻った。
 
 　ほんとかわいんだから……ふふ♪
@@ -16919,12 +16919,12 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-12T11:15:44+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">「せんせーさよーならー」
-「はい、さよ〜なら〜。気をつけて帰ってね〜♪」
+「はい、さよ～なら～。気をつけて帰ってね～♪」
 
 　帰りのホームルームが終わり、子供たちが帰っていく。
 　いつもにぎやかだった教室にはもう私しかいなくなった……
 
-「ふぅ〜……頑張らなくちゃ！」
+「ふぅ～……頑張らなくちゃ！」
 　私はちょっと寂しくなりながらも黒板を消していた。
 
 　教卓の下にチョークが落ちてる。それを拾おうとした……その時！
@@ -16954,7 +16954,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 　……お願い？
 
-「な〜に？」
+「な～に？」
 「キュンキュン……して……」
 　萌ちゃんはモジモジしながら私に頼んでる。
 
@@ -16962,7 +16962,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 「ちょっとだけだよ♪」
 　私はニコッと笑った。
-「ほんとに！やった〜♪」
+「ほんとに！やった～♪」
 　萌ちゃんは嬉ししそうにピョンピョンと飛び跳ねてる。
 
 　かわいい……ちっちゃい美優みたい……
@@ -17230,7 +17230,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-12T11:54:34+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">　……ピピピピ！ピピピピ！
 　
-　……う〜ん……もう……朝？……
+　……う～ん……もう……朝？……
 
 　目覚まし時計を止めて時間を見る……朝の７時だった。
 　私は台本を読みながら寝ちゃったみたい……
@@ -17293,7 +17293,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　私も今日は調子がいい（？）のか、着ぐるみ役を演じているのに全然もやもやした気持ちにならなかった。
 　お昼を一緒に食べて、午後もちょっと練習した。二人とも結構完璧になってきた。
 
-「ふぅ〜……今日はこれぐらいにしましょうか？」
+「ふぅ～……今日はこれぐらいにしましょうか？」
 　上凪さんはタオルで汗を拭きながら私に尋ねてきた。
 　夏の体育館は日差しがないかわりに、すごく蒸し暑い……
 「そうですね。ジュース飲みませんか？」
@@ -17661,7 +17661,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 「……はい……じゃあ、閉めますよ！」
 
-　ジ〜〜
+　ジ～～
 　
 　上凪さんは戸惑いながらもチャックを上げていく……
 　どんどん背中が肌タイに覆われていく……さっきよりも体を締め付けられる……
@@ -17785,7 +17785,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　そんな私に気づいたのか、上凪さんは私の前にしゃがみ込み、私の両肩に手を置いた。
 「ちょっとリラックスしましょっか？」
 「へ？」
-「大きく息をしてみてください。はい！すってーーはいて〜〜、すってーーはいて〜〜……」
+「大きく息をしてみてください。はい！すってーーはいて～～、すってーーはいて～～……」
 　私は目をつむり、上凪さんの合図とともに大きく深呼吸をする……
 　だんだん気持ちが落ち着いてきた……
 
@@ -18080,12 +18080,12 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-12T14:57:45+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「眞田さん、肩の力を抜いてらく〜にしてみてください。」
+		<sioc:content xml:lang="ja">「眞田さん、肩の力を抜いてらく～にしてみてください。」
 『え！……』
 　興奮して肩で息をしていた私に気づいたのか、上凪さんは後ろから私の背中をさすってくれた。
 
-「はい！大きく深呼吸してくださ〜い。」
-『は、はい……すぅーーふぅ〜〜、すぅーーふぅ〜〜』
+「はい！大きく深呼吸してくださ～い。」
+『は、はい……すぅーーふぅ～～、すぅーーふぅ～～』
 　息を吐くと同時にあたまのもやもや感、体にこもった熱が出ていく気がした……
 　そして私は落ち着きを取り戻してきた……
 
@@ -18144,11 +18144,11 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-12T16:26:10+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">　そんな私に気づいていない上凪さんは、練習の通りに元気にあいさつを始めた。
-「よいこのみんな♪こんにちわ〜！」
+「よいこのみんな♪こんにちわ～！」
 『こんにちわー！』
 　みんなも元気にそれに答える。そんなやりとりがすごく遠くに聞こえた……
 
-「今日はみんなに正しい交通のルールを覚えてもらいたくて参りました！上凪です！よろしくお願いしま〜す♪」
+「今日はみんなに正しい交通のルールを覚えてもらいたくて参りました！上凪です！よろしくお願いしま～す♪」
 　そういうと、上凪さんはぺこりとお辞儀をした。
 　みんなは拍手で応じる。
 　
@@ -18156,7 +18156,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　
 　さっきよりは落ち着いてきたけど、相変わらずドキドキしっぱなしだった……
 　もう息が上がってきてる……
-「なんと！今日はみんなのために、うさみみライダーアリスちゃんがきてくれました！拍手〜♪」
+「なんと！今日はみんなのために、うさみみライダーアリスちゃんがきてくれました！拍手～♪」
 　子供たちの拍手と同時にぴょん！と一歩前に出て、さっき会議室で練習した決めポーズをしてみせた。
 
 　そのときに、あのサイズの小さいスクール水着が食い込んできて……フニャフニャになったあそこを刺激する……
@@ -18175,7 +18175,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-12T16:28:42+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「ご挨拶はこれぐらいにして、早速はじめましょ〜♪」
+		<sioc:content xml:lang="ja">「ご挨拶はこれぐらいにして、早速はじめましょ～♪」
 　非情にも安全教室は始まってしまった……私のせいで止めるわけにはいかない。
 　
 　ひっく…ひっく…………だめ……だめだめ！くじけちゃだめ！
@@ -18187,9 +18187,9 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　でも気持ちだけでそんなに状況は変わらない……
 　なによりも顔まで体を覆われてるから暑い……そのうえ、衣装が全身をぎゅうぎゅうと締め付ける……
 　
-「まずは標識クイズからで〜す！」
+「まずは標識クイズからで～す！」
 　上凪さんはそういって、足元に置いてあるダンボール箱の中から手作りの道路標識のパネルを取り出した。
-「この標識の意味がわかる子は大きく手をあげてね〜♪」
+「この標識の意味がわかる子は大きく手をあげてね～♪」
 『ハーイ！ハーイ！』
 　みんな元気に手をあげる。
 　私も上凪さんの方を向いてピョンピョン跳ねながら手をあげる。
@@ -18221,7 +18221,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 　あぁん！……あっ……だめ……そこは……
 
-「正解で〜す！はい！みんな拍手〜♪」
+「正解で～す！はい！みんな拍手～♪」
 
 　パチパチパチパチ！
 
@@ -18273,14 +18273,14 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-12T16:39:14+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「標識クイズはこれで終わりで〜す！次は横断歩道のわたり方をお勉強しましょう♪みんな右を向いてくださ〜い！」
+		<sioc:content xml:lang="ja">「標識クイズはこれで終わりで～す！次は横断歩道のわたり方をお勉強しましょう♪みんな右を向いてくださ～い！」
 　子供たちは上凪さんが指さす方を見る。そこには白線で横断歩道がかいてある。
 　みんなにちゃんとした横断歩道のわたり方を教えれば安全教室は終わる。
 　でもここからが本番でもある……
 
 　これが終われば……お昼休み……それまで……もつかな……
 
-「じゃあ初めにアリスちゃんにわたってもらいましょ〜♪」
+「じゃあ初めにアリスちゃんにわたってもらいましょ～♪」
 　私はぴょん！と跳ねながら大きく手をあげ、横断歩道の前まで走って行った。
 
 　んくっ！……ハァ…ハァ…ハァ……もう……だめ……
@@ -18293,7 +18293,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　あっ！声出しちゃった！
 　……みんなには……聞こえてないみたい……いちいち感じてちゃだめ……
 
-「それではお願いしま〜す♪」
+「それではお願いしま～す♪」
 　私は大きく頷き、練習でやった通りに横断歩道を一気に走って渡った。
 　また乳首と股が刺激されちゃう……</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
@@ -18339,18 +18339,18 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　私はお尻が地面につかないように膝を抱えて座り、みんなと一緒に上凪さんの話を聞く。
 　
 　これでちょっと休める……
-　そうだ……深呼吸しよ……すぅーーふぅ〜〜すぅーーふぅ〜〜……
+　そうだ……深呼吸しよ……すぅーーふぅ～～すぅーーふぅ～～……
 　
 「横断歩道の前に立ったら、まず車がきてないことを確認します！
-　右みて〜、左みて〜、もっかい右みて！
-　車がきてないことが確認できたら運転手さんに見えるように手を大きくあげてわたりましょ〜！
-　みんなわかったかな〜？わかった子は大きく手をあげてね♪」
+　右みて～、左みて～、もっかい右みて！
+　車がきてないことが確認できたら運転手さんに見えるように手を大きくあげてわたりましょ～！
+　みんなわかったかな～？わかった子は大きく手をあげてね♪」
 『はーい！』
 　上凪さんは安全教室が始まってからすごく元気いっぱいだった。すごく楽しそう……
 　みんなもそんな上凪さんに負けないくらい元気よく手をあげた。
 　
 　上凪さん……子供好きなんだ……
-　ふぅ〜……よし！私も頑張んないと！
+　ふぅ～……よし！私も頑張んないと！
 
 　ほんのちょっとの時間だったけど、今の私にとっては貴重な休憩時間だった。
 　
@@ -18359,7 +18359,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　あぁっ！……また……
 　
 　でも現実は厳しかった……動くたびに……感じちゃう……
-「アリスちゃんもわかったみたいね♪みんなもアリスちゃんと一緒に練習しましょ〜！」
+「アリスちゃんもわかったみたいね♪みんなもアリスちゃんと一緒に練習しましょ～！」
 『はーい！』
 
 　ここからが大変だった……</sioc:content>
@@ -18447,7 +18447,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　なんとか倒れずに、みんなに横断歩道の正しいわたり方を教えることが出来た。
 　
 　上凪さんがみんなを整列させて、安全教室終了のあいさつをする。
-「これで交通安全教室は終わりで〜す！そしてお昼休みの後にアリスちゃんとの握手会があります！みんなきてね♪バイバ〜イ♪」
+「これで交通安全教室は終わりで～す！そしてお昼休みの後にアリスちゃんとの握手会があります！みんなきてね♪バイバ～イ♪」
 　上凪さんは手を振りながら玄関へと走る。　
 　私も残った体力を振り絞り、その場でピョンピョン跳ねてから腕を大きく振って上凪さんといっしょに玄関へと走っていった。
 　
@@ -18533,9 +18533,9 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　最後に肌タイのチャックも腰まで下げてもらって、肌タイを頭から脱がせてもらう……
 　着ぐるみを脱ぐときの解放感はちょっと他では味わえない……
 
-　ふぅ〜……きもちいい……
+　ふぅ～……きもちいい……
   
-　ぽ〜っとしながら上凪さんに身をまかせてたら、肌タイから私の汗まみれの胸がプルン！とでてきた……
+　ぽ～っとしながら上凪さんに身をまかせてたら、肌タイから私の汗まみれの胸がプルン！とでてきた……
 『あっ！』
 　私たちは一緒になって顔を赤くした……
 　私は手で胸を隠し、上凪さんは私から目を背けた……
@@ -18591,7 +18591,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-12T17:12:56+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">　会議室に戻ると上凪さんがぽ〜っとした顔をしながらアリスちゃんのマスクを自分の頭の上にもってきてた。
+		<sioc:content xml:lang="ja">　会議室に戻ると上凪さんがぽ～っとした顔をしながらアリスちゃんのマスクを自分の頭の上にもってきてた。
 「あっ！す、すみません！」
 「へ？」
 　なぜか私に謝る上凪さん……
@@ -18694,7 +18694,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　上凪さんは、はっ！とした顔をして、私の足元に置いてあったミトンの手袋を拾った。
 「手をだしていただけますか？…………あれっ？眞田さん？」
 『……あっ！はい！なんですか！』
-　私はぼ〜っとしてて全然上凪さんの話を聞いてなかった……
+　私はぼ～っとしてて全然上凪さんの話を聞いてなかった……
 「あの、手袋を……」
 『す、すみません！ちょっと考えごとしてて……』
 　私は手を差し出し、手袋をつけてもらった……これで完全装備のアリスちゃんになった……</sioc:content>
@@ -18719,7 +18719,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 「え？……はい……」
 　私は鏡の前に立って自分の胸に手を置いた……
 
-　ふぅ〜……私はもう……私じゃない……
+　ふぅ～……私はもう……私じゃない……
 　私は……アリスちゃん！
 
 『よし！』
@@ -18786,7 +18786,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　上凪さんは笛を大きく鳴らした。
 　その音に驚いてみんなが上凪さんの方を見る……
 　上凪さんはニコッと笑った。
-「みんな喧嘩しちゃだ〜め♪アリスちゃんが困っちゃうでしょ？
+「みんな喧嘩しちゃだ～め♪アリスちゃんが困っちゃうでしょ？
 　みんなが並んでくれたら握手会を始めます！だからきちんと一列に並んでね♪」
 『はーい！』
 　みんな上凪さんの言葉にちゃんと従って、まっすぐ一列に並ぶ。
@@ -18803,7 +18803,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 			<dcterms:identifier rdf:datatype="&xsd;string">zEHLoba/D2</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-12T17:31:39+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「それではアリスちゃんとの握手会を始めま〜す！」
+		<sioc:content xml:lang="ja">「それではアリスちゃんとの握手会を始めま～す！」
 　いよいよ握手会が始まった。
 　１年生は約６０人いる……一人ひとり握手してから写真を撮ってもらうとなると結構大変そう……
 
@@ -18893,7 +18893,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 　順調に人が減っていく……
 　
 　上凪さんは帰っていく子たちに元気に手を振っていた。
-「今日お勉強したことを思い出して車にきをつけて帰ってね〜！」
+「今日お勉強したことを思い出して車にきをつけて帰ってね～！」
 「はーい！」
 　みんなも元気に答える。
 　そんな子供たちの背中を見る上凪さんはちょっと寂しそうな顔をしてた……</sioc:content>
@@ -19034,7 +19034,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 『お疲れ様でした。』
 
 　二人が出て行ってから私は椅子に座り、上凪さんにマスクを脱がしてもらった。
-「ふぅ〜」
+「ふぅ～」
 「今日はほんとにお疲れさまでした。」
 　私はブーツと手袋を脱がせてもらった。
 　すっごく蒸れてて……ビチャビチャだった……
@@ -19075,7 +19075,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 
 　私も上凪さんに背中をむけて胸に手を置き、大きく息をはいた。
 
-　ふぅ〜危ない危ない……あそこを濡らしてるの見られちゃうとこだっだ……
+　ふぅ～危ない危ない……あそこを濡らしてるの見られちゃうとこだっだ……
 　
 　そして私はスクール水着の股の部分を見る……
 
@@ -19216,7 +19216,7 @@ OKだったら「ＯＫ」とか「それでいいよ」等々書き込んで頂
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-07-13T07:17:12+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">(σ・∀・)σ999ゲッツ!!</sioc:content>
+		<sioc:content xml:lang="ja">(σ・∀・)σ999ｹﾞｯﾂ!!</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
