@@ -28,7 +28,9 @@
 	<xsl:variable name="t4" select="document('../src/rdf/1184654919.rdf')"/>
 	<xsl:variable name="t5" select="document('../src/rdf/1211041119.rdf')"/>
 	<xsl:variable name="t6" select="document('../src/rdf/1247437212.rdf')"/>
-	<xsl:variable name="posts" select="($t1 | $t2 | $t3 | $t4 | $t5 | $t6)/rdf:RDF/*[@rdf:about]"/>
+	<xsl:variable name="t7" select="document('../src/rdf/1359121685.rdf')"/>
+	<xsl:variable name="t8" select="document('../src/rdf/1360227486.rdf')"/>
+	<xsl:variable name="posts" select="($t1 | $t2 | $t3 | $t4 | $t5 | $t6 | $t7 | $t8)/rdf:RDF/*[@rdf:about]"/>
 
 	<xsl:template match="/">
 		<xsl:processing-instruction name="xml-stylesheet">href="<xsl:value-of select="$base-url"/>xsl/rdf2html.xsl" type="application/xslt+xml" title="XHTML" alternate="yes"</xsl:processing-instruction>
