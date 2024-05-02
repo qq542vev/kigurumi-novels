@@ -18,7 +18,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#906">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">906</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">00/00 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">00/00</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:20:44+09:00</sioc:delivered_at>
@@ -34,13 +34,13 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#908">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">908</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">01/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">01/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:22:13+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">マスコットとパラサイト
 
-【　−無職　遊園地へゆく−　】
+【　－無職　遊園地へゆく－　】
 
 実家に戻って、はや三週間。
 無職になって何日たったか…。
@@ -69,7 +69,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#909">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">909</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">02/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">02/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:23:15+09:00</sioc:delivered_at>
@@ -97,7 +97,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#910">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">910</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">03/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">03/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:24:09+09:00</sioc:delivered_at>
@@ -131,7 +131,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#911">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">911</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">03/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">03/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:25:22+09:00</sioc:delivered_at>
@@ -151,7 +151,7 @@
 それを撮ると次のポーズ、また撮ると次のポーズ。断るのも悪いので結局十枚ほど撮った。
 「悪いね。サービスしてもらって、それじゃ…」
 帰ろうとする俺の腕をガシッと掴む。
-「え゛？」
+「えﾞ？」
 意表を突かれ、あっけに取られてる俺の腕をグイグイ引っ張り
 どこかに連れて行こうとする。
 「ちょ、待て。引っ張るな。引っ張らなくても着いて行くから！」
@@ -162,7 +162,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#912">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">912</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">05/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">05/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:26:31+09:00</sioc:delivered_at>
@@ -199,7 +199,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#913">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">913</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">06/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">06/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:27:19+09:00</sioc:delivered_at>
@@ -237,11 +237,11 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#914">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">914</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">07/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">07/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:28:25+09:00</sioc:delivered_at>
-				<sioc:content xml:lang="ja">【　−マスコットの憂鬱−　】
+				<sioc:content xml:lang="ja">【　－マスコットの憂鬱－　】
 
 もうすぐグリーティングの時間が来てしまう。
 ゲストは少なくなっているのに、ゴミが一行に減らないのは、モラルの問題に違いない。
@@ -272,7 +272,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#915">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">915</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">08/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">08/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:29:19+09:00</sioc:delivered_at>
@@ -304,7 +304,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#916">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">916</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">09/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">09/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:30:21+09:00</sioc:delivered_at>
@@ -330,11 +330,11 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#917">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">917</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">10/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">10/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:31:12+09:00</sioc:delivered_at>
-				<sioc:content xml:lang="ja">【　−無職　ふたたび−　】
+				<sioc:content xml:lang="ja">【　－無職　ふたたび－　】
 
 ２日後、俺は半額券を手に再び遊園地の前まで来ていた。
 どうにもあのマスコットの中身が気になる。
@@ -363,7 +363,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#918">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">918</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">11/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">11/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:31:58+09:00</sioc:delivered_at>
@@ -393,7 +393,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#919">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">919</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">12/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">12/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:32:45+09:00</sioc:delivered_at>
@@ -426,7 +426,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#920">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">920</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">13/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">13/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:33:29+09:00</sioc:delivered_at>
@@ -459,12 +459,12 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#921">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">921</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">14/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">14/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:34:12+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">「ミッ〇ィに勝てるくらい演技が上手いよ」と、お世辞を言ってみる。
-『ホント？うれしーなぁ〜。あはは』
+『ホント？うれしーなぁ～。あはは』
 どうやら演技でなく本当に喜んでいるらしい。
 一々ケーキの動きが入って紛らわしいが、声のトーンが若干高くなった気がする。
 「ところで…」気付くと、もう観覧車の終わりが近づいていた。
@@ -493,11 +493,11 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#922">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">922</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">15/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">15/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:34:59+09:00</sioc:delivered_at>
-				<sioc:content xml:lang="ja">【　−秘密の森園−　】
+				<sioc:content xml:lang="ja">【　－秘密の森園－　】
 
 遊園地北側の森に芝生の広場がある。ここなら誰も居ないだろうと俺は踏んでいた。
 行って見ると案の定、誰も居ない。
@@ -514,7 +514,7 @@
 「悪い悪い。待たせたね」と紙袋を置き隣に座る。
 「喉乾いたろ？ついでにパンも買って来たから一緒に食おう」
 袋から紙に包まれたメイプルサンドを取り出し差し出す。
-『わぁ〜〜〜！ありがと〜〜〜♪』
+『わぁ～～～！ありがと～～～♪』
 大げさに喜びつつもパンを膝の上に置き、そのままじっと俺の方を見つめてくる。
 「…食べないの…？」
 『ケーキはお腹一杯だから後で貰うね♪』
@@ -530,7 +530,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#923">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">923</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">16/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">16/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:35:47+09:00</sioc:delivered_at>
@@ -539,7 +539,7 @@
 （そんな事したらやっぱり怒るよな…）
 怒るどころか、警察沙汰とは行かないまでも営業妨害で叩き出されるかもしれない。
 それに怒らせたら元も子もないのだ。
-「…あ〜…その〜…着ぐるみの中って暑くない？」
+「…あ～…その～…着ぐるみの中って暑くない？」
 『ケーキはケーキだよ。中に人なんていないよ』
 キャラクターを演じる者としての模範的な回答が返ってきた。
 「お前、観覧車の中でココの裏事情バラしてたろっ！」
@@ -566,7 +566,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#924">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">924</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">17/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">17/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:36:41+09:00</sioc:delivered_at>
@@ -598,7 +598,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#925">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">925</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">18/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">18/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:37:25+09:00</sioc:delivered_at>
@@ -608,18 +608,18 @@
 （さて…どうするか…）
 取り合えず礼を言って、この場を去るのが無難な気がする。
 そんな事を考えてた時、不意に赤いモノが目の前に飛びこんで来た。
-「う゛こ゛！！」
+「うﾞこﾞ！！」
 それはケーキの頭だった。
 身長差を計算に入れたケーキの頭突きが俺の顔面にクリーンヒットした。
 衝撃で後につんのめり、尻餅をつく。
-『あっ！ごめんねぇ〜。着ぐるみって、前がよく見えないもんだから。つい♪』
+『あっ！ごめんねぇ～。着ぐるみって、前がよく見えないもんだから。つい♪』
 「…『つい』じゃねー！この三流マスコット！」
 顔がジンジンと痛む。
-『ホント、前にお客様がいたなんて…あ゛！！』
+『ホント、前にお客様がいたなんて…あﾞ！！』
 とぼけた口調が一転、何やら本気で驚いている。
 「…ん？」
 只ならぬ様子に、痛む鼻の辺りを触ると血がにじんでいた。
-「あ〜くそっ。ティッシュティッシュ…って、ねぇ（無い）…」
+「あ～くそっ。ティッシュティッシュ…って、ねぇ（無い）…」
 生憎、ポケットから出て来たのはチリ紙を入れる役目を終えたビニール屑。
 『あ…あの…大丈夫？』
 ケーキが本気でうろたえている。
@@ -630,7 +630,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#926">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">926</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">19/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">19/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:38:00+09:00</sioc:delivered_at>
@@ -658,15 +658,15 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#927">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">927</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">20/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">20/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:38:36+09:00</sioc:delivered_at>
 				<sioc:content xml:lang="ja">無言のままスクッと立ち上がり後を向いた…かと思ったら、俺の方に倒れて来た。
-「け゛ふっ！！」腹の上に着ぐるみが落ちて来た。
+「けﾞふっ！！」腹の上に着ぐるみが落ちて来た。
 肘が鳩尾に入る。
 まぢで痛い…。
-『ごめんねぇ〜。ほら、着ぐるみって前がよく見えなくて♪』
+『ごめんねぇ～。ほら、着ぐるみって前がよく見えなくて♪』
 「前が見えないと後に倒れるのかよ、この糞マスコット！重いからどけっ！」
 ケーキは、そのまま俺に寝そべり退こうとしない。
 人の身体をクッション代わりにし、鼻歌でメイプルランドのテーマ曲を歌っている。
@@ -690,11 +690,11 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#928">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">928</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">21/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">21/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:39:14+09:00</sioc:delivered_at>
-				<sioc:content xml:lang="ja">【　−無職　みたび−　】
+				<sioc:content xml:lang="ja">【　－無職　みたび－　】
 
 また来るという約束通り（毎日はウソだが…）次の日もメイプルランドへ。
 半額とはいえ、入る度に取られる入園料が無職には痛い。
@@ -720,11 +720,11 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#929">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">929</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">22/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">22/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:39:50+09:00</sioc:delivered_at>
-				<sioc:content xml:lang="ja">『ノリわるぅ〜っ！』ケーキがブー垂れる。
+				<sioc:content xml:lang="ja">『ノリわるぅ～っ！』ケーキがブー垂れる。
 「一応最後まで付き合ってやったんだ。感謝くらいしろ」
 一通りダンスに付き合わされ、見事に晒し者にされた。
 しかもケーキにダメ出しまでされる。
@@ -753,7 +753,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#930">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">930</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">23/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">23/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:40:53+09:00</sioc:delivered_at>
@@ -765,19 +765,19 @@
 ゴミ袋には、ゴハン粒の張り付いた弁当容器がギッシリ詰め込まれている。
 どうやらここがケーキの住みからしい。
 
-『ねぇ？「キャラクターの中に入りたいなぁ〜」とか思ってない？』
+『ねぇ？「キャラクターの中に入りたいなぁ～」とか思ってない？』
 「はぁ？」
 （イキナリ殺風景な部屋に連れて来て、何を言ってるんだコイツは？）
 『ちょっとの時給でもいいから、遊園地の最後を見届けたいとか
 わずかな日給でもいいから、キャストとしてゲストを楽しませたいとか
 ノーギャラに近い報酬でいいから着ぐるみを着て舞台に立ちたいとか思わない？』
 「…思うって言ったら…どうなる？」
-『ジャ〜〜〜ン！！今なら先着一名様限りでオオカミのバター君になれま〜す』
+『ジャ～～～ン！！今なら先着一名様限りでオオカミのバター君になれま～す』
 そう言いながら壁に張られたポスターを指差す。
 色あせたポスターにはメイプルランドの全キャラクター写っている。
 その中に一人背の高いマヌケな顔をしたオオカミがいた。
 「…なってどうする？」
-『メイプルランドの有終の美を飾るお手伝いができま〜す』
+『メイプルランドの有終の美を飾るお手伝いができま～す』
 「………」</sioc:content>
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
@@ -785,7 +785,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#931">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">931</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">24/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">24/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:41:31+09:00</sioc:delivered_at>
@@ -806,7 +806,7 @@
 「稽古？休日には他の役者も来るとか言ってなかったけ？熊とか兄貴に入る」
 『本当は、ここの社員がクジ引きで入っているの…。
 今、入っているのは４０過ぎの営業の人が二人…』
-「…まち゛て゛！？」
+「…まちﾞてﾞ！？」
 コクンと頷くケーキ。
 俺は、くたびれたオジさん二人が
 メルヘンチックな着ぐるみに入るシーンを想像してちょっと気の毒になった。</sioc:content>
@@ -816,7 +816,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#932">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">932</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">25/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">25/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:42:09+09:00</sioc:delivered_at>
@@ -846,11 +846,11 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#933">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">933</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">26/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">26/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:42:43+09:00</sioc:delivered_at>
-				<sioc:content xml:lang="ja">【　−マスコットとマスコット−　】
+				<sioc:content xml:lang="ja">【　－マスコットとマスコット－　】
 
 彼女に関して驚く事が四つあった。
 １　髪を出すと、角度によっては可愛く見える。
@@ -884,7 +884,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#934">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">934</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">27/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">27/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:43:25+09:00</sioc:delivered_at>
@@ -912,7 +912,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#935">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">935</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">28/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">28/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:44:06+09:00</sioc:delivered_at>
@@ -943,7 +943,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#936">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">936</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">29/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">29/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:44:46+09:00</sioc:delivered_at>
@@ -975,7 +975,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#937">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">937</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">30/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">30/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:45:21+09:00</sioc:delivered_at>
@@ -1010,11 +1010,11 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#938">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">938</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">31/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">31/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:46:05+09:00</sioc:delivered_at>
-				<sioc:content xml:lang="ja">【　−終わりだよ。　全員集合！−　】
+				<sioc:content xml:lang="ja">【　－終わりだよ。　全員集合！－　】
 
 休園日。いよいよ、フィナーレに向けての練習が始まる。
 大きな鏡が張られた稽古部屋にメイプルランドの全キャラクターが集合した。
@@ -1047,7 +1047,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#939">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">939</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">32/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">32/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:46:52+09:00</sioc:delivered_at>
@@ -1074,7 +1074,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#940">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">940</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">33/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">33/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:47:26+09:00</sioc:delivered_at>
@@ -1110,11 +1110,11 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#941">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">941</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">35/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">35/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:48:04+09:00</sioc:delivered_at>
-				<sioc:content xml:lang="ja">【−グランド・フィナーレ−】
+				<sioc:content xml:lang="ja">【－グランド・フィナーレ－】
 
 最終日。
 入園が無料になり、乗り物も全て解放されメイプルランドは
@@ -1147,7 +1147,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#942">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">942</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">36/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">36/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:48:41+09:00</sioc:delivered_at>
@@ -1185,7 +1185,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#943">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">943</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">37/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">37/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:49:17+09:00</sioc:delivered_at>
@@ -1226,11 +1226,11 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#944">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">944</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">38/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:49:53+09:00</sioc:delivered_at>
-				<sioc:content xml:lang="ja">【　−舞台と花火と素の二人−　】
+				<sioc:content xml:lang="ja">【　－舞台と花火と素の二人－　】
 
 ７時３０分開演。
 舞台上には、メイプルランドのテーマ曲にあわせて
@@ -1267,7 +1267,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#945">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">945</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">39/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">39/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:50:39+09:00</sioc:delivered_at>
@@ -1303,7 +1303,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#946">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">946</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">39/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">39/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:51:46+09:00</sioc:delivered_at>
@@ -1327,17 +1327,17 @@
 汗と涙と鼻水でグチャグチャになった顔。
 今まで見た中で最高に汚い顔だった。
 『先輩、顔がツッパリ食らった力士みたいになってるぞ』
-「…わ゛ぅかっぁだわ゛ね゛！！」
+「…わﾞぅかっぁだわﾞねﾞ！！」
 鼻詰まりな声が部屋に響く。
 『まぁ、それはともかく約束通り俺の汗臭い胸を貸すから存分に泣いてくれ』
-「う゛わ゛ぁかった゛…」</sioc:content>
+「うﾞわﾞぁかったﾞ…」</sioc:content>
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#947">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">947</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">40/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">40/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:52:28+09:00</sioc:delivered_at>
@@ -1345,22 +1345,22 @@
 まさか本当に来るとは思わなかった…。
 胸で泣く先輩に戸惑いながらも、そっと後から腕を回し抱きしめる。
 『…なぁ、先輩。素の俺とバター君、どっちが好きだ？』
-「ハ゛タ゛ーく゛ん…」即答されてしまった。
+「ハﾞタﾞーくﾞん…」即答されてしまった。
 『…そっか…なら、仕方ないな…』
 ここで《俺》と答えて、面を取りキスする流れを想定していたのだが
 完全に出鼻を挫かれた。
 『…ところで今、俺の被っている面を取ってくれると良い事があるんだが…』
-「ハ゛タ゛ーく゛んがい゛い゛…」
+「ハﾞタﾞーくﾞんがいﾞいﾞ…」
 『…そうですか』
 諦めの溜息を付く。
 …が、不意に首の部分に先輩の手がモグリ込んで来た。
 慣れた手付きで、顎のベルトを外すと、おもむろにオオカミの面を取り去った。
 湯気が出そうなくらいの熱気と、共に俺の顔が露出する。
-「…ヘンな゛かお゛」
+「…ヘンなﾞかおﾞ」
 「まぁな…」
 俺の顔も、眼が真っ赤に腫れた酷いものだろう。
 「…先輩も素敵に不細工だぞ」
-「う゛ん…」
+「うﾞん…」
 お互いの顔を見詰め合う。
 「ここは一つ、ブサイク同士キスでもしてみないか？」
 未練がましくそんな事を言ってみる。カッコ悪い事この上ない。
@@ -1374,11 +1374,11 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#948">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">948</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">41/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">41/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:53:02+09:00</sioc:delivered_at>
-				<sioc:content xml:lang="ja">【　−八畳一間の夢の国−　】
+				<sioc:content xml:lang="ja">【　－八畳一間の夢の国－　】
 
 あの日から１ヶ月。
 俺は以前のように、印刷関係の仕事をしている。
@@ -1404,7 +1404,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#949">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">949</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">42/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">42/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:53:40+09:00</sioc:delivered_at>
@@ -1421,7 +1421,7 @@
 
 オマケにようやく見つけたアパートには、せまい部屋を更に狭くするダンボールの山。
 中身は先輩が手当たり次第貰って来た、メイプルグッズの売れ残りだ。
-（…ど〜すんだよ、これ…）
+（…ど～すんだよ、これ…）
 オークションで叩き売りたいが、そう言う訳にも行かない。
 崩れないように祈りつつ、背中を丸めカップメンをすする。
 気のせいか土手で飲んでた缶コーヒーと同じくらい、せつない味がした。
@@ -1436,7 +1436,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#950">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">950</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">43/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">43/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:54:19+09:00</sioc:delivered_at>
@@ -1450,7 +1450,7 @@
 壁には３種類のタペストリーが掛けられ
 計５個の壁掛けの時計と目覚まし時計が無駄に時を刻む。
 そして極め付けは、部屋の真中に堂々と居座る着ぐるみ。
-『おかえり〜♪』
+『おかえり～♪』
 「……」
 『びっくりした？』
 「……」
@@ -1473,7 +1473,7 @@
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#951">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">951</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">44/44 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">44/44</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-07T14:55:02+09:00</sioc:delivered_at>
@@ -1490,20 +1490,20 @@
 「って言うか、お前一人で着ぐるみ着れるぢゃん！何時も何時も人に手伝わせやがって！」
 『ケーキはケーキだよ。中に人なんて居ないよ』
 「『居ないよ』じゃねーっ！俺の荷物はどこだっ！ちゃんとしたメシ作れっ！」
-『ふ〜んふんふんふんふんふん♪…』
+『ふ～んふんふんふんふんふん♪…』
 「シカトすんな、このリストラマスコットがっ！」
 あさっての方を見ながら鼻歌を歌うケーキ。
 この狭過ぎる夢の国にメイプルランドのテーマ曲が流れる。
 そこには、幕が降りた筈の緩やかな時間が確かに流れていた。
 
-【　−終わりー　】</sioc:content>
+【　－終わりー　】</sioc:content>
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="https://web.archive.org/web/20090803104804/http://jbbs.livedoor.jp/anime/846/storage/1081325649.html#971">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">971</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">00/00 </foaf:nick>
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">00/00</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">XksB4AwhxU</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005-07-09T22:46:00+09:00</sioc:delivered_at>
