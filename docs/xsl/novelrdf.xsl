@@ -47,7 +47,7 @@
 		</xsl:variable>
 
 		<xsl:copy>
-			<xsl:apply-templates select="@* | dcterms:title | dcterms:alternative | schema:creativeWorkStatus | dcterms:hasPart"/>
+			<xsl:apply-templates select="@* | dcterms:identifier | dcterms:title | dcterms:alternative | schema:creativeWorkStatus | dcterms:hasPart"/>
 
 			<dcterms:created>
 				<xsl:apply-templates select="$first-item/sioc:delivered_at/@* | $first-item/sioc:delivered_at/node()"/>
