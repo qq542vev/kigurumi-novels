@@ -7,7 +7,7 @@
 ]>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-05-01T00:31:37+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-05-01T08:51:49+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="&board;"/>
 	</foaf:Document>
 	<types:MessageBoard rdf:about="&board;">

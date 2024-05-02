@@ -7,7 +7,7 @@
 ]>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-05-01T00:31:38+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-05-01T08:51:50+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="&board;"/>
 	</foaf:Document>
 	<types:MessageBoard rdf:about="&board;">
@@ -10117,7 +10117,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 			<dcterms:identifier rdf:datatype="&xsd;string">qDggTAordc</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2009-03-25T16:51:47+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja"> 
+		<sioc:content xml:lang="ja">
 「そういうことでしたか・・・・・・。最近アスナの様子がおかしいと他の人形達から聞いていました。私は淫子達にさりげなく様子を探るよう指示しておいたのですが、今日の事を受けてあまり悠長なことをいっていられないと思い、少し脅かしました。しかしどうして自分ひとりで解決しようとしたのですか？」
 「それは・・・Ｃさんは私を頼ってくれたわけで、自分だってもう一人前だからお母様みたいに癒せるって思って、それで・・・・・・」
 リュネは肩をすくめて少し呆れたように言った。
