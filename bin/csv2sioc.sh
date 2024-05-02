@@ -4,7 +4,7 @@
 
 ### Function: CUKTASH_cuktash__str_replace
 ##
-## 
+## 一致した部分文字列を置換する。
 ##
 ## Synopsis:
 ##
@@ -12,30 +12,23 @@
 ##
 ## Operands:
 ##
-##   variable - 
-##   string   - 
-##   from     - 
-##   to       - 
-##   count    - 
+##   variable - 結果を代入する変数名。'-' で結果を標準出力する。
+##   string   - 対象の文字列。
+##   from     - 置換前の文字列。
+##   to       - 置換後の文字列。
+##   count    - 最大置換回数。
 
 CUKTASH_cuktash__str_replace() {
-	if [ '0' -lt "${5:-1}" ]; then
-		set -- "${1}" "${2}" "${3}" "${4-}" "${5:--1}" ''
+	set -- "${1}" "${2}" "${3}" "${4-}" "${5:--1}" ''
 
-		until [ "${2}" = "${2#*"${3}"}" ] || [ "${5}" -eq '0' ]; do
-			set -- "${1}" "${2#*"${3}"}" "${3}" "${4}" "$((${5} - 1))" "${6}${2%%"${3}"*}${4}"
-		done
+	until [ "${2}" = "${2#*"${3}"}" ] || [ "${5}" -eq '0' ]; do
+		set -- "${1}" "${2#*"${3}"}" "${3}" "${4}" "$((${5} - 1))" "${6}${2%%"${3}"*}${4}"
+	done
 
-		eval "${1}=\${6}\${2}"
-	else
-		set -- "${1}" "${2}" "${3}" "${4}" "${5}" ''
-
-		until [ "${2}" = "${2%"${3}"*}" ] || [ "${5}" -eq '0' ]; do
-			set -- "${1}" "${2%"${3}"*}" "${3}" "${4}" "$((${5} + 1))" "${4}${2##*"${3}"}${6}"
-		done
-
-		eval "${1}=\${2}\${6}"
-	fi
+	case "${1}" in
+		'-') printf '%s' "${6}${2}";;
+		*) eval "${1}=\${6}\${2}";;
+	esac
 }
 if command -v -- 'CUKTASH_cuktash__str_replace' >'/dev/null' 2>&1; then alias 'str_replace=CUKTASH_cuktash__str_replace'; fi
 case "${CUKTASH_cuktash__str_replace+1}" in 1) readonly str_replace="${CUKTASH_cuktash__str_replace}";; esac
@@ -284,12 +277,12 @@ function csv_parse(expr_, array_, sep_) { return CUKTASH_cuktash__csv_parse(expr
 
 ### Function: CUKTASH_cuktash__str_sanitize
 ##
-## 文字列内の制御文字を削除する。
+## ASCII制御文字を削除する。
 ##
 ## Parameters:
 ##
 ##   str_   - 文字列。
-##   exclude_ 削除しない制御文字。
+##   exclude_ 削除しないASCII制御文字。
 ##
 ## Returns:
 ##
@@ -304,40 +297,10 @@ function CUKTASH_cuktash__str_sanitize(str_, exclude_,    cc_) {
 
 	return str_
 }
-function str_sanitize(str_, exclude_) { return CUKTASH_cuktash__str_sanitize(str_, exclude_); }
-
-### Function: CUKTASH_cuktash__xml_escape
-##
-## 
-##
-## Parameters:
-##
-##   str_   - 
-##   quote_ - 
-##
-## Returns:
-##
-##   
-
-function CUKTASH_cuktash__xml_escape(str_, quote_) {
-	quote_ = (quote_ == "" ? 1 : 0)
-	
-	gsub(/&/, "\\&amp;", str_)
-
-	if(quote_) {
-		gsub(/'/, "\\&apos;", str_)
-		gsub(/"/, "\\&quot;", str_)
-	}
-
-	gsub(/</, "\\&lt;", str_)
-	gsub(/>/, "\\&gt;", str_)
-
-	return str_	
-}
 
 ### Function: CUKTASH_cuktash__xml_sanitize
 ##
-## XML で許可されない ASCII 制御文字を削除する。
+## XMLで許可されないASCII制御文字を削除する。
 ##
 ## Parameters:
 ##
@@ -345,45 +308,181 @@ function CUKTASH_cuktash__xml_escape(str_, quote_) {
 ##
 ## Returns:
 ##
-##   XML で使用可能な安全な文字列。
+##   XMLで使用可能な安全な文字列。
 
 function CUKTASH_cuktash__xml_sanitize(str_) {
 	return CUKTASH_cuktash__str_sanitize(str_, "\t\n\r\177")	
 }
+function sanitize(str_) { return CUKTASH_cuktash__xml_sanitize(str_); }
 
-### Function: CUKTASH_cuktash__xml_gen_element
+### Function: CUKTASH_cuktash__xml_gen_cdata
 ##
-## 
+## XMLのCDATAセクションを生成する。
 ##
 ## Parameters:
 ##
-##   name_    - 
-##   att_     - 
-##   content_ - 
-##   escape_  - 
+##   content_ - 内容。
 ##
 ## Returns:
 ##
-##   
+##   CDATAセクションの文字列。
 
-function CUKTASH_cuktash__xml_gen_element(name_, att_, content_, escape_) {
-	escape_ = (escape_ == "" && escape_ == 0 ? 1 : escape_)
+function CUKTASH_cuktash__xml_gen_cdata(content_) {
+	content = CUKTASH_cuktash__xml_sanitize(content_)
 
-	gsub(/^[\t\r\n ]+|[\t\r\n ]$/, "", att_)
+	gsub("]]>", "]]]]><![CDATA[>", content_)
+	
+	return "<![CDATA[" content_ "]]>"	
+}
+
+### Function: CUKTASH_cuktash__xml_escape
+##
+## XMLの特殊文字をエスケープする。
+##
+## Parameters:
+##
+##   str_  - エスケープする文字列。
+##   type_ - エスケープの方法。
+##
+## Returns:
+##
+##   XMLエスケープされた文字列。
+
+function CUKTASH_cuktash__xml_escape(str_, type_) {
+	type_ = (type_ == "" && type_ == 0 ? 1 : 0)
+	
+	gsub(/&/, "\\&amp;", str_)
+	gsub(/</, "\\&lt;", str_)
+
+	if(type_ == "cdata") {
+		gsub(/>/, "\\&gt;", str_)
+		gsub(/'/, "\\&apos;", str_)
+		gsub(/"/, "\\&quot;", str_)
+		gsub(/\t/, "\\&#x9;", str_)
+		gsub(/\n/, "\\&#xA;", str_)
+		gsub(/\r/, "\\&#xD;", str_)
+	} else if(type_ == "element") {
+		gsub(/]]>/, "]]\\&gt;", str_)
+	} else if(type_ == "attribute") {
+		gsub(/'/, "\\&apos;", str_)
+		gsub(/"/, "\\&quot;", str_)
+	} else if(type_ == "single") {
+		gsub(/'/, "\\&apos;", str_)
+	} else if(type_ == "double") {
+		gsub(/"/, "\\&quot;", str_)
+	} else if(type_) {
+		gsub(/>/, "\\&gt;", str_)
+		gsub(/'/, "\\&apos;", str_)
+		gsub(/"/, "\\&quot;", str_)
+	}
+
+	return str_	
+}
+
+### Function: CUKTASH_cuktash__xml_gen_elem
+##
+## XMLの要素を生成する。
+##
+## Parameters:
+##
+##   name_    - 要素名。
+##   attr_    - 属性の文字列。
+##   content_ - 要素の内容。
+##   esc_     - 要素の内容についてのエスケープの種類。
+##
+## Returns:
+##
+##   要素の文字列。
+
+function CUKTASH_cuktash__xml_gen_elem(name_, attr_, content_, esc_) {
+	esc_ = (esc_ == "" && esc_ == 0 ? 1 : esc_)
+
+	gsub(/^[\t\r\n ]+|[\t\r\n ]$/, "", attr_)
 
 	if(content_ == "") {
-		return "<" name_ (att_ == "" ? "" : " " att_) "/>"	
+		return "<" name_ (attr_ == "" ? "" : " " attr_) "/>"	
 	}
 
-	if(escape_ == 1 || (escape_ == 2 && index(content_, "]]>"))) {
-		content_ = CUKTASH_cuktash__xml_escape(CUKTASH_cuktash__xml_sanitize(content_), 0)
-	} else if(escape_ == 2) {
-		content_ = "<![CDATA[" CUKTASH_cuktash__xml_sanitize(econtent_) "]]>"
+	if(esc_ == "cdata") {
+		content_ = CUKTASH_cuktash__xml_gen_cdata(content_)
+	} else if(esc_ == "minimal") {
+		content_ = CUKTASH_cuktash__xml_escape(CUKTASH_cuktash__xml_sanitize(content_), "element")
+	} else if(esc_) {
+		content_ = CUKTASH_cuktash__xml_escape(CUKTASH_cuktash__xml_sanitize(content_))
 	}
 
-	return "<" name_ (att_ == "" ? "" : " " att_) ">" content_ "</" name_ ">"	
+	return "<" name_ (attr_ == "" ? "" : " " attr_) ">" content_ "</" name_ ">"	
 }
-function element(name_, att_, content_, escape_) { return CUKTASH_cuktash__xml_gen_element(name_, att_, content_, escape_); }
+function elem(name_, attr_, content_, esc_) { return CUKTASH_cuktash__xml_gen_elem(name_, attr_, content_, esc_); }
+
+### Function: CUKTASH_cuktash__xml_gen_attr
+##
+## XMLの属性を生成する。
+##
+## Parameters:
+##
+##   name1_ - 属性名1。
+##   val1_  - 属性値1。
+##   esc1_  - 属性値1のエスケープの有無。
+##   name2_ - 属性名2。
+##   val2_  - 属性値2。
+##   esc2_  - 属性値2のエスケープの有無。
+##   name3_ - 属性名3。
+##   val3_  - 属性値3。
+##   esc3_  - 属性値3のエスケープの有無。
+##   name4_ - 属性名4。
+##   val4_  - 属性値4。
+##   esc4_  - 属性値4のエスケープの有無。
+##   name5_ - 属性名5。
+##   val5_  - 属性値5。
+##   esc5_  - 属性値5のエスケープの有無。
+##   name6_ - 属性名6。
+##   val6_  - 属性値6。
+##   esc6_  - 属性値6のエスケープの有無。
+##   name7_ - 属性名7。
+##   val7_  - 属性値7。
+##   esc7_  - 属性値7のエスケープの有無。
+##   name8_ - 属性名8。
+##   val8_  - 属性値8。
+##   esc8_  - 属性値8のエスケープの有無。
+##
+## Returns:
+##
+##   属性文字列。
+
+function CUKTASH_cuktash__xml_gen_attr(name1_, val1_, esc1_, name2_, val2_, esc2_, name3_, val3_, esc3_, name4_, val4_, esc4_, name5_, val5_, esc5_, name6_, val6_, esc6_, name7_, val7_, esc7_, name8_, val8_, esc8_,    ret_,attrs_,i_) {
+	ret_ = ""
+	split("", attrs_, " ")
+	attrs_["name#1"] = name1_; attrs_["val#1"] = val1_; attrs_["esc#1"] = esc1_
+	attrs_["name#2"] = name2_; attrs_["val#2"] = val2_; attrs_["esc#2"] = esc2_
+	attrs_["name#3"] = name3_; attrs_["val#3"] = val3_; attrs_["esc#3"] = esc3_
+	attrs_["name#4"] = name4_; attrs_["val#4"] = val4_; attrs_["esc#4"] = esc4_
+	attrs_["name#5"] = name5_; attrs_["val#5"] = val5_; attrs_["esc#5"] = esc5_
+	attrs_["name#6"] = name6_; attrs_["val#6"] = val6_; attrs_["esc#6"] = esc6_
+	attrs_["name#7"] = name7_; attrs_["val#7"] = val7_; attrs_["esc#7"] = esc7_
+	attrs_["name#8"] = name8_; attrs_["val#8"] = val8_; attrs_["esc#8"] = esc8_
+
+	for(i_ = 1; i_ <= 8; i_++) {
+		if(attrs_["name#" i_] == "") {
+			break
+		}
+
+		attrs_["val#" i_] = CUKTASH_cuktash__xml_sanitize(attrs_["val#" i_])
+
+		if(attrs_["esc#" i_] == "single") {
+			ret_ = ret_ " " attrs_["name#" i_] "='" CUKTASH_cuktash__xml_escape(attrs_["val#" i_], "single") "'"
+		} else if(attrs_["esc#" i_] ~ /^(cdata|double)$/) {
+			ret_ = ret_ " " attrs_["name#" i_] "=\"" CUKTASH_cuktash__xml_escape(attrs_["val#" i_], attrs_["esc#" i_]) "\""
+		} else if(attrs_["esc#" i_] || (attrs_["esc#" i_] == 0 && attrs_["esc#" i_] == "")) {
+			ret_ = ret_ " " attrs_["name#" i_] "=\"" CUKTASH_cuktash__xml_escape(attrs_["val#" i_]) "\""
+		} else {
+			ret_ = ret_ " " attrs_["name#" i_] "=\"" attrs_["val#" i_] "\""
+		}
+	}
+	
+	return ret_
+}
+function attr(name1_, val1_, esc1_, name2_, val2_, esc2_, name3_, val3_, esc3_, name4_, val4_, esc4_, name5_, val5_, esc5_, name6_, val6_, esc6_, name7_, val7_, esc7_, name8_, val8_, esc8_) { return CUKTASH_cuktash__xml_gen_attr(name1_, val1_, esc1_, name2_, val2_, esc2_, name3_, val3_, esc3_, name4_, val4_, esc4_, name5_, val5_, esc5_, name6_, val6_, esc6_, name7_, val7_, esc7_, name8_, val8_, esc8_); }
 
 	BEGIN {
 		csv_parse("<" ARGV[1], array)
@@ -391,15 +490,15 @@ function element(name_, att_, content_, escape_) { return CUKTASH_cuktash__xml_g
 		for(count = 1; (count, 1) in array; count++) {}
 		count--
 
-		board = element("dcterms:title", "", ARGV[2])
-		board = board element("sioc:num_items", "rdf:datatype=\"&xsd;nonNegativeInteger\"", count)
+		board = elem("dcterms:title", "", ARGV[2])
+		board = board elem("sioc:num_items", attr("rdf:datatype", "&xsd;nonNegativeInteger", 0), count)
 
 		if(1 <= count) {
-			board = board element("dcterms:created", "rdf:datatype=\"&dcterms;W3CDTF\"", array[1, 4])
-			board = board element("sioc:last_item_date", "rdf:datatype=\"&dcterms;W3CDTF\"", array[count, 4])
+			board = board elem("dcterms:created", attr("rdf:datatype", "&dcterms;W3CDTF", 0), array[1, 4])
+			board = board elem("sioc:last_item_date", attr("rdf:datatype", "&dcterms;W3CDTF", 0), array[count, 4])
 		}
 
-		printf("%s", element("types:MessageBoard", "rdf:about=\"&board;\"", board, 0))
+		printf("%s", elem("types:MessageBoard", attr("rdf:about", "&board;", 0), board, 0))
 
 		for(i = 1; (i, 1) in array; i++) {
 			number = array[i, 1]
@@ -408,25 +507,25 @@ function element(name_, att_, content_, escape_) { return CUKTASH_cuktash__xml_g
 			date = array[i, 4]
 			content = array[i, 5]
 
-			post = element("rdfs:label", "rdf:datatype=\"&xsd;positiveInteger\"", number)
+			post = elem("rdfs:label", attr("rdf:datatype", "&xsd;positiveInteger", 0), number)
 
 			if(name != "" || trip != ""){
 				creator = ""
 
 				if(name != "") {
-					creator = creator element("foaf:nick", (name == "名無しさん@着ぐるみすと" ? "xml:lang=\"ja\"" : "rdf:datatype=\"&xsd;string\""), str_sanitize(name))
+					creator = creator elem("foaf:nick", (name == "名無しさん@着ぐるみすと" ? attr("xml:lang", "ja") : attr("rdf:datatype", "&xsd;string", 0)), sanitize(name))
 				}
 
 				if(trip != "") {
-					creator = creator element("dcterms:identifier", "rdf:datatype=\"&xsd;string\"", trip)
+					creator = creator elem("dcterms:identifier", attr("rdf:datatype", "&xsd;string", 0), trip)
 				}
 
-				post = post element("dcterms:creator", "rdf:parseType=\"Resource\"", creator, 0)
+				post = post elem("dcterms:creator", attr("rdf:parseType", "Resource"), creator, 0)
 			}
 
 			if(date != "") {
-				post = post element("sioc:delivered_at", "rdf:datatype=\"&dcterms;W3CDTF\"", date)
-				post = post element("sioc:content", "xml:lang=\"ja\"", str_sanitize(content, "\t\n"))
+				post = post elem("sioc:delivered_at", attr("rdf:datatype", "&dcterms;W3CDTF", 0), date)
+				post = post elem("sioc:content", attr("xml:lang", "ja"), sanitize(content))
 
 				refs = ""
 				while(match(content, />>([1-9][0-9]?[0-9]?|1000)/)) {
@@ -435,18 +534,18 @@ function element(name_, att_, content_, escape_) { return CUKTASH_cuktash__xml_g
 
 					if(!index(refs, "#" ref_number ",") && index(content, "-") != 1) {
 						refs = refs "#" ref_number ","
-						post = post element("dcterms:relation", "rdf:resource=\"&post;" ref_number "\"")
+						post = post elem("dcterms:relation", attr("rdf:resource", "&post;" ref_number, 0))
 					}
 				}
 
-				post = post element("schema:creativeWorkStatus", "xml:lang=\"en\"", "Published")
+				post = post elem("schema:creativeWorkStatus", attr("xml:lang", "en"), "Published")
 			} else {
-				post = post element("schema:creativeWorkStatus", "xml:lang=\"en\"", "Deleted")
+				post = post elem("schema:creativeWorkStatus", attr("xml:lang", "en"), "Deleted")
 			}
 
-			post = post element("sioc:has_container", "rdf:resource=\"&board;\"")
+			post = post elem("sioc:has_container", attr("rdf:resource", "&board;", 0))
 
-			printf("%s", element("types:BoardPost", "rdf:about=\"&post;" number "\"", post, 0))
+			printf("%s", elem("types:BoardPost", attr("rdf:about", "&post;" number, 0), post, 0))
 		}
 	}
 	__EOF__
@@ -479,5 +578,4 @@ template=$(
 	__EOF__
 )
 
-str_replace 'x' "${template}" '<!-- !CONTENT! -->' "$(awk -- "${awkScript}" "${1}" "${2}")"
-printf '%s' "${x}" | xmlstarlet fo -t -
+str_replace - "${template}" '<!-- !CONTENT! -->' "$(awk -- "${awkScript}" "${1}" "${2}")" | xmlstarlet fo -t -
