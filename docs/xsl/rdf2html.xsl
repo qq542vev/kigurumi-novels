@@ -50,6 +50,8 @@
 		<meta name="dcterms.modified" property="dcterms:modified" datatype="dcterms:W3CDTF" content="{.}"/>
 	</xsl:template>
 
+	<xsl:template match="foaf:Document[@rdf:about='']/*" priority="0.01"/>
+
 	<xsl:template match="sioc:Container[@rdf:about='#main']">
 		<article>
 			<h1>
