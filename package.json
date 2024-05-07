@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "markuplint": "^4.5.0",
+    "markuplint-config-rdfa": "^0.1.0",
     "stylelint": "^16.3.1",
     "stylelint-config-standard": "^36.0.0"
   }
