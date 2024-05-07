@@ -1,5 +1,5 @@
 extends:
-  - .markuplintrc-rdfa
+  - node_modules/markuplint-config-rdfa/.markuplintrc
   - markuplint:recommended-static-html
 excludeFiles:
   - "*"
