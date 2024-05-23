@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/kigurumi-novels/xsl/rdf2html.xsl" type="application/xslt+xml" title="XHTML" alternate="yes"?>
+<?xml-stylesheet href="/kigurumi-novels/xsl/rdf2text.xsl" type="application/xslt+xml" title="Plain Text" alternate="yes"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
+	<foaf:Document rdf:about="">
+		<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#anyUri">urn:uuid:40e3dc6e-e304-4fb2-970c-83d9b9e867b6</dcterms:identifier>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-05-20T02:53:36+09:00</dcterms:created>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-05-20T02:53:36+09:00</dcterms:modified>
+		<dcterms:hasFormat rdf:resource="./"/>
+		<dcterms:hasFormat rdf:resource="index.txt"/>
+		<foaf:primaryTopic rdf:resource="#main"/>
+	</foaf:Document>
+	<sioc:Container rdf:about="#main">
+		<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#anyUri">urn:uuid:ebb6d3f5-93ba-4d33-92d9-e158ed0a9fd3</dcterms:identifier>
+		<dcterms:title xml:lang="ja">ゲームセンター</dcterms:title>
+		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#56"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#57"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#58"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#59"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#60"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#64"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#65"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#66"/>
+		</dcterms:hasPart>
+	</sioc:Container>
+</rdf:RDF>

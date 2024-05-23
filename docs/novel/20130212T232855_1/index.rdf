@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/kigurumi-novels/xsl/rdf2html.xsl" type="application/xslt+xml" title="XHTML" alternate="yes"?>
+<?xml-stylesheet href="/kigurumi-novels/xsl/rdf2text.xsl" type="application/xslt+xml" title="Plain Text" alternate="yes"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
+	<foaf:Document rdf:about="">
+		<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#anyUri">urn:uuid:016bef3d-6788-40b7-8650-f59cb3b1e731</dcterms:identifier>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-05-21T19:35:57+09:00</dcterms:created>
+		<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF">2024-05-21T19:35:57+09:00</dcterms:modified>
+		<dcterms:hasFormat rdf:resource="./"/>
+		<dcterms:hasFormat rdf:resource="index.txt"/>
+		<foaf:primaryTopic rdf:resource="#main"/>
+	</foaf:Document>
+	<sioc:Container rdf:about="#main">
+		<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#anyUri">urn:uuid:55f165d4-e508-42fc-a036-e6cbb158e281</dcterms:identifier>
+		<dcterms:alternative xml:lang="ja">続・とある物産店（理沙すとーりー）</dcterms:alternative>
+		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
+		<dcterms:hasPart rdf:parseType="Collection">
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#67"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#78"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#79"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#80"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#82"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#83"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#84"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#87"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#88"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#91"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#93"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#97"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#98"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#99"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#100"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#102"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#103"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#105"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#107"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#108"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#109"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#114"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#115"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#116"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#117"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#118"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#119"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#120"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#122"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#123"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#124"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#125"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#126"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#127"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#128"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#129"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#130"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#131"/>
+		</dcterms:hasPart>
+	</sioc:Container>
+</rdf:RDF>
