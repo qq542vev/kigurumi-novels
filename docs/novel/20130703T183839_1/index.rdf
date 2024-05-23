@@ -15,27 +15,438 @@
 		<dcterms:alternative xml:lang="ja">復讐</dcterms:alternative>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#349"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#350"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#351"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#352"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#357"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#358"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#359"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#360"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#361"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#368"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#369"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#370"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#371"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#372"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#373"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#434"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#436"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#440"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#441"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#442"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#443"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#349">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">349</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-03T18:38:39+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">第一話　出会い
+
+主人公　マイト　２２歳
+
+いやみな先輩　コウジ　２５歳
+
+同僚　　磯崎
+
+マイトは今年○×物産に新入社員として入社したばかりだ、しかし、子供の頃から内気な性格のためクラスでよくいじめにあっていた、身長は１６５センチですこし痩せている。大学を卒業してやっと内定をもらったのが○×物産営業部の仕事であった、なかなか
+
+内定がきまらずどこでもいいという流れで入った会社なのでちょっとやる気もなかった。
+新人研修の間も、他の新入社員とはあまりなじめずに一人もくもくと研修をこなしていた。新人研修の教官は３つ年上のコウジだった、コウジはマイトと違い、現場のたたき上げの社員だった、あまり乗り気じゃないマイトの態度にイライラしてきつくあたってい
+
+た。
+
+研修が終わってからも、営業部に配属されてからコウジのパワハラは次第にマイトをおいつめていく、小さなミスも全員の前でわざと叱り弱気なマイトのプライドをズタズタにしていった。コウジはわざと部長に自分とマイトを同じ行動班にいれるよう裏で手を回
+
+していたのだ、同僚もコウジは上司であり先輩なのでいじめられているマイトを助けることができなかった、もし、かばうようなことをすれば自分もいじめられてしまうし、仕事をさせてもらえなくなるからだ。
+
+マイトはコウジのいじめに心底つかれきっていた、根が優しいマイトはどれだけいじめられても復讐など考えることはなかった、そんなある日、見かねた一人の同僚がマイトを呼びだして相談しにきた。マイトはいつもはそばで鑑賞している同僚にいい気持ちはし
+
+なかったが、ここは助け舟だと思い愚痴を同僚に話した。
+話を一通り聞くと同僚は同情してくれた、そしてマイトに一枚のメモを渡したどうしてもだめなときはここに来いとだけマイトに言って、どこかに行ってしまった。メモにはビル名が書いてあった、マイトは半信半疑のままメモに書かれた住所に足を運んだ、都会
+
+の中でも隅にあるビルはひっそりと静まりかえっていた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#350">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">350</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-03T18:39:44+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">マイトはおそるおそる、指定された部屋に行って、ドアホンを押した。すると男性がでてきた、マイトは事情を話すと中に案内された。応接間に通されてしばらく待っていると別の男性が現れた、スーツを着用してサラリーマン風のちょっとかっこいい男性だ、男
+
+性はテーブルに資料を広げてマイトに説明をはじめた。
+男性の話はこうだ、ここは会員制の特別なサービスをする、そのサービスは自分が着ぐるみキャラクターに入って客の対応するという流れであり、マイトはその着ぐるみに入ってほしいということだった。マイトは一体この男性が一体なにを話しているのかさっぱ
+
+りわからなかったが股間は興奮を隠せなかった。
+
+報酬もいまの会社でやるよりも高く、歩合制でがんばった分は上乗せされる仕組みであり、仕事も会社が終わったあと２，３時間程度残業は基本なし、客とマンツーマンで話したりするだけでいいという話だ、ただし、自分が入っているキャラクターに関しては秘
+
+密、言葉は特殊なセンサーを頭につけて考えるだけで言葉にできる最新のシステムだという。
+マイトが入るキャラクターは女性でスタイルもいい、お姉さん風のキャラクターである。採寸するので今度の日曜日に特別出勤してほしいとのことだった、もちろん休日なので特別手当もでるというので、二つ返事で了解した。
+
+マイトは日曜に会社に向かった、ドアを開けてもらって中に入るとこないだきたときとはまた雰囲気がまったく違う、とても豪華な内装でキャバクラのような高級感があった、あっけにとられているととてもかわいい女性キャラクターに肩をたたかれた、それは着
+
+ぐるみとは思えないほど精巧に作られていて、でも顔はアニメにいそうなかわいい顔だち、女子高生のような制服を着ている、見とれているのに気づいたキャラクターはいじわるにつんつんしてきたりしていた。
+しばらくするとこないだのスーツの男性が現れた、採寸をするので別室にくるように言われた、マイトは言われるがままに部屋にはいると若い女性がメジャーを持って待っていた。マイトが部屋に入ってくると同時にすぐに採寸に取り掛かった。
+採寸は全身くまなく行われた、パンツだけになって女性にながめられながらなのでとても恥ずかしかった、女性も気づいたのかすこし恥ずかしそうに笑っていた。採寸は３０分ほどで終わったので、事務室にいくように言われた。
+
+事務所にいくとサラリーマン風の男性が契約書をだしてきた、マイトは臨時職員としての雇用であること、秘密を守れなかったりもれた場合は自己責任で償ってもらうことなど書いてあり、入念に確認したうえで契約書にサインした。
+着ぐるみができるのに１ヶ月はかかるので、１ヶ月後にまたこの場所にくるように約束してマイトは帰った、その一ヶ月間もマイトはコウジから陰湿ないじめにあっていたがバイトのことを考えればこのいじめも耐えることができた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#351">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">351</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-03T18:41:01+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そしてやっと１ヶ月たってマイト専用の着ぐるみができた、どれほどこの日を待ち望んでいたのか、前日は興奮してなかなか寝ることができなかった。個室に案内されるとそこにはスキンとよばれる特殊な肌色のタイツのようなものがかけてあった、でも顔はちょ
+
+っと目の部分がサングラスのような状態になっているだけで外部から一切中身はわからないようになっている。
+しげしげスーツを眺めていると、突然ドアをノックする音が聞こえる、すると、こないだ自分にいたずらしてきた着ぐるみが入ってきたではないか、マイトは同様した、実はアニメオタクで着ぐるみにも興味があるマイトは動揺していた。
+
+すると、着ぐるみが急に話しはじめた、コンピュータ合成とは思えないほどのなめらかな発音とかわいい声、うっとりしていたが着ぐるが着用の仕方を教えると言い出した。まずは全裸になれといきなりのことなので動揺していたが、ここまできてできませんとは
+
+いえないので思い切って全裸になった。
+着ぐるみは恥ずかしそうに目を隠すような仕草をとる、自分の息子はもうびんびんになっていたのだ。箱に股間につけるパットがあるのでそれを履くようにいわれた、内部で息子を格納する穴があいているのでそこに息子を収納するように言われた。
+そして、肛門にも刺激センサーがはいるので、小さいプラグを中に押し込んだ、そしてその上からベビーパウダーのようなものを全身に塗ってから肌色のスキンスーツを背中から入るように指示された、外部からはまったく見えないが後頭部にくぼみがありそこを
+
+おすとすーっと背中がわれてそこから内部に体をいれるようだ。
+
+全身の肌色スキンスーツを着てしまう、口や鼻は穴があいてるいわけでもないのに呼吸が苦しいわけでもない、特殊開発された素材で将来的には宇宙で仕様するスーツになる予定だという、これはその実験をかねた試作品らしい。
+全身包みおわると急に全身を圧縮されるような感覚につつまれた、まるで空気圧縮袋にいれられたのようになった、そんな感覚が１０秒ほど続くと急に楽になった。すると体型が補正されて女性らしいスタイルになっていたのだ。息子はびんびんなのにまるでわか
+
+らない女性らしい特有のなだらかな股間になっている。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#352">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">352</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-03T18:42:44+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">次に別の箱を開けるように指示されるとそこには美少女マスクが入っていた、ただなにかイメージしたものと違いゴムのような素材、髪は金髪のロングヘアーそこの首から内部に顔をいれろと指示があった、マイトは言われるがままにマスクに顔をいれるとこれま
+
+た急に圧縮がかかりマイトの顔にぴったりフィットして形が変化した、のべったい顔だったのがみるみるアニメの女の子のようなかわいい顔に変化していった。
+ここでようやく鏡を見るようにいわれて鏡の前にいくとそこには全裸ではあるが、見事な女性体型の金髪ロングの顔もかわいい女の子が立っている、自分が右手を動かせばその子も右手を動かす、くるっとまわるとその子も回る、そう、まぎれもなくその女の子は
+
+自分と同じ動き、その中に自分が入っているのだ。
+
+見とれていると、衣装を着るように言われる、衣装はクローゼットの中、パンツやソックス、ブラジャーなどはタンスにはいっているらしい。さすがに全裸ではまずいので衣装を着ることにした。衣装は某美少女ゲームにでてくる制服だった、このゲームはやった
+
+こともあるし、まさかこの美少女キャラクターの制服を自分が着ることになるとは予想してなかった。
+衣装も着て鏡をみる、本当にかわいい、すると急に顔がしめつけられるような感覚につつまれる、すると顔が変化しこの作品にでてくるヒロインキャラクターに変化したではないか、髪も色が変化し長さもキャラクターと同じになる、すると体もしめつけられ、キ
+
+ャラクターの体型に補正される、見た目は絶対に男性とはわからないほど華奢でなめらかな女性の体になっている。
+
+そのまま、部屋をでてスーツの男にみせにいく、男は服のちょっとした乱れを直した程度でなにもいわなかった、初日なので基本的な動きの所作を一緒にいた美少女と一緒に学んだ、長時間着用していたので後半はばてしまった、疲れているのがわかったので今日
+
+はここまでと指示をくだされた。
+そして着替えた個室にもどり、先輩の力を借りてやっともとの自分の体にもどった、すると先輩キャラクターも自らの衣装を脱ぎはじめた、そうここはこの先輩と相部屋だったのだ、衣装を脱いで下着をはずすと箱にいれて全裸になった。いままで自分も同じ環境
+
+にいたのにまた興奮している。
+
+マスクをはずして背中のスイッチを押すと背中にきれつが入って中から男性の頭がみえる、そしてこっちを振り返るとびっくり、その人は自分にこの仕事をすすめてくれた同僚の磯崎だったのだ、まさかの展開にめんくらっている自分を見て笑う同僚、シャワーを
+
+浴びて一緒に夜の街に飲みにでかけた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#357">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">357</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-10T12:30:16+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">第２話　陰謀
+
+その後、マイトと磯崎は合間を見つけては裏のアルバイトを続けていた、年は磯崎のほうが一つ上だが早生まれだったので実質は同い年である、でも、アルバイトの職場では磯崎のほうが先輩なのでちょっと複雑な気持ちもある。職場では一切アルバイトの話はしないどこで聞かれているかわからない、マイトは職場ではあいかわらずコウジのいじめをうけている、磯崎はそれをみているだけだ、助けるわけでもない、が帰りに愚痴はきいてやる、マイトはいくらコウジにいじめられても磯崎と一緒にいることのほうが楽しいしアルバイトが楽しすぎていじめのことなどあまり気にしなくなってきていた。
+
+アルバイトでは２ヶ月が経過してマイトも自分である程度はこなせる程度に成長した、やっと上司の許可を得て、一人で接客するところまできたのだ。マイトのキャラはサナエという名前だが前回も書いたがいろいろ変化することも可能なので固定ということはあまりない、いままでは磯崎のユキの付き添いというかシャドー的存在だったのだが、マイトの成長をみて磯崎は上司にかけあってくれたのだ。
+はじめて一人で接客する日、いつものように二人は部屋で話していた、磯崎は自分がはじめて一人ででたときの思い出や注意点などをマイトに細かく話す、そしていよいよマイトがでる時間が近づいてきた、マイトはスキンに自分の体をいれ、サナエになった、キャラクターに入ればもう身も心もキャラクターとして接しなければならないのだ。
+
+部屋を出る前に磯崎とハグをして、指定された部屋に一人で向かった。今日はメイドのキャラクターなので、特注のかわいいメイド服を着用し猫耳までつけてお客さんの待つ部屋までいく、何度もサブで接しているけど今日は誰のサポートもうけられない本番なのだマイトの心臓は破裂しそうなくらい鼓動がはやくなっていた、内臓、つまり中身の人間のバイタルデータは常に監視され事務室のコンピュータに送られているのだ。
+ドアをノックして、中からどうぞ、という声が聞こえるとゆっくりと部屋の中に入っていく、待っていたのは自分と同じくらいのどこにでもいそうな男性である。最初の３０分程度は写真撮影、カラオケなどをしていた、カラオケも自分は歌うわけではなくあらかじめ録音されていた声をながし適当にふりをつけて踊るだけである。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#358">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">358</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-10T12:32:01+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">男性はもう興奮状態を抑えられないように喜んでいるように見える、酔った勢いなのかいろいろ質問を投げかけてくる、どこから見ているのかとか、呼吸はできるのかなど、そういう質問にはあらかじめマニュアルが設定されているのでそれを答えるだけである、中身などいない、これがこの業界の暗黙のルール、もししつこくきかれてもこの体型なので想像に任せるといっても男性だと疑う人間などまずいない。
+時間は１時間１万円と割高ではあるが、くる客はそれ以上にオプションを選んで２，３万は払っていく、中にはプレゼントもある、もちろん、男性はこちらが女性だと思っているので女性もののバックや靴、時計を送ってくるのだが、使えるわけがない、しかし、顧客のデータは大事なので同じ客がきたときにはプレゼントされたものをつけてでるようになっている。
+
+こうすることで客はそのキャラクターに感情移入する、自分がプレゼントしたものを次に会うときにそのキャラクターがつけていたら喜びも半端ではない、一種の支配欲のようにそのキャラクターは自分だけのものだと錯覚しはじめより大金を支払う、ちょっと汚いやりかたかもしれないがこの世界はそういうことがまかりとおるのである。
+店としても過剰な投資などは危険であり、限度を考えた投資を呼びかける運動やポスターを店のあちらこちらに貼っているし、会計時も確認する、もし、よくないところに無理をして借金して物騒な事件が起こってしまうと、当然店にも捜査の手ははいる、そうなれば店自体の存続もあやうくなるため、会員の身辺調査をしてしっかりとした収入がある人間を選んでいるらしい。
+
+
+そんなことがしばらく続いたある日、仕事の帰り磯崎に呼ばれてカラオケボックスに入った、折り入って話しがあるとのことだった。話とは上司のコウジについてだった、コウジの部下いじめは最近になってどんどんエスカレートしている、しかし、コウジは会社の核であり、上司からの信頼もあつく彼のもってくる仕事で会社がなりたっているといっても過言ではないのである。
+しかし、マイトだけなくほかの部下にはとにかく陰湿、つらい現場は人まかせで自分は契約とる直前にきておいしいとこだけもっていく、失敗はとにかくネチネチせめる、とにかく部下からは嫌われているのだ、磯崎もふくめ数人はとにかくこいつの鼻をあかしてやれないものかと計画していたらしいのだ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#359">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">359</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-10T12:34:01+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">磯崎の話では、実はコウジには裏の趣味というか性癖があって、女王様というか女性から攻撃されたりおもちゃにされることを望んでいるとかいないとか、そういう秘密のクラブの会員書を偶然彼が不在時にデスクでみかけたそうだ、これはぜひ利用しなければならないだろう、そこで磯崎が考えた作戦があるという。
+コウジの聞こえる範囲で休憩中にわざと磯崎が自分と世間話でそういう秘密のクラブがあることをほのめかす、それはわざとコウジに聞こえるように話す、興味をもったコウジはなんとかして秘密のクラブの情報を聞き出そうとする、だが、部下だし特殊な性癖のことなので自分のプライドもあるのでなかなか聞けないだろう、だが、普段いじめて格下とみているマイトなら聞いても平気だと聞いてくるに違いない、コウジと同じ車にのって、コウジがもし聞いてきたら自分は磯崎から聞いただけで詳しいことは知らないけど場所だけは教えてもらったとほのめかす、なんか適当ないいわけでその情報をほしいといってくるはずなので自分はあまりいく勇気がないので一緒についてきほしい話す。
+
+コウジは案外、自分の欲求には素直な男なので、いやいやながらもついていくだろう、しかし、これが罠、クラブというのは当然嘘、自分たちが働いている店だ、磯崎は店長とかけあってこの計画の承認をもらったそうだ、店長もその悪人コウジは許せないらしく企画にはのりのりだったそうだ。
+初日はマイトと同伴してコウジがついていく、この日のために特注の美女着ぐるみに磯崎が入って、コウジを惑わす、コウジのつぼは知っているので、それにあわせて特注の着ぐるみを作ったのだ。マイトは途中で気分が悪くなったと嘘をついてトイレに、でも部屋には隠しカメラがある、トイレにいくふりをしてカメラルームにいってコウジの様子を見る、わいせつな行為やＳＭ行為が確認されたら写真と動画を撮影してあとで見せて恥をかかせる作戦である。
+
+問題はある、コウジは果たして作り物、着ぐるみの女の子に欲情するのかどうかだ、人によっては嫌悪感なども感じるのが現実、いくら計画がよくても着ぐるみで引かれてしまえばもともこもないのである。そこでコウジがどう反応するかテストすることにした、営業周りでマイトとコウジは同じ車、マイトがわざと着ぐるみの待ちうけにした自分の携帯を車に忘れてトイレにいく、磯崎は会社からマイトの携帯に電話する、着信は会社名義なのでマイトの不在時に車にいるであろうコウジがでる、当然、待ちうけはみる、適当に話をしてきったあと、なにごともなかったようにマイトは車にもどってくる、コウジは会社から着信があったのでかわりに出たことを伝えるはず、そこは素直に礼をいう。
+しかし、途中でなにげなくマイトが待ちうけみられたことをわざとコウジに聞こえるようにぼやくと、きっとつっこんでくるはず、そこでコウジの反応をたしかめるという作戦だ、うまくいけばコウジが着ぐるみに対してどう思っているのかわかるし、作戦をどう立てるかにも重要な情報源になるのだ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#360">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">360</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-10T12:36:44+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">コウジはまだ独身、会社の寮で一人ひっそり暮らしている、部屋はまだ誰もみたことがないのだが、アニメや漫画は嫌いではなさそうである。しかし、いくらアニメや漫画が好きでもそれが三次元として着ぐるみとして見るとまた別なものである。マイトも磯崎もコウジがどういうリアクションをするか非常に気になっていた。
+たまたま、遊園地の物資の営業をとりに遊園地にマイトとコウジは立ち寄った、そこでは美少女戦士のキャラクターショーがあった、休憩時間になったのでマイトはキャラショーのほうにいった、そこには元気に飛び跳ねる美少女着ぐるみキャラクターたちがところせましと動いていた、携帯で写真をとっているとコウジがやってきた。マイトは携帯で何枚か写真を撮影してコウジと一緒に車にもどった、そして作戦決行、おなかが痛いと嘘をついて車を離れる、わざと携帯を置いていく、そこに磯崎か電話をかける、実はひそかにマイトはふたつ携帯をもっていて便所から磯崎にＧＯサインをだして、連絡をうけた磯崎が適当な用事でマイトの携帯に電話をかけると誰もいなかったのでコウジが携帯にでる、しばらく話して電話がきれてもしばらくコウジは携帯の画面をみていた。そこにトイレからもどってくる。コウジはあわてて携帯をもとあった場所にもどす、そして不在中会社から電話があっていなかったので自分が対応したと話す。
+
+帰りの道中、マイトはわざと携帯をながめて、着ぐるみのことやコウジが見たであろう待ちうけをしげしげと眺める、運転していたのはコウジだが、信号で止まるとなにかマイトに視線が刺さる、そこでわざと待ちうけみたのかとか着ぐるみどうのとぼやくと、すこし気になっていたのか、マイトをけなしながらもちょこちょこ着ぐるみのことを聞いてくる。
+コウジにも興味があるのか聞いてみたが、反論してけなすも興味があるのは隠せない、これは食いついたとマイトは確信したのであった、もちろん会話は録音されているし、かえって磯崎と聞いて笑っていた、いま思うととてもえげつないやり方である。
+
+コウジが少なからず着ぐるみにも興味があるとわかったので、計画は一歩前進した、コウジが通っているであろう、クラブにも出向いてどういう趣旨なのかを入念にチェック、お店に誘ったときにどのような対応をすべきかを二人でチェック、着ぐるみは磯崎とマイトのために同じものを２つ用意した、磯崎のほうが身長が高いが体型補正もあるのでほぼ同じ体格と身長、だが頭の中は別なので共有すべき情報はお互いしっかり確認する日によって入る人間がちがうと仕草や話もあわないとおかしくなるからだ。
+
+そして、いよいよ初日、マイトがコウジをつれてクラブにやってくる、この日着ぐるみに入るのは磯崎、あらかじめ大事な話があると酔わせてすこしふらついたとこで誘いこむ流れである。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#361">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">361</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-10T12:43:43+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">第３話につつく</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#368">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">368</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-17T11:14:51+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">第３話　誘惑
+
+マイトはいくらいつもいじめてくるコウジといえど、すこし気の毒に感じていた、しかし、もう作戦は始まっている、ここで個人的感情を持ち出すわけにはいかない、いやいや入った会社でも周りの環境さえよければもっときっと楽しいはず、それなのにこの男一人のためにどれだけ周りが振り回されてきたことか、入社して５ヶ月、毎日のようにいびられ叱られ、それを思うとだんだん怒りがこみ上げてくる。
+
+マイトは仕事でわからないことがあるので個人的に教えてほしいとコウジに相談、コウジは引き受けた、こう見えてもコウジは仕事にはプライドをもっている、手抜きなどしない、そういう熱い面もあるのだ、それにパートナーでもあるマイトがしっかり働いてくれないと自分の昇格査定にも響くからだ。仕事が終わってマイトのいきつけの居酒屋で小１時間ほど話す、すこしお酒を飲ましておいて、あたかも急いでるようにクラブの話をする、興味があるのだが一人でいくのも怖いのでついてきてほしいとコウジにお願いすると最初は断ったがマイトの優柔不断な発言にしびれをきらせてついについていくことになった。
+
+路地裏のあまり街灯もない裏道にさしかかる、マイトはわざとびくびくしてメモを見ながら歩く、その後ろをゆっくりコウジがついていく、何度もここで正しいのかコウジはマイトにたずねる、そうしているうちに目的のビルにたどり着いた。薄暗い階段をあがってクラブの名前がかいたドアの前にたつ、おそるおそるドアホンを鳴らすと、スーツの男がでてくる。そして二人を客室に連れていく、内装は豪華なもので高級そうなインテリアが目につく。男は奥にある部屋に二人を案内しそこでしばらく待つように伝える。そして今日はマイトの誕生日特別記念という設定にしてあるので料金はかからないということだ。
+
+部屋はちょっとしたカラオケボックスのような感じですこし薄暗かった、サービスドリンクを注文して、カラオケなどもあるのでマイトは大好きなアニメソングを歌っていた、１５分ほどして誰かがドアをノックする、返事をすると部屋の中にとてもかわいい着ぐるみの美少女が入ってきた。当然これも仕込み、中には磯崎が入っているのだ。
+いきなりの登場で戸惑うコウジ、マイトははしゃいで携帯でばしゃばしゃ写真をとっている。着ぐるみはセクシーなドレスをまとっている、ゆっくりとコウジのそばまできて、隣に座ってもいいか訪ねる。まさか声まででるとは思っていなかったのか呆然としている、笑いたい気持ちを一生懸命こられるマイト、着ぐるみはコウジの傍に座った、わざとセクシーに足のスリットをみせるように足をくんで座った。コウジは大の足フェチなのもリサーチ済みである。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#369">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">369</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-17T11:16:38+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">今日は特別な日であり、開店記念なのでどんな高いお酒も１ボトルだけなら無料サービスとのことだった、普段は絶対に手がでない高級なお酒、一本２７００万円もするコニャックをあけた、着ぐるみ美女がお酒をグラスについてコウジにすすめる、普段はこんな経験したことない、彼女もずっといなかったコウジはもう興奮状態だった。
+マイトは隙をみて、トイレにいくと言って、別室のモニター室に移動して部屋の様子を監視する、もし、ちょっとでも変な行為があればコウジのあげあしをとることができるからである。マイトも時間を見て部屋にもどって３人で楽しむふりをする、カラオケでもりあがったり、王様ゲームをしたりたっぷり２時間くつろいだ、この日コウジはまだいかがわしい行為に及ぶことはなかった。
+
+コウジはクラブのことを大変気にいりまた来店したいと言い出した、そこでスーツの男が現れて、２回目からの利用には会員になる必要がある、信用重視のクラブのため身辺調査と収入確認もさせてほしいと願いでる、もちろんコウジは承諾、もちろんこれは嘘、はじめから会員になれるし、調査もしない、コウジを信用させるための口実である。
+グデグデに酔ったコウジをマイトは肩にかついでお店で手配したタクシーに乗せて、会社の寮に運んで寝かせる、マイトはコウジを部屋につれていきベットに寝かせるとそっと部屋をでて店にもどってきた、初日は大成功である、磯崎はもう着ぐるみを脱いで素にもどっている、録画したビデオを見て爆笑していた。
+
+２回目はマイトが着ぐるみに入ってコウジを誘惑する番である、今度は磯崎がコウジを店に誘導する、しかし、磯崎自身あまりコウジと話さない、会社では一般社員として仕事しているし、秘密のアルバイトのことはおろかマイトともあまり話さないようにしている、要するにマイトほど磯崎はコウジにパイプはないのだ。
+磯崎は考えた、どうしたらコウジを誘えるかを、机の引き出しにわざとコウジが好きなＳＭの写真を忍ばせておいて出張先から電話でコウジに連絡、机の引き出しに書類があるので支給データを送信してほしいとお願いする、そうなるとコウジは磯崎の机の引き出しを捜す、すると予想もしない写真が見つかる、書類はデータで送るもののコウジはその写真が気になって仕方ないはずである。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#370">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">370</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-17T13:12:47+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そして、コウジが休憩してるとこにわざと行って、書類のほかに写真をみたか尋ねる、位置が動いているので見たことは間違いないのだ、コウジは屋上に磯崎を連れてあがる、さすがに人に聞かれては困るからだ、そして写真をみたことを白状する、磯崎はネット調べてこういう行為に目がない、ぜひ体験してみたいが勇気がない、そもそも女性とあまり関係がなないので話せないと弱みを見せる、するとコウジは経験してるし、例のクラブの会員券もある、磯崎を同志とみとめたコウジは磯崎をつれてまたクラブにはいるだろうと、こういう作戦である。
+計画はほぼ順調に進んでいた、磯崎はわざと見えるように机の引き出しに写真を忍ばせておき、机をあけるといやでも目につくようにセットしていた、その後休憩時間に話をもちかけ、誰もいないとこに磯崎を連れていき、写真のことをコウジから話しはじめた、完全に食いついたと磯崎は思った。嘘の熱意をコウジに語るとコウジは同志を得たような目で磯崎を見つめる、そして自分には秘密のクラブがあり、そこに行こうという流れになった。
+
+しかし、ここで思いもよらないトラブルが発生したのだった、磯崎は仕事が終わる時間、コウジと待ち合わせをしていたのだが一向にコウジが待ち合わせ場所に現れないのだ、すると磯崎の携帯に店にいるはずのマイトから電話がきた、内容は、急遽取引先で発注トラブルがあったのでコウジとペアのマイトも現場にいかなければならなくなったというのだ、これはまったくの計算外な出来事である、仕事に熱いコウジがミスをほっておけるはずもなく、この日の計画は中止せざるを得なくなってしまった。
+
+マイトはせっかくのチャンスを棒に振ってしまったことがとても悔しかった、しかも、原因は自分の発注ミス、それによって同僚の磯崎、先輩でもあるコウジを巻き込んでしまったことがマイトの心を深く傷つけたのだった。しばらくして会社の休憩室でマイトと磯崎はしずかに会話もせずコーヒーを飲んでいた、するとそこにコウジがあらわれてこう言い出した。
+マイトは最初にクラブを紹介した人間、磯崎は興味があるが勇気がだせず前回は仕事が入っていけなかった、コウジは二人をつれてクラブに行こう、しかも明日は休み、ドリンク無料券もあるので３人で行こうと誘ってきた、さすがにあわてる二人、当然である、とちらかが着ぐるみに入らないといけないのに二人同時にいけばそういうことはできない、着替えだって時間もかかる、最初は断ったけどコウジのごり押しでいくことになった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#371">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">371</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-17T13:14:50+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">磯崎はあわてて店に電話をするもまだ昼間なので店に出勤しているとも思えない、仕方ないのでスーツ男の携帯にかけるも留守電である。仕事が終わるやいなやコウジは二人をクラブに連れて行った、たった１回しか行ったこともないのにまるで態度は常連客のようである。
+マイトも磯崎も気が気ではない、おそるおそるお店のドアを開ける、係員がでてきて部屋に通される、するとしばらくして、あの美女着ぐるみが部屋に入ってきたではないか、二人は唖然となる、二人が演じているときとなにもかわらない仕草で部屋にはいってきて接待をはじめた、二人はただぼーっと眺めるだけだった。
+コウジは二人のことなどおかまいなし、着ぐるみとふれあい始めた、この店の特殊サービスメニューというポップを見つけると、そこにはコスプレ、ＳＭ、フェティッシュプレイなどが書いてあり、それにかかる料金などが記載されている。コスプレ野球拳などもあるようでコウジは大いに盛り上がっていた。
+１時間ゆっくり遊んでオプションありの５万円を３人で割り勘で支払った、コウジはまた来店したいと豪語して店の前でタクシーを拾って部屋に帰った。二人はあわてて店にもどってきた、一体誰が着ぐるみに入っていたのか、するとシャワールームから白いガウンをきた人物がでてきた、そうスーツ男である、彼が二人の変わりに着ぐるみに入って演じていたのだ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#372">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">372</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-17T13:31:35+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">第４話に続く</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#373">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">373</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-17T17:17:45+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">部分訂正があります
+
+【誤】すこしお酒を飲ましておいて
+【正】すこしお酒を飲ませておいて
+
+【誤】着ぐるみ美女がお酒をグラスについてコウジにすすめる
+【正】着ぐるみ美女がお酒をグラスについでコウジにすすめる
+
+【誤】とちらかが着ぐるみに入らないといけないのに
+【正】どちらかが着ぐるみに入らないといけないのに</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#434">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">434</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-08-20T08:50:53+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">第４話　混沌
+
+スーツ男はマイトや磯崎よりも背が高くスタイルもいい、足も手も長い顔もイケメンだがちょっとクールな顔だちで、あまり話したとこをみたことがないのだ、店長に話を聞くと磯崎から連絡をうけてまず動いたのは他の誰でもないスーツ男だったそうだ、特殊変身スーツはどんな顔にも変化できる、しかし、着ぐるみにおいてもっとも大事なのは中身の人間の感性である、人が違えば動きも違う、一度もやってこもないキャラクターを二人がやったビデオを数分みただけで動きを完全にコピーして演じていたのだ、聞けばスーツ男は以前名もない劇団にいたがある事情で対談し社長に拾われてこの店のマネージャーにまで抜擢されたいわゆるできる男なのだ。
+二人はただただスーツ男に会釈して謝罪した、スーツ男はちらっとこっちを見て、軽くうなずくとそのまま奥の部屋に入ってしまった。自分たちのミスでもある緊急事態に店のマネージャーを動因させてしまったことを二人は重く受け止めていた、不測の事態とはいえ上司になんの断りもなしに無茶な計画をおしつけてその尻拭いまでさせてしまったのだ。
+
+しばらくするとコウジは一人でクラブに通うようになった、マイトも磯崎もコウジの相手ばかりするわけにはいかない、当然、日々の営業などがあり、コウジが来店したときにのみ特別にあいてるほうが着ぐるみに入って相手をすることになっていた、ガードがかたいのかコウジはなかなか尻尾をださない。
+そこで店側と協力してさらに仕掛けをつくることにした、コウジが来店してから部屋に入るまでに、部屋に他の部屋にはない特別サービス割引のポップをまぜておく、通常料金の半額で特別サービスが受けられる、しかし、それを利用できるのは月額会員にならなければならない、月額会員はゴールドメンバーとなる、コウジはまだシルバーメンバーなのだ、ゴールドメンバーは月会費３万かかるが店でうけられるあらゆるサービスをほぼ半額で利用できるという特権があるのだ、コウジもさすがに３万の会費にすこし悩んだのかすぐには返答しなかった。
+
+そこでマイトと磯崎はコウジにゴールドメンバーになってもらうためにまた一芝居うつことしにた。マイトがコウジと同伴で仕事をしている最中、休憩時間にコウジにそれとなくクラブのホームページを見せる、しかし、そのホームページは偽であり、コウジに見せるために特別に作ったものである、店には正規のホームページもあるし、当然コウジもいつも見ているのだが、特別ページが解説されていて、そこはゴールドメンバーでなければパスワードが発行されてないのだ、マイトは無理して会員になったと嘘をついてッログインして特設ページを見せる、そこにはガラガラくじキャンペーンと書いてあり、豪華商品も多数ある、中でもゴールドメンバー会費３ヶ月無料などもあった、先輩のコウジにはいつもお世話になっているので一緒にいってクジをひかないかと誘うものだ。
+
+しかも、キャンペーン期間は今日までとなっている、もちろんこれも仕掛け、コウジに考える時間を与えないための策略である、そもそもゴールドメンバーなど最初から存在しないのだ、すべてはコウジをはめるための仕掛けなのだ。マイトの誘いでクラブにつく、当然この日は磯崎が着ぐるみに入ってる、予定どおり奥の部屋に二人で入る、しばらくして磯崎が入っているであろう着ぐるみが部屋に入ってきた、しばらく歓談していると、なかなかクジに手をださないのでしびれをきらせてマイトがわざとポップを取り出してガラガラクジをやろうという、なぜしぶっていたのかといとガラガラくじは１回１万円の利用料金がかかるからだ、景品はどれも豪華だし１万以上の価値のあるものばかりだがさすがにそれを無償で提供するほど世の中は甘くない。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#436">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">436</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-08-20T08:53:55+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">１回はマイトがおごるのでぜひやってほしいとお願いする。もちろんこれも仕掛け、ガラガラの中にはゴールドメンバー３ヶ月無料券しか入ってないのだ、マイトがおごるといえば当然タダで一度ひけるのでコウジは喜んでガラガラをまわす。すると当然無料チケット当選の玉がでてくる、これでコウジはなんの疑いもなく３ヶ月ゴールドメンバー無料券を手に入れてゴールドメンバーになった、マイトに電話がかかってくる、これも仕掛け、店から電話をかけてもらって、急用ができたので先に帰るといってそそくさ部屋をでていく、しかし、マイトはそのまま別室のモニタールームにもどってきてコウジの様子をモニターごしに伺う。
+
+せっかくゴールドメンバーになったのでコウジはさっそく特別サービスを受けることにした、趣味だったＳＭシュチュエーションを選択、着ぐるみは特別な女王様の衣装に着替えるため、一度退室した、代わりに部屋ではコウジ専用の手枷やら足かせ、いろいろＳＭグッズが入った箱がでてきた、さっそくそれらに着替えるコウジをモニターでずっと眺めている、しばらくして女王様コスチュームに着替えた着ぐるみが部屋に入ってくるといきなりムチでコウジの背中をたたきはじめた、ろうそくの蝋をたらしてみたりいろいろなことを時間いっぱい楽しんだ、当然その様子は録画され写真まで撮影されていることなコウジは知るよしもなかった。
+
+しかし、マイトはモニターを見ながら複雑な気持ちだった、今回もそうだがいつもおいしいとこは磯崎がやっている、自分のときはキャンセルになったり、しかけのときで自分が着ぐるみに入ってコウジにおしおきしたい、そのためにやりはじめたようなものなのにいまだにまともにやれてない現状にイラだちすら感じてきた。
+画面にはピンヒールでふみつけにされたコウジが気持ち悪いわらいと奇声をあげていた、磯崎は美女の中でどんな気持ちで踏みつけているんだろうか、たしかに演技や技術面では先輩である磯崎のほうがうまい、自分は悪く言えばぽっと出の素人に毛が生えた程度、あのうらやましい環境に身をつつみ因縁の相手におしおきする磯崎に嫉妬していたのだ。
+
+コウジはなんの疑いもなく店を出て行った、着替え終わった磯崎がモニタールームにもどってきた。しっかり録画と写真はとれていると話すとハグして喜んでいた、しかし、マイトは手ばなしでは喜べなかった、いつものマイトとすこし様子が違うことを感じた磯崎は二人だけで話すため、マイトと二人きりにしてもらった。
+どうしたのか聞いてもマイトはなかなか話さない、ここにきて二人の関係に亀裂をいれるわけにはいかなかった、せっかくここまでうまく進んであとは、写真と動画を本人に見せ、反省しちょっと恥をかいてもらうのに、ここで仲間割れしてしまえば店までまきこんで仕組んだ自分の立場もあぶないと思ったのだ。
+
+粘り強い説得のせいか、マイトはだんだん事情を話しはじめた、聞けば自分はまだ一度も着ぐるみでコウジと接していない、それに焦りを感じて不満ももっていることだった。磯崎ははっとした、よく考えてみればマイトが不満を持つのもわからない話しではない、作戦の立案は磯崎だがマイトの個人的な逆襲で着ぐるみまでつくったのに実際やっていたのはほとんど自分、マイトはそれにいきつくための芝居などをやって本番は自分がおいしいとこをとっていたのだ。
+もちろん、一度はマイトにもチャンスはあったものの急な予定変更で結果的にマイトはコウジと接することはなかった、そして今日もコウジを店につれてくるのはマイトだった、気づかなかったとはいえマイトに申し訳ないと感じた磯崎は素直に自分の非を認めて謝罪した、そして今度の計画では必ずマイトが着ぐるみ役になるようにすると約束した。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#440">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">440</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-08-27T08:26:55+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">最終話　　終末
+
+磯崎は次は自分が着ぐるみに入ってコウジを陥れるよう計画してくれた、だが、マイトは納得がいかなかった。それもそのはず、もう証拠写真や動画は前回撮影されてしまったからだ、今回の計画の一番目玉だったのだ、コウジがいつそういう態度をとるのかは予想できなかったし、どっちの順番で回ってくるのかも完全にランダムだった、ただガラガラの時点でコウジに拍車をかければそうなると今、考えれば予想できたのに、もう遅かった。
+あとは、コウジが次に来店したときに公表するという最後のときだ、部屋で着ぐるみといちゃうついてるところに急に入っていって、写真と動画をとったことを公表し、土下座させて謝らせるという流れだ、なので本当は着ぐるみでいちゃつきたかったマイトにとっては直前でとめられて気分のいいものではないのだ。
+
+
+店側にとってもほとんどメリットがないので、二人のためにこれ以上営業を変更している余裕はなかった。マイトは非常職員だが、磯崎は準社員である、将来的には社員、幹部になる人材、個人的な復讐のために１体ン百万の着ぐるみを作ったわけである。店としても今後はこの金額の原価をとりもどさなければならないのだ。
+マイトはまだバイトで入った程度、現場経験も薄い、今回の計画も実は店側からすこしづつ磯崎に打診してあった、こういう金のかかるの計画はなるべく短期間に終わらせて、終わったらすぐ現場に復帰させること、すべてスーツの男の差し金だった。そんなこともしらずにマイトは最後の賭けにでる。
+
+
+最後の１日はコウジをおびき寄せて証拠写真やら動画やらを見せる、それは磯崎がやる、もちろんそういうことをすれば磯崎の会社での立場はなくなるだろう、しかし、磯崎にとってはこんな安月給でこきつかわれる会社で働く理由はもうない、この任務が終了すると同時に磯崎は会社をやめて、店の正規社員としての道が約束されているのだ。しかしマイトはそうではない、マイトはあくまでもバイト、ゆえに顔をだしてしまえば職も失ってしまう可能性があるため、最後まで顔はださず着ぐるみに入って事のなりゆきを内部からみるだけなのだ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#441">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">441</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-08-27T08:28:47+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">磯崎は事前にコウジに店にタイムセールの話をする、１日限りの出血大サービス、なんでも３割、もちろんコウジはこの誘いを断るはずもなかった、仕事を終わらせてすぐに磯崎のことも待たず一人で行ってしまった。しかし、ここでもマイトの不運は続く、急な電話で実家の父が倒れて危篤状態だという、まったく最後までついてない男である。父か復讐か、マイトは悩まされた、しかもいままでろくに着ぐるみでコウジに接してきてないし、事実上これが最後のチャンスでもある。
+マイトは悩みつづけた、磯崎も上司も家族のもとにもどるようマイトを説得していた、そしてマイトがだした結論は、着ぐるみに入ることだった。自分がとんでもないことをしようとしているのはマイトもわかっていた、もし、このまま父の顔をみずになくなったりでもしたら僕は一生後悔する、磯崎も、マイトがこれまで不遇でなかなか満足に着ぐるみにはいってない事情をきいていたため、マイトが家族よりもコウジへの復讐と着ぐるみを選んだことにそれ以上反対はしなかった。しかし、連絡はつくよう着ぐるみにも携帯電話を持たせておくことにした。
+
+マイトは複雑な心境で自らの肉体を美少女の中に収めていく。磯崎もそれをサポートしつつマイトの苦渋の表情をみていた。そうしているうちにコウジが店にやってきた。事実上最後なので店もコウジの貸切のようになっていた。店の美少女着ぐるみが総出でコウジを迎えた。コウジは上機嫌で個室に案内されるとそこにはマイトが入った美少女着ぐるみが妖艶なドレスをまとって待っていた。
+お酒もはいってよっぱらったコウジは調子にのって、着ぐるみにいたずらをはじめた、しかし、いつもと反応が違う、酔っているコウジがみてもあきらかに元気がなさそうなのだ、モニターでみていた磯崎もインカムで元気をだすよう指示するが、中のマイトにしてみれば父は危篤状態、そしてこのあとコウジにたたきつける写真や動画、そしてコウジへの思いを考えるとまともに動けずにいたのだ、着ぐるみがこんな調子ではコウジも面白くないのは当然である、だんだんイラだちがでてきているようだった、上司はフォローの仲間の着ぐるみを部屋に入れてコウジの機嫌をとる作戦に切り替えた。これが成功したのか、コウジは別の着ぐるみにいたずらをはじめた、するとマイトの着ぐるみに持たせていた携帯がなり始めた、コウジはカラオケに夢中のようである、こっそり部屋をでて電話をみていると、急に部屋からコウジがでてきて、どなりつけたではないか。
+
+仕事中に携帯にでるなど、接客業としておかしい、そしてコウジはマイトの携帯壊してしまったのだ、当然、誰からなのかもまだ確認できていない、あわてて携帯を拾うとしたが、コウジはけってどこかに飛ばしてしまった、そのまま着ぐるみの腕をつかんでヘアにひっぱりもどしたのである、マイトはもう気が気ではなかった、ひょっとしたら父の安否をつげる電話だったのかもしれないからだ。
+磯崎は上司に許可をもらい、携帯を回収したが、めちゃくちゃに壊されていて液晶の文字を確認することはできなかった、磯崎は前にマイトから実家のことを聞いていたので、番号案内からマイトの実家に連絡した、そしてマイトの父が他界したことを知る、こうなったのもマイトが選択をあやまったせいでもあるが、誘った自分も悪い、マイトが着ぐるみに夢中になることで家族をもかえりみない性格であることを見抜くことができなかったのだ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#442">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">442</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-08-27T08:32:37+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">急いで、上司と部屋にむかいコウジに洗いざらい、証拠の写真やら動画をぶちまけた、コウジは最初一体なにが起こっているのか理解できなかったが、次第に事の重大さに気づき膝をついてしまった。コウジはぐったりしてそのまま家路についた、しかし、本当に大変なのはマイトのほうだった、自分の選択で、父の死に目もあうことができなかったばかりか、コウジにも結局復讐などできてはいなかったのだ、マイトは磯崎から連絡をもらうとすぐに着ぐるみを脱いで、アパートにもどって実家に帰る準備をした。もう夜も遅いので新幹線も飛行機もない、マイトの実家はとても遠いのですぐに帰ることはできないのだ。
+
+翌朝の一番の新幹線でマイトは帰ることになった、駅のホームには大きな旅行かばんをぶらさげたマイトが並んでいる。そこにマイトの肩をたたく者がいた。マイトが振り向くと、磯崎が立っていた、暖かい缶コーヒーを渡す、磯崎はこの何ヶ月間のことを振り返って自分が引き込んでしまったのに最後までマイトにいい思いをさせてやれなかったと悔やんだ。
+１夜あけてすこし落ち着きを取り戻したのか、マイトは磯崎に軽く微笑んでうなづいた、自分も散々迷った結果選んだ道、父を亡くしたけど、もし自分があのまま行っても同じ結果だったかもしれない、しばらく実家で暮らし、落ち着いたらもどってくると約束した、職場には磯崎から説明すると約束した。
+
+そしてマイトが乗る新幹線がホームについた、磯崎と抱き合って、必ずもどってこいと励まされた、新幹線の小さな窓からマイトを見送る磯崎、マイトをのせた新幹線をいつまでも見つめていた。
+
+
+おしまい</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#443">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">443</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ヒロシです</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">tr.t4dJfuU</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-08-27T08:36:07+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">２ヶ月にまたいでしまいましたが、読んでいただいてありがとうございます。まだまだ訂正すべき点などもありますが、またアイデアが浮かんだら書こうと思います。
+
+ありがとうございました、水槽さんの続編楽しみにしてます。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-03T18:38:39+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-08-27T08:36:07+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">18305</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">21</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>

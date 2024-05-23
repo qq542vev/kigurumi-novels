@@ -15,9 +15,122 @@
 		<dcterms:alternative xml:lang="ja">シャワーズスーツ</dcterms:alternative>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#956"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#961"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#967"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#956">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">956</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ラバースーツでプール泳ぎたい</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-03-26T17:30:12+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">シャワーズスーツ
+
+『ピンポーン』
+
+ようやく念願のスーツが届いた。
+私は変な性癖がある。それは着ぐるみのようなものに包まれると心が高ぶるのである。
+
+私は段ボールを開ける。中から出てきたのは頭から足まで一体でできたラバーのウェットスーツのようなもの、これが「スーツ」である。
+偶然インターネットで見つけ躊躇することなく買った。
+
+さっそく着てみる。
+まずは裸になり足を入れる。説明書には下着をつけてと書いてあるが気にしない。
+キツイがラバーなので伸びてフィットする。
+つづいて下半身。これも苦労したが入れていく。
+次は手。ゴム手袋を履く感じで少しずつ入れていく。肩の所まできたら胸も押し込んでいく。
+
+一旦休憩をする。いちよう説明書に目をとおす。
+このスーツはポケモンのシャワーズをモチーフにしていて、このスーツは水の中でも３分までなら息継ぎをしなくてもいいらしい。
+どうやらマスクの口の所にレギュレーターがついていて一時的に外の空気を取り入れて潜った時に酸素ボンベの役割をするようだ。
+
+さっそくマスクをつける。まずレギュレーターを口に入れる。次に目と鼻の位置を合わせ背中のチャックを閉める。これで終わりだ。
+
+鏡の前に立つ。そこには２本の足で立つシャワーズがいた。
+なんともいえない気持ちが心を覆った。
+
+そして１日中シャワーズスーツを着て過ごした。
+私は思った。泳いでみたいと。
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　つづく？
+
+時間があればつづきを書きたいと思います。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#961">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">961</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ラバースーツでプール泳ぎたい</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-03-28T18:54:13+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">シャワーズスーツ2
+
+運よく家のむかえが市民プールである。警備員が夜中に巡回してるが夜中の２時がまわると帰ることは分かっている。
+さらにプールの裏口には鍵がしまっていないのである。こんなに警備が薄くていいのか？
+まあいい。余裕をもって夜中の２時半に忍び込もう。
+おっとその前にこのスーツの性能でもみるか。
+
+私は浴槽に水をいっぱいに貯める。
+浴槽に足を入れる。冷たいっ！だけど気持ちいい。
+スーツが体に張り付いていく。まるでスーツと一つになっていくようだ。
+
+説明書によればまず深呼吸をする。これを２回繰り返すとマスクの中に空気が貯まり、潜水すると水に反応して
+マスクが密閉状態になる。マスクに貯めた空気を吸うことで２〜３分は潜れるということだ。
+
+さっそく深呼吸をして浴槽に沈む。
+おそるおそる空気を吸う。
+すごい！ちゃんと息ができる！！魚になった気分！
+それから２分後。
+息が苦しい。上がらなければ。
+『ザバァー』　　　　　　　　　　　『スーハー....スーハー....』
+思い切り呼吸する。
+
+よし！！これならいける。明日決行だ！！
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　つづく？
+
+どうもありがとうございました。
+時間があればまた続き書きます。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#967">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">967</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ラバースーツで泳ぎたい</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-04-07T10:17:28+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">シャワーズスーツ3
+
+夜中の２時過ぎ...
+私は私服に着替えて、シャワーズスーツをバッグに詰め込む。
+予定どおりに２時半に家を出た。
+むかえにあるとはいえ、その間には歩道がある。夜中だから人が通らないとは限らない。
+運よく人はいない。それに隣の家もその他の家も電気がついてない。完全にみんな寝ている。
+
+裏口はやはり鍵が開いていた。そこから入る。
+プールサイドで私は裸になる。
+そして持ってきたバッグからシャワーズスーツを出して広げて見る。
+「やっとこの時がきた。」
+背中のチャックを開けて足をスーツに通していく。
+次に手。両手をグーパーグーパーする。ゴム手をはいた感覚とは違うこの感触はたまらない。
+上半身もスーツに沈める。
+最後は頭をいれていく。レギュレーターを口にくわえ目と鼻の位置を合わせて背中のチャックを閉める。
+そこにはスーツの表面が妖しく光る１匹のポケモンがいた。
+
+さっそく説明書どおりに深呼吸をしてマスクに空気を貯めていく。
+助走をつけてプールにダイブする。『ザバァー』水しぶきが高く上がる。
+マスクのレンズごしに見える透明な水。水の中なのに息をしている解放感。私の体にぴったりと張り付くスーツの高揚感。
+何もかも最高だ。本当にこのスーツに出会えてよかった。
+
+私はずっと２メートルプールの底を泳ぎ回った。
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　つづく？
+時間があったらまた書きたい。次回からエロくなっていきます。ちょっと強引な展開になるかもしれません。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-03-26T17:30:12+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-04-07T10:17:28+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">1653</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">3</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>

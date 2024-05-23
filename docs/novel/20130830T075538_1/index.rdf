@@ -15,27 +15,529 @@
 		<dcterms:title xml:lang="ja">楽屋</dcterms:title>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#446"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#447"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#454"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#455"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#460"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#461"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#462"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#463"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#466"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#467"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#468"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#469"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#474"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#475"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#476"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#477"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#484"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#485"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#486"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#487"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#488"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#446">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">446</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-08-30T07:55:38+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">それはいつも通りのバイトが、いつも通りでなくなった日。
+僕はキャラクターショーを始めて３年程の大学生、大和（大和）。
+まだまだ若手で勉強中。先輩方々にはいつも迷惑をかけてます。
+美咲「大和！ショーが始まる前にステージ確認しておきなよ！」
+大和「はい！」
+この美咲さんというのは２８才の頼れる女の人。高校から始めているらしく、
+僕にとっても大先輩。
+今日も、いつものようにキャラクターショーの一日が流れていた。
+今日のショーは午前中のショーと午後のショーの時間が、ものすごく間が開いている。
+そして、その午前中のショーが間もなく始まる。
+美咲「大和も舞も、暑いけど倒れないようにね！」
+大和「はい！根性で！」
+舞「根性だけじゃなく水分もしっかりとってよ！」
+舞さんは、雰囲気はほわっとしているが、僕よりも先輩で、今日のピンク。
+そして、美咲さんはイエローで、僕はグリーン。
+美咲「さあ！始まるよ！」
+みんな衣装に着替え終わる。
+改めて思うが、美咲さんも舞さんもとにかくスタイルがいい。
+二人とも身長は１６５ｃｍ程、細身で出るところは出ている。
+その体が、戦隊のタイツによりくっきりとシルエットがでるのだ。
+まあ、とにかくセクシーだ・・・おっとこれからショーが始まるのだから、
+こんな事を考えている場合ではない。
+・・・そして午前中のショーが始まった・・・</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#447">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">447</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-08-30T07:57:08+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ショーのほうは大きな問題もなく、無難に終わった。ただ暑いことはしょうがない。
+着替えも終わり休憩時間に入った。控え室は建物の中のしっかりした個室だった。
+とにかく、今日のショーは午後のショーまで時間が開いている。
+先輩達「大和、俺達ちょっと外に出るぞ」
+大和「大丈夫です！僕、留守番してますので！」
+先輩達「悪いな、時間までには戻ってくるから」
+先輩達は部屋を出て行った。これもいつものことである。
+大和（さて、やることもないし・・・横になるか、疲れたし・・・）
+ちょうどいい長い机があったのでその下で横になって携帯をいじっていた。
+そして、しばらくして、寝るつもりはなかったが僕は寝てしまった。
+どのくらい経ったのだろうか、ふと気がつくと女の人の声が聞こえていた。
+大和（しまった！！寝ちゃった！！この声は美咲さん！）
+机の下で美咲さんの声に気がついたが、机の下の僕から見えたのは、
+イエローの足と、戦闘員の足だった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#454">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">454</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-08-31T08:29:47+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">大和（ど！？どういう事？美咲さん衣装着てる？リハーサル？）
+そんな時間でもないが、動揺した僕は机の下からは出ず、しばらく様子をみることにした。
+美咲「ほら…何もじもじしてんのよ…」
+戦闘員「へ…へも…」
+大和（あ！？あれ？あの戦闘員の声？舞さん？？？）
+美咲「戦闘員なんだから、人の言葉しゃべっちゃだめでしょ…」
+舞「…はひ…」
+美咲「『はい』じゃない、『ゲゲ』でしょ」
+舞「…ゲゲ…」
+大和（どういうことだ？舞さんは今日は戦闘員役じゃない…？…リハーサルではないよな？）
+しかも、舞さんは戦闘員の衣装を着ているので、確認は出来ないが、何やら口に何かをはめている
+らしく、うまくしゃべれていない。
+僕は状況がのみ込めなかったが、しばらく机の下で息を潜めた…。
+美咲「この戦闘員風情が…いやらしい体つきして…」
+攻め立てながら、美咲さんは舞さんのタイツ一枚に包まれた体を触り始めた。
+美咲「あ〜このきれいな脚…戦えるのかしら…」
+舞「…んぁ…あ…ゲ…」
+舞さんのタイツの上から優しく撫でる美咲さん…。
+ものすごく自然で、こなれている指さばきだ。
+美咲「どうしたの？抵抗すればいいじゃない…『嫌なら』…」
+舞「んぁ…ゲゲ…ゲ…」
+美咲「抵抗しないんだ…そうねぇ…だからこんなに乳首が立っちゃってるの？？」
+大和（え！？舞さん？インナーは？？）
+戦闘員を着た舞さんのタイツからは、はっきり乳首が浮き出ていた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#455">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">455</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-08-31T08:31:06+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美咲「ほら…体は嘘は言わないわね…」
+そう言って美咲さんは舞さんの乳首をタイツ越しに攻める。
+舞「はひ…ぁ…あ…う…ぅ…」
+美咲「あら戦闘員さんは人間の言葉がしゃべるのかしら？」
+舞「ぁ…ゲ…」
+戦闘員の顔からは、こもった声がもれる。
+美咲「両手を出して…」
+美咲さんにそう言われ、両手を前に出す戦闘員。
+すると美咲さんは戦闘員にロープのついた手枷をはめた。
+そのロープの先はどうやら天井に伸びている。
+美咲「さて悪者には悪事をはいてもらわないとね…」
+そういうと美咲さんはロープを引っ張った。
+すると、戦闘員の両手は上に吊り上げられ、天井から吊り上げられた状態になった。
+舞「ひ…ひたひ…」
+美咲「何？痛いの…？しょうがないわね、だって悪物なんだから…」
+つま先立ちまで引っ張りあげられ、軽く吊られた戦闘員。
+タイツにくっきりと浮き出る乳首、吊られたせいで舞さん抜群のスタイルが際立つ。
+美咲さんはさらに攻め続ける。
+美咲「あらあら、吊られたせいで、こんなにはっきり浮き出させて…いやらしい…」
+舞「ひ！？」
+美咲「どんな悪いことをたくらんだのかしら？？言ってみなさいよ…」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#460">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">460</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-02T21:02:38+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">乳首を攻め続けながら、質問する美咲さん。
+舞「あ…ひぃ…ふ…」
+美咲「強情ね…しゃべらない気？」
+舞「うぅ…ぅ…ぅぅ…」
+必死に首を横に振る戦闘員。しかし美咲さんは全く聞く耳は持たない。
+美咲「じゃあ…もう少し下にいってみましょうか…」
+そう言って、美咲さんの指は乳首から、タイツをたどりながら下へ動いていった。
+美咲「あら？こんな所に湿っているところがあるわね…なにかしら？」
+舞「ぁあ…」
+美咲さんはタイツ越しに戦闘員の陰部をこなれた手つきでさすり始めた。
+舞「…あ…ほこは…はめ…」
+美咲「なあに？ダメ？？じゃあ白状してしまいなさいよ…さあ！」
+そう言って激しくさする見咲さん。必死に体をくねらす戦闘員、
+タイツ一枚がゆえ、またその動きが非常にいやらしい。
+舞「は…あ…やぇ…あ…ぁ…やぇ…え…ぁ…」
+美咲「さあ…言いなさいよ！！」
+舞「やぇっ…やぇ…あ！」
+美咲「どうなのよ!」
+舞「やぇへぇぇぇ！！！！！…あ…ぁ…ああああ！！」
+グタっとする戦闘員。大丈夫だろうか？
+美咲「あら？早いわね…股間がビショビショよ…まだ吐く気はないの？？」
+力なくゆっくりとゆれる戦闘員。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#461">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">461</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-02T21:04:10+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美咲「聞こえてないのかしら？正義はそんな簡単には許さないわよ」
+時々ビクつくが、力ない様子だった。
+美咲「お〜い…聞こえないの？・・・しょうがないわね…」
+そう言って美咲さんは、戦闘員の顔にイエローの顔を寄せ、耳打ちした。
+美咲「こんなにタイツ濡らしちゃって…午後のショーはどうするの？？
+　　　この戦闘員はあなたの衣装じゃないでしょ…私がみんなに説明しといて…あ・げ・る！」
+舞「う…！？うぅぅぅ！！うう！」
+美咲「あら？まだ動けるじゃないの？動けない振りはやめなさい…」
+舞「ぅ…ぅ…」
+力なくも必死にもがく戦闘員。
+美咲「そんな嘘をつくような悪い奴には…お仕置き追加ね」
+そういって美咲さんは、僕の潜んでいる机のほうに歩いてきた。
+僕の目の前でイエローの足が止まった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#462">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">462</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-03T22:24:55+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美咲「大和…さっきから見てるんでしょ…」
+大和（え！？気付かれてる！！）
+美咲「こそこそしてないで、出てきなさいよ…」
+大和「は…はい…」
+僕は止む無く、机の下から出た。
+大和「す…すいません…覗き見するつもりは…」
+美咲「そんなことはどうでもいいのよ…はやくグリーンに着替えなさい」
+大和「え！？…でも…」
+僕はためらった…さすがにあのスタイルの舞さんが、あの状況なのだ。
+僕の股間はすでに膨張していた。その状態でグリーンのタイツを着れば…。
+美咲「早くしなさいよ…嫌なの？いいわよみんなに教えても…『大和の趣味はのぞ…』」
+大和「わ…分かりました…」
+僕はしょうがなくグリーンの衣装を着た。
+美咲「あらあら、こんなに股間がふくれあがっちゃって…あなたも好きものね…」
+大和「い…いえ…そんな…」
+美咲「正直に言いなさいよ、体はそう言ってるんだから…嘘はいけないわ…
+　　　あなたは正義のヒーローなんだし…」
+大和「…はい…」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#463">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">463</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-03T22:26:49+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美咲「グリーンに指令を与えるわ…その戦闘員のいやらしい胸を責め、白状させなさい」
+大和「え…でも…それは…だってこの戦闘員、舞…」
+美咲「違うわよ！戦闘員は戦闘員よ・・・やりなさい」
+大和「はい…」
+断ったものの、僕は満更でもなかった。実は先ほどから二人のやり取りを見ながら、
+抜群のスタイルの舞さんのタイツ一枚の姿を触ってみたくてしょうがなかった。
+それを触ることが、先輩命令で下されたのだ。
+舞「は…はまこふん…はうはひぃ…ほ…」
+戦闘員は僕に「はずかしい」と伝えているようだったが、僕には関係なかった。
+それは先輩命令なのだから。そして、僕は戦闘員の胸に手を触れた。
+舞「は…」
+タイツに触れると、舞さんの柔らかさが伝わってくる。
+そして、たまらず僕は胸を揉み始めた…
+舞「は…あ……ぁ…あ…」
+美咲「ハハ…やるじゃない…グリーン…好きなだけいじくってあげなさい！」
+そういわれ僕は、戦闘員のウエスト…ヒップ…体中を触り始めた。
+さすがにスタイルのいい舞さん…ウエストのくびれもいやらしい…
+そして、運動をしているだけあって、締まった綺麗なお尻…これまたいやらしい…
+それら全てがタイツ一枚越しに感じられる。
+そしてたまらなくなり、僕は手袋を取ってしまった…</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#466">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">466</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-05T08:09:13+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">どうしても指でタイツを触ってみたくなったのだ。
+美咲「いいわね…やっぱり好きものね…素手で触ってあげなさい…」
+僕は素手で触り始めた…タイツのスベスベ感…その中の舞さんの柔らかさ…たまらない…
+舞「はひ…ふぐ……ひ……はっ…」
+激しく体をくねらす戦闘員。
+美咲「あなた…今『グリーン』にかわいがってもらっているのよ…」
+舞「は…はえへ…ぁ…」
+美咲「恥ずかしいわねぇ…さあ白状しなさいよ…」
+僕もたまらず抱きついてしまった。
+抱きつき、そして左手は胸を、右手は陰部をせめ続ける。
+舞「は…ぁ…はえ…へ…あ…ぁ…あぁああ！」
+美咲「いやらしい声ばっか出してないで…早く言ってしまいなさいよ！」
+そう責められても、口には何かを詰められ、
+感じてしまっている戦闘員には答えることは出来ない。
+舞「あ…ぁ…ほふ…ふひ…あ…あ…ぁ…ぁぁ…あ…ああああ!!」
+またもいってしまったらしく、ビクつく戦闘員。
+タイツの股間部分はビショビショであるのももちろん、汗でタイツのいたる所は濡れていた。
+美咲「まったく強情な戦闘員ね…」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#467">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">467</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-05T08:10:32+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そう言いながら美咲さんは、天井に固定してあるロープを外した。
+両手は固定されたまま、床に力なく横たわる戦闘員。
+美咲「それじゃ…次は…」
+突然、戦闘員のタイツを脱がし始める美咲さん。
+半脱ぎの状態ではあるが、舞さんの裸があらわになり始める。
+手足は脱げていないが、インナーを着ていない舞さんの胸、陰部ははっきりと露呈した。
+大和「ちょ…ちょっと…美咲さん…」
+美咲「グリーン、あなたも手伝いなさいよ…『これ』をこいつの恥ずかしいところに
+　　　いれてあげなさい…」
+大和「…はい…」
+美咲さんから渡されたものはローター、中に入り込んでしまうタイプだった。
+大和「いれますね…」
+舞「ふぐ…あ…ぁ…」
+美咲「さあ入れたなら、早くタイツを着せてしまいなさい…」
+大和「はい」
+僕は力ない舞さんに、また戦闘員のタイツを着せ、戦闘員を完成させた。
+美咲「それじゃ、スイッチオン♪」
+舞「はひ…う…あ…ぁ」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#468">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">468</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-06T21:04:29+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ローターが動き始める。寝転がったまま体をうねらす戦闘員。
+美咲「グリーン、ちょっと戦闘員を押さえつけなさい…暴れすぎよ」
+僕は戦闘員を押さえつけた。すると美咲さんは体の前側ではめられていた手枷を一旦外し、
+背中側で両手を固定した。さらに今度は足枷もつけた。
+これで戦闘員は完全に手足の自由は利かなくなった。
+舞「は！…う…ぅ…」
+すると突然、寝転がった戦闘員が悶え始めた。
+美咲「あ？強いほうきた？言ってなかったけど、このローター自動で強弱するから」
+舞「ふぐ…」
+その時である、控え室のドアを開けようとする音がした。
+先輩「おーい誰かいるか？開けてくれ」
+大和（誰か戻ってきた！？どうしよう？）
+すると美咲さんは、さっと僕を制するように手を出し
+美咲「今、開けるからちょっと待ってて！」
+そう言って、美咲さんはどこからかとても巨大な袋を持って来た。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#469">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">469</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-06T21:06:30+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">人間一人くらいは入りそうな細長く大きな袋だった。
+美咲「グリーン…急いで戦闘員と一緒にこの袋に入るのよ」
+大和「え！？」
+美咲「早くって言ってるでしょ、二人で寄り添いながらなら入れるでしょ…早く！」
+大和「…はい…」
+そう言われ僕は、戦闘員を抱え上げ、寄り添うように二人で立った。
+美咲「被せるわよ」
+美咲さんは僕達の頭のほうから足まで、すっぽりと袋を被せた。
+美咲「そのまま寝転んで…」
+まったく外が見えない状態だったので怖かったが何とか寝転んだ。
+舞「ひは！」
+大和「あ！すいません…」
+袋が二人で入るには細めなため、寝転ぶ再に少し戦闘員の上に乗ってしまった。
+すると、美咲さんは僕達の脚のほうにある、袋の口を縛りながら、
+美咲「ドアの鍵開けるからね…しゃべらない…動かない…いい？？
+　　　ばれたらどうなるか…分かるわね？」
+その言葉は僕と寄り添う戦闘員に向けられた言葉だが、僕には別の意味、
+そして何を意味しているか、僕には伝わってきた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#474">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">474</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-09T08:07:37+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そして入り口に向かった美咲さんは扉の鍵を開けた。
+美咲「ごめんね！着替えてたから」
+先輩「あっそう。またポーズの練習でもしてるの？」
+美咲「そんなとこ」
+先輩「熱心だね、相変わらず…そうそう、財布忘れちゃってさ…」
+美咲さんと先輩は僕達には気付かず、何気ない会話を続けていた。
+しかしこの袋の中という密閉空間には、グリーンを着た僕と、
+インナーも何もつけていないタイツ一枚の舞さん。
+タイツ越しの柔らかさを感じながら、寄り添っているのだ。
+美咲さんの先ほどの言葉は僕には『やってしまえ』と聞こえていた。
+美咲さんと先輩が会話をしているが、僕は戦闘員の胸と陰部を触り始めた。
+舞「ぅ…ぅ…」
+先輩「あれ？美咲の他に誰かいるの？」
+美咲「誰もいないわよ、みんな買い物だってさ」
+先輩「あっそう」
+先輩は気付いていないようだ。しかし袋は微妙に動く、先輩もよっぽど鈍感だ。
+大和「…舞さん…大きな声出すと…聞こえちゃいますよ…」
+舞「ぅ…ぅぁ…ぅ…」
+攻め続けながら、戦闘員に耳打ちをした。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#475">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">475</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-09T08:09:01+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">僕が胸を揉みしだき、陰部を刺激する、さらに中にはローターが動いている。
+戦闘員の息遣いはかなり荒くなる。
+それとともに、袋の中は暑く息苦しくなり始めた。
+この狭い袋の中に二人、しかも戦闘員は悶えもぞもぞと動き続ける、
+袋の中が暑くなるのは当たり前である。
+しかしこの暑さと息苦しさ、そして閉鎖感がまた興奮度を増させた。
+もう僕も止まらなくなり、戦闘員と激しく絡み始めた。
+先輩のことは忘れ、狭い袋の中で戦闘員のあらゆるところを揉みしだきながら、
+全身で戦闘員のタイツとその中の柔らかさを感じ、陰部を激しく攻めた。
+舞「はが…あ…ぁ…う…ぅ…ううぅぅ…」
+激しく声をあげる戦闘員。
+傍から見れば、大きな細い袋がうねうねと動き回り、こもった声が漏れてくる。
+生き物かどうかも分からない、不思議な光景だろう。
+さらに袋の中は暑く息苦しくなってきたが、もう止まらない。
+どのくらい時間が経ったのか分からないくらい絡み続けた。
+舞「うあ…ぅ…あぁ…ぁ…あぁ…ああああぁぁぁ！！」
+戦闘員はまた逝ってしまったようだ。
+暑さで僕も戦闘員も衣装は汗だくになってしまった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#476">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">476</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-09T21:17:52+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">すると、袋がの入り口がするっと開けられた。
+美咲「グリーン…あなたもかなりの好き者ね…」
+大和「は！？…先輩は？？」
+美咲「とっくにいないわよ…いい光景だったわ…袋詰めの二人…」
+僕はほっとした反面、袋の中の行為を美咲さんにずっと見られていた事に動揺した。
+美咲「グリーン、早くでなさい…」
+大和「はい」
+僕はすぐに袋から出たが、まだそこにはかなり息遣い荒い戦闘員は入っている。
+美咲「戦闘員はまだだめよ…」
+舞「ふ…ふうひぃ…へふ…」
+美咲「なあに？苦しい？そんなことは聞いてないわ…悪者には…」
+そういうと美咲さんは戦闘員の入った袋の口をまた縛った。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#477">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">477</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-09T21:56:18+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">すいません…ＮＧワードに引っかかってしまい、
+ラストの投稿が出来ません。
+チェックしたのですが、何がかかっているのか、さっぱりです…
+駄文、３作目にお付き合い頂きありがとうございました。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#484">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">484</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-11T16:15:05+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">舞「ひ…ふ…ふうひぃ……あふひ……はひへ…」
+美咲「出して欲しいの？それはダメね…」
+そして美咲さんは、ガムテープで袋を巻き始めた。
+舞「はえへ…ふうひぃ…」
+そんな舞さんの声に耳は傾けず、美咲さんは容赦なくガムテープを巻いた。
+美咲「これで、もう動けないわね…これくらいしないとね…」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#485">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">485</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-11T16:20:27+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">戦闘員の衣装、手足を縛られ、その上に袋、
+そして、ガムテープでぐるぐる巻きにされたその物体には、
+外からの音は聞こえているようだ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#486">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">486</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-11T16:23:20+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">そして、追い討ちをかけるように、ローターは動く。
+舞「うあぁ…はぁ…うぅ…ぅ…ぁあっ…」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#487">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">487</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-11T16:24:50+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">美咲「あら？欲情しちゃって…声は聞こえるんでしょ…？
+　　　そのまましばらく、そこにいなさい…いいもの聞かせてあげるから…」
+力の抜けた戦闘員、いや…その『物体』は、周囲の言葉と音を聞くしかなかった。
+美咲「さてと…次は私を楽しませてもらうわよ…グリーンの僕ちゃん…」
+大和「…はい…」
+
+そして…袋詰めにされた戦闘員…手足の自由は奪われ、
+袋に入れられることにより視界も奪われ、
+ガムテープで巻かれて完全に物体化したその生き物は、息苦しく暑さに包まれ、
+ただひたすら音だけを聞くことしか出来ない…。
+その横で、グリーンとイエローの絡みが始まり…声と音だけを響かせていった。
+
+…それが僕の『いつも通りでなくなった日』
+『いつも通り』が別の『いつも通り』に変わった、始まりの日の出来事。
+
+----おしまい----</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#488">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">488</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">「楽屋」　ももぴ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">cjl2Ca89sE</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-11T16:27:05+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">何とか、割りながらのアップでＮＧワードの
+あぶり出しに成功しました。
+駄文で失礼しました。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-08-30T07:55:38+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-11T16:27:05+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">7140</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">21</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>

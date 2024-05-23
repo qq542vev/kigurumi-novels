@@ -12,14 +12,140 @@
 	</foaf:Document>
 	<sioc:Container rdf:about="#main">
 		<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#anyUri">urn:uuid:810eb167-f87f-4d97-b39f-e3d09ddec7d9</dcterms:identifier>
-		<dcterms:alternative xml:lang="ja"></dcterms:alternative>
+		<dcterms:alternative xml:lang="ja"/>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#669"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#670"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#671"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#672"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#673"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#669">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">669</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">機ぐるみ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">/8JOTjq.0k</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-12-25T00:53:38+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">とあるおもちゃ会社の専属小売店で新作のアンドロイドロボットが販売される。
+その小売店に勤務するアスカは、販売会でそのロボットの機ぐるみを着ることになっていた。
+
+「じゃあ組み立てるよー」
+
+全身タイツを着こんだアスカにロボのパーツをくっ付けていく。
+
+体を前後から挟み込むように二つのパーツが組み合わさる。
+さながら巨大なプラモデルを組み立てるようだが、中心にはアスカがいる。
+
+腕や足も同じようにパーツを組み合わせていく。
+体がどんどんロボのパーツで覆われていく。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#670">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">670</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">機ぐるみ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">/8JOTjq.0k</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-12-25T01:11:53+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">頭を除く全身がロボのパーツに覆われた。
+パーツ自体は軽いが、体中にくっ付いているとさすがに重さを感じる。
+
+「着心地はどう？動ける？」
+「はい…ちょっと動きづらいですけど」
+
+ロボのパーツは伸縮性は全くないため、動きづらい。
+間接部分でパーツがぶつかりある程度までしか曲げることができない。
+
+また足はヒール状のパーツによってつま先立ち状態で固定されていた。
+
+しかし機ぐるみのパーツはアスカの体に合わせて作られているため、不恰好さは全くない。
+パッと見、流行のロボ娘がそのまま出てきたかのようだ。
+
+そして頭部もロボットになる。
+
+ヘルメット状のパーツを被せ、固定する。
+顔の前面にフェイスマスクを組み込めば機ぐるみの完成だ。
+
+着替え終わったアスカの見た目は完全にアンドロイドロボットだった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#671">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">671</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">機ぐるみ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">/8JOTjq.0k</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-12-25T01:21:31+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">しばらくして販売会が始まった。
+アスカの他にも女性型と男性型の機ぐるみを着たスタッフが１人ずついた。
+
+業務内容は通常スタッフが列を整理し、機ぐるみスタッフが商品を渡すというもの。
+３人が２人ずつのローテーションで１時間ごとに交代する。
+
+業務中の２時間は機ぐるみを脱ぐことはできない。
+機ぐるみを着た状態では喋ることはできないし、構造的に１人で脱ぎ着することも不可能だ。
+
+機ぐるみは体にほぼ密着しているため暑苦しい。
+
+アスカは内心かなりつらかったが、子供たちの「ありがとう！」と笑顔がとてもうれしかった。
+マスク越しの笑顔はレンズで青かったが、彼女には何よりも暖かく感じられた。
+
+
+じろじろと見てくる気持ち悪いオタクたちにはマスク越しに睨みつけてやった。
+
+「やはり女性型のアンドロイドはラインが美しいでござるｗｗｗ」
+「こちらの機ぐるみさんもぐうかわですぞｗｗｗ」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#672">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">672</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">機ぐるみ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">/8JOTjq.0k</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-12-25T01:30:11+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「はあ〜…しんどかった…」
+「お疲れ、アスカちゃん」
+
+販売会が終わりやっと機ぐるみから解放される。
+終わった後も３０分ほど放置プレイされたが、さすがに先輩たちも節度はわかってるようだ。
+
+体、特に固定されていた足は疲れでピクピクしている。
+
+「じゃ、明日もお願いね？」
+「ええっ！？そんなムチャですよ！」
+「だってあの機ぐるみ、アスカの体に合わせて作られてるから他に着れる人が…」
+「いやいやいや、そもそも明日って販売会ありましたっけ？」
+
+実際のところ明日は販売会などない。先輩はそれを知った上で言っているのだ。
+
+「他にやることがあるのよ」
+「はあ……」
+
+
+翌日出勤してきたアスカが機ぐるみに閉じ込められ先輩に遊ばれたのは言うまでもない。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#673">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">673</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">機ぐるみ</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">/8JOTjq.0k</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-12-25T01:31:25+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">なんか最後の方適当になったけど許してくれ
+あと機ぐるみってのもなんか違う感じがするのも許してね
+
+気が向いたらまた駄文書くかも</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-12-25T00:53:38+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-12-25T01:31:25+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">1284</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">5</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>

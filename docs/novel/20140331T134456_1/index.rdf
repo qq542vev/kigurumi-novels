@@ -15,7 +15,28 @@
 		<dcterms:alternative xml:lang="ja">ふとした出会い</dcterms:alternative>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#964"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#964">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">964</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-03-31T13:44:56+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">キャラクターショーを見たあと、少しぶらぶらしたあと、近くのコンビニに立ち寄った。
+そこでレジに並んでいる娘に釘付けになった。
+かわいいのはもちろんなのだが、首から下がベンチコートで隠してはいるが、フロントファスナーをあげることで体の凹凸がはっきりと出ている、そしてベンチコートの下から出ている足は先ほど見ていたキャラクターショーでやられていた怪人に間違いなかった。
+ショーを見ているときも動きや他の演者よりも小さいことから女性と推測はできた。
+
+彼女が僕の横を通り過ぎるとき、いい香りに汗も混じっていた。
+僕はコンビニで買い物もせずにキャラクターショーの午後の部へと戻った。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-03-31T13:44:56+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-03-31T13:44:56+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">281</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">1</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>

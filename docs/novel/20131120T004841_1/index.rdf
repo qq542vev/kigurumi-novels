@@ -15,11 +15,142 @@
 		<dcterms:alternative xml:lang="ja">スレ違いなら…</dcterms:alternative>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#545"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#546"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#547"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#548"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#549"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#545">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">545</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">スレ違いなら…1</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">x3SgZx0G2c</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-11-20T00:48:41+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">私はスポーツショップで働いています。
+秋くらいになると、サーフィン用のウエットスーツのオーダーフェアが始まります。
+毎年のことなんで特に気には留めていなかったんですが。
+
+店長が代わり新しい店長は、実際にウエットスーツを着てビラ配りをすると言い出したのです。
+
+店長の言い分は、お客さんに着用したものを見てもらった方が分かりやすいとのこと。
+
+ウエットスーツは個人を採寸して、オーダーメイドのものを着用してビラを配る。
+ウエットスーツの費用は店負担。
+
+店で負担するので、全員の分は造れないので、くじ引きで2人を決めることに。
+そのくじで私ともう一人の女子社員が当たった。
+渋っている私たちに男子社員からは、タダでウエットスーツ貰えるんだからと乗せられ、その気になってしまった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#546">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">546</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">スレ違いなら…2</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">x3SgZx0G2c</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-11-20T00:50:58+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ウエットスーツが出来上がり、店内の更衣室で着替える。
+さすがにオーダーしただけあって、着るのにも一苦労。
+着てみるとピッタリしているが動き易く、凄く良い。
+
+しかし、鏡に映る自分の姿を見ると胸やお尻が強調され、いやらしく見える。
+よく見ると中に着ている水着の形までしっかりと浮き出ている。
+
+海でもないのにこの格好は恥ずかし過ぎる。
+もう一人の社員も同じ意見で反対していた。
+
+たまに私の親や知り合いが通ることもある。
+絶対に嫌だと店長に詰め寄ると、顔がバレないならいいのかと尋ねてきた。
+
+私たちは顔見合わせ、それならまぁといった感じで曖昧に返事をした。
+
+顔を出さなければやるという誓約書まで持ち出した店長、私たちもそれにサインをした。
+
+すると、店長はビニール袋に入った黒い物体を渡してきた。
+広げてみると、それはゴム製の全身タイツ。
+
+着る時は背中側の肩辺りが大きく開く様になっていて、そこから身体を滑り込ませる。
+その部分は二重になっていて着てしまうと重なり肌の露出が全くなくなってしまう。
+
+足の先は5本に分かれており、身体はもちろん頭、顔までも完全にゴムのタイツに覆われて、目の前の鏡には黒い皮膚の人間が現れた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#547">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">547</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">スレ違いなら…3</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">x3SgZx0G2c</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-11-20T00:53:55+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">なぜその姿が見えるのかというと、目の部分だけが薄く作られていて問題なく見る事ができた。
+
+呼吸は鼻の辺りにある管からできる。
+その管を少し不快だが、自分の鼻へと押し込む。
+
+まるでマネキンのようになった。
+初めは嫌だったが着てみるとピッタリして少し格好良くも見える。
+
+変な気分になり胸やお尻、アソコを触ると凄く気持ちがいい。
+思わず声が出そうになる。
+
+声を殺してイキそうになっていることに気付いたのか、気付いていないのか、
+ウエットスーツを早く着るように急かす店長の声が聞こえる。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#548">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">548</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">スレ違いなら…4</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">x3SgZx0G2c</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-11-20T00:55:20+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ウエットスーツの内側はスキン素材になっており、店長に渡されたローションをゴムと化した足から身体へと
+全身に塗りウエットスーツへと足を通し水着で着るよりも簡単に着ることができた。
+ウエットスーツに腕を通しているとき、私の乳首はゴムの皮膚の上からでも恥ずかしいくらいはっきりと勃起して硬くなっていた。
+
+ウエットスーツを着て、更衣室を出ると店長から早速ビラ、よろしくとおくりだされた。
+
+店内では男子社員に舐めるような視線を感じる。
+向こうからは私がどこを見ているかわからないから遠慮なく見ている。
+
+中には不思議そうに見てくる社員も。
+普段は長い髪を後ろでまとめているが、今は黒いゴムの丸坊主頭である。
+それはスイミングキャップを被ってからゴムの皮膚を纏っているから。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#549">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">549</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">スレ違いなら…5@wet</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-11-20T00:56:58+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">私と背格好の変わらない女子社員はすでに着替えて、レジでビラの準備をしていた。
+
+彼女と向かい合うとマネキンにウエットスーツを着せたようにしか見えない。
+彼女も私を見てそう思っているのだろう。
+
+彼女からゴム越しに声をかけられて店外へ二人で出ていく。
+声は出せないが、動くマネキンに興味を持ったお客さんが集まり、店は賑わった。
+
+忙しくなったので、ビラ配りは切り上げ二人でウエットスーツを着たマネキン姿でレジに入る。
+
+お買上げ頂いたお客さんに店長がありがとうございますと声を出す。
+私たちも籠って聞こえにくいと思うが、ゴム越しに声を出す。
+
+閉店を迎え、全て脱いだときは脱力感と達成感があった。
+手は汗でふやけてシワシワになっていた。
+ウルトラマンに入っている人もこんな感じかなぁと思った。
+
+end</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-11-20T00:48:41+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-11-20T00:56:58+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">1701</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">5</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>

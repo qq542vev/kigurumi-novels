@@ -15,16 +15,365 @@
 		<dcterms:title xml:lang="ja">マネキンな日々</dcterms:title>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#831"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#834"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#836"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#848"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#849"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#857"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#858"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#859"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#861"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#868"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#831">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">831</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">？</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-06T12:09:48+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">マネキンな日々　第一話
+
+私はずっと前から欲しいと思っている黒いエナメルのバッグがある。
+だがそのバッグは今の私では到底買えない金額だった。
+そしてある日決意した
+「万引きをしよう。」
+
+すぐにそのバッグが売っているお店に行った。
+以前来ていたのでレジが奥にあり、店員から死角になる場所があるという
+ことはわかっていたので、挙動不審にはならない。
+防犯カメラがないが特に気にならない。
+
+バッグを手に持ち、死角になる所で背負っているリュックに入れた。
+その時目の前に置いてあるマネキンと目が合った気がした。
+生きてるはずがないのに、そのマネキンが生きてるように見えた。
+だが気になっている暇はないのですぐにここを立ち去ろうと
+出入り口に向かった。
+あと一歩で出れると思った瞬間　後ろから肩を叩かれ
+「リュックの中身をだしてください。」と店員に言われた。
+
+
+これがマネキン生活の始まりである
+
+第2話へつづく</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#834">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">834</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">？</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-06T17:30:22+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">マネキンな日々　人物設定
+
+辺見　奈々（私）　→　万引きをしちゃった人。19歳で小柄。
+　　　　　　　　　　　　　髪はショートヘア。若干自己中心的。
+
+斉藤　翔子　　　　→　万引きをされた洋服店の店長。ドS。
+　　　　　　　　　　　　　いろいろな友達がいるらしい。
+
+田中　　　　　　　　→　女店員その1
+
+神谷　　　　　　　　→　女店員その2
+
+望月　さやか　　　→　実は第1話のある場面で登場しています。
+　　　　　　　　　　　　　内気な性格。メガネ少女。髪は肩にかかる程度の
+　　　　　　　　　　　　　長髪。
+
+斉藤　　　　　　　　→　斉藤のいろいろな友達の1人。斉藤の話の中でしか
+　　　　　　　　　　　　　出てこない謎の人物。
+
+
+あくまで設定なので所々変更があるかもしれません。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#836">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">836</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">？</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-07T11:01:41+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">マネキンな日々　第2話
+
+顔をバッチリ見られていたので、逃げ切れることは出来ないだろうと悟り
+私は店員の言うとおりにリュックの中に隠していた黒いバッグを取り出した。
+
+「事務室に来てくれますか？」と店員に言われたので、私は小さく頷いた。
+
+レジの奥にある事務室に連れてこられた私は椅子に座らされていた。
+「今、店長がきますのでお待ちください。」と言われ30秒もしないで店長が
+来た。しかも脚立とビデオカメラを持って。
+「こんにちわ。店長の斉藤翔子といいます。」私は小さくおじぎした。
+「最近、万引きをしたと強要されて、してもいないのに『やりました』と言わされる
+冤罪事件があるからウチの店では記録用のビデオを撮るきまりなんです。
+大丈夫。こちらの質問に答えていただければいいんです。OK？」
+
+「はい。」
+
+脚立を立てビデオカメラの再生ボタンを押した。
+
+「では質問します。お名前は？」　「辺見奈々です。」
+「歳は？」　　「１９歳。」
+「次の質問です」・・・・・という感じの質問が１０分くらいつづいていった。
+
+「ではこれが最後の質問です。あなたは何をしたんですか？」
+「私はこの黒いバッグを万引きしました。」その瞬間店長が笑みをうかべた。
+
+ビデオカメラの停止ボタン押した時、店長が突然笑い始めた。
+「プッ！・・・ふふふ・・・あははははははは！　いやーごめんごめん。
+実はあなたはね、万引き未遂なの！まだ店から一歩も出てないでしょ？
+出た時が万引き成立なんだけど、出てなければ『代金を払うのを忘れた』
+って言えばそれであなたは無事に家に帰れたのになーって思うと笑わずいられなくて！」
+
+私ははめられたと気ずいた時にはすでに遅かった。
+
+第3話へつづく
+
+
+文章がへたでスミマセン。次回はようやくマネキンスーツがでてきます。お楽しみに</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#848">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">848</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">？</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-10T10:04:18+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">マネキンな日々　第3話
+
+店長が笑みをうかべながら
+「あ、そうそうなんで辺見さんの万引きがわかったと思う？」
+
+私は頭が真っ白になっていて考えることができなかった。
+
+「返事なしか。まあいいわ。田中さん神谷さん今日はもう閉店よ。シャッター閉めといて。
+辺見さん、あなたには見せたいものがあるの。付いてきて。」
+
+私は店長に手をひかれ先程のマネキンの前に連れて来られた。
+
+店長がおもむろに襟に付いている桜のバッジにむかって
+「望月ちゃんご苦労様。解体始めるわよ。」と言った。
+
+「じゃあ田中さんお願いします。」
+田中さんと呼ばれる人物はプラスドライバーを持ってマネキンの頭の横
+にあるネジを取り始めた。
+
+そして全てのネジが取れ、マネキンの頭がお祭のお面みたいに取れた。
+そこから出てきたのはまだ幼さが残る少女の顔だった。
+
+少女はとても疲れているのか息が荒く、汗で髪も張り付いている。
+
+「これを見ればわかると思うけど、この子があなたの犯行を教えてくれたの。」
+信じられなかった。まさか人が入っていたなんて。しかも私より明らかに年下だ。
+
+第4話へつづく</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#849">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">849</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">？</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-10T10:46:49+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">マネキンな日々　第4話
+
+店長が
+「私、変わった趣味を持っててね。女の子をマネキンに閉じ込めたいっていう
+願望があるの。」
+その時私は察した。
+「・・・私にも・・・・・これをやれって・・・言うんですか。」
+「ピンポーン！正解！！」
+私は軽蔑の目で店長を見る。すると店長はすかさず
+「あら、そんなことしていいの？私の友達にネットオタクがいてね個人情報
+をばら撒くことが趣味なのよ。どうしよっかなー？私に従ってくれれば
+今回のことはチャラにしてあげようかなー？」
+
+私は覚悟を決めた。いや無理矢理に決めさせられた。
+「・・・本当にチャラにしてくれるんですか。」　「従ってくれればね。」
+「・・・わかりました。私、やります！」
+
+だがこの時私は気ずいていなかった。ただマネキンになって立っている
+だけじゃ店長の気が済むわけがなかったことを。
+それに気ずいた時の話は別の機会で。
+
+第5話へつづく
+
+
+次回は辺見のボディーラインがくまなく調べられる！！っというのは半分ウソで
+マネキンスーツ作り&amp;辺見　マネキンスーツ装着編へ
+あと望月ちゃんをもっと活躍させなければ（汗）</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#857">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">857</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">？</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-12T10:23:53+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">マネキンな日々　第5話
+
+「・・・わかりました。私、やります！」
+
+「契約成立ね。じゃあまず辺見さんの体に合せた専用のマネキンスーツを作るために
+ボディーラインのサイズを調べます。」
+
+「えっ？！」私は頬を赤らめた。
+
+「大丈夫大丈夫！変なことはしないから！ちょっと裸になってもらって、あのカプセルに
+入ってもらうだけでいいから。」
+
+「カプセル？」それは事務室の奥にある倉庫室にあった。
+見た目は日焼けマシーンに似ている。
+
+「中に入ってじっとしてればあとは勝手にやってくれるわ。まあ巨大なプリンター
+だと思ってくれればいいわ。」
+
+私は言うとおりにカプセルのなかに入った。
+するとカプセルの中で『ピーピー』と鳴り始め、頭の方から光るリングが出てきた。
+そのリングは頭から足へ、足から頭へと何回か往復し、リングが頭の上の方に戻ってきた。
+そしてカプセルのドアが開いた。
+
+「お疲れ様。これで終わりよ。」
+「え・・・これで終わりなんですか？」
+「そうよ。あとは今とったデーターを私の友達の加藤に送ってマネキンスーツを作ってもらって
+ここに送ってもらうだけ。完成までには1週間かかるわ。」
+「その加藤さんって何者ですか？」
+「さあ？詳しくは知らないけど、特撮の怪人のスーツを作って稼いでるとしか。
+あなたは知らなくていいことよ。」</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#858">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">858</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">？</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-12T10:48:44+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">一方望月のマネキンスーツを脱がすのが終わり、望月は私服に着替え
+店長にあいさつをしに倉庫室に行った。
+
+「しっ・・・失礼しまーす。」
+「あ・・・ちょうどよかった。辺見さん紹介するわ。この子は望月さやか。ウチのバイト。」
+「ど・・・どうも望月さやかです。」
+どうやらこの望月さんは言葉の頭文字を2回言う癖があるらしい。私は小さくおじぎをした。
+
+「せっかくだから全員紹介するわ。あそこでマネキンスーツをダンボールにつめているのが神谷さん。
+さっきアナタの肩をつかんでたのが田中さん。わからないことがあったらこの2人に聞いて。
+「わかりました。」
+
+マネキンスーツが送られてくる間私はずっとレジ係をやらされていた。
+そして1週間後マネキンスーツが送られてきた。
+
+第6話へつづく
+
+
+次回はマネキンスーツ装着編。マネキンな日々の設定を見直したら
+『加藤』の部分が『斉藤』になっていた.....</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#859">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">859</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">？</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-14T15:09:29+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">マネキンな日々　第６話
+
+大きなダンボール箱3つに分けて送られてきた。
+
+「それじゃ今日からマネキンになってもらうわよ。辺見さん。」
+「・・・はい。」私はこれに耐えれば無事に帰れると思った。
+
+今日はシフトではないが望月さんも来ている。
+
+田中さん達は次々とダンボール箱に入っているマネキンスーツの部品を取り出していく。
+
+店長が何かを思い出したように
+「あ、そうそうこのマネキンスーツを着たら4時間くらいは脱げないからトイレに行ったほうがいいわよ。」
+「え！４時間もですか！？」
+「そうよ。あれー？私に従ってくれるんじゃないのー？じゃあ例の映像を・・・」
+「わかりました！やります！！」
+
+私はトイレを済ませて裸になった。
+
+「あなたは初めてだから1つ1つ説明するよ。」
+田中さんが部品をもって説明してきた。
+
+第７話はつづく
+
+
+次回からマネキンスーツの各部位を装着していきます。
+腹→尻→胸→脚→腕→頭の順番でいきます。お楽しみに。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#861">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">861</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">？</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-17T11:17:35+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">マネキンな日々　第７話
+
+田中さんが部品をもって説明してきた。
+「マネキンスーツには２種類あるの。１つは望月さんとアナタが着るこのタイプ。
+これは各部分のパーツに分かれれていて関節部分のネジをしめることで
+中からの力では動かなくなり外からの力にだけ反応し動くようになっている。
+もう1つは実物は見たことが無いけれど頭のてっぺんから足の指の先まで一体に
+なっているタイプ。ただ着るのに大変だっていう話よ。
+
+前置きはこのへんにして、まずお腹のパーツからいくわよ。
+前のパーツをお腹にあてて、そのまま後のパーツを前のパーツの位置を合せて
+ネジで固定します。」
+
+私の体に合せて作られているためキツ過ぎずユル過ぎずちょうどいい。
+
+「休まずに次行くよ。次はお尻。これもさっきと同じやり方なんだけど、お腹のパーツと
+連結させながらネジで固定します。」
+
+私はああこれで４時間以上はトイレが出来ないなーと思った。
+
+「次は胸。これも同じやり方だけどこれだけネジのしめ方でキツクなったりするから
+キツかったら遠慮せずに言って。それにしても胸がペッタ・・・」
+「それは言わないで下さい（泣）！！」
+
+それにしても望月さんのをやっているせいか手際もいい。
+「どお？」
+「ちょうどいいです。息が楽です。」
+
+第8話へつづく</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#868">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">868</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">？</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-19T10:45:28+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">マネキンな日々　第8話
+
+「次は脚。稼動部分が多いから太もも、ひざ、スネ、足首に分かれているの。」
+
+そこに手のあいた神谷さんがやってきた。
+「開店時間まであと30分もないから手伝うわ。」
+
+田中さんと神谷さんが私の脚に足の先以外のパーツを次々と装着していく。
+それぞれのパーツがカチッカチッと鳴りながら連結していく。
+
+「足のパーツは上と下のパーツになっていてモナカアイスみたいに挟んで固定します。」
+
+感覚的にサイズが小さい靴を履いているような感じだ。
+
+田中さんが脚をやっている間、神谷さんは腕のパーツをやっていた。
+
+第9話へつづく
+
+支援ありがとうございます。私の中ではマネキンは着ぐるみだーー！！</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-06T12:09:48+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-19T10:45:28+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">4333</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">10</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>

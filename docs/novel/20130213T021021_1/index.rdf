@@ -15,15 +15,314 @@
 		<dcterms:alternative xml:lang="ja">炎天下のタマゴ</dcterms:alternative>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#68"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#69"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#70"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#71"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#72"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#73"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#74"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#75"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#76"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#68">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">68</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HtqU1Tk0..</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-13T02:10:21+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">
+イベント会社のバイト説明会に行ったら、偶然にも同級生の長谷川さんがいた 
+長谷川さんは背が小さくて、すごくおとなしい子だった 
+俺は長谷川さんとは　一度も喋ったことがなかったが 
+周りは他人ばかりだったから、とりあえず2人並んで座ってバイトの説明を受けた 
+バイトの内容は夏休み期間の間、2週間にわたって遊園地の一角で行われる 
+キャラクターショーの会場案内　俺は入口係員で、 
+長谷川さんはベビーカー預かり所に配置された。 
+ところがこのイベント、客があまり来ない、平日はショーの時間になっても 
+客がいないこともよくあり、ショーの中止もあった 
+イベント会社の人はコスト削減を考え、スタッフの削減や配置換えなどで 
+何人かのスタッフが辞めさせられ、会場入口付近は実質 
+俺と長谷川さんと　もぎりのおばさんだけでやっていくことになった 
+それでも客は来ない、遊園地自体にはお客さんは来ているんだが 
+肝心のショーを金払って見てくれる人がいない 
+そこでショーの会場入口付近で、キャラクターの着ぐるみ（人形）を着て 
+客引きをすることになったが、キャラショーに入っているスタッフは別会社の人で 
+「契約の関係でそんなところに人は出せない」との事 
+俺が着ぐるみに入っても良かったんだが、俺は背が高くて入れなかった 
+イベント会社の人が背の小さな長谷川さんに「長谷川さんはどう？」と聞いた 
+長谷川さんは少し考えてから「やります」と答えた</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#69">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">69</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HtqU1Tk0..</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-13T02:12:46+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">長谷川さんはショーのスタッフから着ぐるみについての注意点と 
+動きのレクチャーを受けたあと着ぐるみに入った 
+大きなタマゴみたいなヤツに耳と足の生えたような着ぐるみだった 
+まず、大きなタマゴに長谷川さんが頭からすっぽりと入る 
+同時にタマゴについている左右の耳の部分に中から腕を入れる 
+次に足を靴の着ぐるみに通す、すると丁度タマゴの下から足が出ている様に見える 
+が、この着ぐるみの「足」の部分がとにかくでかい！先に足を付けてしまうと 
+タマゴが付けれなくなるほどだった 
+ショーのスタッフは着付けが終わると「じゃあ、外す時はコレと反対の事を 
+していけばいいから、頑張ってね」と言い残し、ショーの準備に戻っていった 
+
+会場前での着ぐるみはやはり目立って、子供を呼ぶにはいい作戦だった 
+しかしこの着ぐるみは　視界があまりよく無く、足元の方は見えないので 
+俺は長谷川さんのすぐ横について、足元に駆け寄ってくる子供たちの位置を 
+長谷川さんに教えたり、着ぐるみが歩くのに危なく無いようにアテンドをした 
+
+ショーが始まると俺たちの方は休憩となった、休憩所に入ってすぐに俺は長谷川さんの 
+着ぐるみを脱がした 
+まず、タマゴ型の着ぐるみの下の　大きなぬいぐるみの足から 
+長谷川さんの足を抜こうとしたが、この時　片足立ちとなり一苦労 
+何とかバランスを保ちながら片足を抜くと、又もう片方の足を抜くのに一苦労 
+それでも何とか両足を抜く事が出来てはじめてタマゴから出ることができる</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#70">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">70</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HtqU1Tk0..</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-13T02:14:05+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">俺がタマゴに抱きつくようになって、下からガバッとタマゴを上に持ち上げ 
+着ぐるみを外すと、中にいた長谷川さんは汗だくになって、顔も真っ赤になっていた 
+俺が「大丈夫？」って聞くと「すごく暑いし、歩きづらい」と言った 
+とてもきつかったみたいで、お茶をゴクゴク飲んだ後、座り込んで動かなくなった 
+ショーは1日3回で、つまり長谷川さんは1日3回、客引きのために着ぐるみに入る事になる 
+その時は3回目のショーの開始前の客引きだけだったから1回だけで済んだが 
+明日からこれが3回・・・俺は長谷川さんがすごく心配だった 
+
+次の日の朝、集合場所で長谷川さんを待っていると　昨日までとは違って 
+ものすごくラフな格好で長谷川さんが現れた、Ｔシャツに 
+デニムのショートパンツだけで　今風のちょっと大きめのベルトをしていた、 
+着替えも持ってきたのだと言う 
+
+会場に着き、開園30分前になった所で、入口業務はもぎりのおばさんに任せて 
+俺と長谷川さんは着ぐるみの準備に取り掛かった 
+長谷川さんはまず、靴と靴下を脱ぎ　裸足になった 
+そして腰に巻いている大きめのベルトを外すと、俺に「お願いします」と言って 
+両手を挙げた、　俺はタマゴ型の着ぐるみを、長谷川さんの手が 
+うまく耳の部分に入るように注意しながらタマゴを長谷川さんに上から被せた 
+そして大きな靴を履かせる、これがまた一苦労、タマゴが重たいので 
+どうしても片足立ちになるとバランスを崩してこけそうになる 
+俺は長谷川さんの体を支えながら何とか両方の靴を履かせた 
+開園すると会場前にもお客さんが集まり、長谷川さんはすぐに子供たちに囲まれた 
+着ぐるみの長谷川さんは子供たちと握手したり、一緒に写真をとったりした 
+俺も横に着いて子供たちの順番を整理したり、お父さんにショーの開始時間を 
+案内したり、チケットの説明をした</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#71">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">71</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HtqU1Tk0..</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-13T02:15:45+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">1回目のショーが始まり、俺と長谷川さんはやっと1回目の休憩に入った 
+休憩所に入りすぐに俺は長谷川さんの着ぐるみの靴を脱がせた 
+脱がせるのは2回目なのでだんだんと脱がすコツが解ってきた 
+着ぐるみの「耳」の中に入っている長谷川さんの手で俺の肩に捕まらせ 
+俺はしゃがんだまま　子供の靴を脱がすかのように 
+長谷川さんの足首を掴み、持ち上げて靴を脱がせる、もう片方も同じように 
+脱がした、長谷川さんの足には何本もの汗の筋がついていた 
+着ぐるみのタマゴを外すと、また中から真っ赤な顔をした長谷川さんが現れ 
+「暑い・・・」と言った　前髪がぴったりとおでこに張り付いていたが 
+そんなことより休憩したかったようなので、俺はペットボトルの水を渡し、座らせた 
+ものの1時間ほどで長谷川さんは回復した、弁当も普通に食べ、笑顔も見せていた 
+新しいＴシャツに着替えていたが、ブラに残っていた汗がシャツを濡らしていた 
+2回目のショーの前に　再び長谷川さんは着ぐるみに入った 
+俺も長谷川さんもだんだん慣れてきて、5分ほどで着替えが終わって、 
+2人でお客さんの呼び込みに出た</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#72">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">72</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HtqU1Tk0..</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-13T02:17:19+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">外は気温が30度を超えていて　炎天下だった、着ぐるみを着ていない俺ですら 
+かなり暑かったので、着ぐるみの長谷川さんの辛さが容易に想像できた 
+開演10分前になると、着ぐるみの中から長谷川さんの「はあー、はあー、」 
+と言う声が聞こえてきたので、少し早めに休憩所に戻った 
+急いで着ぐるみの足を脱がすと、タマゴの中からモワッとした熱気が出てきた 
+炎天下の中、汗だくになった長谷川さんの汗と熱気が着ぐるみの中を充満していた 
+「外すよ」と声をかけて俺はタマゴを引き抜いた 
+長谷川さんは前髪どころか、Ｔシャツ全体が汗で濡れてぴったりと体に張り付いていた 
+顔を真っ赤にして、久々に吸う新鮮な空気を深呼吸するかのようにして息を吸った 
+座り込んで動けなくなっている長谷川のシャツの裾から汗が滴っていた 
+俺が「少し楽になったら、早めに着替えたほうがいいよ」と言うと 
+「・　・　・　うん、着替える」と言ってゆっくりと立ち上がった 
+
+3回目の客引きの前、俺が長谷川さんにタマゴを被せ、靴を履かせようとしたら 
+タマゴの中から足元に、長谷川さんのショートパンツが脱げて落ちてきた 
+あまりの暑さに、ショートパンツすら履いていたく無くて 
+脱いだのだろうと思い、俺は無言でショートパンツを足から外してやり、靴を履かせた 
+外は　日差しは若干落ちていたが、まだ　けだるい暑さが残っていた 
+長谷川さんの着ぐるみは　疲れなど微塵も感じさせず、子供に愛嬌を振りまいた 
+3回目のショーが始まり、俺と長谷川さんは休憩所に戻った 
+俺がもう慣れた手つきで長谷川さんの足から靴を脱がすと 
+タマゴを取り外す前に、長谷川さんのショートパンツを着ぐるみの中に入れてあげた 
+長谷川さんがショートパンツを履いた後、タマゴを外してあげようと思った 
+そうでないとタマゴを外した瞬間、下着姿の長谷川さんが出てきてしまう 
+俺がタマゴの下から手をいれ「長谷川さんコレ履いて・・・」と俺が言うと 
+長谷川さんは「・　・　・　履けないから履かせて」と言ってきた 
+よく考えると長谷川さんの「手」は着ぐるみの耳の部分に入っていて 
+ズボンを履くなんて事は出来ない・・・・ 
+じゃあ、脱いだときはどうやって脱いだんだろう　と思いながらも 
+ショートパンツの足を通すところを広げてやり、長谷川さんの足元に置き 
+足首を掴んでショートパンツに両足を通してあげた 
+タマゴの中には下着姿の長谷川さんが・・・と思いながらも 
+両手でしっかりとショートパンツの横を掴んで上に引き上げた 
+が、途中までしか上がらない、タマゴの下部分が邪魔をして手がそれ以上入らなかった</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#73">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">73</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HtqU1Tk0..</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-13T02:18:32+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">俺は少し強引にタマゴを腕で押し上げながら、ショートパンツを腰まで履かせた 
+途中、下着に俺の両指が触れた、かなり汗で濡れているようだった 
+手探りでショートパンツのボタンを探し　ボタンを掛けようとした 
+長谷川さんのおへその辺りで　左右の止め具を合わせ、ボタンを穴に通した 
+そして次はファスナーの金具を手探りで探した、なるべく変なところを触らないように 
+気を付けながら金具を探し出し、ゆっくりとファスナーを引き上げてやった 
+長谷川さんは「ありがとう」と言い、俺はタマゴを取り外した 
+着ぐるみから出てきた長谷川さんは、相変わらず真っ赤な顔をしながら、俺に 
+「へんなことさせちゃってゴメン」と謝った、俺はファスナーを上げる時に 
+手に感じた下着と肌の弾力を思い出しながらも 
+「いいよ別に、それよりお疲れさん」と言ってペットボトルの水を渡してあげた 
+それからは、暑い日には　俺が長谷川さんの着替えを手伝った 
+やはりズボンは履いていない方が動きやすかったらしく 
+毎回、タマゴを被ってからズボンを脱がして 
+逆にタマゴを外す前にはズボンを履かせた 
+その度に長谷川さんは「なんか私、赤ちゃんみたい」と言っていた 
+最初にショートパンツが脱げたときは全くの偶然で、1回目のショーの後 
+体を楽にするためにパンツのボタンを外していて、そのまま忘れていて 
+タマゴを被る時に一緒に脱げてしまったらしい 
+長谷川さんが「どうしよう！」と思っているうちに俺がショートパンツを 
+足から外してしまったので、何も言えなかったらしい 
+俺が「そうだったんだゴメン！」と謝ると　長谷川さんは笑っていた</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#74">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">74</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HtqU1Tk0..</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-13T02:19:46+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">その日は朝から　30度を超える真夏日だった 
+炎天下の中での客の呼び込みが終わり、着ぐるみの長谷川さんを休憩所に連れ帰り 
+俺がいつものようにズボンを履かせようとすると「暑いから後でいい！」 
+と長谷川さんが怒ったように言った、声の様子から、相当暑いんだろうと思い 
+タマゴを一気に引き抜いた、汗でずぶ濡れになった下着姿の長谷川さんが現れた 
+長谷川さんは力なくその場に座り込むと下半身下着姿のまま「暑い！」と言った 
+長谷川さんの体から湯気が出ていた、俺がペットボトルの水を渡しても 
+受け取る気力が残っていないらしく、座り込んだままだった 
+
+下半身を隠すようにと思い、俺がタオルを掛けてあげても「要らない！」と言って 
+振りほどいてしまった、長谷川さんが　こんな風に不機嫌になったのは初めてだった 
+俺は何とかしてあげたいと思い、長谷川さんの後頭部から少しずつペットボトルの水を 
+静かに流し、冷やした 
+長谷川さんは小さく「あ　・　・　」と言った後「・・・あー気持ちいい」と言った 
+流れる水が長谷川さんの体を伝わって流れ落ちた 
+長谷川さんはもう1度「気持ちいい！」と言い、顔を上に向け 
+水が直接自分の顔に当たるようにした 
+
+俺は長谷川さんが後ろのめりにならないように背中を支えながら 
+長谷川さんの額や頬に　なるべく少しずつ水を流した、 
+真っ赤になっていた長谷川さんの顔がだんだん元の白さを取り戻していった</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#75">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">75</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HtqU1Tk0..</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-13T02:22:30+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">長谷川さんの唇に水を流すと、ゆっくりと唇を動かし　水を飲んだ 
+俺はなるべくゆっくりと水が流れるように気をつけながら水を飲ませた 
+こぼれた水で長谷川さんの胸元が濡れていた 
+
+ようやくして長谷川さんはいつもの落ち着きを取り戻し笑みを浮かべながら 
+「気持ちいい・・・もっと水かけて」と言った 
+2本分のペットボトルの水を使ったが、長谷川さんは相変わらず上を向いたまま 
+「もっとちょうだい」と言った 
+俺が「もう水無いよ」と言っても　上を向いたまま、すこし笑みを浮かべていた 
+
+　俺はどうしたらいいか解らず、思わず　長谷川さんの唇にキスをした 
+
+長谷川さんの唇は濡れていて、やわらかかった 
+唇を離し、長谷川さんの顔を見ると　キスをする前と同じように目を閉じて 
+笑みを浮かべたまま「もっとちょうだい」と言った 
+俺が「後はお茶かコーラぐらいしかないけど、どっちがいい？」 
+と聞くと「コーラはやめて！」と笑いながら体を起こした 
+そして「さっきはタオルごめん」と言って　俺からタオルを受け取り、顔を拭いた 
+俺はなるべくパンツの方は見ないようにしながら長谷川さんに話しかけた 
+「ラスト1本頑張れる？」と聞くと「頑張る」との事、意外と芯のある子だと思った 
+長谷川さんが「休憩後何分ある？」と聞いてきたので、俺が時計を見ると 
+今からでも着替えて　着ぐるみに入らないといけないような時間だった 
+俺が「どうする？このまま着ぐるみ着ちゃう？」と聞くと 
+長谷川さんは少し考えた後、おもむろにシャツを脱いだ 
+シャツの中に透けて見えていたブラジャー　長谷川さんはそのブラ1枚の姿になった 
+薄い水色のブラジャーで、何の飾り気もなかった、胸は小ぶりだったけど 
+確かに丸みを帯びて盛り上がっていた、長谷川さんは 
+「この格好で着ぐるみ入る！」と言い出した。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#76">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">76</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">HtqU1Tk0..</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-13T02:23:52+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">俺が本当にその姿でよいか長谷川さんに念押しした後　時間を逆算して 
+「じゃあと3分経ったら着ぐるみ着よう！」と言った 
+残りの休憩3分、長谷川さんはお茶を飲んだり、へばりついてくる前髪を気にしながら 
+過ごした、俺の目の前で上下とも下着姿で・　・　・　 
+俺は思わず「・・・長谷川さん今、結構すごい格好で俺の前にいるよ」と言った 
+長谷川さんは改めて自分の下着姿を見直し、少し照れ笑いをしながら 
+「いいんじゃない？私、毎日誰かさんにズボン脱がされてるんだし」と言った 
+そして「キスもしたし、」と付け加えた 
+あの、おとなしい長谷川さんがこんな発言をするとは思ってもいなかった 
+時間が来て　着ぐるみを着ることになった 
+突然、長谷川さんが「ブラも取ろうかな？」と言い出した 
+俺があわてて「なんかそれはヤバイ気がする」と答えると 
+「冗談だよ！」と言って笑っていた 
+なんか完全に長谷川さんのペースに乗せられていたが、楽しかった 
+こんな感じの彼女がほしいな・・・、というか俺は長谷川さんを彼女に欲しくなった 
+俺は下着姿の長谷川さんにタマゴを被せ　靴を履かせた 
+夕方になっても気温は高いままだった 
+3回目の呼び込みが終わり　再び下着姿の長谷川さんがタマゴの中から現れた 
+やはり顔を真っ赤にして汗だくになっていた、俺の想像以上に疲れているらしく 
+下着姿のまま座り込んで小さく呼吸を繰り返しているだけで動かなかった 
+俺は長谷川さんの頭に冷水をかけた後、冷たい水で絞ったタオルで 
+長谷川さんの頭と顔の汗を拭いてあげた、 
+
+だんだんと長谷川さんが元気を取り戻してきて疲れきった表情をしながらも 
+「色々してもらっちゃって　なんか私、赤ちゃんみたい」と言った 
+俺が「今日は暑かったからな、よく頑張ったよ！」と言うと、長谷川さんは 
+「ご褒美になんかちょうだい」と言って　力なく笑った 
+
+幸いな事に炎天下が1日中続くような日はその日以外にはなかった 
+
+
+おわり</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-13T02:10:21+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-13T02:23:52+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">6106</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">9</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>

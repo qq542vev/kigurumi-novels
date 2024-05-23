@@ -15,24 +15,324 @@
 		<dcterms:title xml:lang="ja">熊の縫い包み</dcterms:title>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#239"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#240"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#244"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#246"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#248"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#250"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#251"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#255"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#257"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#259"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#260"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#262"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#263"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#266"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#267"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#269"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#270"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#271"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#239">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">239</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-17T18:29:24+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">現在の気温はちょうど０℃。まぁ、真冬に窓を開けっ放しにしたら、こうもなるか。
+男はベランダでタバコを吹かしながら、室内に目を向ける。
+室内のベットの上、巨大な熊の縫い包みが鎮座していた。
+股間部分には穴が開いており、複数のローターがいれられ、そのうえで電マが当てられている。
+ブーン、ブーン、と音が鳴るのに合わせ前後左右に揺れながら、ヒトのうめき声が聞こえる。
+中身はＭな彼女が閉じ込められていた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#240">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">240</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-17T20:13:52+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「なぁ、こん中入ってみるか？」
+自宅のベットの上、彼女に問いかける。
+男の手には巨大な熊の縫い包みがあった。
+「へっ、入れるの？」
+彼女は目を丸くして聞き返す。
+確かに熊の縫い包みは大きいが成人女性が着ることは無理そうだった。
+「いや、エッチなやつ。」
+ヒトイヌと呼ばれるプレイがある。彼女とはやったこともある。
+ヒトイヌの状態なら着れるんじゃないかと彼女に説明をする男。
+「…着れるなら着てみたい。」
+ちょっと躊躇しながら彼女はそう答えた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#244">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">244</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-17T20:51:35+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">熊の縫い包みの背中にチャックをつけたり、
+弱い関節部等を内側から補強したりしながら数日がたった。
+「で、さっそく着てみるか？」
+「うっ、うん。」
+「まず、これな。」
+男が彼女にラバースーツを渡す。
+彼女はそれを着込む。
+股間の部分は挿入できるように、ゴムの袋がついている。
+全頭マスクの一体型で、目の部分と口の部分は開いており、鼻の穴部分も開いているタイプ。
+背中のチャックを閉める。
+男は彼女のゴムに包まれた手を取り、肘の部分から折り曲げて、手のひらを肩につかせた。
+内側にスポンジが取り付けられており、血が止まらないようになっている。
+その後ゴムのバインドで止める。もう片方の手、両足も同じようにする。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#246">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">246</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-17T22:25:49+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「…ちょっとキツイかな？」
+「でも、それがいいんだろ。」
+「…うん。」
+彼女にマスクを点ける。市販のガーゼマスクだ。
+熊の縫い包みの口、鼻、目の部分に一見判らないように穴が開いており、
+埃や毛を吸い込まないようにするためだ。目には水泳用のゴーグルをつけた。
+袋状になっているあそこの部分に、ローターを数個挿入させる。
+熊の縫い包みの後ろを開いた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#248">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">248</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-17T22:31:29+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">一度、彼女を仰向けに寝かせる。
+開いた熊の縫い包みの後ろ側から、彼女を入れていく。
+折りたたまれた足を入れ、腕を入れ、一度起こした。
+「入ったら喋るなよ。」
+「うん。」
+「動くなよ。」
+「がんばってみる。」
+頭を入れて、鼻や口の部分を合わせて、チャックを閉める。
+巨大な熊の縫い包みが完成した。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#250">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">250</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-17T23:37:46+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">マスクをしているから多少は呼吸制御はされている。でも全然平気だ。
+視界もやや黄色いけど、はっきり見える。
+あそこに、ラバー越しだけど、ローターの感触。
+コードレスだから線の後も心配ないし。
+手足は折りたたまれて動かない。
+前に姿見が置かれている。
+巨大な熊の縫い包みがベットの上に置かれている。
+彼女が右手を動かすと、熊の縫い包みも右手を動かす。
+「くすっ」
+自分はこんな体勢で大変なのに、熊の縫い包みはあんなにかわいい。
+そのシュールさに思わず笑いが漏れた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#251">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">251</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-17T23:43:54+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">「喋んなって。」
+「ごめんね。」
+「ったく。」
+男は熊の縫い包みを抱き上げ、ベットの上に置いた電マに座らせた。
+「んじゃ、俺はタバコを吸ってくるから、気持ちよくなっとけよ。」
+「…うむっ」
+男はローターのスイッチを弱で入れ、電マのスイッチを入れる。
+姿見の角度を調整してベランダに出た。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#255">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">255</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-18T21:58:22+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">(…う、うぐ、結構辛いかも。)
+彼女はローターと電マの振動よりも、折りたたまれた手足のしびれに苦悩する。
+(こうゆうのは好きじゃないんだけどな。)
+男は一つ勘違いしている。
+彼女は痛いのや、苦しいのは好きじゃない。
+全身包まれるのが好きなのだ。抱きしめられているようで安心するのだ。
+(…でもね。)
+前の姿見には、ベランダが映されている。当然、彼の姿もだ。
+不安にさせないためだろう。
+そう思ったら、この格好も包まれているだけと思えてきた。
+(…いや、ただ拘束されているだけだけど。)</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#257">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">257</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-19T22:05:14+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">男はベランダから、室内を見る。
+ベットに鎮座する巨大な熊の縫い包みは、動かないようにしようとして失敗している。
+手足がちょこちょこ動いているのだ。
+(…がんばってんのか？)
+ポケットの中のローターのスイッチを１から３まで上げる。
+巨大な熊の縫い包みの動きが激しくなった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#259">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">259</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-21T01:19:45+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">アソコの部分に入れられたローターの振動が強くなった。
+「う、…うぃく」
+我慢しようとして、思わず声が漏れる。
+前を向けば、巨大な熊の縫い包みがやはり、チョコチョコかわいく動くだけ。
+しかし、自分が右手を動かせば熊も右手を動かす。
+彼女は自分が熊の縫い包みに包まれていることを再認識した。
+(あっ、イク、だめイッチャァァアァ…)
+瞬間、昇天した。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#260">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">260</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-21T01:23:20+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">彼女が次に目を覚ました時、男が目の前にいた。
+彼女が思わず動いたのを確認して、彼女が気が付いたのを確認したのだろう。
+男は彼女に手に持ったリボンを見せながら話しかけてきた。
+「…気ぃ付いたな。これ忘れてたから、もうちょっと頑張れるか。」
+彼女はまだ朦朧としている意識で一つ頷いた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#262">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">262</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-21T23:57:00+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">男は熊の縫い包みの首の後ろ側にあるチャックにリボンを通した。
+前側で蝶々結びにする。
+これで、リボンという名の首輪がついた。
+男は熊の縫い包みをベットに寝かせる。
+彼女にしてみれば、拘束された手足が天井を向く形だ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#263">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">263</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-22T15:07:46+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">男はズボンを脱ぎ捨てる。
+「入れるぞ。」
+それだけ言うと、熊の縫い包みのアソコに挿入した。
+「…ふっ、ううぐ。」
+突然あたえられた快楽に、彼女は声をだしそうになる。
+が、今は熊の縫い包みであることを思い出してこらえた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#266">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">266</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-23T00:34:40+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">男は挿入したまま熊の縫い包みを抱えた。
+そして、熊の縫い包みを四つん這いにさせ、またストロークを開始する。
+熊の縫い包みはそんな中、かすかな声をあげるだけにとどめていた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#267">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">267</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-23T00:40:09+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">彼女は朦朧としている意識の中で、鏡を見ていた。
+男が、熊の縫い包みを後ろから抱きつくように抱えている。
+そして、袋状になっているアソコに出し入れしている。
+「…う、…いっ。」
+鏡の中の熊の縫い包みはそれでもかわいいままだった。
+しかし、熊の縫い包みが動かされる度に、自分には快楽が襲い掛かる。
+「…あっ、イクっ、…あっあっアアアアアアアアアァアアァ」
+鏡の中の熊の縫い包みには、男が抱きつくようにぐったりとしていた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#269">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">269</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-24T01:04:25+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">彼女が目を覚ました時、男はカメラを手に熊の縫い包みになっている彼女を撮っていた。
+彼女が正面の姿見をみると、プレゼント用のセロハンの袋に包まれて、顔だけ出している姿だった。
+それに気づいた彼女はできるだけ動かないようにした。
+しかし、二度の昇天で少しふらついて、仰向けに倒れてしまった。
+慌てた男にすぐ助けられたのだが…。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#270">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">270</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み/</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">yuoxfIfvvk</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-24T01:08:41+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">彼女は、熊の縫い包みを脱がしてもらい、シャワーを浴びて出てきたところだ。
+「どうだった？」
+男がベットに寝転びながら聞いてきた。
+「…時々ならいいかな？」
+彼女はそう答えた。
+(熊の縫い包みもかわいかったしね。)
+心の中でそう付け加えながら。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#271">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">271</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">熊の縫い包み</foaf:nick>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-24T01:14:27+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">駄文失礼しました。
+ココアソフトのrubber dogという作品を見て思い浮かんだものなんですが。
+この二人はどちらも拘束関係はそこそこ素人という設定で書いてました。
+結構失敗してますね。
+それでは、また。ここまで読んでいただきありがとうございました。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-17T18:29:24+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-05-24T01:14:27+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">2904</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">18</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>

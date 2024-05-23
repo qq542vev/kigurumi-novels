@@ -15,34 +15,950 @@
 		<dcterms:title xml:lang="ja">宅配便裏</dcterms:title>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#792"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#796"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#799"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#801"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#802"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#804"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#805"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#806"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#809"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#810"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#816"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#817"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#822"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#824"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#827"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#828"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#829"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#833"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#835"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#838"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#839"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#841"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#845"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#846"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#847"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#850"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#851"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#852"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#792">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">792</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-01-28T23:28:22+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">1.（21）
+
+OLをしている歩美は彼氏には秘密があった。
+それは金曜の晩から土曜の朝までのバイト。
+
+仕事が終わると、会社から2駅向こうの駅前にある雑居ビルの3階へと向かう。
+
+部屋の中へ入ると、ゴムや接着剤の臭いと女性の香水と化粧の香りが入り混じって漂っている。
+
+従業員の男が歩美に声をかけてくる。
+「朱美ちゃん、今日は早いわね。あ、そうそうまた指名が入ってるわよ。」
+
+「え、本当ですか？」
+オネエっぽい男に聞き返す。
+
+「9時くらいから準備始めるから、ゆっくりしてて。」と言い残して男は忙しいそうに個室に消えていった。
+
+時間もあるので、コンビニで買ってきたオニギリを食べながら、ボーっとテレビを見る。
+
+
+このバイトはドール宅配便といって女の子に人形の着ぐるみを着せて、お客様である男性を満足させるというもの。
+その名の通りドールなので、動くのも話すことも禁止されている。
+なにをされてもお客様に従うだけ、決して逆らってはいけない。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#796">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">796</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-01-29T12:16:12+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">2.（22）
+
+歩美はこのバイトを始めて3ヶ月、ようやく馴れてきたが、まだ人形にはなりきれていなかった。
+
+歩美にこのバイトを紹介してくれた短大の先輩久美子は2年近くやっていたので、初めてドールになった姿を見せてもらったときは衝撃的だった。
+
+久美子はテレビ関係の仕事をしていて忙しくなったので、もう辞めてしまった。
+
+久美子の代わりとして歩美が誘われた。
+短大時代にひょんなことから歩美にMの気があることを久美子に知られてしまった。
+それでこのバイトにピッタリだと思い、誘われてしまったのだった。
+
+バイト代も1回25000円、指名が入ればプラス5000円。
+一晩で30000円は大きい。
+
+拘束や窒息系のプレイを歩美は好んでいたが、彼氏には恥ずかしくて、そんなことは言えなかった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#799">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">799</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-01-29T23:18:04+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">
+3.（23）
+
+午後9時も近づき、歩美はトイレを済ませ準備を始める。
+
+更衣室のようなにカーテンで仕切られた所へ入ると、シングルハンガーに黒いラバースーツが吊り下がっている。
+
+口とアソコの部分は赤色で、コンドームのようになっている。
+
+その横にはシリコン製のラブドールが吊り下がっている。
+
+ラブドールの顔は幼く、そしてかわいい。
+こんなかわいいラブドールに変身できると思うと心が弾む。
+
+歩美は服をすべて脱いで裸になり、ラバースーツに足を通す、少し冷たいがそれが気持ちよくもある。
+
+オネエ従業員がいつも手入れしてくれているので、ラバースーツもラブドールもいつもきれいになっている。
+
+ラバースーツに足を通していくと、歩美の足は光沢のある黒い第2の皮膚に覆われていく。
+
+お尻をラバースーツに押し込むと、形の良い歩美のお尻が黒光りして妖艶さを醸しだす。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#801">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">801</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-01-30T12:12:59+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">4.（24）
+
+腰まで引き上げ、股の所に垂れている赤色のコンドーム状の袋を歩美はアソコへと丁寧に押し込んでいく。
+始め、滑りが悪いがアソコを弄っているうちに次第に体から潤滑剤が出てきてうまくおさまる。
+これをやり終えると歩美の顔はいつも真っ赤になっていた。
+
+ラバースーツに腕を通すと顔以外、体すべてが黒い第2の皮膚に覆われる。
+
+ラバースーツもラブドールもオーダーメイドで、歩美の身体を細部まで採寸して作られている。
+
+ただ、これらはすぐに辞めてしまった場合は買取りとなる。
+
+ラバースーツを着用して、程よい拘束感と第2の皮膚の上から触れる感触にしばし酔い痴れていた歩美だったが、カーテン越しのオネエ従業員の問いかけに我に返る。
+
+ラバースーツを着用したことを伝えるとオネエ従業員が空気の抜けたダッチワイフを持って更衣室に入ってきた。
+広めの更衣室なので、2人で入ってもまだ余裕がある。
+
+オネエ従業員はラブドールを持ってくると、歩美に着せるのを手伝う。
+
+足元に転がっているダッチワイフは歩美の方を見ている。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#802">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">802</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-01-31T01:19:01+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">5.（25）
+
+歩美はダッチワイフのなんともいえない感じに描かれている顔を見ながらあの中に入るのかと思うとテンションが下がる。
+
+中に入って膨らますと気持ちよい拘束感を得られるのだが。
+
+そんなことを考えていた歩美だったが、気づいたとき身体はラブドールになって、額にも薄っすら汗が。
+
+オネエ従業員は「頑張ってきてね。」と声をかけると、歩美の耳に耳栓をする。
+これで外部の音はほとんど聞こえなくなる。
+
+ラバースーツのマスクを被せられると、視界がなくなる。
+音もさらに聞こえなくなる。
+鼻からの呼吸は問題ない。
+肩を1度軽く叩かれると、口の中にラバーの袋が入ってくる。
+ゴムの味も始めは好きになれなかったが、今はだいぶ馴れた。
+
+それから間も無くして、肩が2回叩かれる。
+呼吸が大丈夫なので、手でOKのサインを出すと、ラバースーツの背中のファスナーがゆっくりと閉められる。
+これで鼻以外は外界とは遮断された。
+Mの性なのか、歩美の気分は高揚してくる。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#804">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">804</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-01-31T12:16:59+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">6.（26）
+
+さらなる密閉拘束。
+ラブドールの顔を被せられると、呼吸が若干苦しくなる。
+また、肩が2回叩かれる。
+呼吸は苦しくなったが大丈夫なので、OKサインを出す。
+
+ラブドールの皮膚はラバースーツに比べ少し分厚い。
+その内側にはコンシールファスナーが付いていてまずはそれを閉める。
+閉められた時の拘束感といったら、たまらない。
+歩美のアソコはすでに湿り出している。
+
+ファスナーを閉めたあと、オネエ従業員は仕事にかかる。
+背中を縦に走るファスナーを見えないように表明を接着していく。
+接着した跡もシリコンと同じ色で着色して痕跡を完全に消した。
+
+そしてラブドールに髪を取り付け、邪魔にならないようにまとめて完成。
+
+生きている人間のように見えるラブドール。
+オネエ従業員はラブドールの周りを一周して不備がないことを確認する。
+歩美に合わせて作られたラブドールの胸はきれいなお椀型をおり、ピンクの乳首がピンと勃っていた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#805">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">805</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-01-31T23:32:48+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">7.（27）
+
+最後は緩衝材として歩美を配送中守ってくれるダッチワイフ。
+
+片足ずつ軽く叩かれて合図に合わせて片足ずつダッチワイフへ入っていく。
+
+両足が入ると膝をついて、腕を
+入れ、そのまま四つん這いになる。
+頭もダッチワイフの中へと入りながらゆっくりとうつ伏せになると、背中のファスナーが閉められる。
+
+空気の抜けたダッチワイフはゴワゴワして動きにくい。
+オネエ従業員はダッチワイフの横に周り、仰向けにひっくり返すと股の所にある口から、空気を注入していく。
+
+歩美はこの徐々に空気が入ってくる感じも好きだった。
+始めは身体の前面から締め付けられ、それから身体が浮くような感覚とともに締め付けがさら強くなる。
+この時点でラバースーツとラブドールの二重の密閉拘束、さらにダッチワイフに入れられての空気による圧縮。
+もう、歩美のアソコはいやらしい汁で大変なことになっていた。
+
+自分の身体を触って刺激を与えて、もっと気持ちよくなりたい歩美は必死に手を動かそうとするが、パンパンに入れられた空気が邪魔をして腕を曲げることもできなかった。
+
+仮に触れたとしても指もない丸まった手では何もできないだろう。
+
+そんな歩美の身体が浮き上がる。
+オネエとはいえ男、おまけに150cmそこそこの小さな歩美は簡単に抱きかかえられてダンボールへ。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#806">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">806</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-01T12:23:48+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">8.（28）
+
+ダンボールへ入れられ、ガムテープで封をされる。
+ガムテープのビビッという音は歩美の耳には届いていない。
+ただ、息苦しくなったことで梱包されて、物扱いされていることを歩美はわかっていた。
+
+物として扱われていると思うとまた興奮してくる歩美であった。
+
+
+
+しばらくすると、持ち上げられる感覚、そして下ろされ揺れを感じる。
+宅配業者に荷物として扱われる歩美。
+ダンボールの中でバレないようにジッとする。
+
+やがて、彼氏の家に荷物として届けられる。
+男は荷物の中身は当然知っている。
+ダッチワイフで保護された中に本物の女性が入ったラブドール。
+しかし、その女性が自分の彼女ということは想像もしていないだろう。
+
+歩美もまたラブドール朱美を指名してくれているのが、自分の彼氏だとは知らない。
+
+荷物が届くと直ぐにダンボールから出すことはこのサービスの遵守事項になっている。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#809">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">809</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-02T01:45:45+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">9.（29）
+
+男はいつもベッドの上に出してくれていた。
+そして男の気配がなくなると歩美は起き上がろうとする。
+宅配中にいつも鼻の位置がズレてダッチワイフのままでは息がしづらくなってしまう。それを直そうといろいろと動かしてみるのだが何もできない、ベッドで横たわったまま男を待つことになる。
+
+男は程なくして戻ってくると、最近ではラブドールに会いたいのか、直ぐにダッチワイフを脱がせてくれるようになった。
+
+初めてのときは焦らせて、ダッチワイフの空気を抜かずに、アソコを攻められた。
+
+ダッチワイフの中で空気圧縮され、呼吸も満足にできないそんな状況で歩美は快楽の絶頂を迎えることも少なくなかった。
+
+指の時もあれば、いきなりイチモツが突っ込まれることも。
+男の癒やしの道具として使われる。
+
+その後、ダッチワイフを脱いでラブドールとなっても再び道具にされてしまう。
+どう扱われてもいいことになっているので仕方がない。
+歩美もそれは了承していたことだった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#810">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">810</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-02T13:57:01+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">
+10.（30）
+
+歩美は自分ではわかっていなかったが、ラブドールなのに絶頂を迎えるときは身体を反らせ、少し声が洩れていた。
+そこが男に気に入れて指名が入るのだが。
+
+もちろん今も男の癒やしの道具として使われてるのは変わらない。
+それ以外に何かを着せられているのだろう、コスプレ？そんな感じのことが多くなった。
+見えてないので、断定はできないが。
+
+かなり窮屈なことが先日あった。
+いつものようにベッドに寝かされて道具として扱われた後、疲れて眠ってしまった。
+
+気づいたとき足元でなにかをされていることに気がついたが、睡魔に襲われ再び夢の中へ。
+
+しばらくすると、手を引っ張られて座らされた。
+
+なにかを履かされていることはわかるが、なにかまではわからない。
+今度は手を引かれ立たされる。
+腰の辺りが持ち上がりびっくりしたが、またすぐに座らされ、おそらくブーツであろう物を履かせられた。
+
+その後もその作業はどんどん顔の方へ迫ってくる。
+身体への締め付けもきつくなってくる。
+歩美はきつくなる締め付けにワクワクし始めていた。
+
+来るとは思っていたが、締め付けが顔にも来た、息苦しさも合わせて。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#816">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">816</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-03T02:01:44+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">11.（31）
+
+ウルトラの母の着ぐるみを着せられていることを知らない歩美をさらにファスナーを閉めることで、更に強い締め付けが襲う。
+
+このとき、歩美は自分がどうなっているのかわからないが、そんなことはどうでもよかった。
+
+もう、歩美のアソコは締め付けられる拘束感で気持ちよくなりびちょびちょになっていた。
+
+歩美が快楽に浸っているなか、胸を揉まれる。
+ラバースーツ、ラブドール、そしてウルトラの母の着ぐるみと重ね着した上からでも感じてしまうほど、激しく揉まれた。
+
+そのまま、押し倒された歩美はアソコを触れて気持ちよくなり始めたがすぐに終わってしまった。
+
+残念に思いながらも、このなんともいえない拘束に酔いしれる。
+
+そんなに時間を置かず、今度は手を引かれて別の部屋へ。
+
+ソファに座らされると、膝の上に重みを感じ始めた。
+次第に温もりが伝わってくる。
+
+微かにだが音も聞こえてくる、テレビでも見ているのだろう。
+おそらく今、膝の上にあるものはお客様の頭。
+
+膝の上にあるものは全く動かなくなった。
+歩美はウルトラの母の着ぐるみによる締め付け感も程よく感じ始めていた。
+微かに聞こえてくる音がなにか耳を傾けていたが、昼間の仕事の疲れもあり眠くなってくる。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#817">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">817</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-03T12:08:42+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">12.（32）
+
+いつの間にか眠ってしまっていた歩美だったが、暑さと息苦しさから目を覚ました。
+
+どれほど眠ってしまったかは分からない。
+目を開けているのに真っ暗、ゴムの臭いに包まれていることで今の状況を把握した。
+
+しかし、目覚めたときかなり動いてしまったような気がした。
+膝からゆっくりと重みが消えていく。
+しまったと思う歩美。
+
+不意に手を引かれソファから立たされる。
+なにをされるのかとドキドキしながらもジッと立っていると、足首辺りに感触が両足を揃えさせられると、なにかを巻きつけられている。
+
+足は開くことができず、巻きつけられる度にバランスを崩してフラフラする。
+歩美は倒れないように必死にバランスをとる。
+そうこうしながらも、どんどん拘束されるような締め付けが上がってくる。
+
+腰辺りまでくると巻かれる作業は止まった。
+少しホッとしていた歩美だったが、今度は腕を後ろ手に組まされる。
+ドールとしては抵抗はできず、されるがまま従う。
+
+後ろ手に組まされた腕にもなにかを巻かれて動かすことができないように拘束されてしまった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#822">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">822</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-04T00:31:53+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">13.（33）
+
+身動きを取れなくどうなってしまうのかと不安に思う歩美に、先ほど腰まできていた拘束の続きが始まる。
+
+その拘束はついには頭まで巻かれた。
+呼吸穴は確保しているらしく呼吸はできる。
+
+男は拘束によりウルトラの母が全く動けなくなり転倒の危険があると判断したようで、ソファに横にされる。
+
+それまで倒れないように足に力を入っていた歩美はホッとすると、この全身を包まれるような拘束感をゆっくりと味わう。
+
+こんな何重にもラバーやシリコンのスーツを重ね着した上、全く動けないように拘束され、許されているのは呼吸だけ。
+
+こんな状況でも快感を感じてしまう自分はつくづく変態だと実感していた。
+
+その時、脇腹を突かれる。
+びっくりして動いてしまったが、余程キッチリと拘束されているようで身体を動かすことはできない。
+
+再度、脇腹に突きが入るが動くことはできなかった。
+その後、しばらくなにも起こらない。
+
+もともと、なにかする訳でもない。
+私は人形と思い、動けないほどの拘束を楽しむ。
+いつしかまた眠くなってくる。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#824">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">824</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-04T12:43:05+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">14.（34）
+
+少しうたた寝したようで拘束と重ね着で暑さを感じて目が覚めると、下半身の拘束感が増している。
+
+なにが起こったか分からない歩美の上半身が持ち上がり、腕や胸の締め付けも増してくる。
+
+もう全く動けなくなってしまった。
+先ほどよりも息苦しさも増し暑い。
+気持ちよさもなくなり、歩美自身もうどうでもよくなりされるがまま受け入れることにした。
+
+ビニールテープで完全拘束された歩美の身体は抱き上げられて床へ下ろされる。
+ソファの上とは違い、床は堅く後ろ手に拘束されている歩美の腕はじわじわと痛みが増してくる。
+
+痛みに耐えている歩美に追い打ちをかけるように、歩美の腹部に男の足が乗せられる。
+
+痛くて歩美は悲鳴に近い声を上げたが、何重にも着せられているスーツ、着ぐるみ、そして拘束しているラップなどによりその声は消されてしまった。
+
+この腕の痛みをどれくらい耐えなければならないかと考えると歩美は気が遠くなった。
+
+しかし、そんな歩美の考えをいい意味で裏切ることになる。
+ものの10分ほどでソファの上に戻されると徐々に拘束が解かれていく。
+
+腕の拘束を解かれたときは、あまりの痛さに反射的に腕をさすってしまった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#827">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">827</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-05T00:06:24+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">15.（35）
+
+それでもすぐに自分がドールであることを思い出し、まだ痛む腕を脱力してドールを演じる。
+
+しかし、ダッチワイフを着せられる感覚に終わりの時間が近づいていることを知る。
+
+ダッチワイフの中におさめられ、空気が歩美を圧縮する。
+続いてダンボールによる呼吸の制限。
+
+その後、男から荷物として宅配業者に引き渡される。
+歩美は宅配業者に気づかれないように息を潜めていたが、疲れからかいつしか眠ってしまっていた。
+
+気づいた時には雑居ビルの3階の部屋へ戻ってきていた。
+すでにダンボールから出され、身体はダッチワイフのまま、顔だけが出されていた。
+
+オネエの従業員にお疲れ様と声かけられる。
+
+歩美はダッチワイフを脱ごうとするが、ダッチワイフの空気は抜かれおらず丸い手足では立つことも脱ぐこともままならない。
+
+その姿は身体だけがダッチワイフになってしまった女性、合成写真のようでもある。
+
+それでもなんとかダッチワイフを脱ぐことができた。
+それでもその下にはラブドールを着ている。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#828">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">828</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-05T12:12:41+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">16.（36）
+
+歩美はラブドールの身体がリアルに造られているので、なんだかいやらしいと思いながら脱ぐ。
+
+脱いだラブドールはシングルハンガーにかけてラバースーツのまま、シャワー室へと向かう。
+
+シャワーを浴び、黒い第2の皮膚の上から自分の身体に触れることに快感を覚えている歩美は、いつもオナニーをしてしまう。
+
+声を出すのをグッとこらえて、オナニーをするが洩れた声はシャワーに消してもらう。
+
+シャワーの水をラバースーツの間に入れてやることでラバースーツは簡単に脱ぐことができる。
+
+シャワー室で脱がれたラバースーツはオネエ従業員がきちんと手入れをしてくれる。
+
+シャワーを終えた歩美は私服に着替え、今日の報酬をもらい駅へ。
+
+今から大好きな彼氏の元へと足取り軽く向かう、楽しみの方が勝り眠気はどこかへいってしまった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#829">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">829</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-06T00:44:19+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">
+17.（37）
+
+彼氏の家に着き、インターホンを押し、しばらく待ってみるが反応がない。
+
+仕方なく合鍵で部屋へ入る。
+寝室を覗くと彼が死んだようによく眠っていた。
+
+相手をしてもらえないことに、ガッカリしてリビングへ行くと見慣れぬ物を発見。
+
+それはテレビで見たことのあるウルトラマンの着ぐるみ。
+手にとって見てみる。
+歩美は自分の体に合わせてみる。
+まるで自分の身長に合わせたように造られている。
+
+歩美は彼が自分に着て欲しくて用意したと思った。
+彼は以前から1日部屋で過ごすときはコスプレをして欲しいと歩美にお願いすることが多かった。
+
+コスプレ衣装もいくつかあるが、歩美は気に入ったものしか着なかった。
+
+今日は気分がいいから自分から着て驚かせてやろうと歩美は思った。
+また、彼の喜ぶ顔も見たかった。
+
+さて、いざ着ぐるみを着る上で歩美の長い髪を束ねる必要があるのだが、彼はコスプレするときはとことんこだわりがあったので、ウルトラマンの着ぐるみの近くの箱を探してみるとあった。
+
+ラブドールの中に着ているような黒いラバースーツが出てきた。
+それは全身を覆い肌の露出が一切なくなる。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#833">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">833</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-06T14:21:37+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">18.（38）
+
+普通の人なら驚くのだが、歩美には見慣れた代物。
+ついさっきまで着ていた。
+
+ただ、気になったのは呼吸ができるかということ。
+ラバースーツの顔を光にかざすと目、鼻、口のところに細かい穴が空いていた。
+
+顔を押し当てて確認すると、呼吸もできるし、よく見える。
+鏡を見るとそこにはのっぺらぼうの黒い顔、近づいて見てみるが穴は分からない。
+
+凄い、歩美は興奮している。
+それにこのラバースーツを着て、ウルトラマンの着ぐるみを着るとかなりの拘束感が得られると考えるだけで、歩美のアソコは湿り始めていた。
+
+歩美は自分が変態であるということを実感し、バイト以外で全身の拘束感を得られることにワクワクしていた。
+
+早速、裸になりラバースーツに足を通す。
+冬の朝に暖房の入っていない部屋に置かれいたのでよく冷えている。
+
+ラバースーツは滑りが悪く、悪戦苦闘していると額に汗がにじんできた。
+
+このラバースーツも歩美にピッタリであった。
+いつの間に私を採寸したのだろうという歩美の疑問もラバースーツの締め付けでどうでもいいことにかわっていく。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#835">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">835</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-07T00:13:23+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">19.（39）
+
+髪を軽くまとめると体の部分と一体となったラバーマスクを被る。
+目、鼻、口の位置を調整し、背中のファスナーを閉める。
+
+歩美は姿見鏡に映る自分の姿をポーズをとったり、振り返ったりして見てみる。
+
+そこに映るのは鈍い光沢を放つ黒いゴム人間。
+このゴム人間が女性であることを大きな胸が主張している。
+
+ゴム人間となった歩美は自分の身体を触り気持ちよくなり始めたが、ウルトラマンの着ぐるみのことを思い出す。
+
+この格好のときに彼が起きてきたら、言い訳のしようがない。
+もっともラバースーツを着て、その上からウルトラマンの着ぐるみを着ていても同じなのだが。
+
+
+
+家具にかけられているウルトラマンの着ぐるみの足元には銀色のグローブとブーツが置かれている。
+
+ウルトラマンの着ぐるみを着たあとで、これらを付けたらいいのかと一人納得してウルトラマンの着ぐるみに着替える歩美。
+
+ちなみに歩美にとってはウルトラマンもウルトラの母も同じように見えている。
+
+ウルトラの母の着ぐるみは中もゴムになっており、滑りが非常に悪い。ラバースーツの足を入れていくと、ギュギュッという音ともにそれ以上は入っていかない。
+
+どうしたものかと考えていたが、このラバースーツの入っていた箱の中を探すと、箱の隅に棒状のケースのものが転がっている。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#838">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">838</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-07T11:58:12+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">
+20.（40）
+
+そのケースにはローションが入っていた。
+これも彼が用意したもの。
+いざ、ウルトラの母の着ぐるみを着ようとして着にくいと着てもらえない可能性が出てくる。
+それを察して用意したのだろう。
+
+ローションを手にとり、黒い皮膚に覆われた足に塗る。
+そしてウルトラの母の着ぐるみに足を通すと、先ほどまで入らなかったのが嘘のようにスルリと入った。
+両足とも着ぐるみにおさまり、お尻までしっかりと着ぐるみにおさめる。
+
+股下辺りのシワを伸ばそうとして、自分の手がすでに着ぐるみの中におさまっている、自分のアソコに勢いよく触れる。
+
+すごく感じる、いい気持ち。
+ローションの滑りもあと押しして、クチュクチュと音を立てて自分のアソコをいじりだす歩美。
+
+なんともいえない光景。
+下半身がウルトラの母、上半身は黒いゴム人間。
+立ったまま、前傾姿勢で右手は自分の股へ、左手は自分の乳首をいじりながら乳房を揉んでいる。
+
+程なくして、歩美は必死に声を押し殺してイッてしまう。
+そしてソファに腰かけ、息を整える。
+
+
+☆☆☆あと、8話で終わりますのでもう少しお付き合い下さい☆☆☆</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#839">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">839</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-08T01:32:15+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">21.（41）
+
+しばらくしてようやく落ち着いてきた歩美はブーツを履き、着ぐるみの着替えを再開する。
+
+腕にもしっかりとローションを塗ってからウルトラの母の着ぐるみに腕を通す。
+スルスルと腕は通り、黒い皮膚のゴム人間の体はウルトラの母に変わっていく。
+
+頭にもローションを塗るが、顔にはつかないように注意しながら塗る。
+
+ウルトラの母の面の内側はスポンジが貼ってあるが、目、鼻、口の部分だけはスポンジに穴があいており、視界と呼吸を確保している。
+
+その穴に合うように頭を滑らせながら着ぐるみの中へ。
+
+この時点ではそれほど苦しくないが、背中のファスナーを閉めていくと面に顔が押し付けられて苦しくなってくる。
+
+一回開けてみようかと思ったが時すでに遅く、いくら探してもファスナーのツマミが見つからなくなってしまった。
+
+少し焦る中で、どこかでこのような感覚を味わったような気がする歩美であった。
+
+
+
+自分で開けられないなら、彼に開けてもらうしかない。
+グローブを装着してウルトラの母となった歩美は彼の寝室へと向かう。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#841">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">841</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-08T12:55:38+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">22.（42）
+
+視界の狭いウルトラの母は寝室に入ると彼にものすごく接近してまだ寝ていることを確かめる。
+
+そして彼の布団へと潜り込む。
+ある程度見当をつけて彼のイチモツを掴む。
+
+さすがにそれにはビックリしたのか彼は飛び起きる。
+部屋を見回すとリビングへ走っていく。
+
+歩美からすれば、彼の行動がさっぱりわからない。
+
+苦労して着ぐるみを着たのにぜんぜん喜んでくれない彼に対して怒りが込み上げてくる。
+
+歩美は歩美で一人拘束プレイを楽しんでいたのだが、それは関係がないようだ。
+
+腹が立つので脱ごうとファスナーを探す振りをする。
+先ほど探したが見つからなくなってしまっただが。
+そのときよりは幾分かは呼吸するのにも慣れていたので、着ぐるみを脱ぐのは少し残念だった。
+
+それを見て彼はもう少しその格好でいて欲しいとお願いしてきた。
+
+歩美ももう少しウルトラの母でいたかったので、変態と彼に悟られないように理由をつけて着ぐるみのままいることにした。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#845">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">845</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-09T01:11:41+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">23.（43）
+
+内心喜んでいた歩美は、ウルトラの母の姿で彼の朝食を準備する。
+
+彼が喜ぶかと思い甘えみたりもした。
+あまりにニヤニヤとしている彼に、今ならウルトラの母で何かすることで、高くて買えなかったブーツをおねだりしてみようと条件を出してみた。
+
+このなんともいえない拘束感を続けたいと思う変態的な自分を隠し、欲しかったブーツの為に仕方なく着ぐるみを着ていることを演じる歩美。
+
+歩美にとっては願ったり叶ったりであった。
+
+彼がウルトラの母でして欲しいことは膝枕みたいな奉仕的なことと歩美は思っていたのだが、目の前に置かれたのはエナメルのセーラー服。
+
+着ぐるみの上からコスプレをしろということ？
+歩美は戸惑った。
+
+以前、彼に着て欲しいとエナメルのセーラー服を出されたときは断ったのだが、実は彼に隠れて一度着たことがあった。
+
+スカートで隠れるとはいえ、きわどいハイレグにとても着ることはできないと思った。
+
+しかし、今は着ぐるみを着ている。
+恥ずかしくないと思って引き受けた。
+
+ところがウルトラの母の着ぐるみを着たまま、このエナメルのセーラー服を着るのはキツかった、サイズが小さい。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#846">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">846</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-09T22:09:45+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">24.（44）
+
+ハイレグ部分は歩美の股を突き上げ、割れ目をクッキリと浮き上がらせる。
+この食い込みは歩美が少し動いただけでも、アソコを刺激し歩美を脱力させた。
+
+豊満な胸もフロントファスナーを上げるのに苦労した。
+もうこれだけで身体を縛られているような拘束感を得られた。
+
+スカーフを結ぼうとウルトラの母の面に小さくあいた穴から覗き見るが、胸元がよく見えない。
+
+おまけに慣れないグローブでうまくリボンが結べない。
+少しイライラしていたとき、彼にお尻を鷲づかみにされた。
+
+イライラが頂点に達した歩美は振り返り、じっと待つように注意しようとしたとき、ハイレグが食い込んだ歩美の股に彼の顔が急接近。
+
+恥ずかしさとイライラで、彼にビンタと変態の一言を浴びせてしまった。
+
+イライラしていたとはいえ、手を出すことはなかったかと少し反省した歩美。
+
+大人しくなった彼にやり過ぎたかと反省する歩美。
+そんな歩美の脳裏に以前テレビで聞いたことが甦る。
+男性はチラッと見えるものに興奮すると聞いたのだった。
+
+本当かどうかはわからないが、ミニスカートを好む男性が多いのもそれでなのかと思いながら、歩美はスカートの丈をわざと短くして履いた。
+
+彼は先ほどよりも興奮しているように見えた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#847">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">847</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-09T22:14:51+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">25.（45）
+
+歩美がこれでいいの？と確認する間もなく彼が飛びかかってきた。
+もう着替えも終わっていたので、歩美は彼を受け入れた。
+
+彼がエナメルのセーラー服の上から激しく胸を揉む、その度にハイレグの食い込みがさらに食い込み、歩美のアソコを襲う。
+
+あまりに激しく胸を揉まれるので、ウルトラの母の着ぐるみを着ていても感じてしまい、吐息が洩れる。
+
+彼のイチモツがハイレグの食い込みで浮き出た歩美のアソコをさらに攻める。
+
+彼の荒い息づかい、ラバースーツ、着ぐるみの奥から聞こえる歩美の篭った喘ぎ声、そして彼のピストン運動で擦れるエナメルの音が部屋を占めていた。 
+
+歩美も気持ちよくなり声が大きくなり始めたとき、彼はイッてしまった。
+
+まだ、呼吸の荒い彼がセーラー服を着たウルトラの母に覆い被さる。
+
+歩美のアソコはもうぐちゅぐちゅになっていたが、満足はいっていない。
+しかし、ブーツの為に彼を満足させることはできた。
+
+買い物に行くため、セーラー服と着ぐるみを脱がせてと彼に催促する。
+
+彼は少し寂しそうな表情を浮かべながら、セーラー服を脱がせ、着ぐるみのファスナーを開けてくれた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#850">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">850</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-10T11:54:00+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">26.（46）
+
+ウルトラの母から顔出すと、まだラバースーツを着ているが、新鮮な空気を吸っている感じがした。
+
+ウルトラの母を彼に引っ張ってもらいながら脱ぐ。
+身体は動きやすくなったが、ラバースーツの中は汗といやらしい液で満たされている。
+
+黒いゴム人間となった歩美になにか言いたげに見ている彼。
+
+早くラバースーツも脱ぎたい歩美は彼にこれも脱がせてと言う前に、彼からもう一つお願いを聞いてくれたらバッグも買うと提案があった。
+
+歩美が彼の前で以前からバッグが欲しいことをアピールしていた。
+そこへ彼がうまく漬け込んできた。
+
+ラバースーツの中は気持ち悪くなっているので早く脱ぎたかったが、バッグも捨てがたい。
+
+結局、歩美は彼の何をするかもわからないまま提案を受け入れる。
+
+
+
+彼がやりたかった事はラップによる拘束。
+それも業務用ラップ、荷物などの荷崩れ防止用などに用いられる。
+
+調理用のラップとは違い、しっかりときつく拘束ができると、ゴム人間となった歩美の体に説明しながら巻いていく。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#851">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">851</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-10T18:16:29+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">27.（47）
+
+それを聞いた歩美は始めは嫌だったが、約束もある。
+そして何よりどれだけの締め付け感を味わえるのか、ワクワクし始めていた。
+
+彼は力強く慣れた手つきでゴム人間をミイラのように拘束していく。
+
+締め付け感は足元からどんどん上へと上がってくる。
+歩美はドキドキワクワクしながら、ラップに巻かれる。
+
+歩美は気づいてはいないが、股のところはラップはされていない。
+
+首から顔へ、もしかして呼吸を制限されるの、と考えるだけで歩美のアソコは湿り始めていた。
+
+歩美の期待にはそぐわないで、呼吸は確保されたがそれでもギチギチに拘束されたことで歩美のアソコからは絶え間なく汁が流れでていた。
+
+これからどうされてしまうのかと、緊張しながら待つ歩美。
+何やら股のところに違和感が。
+
+その後、下腹部辺りを更に拘束される。
+ソファに寝かされる。
+
+これで終わりと思った瞬間、バイブ音とともに体に刺激が走る。
+
+アソコになにかが当り、激しく振動している。
+たまらなく気持ちがいい。
+呼吸が早くなり軽い呼吸制御された状態に陥る。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#852">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">852</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-11T00:00:08+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">28.（48）
+
+拘束された上にアソコへの刺激。
+快楽で身をよじる歩美であったが、ラップで拘束された体はほとんど動かすことができない。
+
+快楽をどこへも逃がすことのできなくなった歩美は大声をあげてすぐにイッてしまった。
+
+イッてしまってもなお、アソコへの刺激は続く。
+すぐに次の絶頂が訪れる。
+
+拘束された体を少し曲げ、声を出さずにイッてしまう歩美。
+
+刺激はまだ続く。
+もうダメかと思った時、刺激がなくなった。
+そのままラップの拘束も解かれていく。
+
+あのまま続くと危なかった。
+歩美は気持ち良すぎて、意識を失う寸前だった。
+
+ラップ拘束を解かれたが、体に力が入らない。
+意識も朦朧とした状態で彼の手によってどこかへ運ばれる。
+
+浴室で今日、彼と初めて交わる。
+
+歩美は変態チックなプレイを彼と楽しめるなら、プレゼントは要らないかなと思うのであった。
+
+もちろん今回約束したブーツとバッグは買ってもらった。
+
+
+
+end…
+
+長々と駄文にお付き合い頂きましてありがとうございました。
+
+歩美目線の話はつまらなかったですかねぇ。すみません。
+
+
+？さんのマネキンの話、期待してます。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-01-28T23:28:22+09:00</dcterms:created>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-02-11T00:00:08+09:00</sioc:last_activity_date>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">12267</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">28</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>

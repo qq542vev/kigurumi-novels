@@ -15,31 +15,662 @@
 		<dcterms:title xml:lang="ja">巨大昆虫観察</dcterms:title>
 		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1359121685.html#32"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1359121685.html#33"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#3"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#4"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#5"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#6"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#7"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#8"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#9"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#10"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#11"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#12"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#13"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#14"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#15"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#"/>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1359121685.html#32">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">32</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-05T18:22:19+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">妻に黙っていることがある。
+それは特撮に関する収集。
+その中でも特に気に入っていたのが、
+「巨大昆虫観察」というもの。
+主人公の幼い兄弟が遊んでいたとき、
+大きな卵を見つける。
+持って帰ると、親は大き過ぎる卵を
+気持ち悪がり捨ててくるようにいうが、
+子供達は言う事を聞かず、渋々離れの倉庫で
+育てることになる。
+兄弟が卵を温め始めてまもなく卵が孵った。
+卵から生まれた幼虫は緑色しており、
+全体的にぬるぬるした粘液で覆われている
+大きさは１ｍほどとかなり大きい。
+しばらくするとくねくねと動き、子供達と戯れる。
+その緑色の幼虫の着ぐるみに入っているのは、
+サイズ的に見て女性であるのではないかと思った。
+卵の中で着ぐるみを着せられた上、
+卵に閉じ込められ、卵の中をローションのような
+液でみたされたなら、一体呼吸はどうしているのだろうか。
+中に入っている女の子は大丈夫なのだろうか
+などと考えているとこの番組が気になり、
+毎週かかさず見るようになっていた。
+そして、この番組で見逃せないのが、エンディング。
+その回放送されたメイキングが流れる。
+幼虫の着ぐるみに入るシーンや着ぐるみが
+動きの指導受けているシーンや出演者が団らんしているなどの
+メイキングシーンが流れて、番組が終わる。
+このメイキング映像で、着ぐるみに入っているのが、
+自分の想像通り女の子なのかを確認しようと必死で見ていた。
+エンディング映像が流れるが、文字でよく見えなかったが、
+体型から確かに着ぐるみに入っているのは女性であることは確認できた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1359121685.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1359121685.html#33">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">33</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-05T18:23:09+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">話は回を重ねる毎に幼虫からサナギ、成虫、
+さらにそこから脱皮して変体を繰り返していく。
+成虫で２回脱皮したのが、最終形態（成虫は1・2・3がある）。
+どの着ぐるみも自分の思っていたものよりもすばらしかった。
+そんな理想的な着ぐるみに入って、
+必死に演じている彼女を見てみたいという
+気持ちがどんどん大きくなっていくのがわかった。
+放送は毎回録画して、欠かさず見た。
+特にエンディングは何度も繰り返して見たが、
+彼女の顔を見ることはもちろん、
+見つけることもできなかった。
+放送終了後しばらくして、自分と同じような思いの人が
+多かったのかどうかはわからないが、DVD　BOXが発売された。
+もちろん、特典として放送されていないメイキング映像も収録されていた。
+早速、購入して見て見たが、彼女を見つけることはできなかった。
+スーツアクトレスとして織田香代子と名前が出ていたので、
+女性であることは確実になったが、
+ネットで検索してもヒットしなかった。
+全く情報もなく、一目見てみたいという
+気持ちだけがさらに大きくなっていった。
+そんなとき、妻に秘密にして隠しておいた巨大昆虫観察
+に関する雑誌やDVD　BOXが見つかってしまった。
+えらくこだわって集めていることを追求されたら、
+どう答えようなどと考えていたが、
+妻は面白そうだから一緒に見ようと言い出した。
+ホッとして見始めたのも束の間、テレビを見ながら、
+どうして興味を持ったのか聞いてきた。
+妻の香織とは、高校の３年間同じクラスで
+付き合ってこそいなかったが、すごく仲がよかった。
+香織は東京の大学へ進学、そのまま就職し、
+しばらく会っていなかったが、同窓会で久しぶりに再会。
+意気投合して１年半の遠距離恋愛をして、現在の結婚生活に至る。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1359121685.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#3">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">3</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-07T18:53:17+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">香織は自分の性格をよく把握しており、
+嘘などをついてもすぐに見抜かれてしまう。
+だから、番組について質問されて下手な嘘もつけず、
+着ぐるみの女の子が気になり、
+顔を見てみたかったと正直に打ち明けた。
+香織は「あなた好きそうだものね、こういうのと」と言って、
+そのまま一緒にテレビを見ていた。
+突然なにか聞かれるかもしれないとドキドキしながら、
+妻の様子を伺いつつテレビを見ていた。
+見ていてつい、「この着ぐるみに女の子が入るのってきつくないのかなぁ」
+とあまり黙って見ているのもどうかと思い聞いてみた。
+すると、「暑くて大変なんじゃない」とそっけない返事。
+しばらく、二人で見ていたが、
+急に立ち上がり妻は部屋を出て行ってしまった。
+テレビ画面では、幼虫のイモムシが躰をくねらせながら、
+子供達の後ろをついて行っていた。
+次の日、妻は「どの着ぐるみが好きだったの？」と聞いてきた。
+どれも印象に残っていたが、動きに女性らしさがある成虫の
+２つ目と答えて、ハッとした。
+妻の香織も番組をよく知っていたのだ。
+答えを聞いて、ふぅうんといった感じで笑みを浮かべている。
+そのあと、２人で巨大昆虫観察を見ていた。
+幼虫が糸を出して繭を作り、サナギになる。
+子供達は中を見たくてたまらず、ある日繭を破って中を覗く。
+サナギは全体的に光沢がありくすんだオレンジ色をしている。
+人工物のようにも見えるサナギを子供達は
+好奇心から繭をやぶって、サナギを外に出す。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#4">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">4</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-07T18:55:34+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">外に出されたサナギを子供達が触る、
+その度にサナギはヒクヒクと動いている。
+サナギはしばらくすると、
+サナギの皮を剥いで成虫が出てくる。
+実際の昆虫ではよくある光景だが、
+これは成虫の着ぐるみを着せられた女の子が、
+さらにサナギの着ぐるみも着せられて、
+出てこなければならない。
+これはとんでもなくキツイだろうと思った。
+そんな状況でもがんばっている彼女のこと
+を考えていると、変に興奮してきてしまう。
+放送されたシーンはほんの１分程度だが、
+実際の撮影では、子供達もいて、
+すんなり一発でOKはでなかったと思うと彼女はすごいと思った。
+「あのシーンって、相当苦しいんじゃないかなぁ」と
+妻にいったところ、耳を疑うような返事が返ってきた。
+「暑いし、苦しかったよ」と。
+テレビを見ていてそれほど真剣には聞いていなかったが、確かにそう答えた。
+妻　香織の顔を見ると、なんともいえない微妙な表情でテレビを見ている。
+テレビを見ずに驚いて、妻を見ている自分に向かって、
+香織は巨大昆虫観察のすべての着ぐるみに入っていたのは
+自分であることを告白してくれた。
+そして、自分の旦那がこの番組のファンであると知り、すごく嬉しかったことも。
+妻以上に自分の方が嬉しかった。
+散々探し求めていた彼女が、まさか自分の妻だったとは思いもよらなかったので。
+「番組ファンの質問に何でも答えてあげるわよ」
+と香織は笑顔でいってくれた。
+楽しみは少しずつと思い、毎日DVDを一緒に見ながら、
+いろいろ質問することになった。
+そもそも、どうして着ぐるみに入ることになったかというと、
+役者などを派遣する会社の事務員として就職したが、
+すでに巨大昆虫観察に着ぐるみに入り出演が決まっていた
+女の子が事故で入院してしまい、その子に合わせて、
+すでに着ぐるみが造っていたので、
+だれも代わりの人がいなかったため、
+唯一会社内で同じ背格好の香織に声がかかった。
+入社したばかりで、断ることもできなかったので、
+今回だけということで出演をOKした。
+ただ、本名は出したくなかったので、
+田代香織を並び代えて、織田香代子で出演することになった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#5">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">5</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-07T18:57:11+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">本題に戻るが、１話の卵から幼虫が産まれてくるシーン。
+黒い全身タイツに着替えて、上からベンチコート
+を羽織りスタジオに入る、季節は冬。
+そのまま着ぐるみには入らずに簡単な動きの確認をする。
+そして、いよいよ緑色をしたイモムシの着ぐるみへ。
+表面は光沢があり、胴体の下の部分には拳大ほどの脚が複数付いている。
+頭部分は躰とは違い硬い材質でできている。
+頭部と躰部分の隙間から手を入れるとチャックがあり、
+胴体部に沿ってチャックを開けると
+イモムシの頭がもげたようにうな垂れる。
+その頭のもげた躰に足から着ぐるみに入っていく。
+中はクッションが詰まったようになっていて、
+柔らかく温かかった。複数あった脚のうち４つに手足を入れる。
+入るときなかなか苦労する、スタッフに手伝ってもらって着るので、
+一度着ぐるみに入ると一人で脱ぐことはできない。
+そしてイモムシなので立ち上がることもできない。
+できることといえば、胴体下に付いている短すぎる脚を動かして
+少しずつ前に進むくらいしかできない。
+初めの卵から産まれるシーンでは、幼虫が粘液とともに出てくる。
+そのため、イモムシの頭を被る前に卵に入れられて、
+卵内を緑色のローションで満たされるため、
+呼吸用のチューブ（緑色に着色したもの）を
+イモムシの頭を通して自分の口へ。
+しっかり呼吸できることを確認してから、イモムシの頭を装着。
+そして、卵にフタをして大きな卵にしか
+見えないようにする、２つの穴を残して。
+２つの穴は呼吸用のチューブを出す穴と、
+もう１つは緑色のローションを卵内に注入し、
+産まれる際に卵を内から割るための棒を入れるための穴。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#6">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">6</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-07T18:58:33+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">着ぐるみに入り、さらに卵に閉じ込められた香織には、
+ローションが注入されているかどうかはわからなかった。
+卵はイモムシが入ると、ほとんど動くことができない大きさだったので、
+卵が割れると大量の粘液とともに外へ飛び出した。
+卵の中は少し窮屈ではあったが、苦しくてたまらないということはなかった。
+ただ、このシーン実はかなり時間がかかっていた、
+というのも卵がなかなか割れずにスタッフが監督から
+怒られている声が聞こえていた。
+だから、卵から産まれて粘液の上でうねうねと動いて、
+カットがかかったとき怒られていたスタッフが心配して
+すぐにイモムシの頭を外してくれた。
+幼虫イモムシの撮影は１週間ほど続いた。
+イモムシは這って動くので、腹の部分が破れてこないか心配したが、
+着ぐるみは念のため２着ずつ用意されていた。
+子供達との撮影が多く、着ぐるみを着たまま待機していたが、
+寝てしまっていることもあった、
+頭を被っているので誰にも気付かれなかった。
+寝たまま撮影に入り、子供達がイモムシの上に
+乗ってきたのにビックリして目が覚め、
+振り落としてしまい泣かせてしまったこともあった。
+イモムシは自由に動けなく不便ではあったが中はふかふかで、
+他の着ぐるみと比べると快適だったように思う。
+旦那には内緒だが、予備の着ぐるみはほとんど使っておらず、
+急遽代役でがんばってくれた記念に頂いて屋根裏の収納にしまってある。
+パーティなどがあれば精巧にできているので
+おもしろいかもしれないと思いもらったが、
+かさばるので捨てようか迷っていたが、
+旦那が着ぐるみを着たら喜んでくれそうなので、
+このまま保管しておくことに決めた。
+そして、もうすぐ来る旦那の誕生日にはサプライズで
+着ぐるみを着て祝ってあげようと考えた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#7">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">7</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-07T19:00:24+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">話に戻ります。イモムシの着ぐるみでの最後のシーンは、
+口から糸を出して繭を作る。
+口から糸をだしているようにCG合成で見せて、
+イモムシに少しずつ糸を巻きつけた状態を撮影していき、
+繭が少しずつできていくように撮れていた。
+ただ、巻きつけていくときは簡単に巻き付けることができたが、
+外すときは絡まりすぎて外すのにかなりの時間を要した。
+着ぐるみから出されたときは、糸で締め付けられていたこともあり、
+ヘトヘトになっていた。
+繭だけのとき、着ぐるみシーンはなかったので、
+子供達の休憩のとき一緒に遊んだりした。
+卵から幼虫、幼虫からサナギ、サナギから成虫へと変体していくとき、
+着ぐるみを重ね着したりするのが、特にたいへんだった。
+卵から産まれるシーンは説明したが、幼虫から繭になり、
+今度は新しくサナギの着ぐるみを着て繭に入る。
+サナギの着ぐるみはカブトムシのサナギのような色をしている。
+手足は伸ばして入るが、サナギの４本の脚は
+躰部分にくっついているので、
+ほとんど動かすことはできない。
+躰は曲げたり反ったりはできるが、
+動き的にはイモムシの時と大差はない。
+違うところはスタッフなしでも、
+ある程度着ぐるみが自分で着られることぐらい。
+サナギの着ぐるみを着る時は、まず、
+ほとんど動かせない脚に両足を入れ、
+昆虫の腹部にお尻を押し込むようにすると、
+胸の辺りまで着ぐるみに入ることができる。
+胸の前にある２本の筒状のものに袖を通して、
+背中から胸にかけてのフードを被る（サーフィンの
+ノージップ　ウエットスーツのような感じに）。
+最後に頭部と胸部が一緒になったものを
+腹部との境界まで被り、動かせない胸部の脚に
+腕を入れて完成。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#8">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">8</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-07T19:02:32+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">ある程度一人で着ることができたが、
+脱ぐ時は助けが必要だった。
+また、イモムシの時と同じく移動はできない。
+這って移動すると着ぐるみが汚れたり破れたりするので、
+スタッフに運んでもらう。
+繭の裏側からサナギになった私を入れて、撮影が始まる。
+不安定な場所に繭が置かれていたので、
+繭の中で少し動いただけなのに、
+えらく転がってしまった。
+手足を自由に動かせないサナギの着ぐるみ、
+外は繭に包まれている状態、
+なにもできないが転がってしまって
+かなり焦って無駄とはわかりながら動いて
+何とかしようとしている自分がいた。
+転がってしまった上、変に動いたので
+撮りなおしだろうと思っていたが、意外や意外。
+これが生命体の感じが出ていると好評だった。
+確かに繭の中で少し動くくらいなら、
+私が入る必要がないとは思っていた。
+子供達が好奇心から、サナギを繭から取り出し
+触るシーンでも動きにリアリティがあると
+褒められた、が実は子供達につつかれて本気で
+くすぐったくて、ただ逃れるのに必死なだけだった
+とはとても言い出せなかった。
+サナギからいよいよ成虫になるのだが、３段階成長する。
+サナギから成虫を成虫１とする。
+成虫１はカナブンをモチーフにして、
+造られているというよりほぼカナブンだった。
+色は光沢のあるグリーン。
+脚は太く４本しかない（手足４本を入れる）。
+普通、カナブンの躰は硬いのだが、そこは着ぐるみ
+柔らかく造ってあった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#9">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">9</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-07T19:04:54+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">このカナブンの着ぐるみは腹部の背中、つまり羽が収納されて部分が
+開くようになっていて、そこを開くとサナギの時のような色をした部分が現れる。
+そこには縦にチャックがあり、開けてそこから両足を少し曲げた状態で入れる。
+サナギの時のように腹部にお尻を押し込み、
+中腰状態で頭から身体を着ぐるみの中へ入れていく。
+手足も身体も完全に伸ばせないキツイ状態であるが、
+無常にもチャックは閉められる。
+立つことはできるが、立った状態はつらく、
+２足歩行はもっとキツイので、昆虫らしく四つん這いになると、
+NGになってしまった。
+子供達と遊んでいるシーンで押され仰向けになるとすごく楽だった。
+仰向けの状態で手足をバタつかせているときはよいが、
+すぐにカットがかかり元の体勢に戻されてしまう。
+それでも子供達は面白がって、押してくれて仰向けになる。
+カナブンの着ぐるみの中で私は、子供達に感謝していた。
+着ぐるみの中で、私はこのカナブンが一番きらいだった、
+それはカナブンでの撮影の翌日は無理な体勢が続き、
+必ず筋肉痛に襲われたからだ。
+成虫１のカナブンの着ぐるみから、成虫２への脱皮。
+成虫２のモチーフはカマキリ。
+腹部はカナブンより長くなり、羽がハッキリとわかる。
+色は黄緑色をしていて、脚は同じく４本、前脚にカマキリのような鎌はない。
+４本の脚は長く、手足を伸ばして着ることができた。
+カマキリの着ぐるみは腹部が取り外せるようになっていて、
+腹部を取り外すとそこには、穴が開いており、そこから両足を入れて
+両足が入れば、着ぐるみに上半身を胸くらいまで入れる。
+そして、身体を真っ直ぐにすると滑り込むように着ることができた。
+たまに頭がひっかかり上手く入っていけないこともあった。
+カマキリの着ぐるみは伸縮性のある素材で
+造られていて、かなり動きやすかった。
+しかし、腹部までは手が届かず、届いたとしても昆虫の
+脚では腹部を取り付けることができないのでスタッフの
+お世話になった。
+カマキリの着ぐるみが私の中では、一番のお気に入りである。
+そして、旦那も同じく成虫２と答えてくれたのが嬉しかった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#10">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">10</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-07T19:07:08+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">カマキリは動きやすく自分の体型もわからない、
+成虫３の最終形態になるとさらに動きやすくなるが、
+ウエットスーツの素材を使った着ぐるみでピッタリしすぎて
+体型がハッキリとわかるので、恥ずかしくて嫌だった。
+さて、カナブンからカマキリへの脱皮であるが、
+カマキリの着ぐるみに着替えてから、
+前回まで使用していたカナブンの着ぐるみに入るよう言われた。
+胴体部分には確かに空間があり、入ることはできるとは思ったが、
+さすがに手足を入れるのは無理だと思っていたが、これが意外にも入った。
+それはカナブンのクッションをスタッフが取り外して
+私が着ていたときよりも大きくしてあったからだ。
+胴体部分にもクッションが入っていたがそれも外されていたようで、
+カマキリの長い腹部もきれいに納まった。
+撮影の段取りとしては、カナブンの着ぐるみにカマキリの
+着ぐるみを着たまま入り、その後カナブンの着ぐるみに
+カッターのようなもので切れ込みを入れていく。
+撮影開始とともに地面に四つん這いになったカナブンが立ち上がり、
+脚を伸ばすとカマキリの脚が飛び出す。
+あとは躰の部分ごとに撮影して脱皮しているように見せる。
+着ぐるみを重ね着するのは想像していたよりも暑くて窮屈できつかった。
+おまけに、立ち上がり手足を伸ばしたがカマキリの脚は出てこない、
+その度に切れ込みを入れて破れやすくするが、３回目にようやく成功した。
+その後もパーツごとの撮影をした。
+すべて終わったのは重ね着をしてから、
+１時間以上経っていて、その間休憩もなく、
+カマキリから出された時は汗だくになっていた。
+最後まで私を苦しめたカナブンはやっぱり好きにはなれない。
+カマキリでの撮影は今までの子供達だけでなく、
+両親も関わってくる。
+よく動くことにより大人達から
+警戒されるようになったという設定。
+倉庫に閉じ込めて置こうとしたが、
+子供達が外へ逃がしてしまう。
+外では見たこともない巨大な昆虫が動き回るため、
+捕り物の騒動に。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#11">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">11</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-07T19:08:12+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">今まではスタジオの中だけであったが、
+外でのロケが増えた。
+外で着ぐるみを着ていると寒くないのでいい。
+でも、外へ出るとスタッフだけでなく
+番組関係者以外に見られるのが、恥ずかしかった。
+リハーサルの時は、服の下に全身タイツは着ているが
+普通の服にダウンジャケットで行った。
+簡単に動きの確認を行い詳細まではしなかったが、
+すでに見物客が集まり出していたので、少し恥ずかしかった。
+ロケバスに戻り、着ぐるみに着替える。
+バスにはフィルムが貼ってあり、外からは覗かれることはない。
+でも、カマキリの着ぐるみを着てバスを出ると、
+先ほど集まっていた人々が、減っていたので安心した。
+少し恥ずかしかったが、撮影を開始すると、
+みるみる見物客が増えてきた。
+大勢に見られている緊張から、
+NGを何度か出してしまった。
+ようやく撮影が終わってバスへ戻ろうとすると
+写真を撮られているのがわかった。
+そのまま、スタッフと私の後を
+付いて来る男性の姿が見えた。
+私は身長が150cm程しかない。
+着ぐるみを着てもそんなに大きくはないので、
+中身が女だと思って興味を持って
+ついて来ているのではないかと思った、
+旦那のように。
+自分の旦那ならともかく、見知らぬ男性について来られると
+気持ち悪いし、恐かった。
+バスに乗っても、数人の男性はバスの中を覗いている。
+こちらからは見えているが、向こうからは見えないはず。
+スタッフも気を使い、着ぐるみを着たままであったが、
+バスを出発させてくれた。
+外での撮影はそれからも何度かあったが、
+その度に数人ついて来るのですごく恐い思いをした。
+そのせいか、それからはスタジオでの撮影が増えたように思う。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#12">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">12</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-07T19:09:16+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">カマキリからいよいよ最終形態の成虫３へ。
+成虫３は、蜂をモチーフに造られている。
+ベースはサーフィンに使用されるノンジップタイプの
+ウエットスーツに黄色と黒でペインティングされており、
+胸の部分にはプラスチックのような材質の胸を覆い隠すものがある。
+いままでの昆虫にあった腹部はなく、
+背中には羽、前脚には３つの指がある。
+頭部は蜂をイメージしたヘルメットのような仮面を被る。
+外がよく見えるし、呼吸もしやすい（今までと比べてだが）、
+身体も身軽だが、身体のラインまで
+ハッキリ分かるので少し恥ずかしい。
+今までと同じく蜂に着替えてから、
+お気に入りだったカマキリに入る。
+カマキリは細身に造ってあったのだが、
+蜂はほとんど体型そのままということで、
+「少しキツイですが、がんばって入って下さい」と。
+一人ではさすがに着ることができなかったので、
+スタッフに手伝ってもらい、なんとか入った。
+脱皮のシーンを後で見たが、カマキリが異常に膨れていた。
+今回はカマキリの正面部分に切り目が入れられ、
+胸を開くように脱皮する設定であったが、
+ギュウギュウに詰め込まれていたので、
+何もせずとも、胸の部分が開いていった。
+開いた部分から、頭、躰と脱皮していく。
+蜂は人間に近く、言葉はしゃべれないが、
+知能は発達しており人間の言葉を理解できる。
+なにもしなければ、攻撃はしない。
+飛ぶこともできるという設定だった。
+家の庭のセットでは、ワイヤーにつられて
+空を飛ぶシーンもあったが、私は高いところが
+苦手ですごく怖かった。
+蜂は子供達家族に、育ててもらった恩を
+返すためいろいろ働き喜ばれていたが、
+寿命が来て最後は家族に、看取られて死んでしまう。
+こうして、番組は終了。
+放送中、それほど視聴率もよくなかった、
+私的にはがんばったので、少し残念だった。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#13">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">13</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-07T21:17:48+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">旦那は巨大昆虫観察の裏側までわかってすごく嬉しそうにしてくれていた。
+私としてもこの時は、やってよかったなぁと思った。
+それから、数日後　旦那の誕生日が来た。
+夕食の準備をすべて整えて、
+屋根裏に隠しておいたカマキリの着ぐるみ
+を出して準備を始める。
+まずは、全身タイツを着る。
+当時のものはなかったので、ネットで探して買っておいた。
+以前、DVDを見ているとき、急に席を外したのは
+全身タイツの購入を旦那に見られたくなかったからだった。
+どの着ぐるみが好きか分からなかったので、
+全身タイツもいろいろな色のものを購入していた。
+というのも、着ぐるみに入ったとき
+外から仮に中が見えたときでも、
+わからないようにするため
+全身タイツの色をすべて変えていた。
+イモムシは黒、サナギはオレンジ、カナブンはメタリックグリーン、
+カマキリは黄緑、蜂は黄色といった具合に。
+送られてきた全身タイツは、身体の露出が全くなく
+顔も隠れてしまうものだった。
+香織が撮影の時、着ていたものは、
+顔のところが開いているものだったが、
+見た目、格好が悪くて嫌だった。
+そんな姿を旦那には見せたくなかった。
+ただ、全身タイツの感触は好きだった。
+ネットで見つけた全身タイツは、
+着るとマネキンのようで誰かわからない。
+顔が出ているよりもよく見えたので、迷わず購入した。
+その全身タイツを着てみる、カマキリ用の黄緑色の全身タイツは
+意外とよく見えるし、苦しくない。
+カナブン用に購入したメタリックグリーンの質感が違う、
+重ね着したら、どんな感じなのだろうかと好奇心から重ね着してみた。
+１枚の時とは、ぜんぜん違う。
+ほとんど見えないし息もしにくい、
+重ね着しているので当然だが。
+この拘束感が香織には快感だった。
+実は、着ぐるみの重ね着させられたときも、
+苦しいのと同時に気持ちよくもあった。
+うすうす自分でもMっ気があることは気付いていた。
+全身タイツをすべて重ね着したらどんな感じなのか、
+そのまま動きづらいサナギに入ったら気持ちいいのか
+などと考えたりしたが、今日は旦那の誕生日。
+喜ばせることが、先だと自分に言い聞かせ、
+いったん、全身タイツを脱いで、食事の準備を始めた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#14">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">14</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-07T21:19:19+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">旦那が帰宅して、少し豪華にした食事をとり、
+誕生日を祝う。
+「プレゼントを用意しているからお風呂から出たら２階に来て」
+と告げ、先にお風呂に入ってもらう。
+すぐに２階へ上がり準備に取り掛かる。
+裸になり黄緑色の全身タイツを着る、
+続けてメタリックグリーン。
+気持ちよくて全身を触り始めたが、
+我に返り着ぐるみに足を通し、準備を続ける。
+上半身を着ぐるみにうずめて、
+身体を伸ばすとすんなり頭が入り、
+久々にカマキリになった。
+動きやすいが着ぐるみの中は
+全身タイツを重ね着しているので、
+少し締め付け感がある。
+なんともいえない拘束感に包まれながら、
+香織は準備を続ける。
+HAPPY BIRTHDAYと書かれた大きめの
+ビニール袋にカマキリのまま入り、
+袋の口の紐を中から引っ張り、袋の口を閉める。
+何度も練習したので、着ぐるみに
+入っていてもうまくいった。
+全身タイツを着て、着ぐるみに入り
+さらにはプレゼント用の袋に自らを閉じ込める。
+少し苦しいが、すごく気持ちがいい。
+下が濡れてくるのを感じながら、
+旦那が部屋に入ってくるのを待った。
+外の様子をうかがっていると、
+スリッパの音で２階へ上がってくるのがわかった。
+妻はどんなプレゼントを用意してくれているのだろうと
+考えながら階段を昇る。
+巨大昆虫観察が見つかり、着ぐるみの中は妻と分かり、
+撮影の裏話や着ぐるみに入っていた本人の感想も聞けた。
+それだけでも、自分の中ではすごいプレゼントだった。
+妻の話を平然と、聞いているふりをしていたが内心すごく興奮していた。
+もっと、いろいろ話を聞きたいし、当時の写真とかもらえれば
+最高だなぁと考えたりしていると、また興奮してきた。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#15">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">15</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">巨大昆虫観察</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">EKwHaA83h2</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-07T21:20:27+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">明かりがついている部屋へ入ると、
+ベッドの上には、HAPPY BIRTHDAYと書かれた
+大きなビニール袋が置いてある。
+妻の言っていたプレゼントはこれかと思いながら、
+ベッドへ近づくと、袋が突然動き出した。
+少し驚いたが、プレゼントは妻自身
+ということかと思い、袋に抱きついた。
+しかし、抱きついた感覚は人ではない。
+声をだして、ビックリして袋から離れる。
+その声に驚いたのか、袋も動きを止めた。
+自分の声に反応して、袋の動きが止まったということは、
+袋の中身は妻だと確信したが、人でない感触に疑問を
+持ちながらも袋の中を確認した。
+袋の中には、成虫２　カマキリの姿がそこにあった。
+自分が一番好きだった着ぐるみを着て、
+喜んでもらおうとしている妻の気持ちが
+すごく伝わってきて、嬉しくて泣いてしまった。
+妻は誕生日だから特別に、「私を好きにしていいわよ」と。
+このあと、どうなったかはご想像にお任せします。
+
+***巨大昆虫観察２に続く***</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
 		</dcterms:hasPart>
+		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-05T18:22:19+09:00</dcterms:created>
+		<sioc:last_activity_date/>
+		<dcterms:extent rdf:parseType="Resource">
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">10494</rdf:value>
+		</dcterms:extent>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">25</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>
