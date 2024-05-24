@@ -12,7 +12,7 @@
 	</foaf:Document>
 	<sioc:Container rdf:about="#main">
 		<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#anyUri">urn:uuid:9725cf9e-8a4d-4e21-81ab-fd4e150013ae</dcterms:identifier>
-		<dcterms:alternative xml:lang="ja">続*スレ違いなら…</dcterms:alternative>
+		<dcterms:title xml:lang="ja">続*スレ違いなら…</dcterms:title>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
 			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#555">

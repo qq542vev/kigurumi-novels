@@ -12,7 +12,7 @@
 	</foaf:Document>
 	<sioc:Container rdf:about="#main">
 		<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#anyUri">urn:uuid:810eb167-f87f-4d97-b39f-e3d09ddec7d9</dcterms:identifier>
-		<dcterms:alternative xml:lang="ja"/>
+		<dcterms:title xml:lang="ja">機ぐるみ</dcterms:title>
 		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
 			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#669">
