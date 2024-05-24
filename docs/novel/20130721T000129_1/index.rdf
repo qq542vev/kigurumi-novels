@@ -193,24 +193,6 @@
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
 			</types:BoardPost>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#394">
-				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">394</rdfs:label>
-				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">水槽</foaf:nick>
-					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3fxYsQevBc</dcterms:identifier>
-				</dcterms:creator>
-				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-07-29T20:37:33+09:00</sioc:delivered_at>
-				<sioc:content xml:lang="ja">拓海が「着替えておいで」と声をかけると黒いマネキンの彼女は頷き、奥の部屋へと消えていった。
-拓海はあのマネキンのようなスーツについて説明してくれた。
-あれは以前、会社でスイミングキャプを作っていたが発注がなくなり余った素材を会社から分けて貰らい、彼女を採寸して造ったそうだ。
-着るときは唯一あいている首のところから、空気を送り込んでやり少し膨らませてから身体を滑り込ませると簡単に着ることができる。
-そのため、空気が完全に抜けてしまうと黒い第二の皮膚のようになる。
-頭全体を覆うマスクはスイミングキャプを造る要領で、鼻と目のところに小さな穴をあけてある。
-被るときは裏返しにし、首にあたる部分を大きく開いて一気にかぶると全身黒い皮膚に覆われたマネキンの完成となる。
-締め付けられ具合は始めの採寸で調整が可能と拓海が説明し終わる前に、真希が小さく呟いた。</sioc:content>
-				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
-				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
-			</types:BoardPost>
 			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#398">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">398</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">

@@ -13,7 +13,7 @@
 	<sioc:Container rdf:about="#main">
 		<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#anyUri">urn:uuid:a4209719-b692-491b-8f2f-72f9cfaf5589</dcterms:identifier>
 		<dcterms:title xml:lang="ja">巨大昆虫観察</dcterms:title>
-		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
+		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
 			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1359121685.html#32">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">32</rdfs:label>

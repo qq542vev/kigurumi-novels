@@ -86,7 +86,7 @@
 				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
 			</types:BoardPost>
 			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#845">
-				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">845</rdfs:label>
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">844</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
 					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便 裏</foaf:nick>
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>

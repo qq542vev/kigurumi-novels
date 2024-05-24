@@ -310,24 +310,6 @@
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
 			</types:BoardPost>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#524">
-				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">524</rdfs:label>
-				<dcterms:creator rdf:parseType="Resource">
-					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">水族館</foaf:nick>
-					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">ekeg7HJozo</dcterms:identifier>
-				</dcterms:creator>
-				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-09-30T20:43:55+09:00</sioc:delivered_at>
-				<sioc:content xml:lang="ja">しばらくたって、ようやく落ち着いた有香に穴を開ける位置の確認のため頭の部分を被ってもらう。
-今度はファスナーは開けたまま。
-目と口の位置を確認後、すぐに有香は顔出した。
-もちろん、短時間でファスナーも閉めていないので苦しくないのだが、先程の恐怖が甦ってくる。
-ユミは道具を使い器用に穴を開ける。
-目のところは小さく、口のところは大きめに穴を開けた。
-再び有香に着てもらい確認。
-視界は微妙だったが、息はできる。</sioc:content>
-				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
-				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
-			</types:BoardPost>
 			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#525">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">525</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
