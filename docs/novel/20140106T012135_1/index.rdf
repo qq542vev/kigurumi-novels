@@ -692,8 +692,8 @@ end…
 		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-01-06T01:21:35+09:00</dcterms:created>
 		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-01-11T18:38:22+09:00</sioc:last_activity_date>
 		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">9728</rdf:value>
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">9398</rdf:value>
 		</dcterms:extent>
-		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">20</sioc:num_items>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">19</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>

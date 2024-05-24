@@ -667,10 +667,10 @@ HAPPY BIRTHDAYと書かれた大きめの
 			</types:BoardPost>
 		</dcterms:hasPart>
 		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-05T18:22:19+09:00</dcterms:created>
-		<sioc:last_activity_date/>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-07T21:20:27+09:00</sioc:last_activity_date>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">10494</rdf:value>
 		</dcterms:extent>
-		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">25</sioc:num_items>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">15</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>

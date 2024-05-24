@@ -196,10 +196,10 @@ ttp://kigurumiphotos.webspace.ne.jp/bbs/data/kigurumiphotos/img/2072_24a8c86a13.
 			</types:BoardPost>
 		</dcterms:hasPart>
 		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-01-30T01:35:30+09:00</dcterms:created>
-		<sioc:last_activity_date/>
+		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-09T00:00:25+09:00</sioc:last_activity_date>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">3363</rdf:value>
 		</dcterms:extent>
-		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">20</sioc:num_items>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">6</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>

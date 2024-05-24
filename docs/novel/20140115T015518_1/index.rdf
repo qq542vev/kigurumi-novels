@@ -372,7 +372,20 @@
 				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
 			</types:BoardPost>
-			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#769"/>
+			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#769">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">769</rdfs:label>
+				<dcterms:creator rdf:parseType="Resource">
+					<foaf:nick rdf:datatype="http://www.w3.org/2001/XML_Schema#string">宅配便</foaf:nick>
+					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">3rZQiXcf5A</dcterms:identifier>
+				</dcterms:creator>
+				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-01-24T01:26:09+09:00</sioc:delivered_at>
+				<sioc:content xml:lang="ja">いつも書いているとき、おいそのさん現れるのは高評価と解釈しときます。
+
+ある程度めどがたったので、これから1日2投稿していきます。
+よろしくお付き合い下さい。</sioc:content>
+				<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
+				<sioc:has_container rdf:resource="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html"/>
+			</types:BoardPost>
 			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#771">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">771</rdfs:label>
 				<dcterms:creator rdf:parseType="Resource">
@@ -724,8 +737,8 @@ end…
 		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-01-15T01:55:18+09:00</dcterms:created>
 		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2014-01-28T12:24:11+09:00</sioc:last_activity_date>
 		<dcterms:extent rdf:parseType="Resource">
-			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">8505</rdf:value>
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">8581</rdf:value>
 		</dcterms:extent>
-		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">21</sioc:num_items>
+		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">22</sioc:num_items>
 	</sioc:Container>
 </rdf:RDF>
