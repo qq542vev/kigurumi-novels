@@ -277,6 +277,7 @@ AV界の新しいキラ星、にじいろプラム　デビュー作！！
 		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-13T02:49:56+09:00</dcterms:created>
 		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2008-09-13T14:17:51+09:00</sioc:last_activity_date>
 		<dcterms:extent rdf:parseType="Resource">
+			<rdfs:label xml:lang="ja">非空白文字数</rdfs:label>
 			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">6105</rdf:value>
 		</dcterms:extent>
 		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">11</sioc:num_items>

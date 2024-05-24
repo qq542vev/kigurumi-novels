@@ -346,6 +346,7 @@
 		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-24T18:06:02+09:00</dcterms:created>
 		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006-09-25T22:12:55+09:00</sioc:last_activity_date>
 		<dcterms:extent rdf:parseType="Resource">
+			<rdfs:label xml:lang="ja">非空白文字数</rdfs:label>
 			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">3864</rdf:value>
 		</dcterms:extent>
 		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">9</sioc:num_items>

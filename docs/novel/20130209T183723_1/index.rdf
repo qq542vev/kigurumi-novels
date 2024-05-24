@@ -431,6 +431,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 		<dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-09T18:37:23+09:00</dcterms:created>
 		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-02-11T10:32:14+09:00</sioc:last_activity_date>
 		<dcterms:extent rdf:parseType="Resource">
+			<rdfs:label xml:lang="ja">非空白文字数</rdfs:label>
 			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">7061</rdf:value>
 		</dcterms:extent>
 		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">11</sioc:num_items>
