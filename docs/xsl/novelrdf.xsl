@@ -60,6 +60,7 @@
 			</sioc:last_activity_date>
 
 			<dcterms:extent rdf:parseType="Resource">
+				<rdfs:label xml:lang="ja">非空白文字数</rdfs:label>
 				<rdf:value rdf:datatype="{$xsd}nonNegativeInteger">
 					<xsl:value-of select="string-length(translate($content, '&#x9;&#xA;&#xD; 　', ''))"/>
 				</rdf:value>
