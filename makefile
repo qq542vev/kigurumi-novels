@@ -3,7 +3,7 @@
 THREADS = $(shell awk -- '{ print "docs/src/html/" $$1 ".html" }' threads.tsv)
 NOVELS = $(shell find docs/novel -name 'index.html' -o -name 'index.txt')
 TMP = TMPFILE
-BASEURL = https://qq542vev.github.io/kigurumi-novels/ 
+BASEURL = https://qq542vev.github.io/kigurumi-novels/
 
 .PHONY: all thread novel
 
@@ -13,18 +13,18 @@ thread: ${THREADS}
 
 novel: ${NOVELS}
 
-docs/index.html: docs/sitemap.xml docs/xsl/sitemap2index.xsl 
+docs/index.html: docs/sitemap.xml docs/xsl/sitemap2index.xsl
 	xmlstarlet tr docs/xsl/sitemap2index.xsl $< >$@
 
 docs/sitemap.xml: $(shell find docs '!' '(' -path 'docs/sitemap.xml' -o -path 'docs/index.html' ')' -a -type f)
 	gensitemap -b ${BASEURL} -i index.html docs | xmlstarlet fo -t >$@
 
-docs/novel/%/index.html: docs/novel/%/index.rdf docs/xsl/rdf2html.xsl 
+docs/novel/%/index.html: docs/novel/%/index.rdf docs/xsl/rdf2html.xsl
 	xmlstarlet tr docs/xsl/novelrdf.xsl $< | xmlstarlet fo -t - >${TMP}
 	mv -f ${TMP} $<
 	xmlstarlet tr docs/xsl/rdf2html.xsl $< >$@
 
-docs/novel/%/index.txt: docs/novel/%/index.rdf docs/xsl/rdf2text.xsl 
+docs/novel/%/index.txt: docs/novel/%/index.rdf docs/xsl/rdf2text.xsl
 	xmlstarlet tr docs/xsl/novelrdf.xsl $< | xmlstarlet fo -t - >${TMP}
 	mv -f ${TMP} $<
 	xmlstarlet tr docs/xsl/rdf2text.xsl $< >$@
