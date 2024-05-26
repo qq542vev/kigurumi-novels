@@ -13,7 +13,7 @@
 	<sioc:Container rdf:about="#main">
 		<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#anyUri">urn:uuid:90e027fd-96cb-4f21-a945-b919288bb77d</dcterms:identifier>
 		<dcterms:alternative xml:lang="ja">ウエットスーツ</dcterms:alternative>
-		<schema:creativeWorkStatus xml:lang="en">Complete</schema:creativeWorkStatus>
+		<schema:creativeWorkStatus xml:lang="en">Incomplete</schema:creativeWorkStatus>
 		<dcterms:hasPart rdf:parseType="Collection">
 			<types:BoardPost rdf:about="http://jbbs.shitaraba.net/anime/9756/storage/1360227486.html#180">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XML_Schema#positiveInteger">180</rdfs:label>
