@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xsl:stylesheet [
+	<!ENTITY dir "../thread">
+	<!ENTITY file "index.rdf">
+]>
 <xsl:stylesheet
 	version="1.0"
 	xmlns:dcterms="http://purl.org/dc/terms/"
@@ -20,17 +24,21 @@
 		media-type="application/rdf+xml"
 	/>
 
+	<rdfs:Container rdf:about="#threads">
+		<rdfs:member rdf:resource="&dir;/1067870090/&file;"/>
+		<rdfs:member rdf:resource="&dir;/1081325649/&file;"/>
+		<rdfs:member rdf:resource="&dir;/1122950720/&file;"/>
+		<rdfs:member rdf:resource="&dir;/1184654919/&file;"/>
+		<rdfs:member rdf:resource="&dir;/1211041119/&file;"/>
+		<rdfs:member rdf:resource="&dir;/1247437212/&file;"/>
+		<rdfs:member rdf:resource="&dir;/1359121685/&file;"/>
+		<rdfs:member rdf:resource="&dir;/1360227486/&file;"/>
+	</rdfs:Container>
+
 	<xsl:variable name="xsd">http://www.w3.org/2001/XML_Schema#</xsl:variable>
 
-	<xsl:variable name="t1" select="document('../src/rdf/1067870090.rdf')"/>
-	<xsl:variable name="t2" select="document('../src/rdf/1081325649.rdf')"/>
-	<xsl:variable name="t3" select="document('../src/rdf/1122950720.rdf')"/>
-	<xsl:variable name="t4" select="document('../src/rdf/1184654919.rdf')"/>
-	<xsl:variable name="t5" select="document('../src/rdf/1211041119.rdf')"/>
-	<xsl:variable name="t6" select="document('../src/rdf/1247437212.rdf')"/>
-	<xsl:variable name="t7" select="document('../src/rdf/1359121685.rdf')"/>
-	<xsl:variable name="t8" select="document('../src/rdf/1360227486.rdf')"/>
-	<xsl:variable name="posts" select="($t1 | $t2 | $t3 | $t4 | $t5 | $t6 | $t7 | $t8)/rdf:RDF/*[@rdf:about]"/>
+	<xsl:param name="threads" select="document(document('')/xsl:stylesheet/rdfs:Container[@rdf:about='#threads']/rdfs:member/@rdf:resource)"/>
+	<xsl:param name="posts" select="$threads/rdf:RDF/*[@rdf:about]"/>
 
 	<xsl:template match="/">
 		<xsl:processing-instruction name="xml-stylesheet">href="<xsl:value-of select="$base-url"/>xsl/rdf2html.xsl" type="application/xslt+xml" title="XHTML" alternate="yes"</xsl:processing-instruction>
