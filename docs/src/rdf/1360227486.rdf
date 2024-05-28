@@ -7,7 +7,7 @@
 ]>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-05-01T08:51:52+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-05-28T09:38:27+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="&board;"/>
 	</foaf:Document>
 	<types:MessageBoard rdf:about="&board;">
@@ -642,12 +642,12 @@ HAPPY BIRTHDAYと書かれた大きめの
 			<dcterms:identifier rdf:datatype="&xsd;string">XksB4AwhxU</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-09T00:00:25+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">カ「それはヤダ！」
+		<sioc:content xml:lang="ja">ｶ｢それはヤダ！｣
 言い終わらない内の即答だった。ちょっと言い過ぎたかと反省し
 なだめるような口調で続けた。
-俺「まあ…カナコさんキレイですし、折角のお顔を汚すのはキツイっすよね。
+俺｢まあ…カナコさんキレイですし、折角のお顔を汚すのはキツイっすよね。
 実際、恥ずかしいと思いますけど子供達も待ってますし…
-皆の夢を壊さないように、なりきって頂けませんか？」
+皆の夢を壊さないように、なりきって頂けませんか？｣
 夢ならとっくにブチ壊しちゃうわけなんですけどねｗ撿
 …とは言え、これは全くの嘘ではなかった。多くの人に、この姿と
 カナコさんの表情を見て貰い、そして何より俺自身が
@@ -655,20 +655,20 @@ HAPPY BIRTHDAYと書かれた大きめの
 
 撿言い忘れてたが俺はドＳだ。
 目を潤めかせカナコさんは答えた。
-カ「ぅう…わかったよお…やるから…もぉ…」
+ｶ｢ぅう…わかったよお…やるから…もぉ…｣
 そして彼女は多分ドＭだ。
-俺「すみません…いつもながら迷惑かけます」
-カ「ホントだよ…まあ欠員出たんだし…しゃあないかあ…」
-カナコさんの希真面目な性格が裏目に出て結局やることになった。それも、かなり強引な設定付けである「言葉を話すアンテナ役」
+俺｢すみません…いつもながら迷惑かけます｣
+ｶ｢ホントだよ…まあ欠員出たんだし…しゃあないかあ…｣
+カナコさんの希真面目な性格が裏目に出て結局やることになった。それも、かなり強引な設定付けである｢言葉を話すアンテナ役｣
 まで引き受けてくれたのである。とにかく、その場は時間が圧していたので
-カナコさんには「子供達の前での振る舞い」をレクチャーすることになった。
+カナコさんには｢子供達の前での振る舞い｣をレクチャーすることになった。
 
-撿カ「〇〇(キャラの名称)だ…ぴ…ょん…//…こう…？」
-俺「とりあえず笑顔っすね。仮にも人の顔から声が出てるんですし。あとポーズ。
+撿ｶ｢〇〇(キャラの名称)だ…ぴ…ょん…//…こう…？｣
+俺｢とりあえず笑顔っすね。仮にも人の顔から声が出てるんですし。あとポーズ。
 片脚を出して、つま先を上で。同時に手を開いて重心は出した脚の方へ。
-その時カナコさん自身の頭も脚の方にくいっと…」
-カ「え…？！…ちょ…アタシの頭は関係ないじゃん//」
-俺「そっちの方が感情が伝わり易いですって！」</sioc:content>
+その時カナコさん自身の頭も脚の方にくいっと…｣
+ｶ｢え…？！…ちょ…アタシの頭は関係ないじゃん//｣
+俺｢そっちの方が感情が伝わり易いですって！｣</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -1749,7 +1749,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 家に帰れば崇に着ぐるみを着せてもらうのだが、
 仕事でもっと色々な着ぐるみを着てみたいと思うようになっていた。
 そんなとき、仕事帰りにアルバイト募集の貼り紙が目に入った。
-週２〜３回勤務で、着ぐるみに興味のある方とある、
+週２～３回勤務で、着ぐるみに興味のある方とある、
 そこは地方の物産店。
 さっそく、翌日に電話をすると人手が足りていないので履歴書を
 持って面接に来てくださいとのことだった。
@@ -1840,7 +1840,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-13T02:14:05+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">俺がタマゴに抱きつくようになって、下からガバッとタマゴを上に持ち上げ 
 着ぐるみを外すと、中にいた長谷川さんは汗だくになって、顔も真っ赤になっていた 
-俺が「大丈夫？」って聞くと「すごく暑いし、歩きづらい」と言った 
+俺が｢大丈夫？｣って聞くと｢すごく暑いし、歩きづらい｣と言った 
 とてもきつかったみたいで、お茶をゴクゴク飲んだ後、座り込んで動かなくなった 
 ショーは1日3回で、つまり長谷川さんは1日3回、客引きのために着ぐるみに入る事になる 
 その時は3回目のショーの開始前の客引きだけだったから1回だけで済んだが 
@@ -1921,7 +1921,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 タマゴを取り外す前に、長谷川さんのショートパンツを着ぐるみの中に入れてあげた 
 長谷川さんがショートパンツを履いた後、タマゴを外してあげようと思った 
 そうでないとタマゴを外した瞬間、下着姿の長谷川さんが出てきてしまう 
-俺がタマゴの下から手をいれ「長谷川さんコレ履いて・・・」と俺が言うと 
+俺がタマゴの下から手をいれ｢長谷川さんコレ履いて・・・｣と俺が言うと 
 長谷川さんは「・　・　・　履けないから履かせて」と言ってきた 
 よく考えると長谷川さんの「手」は着ぐるみの耳の部分に入っていて 
 ズボンを履くなんて事は出来ない・・・・ 
@@ -2892,7 +2892,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-02-28T20:43:16+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">新作キター</sioc:content>
+		<sioc:content xml:lang="ja">新作ｷﾀｰ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -2960,7 +2960,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 		<sioc:content xml:lang="ja">最後にお灸を据える子供たちを3人、奈美先生が連れてきた。
 先ほどの悪がきの姿もある。
 子供たちは私の方を見るが怖がっているようで、奈美の後ろに隠れてしまう。
-子供たちに近づきながら、「もう悪いことはしないかぁ〜」と声色を変えていうと
+子供たちに近づきながら、「もう悪いことはしないかぁ～」と声色を変えていうと
 小さな声で「ハイ」と泣きじゃくりながら答えた。
 あんまり怖がらせても可哀想なので引き上げた。
 帰りもかわいいバスで店に送ってもらう。
@@ -3458,7 +3458,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-03-17T00:36:50+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">乙かれ〜
+		<sioc:content xml:lang="ja">乙かれ～
 何処で切れるのか(区切りがつくのか)が分からなかったから、
 変にレス入れると流れを切ってしまうかも知れないし黙ってた</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
@@ -3748,7 +3748,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-03-28T17:11:49+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">イイ！早々に次回作キボン！</sioc:content>
+		<sioc:content xml:lang="ja">イイ！早々に次回作ｷﾎﾞﾝ！</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -3768,7 +3768,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 している、２１歳。
 今日も土曜日なので、いつも通り朝からテーマパークに出勤。
 
-裕恵「おはようございま〜す！」
+裕恵「おはようございま～す！」
 咲「あ！おはよ、ヒロ！」
 咲さんは私の先輩で、いつもはこのテーマパークのメインキャラクター、
 『ラビりん』を担当している。ラビりんはウサギがモチーフの女の子キャラ。
@@ -3874,12 +3874,12 @@ NGが多かったからなのか、ラバーの衣裳の中は
 裕恵「…はい…」
 とにかく動こうと思ったが、四つん這いで、しかも、足は膝を曲げた状態。
 さらに四つん這いのお腹の部分（着ぐるみのお腹）が地面に当たっているので、
-思うようには進めない。手足をバタつかせ、１〜２ｍ動くのがやっとだった。
-咲「かわいい〜！！ヒロかわいいよ！かなりいけてる！」
+思うようには進めない。手足をバタつかせ、１～２ｍ動くのがやっとだった。
+咲「かわいい～！！ヒロかわいいよ！かなりいけてる！」
 少し動いただけだが、かなりきつい。
 しかし、咲さんが絶賛してくれるなら…という気持ちになった。
 １０分程着たところで咲さんが背中のチャックを開けてくれた。
-裕恵「ぷは〜っ！咲さんこれ、かなり暑いですね」
+裕恵「ぷは～っ！咲さんこれ、かなり暑いですね」
 咲「着ぐるみだから当たり前でしょ。っていうかそれが私達の仕事なんだから」
 裕恵「まあ…そうですけど…あ！？あとこれ、あんまり進めないですけど？」
 咲「大丈夫よ。実はこれお腹の部分にタイヤがついてて、勝手に進めるようになってるの」
@@ -3887,7 +3887,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 咲「それでね、ラビりんにリモコンがついてて、常にラビりんについてくるようになってるの。
 　　つまり私と常に行動するってこと。ね、付き添いの人はいらないでしょ」
 裕恵「じゃあ、自分で進まなくてもいいんですね」
-少しホッとした。１〜２ｍ進むのにあれだけ苦労したのだからと思うと、
+少しホッとした。１～２ｍ進むのにあれだけ苦労したのだからと思うと、
 いつも通り園内を歩き回るのはきつい。
 咲「でもちゃんと手足は動かしてよ。かわいくね」
 裕恵「もちろんです」
@@ -3908,7 +3908,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 咲「ヒロ、中に入って。閉めるから」
 裕恵「はい」
 そう言って私は、またブーりんの中に入った。そして咲さんが背中のチャックをしめた。
-咲「はい行くよ〜」
+咲「はい行くよ～」
 咲さん声がうっすらと聞こえた。するとゆっくり自分が動き始めた。
 （これ、動いてるのは分かるけど、今どこにいるのか分からないや）
 視界が悪いので、どこにいるか分からないが、子供の声がうっすら聞こえるので、
@@ -3917,7 +3917,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 周りもよく分からないし、時間も分からない。咲さんがそばにいるのは確かだと思うけど。
 そしてしばらく時間が経った。
 （何分たったんだろ…これやっぱり結構暑いや…まだ帰らないのかな？
-　もう汗だくだよぉ〜…でも自分ではどうにもならないし…
+　もう汗だくだよぉ～…でも自分ではどうにもならないし…
 　あ！？…そうか…きつくなっても自分じゃ帰れないのか！？）
 つまり、咲さんが帰らない限りは帰れないということだ。
 とにかく咲さんに任せるしかない。
@@ -3933,12 +3933,12 @@ NGが多かったからなのか、ラバーの衣裳の中は
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-04-02T20:48:46+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">すると、突然背中のチャックが開いた。
-咲「はい、お疲れ〜」
+咲「はい、お疲れ～」
 咲さんの言葉に答えることも出来ず、とにかくブーりんから出た。
 少し頭が朦朧としていたので、私は無言でぬるっと着ぐるみの背中から出て、
 汗だくのまま地面に横になった。
 それはあたかも、虫が背中から脱皮して、濡れた芋虫でも出てきたかのようだった。
-咲「お！ヒロ、なかなかいってるね〜結構きつかった？」
+咲「お！ヒロ、なかなかいってるね～結構きつかった？」
 私は横になったまま、軽くうなずいた。
 かなりきつかったものの、実は私はこのきつさが嫌いではなかった。
 ちょっとした快感に近いものを感じていた。
@@ -4009,12 +4009,12 @@ NGが多かったからなのか、ラバーの衣裳の中は
 		<sioc:content xml:lang="ja">咲「さて入れるか…」
 そう言って、咲さんは私の体を動かし、ブーりんの中に入れ始めた。
 私はされるがまま着ぐるみの中に入れられた。
-咲「閉めるね〜」
+咲「閉めるね～」
 そして、背中のチャックは閉められた。
 この閉鎖感。ただでさえ全身タイツで顔まで覆われ、足もバンドで固定され、
 さらには分厚い着ぐるみに入れられる…しかもそれが、大好きな咲さんに…
 軽くいきそうなくらいの快感に見舞われる…。
-咲「さてと…園内にいくね〜」
+咲「さてと…園内にいくね～」
 咲さんの声がうっすら聞こえる。
 そして、園内に出たと思われる頃、子供達の声がうっすらと聞こえ始めた。
 裕恵（愛想を振りまかなきゃ…）
@@ -4193,7 +4193,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 そんな感情はよそに、この攻められる状況は追い討ちをかける。
 すると、背中にさっきとは違う、全体に感じる重さが伝わってきた。
 裕恵（…な…なに…今度は…？）
-客「わ〜ラビりん、ホントに仲良しなんだね！抱きついちゃって」
+客「わ～ラビりん、ホントに仲良しなんだね！抱きついちゃって」
 うっすらと聞こえるお客の声。
 裕恵（…ってことは…さ…咲さんが…私に抱きついてるの…！？
 　　　…この…背中の柔らかい感覚は…咲さんの胸…！？
@@ -4248,16 +4248,16 @@ NGが多かったからなのか、ラバーの衣裳の中は
 咲「そんな喜ばなくても…ヒロったら…」
 その時、遠くからチーフの声が聞こえた。
 チーフ「咲ちゃん、まだ着替え中でしょ、今日はお疲れね。俺もうあがるから」
-咲「お疲れさまで〜す！私達も着替え終わったらあがりま〜す！」
+咲「お疲れさまで～す！私達も着替え終わったらあがりま～す！」
 チーフはもう帰ったようだ。
 咲「さてと…今日は【園内】の快感はおしまい…
-　　も〜う、ホントにヒロは好きなんだから…そんなに求めないでよ…」
+　　も～う、ホントにヒロは好きなんだから…そんなに求めないでよ…」
 何も言っていないが、というか言葉すら出せないが、咲さんは勝手に話を進める。
 咲「よいしょっと…」
 咲さんが私の体をまた動かし始めた。この感じは…！？
-咲「はい…ヒロ閉めるね〜」
+咲「はい…ヒロ閉めるね～」
 どうやら、私はまたブーりんの中に入れられたようだ。
-咲「さてと…ヒロ、今日はお疲れ様ね〜。んじゃお先に上がるね」
+咲「さてと…ヒロ、今日はお疲れ様ね～。んじゃお先に上がるね」
 裕恵（え！？ちょ…ちょっと…自分じゃ脱げない…！？）
 咲「それじゃ！お疲れ！……好きなんでしょ……また明日」
 咲さんはそう言い残して、部屋を出て行った。
@@ -5407,7 +5407,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-05-07T13:32:05+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;223
-三女にもバイブ仕込ませられて、ワニに閉じ込められたら良かったのに。。。</sioc:content>
+三女にもﾊﾞｲﾌﾞ仕込ませられて、ワニに閉じ込められたら良かったのに。。。</sioc:content>
 		<dcterms:relation rdf:resource="&post;223"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -5852,7 +5852,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-05-17T22:37:13+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">ハァハァ</sioc:content>
+		<sioc:content xml:lang="ja">ﾊｧﾊｧ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -6277,7 +6277,7 @@ NGが多かったからなのか、ラバーの衣裳の中は
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-05-26T05:02:17+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">玩具の人、続きマダー？チンチン</sioc:content>
+		<sioc:content xml:lang="ja">玩具の人、続きﾏﾀﾞー？ﾁﾝﾁﾝ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -7375,7 +7375,7 @@ www.youtube.com/user/toshikou?feature=watch</sioc:content>
 
 
 
-『大人と一緒　〜劇の裏側の秘め事〜』
+『大人と一緒　～劇の裏側の秘め事～』
 
 
 
@@ -7583,7 +7583,7 @@ www.youtube.com/user/toshikou?feature=watch</sioc:content>
 すると、着ぐるみが急に話しはじめた、コンピュータ合成とは思えないほどのなめらかな発音とかわいい声、うっとりしていたが着ぐるが着用の仕方を教えると言い出した。まずは全裸になれといきなりのことなので動揺していたが、ここまできてできませんとは
 
 いえないので思い切って全裸になった。
-着ぐるみは恥ずかしそうに目を隠すような仕草をとる、自分の息子はもうびんびんになっていたのだ。箱に股間につけるパットがあるのでそれを履くようにいわれた、内部で息子を格納する穴があいているのでそこに息子を収納するように言われた。
+着ぐるみは恥ずかしそうに目を隠すような仕草をとる、自分の息子はもうびんびんになっていたのだ。箱に股間につけるﾊﾟｯﾄがあるのでそれを履くようにいわれた、内部で息子を格納する穴があいているのでそこに息子を収納するように言われた。
 そして、肛門にも刺激センサーがはいるので、小さいプラグを中に押し込んだ、そしてその上からベビーパウダーのようなものを全身に塗ってから肌色のスキンスーツを背中から入るように指示された、外部からはまったく見えないが後頭部にくぼみがありそこを
 
 おすとすーっと背中がわれてそこから内部に体をいれるようだ。
@@ -8265,7 +8265,7 @@ www.youtube.com/user/toshikou?feature=watch</sioc:content>
 
 着ぐるみがかわいいだけじゃない。私が着たい。
 でも、そんなことを知られたくない。
-しかも私が好きで、着たいのは女の子の着ぐるみ、、</sioc:content>
+しかも私が好きで、着たいのは女の子の着ぐるみ、､</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -8494,7 +8494,7 @@ www.youtube.com/user/toshikou?feature=watch</sioc:content>
 拓海は赤い手足の短いウエットスーツを纏った真希を覗き込み、声をかける。
 全く聞き取れなかったがそれに対して真希も声が届くかわからないが声を出し、腕を動かし応える。
 拓海にも真希が目覚めていることしかわからない。
-赤い物体からは「う〜、う〜」という声しか聞こえてこない。
+赤い物体からは「う～、う～」という声しか聞こえてこない。
 しかし、拓海にとっては意識があること、それがわかれば充分だった。</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -8525,7 +8525,7 @@ www.youtube.com/user/toshikou?feature=watch</sioc:content>
 			<foaf:nick rdf:datatype="&xsd;string">おいそのだった</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-08-08T18:15:54+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「な、なにをするんですか？」若芽ちゃんはゲキのことを〜さん付けで呼んでいます。
+		<sioc:content xml:lang="ja">「な、なにをするんですか？」若芽ちゃんはゲキのことを～さん付けで呼んでいます。
 「なにってお仕置きの準備だよ」２人は労使のお金の切れ目が縁の切れ目のような関係です。
 「その鎖を使って私を縛るつもりなら、拒否しますよ！」へんなプレイの強要は許してはいけません。やっぱり良い子です。
 「縛る？」ゲキは真面目な顔で問いかけます。
@@ -8559,7 +8559,7 @@ www.youtube.com/user/toshikou?feature=watch</sioc:content>
 「呆れていられるうちに呆れておいた方がいいぞ」
 「そ、それはどういう意味で？」
 「そのうちわかるさ」ノープランです。ただ鎖を回すのに手こずってるだけのアホです。口から出まかせです。
-「え〜？」
+「え～？」
 「そろそろだな」やっと巻きあがりました。数分間がががああがｇｇｇっがっががあｇって只管回してる姿は省略されました。
 「足がつかない・・・」ちょっと不安になった若芽ちゃんも可愛いですね。こっから虐め放題だと思うとじゅるりと唾液がこぼれるゲキ。
 「こうやって押すと・・・」
@@ -8853,7 +8853,7 @@ www.youtube.com/user/toshikou?feature=watch</sioc:content>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-08-13T15:38:47+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">&gt;&gt;427
-お疲れ様です。描写ギミックがやっぱり抜きん出てるな〜
+お疲れ様です。描写ギミックがやっぱり抜きん出てるな～
 物語の最後があっさりというか、もうちょっと続きが見たいなあとか
 今回の場合だとヒトデの描写をもっと見たかったりしました。</sioc:content>
 		<dcterms:relation rdf:resource="&post;427"/>
@@ -9167,7 +9167,7 @@ www.youtube.com/user/toshikou?feature=watch</sioc:content>
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-08-31T01:42:32+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">イイヨイイヨー!</sioc:content>
+		<sioc:content xml:lang="ja">ｲｲﾖｲｲﾖー!</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -9223,7 +9223,7 @@ www.youtube.com/user/toshikou?feature=watch</sioc:content>
 僕は状況がのみ込めなかったが、しばらく机の下で息を潜めた…。
 美咲「この戦闘員風情が…いやらしい体つきして…」
 攻め立てながら、美咲さんは舞さんのタイツ一枚に包まれた体を触り始めた。
-美咲「あ〜このきれいな脚…戦えるのかしら…」
+美咲「あ～このきれいな脚…戦えるのかしら…」
 舞「…んぁ…あ…ゲ…」
 舞さんのタイツの上から優しく撫でる美咲さん…。
 ものすごく自然で、こなれている指さばきだ。
@@ -9356,7 +9356,7 @@ www.youtube.com/user/toshikou?feature=watch</sioc:content>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-09-02T21:04:10+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">美咲「聞こえてないのかしら？正義はそんな簡単には許さないわよ」
 時々ビクつくが、力ない様子だった。
-美咲「お〜い…聞こえないの？・・・しょうがないわね…」
+美咲「お～い…聞こえないの？・・・しょうがないわね…」
 そう言って美咲さんは、戦闘員の顔にイエローの顔を寄せ、耳打ちした。
 美咲「こんなにタイツ濡らしちゃって…午後のショーはどうするの？？
 　　　この戦闘員はあなたの衣装じゃないでしょ…私がみんなに説明しといて…あ・げ・る！」
@@ -10067,7 +10067,7 @@ ng、『様』を『よう』に変えたらいけましたね。
 &gt;ng、『様』を『よう』に変えたらいけましたね。
 何それwホント訳わからん…何なんだろうねぇ
 
-またイイ！の書いてね。頼んだよー</sioc:content>
+またｲｲ！の書いてね。頼んだよー</sioc:content>
 		<dcterms:relation rdf:resource="&post;500"/>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -10813,7 +10813,7 @@ end</sioc:content>
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-11-20T13:59:05+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">イイ!</sioc:content>
+		<sioc:content xml:lang="ja">ｲｲ!</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11102,7 +11102,7 @@ ADは準備に必死で麻美の漏らした声には気づいていないよう
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-12-01T22:32:36+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">イイヨイイヨー</sioc:content>
+		<sioc:content xml:lang="ja">ｲｲﾖｲｲﾖｰ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11316,7 +11316,7 @@ MCのアナウンサーが麻美には聞かされていなかった説明を始
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-12-04T10:53:47+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">イイヨイイワヨー</sioc:content>
+		<sioc:content xml:lang="ja">ｲｲﾖｲｲﾜﾖｰ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11826,7 +11826,7 @@ ADがそこから風を送るとみるみるうちに、ぽっちゃり人型に
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-12-07T21:39:39+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">イイヨイイヨー（wktk</sioc:content>
+		<sioc:content xml:lang="ja">ｲｲﾖｲｲﾖｰ（wktk</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -11872,7 +11872,7 @@ ADがそこから風を送るとみるみるうちに、ぽっちゃり人型に
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-12-08T10:40:57+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">スゴイスゴイ！イイヨイイヨー！</sioc:content>
+		<sioc:content xml:lang="ja">ｽｺﾞｲｽｺﾞｲ！ｲｲﾖｲｲﾖー！</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13309,7 +13309,7 @@ end…
 			<dcterms:identifier rdf:datatype="&xsd;string">/8JOTjq.0k</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-12-25T01:30:11+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">「はあ〜…しんどかった…」
+		<sioc:content xml:lang="ja">「はあ～…しんどかった…」
 「お疲れ、アスカちゃん」
 
 販売会が終わりやっと機ぐるみから解放される。
@@ -13428,7 +13428,7 @@ end…
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-12-26T00:28:52+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">来たか!(ガタッ</sioc:content>
+		<sioc:content xml:lang="ja">来たか!(ｶﾞﾀｯ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13549,7 +13549,7 @@ end…
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-12-26T21:25:57+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">アカンｗｗｗｗ</sioc:content>
+		<sioc:content xml:lang="ja">ｱｶﾝｗｗｗｗ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -13704,7 +13704,7 @@ end…
 			<dcterms:identifier rdf:datatype="&xsd;string">wRWAA2aNj6</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-12-27T12:47:56+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">エピローグ    〜亜美からみた世界〜
+		<sioc:content xml:lang="ja">エピローグ    ～亜美からみた世界～
 
 その後、この映像がドッキリの番外編として放送された。
 すると、視聴者から反響があり亜美が特別に麻美も出演している情報番組に出ることに。
@@ -13732,7 +13732,7 @@ VTRを短くまとめ、その時の河童のような生物の着ぐるみで�
 			<dcterms:identifier rdf:datatype="&xsd;string">wRWAA2aNj6</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-12-27T14:58:34+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">エピローグ2   〜亜美からみた世界〜
+		<sioc:content xml:lang="ja">エピローグ2   ～亜美からみた世界～
 
 自己紹介をした亜美はドッキリの時のことを振り返る。
 
@@ -13772,7 +13772,7 @@ VTRを短くまとめ、その時の河童のような生物の着ぐるみで�
 			<dcterms:identifier rdf:datatype="&xsd;string">wRWAA2aNj6</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-12-27T16:18:58+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">エピローグ3   〜亜美からみた世界〜
+		<sioc:content xml:lang="ja">エピローグ3   ～亜美からみた世界～
 
 突然、なにかが絡まってきました。
 なにが起こったのかわからないまま引っ張られそうになり、必死に抵抗しました。
@@ -13808,7 +13808,7 @@ VTRを短くまとめ、その時の河童のような生物の着ぐるみで�
 			<dcterms:identifier rdf:datatype="&xsd;string">wRWAA2aNj6</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-12-27T17:00:55+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">エピローグ4   〜亜美からみた世界〜
+		<sioc:content xml:lang="ja">エピローグ4   ～亜美からみた世界～
 
 そんなとき急に体が袋ごと浮き上がったと思うとどこかへ連れていかれるのがわかりました。
 
@@ -13853,7 +13853,7 @@ VTRを短くまとめ、その時の河童のような生物の着ぐるみで�
 			<dcterms:identifier rdf:datatype="&xsd;string">wRWAA2aNj6</dcterms:identifier>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2013-12-27T18:21:37+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">エピローグ5   〜亜美からみた世界〜
+		<sioc:content xml:lang="ja">エピローグ5   ～亜美からみた世界～
 
 暴れているとき、私を人影に隠れて覗き見ている一緒に来たスタッフが目に入りました。
 
@@ -14987,7 +14987,7 @@ end…
 ただし、禁止事項は3つ。
 1.話をすること。
 2.ラブドールを脱がせて中の女性の顔を見ないこと。
-3.サービスの延長はなし。時間厳守（22時〜翌朝6時まで）
+3.サービスの延長はなし。時間厳守（22時～翌朝6時まで）
 
 
 
@@ -15290,7 +15290,7 @@ pixivくらいで誰かこのシチュエーション書いてくれないかな
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2014-01-23T20:56:56+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">ラバーの全身タイツにシリコンのラバータイツ、そこにウルトラの母って
-完全なゴム人形・・ゴクリ
+完全なゴム人形・・ｺﾞｸﾘ
 この状態＋ウルトラの母ってことか・・
 ttp://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=28684788
 ttp://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=29660951</sioc:content>
@@ -15339,7 +15339,7 @@ ttp://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=29660951</sioc:c
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2014-01-24T02:02:03+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">ファッ!?毎日更新!ありがてぇ!</sioc:content>
+		<sioc:content xml:lang="ja">ﾌｧｯ!?毎日更新!ありがてぇ!</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -15838,7 +15838,7 @@ OLをしている歩美は彼氏には秘密があった。
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2014-01-29T17:33:30+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">歩美側視点キタ━━━━(゜∀゜)━━━━!!
+		<sioc:content xml:lang="ja">歩美側視点ｷﾀ━━━━(ﾟ∀ﾟ)━━━━!!
 
 つ④</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
@@ -15850,7 +15850,7 @@ OLをしている歩美は彼氏には秘密があった。
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2014-01-29T19:02:47+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">6:4だと5〜6万ってところかな？
+		<sioc:content xml:lang="ja">6:4だと5～6万ってところかな？
 
 10万でいいからデリバリーしたい！
 きてくれ！</sioc:content>
@@ -16152,7 +16152,7 @@ Mの性なのか、歩美の気分は高揚してくる。</sioc:content>
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2014-02-02T15:40:17+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">イイヨイイヨー</sioc:content>
+		<sioc:content xml:lang="ja">ｲｲﾖｲｲﾖｰ</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17425,7 +17425,7 @@ end…
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2014-02-17T13:50:22+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">オモシロイよ〜</sioc:content>
+		<sioc:content xml:lang="ja">オモシロイよ～</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17573,7 +17573,7 @@ end…
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2014-02-20T09:18:17+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">どこが面白いのかさっぱり分からない
 
-誰でもいいからもっと激しいのやって〜</sioc:content>
+誰でもいいからもっと激しいのやって～</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -17843,7 +17843,7 @@ OL時代は毎週金曜、通ってお金と性的欲求を満たしていたが
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2014-02-23T15:16:45+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">こんなかんじなの？(´・ω・`)
+		<sioc:content xml:lang="ja">こんなかんじなの？(´･ω･`)
 ttp://youtu.be/Ui_55YJS1LI
 つづきが楽しみ♪</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
@@ -18069,7 +18069,7 @@ to  be   continued…
 健吾「よし！オッケー！閉め終わったよ！息出来てる？」
 その質問に明江は答えようとしたが、顔のサイズに完全にピッタリ出来ていたため、
 全く口が動かせず、うなることしか出来なかった。
-明江「うぅ〜」
+明江「うぅ～」
 健吾「大丈夫ってことだね！じゃあベルトつけてもらおうか！」
 明江（何これ…まったくしゃべれないけど…まあ着ぐるみ着たらしゃべらない訳だし…いっか）</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
@@ -18255,8 +18255,8 @@ to  be   continued…
 健吾「オッケー！問題なし！ゴリラちゃん大丈夫？？」
 そう聞かれたものの、明江は返事をする気力もなかったが、
 健吾だけに聞こえるくらいに、きついことを伝えようとした。
-明江「…ぅ…ぅ〜…ぅ…」
-健吾「さすが！慣れてる人は違うねぇ〜じゃあ、少しそのまま休憩してて」
+明江「…ぅ…ぅ～…ぅ…」
+健吾「さすが！慣れてる人は違うねぇ～じゃあ、少しそのまま休憩してて」
 ゴリラから漏れてきた声に健吾はそう言って、その場から離れて行った。
 明江（ち…違う…きつい…脱がしてほしい…）
 明江は脱がしてはもらえず、そのまま次の出番まで待つこととなった。
@@ -18559,7 +18559,7 @@ to  be   continued…
 着ぐるみの中でおしっこをしてしまったという…事実が…。
 明江（どうしよぉ…どうしよぉ…困ったよぉ…こんなことがばれたら…私…）
 軽くパニックに陥っている明江に、遠くから声が聞こえてくる。
-健吾「うまかったなぁ〜！やっぱ炒飯うまいっしょ！」
+健吾「うまかったなぁ～！やっぱ炒飯うまいっしょ！」
 明江（！？健吾さんたちが戻ってきた！！どうしよ…どうしよ…）
 さっきまでは脱がして欲しくてしょうがなかった明江だが、今はうってかわって
 むしろ、脱がして欲しくなくなっていた。
@@ -18777,11 +18777,11 @@ to  be   continued…
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2014-03-03T21:09:59+09:00</sioc:delivered_at>
 		<sioc:content xml:lang="ja">そして次の日の朝を向かえた。
-健吾「お〜出たね〜よしよし、これから栄養は液体だからね〜出し切らないとね♪
+健吾「お～出たね～よしよし、これから栄養は液体だからね～出し切らないとね♪
 さて体、綺麗にしましょっか…軽いの打って」
 そして、また体の自由を奪われる注射を打たれる。
 そのまま何人かにシャワーで体を洗われる明江。
-健吾「綺麗になったところで、いれま〜す」
+健吾「綺麗になったところで、いれま～す」
 明江「う！？…ぅぅ…ぅ…」
 健吾は明江の陰部にローターのようなものを入れ込んだ。
 明江（は…あっ…や…ど…どうしよ…はぅ…）
@@ -18792,7 +18792,7 @@ to  be   continued…
 すると、何かをまた差し込まれた。
 明江（はぅ…こ…これ…肛門のほうじゃ…）
 健吾「これで出すほうもオッケー♪
-じゃあ…今度は本当にゴリラちゃんになってもらいま〜す」
+じゃあ…今度は本当にゴリラちゃんになってもらいま～す」
 言葉の意味が分からなかったが、とにかくゴリラの着ぐるみを着るようだった。
 そして数人掛かりで着ぐるみの中に入れられた。
 背中のチャックを閉める瞬間に健吾が一言、
@@ -18945,7 +18945,7 @@ to  be   continued…
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2014-03-04T16:12:31+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">飼育さん名作楽しかったですありがと(´・ω・`)b
+		<sioc:content xml:lang="ja">飼育さん名作楽しかったですありがと(´･ω･`)b
 引き続き宅配便さん頑張ってくださいね　つ④</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
@@ -19618,7 +19618,7 @@ ttps://www.youtube.com/watch?v=ua0QLJ-yM9s
 スーツが体に張り付いていく。まるでスーツと一つになっていくようだ。
 
 説明書によればまず深呼吸をする。これを２回繰り返すとマスクの中に空気が貯まり、潜水すると水に反応して
-マスクが密閉状態になる。マスクに貯めた空気を吸うことで２〜３分は潜れるということだ。
+マスクが密閉状態になる。マスクに貯めた空気を吸うことで２～３分は潜れるということだ。
 
 さっそく深呼吸をして浴槽に沈む。
 おそるおそる空気を吸う。
@@ -19654,7 +19654,7 @@ ttps://www.youtube.com/watch?v=ua0QLJ-yM9s
 スーツが体に張り付いていく。まるでスーツと一つになっていくようだ。
 
 説明書によればまず深呼吸をする。これを２回繰り返すとマスクの中に空気が貯まり、潜水すると水に反応して
-マスクが密閉状態になる。マスクに貯めた空気を吸うことで２〜３分は潜れるということだ。
+マスクが密閉状態になる。マスクに貯めた空気を吸うことで２～３分は潜れるということだ。
 
 さっそく深呼吸をして浴槽に沈む。
 おそるおそる空気を吸う。
@@ -19955,7 +19955,7 @@ CM ポスター撮影
 			<foaf:nick xml:lang="ja">名無しさん@着ぐるみすと</foaf:nick>
 		</dcterms:creator>
 		<sioc:delivered_at rdf:datatype="&dcterms;W3CDTF">2014-04-12T16:26:05+09:00</sioc:delivered_at>
-		<sioc:content xml:lang="ja">(｀・ω・´)つ④</sioc:content>
+		<sioc:content xml:lang="ja">(｀･ω･´)つ④</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>
@@ -20170,7 +20170,7 @@ Tシャツ越しではあるが、ブラの跡もしっかりと出ていた。
 など妄想が広がります。
 
 色々書いてすみません。
-〜CHM さん 引き続きよろしくお願いします。</sioc:content>
+～CHM さん 引き続きよろしくお願いします。</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>
 	</types:BoardPost>

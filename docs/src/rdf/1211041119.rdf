@@ -7,7 +7,7 @@
 ]>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:types="http://rdfs.org/sioc/types#">
 	<foaf:Document rdf:about="">
-		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-05-01T08:51:50+09:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="&dcterms;W3CDTF">2024-05-28T09:38:25+09:00</dcterms:modified>
 		<foaf:primaryTopic rdf:nodeID="&board;"/>
 	</foaf:Document>
 	<types:MessageBoard rdf:about="&board;">
@@ -9994,7 +9994,7 @@ http://jbbs.livedoor.jp/bbs/read.cgi/anime/846/1223384154/994
 最近、だんだん暖かくなってきたね(*^_^*)
 私の店では脱いだコートを忘れちゃう人が増えています。
 今日も私がお相手していたお客様がコートを忘れて帰ってしまわれたの。幸いお客様は途中で気付いたみたいでお店に戻ってきたから良かったけど・・・。
-「お客様の忘れ物に気付けないで本当のサービスが出来ますか！？」って店長に怒られちゃった・・・(T_T)。皆さんも忘れ物には気をつけてねâ¤
+「お客様の忘れ物に気付けないで本当のサービスが出来ますか！？」って店長に怒られちゃった・・・(T_T)。皆さんも忘れ物には気をつけてね❤
 コメント（０）トラックバック（０）</sioc:content>
 		<schema:creativeWorkStatus xml:lang="en">Published</schema:creativeWorkStatus>
 		<sioc:has_container rdf:resource="&board;"/>

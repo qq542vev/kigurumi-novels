@@ -205,7 +205,7 @@
 				<sioc:content xml:lang="ja">はじめまして81から書き始めた者です。
 
 誤字、脱字ありすぎですね～あと91さんの言う通り82は別のヒトのアドリブです。
-せっかくなので、なんとかç¹«げてはみました。
+せっかくなので、なんとか繫げてはみました。
 
 一応一区切りという事で、次の作家さんどうぞ～
 私は・・・ただこのスレの活性化のために書いただけですので。では</sioc:content>
@@ -217,7 +217,7 @@
 		<sioc:last_activity_date rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007-08-26T00:47:24+09:00</sioc:last_activity_date>
 		<dcterms:extent rdf:parseType="Resource">
 			<rdfs:label xml:lang="ja">非空白文字数</rdfs:label>
-			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">2015</rdf:value>
+			<rdf:value rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">2013</rdf:value>
 		</dcterms:extent>
 		<sioc:num_items rdf:datatype="http://www.w3.org/2001/XML_Schema#nonNegativeInteger">10</sioc:num_items>
 	</sioc:Container>

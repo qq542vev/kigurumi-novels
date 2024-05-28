@@ -103,7 +103,7 @@
 					<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XML_Schema#string">/8JOTjq.0k</dcterms:identifier>
 				</dcterms:creator>
 				<sioc:delivered_at rdf:datatype="http://purl.org/dc/terms/W3CDTF">2013-12-25T01:30:11+09:00</sioc:delivered_at>
-				<sioc:content xml:lang="ja">「はあ〜…しんどかった…」
+				<sioc:content xml:lang="ja">「はあ～…しんどかった…」
 「お疲れ、アスカちゃん」
 
 販売会が終わりやっと機ぐるみから解放される。
