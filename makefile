@@ -3,6 +3,7 @@
 # Macro
 # =====
 
+VERSION = 1.0.0
 THREAD_FILE = threads.tsv
 THREAD_ID = cut -d "	" -f 1 -- ${THREAD_FILE}
 THREAD_DIR = docs/thread
@@ -14,28 +15,20 @@ BASEURL = https://qq542vev.github.io/kigurumi-novels/
 
 #.PRECIOUS: docs/src/csv/%.rdf docs/src/csv/%.csv docs/src/html/%.html
 
-.PHONY: all program thread novel help
+.PHONY: all program thread novel index clean help version
 
-all: program thread novel docs/index.html
+all: program thread novel index
+
+# Index
+# =====
+
+index: docs/sitemap.xml docs/index.html
 
 docs/index.html: docs/sitemap.xml ${XSL_DIR}/sitemap2index.xsl ${CSS_DIR}/normalize.css
 	xmlstarlet tr ${XSL_DIR}/sitemap2index.xsl $< >$@
 
 docs/sitemap.xml: $(shell find docs '!' '(' -path 'docs/sitemap.xml' -o -path 'docs/index.html' ')' -a -type f)
 	gensitemap -b ${BASEURL} -i index.html docs | xmlstarlet fo -t >$@
-
-# Message
-# =======
-
-help:
-	@echo ''
-	@echo ''
-	@echo ''
-	@echo ''
-	@echo ''
-
-version:
-	@echo ''
 
 # Novel
 # =====
@@ -86,5 +79,25 @@ program:
 ${CSS_DIR}/normalize.css: node_modules/normalize.css/normalize.css
 	cp -f -- $< $@
 
-node_modules/normalize.css/normalize.css
-	npm install normalize.css 
+# Clean
+# =====
+
+clean:
+	rm -rf -- 'docs/index.html' 'docs/sitemap.xml' '${CSS_DIR}/normalize.css'
+	${THREAD_ID} | xargs -I '{ARG}' rm -rf -- '${THREAD_DIR}/{ARG}'
+	find ${NOVEL_DIR} '(' -name 'index.html' -o -name 'index.txt' ')' -type f -exec rm -f '{}' '+'
+
+# Message
+# =======
+
+help:
+	@echo 'all     全てのファイルを作成する。'
+	@echo 'novel   小説を作成する。'
+	@echo 'thread  スレッドを作成する。'
+	@echo 'program プログラムを作成する。'
+	@echo 'clean   作成したファイルを削除する。'
+	@echo 'help    このメッセージを表示する。'
+	@echo 'version バージョン情報を表示する。'
+
+version:
+	@echo ${VERSION}
