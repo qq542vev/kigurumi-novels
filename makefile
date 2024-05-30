@@ -3,7 +3,7 @@
 # Macro
 # =====
 
-VERSION = 1.0.0
+VERSION = 1.0.1
 THREAD_FILE = threads.tsv
 THREAD_ID = cut -d "	" -f 1 -- ${THREAD_FILE}
 THREAD_DIR = docs/thread
@@ -12,8 +12,6 @@ XSL_DIR = docs/xsl
 CSS_DIR = docs/css
 TMP = TMPFILE
 BASEURL = https://qq542vev.github.io/kigurumi-novels/
-
-#.PRECIOUS: docs/src/csv/%.rdf docs/src/csv/%.csv docs/src/html/%.html
 
 .PHONY: all program thread novel index clean help version
 
@@ -92,6 +90,7 @@ clean:
 
 help:
 	@echo 'all     全てのファイルを作成する。'
+	@echo 'index   インデックスファイルを作成する。'
 	@echo 'novel   小説を作成する。'
 	@echo 'thread  スレッドを作成する。'
 	@echo 'program プログラムを作成する。'
