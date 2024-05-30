@@ -28,7 +28,7 @@
 		<section id="novels">
 			<h1>着ぐるみ小説スレの小説一覧</h1>
 
-			<p><xsl:value-of select="format-number(count(//sitemap:loc[contains(., '/index.rdf')]), '#,###')"/>個の小説があります。タイトル末尾に(仮)と付いているのは仮題です。</p>
+			<p><xsl:value-of select="format-number(count(//sitemap:loc[contains(., $novel-dir) and contains(., '/index.rdf')]), '#,###')"/>個の小説があります。タイトル末尾に(仮)と付いているのは仮題です。</p>
 
 			<table>
 				<caption>着ぐるみ小説スレの小説一覧</caption>
@@ -41,6 +41,7 @@
 				</colgroup>
 				<colgroup>
 					<col class="first-date"/>
+					<col class="author"/>
 				</colgroup>
 				<thead>
 					<tr>
@@ -49,10 +50,11 @@
 						<th scope="col">文字数</th>
 						<th scope="col">投稿数</th>
 						<th scope="col">投稿日</th>
+						<th scope="col">投稿者(トリップ)</th>
 					</tr>
 				</thead>
 				<tbody>
-					<xsl:apply-templates select="//sitemap:loc[contains(., '/index.rdf')]" mode="novel">
+					<xsl:apply-templates select="//sitemap:loc[contains(., $novel-dir) and contains(., '/index.rdf')]" mode="novel">
 						<xsl:sort order="descending" lang="en"/>
 					</xsl:apply-templates>
 				</tbody>
@@ -67,7 +69,7 @@
 			<p>2024年05月現在、以下のスレッド内に掲載された小説をまとめております。</p>
 
 			<ul>
-				<xsl:apply-templates select="//sitemap:loc[contains(., '/src/rdf/')]" mode="board">
+				<xsl:apply-templates select="//sitemap:loc[contains(., $thread-dir) and contains(., 'index.rdf')]" mode="board">
 						<xsl:sort order="descending" lang="en"/>
 				</xsl:apply-templates>
 			</ul>
@@ -127,7 +129,20 @@
 			<td>
 				<xsl:apply-templates select="dcterms:created" mode="novel"/>
 			</td>
+			<td>
+				<ul>
+					<xsl:apply-templates select="dcterms:hasPart/types:BoardPost/dcterms:creator/dcterms:identifier" mode="novel"/>
+				</ul>
+			</td>
 		</tr>
+	</xsl:template>
+
+	<xsl:template match="dcterms:creator/dcterms:identifier" mode="novel">
+		<xsl:if test="not(preceding::dcterms:identifier[. = current()])">
+			<li>
+				<xsl:value-of select="."/>
+			</li>
+		</xsl:if>
 	</xsl:template>
 
 	<xsl:template match="dcterms:title">

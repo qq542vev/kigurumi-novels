@@ -6,4 +6,6 @@
 	<xsl:param name="site-name">着ぐるみ小説スレのまとめ</xsl:param>
 
 	<xsl:param name="base-url">/kigurumi-novels/</xsl:param>
+	<xsl:param name="novel-dir" select="concat($base-url, 'novel/')"/>
+	<xsl:param name="thread-dir" select="concat($base-url, 'thread/')"/>
 </xsl:stylesheet>
