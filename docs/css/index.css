@@ -17,3 +17,8 @@ h1 {
 #novels caption {
 	display: none;
 }
+
+#novels td ul {
+	margin: 0;
+	padding: 0 0 0 16px;
+}
