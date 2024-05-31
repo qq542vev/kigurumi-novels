@@ -28,7 +28,7 @@
 		<section id="novels">
 			<h1>着ぐるみ小説スレの小説一覧</h1>
 
-			<p><xsl:value-of select="format-number(count(//sitemap:loc[contains(., $novel-dir) and contains(., '/index.rdf')]), '#,###')"/>個の小説があります。タイトル末尾に(仮)と付いているのは仮題です。</p>
+			<p><xsl:value-of select="format-number(count(//sitemap:loc[contains(., $novel-dir) and contains(., '/index.rdf')]), '#,###')"/>本の小説があります。タイトル末尾に(仮)と付いているのは仮題です。</p>
 
 			<table>
 				<caption>着ぐるみ小説スレの小説一覧</caption>
@@ -36,12 +36,15 @@
 					<col class="title"/>
 				</colgroup>
 				<colgroup>
+					<col class="status"/>
+				</colgroup>
+				<colgroup>
 					<col class="character-count"/>
 					<col class="num-items"/>
 				</colgroup>
 				<colgroup>
 					<col class="first-date"/>
-					<col class="author"/>
+					<col class="trip"/>
 				</colgroup>
 				<thead>
 					<tr>
@@ -108,10 +111,10 @@
 				<a href="{$path}">
 					<xsl:choose>
 						<xsl:when test="dcterms:title">
-							<xsl:apply-templates select="dcterms:title"/>
+							<xsl:apply-templates select="dcterms:title" mode="novel"/>
 						</xsl:when>
 						<xsl:when test="dcterms:alternative">
-							<xsl:apply-templates select="dcterms:alternative"/>
+							<xsl:apply-templates select="dcterms:alternative" mode="novel"/>
 						</xsl:when>
 						<xsl:otherwise>無題</xsl:otherwise>
 					</xsl:choose>
@@ -130,26 +133,20 @@
 				<xsl:apply-templates select="dcterms:created" mode="novel"/>
 			</td>
 			<td>
-				<ul>
-					<xsl:apply-templates select="dcterms:hasPart/types:BoardPost/dcterms:creator/dcterms:identifier" mode="novel"/>
-				</ul>
+				<xsl:if test="dcterms:hasPart/types:BoardPost/dcterms:creator/dcterms:identifier">
+					<ul>
+						<xsl:apply-templates select="dcterms:hasPart/types:BoardPost/dcterms:creator/dcterms:identifier" mode="novel"/>
+					</ul>
+				</xsl:if>
 			</td>
 		</tr>
 	</xsl:template>
 
-	<xsl:template match="dcterms:creator/dcterms:identifier" mode="novel">
-		<xsl:if test="not(preceding::dcterms:identifier[. = current()])">
-			<li>
-				<xsl:value-of select="."/>
-			</li>
-		</xsl:if>
-	</xsl:template>
-
-	<xsl:template match="dcterms:title">
+	<xsl:template match="dcterms:title" mode="novel">
 		<xsl:value-of select="."/>
 	</xsl:template>
 
-	<xsl:template match="dcterms:alternative">
+	<xsl:template match="dcterms:alternative" mode="novel">
 		<xsl:value-of select="concat(., '(仮)')"/>
 	</xsl:template>
 
@@ -176,6 +173,14 @@
 		<time datetime="{.}">
 			<xsl:value-of select="concat($year, '/', $month, '/', $day)"/>
 		</time>
+	</xsl:template>
+
+	<xsl:template match="dcterms:creator/dcterms:identifier" mode="novel">
+		<xsl:if test="not(preceding::dcterms:identifier[. = current()])">
+			<li>
+				<xsl:value-of select="."/>
+			</li>
+		</xsl:if>
 	</xsl:template>
 
 	<xsl:template match="sitemap:loc" mode="board">
