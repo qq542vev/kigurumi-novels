@@ -22,7 +22,7 @@ all: program thread novel index
 
 index: docs/sitemap.xml docs/index.html
 
-docs/index.html: docs/sitemap.xml ${XSL_DIR}/sitemap2index.xsl ${CSS_DIR}/normalize.css
+docs/index.html: docs/sitemap.xml ${XSL_DIR}/sitemap2index.xsl
 	xmlstarlet tr ${XSL_DIR}/sitemap2index.xsl $< >$@
 
 docs/sitemap.xml: $(shell find docs '!' '(' -path 'docs/sitemap.xml' -o -path 'docs/index.html' ')' -a -type f)
@@ -33,7 +33,7 @@ docs/sitemap.xml: $(shell find docs '!' '(' -path 'docs/sitemap.xml' -o -path 'd
 
 novel: $(shell find ${NOVEL_DIR} -name 'index.rdf' -exec dirname '{}' ';' | xargs -I '{ARG}' printf '%s\n' '{ARG}' '{ARG}/index.html' '{ARG}/index.txt')
 
-${NOVEL_DIR}/%/index.html: ${NOVEL_DIR}/%/index.rdf ${XSL_DIR}/rdf2html.xsl ${CSS_DIR}/normalize.css
+${NOVEL_DIR}/%/index.html: ${NOVEL_DIR}/%/index.rdf ${XSL_DIR}/rdf2html.xsl
 	xmlstarlet tr ${XSL_DIR}/rdf2html.xsl $< >$@
 
 ${NOVEL_DIR}/%/index.txt: ${NOVEL_DIR}/%/index.rdf ${XSL_DIR}/rdf2text.xsl
@@ -42,8 +42,6 @@ ${NOVEL_DIR}/%/index.txt: ${NOVEL_DIR}/%/index.rdf ${XSL_DIR}/rdf2text.xsl
 ${NOVEL_DIR}/%: ${NOVEL_DIR}/%/index.rdf ${XSL_DIR}/novelrdf.xsl
 	xmlstarlet tr ${XSL_DIR}/novelrdf.xsl $< | xmlstarlet fo -t - >${TMP}
 	mv -f -- ${TMP} $<
-
-${XSL_DIR}/novelrdf.xsl: $(shell ${THREAD_ID} | xargs printf '${THREAD_DIR}/%s/index.rdf\n')
 
 # Thread
 # ======
@@ -70,6 +68,17 @@ program:
 
 #bin/%.awk: src/%.awk
 #	cuktash $< >$@
+
+# XSLT
+# ====
+
+${XSL_DIR}/sitemap2index.xsl: ${XSL_DIR}/template-html.xsl
+
+${XSL_DIR}/rdf2html.xsl: ${XSL_DIR}/template-html.xsl
+
+${XSL_DIR}/novelrdf.xsl: $(shell ${THREAD_ID} | xargs printf '${THREAD_DIR}/%s/index.rdf\n')
+
+${XSL_DIR}/template-html.xsl: ${XSL_DIR}/param.xsl
 
 # CSS
 # ===
