@@ -133,11 +133,16 @@
 				<xsl:apply-templates select="dcterms:created" mode="novel"/>
 			</td>
 			<td>
-				<xsl:if test="dcterms:hasPart/types:BoardPost/dcterms:creator/dcterms:identifier">
-					<ul>
-						<xsl:apply-templates select="dcterms:hasPart/types:BoardPost/dcterms:creator/dcterms:identifier" mode="novel"/>
-					</ul>
-				</xsl:if>
+				<xsl:choose>
+					<xsl:when test="dcterms:hasPart/types:BoardPost/dcterms:creator/dcterms:identifier">
+						<ul>
+							<xsl:apply-templates select="dcterms:hasPart/types:BoardPost/dcterms:creator/dcterms:identifier" mode="novel"/>
+						</ul>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:comment/>
+					</xsl:otherwise>
+				</xsl:choose>
 			</td>
 		</tr>
 	</xsl:template>
