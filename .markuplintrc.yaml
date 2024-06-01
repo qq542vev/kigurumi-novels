@@ -1,3 +1,5 @@
+#!/usr/bin/markuplint --config
+
 extends:
   - node_modules/markuplint-config-rdfa/.markuplintrc
   - markuplint:recommended-static-html
