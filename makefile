@@ -61,13 +61,11 @@ ${THREAD_DIR}/%/index.html:
 # Program
 # =======
 
-program:
+program: $(shell find src -type f | sed -e 's/^src/bin/')
 
-#bin/%.sh: src/%.sh src/%.awk
-#	cuktash $< >$@
-
-#bin/%.awk: src/%.awk
-#	cuktash $< >$@
+bin/%: src/%
+	mkdir -p -- ${@D}
+	cuktash $< >$@
 
 # XSLT
 # ====
