@@ -49,7 +49,7 @@ ${NOVEL_DIR}/%: ${NOVEL_DIR}/%/index.rdf ${XSL_DIR}/novelrdf.xsl
 thread: $(shell ${THREAD_ID} | xargs -I '{ARG}' printf '${THREAD_DIR}/%s/index.%s\n' '{ARG}' 'html' '{ARG}' 'csv' '{ARG}' 'rdf')
 
 ${THREAD_DIR}/%/index.rdf: ${THREAD_DIR}/%/index.csv bin/csv2sioc.sh
-	awk -F '\t' -v id=$* -v dep=$< -- '$$1 == id { system(sprintf("bin/csv2sioc.sh \"%s\" \"%s\" \"%s\" \"%s\"", dep, $$4, $$2, $$3)); }' ${THREAD_FILE} >$@
+	awk -F '\t' -v id=$* -v dep=$< -- '$$1 == id { system(sprintf("bin/csv2sioc.sh \"%s\" \"%s\" \"%s\" \"%s\"", dep, $$2, $$3, $$4)); }' ${THREAD_FILE} >$@
 
 ${THREAD_DIR}/%/index.csv: ${THREAD_DIR}/%/index.html bin/thread2csv.sh
 	bin/thread2csv.sh $< >$@

@@ -13,7 +13,7 @@ BEGIN {
 	for(count = 1; (count, 1) in array; count++) {}
 	count--
 
-	board = elem("dcterms:title", "", ARGV[2])
+	board = elem("dcterms:title", "", title)
 	board = board elem("sioc:num_items", attr("rdf:datatype", "&xsd;nonNegativeInteger", 0), count)
 
 	if(1 <= count) {
@@ -21,7 +21,7 @@ BEGIN {
 		board = board elem("sioc:last_item_date", attr("rdf:datatype", "&dcterms;W3CDTF", 0), array[count, 4])
 	}
 
-	printf("%s", elem("types:MessageBoard", attr("rdf:about", "&board;", 0), board, 0))
+	printf("%s", elem("types:MessageBoard", attr("rdf:about", url, 0), board, 0))
 
 	for(i = 1; (i, 1) in array; i++) {
 		number = array[i, 1]
@@ -57,7 +57,7 @@ BEGIN {
 
 				if(!index(refs, "#" ref_number ",") && index(content, "-") != 1) {
 					refs = refs "#" ref_number ","
-					post = post elem("dcterms:relation", attr("rdf:resource", "&post;" ref_number, 0))
+					post = post elem("dcterms:relation", attr("rdf:resource", purl ref_number, 0))
 				}
 			}
 
@@ -66,8 +66,8 @@ BEGIN {
 			post = post elem("schema:creativeWorkStatus", attr("xml:lang", "en"), "Deleted")
 		}
 
-		post = post elem("sioc:has_container", attr("rdf:resource", "&board;", 0))
+		post = post elem("sioc:has_container", attr("rdf:resource", url, 0))
 
-		printf("%s", elem("types:BoardPost", attr("rdf:about", "&post;" number, 0), post, 0))
+		printf("%s", elem("types:BoardPost", attr("rdf:about", purl number, 0), post, 0))
 	}
 }
