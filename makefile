@@ -3,7 +3,7 @@
 # Macro
 # =====
 
-VERSION = 1.0.1
+VERSION = 1.0.2
 THREAD_FILE = threads.tsv
 THREAD_ID = cut -d "	" -f 1 -- ${THREAD_FILE}
 THREAD_DIR = docs/thread
@@ -88,7 +88,7 @@ ${CSS_DIR}/normalize.css: node_modules/normalize.css/normalize.css
 # =====
 
 clean:
-	rm -rf -- 'docs/index.html' 'docs/sitemap.xml' '${CSS_DIR}/normalize.css'
+	rm -rf -- 'bin' 'docs/index.html' 'docs/sitemap.xml' '${CSS_DIR}/normalize.css'
 	${THREAD_ID} | xargs -I '{ARG}' rm -rf -- '${THREAD_DIR}/{ARG}'
 	find ${NOVEL_DIR} '(' -name 'index.html' -o -name 'index.txt' ')' -type f -exec rm -f '{}' '+'
 
