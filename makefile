@@ -1,9 +1,29 @@
 #!/usr/bin/gmake -f
 
+### Script: makefile
+##
+## ファイルを作成する。
+##
+## Metadata:
+##
+##   id - f48a75b5-1a6b-4a45-bd21-e9c503fc3a73
+##   author - <qq542vev at https://purl.org/meta/me/>
+##   version - 1.0.4
+##   date - 2024-06-06
+##   since - 2024-05-26
+##   copyright - Copyright (C) 2024-2024 qq542vev. Some rights reserved.
+##   license - <CC-BY at https://creativecommons.org/licenses/by/4.0/>
+##   package - kigurumi-novels
+##
+## See Also:
+##
+##   * <Project homepage at https://github.com/qq542vev/kigurumi-novels>
+##   * <Bag report at https://github.com/qq542vev/kigurumi-novels/issues>
+
 # Macro
 # =====
 
-VERSION = 1.0.3
+VERSION = 1.0.4
 THREAD_FILE = threads.tsv
 THREAD_ID = cut -d "	" -f 1 -- ${THREAD_FILE}
 BIN_DIR = bin
@@ -102,15 +122,21 @@ clean:
 # =======
 
 help:
-	@echo 'all     全てのファイルを作成する。'
-	@echo 'index   インデックスファイルを作成する。'
-	@echo 'novel   小説を作成する。'
-	@echo 'thread  スレッドを作成する。'
-	@echo 'program プログラムを作成する。'
-	@echo 'css     CSSファイルを作成する。'
-	@echo 'clean   作成したファイルを削除する。'
-	@echo 'help    このメッセージを表示する。'
-	@echo 'version バージョン情報を表示する。'
+	@echo 'ファイルを作成する。'
+	@echo
+	@echo 'USAGE:'
+	@echo '  make [OPTION...] [TARGET...]'
+	@echo
+	@echo 'TARGET:'
+	@echo '  all     全てのファイルを作成する。'
+	@echo '  index   インデックスファイルを作成する。'
+	@echo '  novel   小説を作成する。'
+	@echo '  thread  スレッドを作成する。'
+	@echo '  program プログラムを作成する。'
+	@echo '  css     CSSファイルを作成する。'
+	@echo '  clean   作成したファイルを削除する。'
+	@echo '  help    このメッセージを表示する。'
+	@echo '  version バージョン情報を表示する。'
 
 version:
-	@echo ${VERSION}
+	@echo '${VERSION}'
